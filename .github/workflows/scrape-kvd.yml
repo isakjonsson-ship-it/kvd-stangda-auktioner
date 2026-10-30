@@ -2,8 +2,8 @@ name: Scrape KVD closed auctions
 
 on:
   schedule:
-    # Kör varje natt kl 03:00 UTC
-    - cron: "0 3 * * *"
+    # Kör varje timme
+    - cron: "0 * * * *"
   workflow_dispatch:   # Manuell körning från Actions-fliken
 
 permissions:
@@ -26,7 +26,7 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Run scraper
-        # Ta bort --max när du vill skrapa alla
+        # Max 50 per körning så vi betar igenom allt sakta
         run: python scraper.py --max 50
 
       - name: Commit and push data
