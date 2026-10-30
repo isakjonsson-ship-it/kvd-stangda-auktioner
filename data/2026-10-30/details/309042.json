@@ -44,235 +44,62 @@
   "eurBuyNowAmount": null,
   "winningBid": null,
   "processObject": {
-    "objectType": "LIGHT_TRUCK",
-    "buyNowAmount": null,
-    "reducedPrice": false,
-    "testDriveAllowed": true,
-    "isFixedPrice": false,
-    "baseObject": {
-      "gearbox": "Manual",
-      "baseObjectType": "LIGHT_TRUCK",
-      "odometerReading": null,
-      "authorityRegisterInformation": {
-        "vehicleOrigin": {
-          "originCode": "INFÖRT",
-          "originCodeReason": null,
-          "importerIdentifier": null,
-          "preRegistrationDate": null,
-          "importRegistrationDate": null,
-          "importedForPersonalUse": false,
-          "importedPreviouslyRegistered": false
-        },
-        "generalTechSpecification": {
-          "eeg": "e1*2007/46*1005*07",
-          "fuels": [
-            {
-              "fuelCode": "Diesel",
-              "powerUnit": "ECE",
-              "enginePower": 77,
-              "enginePowerHp": 105,
-              "fuelTankVolume": ""
-            }
-          ],
-          "width": 2032,
-          "height": 2100,
-          "length": 4972,
-          "gearbox": "Manual",
-          "variant": "YLF61ABX",
-          "version": "B3WGAZCASASB",
-          "taxWeight": 2740,
-          "curbWeight": 2175,
-          "maxPayload": 565,
-          "totalWeight": 2740,
-          "chassisCode1": null,
-          "chassisCode2": null,
-          "cubicCapacity": "1995",
-          "numPassengers": "1",
-          "numberOfSeats": 2,
-          "fourWheelDrive": false,
-          "maxPullWeightB": 760,
-          "clutchMechanism1": null,
-          "clutchMechanism2": null,
-          "maxTrailerWeight": 2350,
-          "chassisCodeSupplement": null,
-          "maxPullWieghtNoBreaks": null,
-          "maxPullWeightBExtended": null,
-          "maxSingle Axle TrailerWeight": null
-        },
-        "environmentalClassification": {
-          "fuels": [
-            {
-              "co2": 163,
-              "nox": "",
-              "nox4": null,
-              "fuelCode": "Diesel",
-              "hcThcNox": "",
-              "consumption": 6.3,
-              "noiseLevel": 72,
-              "emissionUnit": "g/km",
-              "innovationCo2": null,
-              "particleValue": "",
-              "particleMass4": null,
-              "consumptionUnit": "6,3",
-              "rangeNedcDrive": null,
-              "rangeWltpDrive": null,
-              "consumptionUrban": 7.3,
-              "rangeCityWltpDrive": null,
-              "consumptionExtraUrban": 5.8,
-              "electricEnergyConsumption": null,
-              "energyConsumptionWltpDrive": null
-            }
-          ],
-          "ecoFriendly": false,
-          "emissionClass": "EURO 6",
-          "innovationCode": null,
-          "environmentalClass": null,
-          "environmentalClassEuro": "6"
-        },
-        "vehicleStatus": {
-          "tax": 3814
-        },
-        "vehicleInspectionInformation": {
-          "inspections": [
-            {
-              "inspectionType": "5",
-              "odometerReading": 72066,
-              "dateOfInspection": "2025-04-11"
-            },
-            {
-              "inspectionType": "5",
-              "odometerReading": 69365,
-              "dateOfInspection": "2024-03-15"
-            }
-          ],
-          "inspectionGroup": "36/24/14",
-          "odometerReading": 72370,
-          "inspectionPeriod": "2026-10-01 - 2027-12-31",
-          "dateOfInspection": "2026-10-01",
-          "inspectionValidToDate": "2027-12-31",
-          "inspectionExemptionGroup": null
-        },
-        "registrationInformation": {
-          "registrationPlate": "BJK793",
-          "deregistrationDate": null,
-          "deregistrationText": null,
-          "deregistrationReason": null
-        },
-        "vehicleInformation": {
-          "vin": "WF0YXXTTGYGK01809",
-          "body": "BB",
-          "type": "LIGHT_TRUCK",
-          "year": "2016",
-          "model": "TRANSIT CUSTOM",
-          "rawType": "LB",
-          "modelYear": null,
-          "categoryEu": "e1*2007/46*1005*07",
-          "groupNumber": "FO 902031",
-          "modelNumber": "FO 000000",
-          "chassisNumber": "WF0YXXTTGYGK01809",
-          "exteriorColor": "White",
-          "fabricAndMake": "FORD",
-          "baseObjectType": "LIGHT_TRUCK",
-          "manufactureCode": null,
-          "manufactureMonth": "201606",
-          "registrationDate": "2016-06-16",
-          "initialTrafficDate": "2016-10-05",
-          "registrationPlateReused": null
-        },
-        "additionalTechSpecification": {
-          "raceCar": null,
-          "wheelbase1": 2933,
-          "wheelbase2": null,
-          "wheelbase3": null,
-          "wheelbase4": null,
-          "equipment1": null,
-          "equipment2": null,
-          "equipment3": null,
-          "maximumSpeed": 150,
-          "numAxleShafts": 2,
-          "passengerAirBag": true,
-          "tyreDimensionRear": "215/65R15C 104/102T",
-          "tyreDimensionFront": "215/65R15C 104/102T",
-          "dualSteeringControl": null
-        }
-      },
-      "fuels": [
-        {
-          "fuelCode": "Diesel",
-          "powerUnit": "ECE",
-          "enginePower": 77,
-          "enginePowerHp": 105,
-          "fuelTankVolume": ""
-        }
-      ],
-      "earliestAvailableAt": null,
-      "modelName": "Transit Custom 270 (105hk)",
-      "salesFlow": "CORPORATE_CARS",
-      "registrationPlate": "BJK793",
-      "state": "MANUAL_VALUATION_PENDING",
-      "odometerUnit": "km",
-      "fabricAndMake": "FORD",
-      "registrationCountry": "se",
-      "id": "520671",
-      "familyName": "Transit",
-      "modelId": null,
-      "year": "2016",
-      "createdAt": "2026-10-06T07:21:59.272427+00:00",
-      "brand": "Ford",
-      "body": "Van",
-      "exteriorColor": "White",
-      "technicalSpecification": {
-        "modelId": null,
-        "vehicle": {
-          "brand": "Ford",
-          "body": "Van",
-          "modelName": "Transit Custom 270 (105hk)",
-          "familyName": "Transit"
-        },
-        "year": "2016"
-      }
+    "orderableAdditionalServices": {
+      "tradein": false,
+      "transport": true,
+      "insurance": true,
+      "finance": true,
+      "warranty": true,
+      "extraTires": false
     },
-    "vehicleType": "LIGHT_TRANSPORT",
-    "initialBuyNowAmount": null,
-    "baseObjectId": "520671",
-    "conditionClassification": "TESTED",
+    "car360Spin": null,
     "proactiveBrokering": null,
-    "presentationApproved": false,
-    "state": "AUCTION_RESOLUTION",
+    "displayCar360Spin": true,
+    "offsiteSalesContact": null,
+    "sellMethod": "BIDDING",
+    "reducedPrice": false,
+    "conditionClassification": "TESTED",
     "properties": {
-      "grades": {
-        "BRAKES": {
-          "max": 3,
-          "value": 3,
-          "min": 1
-        },
-        "TOTAL": {
-          "max": 5,
-          "value": 3,
-          "min": 1
-        },
-        "TECHNOLOGY_AND_EQUIPMENT": {
-          "max": 3,
-          "value": 2,
-          "min": 1
-        },
-        "ENGINE_AND_GEARBOX": {
-          "max": 3,
-          "value": 3,
-          "min": 1
-        },
-        "INTERIOR": {
-          "max": 5,
-          "value": 3,
-          "min": 1
-        },
-        "EXTERIOR": {
-          "max": 5,
-          "value": 2,
-          "min": 1
-        }
-      },
-      "numberOfKeys": 2,
+      "adHeader": "Transit Custom (105hk) Värmare Drag Verkstadsinr.",
+      "exteriorColor": "White",
+      "brand": "Ford",
+      "mediation": true,
+      "curbWeight": 2175,
+      "maxPayload": 565,
+      "equipment": [
+        "AC",
+        "Antisladdsystem",
+        "Antispinn",
+        "Backkamera",
+        "Bluetooth",
+        "Elhiss fram",
+        "Elspeglar",
+        "Eluppvärmd vindruta",
+        "Fastmonterad dragkrok",
+        "Fjärrlås",
+        "Klimatanläggning",
+        "Parkeringsvärmare med fjärrstyrning",
+        "Radio",
+        "Regnsensor",
+        "Urkopplingsbar passagerarairbag",
+        "USB-ingång",
+        "Verkstads inr."
+      ],
+      "inspectionValidToDate": "2027-12-31",
+      "odometerUnit": "km",
+      "length": 4972,
+      "finishType": "Solid",
+      "textile": "Textil",
+      "saleLimitedToCorporate": false,
+      "chassisNumber": "WF0YXXTTGYGK01809",
+      "title": "Ford Transit Custom 270 (105hk)",
+      "dateOfInspection": "2026-10-01",
+      "inspectionPeriod": "2026-10-01 - 2027-12-31",
+      "totalWeight": 2740,
+      "registrationPlateCountry": "se",
+      "exportable": true,
+      "residualLoanValue": 0,
+      "taxFee": 3814,
       "formattedEquipment": [
         {
           "key": "AC",
@@ -377,37 +204,138 @@
           "priority": 16
         }
       ],
-      "exportable": true,
-      "mustExport": false,
-      "deductibleVat": false,
-      "manufactureMonth": "201606",
-      "totalWeight": 2740,
-      "dateOfInspection": "2026-10-01",
-      "registrationPlate": "BJK793",
-      "equipment": [
-        "AC",
-        "Antisladdsystem",
-        "Antispinn",
-        "Backkamera",
-        "Bluetooth",
-        "Elhiss fram",
-        "Elspeglar",
-        "Eluppvärmd vindruta",
-        "Fastmonterad dragkrok",
-        "Fjärrlås",
-        "Klimatanläggning",
-        "Parkeringsvärmare med fjärrstyrning",
-        "Radio",
-        "Regnsensor",
-        "Urkopplingsbar passagerarairbag",
-        "USB-ingång",
-        "Verkstads inr."
-      ],
-      "taxWeight": 2740,
-      "odometerUnit": "km",
-      "mediation": true,
-      "ecoFriendly": false,
+      "familyName": "Transit",
+      "environmentalClassEuro": "6",
       "towbar": true,
+      "isRepairObject": false,
+      "body": "Van",
+      "numberOfSeats": 2,
+      "maxPullWeightB": 760,
+      "fuels": [
+        {
+          "enginePower": 105,
+          "consumption": 6.3,
+          "co2": 163,
+          "fuelCode": "Diesel"
+        }
+      ],
+      "grades": {
+        "INTERIOR": {
+          "value": 3,
+          "min": 1,
+          "max": 5
+        },
+        "TOTAL": {
+          "value": 3,
+          "min": 1,
+          "max": 5
+        },
+        "ENGINE_AND_GEARBOX": {
+          "value": 3,
+          "min": 1,
+          "max": 3
+        },
+        "EXTERIOR": {
+          "value": 2,
+          "min": 1,
+          "max": 5
+        },
+        "BRAKES": {
+          "value": 3,
+          "min": 1,
+          "max": 3
+        },
+        "TECHNOLOGY_AND_EQUIPMENT": {
+          "value": 2,
+          "min": 1,
+          "max": 3
+        }
+      },
+      "maxTrailerWeight": 2350,
+      "odometerReading": 72410,
+      "package": "Värmare Drag Verkstadsinredning",
+      "initialTrafficDate": "2016-10-05",
+      "mustExport": false,
+      "manufactureMonth": "201606",
+      "ecoFriendly": false,
+      "deductibleVat": false,
+      "numberOfKeys": 2,
+      "registrationPlate": "BJK793",
+      "numberOfPreviousOwners": 2,
+      "heavyEquipment": false,
+      "modelYear": 2016,
+      "height": 2100,
+      "gearbox": "Manual",
+      "modelName": "Transit Custom 270 (105hk)",
+      "taxWeight": 2740,
+      "width": 2032,
+      "remarks": {
+        "INTERIOR": [
+          {
+            "key": "Invändigt flertal repor, fläckar och märken",
+            "id": "0",
+            "category": "INTERIOR"
+          },
+          {
+            "key": "Klädsel skadad vänster fram",
+            "id": "1",
+            "category": "INTERIOR"
+          }
+        ],
+        "ENGINE_AND_GEARBOX": [],
+        "EXTERIOR": [
+          {
+            "key": "Stenskott i vindruta",
+            "id": "0",
+            "category": "EXTERIOR"
+          },
+          {
+            "key": "Spår efter tidigare dekor",
+            "id": "1",
+            "category": "EXTERIOR"
+          },
+          {
+            "key": "Karosskada vänster bakskärm och baklucka",
+            "id": "2",
+            "category": "EXTERIOR"
+          },
+          {
+            "key": "Flertal rostangrepp och lackskador",
+            "id": "3",
+            "category": "EXTERIOR"
+          },
+          {
+            "key": "Övre bromsljus repor",
+            "id": "4",
+            "category": "EXTERIOR"
+          },
+          {
+            "key": "Kåpa under tankluckan saknas",
+            "id": "5",
+            "category": "EXTERIOR"
+          }
+        ],
+        "BRAKES": [],
+        "TECHNOLOGY_AND_EQUIPMENT": [
+          {
+            "key": "Bränslevärmare med fjärrstyrning, ur funktion",
+            "id": "0",
+            "category": "TECHNOLOGY_AND_EQUIPMENT"
+          },
+          {
+            "key": "Avgassystem bristfällig fastsättning",
+            "id": "1",
+            "category": "TECHNOLOGY_AND_EQUIPMENT"
+          },
+          {
+            "key": "Genomslagsgummi bak skadat",
+            "id": "2",
+            "category": "TECHNOLOGY_AND_EQUIPMENT"
+          }
+        ],
+        "TIRES": []
+      },
+      "drivingBan": false,
       "remarksLocalized": {
         "TIRES": null,
         "BRAKES": null,
@@ -416,138 +344,210 @@
         "ENGINE_AND_GEARBOX": null,
         "TECHNOLOGY_AND_EQUIPMENT": "Bränslevärmare med fjärrstyrning, ur funktion. Avgassystem bristfällig fastsättning. Genomslagsgummi bak skadat"
       },
-      "width": 2032,
-      "body": "Van",
-      "exteriorColor": "White",
-      "remarks": {
-        "TIRES": [],
-        "BRAKES": [],
-        "TECHNOLOGY_AND_EQUIPMENT": [
-          {
-            "category": "TECHNOLOGY_AND_EQUIPMENT",
-            "id": "0",
-            "key": "Bränslevärmare med fjärrstyrning, ur funktion"
-          },
-          {
-            "category": "TECHNOLOGY_AND_EQUIPMENT",
-            "id": "1",
-            "key": "Avgassystem bristfällig fastsättning"
-          },
-          {
-            "category": "TECHNOLOGY_AND_EQUIPMENT",
-            "id": "2",
-            "key": "Genomslagsgummi bak skadat"
-          }
-        ],
-        "ENGINE_AND_GEARBOX": [],
-        "INTERIOR": [
-          {
-            "category": "INTERIOR",
-            "id": "0",
-            "key": "Invändigt flertal repor, fläckar och märken"
-          },
-          {
-            "category": "INTERIOR",
-            "id": "1",
-            "key": "Klädsel skadad vänster fram"
-          }
-        ],
-        "EXTERIOR": [
-          {
-            "category": "EXTERIOR",
-            "id": "0",
-            "key": "Stenskott i vindruta"
-          },
-          {
-            "category": "EXTERIOR",
-            "id": "1",
-            "key": "Spår efter tidigare dekor"
-          },
-          {
-            "category": "EXTERIOR",
-            "id": "2",
-            "key": "Karosskada vänster bakskärm och baklucka"
-          },
-          {
-            "category": "EXTERIOR",
-            "id": "3",
-            "key": "Flertal rostangrepp och lackskador"
-          },
-          {
-            "category": "EXTERIOR",
-            "id": "4",
-            "key": "Övre bromsljus repor"
-          },
-          {
-            "category": "EXTERIOR",
-            "id": "5",
-            "key": "Kåpa under tankluckan saknas"
-          }
-        ]
-      },
-      "numberOfPreviousOwners": 2,
-      "adHeader": "Transit Custom (105hk) Värmare Drag Verkstadsinr.",
-      "fuels": [
-        {
-          "fuelCode": "Diesel",
-          "co2": 163,
-          "consumption": 6.3,
-          "enginePower": 105
-        }
-      ],
-      "textile": "Textil",
-      "maxTrailerWeight": 2350,
-      "maxPayload": 565,
-      "inspectionPeriod": "2026-10-01 - 2027-12-31",
-      "inspectionValidToDate": "2027-12-31",
-      "saleLimitedToCorporate": false,
-      "package": "Värmare Drag Verkstadsinredning",
       "hasUnpaidLoan": false,
-      "heavyEquipment": false,
-      "residualLoanValue": 0,
-      "brand": "Ford",
-      "gearbox": "Manual",
-      "height": 2100,
-      "maxPullWeightB": 760,
-      "length": 4972,
-      "environmentalClassEuro": "6",
-      "curbWeight": 2175,
-      "drivingBan": false,
-      "initialTrafficDate": "2016-10-05",
-      "chassisNumber": "WF0YXXTTGYGK01809",
-      "familyName": "Transit",
-      "finishType": "Solid",
-      "importedForPersonalUse": false,
-      "isRepairObject": false,
-      "title": "Ford Transit Custom 270 (105hk)",
-      "odometerReading": 72410,
-      "modelName": "Transit Custom 270 (105hk)",
-      "modelYear": 2016,
-      "numberOfSeats": 2,
-      "registrationPlateCountry": "se",
       "registrationCountry": "se",
-      "taxFee": 3814,
+      "importedForPersonalUse": false,
       "heading1": "Ford Transit",
       "heading2": "Custom 270",
       "heading3": "Värmare Drag Verkstadsinredning"
     },
-    "orderableAdditionalServices": {
-      "tradein": false,
-      "transport": true,
-      "insurance": true,
-      "finance": true,
-      "warranty": true,
-      "extraTires": false
+    "baseObject": {
+      "exteriorColor": "White",
+      "registrationPlate": "BJK793",
+      "year": "2016",
+      "body": "Van",
+      "authorityRegisterInformation": {
+        "additionalTechSpecification": {
+          "raceCar": null,
+          "wheelbase1": 2933,
+          "wheelbase2": null,
+          "wheelbase3": null,
+          "wheelbase4": null,
+          "equipment1": null,
+          "equipment2": null,
+          "equipment3": null,
+          "maximumSpeed": 150,
+          "numAxleShafts": 2,
+          "passengerAirBag": true,
+          "tyreDimensionRear": "215/65R15C 104/102T",
+          "tyreDimensionFront": "215/65R15C 104/102T",
+          "dualSteeringControl": null
+        },
+        "environmentalClassification": {
+          "fuels": [
+            {
+              "co2": 163,
+              "nox": "",
+              "nox4": null,
+              "fuelCode": "Diesel",
+              "hcThcNox": "",
+              "consumption": 6.3,
+              "noiseLevel": 72,
+              "emissionUnit": "g/km",
+              "innovationCo2": null,
+              "particleValue": "",
+              "particleMass4": null,
+              "consumptionUnit": "6,3",
+              "rangeNedcDrive": null,
+              "rangeWltpDrive": null,
+              "consumptionUrban": 7.3,
+              "rangeCityWltpDrive": null,
+              "consumptionExtraUrban": 5.8,
+              "electricEnergyConsumption": null,
+              "energyConsumptionWltpDrive": null
+            }
+          ],
+          "ecoFriendly": false,
+          "emissionClass": "EURO 6",
+          "innovationCode": null,
+          "environmentalClass": null,
+          "environmentalClassEuro": "6"
+        },
+        "vehicleStatus": {
+          "tax": 3814
+        },
+        "registrationInformation": {
+          "registrationPlate": "BJK793",
+          "deregistrationDate": null,
+          "deregistrationText": null,
+          "deregistrationReason": null
+        },
+        "generalTechSpecification": {
+          "eeg": "e1*2007/46*1005*07",
+          "fuels": [
+            {
+              "fuelCode": "Diesel",
+              "powerUnit": "ECE",
+              "enginePower": 77,
+              "enginePowerHp": 105,
+              "fuelTankVolume": ""
+            }
+          ],
+          "width": 2032,
+          "height": 2100,
+          "length": 4972,
+          "gearbox": "Manual",
+          "variant": "YLF61ABX",
+          "version": "B3WGAZCASASB",
+          "taxWeight": 2740,
+          "curbWeight": 2175,
+          "maxPayload": 565,
+          "totalWeight": 2740,
+          "chassisCode1": null,
+          "chassisCode2": null,
+          "cubicCapacity": "1995",
+          "numPassengers": "1",
+          "numberOfSeats": 2,
+          "fourWheelDrive": false,
+          "maxPullWeightB": 760,
+          "clutchMechanism1": null,
+          "clutchMechanism2": null,
+          "maxTrailerWeight": 2350,
+          "chassisCodeSupplement": null,
+          "maxPullWieghtNoBreaks": null,
+          "maxPullWeightBExtended": null,
+          "maxSingle Axle TrailerWeight": null
+        },
+        "vehicleOrigin": {
+          "originCode": "INFÖRT",
+          "originCodeReason": null,
+          "importerIdentifier": null,
+          "preRegistrationDate": null,
+          "importRegistrationDate": null,
+          "importedForPersonalUse": false,
+          "importedPreviouslyRegistered": false
+        },
+        "vehicleInspectionInformation": {
+          "inspections": [
+            {
+              "inspectionType": "5",
+              "odometerReading": 72066,
+              "dateOfInspection": "2025-04-11"
+            },
+            {
+              "inspectionType": "5",
+              "odometerReading": 69365,
+              "dateOfInspection": "2024-03-15"
+            }
+          ],
+          "inspectionGroup": "36/24/14",
+          "odometerReading": 72370,
+          "inspectionPeriod": "2026-10-01 - 2027-12-31",
+          "dateOfInspection": "2026-10-01",
+          "inspectionValidToDate": "2027-12-31",
+          "inspectionExemptionGroup": null
+        },
+        "vehicleInformation": {
+          "vin": "WF0YXXTTGYGK01809",
+          "body": "BB",
+          "type": "LIGHT_TRUCK",
+          "year": "2016",
+          "model": "TRANSIT CUSTOM",
+          "rawType": "LB",
+          "modelYear": null,
+          "categoryEu": "e1*2007/46*1005*07",
+          "groupNumber": "FO 902031",
+          "modelNumber": "FO 000000",
+          "chassisNumber": "WF0YXXTTGYGK01809",
+          "exteriorColor": "White",
+          "fabricAndMake": "FORD",
+          "baseObjectType": "LIGHT_TRUCK",
+          "manufactureCode": null,
+          "manufactureMonth": "201606",
+          "registrationDate": "2016-06-16",
+          "initialTrafficDate": "2016-10-05",
+          "registrationPlateReused": null
+        }
+      },
+      "brand": "Ford",
+      "id": "520671",
+      "fuels": [
+        {
+          "fuelCode": "Diesel",
+          "powerUnit": "ECE",
+          "enginePower": 77,
+          "enginePowerHp": 105,
+          "fuelTankVolume": ""
+        }
+      ],
+      "gearbox": "Manual",
+      "fabricAndMake": "FORD",
+      "baseObjectType": "LIGHT_TRUCK",
+      "modelId": null,
+      "odometerReading": null,
+      "modelName": "Transit Custom 270 (105hk)",
+      "salesFlow": "CORPORATE_CARS",
+      "state": "MANUAL_VALUATION_PENDING",
+      "odometerUnit": "km",
+      "earliestAvailableAt": null,
+      "registrationCountry": "se",
+      "createdAt": "2026-10-06T07:21:59.272427+00:00",
+      "familyName": "Transit",
+      "technicalSpecification": {
+        "modelId": null,
+        "vehicle": {
+          "brand": "Ford",
+          "body": "Van",
+          "modelName": "Transit Custom 270 (105hk)",
+          "familyName": "Transit"
+        },
+        "year": "2016"
+      }
     },
-    "offsiteSalesContact": null,
-    "leaseReturnProperties": {},
     "id": "7291120",
-    "displayCar360Spin": true,
+    "leaseReturnProperties": {},
+    "vehicleType": "LIGHT_TRANSPORT",
+    "presentationApproved": false,
+    "baseObjectId": "520671",
+    "isFixedPrice": false,
     "certified": false,
-    "sellMethod": "BIDDING",
-    "isReleasable": false,
-    "car360Spin": null,
+    "objectType": "LIGHT_TRUCK",
+    "state": "AUCTION_RESOLUTION",
+    "initialBuyNowAmount": null,
     "statisticalValuation": null,
+    "testDriveAllowed": true,
+    "buyNowAmount": null,
+    "isReleasable": false,
     "createdAt": "2026-10-06 07:21:59.547511+00:00",
     "exportable": true,
     "deductibleVat": false,
@@ -2429,6 +2429,6 @@
     "closedAt": "2026-10-30T10:04:38.456492+00:00",
     "updatedAt": "2026-10-30T10:04:38.581261+00:00"
   },
-  "_scraped_at": "2026-10-30T16:17:17.177856+00:00",
+  "_scraped_at": "2026-10-30T19:54:38.806501+00:00",
   "_url": "https://www.kvd.se/auktioner/ford-transit-custom-270-105hk-309042"
 }

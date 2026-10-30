@@ -55,223 +55,18 @@
     "evaluationType": "AUTOMATIC"
   },
   "processObject": {
-    "objectType": "LIGHT_TRUCK",
-    "buyNowAmount": null,
-    "reducedPrice": false,
-    "testDriveAllowed": true,
-    "isFixedPrice": false,
-    "baseObject": {
-      "gearbox": "Manual",
-      "baseObjectType": "LIGHT_TRUCK",
-      "odometerReading": null,
-      "authorityRegisterInformation": {
-        "vehicleOrigin": {
-          "originCode": "INFÖRT",
-          "originCodeReason": null,
-          "importerIdentifier": null,
-          "preRegistrationDate": null,
-          "importRegistrationDate": null,
-          "importedForPersonalUse": false,
-          "importedPreviouslyRegistered": false
-        },
-        "generalTechSpecification": {
-          "eeg": null,
-          "fuels": [
-            {
-              "fuelCode": "Diesel",
-              "powerUnit": "EG",
-              "enginePower": 120,
-              "enginePowerHp": 163,
-              "fuelTankVolume": ""
-            }
-          ],
-          "width": 2020,
-          "height": 2620,
-          "length": 5932,
-          "gearbox": "Manual",
-          "variant": null,
-          "version": null,
-          "taxWeight": 3500,
-          "curbWeight": 2565,
-          "maxPayload": 935,
-          "totalWeight": 3500,
-          "chassisCode1": null,
-          "chassisCode2": null,
-          "cubicCapacity": "2143",
-          "numPassengers": "2",
-          "numberOfSeats": 3,
-          "fourWheelDrive": false,
-          "maxPullWeightB": 750,
-          "clutchMechanism1": null,
-          "clutchMechanism2": null,
-          "maxTrailerWeight": 2000,
-          "chassisCodeSupplement": null,
-          "maxPullWieghtNoBreaks": null,
-          "maxPullWeightBExtended": null,
-          "maxSingle Axle TrailerWeight": null
-        },
-        "environmentalClassification": {
-          "fuels": [
-            {
-              "co2": 219,
-              "nox": "",
-              "nox4": null,
-              "fuelCode": "Diesel",
-              "hcThcNox": "",
-              "consumption": 8.3,
-              "noiseLevel": 75,
-              "emissionUnit": "g/km",
-              "innovationCo2": null,
-              "particleValue": "",
-              "particleMass4": null,
-              "consumptionUnit": "8,3",
-              "rangeNedcDrive": null,
-              "rangeWltpDrive": null,
-              "consumptionUrban": 9.6,
-              "rangeCityWltpDrive": null,
-              "consumptionExtraUrban": 7.6,
-              "electricEnergyConsumption": null,
-              "energyConsumptionWltpDrive": null
-            }
-          ],
-          "ecoFriendly": false,
-          "emissionClass": "EURO 6",
-          "innovationCode": null,
-          "environmentalClass": null,
-          "environmentalClassEuro": "VI"
-        },
-        "vehicleStatus": {
-          "tax": 5946
-        },
-        "vehicleInspectionInformation": {
-          "inspections": [
-            {
-              "inspectionType": "5",
-              "odometerReading": 165510,
-              "dateOfInspection": "2025-06-05"
-            },
-            {
-              "inspectionType": "6",
-              "odometerReading": 140343,
-              "dateOfInspection": "2024-04-26"
-            }
-          ],
-          "inspectionGroup": "36/24/14",
-          "odometerReading": 188149,
-          "inspectionPeriod": "2026-09-04 - 2027-11-30",
-          "dateOfInspection": "2026-09-04",
-          "inspectionValidToDate": "2027-11-30",
-          "inspectionExemptionGroup": null
-        },
-        "registrationInformation": {
-          "registrationPlate": "YUE524",
-          "deregistrationDate": null,
-          "deregistrationText": null,
-          "deregistrationReason": null
-        },
-        "vehicleInformation": {
-          "vin": "WDB9076331P045986",
-          "body": "BB",
-          "type": "LIGHT_TRUCK",
-          "year": "2018",
-          "model": "SPRINTER",
-          "rawType": "LB",
-          "modelYear": null,
-          "categoryEu": null,
-          "groupNumber": "MB 908231",
-          "modelNumber": "MB 000000",
-          "chassisNumber": "WDB9076331P045986",
-          "exteriorColor": "White",
-          "fabricAndMake": "MERCEDES-BENZ",
-          "baseObjectType": "LIGHT_TRUCK",
-          "manufactureCode": null,
-          "manufactureMonth": "201810",
-          "registrationDate": "2018-10-26",
-          "initialTrafficDate": "2019-02-21",
-          "registrationPlateReused": null
-        },
-        "additionalTechSpecification": {
-          "raceCar": null,
-          "wheelbase1": 3665,
-          "wheelbase2": null,
-          "wheelbase3": null,
-          "wheelbase4": null,
-          "equipment1": null,
-          "equipment2": null,
-          "equipment3": null,
-          "maximumSpeed": 160,
-          "numAxleShafts": 2,
-          "passengerAirBag": false,
-          "tyreDimensionRear": "235/65R16C 115/113R",
-          "tyreDimensionFront": "235/65R16C 115/113R",
-          "dualSteeringControl": null
-        }
-      },
-      "fuels": [
-        {
-          "fuelCode": "Diesel",
-          "powerUnit": "EG",
-          "enginePower": 120,
-          "enginePowerHp": 163,
-          "fuelTankVolume": ""
-        }
-      ],
-      "earliestAvailableAt": null,
-      "modelName": "Sprinter 316 CDI Skåp RWD (163hk)",
-      "salesFlow": "CORPORATE_CARS",
-      "registrationPlate": "YUE524",
-      "state": "MANUAL_VALUATION_PENDING",
-      "odometerUnit": "km",
-      "fabricAndMake": "MERCEDES-BENZ",
-      "registrationCountry": "se",
-      "id": "519352",
-      "familyName": "Sprinter",
-      "modelId": null,
-      "year": "2019",
-      "createdAt": "2026-09-29T12:06:52.747088+00:00",
-      "brand": "Mercedes-Benz",
-      "body": "Van",
-      "exteriorColor": "White",
-      "technicalSpecification": {
-        "modelId": null,
-        "vehicle": {
-          "brand": "Mercedes-Benz",
-          "body": "Van",
-          "modelName": "Sprinter 316 CDI Skåp RWD (163hk)",
-          "familyName": "Sprinter"
-        },
-        "year": "2019"
-      }
-    },
-    "vehicleType": "LIGHT_TRANSPORT",
-    "initialBuyNowAmount": null,
-    "baseObjectId": "519352",
+    "displayCar360Spin": true,
     "conditionClassification": "TESTED",
     "proactiveBrokering": null,
-    "presentationApproved": false,
-    "state": "AUCTION_RESOLUTION",
     "properties": {
+      "length": 5932,
+      "mustExport": false,
+      "odometerUnit": "km",
+      "familyName": "Sprinter",
+      "drivingBan": false,
+      "taxWeight": 3500,
+      "odometerReading": 189040,
       "grades": {
-        "BRAKES": {
-          "max": 3,
-          "value": 3,
-          "min": 1
-        },
-        "TOTAL": {
-          "max": 5,
-          "value": 3,
-          "min": 1
-        },
-        "TECHNOLOGY_AND_EQUIPMENT": {
-          "max": 3,
-          "value": 2,
-          "min": 1
-        },
-        "ENGINE_AND_GEARBOX": {
-          "max": 3,
-          "value": 2,
-          "min": 1
-        },
         "INTERIOR": {
           "max": 5,
           "value": 2,
@@ -281,9 +76,191 @@
           "max": 5,
           "value": 3,
           "min": 1
+        },
+        "TOTAL": {
+          "max": 5,
+          "value": 3,
+          "min": 1
+        },
+        "ENGINE_AND_GEARBOX": {
+          "max": 3,
+          "value": 2,
+          "min": 1
+        },
+        "TECHNOLOGY_AND_EQUIPMENT": {
+          "max": 3,
+          "value": 2,
+          "min": 1
+        },
+        "BRAKES": {
+          "max": 3,
+          "value": 3,
+          "min": 1
         }
       },
+      "fuels": [
+        {
+          "enginePower": 163,
+          "fuelCode": "Diesel",
+          "co2": 219,
+          "consumption": 8.3
+        }
+      ],
+      "curbWeight": 2565,
+      "remarks": {
+        "TIRES": [],
+        "INTERIOR": [
+          {
+            "category": "INTERIOR",
+            "key": "Lastutrymme, flertal skav, fläckar och bucklor",
+            "id": "0"
+          },
+          {
+            "category": "INTERIOR",
+            "key": "Repiga inredningsdetaljer bagageutrymme, Ratten är sliten",
+            "id": "1"
+          },
+          {
+            "category": "INTERIOR",
+            "key": "Klädsel smutsig fram",
+            "id": "2"
+          },
+          {
+            "category": "INTERIOR",
+            "key": "Klädsel skadad fram vänster",
+            "id": "3"
+          }
+        ],
+        "EXTERIOR": [
+          {
+            "category": "EXTERIOR",
+            "key": "Grill, repa",
+            "id": "0"
+          },
+          {
+            "category": "EXTERIOR",
+            "key": "Lackskada på stötfångare fram",
+            "id": "1"
+          },
+          {
+            "category": "EXTERIOR",
+            "key": "Repa stötfångare fram",
+            "id": "2"
+          },
+          {
+            "category": "EXTERIOR",
+            "key": "Flertal stenskott motorhuv",
+            "id": "3"
+          },
+          {
+            "category": "EXTERIOR",
+            "key": "Mindre repa motorhuv",
+            "id": "4"
+          },
+          {
+            "category": "EXTERIOR",
+            "key": "Ytrost tak, Karosskada vänster sidospegel, Buckla vänster framdörr, Ytrost, Repa vänster insteg fram, Repa vänster bakskärm, Buckla vänster tröskel, Repa stötfångare bak",
+            "id": "5"
+          },
+          {
+            "category": "EXTERIOR",
+            "key": "Repa höger bakskärm, Buckla höger bakdörr, Ytrost höger bakdörr, Buckla höger framdörr, Bucklor baklucka",
+            "id": "6"
+          },
+          {
+            "category": "EXTERIOR",
+            "key": "Fåtal rostangrepp, Bilen har polerbara tvättrepor, Spår efter tidigare dekor",
+            "id": "7"
+          }
+        ],
+        "ENGINE_AND_GEARBOX": [
+          {
+            "category": "ENGINE_AND_GEARBOX",
+            "key": "Koppling tar högt upp\rSkramlande ljud i motorrum samt gul motorlampa lyser",
+            "id": "0"
+          }
+        ],
+        "TECHNOLOGY_AND_EQUIPMENT": [
+          {
+            "category": "TECHNOLOGY_AND_EQUIPMENT",
+            "key": "Parkeringsvärmare med tidur, varningslampa lyser",
+            "id": "0"
+          },
+          {
+            "category": "TECHNOLOGY_AND_EQUIPMENT",
+            "key": "Spricka i vindruta",
+            "id": "1"
+          }
+        ],
+        "BRAKES": []
+      },
+      "width": 2020,
+      "numberOfSeats": 3,
+      "body": "Van",
+      "maxPullWeightB": 750,
+      "textile": "Textil",
+      "ecoFriendly": false,
+      "maxPayload": 935,
+      "exportable": true,
+      "inspectionValidToDate": "2027-11-30",
+      "taxFee": 5946,
+      "modelYear": 2019,
+      "inspectionPeriod": "2026-09-04 - 2027-11-30",
+      "dateOfInspection": "2026-09-04",
+      "registrationPlate": "YUE524",
+      "totalWeight": 3500,
       "numberOfKeys": 2,
+      "towbar": true,
+      "hasUnpaidLoan": false,
+      "equipment": [
+        "AC",
+        "Antisladdsystem",
+        "Antispinn",
+        "Assistanssystem",
+        "Backkamera",
+        "Bluetooth",
+        "Elhiss fram",
+        "Elspeglar",
+        "Farthållare",
+        "Fastmonterad dragkrok",
+        "Fjärrlås",
+        "Klimatanläggning",
+        "LED-strålkastare",
+        "Nyckellöst startsystem",
+        "Parkeringsvärmare med tidur",
+        "Radio",
+        "Smartphone integration",
+        "Stolsvärme fram",
+        "USB-ingång",
+        "Xenon-ljus"
+      ],
+      "isRepairObject": false,
+      "mediation": true,
+      "residualLoanValue": 0,
+      "numberOfPreviousOwners": 2,
+      "remarksLocalized": {
+        "TIRES": null,
+        "BRAKES": null,
+        "EXTERIOR": "Grill, repa. Lackskada på stötfångare fram. Repa stötfångare fram. Flertal stenskott motorhuv. Mindre repa motorhuv. Ytrost tak, Karosskada vänster sidospegel, Buckla vänster framdörr, Ytrost, Repa vänster insteg fram, Repa vänster bakskärm, Buckla vänster tröskel, Repa stötfångare bak. Repa höger bakskärm, Buckla höger bakdörr, Ytrost höger bakdörr, Buckla höger framdörr, Bucklor baklucka. Fåtal rostangrepp, Bilen har polerbara tvättrepor, Spår efter tidigare dekor",
+        "INTERIOR": "Lastutrymme, flertal skav, fläckar och bucklor. Repiga inredningsdetaljer bagageutrymme, Ratten är sliten. Klädsel smutsig fram. Klädsel skadad fram vänster",
+        "ENGINE_AND_GEARBOX": "Koppling tar högt upp\rSkramlande ljud i motorrum samt gul motorlampa lyser",
+        "TECHNOLOGY_AND_EQUIPMENT": "Parkeringsvärmare med tidur, varningslampa lyser. Spricka i vindruta"
+      },
+      "importedForPersonalUse": false,
+      "gearbox": "Manual",
+      "title": "Mercedes Sprinter 316 CDI Skåp RWD (163hk)",
+      "chassisNumber": "WDB9076331P045986",
+      "deductibleVat": false,
+      "saleLimitedToCorporate": false,
+      "heavyEquipment": false,
+      "manufactureMonth": "201810",
+      "height": 2620,
+      "initialTrafficDate": "2019-02-21",
+      "registrationCountry": "se",
+      "environmentalClassEuro": "VI",
+      "registrationPlateCountry": "se",
+      "maxTrailerWeight": 2000,
+      "brand": "Mercedes",
       "formattedEquipment": [
         {
           "key": "AC",
@@ -406,182 +383,20 @@
           "priority": 19
         }
       ],
-      "exportable": true,
-      "mustExport": false,
-      "deductibleVat": false,
-      "manufactureMonth": "201810",
-      "totalWeight": 3500,
-      "dateOfInspection": "2026-09-04",
-      "registrationPlate": "YUE524",
-      "equipment": [
-        "AC",
-        "Antisladdsystem",
-        "Antispinn",
-        "Assistanssystem",
-        "Backkamera",
-        "Bluetooth",
-        "Elhiss fram",
-        "Elspeglar",
-        "Farthållare",
-        "Fastmonterad dragkrok",
-        "Fjärrlås",
-        "Klimatanläggning",
-        "LED-strålkastare",
-        "Nyckellöst startsystem",
-        "Parkeringsvärmare med tidur",
-        "Radio",
-        "Smartphone integration",
-        "Stolsvärme fram",
-        "USB-ingång",
-        "Xenon-ljus"
-      ],
-      "taxWeight": 3500,
-      "odometerUnit": "km",
-      "mediation": true,
-      "ecoFriendly": false,
-      "towbar": true,
-      "remarksLocalized": {
-        "TIRES": null,
-        "BRAKES": null,
-        "EXTERIOR": "Grill, repa. Lackskada på stötfångare fram. Repa stötfångare fram. Flertal stenskott motorhuv. Mindre repa motorhuv. Ytrost tak, Karosskada vänster sidospegel, Buckla vänster framdörr, Ytrost, Repa vänster insteg fram, Repa vänster bakskärm, Buckla vänster tröskel, Repa stötfångare bak. Repa höger bakskärm, Buckla höger bakdörr, Ytrost höger bakdörr, Buckla höger framdörr, Bucklor baklucka. Fåtal rostangrepp, Bilen har polerbara tvättrepor, Spår efter tidigare dekor",
-        "INTERIOR": "Lastutrymme, flertal skav, fläckar och bucklor. Repiga inredningsdetaljer bagageutrymme, Ratten är sliten. Klädsel smutsig fram. Klädsel skadad fram vänster",
-        "ENGINE_AND_GEARBOX": "Koppling tar högt upp\rSkramlande ljud i motorrum samt gul motorlampa lyser",
-        "TECHNOLOGY_AND_EQUIPMENT": "Parkeringsvärmare med tidur, varningslampa lyser. Spricka i vindruta"
-      },
-      "width": 2020,
-      "body": "Van",
-      "exteriorColor": "White",
-      "remarks": {
-        "TIRES": [],
-        "BRAKES": [],
-        "TECHNOLOGY_AND_EQUIPMENT": [
-          {
-            "category": "TECHNOLOGY_AND_EQUIPMENT",
-            "id": "0",
-            "key": "Parkeringsvärmare med tidur, varningslampa lyser"
-          },
-          {
-            "category": "TECHNOLOGY_AND_EQUIPMENT",
-            "id": "1",
-            "key": "Spricka i vindruta"
-          }
-        ],
-        "ENGINE_AND_GEARBOX": [
-          {
-            "category": "ENGINE_AND_GEARBOX",
-            "id": "0",
-            "key": "Koppling tar högt upp\rSkramlande ljud i motorrum samt gul motorlampa lyser"
-          }
-        ],
-        "INTERIOR": [
-          {
-            "category": "INTERIOR",
-            "id": "0",
-            "key": "Lastutrymme, flertal skav, fläckar och bucklor"
-          },
-          {
-            "category": "INTERIOR",
-            "id": "1",
-            "key": "Repiga inredningsdetaljer bagageutrymme, Ratten är sliten"
-          },
-          {
-            "category": "INTERIOR",
-            "id": "2",
-            "key": "Klädsel smutsig fram"
-          },
-          {
-            "category": "INTERIOR",
-            "id": "3",
-            "key": "Klädsel skadad fram vänster"
-          }
-        ],
-        "EXTERIOR": [
-          {
-            "category": "EXTERIOR",
-            "id": "0",
-            "key": "Grill, repa"
-          },
-          {
-            "category": "EXTERIOR",
-            "id": "1",
-            "key": "Lackskada på stötfångare fram"
-          },
-          {
-            "category": "EXTERIOR",
-            "id": "2",
-            "key": "Repa stötfångare fram"
-          },
-          {
-            "category": "EXTERIOR",
-            "id": "3",
-            "key": "Flertal stenskott motorhuv"
-          },
-          {
-            "category": "EXTERIOR",
-            "id": "4",
-            "key": "Mindre repa motorhuv"
-          },
-          {
-            "category": "EXTERIOR",
-            "id": "5",
-            "key": "Ytrost tak, Karosskada vänster sidospegel, Buckla vänster framdörr, Ytrost, Repa vänster insteg fram, Repa vänster bakskärm, Buckla vänster tröskel, Repa stötfångare bak"
-          },
-          {
-            "category": "EXTERIOR",
-            "id": "6",
-            "key": "Repa höger bakskärm, Buckla höger bakdörr, Ytrost höger bakdörr, Buckla höger framdörr, Bucklor baklucka"
-          },
-          {
-            "category": "EXTERIOR",
-            "id": "7",
-            "key": "Fåtal rostangrepp, Bilen har polerbara tvättrepor, Spår efter tidigare dekor"
-          }
-        ]
-      },
-      "numberOfPreviousOwners": 2,
-      "fuels": [
-        {
-          "fuelCode": "Diesel",
-          "co2": 219,
-          "consumption": 8.3,
-          "enginePower": 163
-        }
-      ],
-      "textile": "Textil",
-      "maxTrailerWeight": 2000,
-      "maxPayload": 935,
-      "inspectionPeriod": "2026-09-04 - 2027-11-30",
-      "inspectionValidToDate": "2027-11-30",
-      "saleLimitedToCorporate": false,
-      "hasUnpaidLoan": false,
-      "heavyEquipment": false,
-      "residualLoanValue": 0,
-      "brand": "Mercedes",
-      "gearbox": "Manual",
-      "height": 2620,
-      "maxPullWeightB": 750,
-      "length": 5932,
-      "environmentalClassEuro": "VI",
-      "curbWeight": 2565,
-      "drivingBan": false,
-      "initialTrafficDate": "2019-02-21",
-      "chassisNumber": "WDB9076331P045986",
-      "familyName": "Sprinter",
-      "finishType": "Solid",
-      "importedForPersonalUse": false,
-      "isRepairObject": false,
-      "title": "Mercedes Sprinter 316 CDI Skåp RWD (163hk)",
-      "odometerReading": 189040,
       "modelName": "Sprinter 316 CDI Skåp RWD (163hk)",
-      "modelYear": 2019,
-      "numberOfSeats": 3,
-      "registrationPlateCountry": "se",
-      "registrationCountry": "se",
-      "taxFee": 5946,
+      "finishType": "Solid",
+      "exteriorColor": "White",
       "heading1": "Mercedes Sprinter",
       "heading2": "316 CDI Skåp RWD",
       "heading3": null
     },
+    "car360Spin": null,
+    "testDriveAllowed": true,
+    "certified": false,
+    "objectType": "LIGHT_TRUCK",
+    "statisticalValuation": null,
+    "buyNowAmount": null,
+    "sellMethod": "BIDDING",
     "orderableAdditionalServices": {
       "tradein": false,
       "transport": true,
@@ -590,16 +405,201 @@
       "warranty": true,
       "extraTires": false
     },
-    "offsiteSalesContact": null,
+    "isFixedPrice": false,
+    "vehicleType": "LIGHT_TRANSPORT",
     "leaseReturnProperties": {},
-    "id": "7290381",
-    "displayCar360Spin": true,
-    "certified": false,
-    "sellMethod": "BIDDING",
+    "baseObjectId": "519352",
+    "initialBuyNowAmount": null,
     "isReleasable": false,
-    "car360Spin": null,
-    "statisticalValuation": null,
+    "id": "7290381",
+    "offsiteSalesContact": null,
+    "presentationApproved": false,
     "createdAt": "2026-09-29 12:06:52.997878+00:00",
+    "state": "AUCTION_RESOLUTION",
+    "reducedPrice": false,
+    "baseObject": {
+      "body": "Van",
+      "modelId": null,
+      "exteriorColor": "White",
+      "baseObjectType": "LIGHT_TRUCK",
+      "registrationCountry": "se",
+      "odometerUnit": "km",
+      "familyName": "Sprinter",
+      "odometerReading": null,
+      "earliestAvailableAt": null,
+      "brand": "Mercedes-Benz",
+      "registrationPlate": "YUE524",
+      "fuels": [
+        {
+          "fuelCode": "Diesel",
+          "powerUnit": "EG",
+          "enginePower": 120,
+          "enginePowerHp": 163,
+          "fuelTankVolume": ""
+        }
+      ],
+      "id": "519352",
+      "authorityRegisterInformation": {
+        "generalTechSpecification": {
+          "eeg": null,
+          "fuels": [
+            {
+              "fuelCode": "Diesel",
+              "powerUnit": "EG",
+              "enginePower": 120,
+              "enginePowerHp": 163,
+              "fuelTankVolume": ""
+            }
+          ],
+          "width": 2020,
+          "height": 2620,
+          "length": 5932,
+          "gearbox": "Manual",
+          "variant": null,
+          "version": null,
+          "taxWeight": 3500,
+          "curbWeight": 2565,
+          "maxPayload": 935,
+          "totalWeight": 3500,
+          "chassisCode1": null,
+          "chassisCode2": null,
+          "cubicCapacity": "2143",
+          "numPassengers": "2",
+          "numberOfSeats": 3,
+          "fourWheelDrive": false,
+          "maxPullWeightB": 750,
+          "clutchMechanism1": null,
+          "clutchMechanism2": null,
+          "maxTrailerWeight": 2000,
+          "chassisCodeSupplement": null,
+          "maxPullWieghtNoBreaks": null,
+          "maxPullWeightBExtended": null,
+          "maxSingle Axle TrailerWeight": null
+        },
+        "vehicleOrigin": {
+          "originCode": "INFÖRT",
+          "originCodeReason": null,
+          "importerIdentifier": null,
+          "preRegistrationDate": null,
+          "importRegistrationDate": null,
+          "importedForPersonalUse": false,
+          "importedPreviouslyRegistered": false
+        },
+        "vehicleInspectionInformation": {
+          "inspections": [
+            {
+              "inspectionType": "5",
+              "odometerReading": 165510,
+              "dateOfInspection": "2025-06-05"
+            },
+            {
+              "inspectionType": "6",
+              "odometerReading": 140343,
+              "dateOfInspection": "2024-04-26"
+            }
+          ],
+          "inspectionGroup": "36/24/14",
+          "odometerReading": 188149,
+          "inspectionPeriod": "2026-09-04 - 2027-11-30",
+          "dateOfInspection": "2026-09-04",
+          "inspectionValidToDate": "2027-11-30",
+          "inspectionExemptionGroup": null
+        },
+        "environmentalClassification": {
+          "fuels": [
+            {
+              "co2": 219,
+              "nox": "",
+              "nox4": null,
+              "fuelCode": "Diesel",
+              "hcThcNox": "",
+              "consumption": 8.3,
+              "noiseLevel": 75,
+              "emissionUnit": "g/km",
+              "innovationCo2": null,
+              "particleValue": "",
+              "particleMass4": null,
+              "consumptionUnit": "8,3",
+              "rangeNedcDrive": null,
+              "rangeWltpDrive": null,
+              "consumptionUrban": 9.6,
+              "rangeCityWltpDrive": null,
+              "consumptionExtraUrban": 7.6,
+              "electricEnergyConsumption": null,
+              "energyConsumptionWltpDrive": null
+            }
+          ],
+          "ecoFriendly": false,
+          "emissionClass": "EURO 6",
+          "innovationCode": null,
+          "environmentalClass": null,
+          "environmentalClassEuro": "VI"
+        },
+        "additionalTechSpecification": {
+          "raceCar": null,
+          "wheelbase1": 3665,
+          "wheelbase2": null,
+          "wheelbase3": null,
+          "wheelbase4": null,
+          "equipment1": null,
+          "equipment2": null,
+          "equipment3": null,
+          "maximumSpeed": 160,
+          "numAxleShafts": 2,
+          "passengerAirBag": false,
+          "tyreDimensionRear": "235/65R16C 115/113R",
+          "tyreDimensionFront": "235/65R16C 115/113R",
+          "dualSteeringControl": null
+        },
+        "vehicleStatus": {
+          "tax": 5946
+        },
+        "vehicleInformation": {
+          "vin": "WDB9076331P045986",
+          "body": "BB",
+          "type": "LIGHT_TRUCK",
+          "year": "2018",
+          "model": "SPRINTER",
+          "rawType": "LB",
+          "modelYear": null,
+          "categoryEu": null,
+          "groupNumber": "MB 908231",
+          "modelNumber": "MB 000000",
+          "chassisNumber": "WDB9076331P045986",
+          "exteriorColor": "White",
+          "fabricAndMake": "MERCEDES-BENZ",
+          "baseObjectType": "LIGHT_TRUCK",
+          "manufactureCode": null,
+          "manufactureMonth": "201810",
+          "registrationDate": "2018-10-26",
+          "initialTrafficDate": "2019-02-21",
+          "registrationPlateReused": null
+        },
+        "registrationInformation": {
+          "registrationPlate": "YUE524",
+          "deregistrationDate": null,
+          "deregistrationText": null,
+          "deregistrationReason": null
+        }
+      },
+      "modelName": "Sprinter 316 CDI Skåp RWD (163hk)",
+      "createdAt": "2026-09-29T12:06:52.747088+00:00",
+      "state": "MANUAL_VALUATION_PENDING",
+      "gearbox": "Manual",
+      "salesFlow": "CORPORATE_CARS",
+      "year": "2019",
+      "fabricAndMake": "MERCEDES-BENZ",
+      "technicalSpecification": {
+        "modelId": null,
+        "vehicle": {
+          "brand": "Mercedes-Benz",
+          "body": "Van",
+          "modelName": "Sprinter 316 CDI Skåp RWD (163hk)",
+          "familyName": "Sprinter"
+        },
+        "year": "2019"
+      }
+    },
     "exportable": true,
     "deductibleVat": false,
     "collisionWarranty": null,
@@ -1878,7 +1878,7 @@
       "auctionUrl": "https://www.kvd.se/auktioner/mercedes-sprinter-315-cdi-skap-rwd-150hk-308367",
       "state": "OPEN",
       "targetedAuctionGroupId": null,
-      "updatedAt": "2026-10-30T11:24:15.304829+00:00",
+      "updatedAt": "2026-10-30T17:14:04.004040+00:00",
       "releasing": null,
       "loan": {
         "loanCost": 1108,
@@ -1893,7 +1893,7 @@
       "maxAllowedBid": null,
       "isReserved": false,
       "isSoldByBuyNow": false,
-      "favouriteCount": 5,
+      "favouriteCount": 6,
       "winningBid": null,
       "activeAuction": {
         "auctionId": "308367",
@@ -2087,7 +2087,7 @@
       "auctionUrl": "https://www.kvd.se/auktioner/mercedes-vito-111-cdi-w640-114hk-309387",
       "state": "OPEN",
       "targetedAuctionGroupId": null,
-      "updatedAt": "2026-10-30T11:24:00.138370+00:00",
+      "updatedAt": "2026-10-30T18:08:13.032751+00:00",
       "releasing": null,
       "loan": {
         "loanCost": 217,
@@ -2102,7 +2102,7 @@
       "maxAllowedBid": 225000,
       "isReserved": false,
       "isSoldByBuyNow": false,
-      "favouriteCount": 8,
+      "favouriteCount": 9,
       "winningBid": null,
       "activeAuction": {
         "auctionId": "309387",
@@ -2322,7 +2322,7 @@
       "auctionUrl": "https://www.kvd.se/auktioner/mercedes-sprinter-317-cdi-skap-rwd-170hk-309438",
       "state": "OPEN",
       "targetedAuctionGroupId": null,
-      "updatedAt": "2026-10-30T13:34:37.287690+00:00",
+      "updatedAt": "2026-10-30T17:13:38.213307+00:00",
       "releasing": null,
       "loan": {
         "loanCost": 1917,
@@ -2337,7 +2337,7 @@
       "maxAllowedBid": 675000,
       "isReserved": false,
       "isSoldByBuyNow": false,
-      "favouriteCount": 3,
+      "favouriteCount": 4,
       "winningBid": null,
       "activeAuction": {
         "auctionId": "309438",
@@ -2770,6 +2770,6 @@
     "closedAt": "2026-10-30T11:10:02.623981+00:00",
     "updatedAt": "2026-10-30T13:11:44.085590+00:00"
   },
-  "_scraped_at": "2026-10-30T16:16:18.261053+00:00",
+  "_scraped_at": "2026-10-30T19:53:42.130771+00:00",
   "_url": "https://www.kvd.se/auktioner/mercedes-sprinter-316-cdi-skap-rwd-163hk-309193"
 }

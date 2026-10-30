@@ -44,18 +44,223 @@
   "eurBuyNowAmount": null,
   "winningBid": null,
   "processObject": {
-    "displayCar360Spin": true,
+    "objectType": "CAR",
+    "buyNowAmount": null,
+    "reducedPrice": false,
+    "testDriveAllowed": true,
+    "isFixedPrice": false,
+    "baseObject": {
+      "gearbox": null,
+      "baseObjectType": "CAR",
+      "odometerReading": null,
+      "authorityRegisterInformation": {
+        "vehicleOrigin": {
+          "originCode": "INFÖRT",
+          "originCodeReason": null,
+          "importerIdentifier": null,
+          "preRegistrationDate": null,
+          "importRegistrationDate": null,
+          "importedForPersonalUse": false,
+          "importedPreviouslyRegistered": false
+        },
+        "generalTechSpecification": {
+          "eeg": "e2*2001/116*0323*65",
+          "fuels": [
+            {
+              "fuelCode": "Diesel",
+              "powerUnit": "EG",
+              "enginePower": 84,
+              "enginePowerHp": 114,
+              "fuelTankVolume": ""
+            }
+          ],
+          "width": 1804,
+          "height": 1617,
+          "length": 4341,
+          "gearbox": null,
+          "variant": "DHD4",
+          "version": "AD6UB220M0B0",
+          "taxWeight": 1520,
+          "curbWeight": 1522,
+          "maxPayload": 430,
+          "totalWeight": 1952,
+          "chassisCode1": null,
+          "chassisCode2": null,
+          "cubicCapacity": "1461",
+          "numPassengers": "4",
+          "numberOfSeats": 5,
+          "fourWheelDrive": true,
+          "maxPullWeightB": 1548,
+          "clutchMechanism1": null,
+          "clutchMechanism2": null,
+          "maxTrailerWeight": null,
+          "chassisCodeSupplement": null,
+          "maxPullWieghtNoBreaks": null,
+          "maxPullWeightBExtended": null,
+          "maxSingle Axle TrailerWeight": null
+        },
+        "environmentalClassification": {
+          "fuels": [
+            {
+              "co2": 124,
+              "nox": "",
+              "nox4": null,
+              "fuelCode": "Diesel",
+              "hcThcNox": "",
+              "consumption": 4.7,
+              "noiseLevel": 69,
+              "emissionUnit": "g/km",
+              "innovationCo2": null,
+              "particleValue": "",
+              "particleMass4": null,
+              "consumptionUnit": "4,7",
+              "rangeNedcDrive": null,
+              "rangeWltpDrive": null,
+              "consumptionUrban": 5.3,
+              "rangeCityWltpDrive": null,
+              "consumptionExtraUrban": 4.4,
+              "electricEnergyConsumption": null,
+              "energyConsumptionWltpDrive": null
+            }
+          ],
+          "ecoFriendly": false,
+          "emissionClass": "EURO 6",
+          "innovationCode": null,
+          "environmentalClass": null,
+          "environmentalClassEuro": "6"
+        },
+        "vehicleStatus": {
+          "tax": 3105
+        },
+        "vehicleInspectionInformation": {
+          "inspections": [
+            {
+              "inspectionType": "5",
+              "odometerReading": 73155,
+              "dateOfInspection": "2025-10-28"
+            },
+            {
+              "inspectionType": "13",
+              "odometerReading": null,
+              "dateOfInspection": "2022-02-04"
+            }
+          ],
+          "inspectionGroup": "36/24/14",
+          "odometerReading": 73155,
+          "inspectionPeriod": "2025-10-28 - 2027-10-31",
+          "dateOfInspection": "2025-10-28",
+          "inspectionValidToDate": "2027-10-31",
+          "inspectionExemptionGroup": null
+        },
+        "registrationInformation": {
+          "registrationPlate": "TGF97H",
+          "deregistrationDate": null,
+          "deregistrationText": null,
+          "deregistrationReason": null
+        },
+        "vehicleInformation": {
+          "vin": "VF1HJD40568495841",
+          "body": "AC",
+          "type": "CAR",
+          "year": "2022",
+          "model": "DUSTER",
+          "rawType": "PB",
+          "modelYear": null,
+          "categoryEu": "e2*2001/116*0323*65",
+          "groupNumber": "DQ 033052",
+          "modelNumber": "DQ 000000",
+          "chassisNumber": "VF1HJD40568495841",
+          "exteriorColor": "Black",
+          "fabricAndMake": "DACIA",
+          "baseObjectType": "CAR",
+          "manufactureCode": null,
+          "manufactureMonth": "202201",
+          "registrationDate": "2022-02-04",
+          "initialTrafficDate": "2022-09-09",
+          "registrationPlateReused": null
+        },
+        "additionalTechSpecification": {
+          "raceCar": null,
+          "wheelbase1": 2673,
+          "wheelbase2": null,
+          "wheelbase3": null,
+          "wheelbase4": null,
+          "equipment1": null,
+          "equipment2": null,
+          "equipment3": null,
+          "maximumSpeed": 175,
+          "numAxleShafts": 2,
+          "passengerAirBag": true,
+          "tyreDimensionRear": "215/60 R17 (100) H",
+          "tyreDimensionFront": "215/60 R17 (100) H",
+          "dualSteeringControl": null
+        }
+      },
+      "fuels": [
+        {
+          "fuelCode": "Diesel",
+          "powerUnit": "EG",
+          "enginePower": 84,
+          "enginePowerHp": 114,
+          "fuelTankVolume": ""
+        }
+      ],
+      "earliestAvailableAt": null,
+      "modelName": "Duster 1.5 dCi 4x4 (115hk)",
+      "salesFlow": "CORPORATE_CARS_SMALL",
+      "registrationPlate": "TGF97H",
+      "state": "MANUAL_VALUATION_PENDING",
+      "odometerUnit": "km",
+      "fabricAndMake": "DACIA",
+      "registrationCountry": "se",
+      "id": "519314",
+      "familyName": "Duster",
+      "modelId": null,
+      "year": "2022",
+      "createdAt": "2026-09-29T10:26:17.684430+00:00",
+      "brand": "Dacia",
+      "body": "SUV",
+      "exteriorColor": "Black",
+      "technicalSpecification": {
+        "modelId": null,
+        "vehicle": {
+          "brand": "Dacia",
+          "body": "SUV",
+          "modelName": "Duster 1.5 dCi 4x4 (115hk)",
+          "familyName": "Duster"
+        },
+        "year": "2022"
+      }
+    },
+    "vehicleType": "CAR",
+    "initialBuyNowAmount": null,
+    "baseObjectId": "519314",
     "conditionClassification": "TESTED",
     "proactiveBrokering": null,
+    "presentationApproved": false,
+    "state": "AUCTION",
     "properties": {
-      "length": 4341,
-      "mustExport": false,
-      "odometerUnit": "km",
-      "familyName": "Duster",
-      "drivingBan": false,
-      "taxWeight": 1520,
-      "odometerReading": 83020,
       "grades": {
+        "BRAKES": {
+          "max": 3,
+          "value": 2,
+          "min": 1
+        },
+        "TOTAL": {
+          "max": 5,
+          "value": 3,
+          "min": 1
+        },
+        "TECHNOLOGY_AND_EQUIPMENT": {
+          "max": 3,
+          "value": 2,
+          "min": 1
+        },
+        "ENGINE_AND_GEARBOX": {
+          "max": 3,
+          "value": 3,
+          "min": 1
+        },
         "INTERIOR": {
           "max": 5,
           "value": 3,
@@ -65,142 +270,9 @@
           "max": 5,
           "value": 3,
           "min": 1
-        },
-        "TOTAL": {
-          "max": 5,
-          "value": 3,
-          "min": 1
-        },
-        "ENGINE_AND_GEARBOX": {
-          "max": 3,
-          "value": 3,
-          "min": 1
-        },
-        "TECHNOLOGY_AND_EQUIPMENT": {
-          "max": 3,
-          "value": 2,
-          "min": 1
-        },
-        "BRAKES": {
-          "max": 3,
-          "value": 2,
-          "min": 1
         }
       },
-      "fuels": [
-        {
-          "enginePower": 114,
-          "fuelCode": "Diesel",
-          "co2": 124,
-          "consumption": 4.7
-        }
-      ],
-      "curbWeight": 1522,
-      "remarks": {
-        "TIRES": [],
-        "INTERIOR": [
-          {
-            "category": "INTERIOR",
-            "key": "Invändigt flertal repor, fläckar och märken",
-            "id": "0"
-          },
-          {
-            "category": "INTERIOR",
-            "key": "Spår av pälsdjur",
-            "id": "1"
-          }
-        ],
-        "EXTERIOR": [
-          {
-            "category": "EXTERIOR",
-            "key": "Flertal lackskador, stenskott, bucklor och repor",
-            "id": "0"
-          }
-        ],
-        "ENGINE_AND_GEARBOX": [],
-        "TECHNOLOGY_AND_EQUIPMENT": [
-          {
-            "category": "TECHNOLOGY_AND_EQUIPMENT",
-            "key": "Däcktrycksövervakningslampa lyser",
-            "id": "0"
-          }
-        ],
-        "BRAKES": [
-          {
-            "category": "BRAKES",
-            "key": "Bromsskivor fram är slitna, behöver bytas inom 6 månader",
-            "id": "0"
-          }
-        ]
-      },
-      "width": 1804,
-      "numberOfSeats": 5,
-      "body": "SUV",
-      "maxPullWeightB": 1548,
-      "textile": "Textil",
-      "ecoFriendly": false,
-      "maxPayload": 430,
-      "exportable": true,
-      "inspectionValidToDate": "2027-10-31",
-      "taxFee": 3105,
-      "modelYear": 2022,
-      "inspectionPeriod": "2025-10-28 - 2027-10-31",
-      "dateOfInspection": "2025-10-28",
-      "registrationPlate": "TGF97H",
-      "totalWeight": 1952,
-      "adHeader": "Duster 1.5 dCi 4x4 (115hk) Vinterhjul Backkamera",
       "numberOfKeys": 1,
-      "towbar": false,
-      "hasUnpaidLoan": false,
-      "equipment": [
-        "4WD",
-        "Antisladdsystem",
-        "Backkamera",
-        "Bluetooth",
-        "Dödavinkelvarnare",
-        "Elhiss bak",
-        "Elhiss fram",
-        "Elspeglar",
-        "Farthållare",
-        "Fastmonterad dragkrok",
-        "Fjärrlås",
-        "GPS",
-        "Isofix bak",
-        "Klimatanläggning",
-        "Parkeringssensorer bak",
-        "Radio",
-        "Start/Stop-funktion",
-        "Stolsvärme fram",
-        "Urkopplingsbar passagerarairbag",
-        "USB-ingång"
-      ],
-      "isRepairObject": false,
-      "mediation": true,
-      "residualLoanValue": 0,
-      "numberOfPreviousOwners": 2,
-      "package": "Vinterhjul Backkamera",
-      "remarksLocalized": {
-        "TIRES": null,
-        "BRAKES": "Bromsskivor fram är slitna, behöver bytas inom 6 månader",
-        "EXTERIOR": "Flertal lackskador, stenskott, bucklor och repor",
-        "INTERIOR": "Invändigt flertal repor, fläckar och märken. Spår av pälsdjur",
-        "ENGINE_AND_GEARBOX": null,
-        "TECHNOLOGY_AND_EQUIPMENT": "Däcktrycksövervakningslampa lyser"
-      },
-      "importedForPersonalUse": false,
-      "gearbox": "Manual",
-      "title": "Dacia Duster 1.5 dCi 4x4 (115hk)",
-      "chassisNumber": "VF1HJD40568495841",
-      "deductibleVat": true,
-      "saleLimitedToCorporate": false,
-      "heavyEquipment": false,
-      "manufactureMonth": "202201",
-      "height": 1617,
-      "initialTrafficDate": "2022-09-09",
-      "registrationCountry": "se",
-      "environmentalClassEuro": "6",
-      "registrationPlateCountry": "se",
-      "brand": "Dacia",
       "formattedEquipment": [
         {
           "key": "4WD",
@@ -323,20 +395,133 @@
           "priority": 19
         }
       ],
-      "modelName": "Duster 1.5 dCi 4x4 (115hk)",
-      "finishType": "Metallic",
+      "exportable": true,
+      "mustExport": false,
+      "deductibleVat": true,
+      "manufactureMonth": "202201",
+      "totalWeight": 1952,
+      "dateOfInspection": "2025-10-28",
+      "registrationPlate": "TGF97H",
+      "equipment": [
+        "4WD",
+        "Antisladdsystem",
+        "Backkamera",
+        "Bluetooth",
+        "Dödavinkelvarnare",
+        "Elhiss bak",
+        "Elhiss fram",
+        "Elspeglar",
+        "Farthållare",
+        "Fastmonterad dragkrok",
+        "Fjärrlås",
+        "GPS",
+        "Isofix bak",
+        "Klimatanläggning",
+        "Parkeringssensorer bak",
+        "Radio",
+        "Start/Stop-funktion",
+        "Stolsvärme fram",
+        "Urkopplingsbar passagerarairbag",
+        "USB-ingång"
+      ],
+      "taxWeight": 1520,
+      "odometerUnit": "km",
+      "mediation": true,
+      "ecoFriendly": false,
+      "towbar": false,
+      "remarksLocalized": {
+        "TIRES": null,
+        "BRAKES": "Bromsskivor fram är slitna, behöver bytas inom 6 månader",
+        "EXTERIOR": "Flertal lackskador, stenskott, bucklor och repor",
+        "INTERIOR": "Invändigt flertal repor, fläckar och märken. Spår av pälsdjur",
+        "ENGINE_AND_GEARBOX": null,
+        "TECHNOLOGY_AND_EQUIPMENT": "Däcktrycksövervakningslampa lyser"
+      },
+      "width": 1804,
+      "body": "SUV",
       "exteriorColor": "Black",
+      "remarks": {
+        "TIRES": [],
+        "BRAKES": [
+          {
+            "category": "BRAKES",
+            "id": "0",
+            "key": "Bromsskivor fram är slitna, behöver bytas inom 6 månader"
+          }
+        ],
+        "TECHNOLOGY_AND_EQUIPMENT": [
+          {
+            "category": "TECHNOLOGY_AND_EQUIPMENT",
+            "id": "0",
+            "key": "Däcktrycksövervakningslampa lyser"
+          }
+        ],
+        "ENGINE_AND_GEARBOX": [],
+        "INTERIOR": [
+          {
+            "category": "INTERIOR",
+            "id": "0",
+            "key": "Invändigt flertal repor, fläckar och märken"
+          },
+          {
+            "category": "INTERIOR",
+            "id": "1",
+            "key": "Spår av pälsdjur"
+          }
+        ],
+        "EXTERIOR": [
+          {
+            "category": "EXTERIOR",
+            "id": "0",
+            "key": "Flertal lackskador, stenskott, bucklor och repor"
+          }
+        ]
+      },
+      "numberOfPreviousOwners": 2,
+      "adHeader": "Duster 1.5 dCi 4x4 (115hk) Vinterhjul Backkamera",
+      "fuels": [
+        {
+          "fuelCode": "Diesel",
+          "co2": 124,
+          "consumption": 4.7,
+          "enginePower": 114
+        }
+      ],
+      "textile": "Textil",
+      "maxPayload": 430,
+      "inspectionPeriod": "2025-10-28 - 2027-10-31",
+      "inspectionValidToDate": "2027-10-31",
+      "saleLimitedToCorporate": false,
+      "package": "Vinterhjul Backkamera",
+      "hasUnpaidLoan": false,
+      "heavyEquipment": false,
+      "residualLoanValue": 0,
+      "brand": "Dacia",
+      "gearbox": "Manual",
+      "height": 1617,
+      "maxPullWeightB": 1548,
+      "length": 4341,
+      "environmentalClassEuro": "6",
+      "curbWeight": 1522,
+      "drivingBan": false,
+      "initialTrafficDate": "2022-09-09",
+      "chassisNumber": "VF1HJD40568495841",
+      "familyName": "Duster",
+      "finishType": "Metallic",
+      "importedForPersonalUse": false,
+      "isRepairObject": false,
+      "title": "Dacia Duster 1.5 dCi 4x4 (115hk)",
+      "odometerReading": 83020,
+      "modelName": "Duster 1.5 dCi 4x4 (115hk)",
+      "modelYear": 2022,
+      "numberOfSeats": 5,
+      "registrationPlateCountry": "se",
+      "registrationCountry": "se",
+      "taxFee": 3105,
       "heading1": "Dacia Duster",
       "heading2": "1.5 dCi 4x4",
       "heading3": "Vinterhjul Backkamera"
     },
-    "car360Spin": null,
-    "testDriveAllowed": true,
-    "certified": false,
-    "objectType": "CAR",
-    "statisticalValuation": null,
-    "buyNowAmount": null,
-    "sellMethod": "BIDDING",
     "orderableAdditionalServices": {
       "tradein": false,
       "transport": true,
@@ -345,201 +530,16 @@
       "warranty": true,
       "extraTires": false
     },
-    "isFixedPrice": false,
-    "vehicleType": "CAR",
-    "leaseReturnProperties": {},
-    "baseObjectId": "519314",
-    "initialBuyNowAmount": null,
-    "isReleasable": false,
-    "id": "7290352",
     "offsiteSalesContact": null,
-    "presentationApproved": false,
+    "leaseReturnProperties": {},
+    "id": "7290352",
+    "displayCar360Spin": true,
+    "certified": false,
+    "sellMethod": "BIDDING",
+    "isReleasable": false,
+    "car360Spin": null,
+    "statisticalValuation": null,
     "createdAt": "2026-09-29 10:26:17.946561+00:00",
-    "state": "AUCTION",
-    "reducedPrice": false,
-    "baseObject": {
-      "body": "SUV",
-      "modelId": null,
-      "exteriorColor": "Black",
-      "baseObjectType": "CAR",
-      "registrationCountry": "se",
-      "odometerUnit": "km",
-      "familyName": "Duster",
-      "odometerReading": null,
-      "earliestAvailableAt": null,
-      "brand": "Dacia",
-      "registrationPlate": "TGF97H",
-      "fuels": [
-        {
-          "fuelCode": "Diesel",
-          "powerUnit": "EG",
-          "enginePower": 84,
-          "enginePowerHp": 114,
-          "fuelTankVolume": ""
-        }
-      ],
-      "id": "519314",
-      "authorityRegisterInformation": {
-        "generalTechSpecification": {
-          "eeg": "e2*2001/116*0323*65",
-          "fuels": [
-            {
-              "fuelCode": "Diesel",
-              "powerUnit": "EG",
-              "enginePower": 84,
-              "enginePowerHp": 114,
-              "fuelTankVolume": ""
-            }
-          ],
-          "width": 1804,
-          "height": 1617,
-          "length": 4341,
-          "gearbox": null,
-          "variant": "DHD4",
-          "version": "AD6UB220M0B0",
-          "taxWeight": 1520,
-          "curbWeight": 1522,
-          "maxPayload": 430,
-          "totalWeight": 1952,
-          "chassisCode1": null,
-          "chassisCode2": null,
-          "cubicCapacity": "1461",
-          "numPassengers": "4",
-          "numberOfSeats": 5,
-          "fourWheelDrive": true,
-          "maxPullWeightB": 1548,
-          "clutchMechanism1": null,
-          "clutchMechanism2": null,
-          "maxTrailerWeight": null,
-          "chassisCodeSupplement": null,
-          "maxPullWieghtNoBreaks": null,
-          "maxPullWeightBExtended": null,
-          "maxSingle Axle TrailerWeight": null
-        },
-        "vehicleOrigin": {
-          "originCode": "INFÖRT",
-          "originCodeReason": null,
-          "importerIdentifier": null,
-          "preRegistrationDate": null,
-          "importRegistrationDate": null,
-          "importedForPersonalUse": false,
-          "importedPreviouslyRegistered": false
-        },
-        "vehicleInspectionInformation": {
-          "inspections": [
-            {
-              "inspectionType": "5",
-              "odometerReading": 73155,
-              "dateOfInspection": "2025-10-28"
-            },
-            {
-              "inspectionType": "13",
-              "odometerReading": null,
-              "dateOfInspection": "2022-02-04"
-            }
-          ],
-          "inspectionGroup": "36/24/14",
-          "odometerReading": 73155,
-          "inspectionPeriod": "2025-10-28 - 2027-10-31",
-          "dateOfInspection": "2025-10-28",
-          "inspectionValidToDate": "2027-10-31",
-          "inspectionExemptionGroup": null
-        },
-        "environmentalClassification": {
-          "fuels": [
-            {
-              "co2": 124,
-              "nox": "",
-              "nox4": null,
-              "fuelCode": "Diesel",
-              "hcThcNox": "",
-              "consumption": 4.7,
-              "noiseLevel": 69,
-              "emissionUnit": "g/km",
-              "innovationCo2": null,
-              "particleValue": "",
-              "particleMass4": null,
-              "consumptionUnit": "4,7",
-              "rangeNedcDrive": null,
-              "rangeWltpDrive": null,
-              "consumptionUrban": 5.3,
-              "rangeCityWltpDrive": null,
-              "consumptionExtraUrban": 4.4,
-              "electricEnergyConsumption": null,
-              "energyConsumptionWltpDrive": null
-            }
-          ],
-          "ecoFriendly": false,
-          "emissionClass": "EURO 6",
-          "innovationCode": null,
-          "environmentalClass": null,
-          "environmentalClassEuro": "6"
-        },
-        "additionalTechSpecification": {
-          "raceCar": null,
-          "wheelbase1": 2673,
-          "wheelbase2": null,
-          "wheelbase3": null,
-          "wheelbase4": null,
-          "equipment1": null,
-          "equipment2": null,
-          "equipment3": null,
-          "maximumSpeed": 175,
-          "numAxleShafts": 2,
-          "passengerAirBag": true,
-          "tyreDimensionRear": "215/60 R17 (100) H",
-          "tyreDimensionFront": "215/60 R17 (100) H",
-          "dualSteeringControl": null
-        },
-        "vehicleStatus": {
-          "tax": 3105
-        },
-        "vehicleInformation": {
-          "vin": "VF1HJD40568495841",
-          "body": "AC",
-          "type": "CAR",
-          "year": "2022",
-          "model": "DUSTER",
-          "rawType": "PB",
-          "modelYear": null,
-          "categoryEu": "e2*2001/116*0323*65",
-          "groupNumber": "DQ 033052",
-          "modelNumber": "DQ 000000",
-          "chassisNumber": "VF1HJD40568495841",
-          "exteriorColor": "Black",
-          "fabricAndMake": "DACIA",
-          "baseObjectType": "CAR",
-          "manufactureCode": null,
-          "manufactureMonth": "202201",
-          "registrationDate": "2022-02-04",
-          "initialTrafficDate": "2022-09-09",
-          "registrationPlateReused": null
-        },
-        "registrationInformation": {
-          "registrationPlate": "TGF97H",
-          "deregistrationDate": null,
-          "deregistrationText": null,
-          "deregistrationReason": null
-        }
-      },
-      "modelName": "Duster 1.5 dCi 4x4 (115hk)",
-      "createdAt": "2026-09-29T10:26:17.684430+00:00",
-      "state": "MANUAL_VALUATION_PENDING",
-      "gearbox": null,
-      "salesFlow": "CORPORATE_CARS_SMALL",
-      "year": "2022",
-      "fabricAndMake": "DACIA",
-      "technicalSpecification": {
-        "modelId": null,
-        "vehicle": {
-          "brand": "Dacia",
-          "body": "SUV",
-          "modelName": "Duster 1.5 dCi 4x4 (115hk)",
-          "familyName": "Duster"
-        },
-        "year": "2022"
-      }
-    },
     "exportable": true,
     "deductibleVat": true,
     "collisionWarranty": null,
@@ -1775,6 +1775,6 @@
     "closedAt": "2026-10-30T09:00:00.048977+00:00",
     "updatedAt": "2026-10-30T10:49:27.926493+00:00"
   },
-  "_scraped_at": "2026-10-30T16:16:10.750045+00:00",
+  "_scraped_at": "2026-10-30T19:53:34.800798+00:00",
   "_url": "https://www.kvd.se/auktioner/dacia-duster-1-5-dci-4x4-115hk-309205"
 }

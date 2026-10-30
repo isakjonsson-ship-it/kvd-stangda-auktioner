@@ -54,137 +54,27 @@
     "evaluationType": "BROKERING"
   },
   "processObject": {
-    "displayCar360Spin": true,
-    "conditionClassification": "TESTED",
+    "orderableAdditionalServices": {
+      "tradein": false,
+      "transport": true,
+      "insurance": true,
+      "finance": true,
+      "warranty": true,
+      "extraTires": false
+    },
+    "car360Spin": null,
     "proactiveBrokering": null,
+    "displayCar360Spin": true,
+    "offsiteSalesContact": null,
+    "sellMethod": "BIDDING",
+    "reducedPrice": false,
+    "conditionClassification": "TESTED",
     "properties": {
-      "length": 6198,
-      "mustExport": false,
-      "odometerUnit": "km",
-      "familyName": "Master",
-      "drivingBan": false,
-      "taxWeight": 3500,
-      "odometerReading": 190510,
-      "grades": {
-        "INTERIOR": {
-          "max": 5,
-          "value": 2,
-          "min": 1
-        },
-        "EXTERIOR": {
-          "max": 5,
-          "value": 2,
-          "min": 1
-        },
-        "TOTAL": {
-          "max": 5,
-          "value": 3,
-          "min": 1
-        },
-        "ENGINE_AND_GEARBOX": {
-          "max": 3,
-          "value": 3,
-          "min": 1
-        },
-        "TECHNOLOGY_AND_EQUIPMENT": {
-          "max": 3,
-          "value": 2,
-          "min": 1
-        },
-        "BRAKES": {
-          "max": 3,
-          "value": 3,
-          "min": 1
-        }
-      },
-      "fuels": [
-        {
-          "enginePower": 163,
-          "fuelCode": "Diesel",
-          "co2": 184,
-          "consumption": 7
-        }
-      ],
+      "exteriorColor": "White",
+      "brand": "Renault",
+      "mediation": true,
       "curbWeight": 2222,
-      "remarks": {
-        "TIRES": [],
-        "INTERIOR": [
-          {
-            "category": "INTERIOR",
-            "key": "Invändigt flertal repor, fläckar och märken",
-            "id": "0"
-          },
-          {
-            "category": "INTERIOR",
-            "key": "Sliten inredning",
-            "id": "1"
-          },
-          {
-            "category": "INTERIOR",
-            "key": "Trasiga inredningsdetaljer",
-            "id": "2"
-          }
-        ],
-        "EXTERIOR": [
-          {
-            "category": "EXTERIOR",
-            "key": "Missljud vid öppning av vänster/höger framdörr, Några karosskador, bucklor, lackskdor, stenskott och repor",
-            "id": "0"
-          },
-          {
-            "category": "EXTERIOR",
-            "key": "Bristfällig fastsättning höger framdörr, Fåtal rostangrepp, Spår efter tidigare dekor",
-            "id": "1"
-          }
-        ],
-        "ENGINE_AND_GEARBOX": [],
-        "TECHNOLOGY_AND_EQUIPMENT": [
-          {
-            "category": "TECHNOLOGY_AND_EQUIPMENT",
-            "key": "Parkeringsvärmare med fjärrstyrning, ur funktion",
-            "id": "0"
-          },
-          {
-            "category": "TECHNOLOGY_AND_EQUIPMENT",
-            "key": "Spricka i vindruta",
-            "id": "1"
-          },
-          {
-            "category": "TECHNOLOGY_AND_EQUIPMENT",
-            "key": "AC ur funktion",
-            "id": "2"
-          },
-          {
-            "category": "TECHNOLOGY_AND_EQUIPMENT",
-            "key": "Handskfack går ej att stänga",
-            "id": "3"
-          },
-          {
-            "category": "TECHNOLOGY_AND_EQUIPMENT",
-            "key": "Handtag till förar dörr kärvar",
-            "id": "4"
-          }
-        ],
-        "BRAKES": []
-      },
-      "width": 2070,
-      "numberOfSeats": 3,
-      "body": "Van",
-      "maxPullWeightB": 750,
-      "textile": "Textil",
-      "ecoFriendly": false,
       "maxPayload": 1278,
-      "exportable": true,
-      "inspectionValidToDate": "2027-09-30",
-      "taxFee": 4909,
-      "modelYear": 2016,
-      "inspectionPeriod": "2026-07-16 - 2027-09-30",
-      "dateOfInspection": "2026-07-16",
-      "registrationPlate": "BJC701",
-      "totalWeight": 3500,
-      "numberOfKeys": 2,
-      "towbar": true,
-      "hasUnpaidLoan": false,
       "equipment": [
         "AC",
         "Antisladdsystem",
@@ -202,32 +92,21 @@
         "Stolsvärme fram",
         "USB-ingång"
       ],
-      "isRepairObject": false,
-      "mediation": true,
-      "residualLoanValue": 0,
-      "numberOfPreviousOwners": 3,
-      "remarksLocalized": {
-        "TIRES": null,
-        "BRAKES": null,
-        "EXTERIOR": "Missljud vid öppning av vänster/höger framdörr, Några karosskador, bucklor, lackskdor, stenskott och repor. Bristfällig fastsättning höger framdörr, Fåtal rostangrepp, Spår efter tidigare dekor",
-        "INTERIOR": "Invändigt flertal repor, fläckar och märken. Sliten inredning. Trasiga inredningsdetaljer",
-        "ENGINE_AND_GEARBOX": null,
-        "TECHNOLOGY_AND_EQUIPMENT": "Parkeringsvärmare med fjärrstyrning, ur funktion. Spricka i vindruta. AC ur funktion. Handskfack går ej att stänga. Handtag till förar dörr kärvar"
-      },
-      "importedForPersonalUse": false,
-      "gearbox": "Manual",
-      "title": "Renault Master 2.3 dCi FAP RWD (165hk)",
-      "chassisNumber": "VF1MAF4ZE55562096",
-      "deductibleVat": false,
+      "inspectionValidToDate": "2027-09-30",
+      "odometerUnit": "km",
+      "length": 6198,
+      "finishType": "Solid",
+      "textile": "Textil",
       "saleLimitedToCorporate": false,
-      "heavyEquipment": false,
-      "manufactureMonth": "201605",
-      "height": 2475,
-      "initialTrafficDate": "2016-07-22",
-      "registrationCountry": "se",
-      "environmentalClassEuro": "5",
+      "chassisNumber": "VF1MAF4ZE55562096",
+      "title": "Renault Master 2.3 dCi FAP RWD (165hk)",
+      "dateOfInspection": "2026-07-16",
+      "inspectionPeriod": "2026-07-16 - 2027-09-30",
+      "totalWeight": 3500,
       "registrationPlateCountry": "se",
-      "brand": "Renault",
+      "exportable": true,
+      "residualLoanValue": 0,
+      "taxFee": 4909,
       "formattedEquipment": [
         {
           "key": "AC",
@@ -320,63 +199,207 @@
           "priority": 14
         }
       ],
+      "familyName": "Master",
+      "environmentalClassEuro": "5",
+      "towbar": true,
+      "isRepairObject": false,
+      "body": "Van",
+      "numberOfSeats": 3,
+      "maxPullWeightB": 750,
+      "fuels": [
+        {
+          "enginePower": 163,
+          "consumption": 7,
+          "co2": 184,
+          "fuelCode": "Diesel"
+        }
+      ],
+      "grades": {
+        "INTERIOR": {
+          "value": 2,
+          "min": 1,
+          "max": 5
+        },
+        "TOTAL": {
+          "value": 3,
+          "min": 1,
+          "max": 5
+        },
+        "ENGINE_AND_GEARBOX": {
+          "value": 3,
+          "min": 1,
+          "max": 3
+        },
+        "EXTERIOR": {
+          "value": 2,
+          "min": 1,
+          "max": 5
+        },
+        "BRAKES": {
+          "value": 3,
+          "min": 1,
+          "max": 3
+        },
+        "TECHNOLOGY_AND_EQUIPMENT": {
+          "value": 2,
+          "min": 1,
+          "max": 3
+        }
+      },
+      "odometerReading": 190510,
+      "initialTrafficDate": "2016-07-22",
+      "mustExport": false,
+      "manufactureMonth": "201605",
+      "ecoFriendly": false,
+      "deductibleVat": false,
+      "numberOfKeys": 2,
+      "registrationPlate": "BJC701",
+      "numberOfPreviousOwners": 3,
+      "heavyEquipment": false,
+      "modelYear": 2016,
+      "height": 2475,
+      "gearbox": "Manual",
       "modelName": "Master 2.3 dCi FAP RWD (165hk)",
-      "finishType": "Solid",
-      "exteriorColor": "White",
+      "taxWeight": 3500,
+      "width": 2070,
+      "remarks": {
+        "INTERIOR": [
+          {
+            "key": "Invändigt flertal repor, fläckar och märken",
+            "id": "0",
+            "category": "INTERIOR"
+          },
+          {
+            "key": "Sliten inredning",
+            "id": "1",
+            "category": "INTERIOR"
+          },
+          {
+            "key": "Trasiga inredningsdetaljer",
+            "id": "2",
+            "category": "INTERIOR"
+          }
+        ],
+        "ENGINE_AND_GEARBOX": [],
+        "EXTERIOR": [
+          {
+            "key": "Missljud vid öppning av vänster/höger framdörr, Några karosskador, bucklor, lackskdor, stenskott och repor",
+            "id": "0",
+            "category": "EXTERIOR"
+          },
+          {
+            "key": "Bristfällig fastsättning höger framdörr, Fåtal rostangrepp, Spår efter tidigare dekor",
+            "id": "1",
+            "category": "EXTERIOR"
+          }
+        ],
+        "BRAKES": [],
+        "TECHNOLOGY_AND_EQUIPMENT": [
+          {
+            "key": "Parkeringsvärmare med fjärrstyrning, ur funktion",
+            "id": "0",
+            "category": "TECHNOLOGY_AND_EQUIPMENT"
+          },
+          {
+            "key": "Spricka i vindruta",
+            "id": "1",
+            "category": "TECHNOLOGY_AND_EQUIPMENT"
+          },
+          {
+            "key": "AC ur funktion",
+            "id": "2",
+            "category": "TECHNOLOGY_AND_EQUIPMENT"
+          },
+          {
+            "key": "Handskfack går ej att stänga",
+            "id": "3",
+            "category": "TECHNOLOGY_AND_EQUIPMENT"
+          },
+          {
+            "key": "Handtag till förar dörr kärvar",
+            "id": "4",
+            "category": "TECHNOLOGY_AND_EQUIPMENT"
+          }
+        ],
+        "TIRES": []
+      },
+      "drivingBan": false,
+      "remarksLocalized": {
+        "TIRES": null,
+        "BRAKES": null,
+        "EXTERIOR": "Missljud vid öppning av vänster/höger framdörr, Några karosskador, bucklor, lackskdor, stenskott och repor. Bristfällig fastsättning höger framdörr, Fåtal rostangrepp, Spår efter tidigare dekor",
+        "INTERIOR": "Invändigt flertal repor, fläckar och märken. Sliten inredning. Trasiga inredningsdetaljer",
+        "ENGINE_AND_GEARBOX": null,
+        "TECHNOLOGY_AND_EQUIPMENT": "Parkeringsvärmare med fjärrstyrning, ur funktion. Spricka i vindruta. AC ur funktion. Handskfack går ej att stänga. Handtag till förar dörr kärvar"
+      },
+      "hasUnpaidLoan": false,
+      "registrationCountry": "se",
+      "importedForPersonalUse": false,
       "heading1": "Renault Master",
       "heading2": "2.3 dCi FAP RWD",
       "heading3": null
     },
-    "car360Spin": null,
-    "testDriveAllowed": true,
-    "certified": false,
-    "objectType": "LIGHT_TRUCK",
-    "statisticalValuation": null,
-    "buyNowAmount": null,
-    "sellMethod": "BIDDING",
-    "orderableAdditionalServices": {
-      "tradein": false,
-      "transport": true,
-      "insurance": true,
-      "finance": true,
-      "warranty": true,
-      "extraTires": false
-    },
-    "isFixedPrice": false,
-    "vehicleType": "LIGHT_TRANSPORT",
-    "leaseReturnProperties": {},
-    "baseObjectId": "508823",
-    "initialBuyNowAmount": null,
-    "isReleasable": false,
-    "id": "7284979",
-    "offsiteSalesContact": null,
-    "presentationApproved": false,
-    "createdAt": "2026-08-10 15:22:36.147736+00:00",
-    "state": "AUCTION_RESOLUTION",
-    "reducedPrice": false,
     "baseObject": {
-      "body": "Van",
-      "modelId": null,
       "exteriorColor": "White",
-      "baseObjectType": "LIGHT_TRUCK",
-      "registrationCountry": "se",
-      "odometerUnit": "km",
-      "familyName": "Master",
-      "odometerReading": 189873,
-      "earliestAvailableAt": null,
-      "brand": "Renault",
       "registrationPlate": "BJC701",
-      "fuels": [
-        {
-          "fuelCode": "Diesel",
-          "powerUnit": "EG",
-          "enginePower": 120,
-          "enginePowerHp": 163,
-          "fuelTankVolume": ""
-        }
-      ],
-      "id": "508823",
+      "year": "2016",
+      "body": "Van",
       "authorityRegisterInformation": {
+        "additionalTechSpecification": {
+          "raceCar": null,
+          "wheelbase1": 4332,
+          "wheelbase2": null,
+          "wheelbase3": null,
+          "wheelbase4": null,
+          "equipment1": null,
+          "equipment2": null,
+          "equipment3": null,
+          "maximumSpeed": 161,
+          "numAxleShafts": 2,
+          "passengerAirBag": true,
+          "tyreDimensionRear": "225/65 R 16 C(112/11",
+          "tyreDimensionFront": "225/65 R 16 C(112/11",
+          "dualSteeringControl": null
+        },
+        "environmentalClassification": {
+          "fuels": [
+            {
+              "co2": 184,
+              "nox": "",
+              "nox4": null,
+              "fuelCode": "Diesel",
+              "hcThcNox": "",
+              "consumption": 7,
+              "noiseLevel": 73,
+              "emissionUnit": "g/km",
+              "innovationCo2": null,
+              "particleValue": "",
+              "particleMass4": null,
+              "consumptionUnit": "7",
+              "rangeNedcDrive": null,
+              "rangeWltpDrive": null,
+              "consumptionUrban": 7.4,
+              "rangeCityWltpDrive": null,
+              "consumptionExtraUrban": 6.8,
+              "electricEnergyConsumption": null,
+              "energyConsumptionWltpDrive": null
+            }
+          ],
+          "ecoFriendly": false,
+          "emissionClass": "EURO 5",
+          "innovationCode": null,
+          "environmentalClass": null,
+          "environmentalClassEuro": "5"
+        },
+        "vehicleStatus": {
+          "tax": 4909
+        },
+        "registrationInformation": {
+          "registrationPlate": "BJC701",
+          "deregistrationDate": null,
+          "deregistrationText": null,
+          "deregistrationReason": null
+        },
         "generalTechSpecification": {
           "eeg": "e2*2007/46*0016*28",
           "fuels": [
@@ -442,55 +465,6 @@
           "inspectionValidToDate": "2027-09-30",
           "inspectionExemptionGroup": null
         },
-        "environmentalClassification": {
-          "fuels": [
-            {
-              "co2": 184,
-              "nox": "",
-              "nox4": null,
-              "fuelCode": "Diesel",
-              "hcThcNox": "",
-              "consumption": 7,
-              "noiseLevel": 73,
-              "emissionUnit": "g/km",
-              "innovationCo2": null,
-              "particleValue": "",
-              "particleMass4": null,
-              "consumptionUnit": "7",
-              "rangeNedcDrive": null,
-              "rangeWltpDrive": null,
-              "consumptionUrban": 7.4,
-              "rangeCityWltpDrive": null,
-              "consumptionExtraUrban": 6.8,
-              "electricEnergyConsumption": null,
-              "energyConsumptionWltpDrive": null
-            }
-          ],
-          "ecoFriendly": false,
-          "emissionClass": "EURO 5",
-          "innovationCode": null,
-          "environmentalClass": null,
-          "environmentalClassEuro": "5"
-        },
-        "additionalTechSpecification": {
-          "raceCar": null,
-          "wheelbase1": 4332,
-          "wheelbase2": null,
-          "wheelbase3": null,
-          "wheelbase4": null,
-          "equipment1": null,
-          "equipment2": null,
-          "equipment3": null,
-          "maximumSpeed": 161,
-          "numAxleShafts": 2,
-          "passengerAirBag": true,
-          "tyreDimensionRear": "225/65 R 16 C(112/11",
-          "tyreDimensionFront": "225/65 R 16 C(112/11",
-          "dualSteeringControl": null
-        },
-        "vehicleStatus": {
-          "tax": 4909
-        },
         "vehicleInformation": {
           "vin": "VF1MAF4ZE55562096",
           "body": "BB",
@@ -511,21 +485,32 @@
           "registrationDate": "2016-05-26",
           "initialTrafficDate": "2016-07-22",
           "registrationPlateReused": null
-        },
-        "registrationInformation": {
-          "registrationPlate": "BJC701",
-          "deregistrationDate": null,
-          "deregistrationText": null,
-          "deregistrationReason": null
         }
       },
-      "modelName": "Master 2.3 dCi FAP RWD (165hk)",
-      "createdAt": "2026-08-10T15:22:18.249627+00:00",
-      "state": "CREATED",
+      "brand": "Renault",
+      "id": "508823",
+      "fuels": [
+        {
+          "fuelCode": "Diesel",
+          "powerUnit": "EG",
+          "enginePower": 120,
+          "enginePowerHp": 163,
+          "fuelTankVolume": ""
+        }
+      ],
       "gearbox": "Manual",
-      "salesFlow": "CORPORATE_CARS_SMALL",
-      "year": "2016",
       "fabricAndMake": "RENAULT",
+      "baseObjectType": "LIGHT_TRUCK",
+      "modelId": null,
+      "odometerReading": 189873,
+      "modelName": "Master 2.3 dCi FAP RWD (165hk)",
+      "salesFlow": "CORPORATE_CARS_SMALL",
+      "state": "CREATED",
+      "odometerUnit": "km",
+      "earliestAvailableAt": null,
+      "registrationCountry": "se",
+      "createdAt": "2026-08-10T15:22:18.249627+00:00",
+      "familyName": "Master",
       "technicalSpecification": {
         "modelId": null,
         "vehicle": {
@@ -537,6 +522,21 @@
         "year": "2016"
       }
     },
+    "id": "7284979",
+    "leaseReturnProperties": {},
+    "vehicleType": "LIGHT_TRANSPORT",
+    "presentationApproved": false,
+    "baseObjectId": "508823",
+    "isFixedPrice": false,
+    "certified": false,
+    "objectType": "LIGHT_TRUCK",
+    "state": "AUCTION_RESOLUTION",
+    "initialBuyNowAmount": null,
+    "statisticalValuation": null,
+    "testDriveAllowed": true,
+    "buyNowAmount": null,
+    "isReleasable": false,
+    "createdAt": "2026-08-10 15:22:36.147736+00:00",
     "exportable": true,
     "deductibleVat": false,
     "collisionWarranty": null,
@@ -2233,6 +2233,6 @@
     "closedAt": "2026-10-29T10:12:08.308197+00:00",
     "updatedAt": "2026-10-30T08:48:23.380056+00:00"
   },
-  "_scraped_at": "2026-10-30T16:17:08.160046+00:00",
+  "_scraped_at": "2026-10-30T19:54:30.555324+00:00",
   "_url": "https://www.kvd.se/auktioner/renault-master-2-3-dci-fap-rwd-165hk-309060"
 }

@@ -55,67 +55,235 @@
     "evaluationType": "AUTOMATIC"
   },
   "processObject": {
-    "orderableAdditionalServices": {
-      "tradein": false,
-      "transport": true,
-      "insurance": true,
-      "finance": true,
-      "warranty": true,
-      "extraTires": false
-    },
-    "car360Spin": null,
-    "proactiveBrokering": null,
-    "displayCar360Spin": true,
-    "offsiteSalesContact": null,
-    "sellMethod": "BIDDING",
+    "objectType": "CAR",
+    "buyNowAmount": null,
     "reducedPrice": false,
-    "conditionClassification": "TESTED",
-    "properties": {
-      "adHeader": "Picanto 1.0 (67hk) Backkamera Automat",
-      "exteriorColor": "White",
-      "brand": "KIA",
-      "mediation": true,
-      "curbWeight": 1043,
-      "maxPayload": 277,
-      "equipment": [
-        "AC",
-        "Antisladdsystem",
-        "Autobroms",
-        "Backkamera",
-        "Bluetooth",
-        "Elhiss bak",
-        "Elhiss fram",
-        "Elspeglar",
-        "Farthållare",
-        "Filbytesvarnare",
-        "Fjärrlås",
-        "GPS",
-        "Isofix bak",
-        "Parkeringssensorer bak",
-        "Radio",
-        "Rattvärme",
-        "Regnsensor",
-        "Start/Stop-funktion",
-        "Stolsvärme fram",
-        "Urkopplingsbar passagerarairbag",
-        "USB-ingång"
+    "testDriveAllowed": true,
+    "isFixedPrice": false,
+    "baseObject": {
+      "gearbox": "Automatic",
+      "baseObjectType": "CAR",
+      "odometerReading": null,
+      "authorityRegisterInformation": {
+        "vehicleOrigin": {
+          "originCode": "INFÖRT",
+          "originCodeReason": null,
+          "importerIdentifier": null,
+          "preRegistrationDate": null,
+          "importRegistrationDate": null,
+          "importedForPersonalUse": false,
+          "importedPreviouslyRegistered": false
+        },
+        "generalTechSpecification": {
+          "eeg": "e5*2007/46*1078*09",
+          "fuels": [
+            {
+              "fuelCode": "Petrol",
+              "powerUnit": "EG",
+              "enginePower": 46.3,
+              "enginePowerHp": 63,
+              "fuelTankVolume": ""
+            }
+          ],
+          "width": 1595,
+          "height": 1485,
+          "length": 3605,
+          "gearbox": "Automatic",
+          "variant": "F4P71",
+          "version": "A51DZ1",
+          "taxWeight": 1040,
+          "curbWeight": 1043,
+          "maxPayload": 277,
+          "totalWeight": 1320,
+          "chassisCode1": null,
+          "chassisCode2": null,
+          "cubicCapacity": "998",
+          "numPassengers": "3",
+          "numberOfSeats": 4,
+          "fourWheelDrive": false,
+          "maxPullWeightB": "",
+          "clutchMechanism1": null,
+          "clutchMechanism2": null,
+          "maxTrailerWeight": null,
+          "chassisCodeSupplement": null,
+          "maxPullWieghtNoBreaks": null,
+          "maxPullWeightBExtended": null,
+          "maxSingle Axle TrailerWeight": null
+        },
+        "environmentalClassification": {
+          "fuels": [
+            {
+              "co2": "",
+              "nox": "",
+              "nox4": null,
+              "fuelCode": "Petrol",
+              "hcThcNox": "",
+              "consumption": "",
+              "noiseLevel": 70,
+              "emissionUnit": "g/km",
+              "innovationCo2": null,
+              "particleValue": "",
+              "particleMass4": null,
+              "consumptionUnit": "",
+              "rangeNedcDrive": null,
+              "rangeWltpDrive": null,
+              "consumptionUrban": "",
+              "rangeCityWltpDrive": null,
+              "consumptionExtraUrban": "",
+              "electricEnergyConsumption": null,
+              "energyConsumptionWltpDrive": null
+            }
+          ],
+          "ecoFriendly": false,
+          "emissionClass": "EURO 6",
+          "innovationCode": null,
+          "environmentalClass": null,
+          "environmentalClassEuro": "6"
+        },
+        "vehicleStatus": {
+          "tax": 5068
+        },
+        "vehicleInspectionInformation": {
+          "inspections": [
+            {
+              "inspectionType": "13",
+              "odometerReading": null,
+              "dateOfInspection": "2024-12-02"
+            },
+            {
+              "inspectionType": null,
+              "odometerReading": null,
+              "dateOfInspection": null
+            }
+          ],
+          "inspectionGroup": "36/24/14",
+          "odometerReading": "",
+          "inspectionPeriod": "2024-12-02 - 2028-01-31",
+          "dateOfInspection": "2024-12-02",
+          "inspectionValidToDate": "2028-01-31",
+          "inspectionExemptionGroup": null
+        },
+        "registrationInformation": {
+          "registrationPlate": "KGC91B",
+          "deregistrationDate": null,
+          "deregistrationText": null,
+          "deregistrationReason": null
+        },
+        "vehicleInformation": {
+          "vin": "KNAB3518JST320558",
+          "body": "AF",
+          "type": "CAR",
+          "year": "2024",
+          "model": "PICANTO",
+          "rawType": "PB",
+          "modelYear": null,
+          "categoryEu": "e5*2007/46*1078*09",
+          "groupNumber": "KG 142014",
+          "modelNumber": "KG 000000",
+          "chassisNumber": "KNAB3518JST320558",
+          "exteriorColor": "White",
+          "fabricAndMake": "KIA",
+          "baseObjectType": "CAR",
+          "manufactureCode": null,
+          "manufactureMonth": "202410",
+          "registrationDate": "2024-12-02",
+          "initialTrafficDate": "2025-01-27",
+          "registrationPlateReused": null
+        },
+        "additionalTechSpecification": {
+          "raceCar": null,
+          "wheelbase1": 2400,
+          "wheelbase2": null,
+          "wheelbase3": null,
+          "wheelbase4": null,
+          "equipment1": null,
+          "equipment2": null,
+          "equipment3": null,
+          "maximumSpeed": 145,
+          "numAxleShafts": 2,
+          "passengerAirBag": true,
+          "tyreDimensionRear": "175/65R1486T",
+          "tyreDimensionFront": "175/65R1486T",
+          "dualSteeringControl": null
+        }
+      },
+      "fuels": [
+        {
+          "fuelCode": "Petrol",
+          "powerUnit": "EG",
+          "enginePower": 46.3,
+          "enginePowerHp": 63,
+          "fuelTankVolume": ""
+        }
       ],
-      "inspectionValidToDate": "2028-01-31",
+      "earliestAvailableAt": null,
+      "modelName": "Picanto 1.0 DPI (67hk)",
+      "salesFlow": "CORPORATE_CARS",
+      "registrationPlate": "KGC91B",
+      "state": "MANUAL_VALUATION_PENDING",
       "odometerUnit": "km",
-      "length": 3605,
-      "finishType": "Solid",
-      "textile": "Textil",
-      "saleLimitedToCorporate": false,
-      "chassisNumber": "KNAB3518JST320558",
-      "title": "KIA Picanto 1.0 (67hk)",
-      "dateOfInspection": "2024-12-02",
-      "inspectionPeriod": "2024-12-02 - 2028-01-31",
-      "totalWeight": 1320,
-      "registrationPlateCountry": "se",
-      "collisionWarranty": "2028-01-26",
-      "exportable": true,
-      "residualLoanValue": 0,
-      "taxFee": 5068,
+      "fabricAndMake": "KIA",
+      "registrationCountry": "se",
+      "id": "522037",
+      "familyName": "Picanto",
+      "modelId": null,
+      "year": "2025",
+      "createdAt": "2026-10-12T06:54:16.683085+00:00",
+      "brand": "KIA",
+      "body": "Hatchback",
+      "exteriorColor": "White",
+      "technicalSpecification": {
+        "modelId": null,
+        "vehicle": {
+          "brand": "KIA",
+          "body": "Hatchback",
+          "modelName": "Picanto 1.0 DPI (67hk)",
+          "familyName": "Picanto"
+        },
+        "year": "2025"
+      }
+    },
+    "vehicleType": "CAR",
+    "initialBuyNowAmount": null,
+    "baseObjectId": "522037",
+    "conditionClassification": "TESTED",
+    "proactiveBrokering": null,
+    "presentationApproved": false,
+    "state": "AUCTION_RESOLUTION",
+    "properties": {
+      "grades": {
+        "BRAKES": {
+          "max": 3,
+          "value": 3,
+          "min": 1
+        },
+        "TOTAL": {
+          "max": 5,
+          "value": 3,
+          "min": 1
+        },
+        "TECHNOLOGY_AND_EQUIPMENT": {
+          "max": 3,
+          "value": 2,
+          "min": 1
+        },
+        "ENGINE_AND_GEARBOX": {
+          "max": 3,
+          "value": 3,
+          "min": 1
+        },
+        "INTERIOR": {
+          "max": 5,
+          "value": 3,
+          "min": 1
+        },
+        "EXTERIOR": {
+          "max": 5,
+          "value": 3,
+          "min": 1
+        }
+      },
+      "numberOfKeys": 1,
       "formattedEquipment": [
         {
           "key": "AC",
@@ -244,97 +412,41 @@
           "priority": 20
         }
       ],
-      "familyName": "Picanto",
-      "environmentalClassEuro": "6",
-      "towbar": false,
-      "isRepairObject": false,
-      "body": "Hatchback",
-      "numberOfSeats": 4,
-      "fuels": [
-        {
-          "enginePower": 63,
-          "fuelCode": "Petrol"
-        }
-      ],
-      "grades": {
-        "INTERIOR": {
-          "value": 3,
-          "min": 1,
-          "max": 5
-        },
-        "TOTAL": {
-          "value": 3,
-          "min": 1,
-          "max": 5
-        },
-        "ENGINE_AND_GEARBOX": {
-          "value": 3,
-          "min": 1,
-          "max": 3
-        },
-        "EXTERIOR": {
-          "value": 3,
-          "min": 1,
-          "max": 5
-        },
-        "BRAKES": {
-          "value": 3,
-          "min": 1,
-          "max": 3
-        },
-        "TECHNOLOGY_AND_EQUIPMENT": {
-          "value": 2,
-          "min": 1,
-          "max": 3
-        }
-      },
-      "odometerReading": 12840,
-      "package": "Backkamera Automat",
-      "initialTrafficDate": "2025-01-27",
+      "exportable": true,
       "mustExport": false,
-      "manufactureMonth": "202410",
-      "ecoFriendly": false,
       "deductibleVat": false,
-      "numberOfKeys": 1,
+      "manufactureMonth": "202410",
+      "totalWeight": 1320,
+      "dateOfInspection": "2024-12-02",
       "registrationPlate": "KGC91B",
-      "numberOfPreviousOwners": 4,
-      "heavyEquipment": false,
-      "modelYear": 2025,
-      "height": 1485,
-      "gearbox": "Automatic",
-      "manufacturerWarranty": {
-        "expirationDate": "2032-01-26",
-        "odometerReadingLimit": 150000
-      },
-      "modelName": "Picanto 1.0 (67hk)",
+      "equipment": [
+        "AC",
+        "Antisladdsystem",
+        "Autobroms",
+        "Backkamera",
+        "Bluetooth",
+        "Elhiss bak",
+        "Elhiss fram",
+        "Elspeglar",
+        "Farthållare",
+        "Filbytesvarnare",
+        "Fjärrlås",
+        "GPS",
+        "Isofix bak",
+        "Parkeringssensorer bak",
+        "Radio",
+        "Rattvärme",
+        "Regnsensor",
+        "Start/Stop-funktion",
+        "Stolsvärme fram",
+        "Urkopplingsbar passagerarairbag",
+        "USB-ingång"
+      ],
       "taxWeight": 1040,
-      "width": 1595,
-      "remarks": {
-        "INTERIOR": [],
-        "ENGINE_AND_GEARBOX": [],
-        "EXTERIOR": [
-          {
-            "key": "Bilen är folierad, lack under ej kontrollerad",
-            "id": "0",
-            "category": "EXTERIOR"
-          },
-          {
-            "key": "Spår efter tidigare dekor",
-            "id": "1",
-            "category": "EXTERIOR"
-          }
-        ],
-        "BRAKES": [],
-        "TECHNOLOGY_AND_EQUIPMENT": [
-          {
-            "key": "Spricka i vindruta",
-            "id": "0",
-            "category": "TECHNOLOGY_AND_EQUIPMENT"
-          }
-        ],
-        "TIRES": []
-      },
-      "drivingBan": false,
+      "odometerUnit": "km",
+      "mediation": true,
+      "ecoFriendly": false,
+      "towbar": false,
       "remarksLocalized": {
         "TIRES": null,
         "BRAKES": null,
@@ -343,210 +455,98 @@
         "ENGINE_AND_GEARBOX": null,
         "TECHNOLOGY_AND_EQUIPMENT": "Spricka i vindruta"
       },
+      "width": 1595,
+      "body": "Hatchback",
+      "exteriorColor": "White",
+      "remarks": {
+        "TIRES": [],
+        "BRAKES": [],
+        "TECHNOLOGY_AND_EQUIPMENT": [
+          {
+            "category": "TECHNOLOGY_AND_EQUIPMENT",
+            "id": "0",
+            "key": "Spricka i vindruta"
+          }
+        ],
+        "ENGINE_AND_GEARBOX": [],
+        "INTERIOR": [],
+        "EXTERIOR": [
+          {
+            "category": "EXTERIOR",
+            "id": "0",
+            "key": "Bilen är folierad, lack under ej kontrollerad"
+          },
+          {
+            "category": "EXTERIOR",
+            "id": "1",
+            "key": "Spår efter tidigare dekor"
+          }
+        ]
+      },
+      "numberOfPreviousOwners": 4,
+      "adHeader": "Picanto 1.0 (67hk) Backkamera Automat",
+      "fuels": [
+        {
+          "fuelCode": "Petrol",
+          "enginePower": 63
+        }
+      ],
+      "textile": "Textil",
+      "collisionWarranty": "2028-01-26",
+      "maxPayload": 277,
+      "inspectionPeriod": "2024-12-02 - 2028-01-31",
+      "inspectionValidToDate": "2028-01-31",
+      "saleLimitedToCorporate": false,
+      "manufacturerWarranty": {
+        "odometerReadingLimit": 150000,
+        "expirationDate": "2032-01-26"
+      },
+      "package": "Backkamera Automat",
       "hasUnpaidLoan": false,
-      "registrationCountry": "se",
+      "heavyEquipment": false,
+      "residualLoanValue": 0,
+      "brand": "KIA",
+      "gearbox": "Automatic",
+      "height": 1485,
+      "length": 3605,
+      "environmentalClassEuro": "6",
+      "curbWeight": 1043,
+      "drivingBan": false,
+      "initialTrafficDate": "2025-01-27",
+      "chassisNumber": "KNAB3518JST320558",
+      "familyName": "Picanto",
+      "finishType": "Solid",
       "importedForPersonalUse": false,
+      "isRepairObject": false,
+      "title": "KIA Picanto 1.0 (67hk)",
+      "odometerReading": 12840,
+      "modelName": "Picanto 1.0 (67hk)",
+      "modelYear": 2025,
+      "numberOfSeats": 4,
+      "registrationPlateCountry": "se",
+      "registrationCountry": "se",
+      "taxFee": 5068,
       "heading1": "KIA Picanto",
       "heading2": "1.0",
       "heading3": "Backkamera Automat"
     },
-    "baseObject": {
-      "exteriorColor": "White",
-      "registrationPlate": "KGC91B",
-      "year": "2025",
-      "body": "Hatchback",
-      "authorityRegisterInformation": {
-        "additionalTechSpecification": {
-          "raceCar": null,
-          "wheelbase1": 2400,
-          "wheelbase2": null,
-          "wheelbase3": null,
-          "wheelbase4": null,
-          "equipment1": null,
-          "equipment2": null,
-          "equipment3": null,
-          "maximumSpeed": 145,
-          "numAxleShafts": 2,
-          "passengerAirBag": true,
-          "tyreDimensionRear": "175/65R1486T",
-          "tyreDimensionFront": "175/65R1486T",
-          "dualSteeringControl": null
-        },
-        "environmentalClassification": {
-          "fuels": [
-            {
-              "co2": "",
-              "nox": "",
-              "nox4": null,
-              "fuelCode": "Petrol",
-              "hcThcNox": "",
-              "consumption": "",
-              "noiseLevel": 70,
-              "emissionUnit": "g/km",
-              "innovationCo2": null,
-              "particleValue": "",
-              "particleMass4": null,
-              "consumptionUnit": "",
-              "rangeNedcDrive": null,
-              "rangeWltpDrive": null,
-              "consumptionUrban": "",
-              "rangeCityWltpDrive": null,
-              "consumptionExtraUrban": "",
-              "electricEnergyConsumption": null,
-              "energyConsumptionWltpDrive": null
-            }
-          ],
-          "ecoFriendly": false,
-          "emissionClass": "EURO 6",
-          "innovationCode": null,
-          "environmentalClass": null,
-          "environmentalClassEuro": "6"
-        },
-        "vehicleStatus": {
-          "tax": 5068
-        },
-        "registrationInformation": {
-          "registrationPlate": "KGC91B",
-          "deregistrationDate": null,
-          "deregistrationText": null,
-          "deregistrationReason": null
-        },
-        "generalTechSpecification": {
-          "eeg": "e5*2007/46*1078*09",
-          "fuels": [
-            {
-              "fuelCode": "Petrol",
-              "powerUnit": "EG",
-              "enginePower": 46.3,
-              "enginePowerHp": 63,
-              "fuelTankVolume": ""
-            }
-          ],
-          "width": 1595,
-          "height": 1485,
-          "length": 3605,
-          "gearbox": "Automatic",
-          "variant": "F4P71",
-          "version": "A51DZ1",
-          "taxWeight": 1040,
-          "curbWeight": 1043,
-          "maxPayload": 277,
-          "totalWeight": 1320,
-          "chassisCode1": null,
-          "chassisCode2": null,
-          "cubicCapacity": "998",
-          "numPassengers": "3",
-          "numberOfSeats": 4,
-          "fourWheelDrive": false,
-          "maxPullWeightB": "",
-          "clutchMechanism1": null,
-          "clutchMechanism2": null,
-          "maxTrailerWeight": null,
-          "chassisCodeSupplement": null,
-          "maxPullWieghtNoBreaks": null,
-          "maxPullWeightBExtended": null,
-          "maxSingle Axle TrailerWeight": null
-        },
-        "vehicleOrigin": {
-          "originCode": "INFÖRT",
-          "originCodeReason": null,
-          "importerIdentifier": null,
-          "preRegistrationDate": null,
-          "importRegistrationDate": null,
-          "importedForPersonalUse": false,
-          "importedPreviouslyRegistered": false
-        },
-        "vehicleInspectionInformation": {
-          "inspections": [
-            {
-              "inspectionType": "13",
-              "odometerReading": null,
-              "dateOfInspection": "2024-12-02"
-            },
-            {
-              "inspectionType": null,
-              "odometerReading": null,
-              "dateOfInspection": null
-            }
-          ],
-          "inspectionGroup": "36/24/14",
-          "odometerReading": "",
-          "inspectionPeriod": "2024-12-02 - 2028-01-31",
-          "dateOfInspection": "2024-12-02",
-          "inspectionValidToDate": "2028-01-31",
-          "inspectionExemptionGroup": null
-        },
-        "vehicleInformation": {
-          "vin": "KNAB3518JST320558",
-          "body": "AF",
-          "type": "CAR",
-          "year": "2024",
-          "model": "PICANTO",
-          "rawType": "PB",
-          "modelYear": null,
-          "categoryEu": "e5*2007/46*1078*09",
-          "groupNumber": "KG 142014",
-          "modelNumber": "KG 000000",
-          "chassisNumber": "KNAB3518JST320558",
-          "exteriorColor": "White",
-          "fabricAndMake": "KIA",
-          "baseObjectType": "CAR",
-          "manufactureCode": null,
-          "manufactureMonth": "202410",
-          "registrationDate": "2024-12-02",
-          "initialTrafficDate": "2025-01-27",
-          "registrationPlateReused": null
-        }
-      },
-      "brand": "KIA",
-      "id": "522037",
-      "fuels": [
-        {
-          "fuelCode": "Petrol",
-          "powerUnit": "EG",
-          "enginePower": 46.3,
-          "enginePowerHp": 63,
-          "fuelTankVolume": ""
-        }
-      ],
-      "gearbox": "Automatic",
-      "fabricAndMake": "KIA",
-      "baseObjectType": "CAR",
-      "modelId": null,
-      "odometerReading": null,
-      "modelName": "Picanto 1.0 DPI (67hk)",
-      "salesFlow": "CORPORATE_CARS",
-      "state": "MANUAL_VALUATION_PENDING",
-      "odometerUnit": "km",
-      "earliestAvailableAt": null,
-      "registrationCountry": "se",
-      "createdAt": "2026-10-12T06:54:16.683085+00:00",
-      "familyName": "Picanto",
-      "technicalSpecification": {
-        "modelId": null,
-        "vehicle": {
-          "brand": "KIA",
-          "body": "Hatchback",
-          "modelName": "Picanto 1.0 DPI (67hk)",
-          "familyName": "Picanto"
-        },
-        "year": "2025"
-      }
+    "orderableAdditionalServices": {
+      "tradein": false,
+      "transport": true,
+      "insurance": true,
+      "finance": true,
+      "warranty": true,
+      "extraTires": false
     },
-    "id": "7291759",
+    "offsiteSalesContact": null,
     "leaseReturnProperties": {},
-    "vehicleType": "CAR",
-    "presentationApproved": false,
-    "baseObjectId": "522037",
-    "isFixedPrice": false,
+    "id": "7291759",
+    "displayCar360Spin": true,
     "certified": false,
-    "objectType": "CAR",
-    "state": "AUCTION_RESOLUTION",
-    "initialBuyNowAmount": null,
-    "statisticalValuation": null,
-    "testDriveAllowed": true,
-    "buyNowAmount": null,
+    "sellMethod": "BIDDING",
     "isReleasable": false,
+    "car360Spin": null,
+    "statisticalValuation": null,
     "createdAt": "2026-10-12 06:54:16.938274+00:00",
     "exportable": true,
     "deductibleVat": false,
@@ -999,8 +999,8 @@
           "key": "MANUFACTURER_WARRANTY",
           "text": "Nybilsgaranti",
           "value": {
-            "expirationDate": "2032-01-26",
-            "odometerReadingLimit": 150000
+            "odometerReadingLimit": 150000,
+            "expirationDate": "2032-01-26"
           },
           "type": "manufacturer_warranty"
         },
@@ -1747,6 +1747,6 @@
     "closedAt": "2026-10-30T11:03:42.904568+00:00",
     "updatedAt": "2026-10-30T11:03:43.111954+00:00"
   },
-  "_scraped_at": "2026-10-30T16:16:56.608824+00:00",
+  "_scraped_at": "2026-10-30T19:54:19.791715+00:00",
   "_url": "https://www.kvd.se/auktioner/kia-picanto-1-0-67hk-309068"
 }

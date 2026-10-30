@@ -44,108 +44,27 @@
   "eurBuyNowAmount": null,
   "winningBid": null,
   "processObject": {
-    "displayCar360Spin": true,
-    "conditionClassification": "TESTED",
+    "orderableAdditionalServices": {
+      "tradein": false,
+      "transport": true,
+      "insurance": true,
+      "finance": true,
+      "warranty": true,
+      "extraTires": false
+    },
+    "car360Spin": null,
     "proactiveBrokering": null,
+    "displayCar360Spin": true,
+    "offsiteSalesContact": null,
+    "sellMethod": "BIDDING",
+    "reducedPrice": false,
+    "conditionClassification": "TESTED",
     "properties": {
-      "length": 4750,
-      "mustExport": false,
-      "odometerUnit": "km",
-      "familyName": "A4 Allroad",
-      "drivingBan": false,
-      "taxWeight": 1760,
-      "odometerReading": 115670,
-      "grades": {
-        "INTERIOR": {
-          "max": 5,
-          "value": 3,
-          "min": 1
-        },
-        "EXTERIOR": {
-          "max": 5,
-          "value": 3,
-          "min": 1
-        },
-        "TOTAL": {
-          "max": 5,
-          "value": 2,
-          "min": 1
-        },
-        "ENGINE_AND_GEARBOX": {
-          "max": 3,
-          "value": 2,
-          "min": 1
-        },
-        "TECHNOLOGY_AND_EQUIPMENT": {
-          "max": 3,
-          "value": 2,
-          "min": 1
-        },
-        "BRAKES": {
-          "max": 3,
-          "value": 3,
-          "min": 1
-        }
-      },
-      "fuels": [
-        {
-          "enginePower": 190,
-          "fuelCode": "Diesel",
-          "co2": 128,
-          "consumption": 4.9
-        }
-      ],
+      "exteriorColor": "Grey",
+      "brand": "Audi",
+      "mediation": true,
       "curbWeight": 1769,
-      "remarks": {
-        "TIRES": [],
-        "INTERIOR": [
-          {
-            "category": "INTERIOR",
-            "key": "Klädsel sliten fram vänster",
-            "id": "0"
-          }
-        ],
-        "EXTERIOR": [
-          {
-            "category": "EXTERIOR",
-            "key": "Stenskott i vindruta",
-            "id": "0"
-          }
-        ],
-        "ENGINE_AND_GEARBOX": [
-          {
-            "category": "ENGINE_AND_GEARBOX",
-            "key": "Rasslande missljud från motorn vid jämn hastighet samt acceleration, missljudet upphör på tomgång och vid motorbroms",
-            "id": "0"
-          }
-        ],
-        "TECHNOLOGY_AND_EQUIPMENT": [
-          {
-            "category": "TECHNOLOGY_AND_EQUIPMENT",
-            "key": "Knapp för elektrisk baklucka, skadad",
-            "id": "0"
-          }
-        ],
-        "BRAKES": []
-      },
-      "width": 1842,
-      "numberOfSeats": 5,
-      "body": "Wagon",
-      "maxPullWeightB": 1255,
-      "textile": "Helläder",
-      "ecoFriendly": false,
       "maxPayload": 476,
-      "exportable": true,
-      "inspectionValidToDate": "2027-02-28",
-      "taxFee": 1989,
-      "modelYear": 2017,
-      "inspectionPeriod": "2025-12-01 - 2027-02-28",
-      "dateOfInspection": "2025-12-01",
-      "registrationPlate": "FKX504",
-      "totalWeight": 2245,
-      "numberOfKeys": 1,
-      "towbar": false,
-      "hasUnpaidLoan": false,
       "equipment": [
         "4WD",
         "Antispinn",
@@ -172,33 +91,21 @@
         "Urkopplingsbar passagerarairbag",
         "Proline Edition"
       ],
-      "isRepairObject": false,
-      "mediation": true,
-      "residualLoanValue": 0,
-      "numberOfPreviousOwners": 5,
-      "remarksLocalized": {
-        "TIRES": null,
-        "BRAKES": null,
-        "EXTERIOR": "Stenskott i vindruta",
-        "INTERIOR": "Klädsel sliten fram vänster",
-        "ENGINE_AND_GEARBOX": "Rasslande missljud från motorn vid jämn hastighet samt acceleration, missljudet upphör på tomgång och vid motorbroms",
-        "TECHNOLOGY_AND_EQUIPMENT": "Knapp för elektrisk baklucka, skadad"
-      },
-      "importedForPersonalUse": false,
-      "gearbox": "Automatic",
-      "title": "Audi A4 Allroad 2.0 TDI quattro (190hk)",
-      "chassisNumber": "WAUZZZF4XHA083712",
-      "deductibleVat": false,
+      "inspectionValidToDate": "2027-02-28",
+      "odometerUnit": "km",
+      "length": 4750,
+      "finishType": "Metallic",
+      "textile": "Helläder",
       "saleLimitedToCorporate": false,
-      "heavyEquipment": false,
-      "manufactureMonth": "201610",
-      "height": 1450,
-      "initialTrafficDate": "2017-01-26",
-      "registrationCountry": "se",
-      "environmentalClassEuro": "6",
+      "chassisNumber": "WAUZZZF4XHA083712",
+      "title": "Audi A4 Allroad 2.0 TDI quattro (190hk)",
+      "dateOfInspection": "2025-12-01",
+      "inspectionPeriod": "2025-12-01 - 2027-02-28",
+      "totalWeight": 2245,
       "registrationPlateCountry": "se",
-      "maxTrailerWeight": 1800,
-      "brand": "Audi",
+      "exportable": true,
+      "residualLoanValue": 0,
+      "taxFee": 1989,
       "formattedEquipment": [
         {
           "key": "4WD",
@@ -345,68 +252,179 @@
           "priority": 23
         }
       ],
+      "familyName": "A4 Allroad",
+      "environmentalClassEuro": "6",
+      "towbar": false,
+      "isRepairObject": false,
+      "body": "Wagon",
+      "numberOfSeats": 5,
+      "maxPullWeightB": 1255,
+      "fuels": [
+        {
+          "enginePower": 190,
+          "consumption": 4.9,
+          "co2": 128,
+          "fuelCode": "Diesel"
+        }
+      ],
+      "grades": {
+        "INTERIOR": {
+          "value": 3,
+          "min": 1,
+          "max": 5
+        },
+        "TOTAL": {
+          "value": 2,
+          "min": 1,
+          "max": 5
+        },
+        "ENGINE_AND_GEARBOX": {
+          "value": 2,
+          "min": 1,
+          "max": 3
+        },
+        "EXTERIOR": {
+          "value": 3,
+          "min": 1,
+          "max": 5
+        },
+        "BRAKES": {
+          "value": 3,
+          "min": 1,
+          "max": 3
+        },
+        "TECHNOLOGY_AND_EQUIPMENT": {
+          "value": 2,
+          "min": 1,
+          "max": 3
+        }
+      },
+      "maxTrailerWeight": 1800,
+      "odometerReading": 115670,
+      "initialTrafficDate": "2017-01-26",
+      "mustExport": false,
+      "manufactureMonth": "201610",
+      "ecoFriendly": false,
+      "deductibleVat": false,
+      "numberOfKeys": 1,
+      "registrationPlate": "FKX504",
+      "numberOfPreviousOwners": 5,
+      "heavyEquipment": false,
+      "modelYear": 2017,
+      "height": 1450,
+      "gearbox": "Automatic",
       "modelName": "A4 Allroad 2.0 TDI quattro (190hk)",
-      "finishType": "Metallic",
-      "exteriorColor": "Grey",
+      "taxWeight": 1760,
+      "width": 1842,
+      "remarks": {
+        "INTERIOR": [
+          {
+            "key": "Klädsel sliten fram vänster",
+            "id": "0",
+            "category": "INTERIOR"
+          }
+        ],
+        "ENGINE_AND_GEARBOX": [
+          {
+            "key": "Rasslande missljud från motorn vid jämn hastighet samt acceleration, missljudet upphör på tomgång och vid motorbroms",
+            "id": "0",
+            "category": "ENGINE_AND_GEARBOX"
+          }
+        ],
+        "EXTERIOR": [
+          {
+            "key": "Stenskott i vindruta",
+            "id": "0",
+            "category": "EXTERIOR"
+          }
+        ],
+        "BRAKES": [],
+        "TECHNOLOGY_AND_EQUIPMENT": [
+          {
+            "key": "Knapp för elektrisk baklucka, skadad",
+            "id": "0",
+            "category": "TECHNOLOGY_AND_EQUIPMENT"
+          }
+        ],
+        "TIRES": []
+      },
+      "drivingBan": false,
+      "remarksLocalized": {
+        "TIRES": null,
+        "BRAKES": null,
+        "EXTERIOR": "Stenskott i vindruta",
+        "INTERIOR": "Klädsel sliten fram vänster",
+        "ENGINE_AND_GEARBOX": "Rasslande missljud från motorn vid jämn hastighet samt acceleration, missljudet upphör på tomgång och vid motorbroms",
+        "TECHNOLOGY_AND_EQUIPMENT": "Knapp för elektrisk baklucka, skadad"
+      },
+      "hasUnpaidLoan": false,
+      "registrationCountry": "se",
+      "importedForPersonalUse": false,
       "heading1": "Audi A4 Allroad",
       "heading2": "A4 Allroad 2.0 TDI quattro",
       "heading3": null
     },
-    "car360Spin": null,
-    "testDriveAllowed": true,
-    "certified": false,
-    "objectType": "CAR",
-    "statisticalValuation": {
-      "bpGreen": null,
-      "bpOrange": 215837,
-      "bpWhite": 215837,
-      "marketPrice": 215837
-    },
-    "buyNowAmount": null,
-    "sellMethod": "BIDDING",
-    "orderableAdditionalServices": {
-      "tradein": false,
-      "transport": true,
-      "insurance": true,
-      "finance": true,
-      "warranty": true,
-      "extraTires": false
-    },
-    "isFixedPrice": false,
-    "vehicleType": "CAR",
-    "leaseReturnProperties": {},
-    "baseObjectId": "519340",
-    "initialBuyNowAmount": null,
-    "isReleasable": false,
-    "id": "7290374",
-    "offsiteSalesContact": null,
-    "presentationApproved": false,
-    "createdAt": "2026-09-29 11:56:47.358017+00:00",
-    "state": "AUCTION_RESOLUTION",
-    "reducedPrice": false,
     "baseObject": {
-      "body": "Wagon",
-      "modelId": null,
       "exteriorColor": "Grey",
-      "baseObjectType": "CAR",
-      "registrationCountry": "se",
-      "odometerUnit": "km",
-      "familyName": "A4 Allroad",
-      "odometerReading": 115600,
-      "earliestAvailableAt": null,
-      "brand": "Audi",
       "registrationPlate": "FKX504",
-      "fuels": [
-        {
-          "fuelCode": "Diesel",
-          "powerUnit": "EG",
-          "enginePower": 140,
-          "enginePowerHp": 190,
-          "fuelTankVolume": ""
-        }
-      ],
-      "id": "519340",
+      "year": "2017",
+      "body": "Wagon",
       "authorityRegisterInformation": {
+        "additionalTechSpecification": {
+          "raceCar": null,
+          "wheelbase1": 2828,
+          "wheelbase2": null,
+          "wheelbase3": null,
+          "wheelbase4": null,
+          "equipment1": null,
+          "equipment2": null,
+          "equipment3": null,
+          "maximumSpeed": 220,
+          "numAxleShafts": "",
+          "passengerAirBag": true,
+          "tyreDimensionRear": "225/55 R17 97Y",
+          "tyreDimensionFront": "225/55 R17 97Y",
+          "dualSteeringControl": null
+        },
+        "environmentalClassification": {
+          "fuels": [
+            {
+              "co2": 128,
+              "nox": "",
+              "nox4": null,
+              "fuelCode": "Diesel",
+              "hcThcNox": "",
+              "consumption": 4.9,
+              "noiseLevel": 71,
+              "emissionUnit": "g/km",
+              "innovationCo2": null,
+              "particleValue": "",
+              "particleMass4": null,
+              "consumptionUnit": "4,9",
+              "rangeNedcDrive": null,
+              "rangeWltpDrive": null,
+              "consumptionUrban": 5.5,
+              "rangeCityWltpDrive": null,
+              "consumptionExtraUrban": 4.6,
+              "electricEnergyConsumption": null,
+              "energyConsumptionWltpDrive": null
+            }
+          ],
+          "ecoFriendly": false,
+          "emissionClass": "EURO 6",
+          "innovationCode": null,
+          "environmentalClass": null,
+          "environmentalClassEuro": "6"
+        },
+        "vehicleStatus": {
+          "tax": 1989
+        },
+        "registrationInformation": {
+          "registrationPlate": "FKX504",
+          "deregistrationDate": null,
+          "deregistrationText": null,
+          "deregistrationReason": null
+        },
         "generalTechSpecification": {
           "eeg": "e1*2001/116*0430*44",
           "fuels": [
@@ -472,55 +490,6 @@
           "inspectionValidToDate": "2027-02-28",
           "inspectionExemptionGroup": null
         },
-        "environmentalClassification": {
-          "fuels": [
-            {
-              "co2": 128,
-              "nox": "",
-              "nox4": null,
-              "fuelCode": "Diesel",
-              "hcThcNox": "",
-              "consumption": 4.9,
-              "noiseLevel": 71,
-              "emissionUnit": "g/km",
-              "innovationCo2": null,
-              "particleValue": "",
-              "particleMass4": null,
-              "consumptionUnit": "4,9",
-              "rangeNedcDrive": null,
-              "rangeWltpDrive": null,
-              "consumptionUrban": 5.5,
-              "rangeCityWltpDrive": null,
-              "consumptionExtraUrban": 4.6,
-              "electricEnergyConsumption": null,
-              "energyConsumptionWltpDrive": null
-            }
-          ],
-          "ecoFriendly": false,
-          "emissionClass": "EURO 6",
-          "innovationCode": null,
-          "environmentalClass": null,
-          "environmentalClassEuro": "6"
-        },
-        "additionalTechSpecification": {
-          "raceCar": null,
-          "wheelbase1": 2828,
-          "wheelbase2": null,
-          "wheelbase3": null,
-          "wheelbase4": null,
-          "equipment1": null,
-          "equipment2": null,
-          "equipment3": null,
-          "maximumSpeed": 220,
-          "numAxleShafts": "",
-          "passengerAirBag": true,
-          "tyreDimensionRear": "225/55 R17 97Y",
-          "tyreDimensionFront": "225/55 R17 97Y",
-          "dualSteeringControl": null
-        },
-        "vehicleStatus": {
-          "tax": 1989
-        },
         "vehicleInformation": {
           "vin": "WAUZZZF4XHA083712",
           "body": "AC",
@@ -541,21 +510,32 @@
           "registrationDate": "2016-10-17",
           "initialTrafficDate": "2017-01-26",
           "registrationPlateReused": null
-        },
-        "registrationInformation": {
-          "registrationPlate": "FKX504",
-          "deregistrationDate": null,
-          "deregistrationText": null,
-          "deregistrationReason": null
         }
       },
-      "modelName": "A4 Allroad 2.0 TDI quattro (190hk)",
-      "createdAt": "2026-09-29T11:54:05.868596+00:00",
-      "state": "PREPARING_SALES_AGREEMENT",
+      "brand": "Audi",
+      "id": "519340",
+      "fuels": [
+        {
+          "fuelCode": "Diesel",
+          "powerUnit": "EG",
+          "enginePower": 140,
+          "enginePowerHp": 190,
+          "fuelTankVolume": ""
+        }
+      ],
       "gearbox": "Automatic",
-      "salesFlow": "CONSUMER_CARS",
-      "year": "2017",
       "fabricAndMake": "AUDI",
+      "baseObjectType": "CAR",
+      "modelId": null,
+      "odometerReading": 115600,
+      "modelName": "A4 Allroad 2.0 TDI quattro (190hk)",
+      "salesFlow": "CONSUMER_CARS",
+      "state": "PREPARING_SALES_AGREEMENT",
+      "odometerUnit": "km",
+      "earliestAvailableAt": null,
+      "registrationCountry": "se",
+      "createdAt": "2026-09-29T11:54:05.868596+00:00",
+      "familyName": "A4 Allroad",
       "technicalSpecification": {
         "modelId": null,
         "vehicle": {
@@ -567,6 +547,26 @@
         "year": "2017"
       }
     },
+    "id": "7290374",
+    "leaseReturnProperties": {},
+    "vehicleType": "CAR",
+    "presentationApproved": false,
+    "baseObjectId": "519340",
+    "isFixedPrice": false,
+    "certified": false,
+    "objectType": "CAR",
+    "state": "AUCTION_RESOLUTION",
+    "initialBuyNowAmount": null,
+    "statisticalValuation": {
+      "bpWhite": 215837,
+      "marketPrice": 215837,
+      "bpGreen": null,
+      "bpOrange": 215837
+    },
+    "testDriveAllowed": true,
+    "buyNowAmount": null,
+    "isReleasable": false,
+    "createdAt": "2026-09-29 11:56:47.358017+00:00",
     "exportable": true,
     "deductibleVat": false,
     "collisionWarranty": null,
@@ -1903,6 +1903,6 @@
     "closedAt": "2026-10-29T09:16:45.693824+00:00",
     "updatedAt": "2026-10-29T09:16:45.764786+00:00"
   },
-  "_scraped_at": "2026-10-30T16:16:53.857493+00:00",
+  "_scraped_at": "2026-10-30T19:54:16.942664+00:00",
   "_url": "https://www.kvd.se/auktioner/audi-a4-allroad-2-0-tdi-quattro-190hk-309070"
 }

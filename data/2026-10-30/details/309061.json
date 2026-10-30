@@ -44,235 +44,67 @@
   "eurBuyNowAmount": null,
   "winningBid": null,
   "processObject": {
-    "objectType": "CAR",
-    "buyNowAmount": null,
-    "reducedPrice": false,
-    "testDriveAllowed": true,
-    "isFixedPrice": false,
-    "baseObject": {
-      "gearbox": "Automatic",
-      "baseObjectType": "LIGHT_TRUCK",
-      "odometerReading": null,
-      "authorityRegisterInformation": {
-        "vehicleOrigin": {
-          "originCode": "INFÖRT",
-          "originCodeReason": null,
-          "importerIdentifier": null,
-          "preRegistrationDate": null,
-          "importRegistrationDate": null,
-          "importedForPersonalUse": false,
-          "importedPreviouslyRegistered": false
-        },
-        "generalTechSpecification": {
-          "eeg": "e1*2001/116*0220*76",
-          "fuels": [
-            {
-              "fuelCode": "Diesel",
-              "powerUnit": "EG",
-              "enginePower": 110,
-              "enginePowerHp": 150,
-              "fuelTankVolume": ""
-            }
-          ],
-          "width": 1904,
-          "height": 1980,
-          "length": 5304,
-          "gearbox": "Automatic",
-          "variant": "VGDNAA308X0",
-          "version": "LNFD7FD7DV00116VVR24BI2A910A",
-          "taxWeight": 2290,
-          "curbWeight": 2290,
-          "maxPayload": 790,
-          "totalWeight": 3080,
-          "chassisCode1": null,
-          "chassisCode2": null,
-          "cubicCapacity": "1968",
-          "numPassengers": "8",
-          "numberOfSeats": 9,
-          "fourWheelDrive": false,
-          "maxPullWeightB": 750,
-          "clutchMechanism1": null,
-          "clutchMechanism2": null,
-          "maxTrailerWeight": 2220,
-          "chassisCodeSupplement": null,
-          "maxPullWieghtNoBreaks": null,
-          "maxPullWeightBExtended": null,
-          "maxSingle Axle TrailerWeight": null
-        },
-        "environmentalClassification": {
-          "fuels": [
-            {
-              "co2": "",
-              "nox": "",
-              "nox4": null,
-              "fuelCode": "Diesel",
-              "hcThcNox": "",
-              "consumption": "",
-              "noiseLevel": 69,
-              "emissionUnit": "g/km",
-              "innovationCo2": null,
-              "particleValue": "",
-              "particleMass4": null,
-              "consumptionUnit": "",
-              "rangeNedcDrive": null,
-              "rangeWltpDrive": null,
-              "consumptionUrban": "",
-              "rangeCityWltpDrive": null,
-              "consumptionExtraUrban": "",
-              "electricEnergyConsumption": null,
-              "energyConsumptionWltpDrive": null
-            }
-          ],
-          "ecoFriendly": false,
-          "emissionClass": "EURO 6",
-          "innovationCode": null,
-          "environmentalClass": null,
-          "environmentalClassEuro": "6"
-        },
-        "vehicleStatus": {
-          "tax": 9117
-        },
-        "vehicleInspectionInformation": {
-          "inspections": [
-            {
-              "inspectionType": "5",
-              "odometerReading": 71309,
-              "dateOfInspection": "2026-08-13"
-            },
-            {
-              "inspectionType": "5",
-              "odometerReading": 44263,
-              "dateOfInspection": "2025-09-12"
-            }
-          ],
-          "inspectionGroup": "12/12/12",
-          "odometerReading": 71309,
-          "inspectionPeriod": "2026-08-13 - 2027-08-31",
-          "dateOfInspection": "2026-08-13",
-          "inspectionValidToDate": "2027-08-31",
-          "inspectionExemptionGroup": null
-        },
-        "registrationInformation": {
-          "registrationPlate": "KCN10G",
-          "deregistrationDate": null,
-          "deregistrationText": null,
-          "deregistrationReason": null
-        },
-        "vehicleInformation": {
-          "vin": "WV2ZZZ7HZPH083552",
-          "body": "AF",
-          "type": "LIGHT_TRUCK",
-          "year": "2023",
-          "model": "KOMBI",
-          "rawType": "PB",
-          "modelYear": null,
-          "categoryEu": "e1*2001/116*0220*76",
-          "groupNumber": "VW 346111",
-          "modelNumber": "VW 000000",
-          "chassisNumber": "WV2ZZZ7HZPH083552",
-          "exteriorColor": "White",
-          "fabricAndMake": "VOLKSWAGEN, VW",
-          "baseObjectType": "LIGHT_TRUCK",
-          "manufactureCode": null,
-          "manufactureMonth": "202305",
-          "registrationDate": "2023-05-22",
-          "initialTrafficDate": "2023-07-06",
-          "registrationPlateReused": null
-        },
-        "additionalTechSpecification": {
-          "raceCar": null,
-          "wheelbase1": 3400,
-          "wheelbase2": null,
-          "wheelbase3": null,
-          "wheelbase4": null,
-          "equipment1": null,
-          "equipment2": null,
-          "equipment3": null,
-          "maximumSpeed": 182,
-          "numAxleShafts": 2,
-          "passengerAirBag": false,
-          "tyreDimensionRear": "215/65 R16C 106/104T",
-          "tyreDimensionFront": "215/65 R16C 106/104T",
-          "dualSteeringControl": null
-        }
-      },
-      "fuels": [
-        {
-          "fuelCode": "Diesel",
-          "powerUnit": "EG",
-          "enginePower": 110,
-          "enginePowerHp": 150,
-          "fuelTankVolume": ""
-        }
-      ],
-      "earliestAvailableAt": null,
-      "modelName": "Transporter T6.1 Skåp TDI (150hk)",
-      "salesFlow": "CORPORATE_CARS",
-      "registrationPlate": "KCN10G",
-      "state": "MANUAL_VALUATION_PENDING",
-      "odometerUnit": "km",
-      "fabricAndMake": "VOLKSWAGEN, VW",
-      "registrationCountry": "se",
-      "id": "521290",
-      "familyName": "Transporter",
-      "modelId": null,
-      "year": "2023",
-      "createdAt": "2026-10-08T06:08:42.174495+00:00",
-      "brand": "Volkswagen",
-      "body": "Van",
-      "exteriorColor": "White",
-      "technicalSpecification": {
-        "modelId": null,
-        "vehicle": {
-          "brand": "Volkswagen",
-          "body": "Van",
-          "modelName": "Transporter T6.1 Skåp TDI (150hk)",
-          "familyName": "Transporter"
-        },
-        "year": "2023"
-      }
+    "orderableAdditionalServices": {
+      "tradein": false,
+      "transport": true,
+      "insurance": true,
+      "finance": true,
+      "warranty": true,
+      "extraTires": false
     },
-    "vehicleType": "CAR",
-    "initialBuyNowAmount": null,
-    "baseObjectId": "521290",
-    "conditionClassification": "TESTED",
+    "car360Spin": null,
     "proactiveBrokering": null,
-    "presentationApproved": false,
-    "state": "AUCTION_RESOLUTION",
+    "displayCar360Spin": true,
+    "offsiteSalesContact": null,
+    "sellMethod": "BIDDING",
+    "reducedPrice": false,
+    "conditionClassification": "TESTED",
     "properties": {
-      "grades": {
-        "BRAKES": {
-          "max": 3,
-          "value": 3,
-          "min": 1
-        },
-        "TOTAL": {
-          "max": 5,
-          "value": 2,
-          "min": 1
-        },
-        "TECHNOLOGY_AND_EQUIPMENT": {
-          "max": 3,
-          "value": 2,
-          "min": 1
-        },
-        "ENGINE_AND_GEARBOX": {
-          "max": 3,
-          "value": 2,
-          "min": 1
-        },
-        "INTERIOR": {
-          "max": 5,
-          "value": 3,
-          "min": 1
-        },
-        "EXTERIOR": {
-          "max": 5,
-          "value": 2,
-          "min": 1
-        }
-      },
-      "numberOfKeys": 4,
+      "adHeader": "Caravelle TDI 150hk 9-sits Backkamera Värmare Drag",
+      "exteriorColor": "White",
+      "brand": "Volkswagen",
+      "mediation": true,
+      "curbWeight": 2290,
+      "maxPayload": 790,
+      "equipment": [
+        "Antisladdsystem",
+        "Antispinn",
+        "Assistanssystem",
+        "Backkamera",
+        "Bluetooth",
+        "Elhiss fram",
+        "Elspeglar",
+        "Farthållare",
+        "Fastmonterad dragkrok",
+        "Fjärrlås",
+        "Färddator",
+        "Isofix bak",
+        "Klimatanläggning",
+        "Parkeringssensorer bak",
+        "Parkeringssensorer fram",
+        "Parkeringsvärmare med fjärrstyrning",
+        "Radio",
+        "Regnsensor",
+        "Start/Stop-funktion",
+        "Stolsvärme fram",
+        "Urkopplingsbar passagerarairbag",
+        "USB-ingång"
+      ],
+      "inspectionValidToDate": "2027-08-31",
+      "odometerUnit": "km",
+      "length": 5304,
+      "finishType": "Solid",
+      "textile": "Textil",
+      "saleLimitedToCorporate": false,
+      "chassisNumber": "WV2ZZZ7HZPH083552",
+      "title": "VW Caravelle TDI (150hk)",
+      "dateOfInspection": "2026-08-13",
+      "inspectionPeriod": "2026-08-13 - 2027-08-31",
+      "totalWeight": 3080,
+      "registrationPlateCountry": "se",
+      "exportable": true,
+      "residualLoanValue": 0,
+      "taxFee": 9117,
       "formattedEquipment": [
         {
           "key": "ANTISLADDSYSTEM",
@@ -407,42 +239,106 @@
           "priority": 21
         }
       ],
-      "exportable": true,
-      "mustExport": false,
-      "deductibleVat": true,
-      "manufactureMonth": "202305",
-      "totalWeight": 3080,
-      "dateOfInspection": "2026-08-13",
-      "registrationPlate": "KCN10G",
-      "equipment": [
-        "Antisladdsystem",
-        "Antispinn",
-        "Assistanssystem",
-        "Backkamera",
-        "Bluetooth",
-        "Elhiss fram",
-        "Elspeglar",
-        "Farthållare",
-        "Fastmonterad dragkrok",
-        "Fjärrlås",
-        "Färddator",
-        "Isofix bak",
-        "Klimatanläggning",
-        "Parkeringssensorer bak",
-        "Parkeringssensorer fram",
-        "Parkeringsvärmare med fjärrstyrning",
-        "Radio",
-        "Regnsensor",
-        "Start/Stop-funktion",
-        "Stolsvärme fram",
-        "Urkopplingsbar passagerarairbag",
-        "USB-ingång"
-      ],
-      "taxWeight": 2290,
-      "odometerUnit": "km",
-      "mediation": true,
-      "ecoFriendly": false,
+      "familyName": "Caravelle",
+      "environmentalClassEuro": "6",
       "towbar": false,
+      "isRepairObject": false,
+      "body": "Minivan",
+      "numberOfSeats": 9,
+      "maxPullWeightB": 750,
+      "fuels": [
+        {
+          "enginePower": 150,
+          "fuelCode": "Diesel"
+        }
+      ],
+      "grades": {
+        "INTERIOR": {
+          "value": 3,
+          "min": 1,
+          "max": 5
+        },
+        "TOTAL": {
+          "value": 2,
+          "min": 1,
+          "max": 5
+        },
+        "ENGINE_AND_GEARBOX": {
+          "value": 2,
+          "min": 1,
+          "max": 3
+        },
+        "EXTERIOR": {
+          "value": 2,
+          "min": 1,
+          "max": 5
+        },
+        "BRAKES": {
+          "value": 3,
+          "min": 1,
+          "max": 3
+        },
+        "TECHNOLOGY_AND_EQUIPMENT": {
+          "value": 2,
+          "min": 1,
+          "max": 3
+        }
+      },
+      "maxTrailerWeight": 2220,
+      "odometerReading": 73370,
+      "package": "9-sits Backkamera Värmare Drag",
+      "initialTrafficDate": "2023-07-06",
+      "mustExport": false,
+      "manufactureMonth": "202305",
+      "ecoFriendly": false,
+      "deductibleVat": true,
+      "numberOfKeys": 4,
+      "registrationPlate": "KCN10G",
+      "numberOfPreviousOwners": 1,
+      "heavyEquipment": false,
+      "modelYear": 2023,
+      "height": 1980,
+      "gearbox": "Automatic",
+      "modelName": "Caravelle TDI (150hk)",
+      "taxWeight": 2290,
+      "width": 1904,
+      "remarks": {
+        "INTERIOR": [],
+        "ENGINE_AND_GEARBOX": [
+          {
+            "key": "Varnar för hög oljenivå",
+            "id": "0",
+            "category": "ENGINE_AND_GEARBOX"
+          }
+        ],
+        "EXTERIOR": [
+          {
+            "key": "Skyddslist höger framdörr saknas",
+            "id": "0",
+            "category": "EXTERIOR"
+          },
+          {
+            "key": "Flertal karosskador, stenskott, dörruppslag och repor",
+            "id": "1",
+            "category": "EXTERIOR"
+          },
+          {
+            "key": "Fåtal rostangrepp",
+            "id": "2",
+            "category": "EXTERIOR"
+          }
+        ],
+        "BRAKES": [],
+        "TECHNOLOGY_AND_EQUIPMENT": [
+          {
+            "key": "Fjärr till värmare ur funktion",
+            "id": "0",
+            "category": "TECHNOLOGY_AND_EQUIPMENT"
+          }
+        ],
+        "TIRES": []
+      },
+      "drivingBan": false,
       "remarksLocalized": {
         "TIRES": null,
         "BRAKES": null,
@@ -451,106 +347,210 @@
         "ENGINE_AND_GEARBOX": "Varnar för hög oljenivå",
         "TECHNOLOGY_AND_EQUIPMENT": "Fjärr till värmare ur funktion"
       },
-      "width": 1904,
-      "body": "Minivan",
-      "exteriorColor": "White",
-      "remarks": {
-        "TIRES": [],
-        "BRAKES": [],
-        "TECHNOLOGY_AND_EQUIPMENT": [
-          {
-            "category": "TECHNOLOGY_AND_EQUIPMENT",
-            "id": "0",
-            "key": "Fjärr till värmare ur funktion"
-          }
-        ],
-        "ENGINE_AND_GEARBOX": [
-          {
-            "category": "ENGINE_AND_GEARBOX",
-            "id": "0",
-            "key": "Varnar för hög oljenivå"
-          }
-        ],
-        "INTERIOR": [],
-        "EXTERIOR": [
-          {
-            "category": "EXTERIOR",
-            "id": "0",
-            "key": "Skyddslist höger framdörr saknas"
-          },
-          {
-            "category": "EXTERIOR",
-            "id": "1",
-            "key": "Flertal karosskador, stenskott, dörruppslag och repor"
-          },
-          {
-            "category": "EXTERIOR",
-            "id": "2",
-            "key": "Fåtal rostangrepp"
-          }
-        ]
-      },
-      "numberOfPreviousOwners": 1,
-      "adHeader": "Caravelle TDI 150hk 9-sits Backkamera Värmare Drag",
-      "fuels": [
-        {
-          "fuelCode": "Diesel",
-          "enginePower": 150
-        }
-      ],
-      "textile": "Textil",
-      "maxTrailerWeight": 2220,
-      "maxPayload": 790,
-      "inspectionPeriod": "2026-08-13 - 2027-08-31",
-      "inspectionValidToDate": "2027-08-31",
-      "saleLimitedToCorporate": false,
-      "package": "9-sits Backkamera Värmare Drag",
       "hasUnpaidLoan": false,
-      "heavyEquipment": false,
-      "residualLoanValue": 0,
-      "brand": "Volkswagen",
-      "gearbox": "Automatic",
-      "height": 1980,
-      "maxPullWeightB": 750,
-      "length": 5304,
-      "environmentalClassEuro": "6",
-      "curbWeight": 2290,
-      "drivingBan": false,
-      "initialTrafficDate": "2023-07-06",
-      "chassisNumber": "WV2ZZZ7HZPH083552",
-      "familyName": "Caravelle",
-      "finishType": "Solid",
-      "importedForPersonalUse": false,
-      "isRepairObject": false,
-      "title": "VW Caravelle TDI (150hk)",
-      "odometerReading": 73370,
-      "modelName": "Caravelle TDI (150hk)",
-      "modelYear": 2023,
-      "numberOfSeats": 9,
-      "registrationPlateCountry": "se",
       "registrationCountry": "se",
-      "taxFee": 9117,
+      "importedForPersonalUse": false,
       "heading1": "Volkswagen Caravelle",
       "heading2": "TDI",
       "heading3": "9-sits Backkamera Värmare Drag"
     },
-    "orderableAdditionalServices": {
-      "tradein": false,
-      "transport": true,
-      "insurance": true,
-      "finance": true,
-      "warranty": true,
-      "extraTires": false
+    "baseObject": {
+      "exteriorColor": "White",
+      "registrationPlate": "KCN10G",
+      "year": "2023",
+      "body": "Van",
+      "authorityRegisterInformation": {
+        "additionalTechSpecification": {
+          "raceCar": null,
+          "wheelbase1": 3400,
+          "wheelbase2": null,
+          "wheelbase3": null,
+          "wheelbase4": null,
+          "equipment1": null,
+          "equipment2": null,
+          "equipment3": null,
+          "maximumSpeed": 182,
+          "numAxleShafts": 2,
+          "passengerAirBag": false,
+          "tyreDimensionRear": "215/65 R16C 106/104T",
+          "tyreDimensionFront": "215/65 R16C 106/104T",
+          "dualSteeringControl": null
+        },
+        "environmentalClassification": {
+          "fuels": [
+            {
+              "co2": "",
+              "nox": "",
+              "nox4": null,
+              "fuelCode": "Diesel",
+              "hcThcNox": "",
+              "consumption": "",
+              "noiseLevel": 69,
+              "emissionUnit": "g/km",
+              "innovationCo2": null,
+              "particleValue": "",
+              "particleMass4": null,
+              "consumptionUnit": "",
+              "rangeNedcDrive": null,
+              "rangeWltpDrive": null,
+              "consumptionUrban": "",
+              "rangeCityWltpDrive": null,
+              "consumptionExtraUrban": "",
+              "electricEnergyConsumption": null,
+              "energyConsumptionWltpDrive": null
+            }
+          ],
+          "ecoFriendly": false,
+          "emissionClass": "EURO 6",
+          "innovationCode": null,
+          "environmentalClass": null,
+          "environmentalClassEuro": "6"
+        },
+        "vehicleStatus": {
+          "tax": 9117
+        },
+        "registrationInformation": {
+          "registrationPlate": "KCN10G",
+          "deregistrationDate": null,
+          "deregistrationText": null,
+          "deregistrationReason": null
+        },
+        "generalTechSpecification": {
+          "eeg": "e1*2001/116*0220*76",
+          "fuels": [
+            {
+              "fuelCode": "Diesel",
+              "powerUnit": "EG",
+              "enginePower": 110,
+              "enginePowerHp": 150,
+              "fuelTankVolume": ""
+            }
+          ],
+          "width": 1904,
+          "height": 1980,
+          "length": 5304,
+          "gearbox": "Automatic",
+          "variant": "VGDNAA308X0",
+          "version": "LNFD7FD7DV00116VVR24BI2A910A",
+          "taxWeight": 2290,
+          "curbWeight": 2290,
+          "maxPayload": 790,
+          "totalWeight": 3080,
+          "chassisCode1": null,
+          "chassisCode2": null,
+          "cubicCapacity": "1968",
+          "numPassengers": "8",
+          "numberOfSeats": 9,
+          "fourWheelDrive": false,
+          "maxPullWeightB": 750,
+          "clutchMechanism1": null,
+          "clutchMechanism2": null,
+          "maxTrailerWeight": 2220,
+          "chassisCodeSupplement": null,
+          "maxPullWieghtNoBreaks": null,
+          "maxPullWeightBExtended": null,
+          "maxSingle Axle TrailerWeight": null
+        },
+        "vehicleOrigin": {
+          "originCode": "INFÖRT",
+          "originCodeReason": null,
+          "importerIdentifier": null,
+          "preRegistrationDate": null,
+          "importRegistrationDate": null,
+          "importedForPersonalUse": false,
+          "importedPreviouslyRegistered": false
+        },
+        "vehicleInspectionInformation": {
+          "inspections": [
+            {
+              "inspectionType": "5",
+              "odometerReading": 71309,
+              "dateOfInspection": "2026-08-13"
+            },
+            {
+              "inspectionType": "5",
+              "odometerReading": 44263,
+              "dateOfInspection": "2025-09-12"
+            }
+          ],
+          "inspectionGroup": "12/12/12",
+          "odometerReading": 71309,
+          "inspectionPeriod": "2026-08-13 - 2027-08-31",
+          "dateOfInspection": "2026-08-13",
+          "inspectionValidToDate": "2027-08-31",
+          "inspectionExemptionGroup": null
+        },
+        "vehicleInformation": {
+          "vin": "WV2ZZZ7HZPH083552",
+          "body": "AF",
+          "type": "LIGHT_TRUCK",
+          "year": "2023",
+          "model": "KOMBI",
+          "rawType": "PB",
+          "modelYear": null,
+          "categoryEu": "e1*2001/116*0220*76",
+          "groupNumber": "VW 346111",
+          "modelNumber": "VW 000000",
+          "chassisNumber": "WV2ZZZ7HZPH083552",
+          "exteriorColor": "White",
+          "fabricAndMake": "VOLKSWAGEN, VW",
+          "baseObjectType": "LIGHT_TRUCK",
+          "manufactureCode": null,
+          "manufactureMonth": "202305",
+          "registrationDate": "2023-05-22",
+          "initialTrafficDate": "2023-07-06",
+          "registrationPlateReused": null
+        }
+      },
+      "brand": "Volkswagen",
+      "id": "521290",
+      "fuels": [
+        {
+          "fuelCode": "Diesel",
+          "powerUnit": "EG",
+          "enginePower": 110,
+          "enginePowerHp": 150,
+          "fuelTankVolume": ""
+        }
+      ],
+      "gearbox": "Automatic",
+      "fabricAndMake": "VOLKSWAGEN, VW",
+      "baseObjectType": "LIGHT_TRUCK",
+      "modelId": null,
+      "odometerReading": null,
+      "modelName": "Transporter T6.1 Skåp TDI (150hk)",
+      "salesFlow": "CORPORATE_CARS",
+      "state": "MANUAL_VALUATION_PENDING",
+      "odometerUnit": "km",
+      "earliestAvailableAt": null,
+      "registrationCountry": "se",
+      "createdAt": "2026-10-08T06:08:42.174495+00:00",
+      "familyName": "Transporter",
+      "technicalSpecification": {
+        "modelId": null,
+        "vehicle": {
+          "brand": "Volkswagen",
+          "body": "Van",
+          "modelName": "Transporter T6.1 Skåp TDI (150hk)",
+          "familyName": "Transporter"
+        },
+        "year": "2023"
+      }
     },
-    "offsiteSalesContact": null,
-    "leaseReturnProperties": {},
     "id": "7291457",
-    "displayCar360Spin": true,
+    "leaseReturnProperties": {},
+    "vehicleType": "CAR",
+    "presentationApproved": false,
+    "baseObjectId": "521290",
+    "isFixedPrice": false,
     "certified": false,
-    "sellMethod": "BIDDING",
-    "isReleasable": false,
-    "car360Spin": null,
+    "objectType": "CAR",
+    "state": "AUCTION_RESOLUTION",
+    "initialBuyNowAmount": null,
     "statisticalValuation": null,
+    "testDriveAllowed": true,
+    "buyNowAmount": null,
+    "isReleasable": false,
     "createdAt": "2026-10-08 06:08:42.483323+00:00",
     "exportable": true,
     "deductibleVat": true,
@@ -1566,74 +1566,54 @@
         "isHighestBidLowerThanResidualLoanValue": false
       },
       "processObject": {
-        "displayCar360Spin": true,
-        "conditionClassification": "TESTED",
+        "car360Spin": null,
         "proactiveBrokering": null,
+        "displayCar360Spin": true,
+        "offsiteSalesContact": null,
+        "sellMethod": "BIDDING",
+        "reducedPrice": false,
+        "conditionClassification": "TESTED",
         "properties": {
-          "body": "Minivan",
-          "deductibleVat": true,
+          "adHeader": "Caravelle 2.0 TDI BMT (150hk) 9-sits Värmare Drag",
           "saleLimitedToCorporate": false,
-          "heavyEquipment": false,
-          "mustExport": false,
-          "odometerUnit": "km",
-          "hasUnpaidLoan": false,
-          "familyName": "Transporter",
           "ecoFriendly": false,
-          "numberOfPreviousOwners": 5,
-          "exportable": true,
-          "odometerReading": 93190,
-          "modelYear": 2021,
-          "brand": "Volkswagen",
+          "deductibleVat": true,
+          "exteriorColor": "White",
           "registrationPlate": "OCG64A",
-          "package": "9-sits Värmare Drag",
+          "title": "VW Caravelle 2.0 TDI BMT (150hk)",
+          "body": "Minivan",
+          "numberOfPreviousOwners": 5,
+          "brand": "Volkswagen",
+          "heavyEquipment": false,
+          "modelYear": 2021,
           "fuels": [
             {
               "enginePower": 150,
-              "fuelCode": "Diesel",
+              "consumption": 6.2,
               "co2": 164,
-              "consumption": 6.2
+              "fuelCode": "Diesel"
             }
           ],
-          "modelName": "Transporter T6 2.0 TDI BMT Skåp (150hk)",
           "gearbox": "Automatic",
-          "adHeader": "Caravelle 2.0 TDI BMT (150hk) 9-sits Värmare Drag",
-          "title": "VW Caravelle 2.0 TDI BMT (150hk)",
-          "exteriorColor": "White",
+          "odometerReading": 93190,
+          "package": "9-sits Värmare Drag",
+          "modelName": "Transporter T6 2.0 TDI BMT Skåp (150hk)",
+          "mustExport": false,
+          "odometerUnit": "km",
+          "exportable": true,
+          "hasUnpaidLoan": false,
+          "familyName": "Transporter",
           "heading1": "Volkswagen Transporter",
           "heading2": "T6 2.0 TDI BMT Skåp",
           "heading3": "9-sits Värmare Drag"
         },
-        "car360Spin": null,
-        "testDriveAllowed": true,
-        "certified": false,
-        "objectType": "CAR",
-        "statisticalValuation": null,
-        "buyNowAmount": null,
-        "sellMethod": "BIDDING",
-        "isFixedPrice": false,
-        "vehicleType": "CAR",
-        "leaseReturnProperties": {},
-        "baseObjectId": "523858",
-        "initialBuyNowAmount": null,
-        "isReleasable": false,
-        "id": "7292734",
-        "offsiteSalesContact": null,
-        "presentationApproved": false,
-        "createdAt": "2026-10-19 08:31:07.199109+00:00",
-        "state": "AUCTION",
-        "reducedPrice": false,
         "baseObject": {
-          "body": "Van",
-          "modelId": null,
           "exteriorColor": "White",
-          "baseObjectType": "LIGHT_TRUCK",
-          "registrationCountry": "se",
-          "odometerUnit": "km",
-          "familyName": "Transporter",
-          "odometerReading": null,
-          "earliestAvailableAt": null,
-          "brand": "Volkswagen",
           "registrationPlate": "OCG64A",
+          "year": "2021",
+          "body": "Van",
+          "brand": "Volkswagen",
+          "id": "523858",
           "fuels": [
             {
               "fuelCode": "Diesel",
@@ -1643,14 +1623,19 @@
               "fuelTankVolume": ""
             }
           ],
-          "id": "523858",
-          "modelName": "Transporter T6 2.0 TDI BMT Skåp (150hk)",
-          "createdAt": "2026-10-19T08:31:06.950585+00:00",
-          "state": "MANUAL_VALUATION_PENDING",
           "gearbox": "Automatic",
-          "salesFlow": "CORPORATE_CARS_SMALL",
-          "year": "2021",
           "fabricAndMake": "VOLKSWAGEN, VW",
+          "baseObjectType": "LIGHT_TRUCK",
+          "modelId": null,
+          "odometerReading": null,
+          "modelName": "Transporter T6 2.0 TDI BMT Skåp (150hk)",
+          "salesFlow": "CORPORATE_CARS_SMALL",
+          "state": "MANUAL_VALUATION_PENDING",
+          "odometerUnit": "km",
+          "earliestAvailableAt": null,
+          "registrationCountry": "se",
+          "createdAt": "2026-10-19T08:31:06.950585+00:00",
+          "familyName": "Transporter",
           "technicalSpecification": {
             "modelId": null,
             "vehicle": {
@@ -1662,6 +1647,21 @@
             "year": "2021"
           }
         },
+        "id": "7292734",
+        "leaseReturnProperties": {},
+        "vehicleType": "CAR",
+        "presentationApproved": false,
+        "baseObjectId": "523858",
+        "isFixedPrice": false,
+        "certified": false,
+        "objectType": "CAR",
+        "state": "AUCTION",
+        "initialBuyNowAmount": null,
+        "statisticalValuation": null,
+        "testDriveAllowed": true,
+        "buyNowAmount": null,
+        "isReleasable": false,
+        "createdAt": "2026-10-19 08:31:07.199109+00:00",
         "exportable": true,
         "deductibleVat": true,
         "collisionWarranty": null,
@@ -2041,6 +2041,6 @@
     "closedAt": "2026-10-30T09:54:34.618665+00:00",
     "updatedAt": "2026-10-30T09:54:34.752993+00:00"
   },
-  "_scraped_at": "2026-10-30T16:17:06.738932+00:00",
+  "_scraped_at": "2026-10-30T19:54:29.199562+00:00",
   "_url": "https://www.kvd.se/auktioner/vw-caravelle-tdi-150hk-309061"
 }

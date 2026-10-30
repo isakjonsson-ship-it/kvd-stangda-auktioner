@@ -44,18 +44,223 @@
   "eurBuyNowAmount": null,
   "winningBid": null,
   "processObject": {
-    "displayCar360Spin": true,
+    "objectType": "CAR",
+    "buyNowAmount": null,
+    "reducedPrice": false,
+    "testDriveAllowed": true,
+    "isFixedPrice": false,
+    "baseObject": {
+      "gearbox": "Automatic",
+      "baseObjectType": "CAR",
+      "odometerReading": 189500,
+      "authorityRegisterInformation": {
+        "vehicleOrigin": {
+          "originCode": "INFÖRT",
+          "originCodeReason": null,
+          "importerIdentifier": null,
+          "preRegistrationDate": null,
+          "importRegistrationDate": null,
+          "importedForPersonalUse": false,
+          "importedPreviouslyRegistered": false
+        },
+        "generalTechSpecification": {
+          "eeg": "e1*2007/46*0457*19",
+          "fuels": [
+            {
+              "fuelCode": "Diesel",
+              "powerUnit": "EG",
+              "enginePower": 140,
+              "enginePowerHp": 190,
+              "fuelTankVolume": ""
+            }
+          ],
+          "width": 1928,
+          "height": 1884,
+          "length": 5370,
+          "gearbox": "Automatic",
+          "variant": "KLA83320NXX",
+          "version": "3FKV2X37BEXX",
+          "taxWeight": 2620,
+          "curbWeight": 2620,
+          "maxPayload": 580,
+          "totalWeight": 3200,
+          "chassisCode1": null,
+          "chassisCode2": null,
+          "cubicCapacity": "2143",
+          "numPassengers": "6",
+          "numberOfSeats": 7,
+          "fourWheelDrive": true,
+          "maxPullWeightB": 750,
+          "clutchMechanism1": null,
+          "clutchMechanism2": null,
+          "maxTrailerWeight": 2500,
+          "chassisCodeSupplement": null,
+          "maxPullWieghtNoBreaks": null,
+          "maxPullWeightBExtended": null,
+          "maxSingle Axle TrailerWeight": null
+        },
+        "environmentalClassification": {
+          "fuels": [
+            {
+              "co2": 199,
+              "nox": "",
+              "nox4": null,
+              "fuelCode": "Diesel",
+              "hcThcNox": "",
+              "consumption": 7.5,
+              "noiseLevel": 71,
+              "emissionUnit": "g/km",
+              "innovationCo2": null,
+              "particleValue": "",
+              "particleMass4": null,
+              "consumptionUnit": "7,5",
+              "rangeNedcDrive": null,
+              "rangeWltpDrive": null,
+              "consumptionUrban": 9,
+              "rangeCityWltpDrive": null,
+              "consumptionExtraUrban": 6.7,
+              "electricEnergyConsumption": null,
+              "energyConsumptionWltpDrive": null
+            }
+          ],
+          "ecoFriendly": false,
+          "emissionClass": "EURO 6",
+          "innovationCode": null,
+          "environmentalClass": null,
+          "environmentalClassEuro": "6"
+        },
+        "vehicleStatus": {
+          "tax": 5236
+        },
+        "vehicleInspectionInformation": {
+          "inspections": [
+            {
+              "inspectionType": "5",
+              "odometerReading": 189050,
+              "dateOfInspection": "2026-06-05"
+            },
+            {
+              "inspectionType": "7",
+              "odometerReading": null,
+              "dateOfInspection": "2025-12-04"
+            }
+          ],
+          "inspectionGroup": "36/24/14",
+          "odometerReading": 189050,
+          "inspectionPeriod": "2026-06-05 - 2027-08-31",
+          "dateOfInspection": "2026-06-05",
+          "inspectionValidToDate": "2027-08-31",
+          "inspectionExemptionGroup": null
+        },
+        "registrationInformation": {
+          "registrationPlate": "SHN762",
+          "deregistrationDate": null,
+          "deregistrationText": null,
+          "deregistrationReason": null
+        },
+        "vehicleInformation": {
+          "vin": "WDF44781513508839",
+          "body": "AF",
+          "type": "CAR",
+          "year": "2018",
+          "model": "V-KLASSE",
+          "rawType": "PB",
+          "modelYear": null,
+          "categoryEu": "e1*2007/46*0457*19",
+          "groupNumber": "MB 678520",
+          "modelNumber": "MB 000000",
+          "chassisNumber": "WDF44781513508839",
+          "exteriorColor": "Black",
+          "fabricAndMake": "MERCEDES-BENZ",
+          "baseObjectType": "CAR",
+          "manufactureCode": null,
+          "manufactureMonth": "201807",
+          "registrationDate": "2018-07-12",
+          "initialTrafficDate": "2018-08-31",
+          "registrationPlateReused": null
+        },
+        "additionalTechSpecification": {
+          "raceCar": null,
+          "wheelbase1": 3430,
+          "wheelbase2": null,
+          "wheelbase3": null,
+          "wheelbase4": null,
+          "equipment1": null,
+          "equipment2": null,
+          "equipment3": null,
+          "maximumSpeed": 199,
+          "numAxleShafts": 2,
+          "passengerAirBag": true,
+          "tyreDimensionRear": "245/45R19XL 102Y",
+          "tyreDimensionFront": "245/45R19XL 102Y",
+          "dualSteeringControl": null
+        }
+      },
+      "fuels": [
+        {
+          "fuelCode": "Diesel",
+          "powerUnit": "EG",
+          "enginePower": 140,
+          "enginePowerHp": 190,
+          "fuelTankVolume": ""
+        }
+      ],
+      "earliestAvailableAt": null,
+      "modelName": "V 250 d 4MATIC W447 (190hk)",
+      "salesFlow": "CONSUMER_CARS",
+      "registrationPlate": "SHN762",
+      "state": "IMPORTING_INTO_PROCESS_OBJECT",
+      "odometerUnit": "km",
+      "fabricAndMake": "MERCEDES-BENZ",
+      "registrationCountry": "se",
+      "id": "520108",
+      "familyName": "V-Klass",
+      "modelId": null,
+      "year": "2019",
+      "createdAt": "2026-10-02T14:43:58.791905+00:00",
+      "brand": "Mercedes-Benz",
+      "body": "MPV",
+      "exteriorColor": "Black",
+      "technicalSpecification": {
+        "modelId": null,
+        "vehicle": {
+          "brand": "Mercedes-Benz",
+          "body": "MPV",
+          "modelName": "V 250 d 4MATIC W447 (190hk)",
+          "familyName": "V-Klass"
+        },
+        "year": "2019"
+      }
+    },
+    "vehicleType": "CAR",
+    "initialBuyNowAmount": null,
+    "baseObjectId": "520108",
     "conditionClassification": "TESTED",
     "proactiveBrokering": null,
+    "presentationApproved": false,
+    "state": "AUCTION_RESOLUTION",
     "properties": {
-      "length": 5370,
-      "mustExport": false,
-      "odometerUnit": "km",
-      "familyName": "V-Klass",
-      "drivingBan": false,
-      "taxWeight": 2620,
-      "odometerReading": 189590,
       "grades": {
+        "BRAKES": {
+          "max": 3,
+          "value": 2,
+          "min": 1
+        },
+        "TOTAL": {
+          "max": 5,
+          "value": 3,
+          "min": 1
+        },
+        "TECHNOLOGY_AND_EQUIPMENT": {
+          "max": 3,
+          "value": 2,
+          "min": 1
+        },
+        "ENGINE_AND_GEARBOX": {
+          "max": 3,
+          "value": 3,
+          "min": 1
+        },
         "INTERIOR": {
           "max": 5,
           "value": 3,
@@ -65,195 +270,9 @@
           "max": 5,
           "value": 3,
           "min": 1
-        },
-        "TOTAL": {
-          "max": 5,
-          "value": 3,
-          "min": 1
-        },
-        "ENGINE_AND_GEARBOX": {
-          "max": 3,
-          "value": 3,
-          "min": 1
-        },
-        "TECHNOLOGY_AND_EQUIPMENT": {
-          "max": 3,
-          "value": 2,
-          "min": 1
-        },
-        "BRAKES": {
-          "max": 3,
-          "value": 2,
-          "min": 1
         }
       },
-      "fuels": [
-        {
-          "enginePower": 190,
-          "fuelCode": "Diesel",
-          "co2": 199,
-          "consumption": 7.5
-        }
-      ],
-      "curbWeight": 2620,
-      "remarks": {
-        "TIRES": [
-          {
-            "category": "TIRES",
-            "key": "Centrumkåpa saknas",
-            "id": "0"
-          },
-          {
-            "category": "TIRES",
-            "key": "Torrsprickor i 4 däck",
-            "id": "1"
-          }
-        ],
-        "INTERIOR": [
-          {
-            "category": "INTERIOR",
-            "key": "Klädsel skadad bak",
-            "id": "0"
-          },
-          {
-            "category": "INTERIOR",
-            "key": "Klädsel ytligt slitage fram vänster",
-            "id": "1"
-          }
-        ],
-        "EXTERIOR": [
-          {
-            "category": "EXTERIOR",
-            "key": "Små sprickor i blinkersglas på vänster sida",
-            "id": "0"
-          },
-          {
-            "category": "EXTERIOR",
-            "key": "Sidospegel höger, kondens i blinkersglas",
-            "id": "1"
-          },
-          {
-            "category": "EXTERIOR",
-            "key": "Vänster bakljus, småsprickor",
-            "id": "2"
-          },
-          {
-            "category": "EXTERIOR",
-            "key": "Fåtal rostangrepp, Nyansskillnad i lack förekommer",
-            "id": "3"
-          }
-        ],
-        "ENGINE_AND_GEARBOX": [],
-        "TECHNOLOGY_AND_EQUIPMENT": [
-          {
-            "category": "TECHNOLOGY_AND_EQUIPMENT",
-            "key": "Avgassystem, flexrör skadat/fransar",
-            "id": "0"
-          },
-          {
-            "category": "TECHNOLOGY_AND_EQUIPMENT",
-            "key": "Ratt står snett, hjulinställning rekommenderas",
-            "id": "1"
-          },
-          {
-            "category": "TECHNOLOGY_AND_EQUIPMENT",
-            "key": "P-sensor höger bak osäker funktion, varnar utan hinder i närheten",
-            "id": "2"
-          }
-        ],
-        "BRAKES": [
-          {
-            "category": "BRAKES",
-            "key": "Bromsskivor fram rostskadade, bör bytas",
-            "id": "0"
-          }
-        ]
-      },
-      "width": 1928,
-      "numberOfSeats": 7,
-      "body": "MPV",
-      "maxPullWeightB": 750,
-      "textile": "Helläder",
-      "ecoFriendly": false,
-      "maxPayload": 580,
-      "exportable": true,
-      "inspectionValidToDate": "2027-08-31",
-      "taxFee": 5236,
-      "modelYear": 2019,
-      "inspectionPeriod": "2026-06-05 - 2027-08-31",
-      "dateOfInspection": "2026-06-05",
-      "registrationPlate": "SHN762",
-      "totalWeight": 3200,
-      "adHeader": "V 250 d 4MATIC W447 (190hk) AMG Line",
       "numberOfKeys": 2,
-      "towbar": true,
-      "hasUnpaidLoan": false,
-      "equipment": [
-        "4WD",
-        "AC",
-        "Antispinn",
-        "Backkamera",
-        "Bluetooth",
-        "Elspeglar",
-        "Farthållare",
-        "Fjärrlås",
-        "GPS",
-        "Radio",
-        "Stolsvärme fram",
-        "360-kamera",
-        "Antisladdsystem",
-        "Avtagbar dragkrok",
-        "Eldriven baklucka",
-        "Elhiss fram",
-        "Elinfällbara speglar",
-        "Isofix bak",
-        "Lastbågar",
-        "LED-strålkastare",
-        "Parkeringssensorer bak",
-        "Parkeringssensorer fram",
-        "Parkeringsvärmare med tidur",
-        "Start/Stop-funktion",
-        "USB-ingång",
-        "Agility Control chassi",
-        "Surroundsystem Burmester",
-        "Parkeringspaket",
-        "Aktiv parkeringshjälp",
-        "Luxus-kombi",
-        "Spegelpaket",
-        "Komfortöppning och -stängning med IR fjärrkontroll",
-        "Attention Assist",
-        "Konturbelysning",
-        "AMG Line",
-        "Framsäten komfort"
-      ],
-      "isRepairObject": false,
-      "mediation": true,
-      "residualLoanValue": 0,
-      "numberOfPreviousOwners": 7,
-      "package": "AMG Line",
-      "remarksLocalized": {
-        "TIRES": "Centrumkåpa saknas. Torrsprickor i 4 däck",
-        "BRAKES": "Bromsskivor fram rostskadade, bör bytas",
-        "EXTERIOR": "Små sprickor i blinkersglas på vänster sida. Sidospegel höger, kondens i blinkersglas. Vänster bakljus, småsprickor. Fåtal rostangrepp, Nyansskillnad i lack förekommer",
-        "INTERIOR": "Klädsel skadad bak. Klädsel ytligt slitage fram vänster",
-        "ENGINE_AND_GEARBOX": null,
-        "TECHNOLOGY_AND_EQUIPMENT": "Avgassystem, flexrör skadat/fransar. Ratt står snett, hjulinställning rekommenderas. P-sensor höger bak osäker funktion, varnar utan hinder i närheten"
-      },
-      "importedForPersonalUse": false,
-      "gearbox": "Automatic",
-      "title": "Mercedes V 250 d 4MATIC W447 (190hk)",
-      "chassisNumber": "WDF44781513508839",
-      "deductibleVat": false,
-      "saleLimitedToCorporate": false,
-      "heavyEquipment": false,
-      "manufactureMonth": "201807",
-      "height": 1884,
-      "initialTrafficDate": "2018-08-31",
-      "registrationCountry": "se",
-      "environmentalClassEuro": "6",
-      "registrationPlateCountry": "se",
-      "maxTrailerWeight": 2500,
-      "brand": "Mercedes",
       "formattedEquipment": [
         {
           "key": "4WD",
@@ -472,25 +491,186 @@
           "priority": 35
         }
       ],
-      "modelName": "V 250 d 4MATIC W447 (190hk)",
-      "finishType": "Metallic",
+      "exportable": true,
+      "mustExport": false,
+      "deductibleVat": false,
+      "manufactureMonth": "201807",
+      "totalWeight": 3200,
+      "dateOfInspection": "2026-06-05",
+      "registrationPlate": "SHN762",
+      "equipment": [
+        "4WD",
+        "AC",
+        "Antispinn",
+        "Backkamera",
+        "Bluetooth",
+        "Elspeglar",
+        "Farthållare",
+        "Fjärrlås",
+        "GPS",
+        "Radio",
+        "Stolsvärme fram",
+        "360-kamera",
+        "Antisladdsystem",
+        "Avtagbar dragkrok",
+        "Eldriven baklucka",
+        "Elhiss fram",
+        "Elinfällbara speglar",
+        "Isofix bak",
+        "Lastbågar",
+        "LED-strålkastare",
+        "Parkeringssensorer bak",
+        "Parkeringssensorer fram",
+        "Parkeringsvärmare med tidur",
+        "Start/Stop-funktion",
+        "USB-ingång",
+        "Agility Control chassi",
+        "Surroundsystem Burmester",
+        "Parkeringspaket",
+        "Aktiv parkeringshjälp",
+        "Luxus-kombi",
+        "Spegelpaket",
+        "Komfortöppning och -stängning med IR fjärrkontroll",
+        "Attention Assist",
+        "Konturbelysning",
+        "AMG Line",
+        "Framsäten komfort"
+      ],
+      "taxWeight": 2620,
+      "odometerUnit": "km",
+      "mediation": true,
+      "ecoFriendly": false,
+      "towbar": true,
+      "remarksLocalized": {
+        "TIRES": "Centrumkåpa saknas. Torrsprickor i 4 däck",
+        "BRAKES": "Bromsskivor fram rostskadade, bör bytas",
+        "EXTERIOR": "Små sprickor i blinkersglas på vänster sida. Sidospegel höger, kondens i blinkersglas. Vänster bakljus, småsprickor. Fåtal rostangrepp, Nyansskillnad i lack förekommer",
+        "INTERIOR": "Klädsel skadad bak. Klädsel ytligt slitage fram vänster",
+        "ENGINE_AND_GEARBOX": null,
+        "TECHNOLOGY_AND_EQUIPMENT": "Avgassystem, flexrör skadat/fransar. Ratt står snett, hjulinställning rekommenderas. P-sensor höger bak osäker funktion, varnar utan hinder i närheten"
+      },
+      "width": 1928,
+      "body": "MPV",
       "exteriorColor": "Black",
+      "remarks": {
+        "TIRES": [
+          {
+            "category": "TIRES",
+            "id": "0",
+            "key": "Centrumkåpa saknas"
+          },
+          {
+            "category": "TIRES",
+            "id": "1",
+            "key": "Torrsprickor i 4 däck"
+          }
+        ],
+        "BRAKES": [
+          {
+            "category": "BRAKES",
+            "id": "0",
+            "key": "Bromsskivor fram rostskadade, bör bytas"
+          }
+        ],
+        "TECHNOLOGY_AND_EQUIPMENT": [
+          {
+            "category": "TECHNOLOGY_AND_EQUIPMENT",
+            "id": "0",
+            "key": "Avgassystem, flexrör skadat/fransar"
+          },
+          {
+            "category": "TECHNOLOGY_AND_EQUIPMENT",
+            "id": "1",
+            "key": "Ratt står snett, hjulinställning rekommenderas"
+          },
+          {
+            "category": "TECHNOLOGY_AND_EQUIPMENT",
+            "id": "2",
+            "key": "P-sensor höger bak osäker funktion, varnar utan hinder i närheten"
+          }
+        ],
+        "ENGINE_AND_GEARBOX": [],
+        "INTERIOR": [
+          {
+            "category": "INTERIOR",
+            "id": "0",
+            "key": "Klädsel skadad bak"
+          },
+          {
+            "category": "INTERIOR",
+            "id": "1",
+            "key": "Klädsel ytligt slitage fram vänster"
+          }
+        ],
+        "EXTERIOR": [
+          {
+            "category": "EXTERIOR",
+            "id": "0",
+            "key": "Små sprickor i blinkersglas på vänster sida"
+          },
+          {
+            "category": "EXTERIOR",
+            "id": "1",
+            "key": "Sidospegel höger, kondens i blinkersglas"
+          },
+          {
+            "category": "EXTERIOR",
+            "id": "2",
+            "key": "Vänster bakljus, småsprickor"
+          },
+          {
+            "category": "EXTERIOR",
+            "id": "3",
+            "key": "Fåtal rostangrepp, Nyansskillnad i lack förekommer"
+          }
+        ]
+      },
+      "numberOfPreviousOwners": 7,
+      "adHeader": "V 250 d 4MATIC W447 (190hk) AMG Line",
+      "fuels": [
+        {
+          "fuelCode": "Diesel",
+          "co2": 199,
+          "consumption": 7.5,
+          "enginePower": 190
+        }
+      ],
+      "textile": "Helläder",
+      "maxTrailerWeight": 2500,
+      "maxPayload": 580,
+      "inspectionPeriod": "2026-06-05 - 2027-08-31",
+      "inspectionValidToDate": "2027-08-31",
+      "saleLimitedToCorporate": false,
+      "package": "AMG Line",
+      "hasUnpaidLoan": false,
+      "heavyEquipment": false,
+      "residualLoanValue": 0,
+      "brand": "Mercedes",
+      "gearbox": "Automatic",
+      "height": 1884,
+      "maxPullWeightB": 750,
+      "length": 5370,
+      "environmentalClassEuro": "6",
+      "curbWeight": 2620,
+      "drivingBan": false,
+      "initialTrafficDate": "2018-08-31",
+      "chassisNumber": "WDF44781513508839",
+      "familyName": "V-Klass",
+      "finishType": "Metallic",
+      "importedForPersonalUse": false,
+      "isRepairObject": false,
+      "title": "Mercedes V 250 d 4MATIC W447 (190hk)",
+      "odometerReading": 189590,
+      "modelName": "V 250 d 4MATIC W447 (190hk)",
+      "modelYear": 2019,
+      "numberOfSeats": 7,
+      "registrationPlateCountry": "se",
+      "registrationCountry": "se",
+      "taxFee": 5236,
       "heading1": "Mercedes V-Klass",
       "heading2": "V 250 d 4MATIC W447",
       "heading3": "AMG Line"
     },
-    "car360Spin": null,
-    "testDriveAllowed": true,
-    "certified": false,
-    "objectType": "CAR",
-    "statisticalValuation": {
-      "bpGreen": null,
-      "bpOrange": 401215,
-      "bpWhite": 401215,
-      "marketPrice": 401215
-    },
-    "buyNowAmount": null,
-    "sellMethod": "BIDDING",
     "orderableAdditionalServices": {
       "tradein": false,
       "transport": true,
@@ -499,201 +679,21 @@
       "warranty": true,
       "extraTires": false
     },
-    "isFixedPrice": false,
-    "vehicleType": "CAR",
-    "leaseReturnProperties": {},
-    "baseObjectId": "520108",
-    "initialBuyNowAmount": null,
-    "isReleasable": false,
-    "id": "7290885",
     "offsiteSalesContact": null,
-    "presentationApproved": false,
-    "createdAt": "2026-10-02 14:56:49.869536+00:00",
-    "state": "AUCTION_RESOLUTION",
-    "reducedPrice": false,
-    "baseObject": {
-      "body": "MPV",
-      "modelId": null,
-      "exteriorColor": "Black",
-      "baseObjectType": "CAR",
-      "registrationCountry": "se",
-      "odometerUnit": "km",
-      "familyName": "V-Klass",
-      "odometerReading": 189500,
-      "earliestAvailableAt": null,
-      "brand": "Mercedes-Benz",
-      "registrationPlate": "SHN762",
-      "fuels": [
-        {
-          "fuelCode": "Diesel",
-          "powerUnit": "EG",
-          "enginePower": 140,
-          "enginePowerHp": 190,
-          "fuelTankVolume": ""
-        }
-      ],
-      "id": "520108",
-      "authorityRegisterInformation": {
-        "generalTechSpecification": {
-          "eeg": "e1*2007/46*0457*19",
-          "fuels": [
-            {
-              "fuelCode": "Diesel",
-              "powerUnit": "EG",
-              "enginePower": 140,
-              "enginePowerHp": 190,
-              "fuelTankVolume": ""
-            }
-          ],
-          "width": 1928,
-          "height": 1884,
-          "length": 5370,
-          "gearbox": "Automatic",
-          "variant": "KLA83320NXX",
-          "version": "3FKV2X37BEXX",
-          "taxWeight": 2620,
-          "curbWeight": 2620,
-          "maxPayload": 580,
-          "totalWeight": 3200,
-          "chassisCode1": null,
-          "chassisCode2": null,
-          "cubicCapacity": "2143",
-          "numPassengers": "6",
-          "numberOfSeats": 7,
-          "fourWheelDrive": true,
-          "maxPullWeightB": 750,
-          "clutchMechanism1": null,
-          "clutchMechanism2": null,
-          "maxTrailerWeight": 2500,
-          "chassisCodeSupplement": null,
-          "maxPullWieghtNoBreaks": null,
-          "maxPullWeightBExtended": null,
-          "maxSingle Axle TrailerWeight": null
-        },
-        "vehicleOrigin": {
-          "originCode": "INFÖRT",
-          "originCodeReason": null,
-          "importerIdentifier": null,
-          "preRegistrationDate": null,
-          "importRegistrationDate": null,
-          "importedForPersonalUse": false,
-          "importedPreviouslyRegistered": false
-        },
-        "vehicleInspectionInformation": {
-          "inspections": [
-            {
-              "inspectionType": "5",
-              "odometerReading": 189050,
-              "dateOfInspection": "2026-06-05"
-            },
-            {
-              "inspectionType": "7",
-              "odometerReading": null,
-              "dateOfInspection": "2025-12-04"
-            }
-          ],
-          "inspectionGroup": "36/24/14",
-          "odometerReading": 189050,
-          "inspectionPeriod": "2026-06-05 - 2027-08-31",
-          "dateOfInspection": "2026-06-05",
-          "inspectionValidToDate": "2027-08-31",
-          "inspectionExemptionGroup": null
-        },
-        "environmentalClassification": {
-          "fuels": [
-            {
-              "co2": 199,
-              "nox": "",
-              "nox4": null,
-              "fuelCode": "Diesel",
-              "hcThcNox": "",
-              "consumption": 7.5,
-              "noiseLevel": 71,
-              "emissionUnit": "g/km",
-              "innovationCo2": null,
-              "particleValue": "",
-              "particleMass4": null,
-              "consumptionUnit": "7,5",
-              "rangeNedcDrive": null,
-              "rangeWltpDrive": null,
-              "consumptionUrban": 9,
-              "rangeCityWltpDrive": null,
-              "consumptionExtraUrban": 6.7,
-              "electricEnergyConsumption": null,
-              "energyConsumptionWltpDrive": null
-            }
-          ],
-          "ecoFriendly": false,
-          "emissionClass": "EURO 6",
-          "innovationCode": null,
-          "environmentalClass": null,
-          "environmentalClassEuro": "6"
-        },
-        "additionalTechSpecification": {
-          "raceCar": null,
-          "wheelbase1": 3430,
-          "wheelbase2": null,
-          "wheelbase3": null,
-          "wheelbase4": null,
-          "equipment1": null,
-          "equipment2": null,
-          "equipment3": null,
-          "maximumSpeed": 199,
-          "numAxleShafts": 2,
-          "passengerAirBag": true,
-          "tyreDimensionRear": "245/45R19XL 102Y",
-          "tyreDimensionFront": "245/45R19XL 102Y",
-          "dualSteeringControl": null
-        },
-        "vehicleStatus": {
-          "tax": 5236
-        },
-        "vehicleInformation": {
-          "vin": "WDF44781513508839",
-          "body": "AF",
-          "type": "CAR",
-          "year": "2018",
-          "model": "V-KLASSE",
-          "rawType": "PB",
-          "modelYear": null,
-          "categoryEu": "e1*2007/46*0457*19",
-          "groupNumber": "MB 678520",
-          "modelNumber": "MB 000000",
-          "chassisNumber": "WDF44781513508839",
-          "exteriorColor": "Black",
-          "fabricAndMake": "MERCEDES-BENZ",
-          "baseObjectType": "CAR",
-          "manufactureCode": null,
-          "manufactureMonth": "201807",
-          "registrationDate": "2018-07-12",
-          "initialTrafficDate": "2018-08-31",
-          "registrationPlateReused": null
-        },
-        "registrationInformation": {
-          "registrationPlate": "SHN762",
-          "deregistrationDate": null,
-          "deregistrationText": null,
-          "deregistrationReason": null
-        }
-      },
-      "modelName": "V 250 d 4MATIC W447 (190hk)",
-      "createdAt": "2026-10-02T14:43:58.791905+00:00",
-      "state": "IMPORTING_INTO_PROCESS_OBJECT",
-      "gearbox": "Automatic",
-      "salesFlow": "CONSUMER_CARS",
-      "year": "2019",
-      "fabricAndMake": "MERCEDES-BENZ",
-      "technicalSpecification": {
-        "modelId": null,
-        "vehicle": {
-          "brand": "Mercedes-Benz",
-          "body": "MPV",
-          "modelName": "V 250 d 4MATIC W447 (190hk)",
-          "familyName": "V-Klass"
-        },
-        "year": "2019"
-      }
+    "leaseReturnProperties": {},
+    "id": "7290885",
+    "displayCar360Spin": true,
+    "certified": false,
+    "sellMethod": "BIDDING",
+    "isReleasable": false,
+    "car360Spin": null,
+    "statisticalValuation": {
+      "bpGreen": null,
+      "bpWhite": 401215,
+      "marketPrice": 401215,
+      "bpOrange": 401215
     },
+    "createdAt": "2026-10-02 14:56:49.869536+00:00",
     "exportable": true,
     "deductibleVat": false,
     "collisionWarranty": null,
@@ -1881,7 +1881,7 @@
       "auctionUrl": "https://www.kvd.se/auktioner/mercedes-v-300-d-4matic-w447-239hk-309294",
       "state": "OPEN",
       "targetedAuctionGroupId": null,
-      "updatedAt": "2026-10-30T11:15:54.671542+00:00",
+      "updatedAt": "2026-10-30T18:07:11.172861+00:00",
       "releasing": null,
       "loan": {
         "loanCost": 2314,
@@ -1896,7 +1896,7 @@
       "maxAllowedBid": 645000,
       "isReserved": false,
       "isSoldByBuyNow": false,
-      "favouriteCount": 18,
+      "favouriteCount": 21,
       "winningBid": null,
       "activeAuction": {
         "auctionId": "309294",
@@ -2584,6 +2584,6 @@
     "closedAt": "2026-10-30T09:22:53.231137+00:00",
     "updatedAt": "2026-10-30T09:22:53.317974+00:00"
   },
-  "_scraped_at": "2026-10-30T16:16:08.051578+00:00",
+  "_scraped_at": "2026-10-30T19:53:31.987090+00:00",
   "_url": "https://www.kvd.se/auktioner/mercedes-v-250-d-4matic-w447-190hk-309248"
 }

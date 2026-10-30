@@ -44,18 +44,223 @@
   "eurBuyNowAmount": 5900,
   "winningBid": null,
   "processObject": {
-    "displayCar360Spin": true,
+    "objectType": "CAR",
+    "buyNowAmount": 64800,
+    "reducedPrice": true,
+    "testDriveAllowed": true,
+    "isFixedPrice": false,
+    "baseObject": {
+      "gearbox": "Manual",
+      "baseObjectType": "CAR",
+      "odometerReading": null,
+      "authorityRegisterInformation": {
+        "vehicleOrigin": {
+          "originCode": "INFÖRT",
+          "originCodeReason": null,
+          "importerIdentifier": null,
+          "preRegistrationDate": null,
+          "importRegistrationDate": null,
+          "importedForPersonalUse": false,
+          "importedPreviouslyRegistered": false
+        },
+        "generalTechSpecification": {
+          "eeg": "e11*2007/46*1008*06",
+          "fuels": [
+            {
+              "fuelCode": "Petrol",
+              "powerUnit": "EG",
+              "enginePower": 48.5,
+              "enginePowerHp": 66,
+              "fuelTankVolume": ""
+            }
+          ],
+          "width": 1660,
+          "height": 1500,
+          "length": 3665,
+          "gearbox": "Manual",
+          "variant": "B5P11",
+          "version": "M52BZ1",
+          "taxWeight": 1080,
+          "curbWeight": 1083,
+          "maxPayload": 337,
+          "totalWeight": 1420,
+          "chassisCode1": null,
+          "chassisCode2": null,
+          "cubicCapacity": "998",
+          "numPassengers": "4",
+          "numberOfSeats": 5,
+          "fourWheelDrive": false,
+          "maxPullWeightB": "",
+          "clutchMechanism1": null,
+          "clutchMechanism2": null,
+          "maxTrailerWeight": null,
+          "chassisCodeSupplement": null,
+          "maxPullWieghtNoBreaks": null,
+          "maxPullWeightBExtended": null,
+          "maxSingle Axle TrailerWeight": null
+        },
+        "environmentalClassification": {
+          "fuels": [
+            {
+              "co2": 108,
+              "nox": "",
+              "nox4": null,
+              "fuelCode": "Petrol",
+              "hcThcNox": "",
+              "consumption": 4.7,
+              "noiseLevel": 71,
+              "emissionUnit": "g/km",
+              "innovationCo2": null,
+              "particleValue": "",
+              "particleMass4": null,
+              "consumptionUnit": "4,7",
+              "rangeNedcDrive": null,
+              "rangeWltpDrive": null,
+              "consumptionUrban": 6,
+              "rangeCityWltpDrive": null,
+              "consumptionExtraUrban": 4,
+              "electricEnergyConsumption": null,
+              "energyConsumptionWltpDrive": null
+            }
+          ],
+          "ecoFriendly": false,
+          "emissionClass": "EURO 6",
+          "innovationCode": null,
+          "environmentalClass": null,
+          "environmentalClassEuro": "6"
+        },
+        "vehicleStatus": {
+          "tax": 360
+        },
+        "vehicleInspectionInformation": {
+          "inspections": [
+            {
+              "inspectionType": "5",
+              "odometerReading": 90068,
+              "dateOfInspection": "2026-06-26"
+            },
+            {
+              "inspectionType": "6",
+              "odometerReading": 78491,
+              "dateOfInspection": "2025-07-18"
+            }
+          ],
+          "inspectionGroup": "36/24/14",
+          "odometerReading": 90068,
+          "inspectionPeriod": "2026-06-26 - 2027-08-31",
+          "dateOfInspection": "2026-06-26",
+          "inspectionValidToDate": "2027-08-31",
+          "inspectionExemptionGroup": null
+        },
+        "registrationInformation": {
+          "registrationPlate": "ZBS453",
+          "deregistrationDate": null,
+          "deregistrationText": null,
+          "deregistrationReason": null
+        },
+        "vehicleInformation": {
+          "vin": "NLHA851AAJZ410470",
+          "body": "AB",
+          "type": "CAR",
+          "year": "2017",
+          "model": "I10",
+          "rawType": "PB",
+          "modelYear": null,
+          "categoryEu": "e11*2007/46*1008*06",
+          "groupNumber": "HK 128400",
+          "modelNumber": "HK 000000",
+          "chassisNumber": "NLHA851AAJZ410470",
+          "exteriorColor": "Silver",
+          "fabricAndMake": "HYUNDAI",
+          "baseObjectType": "CAR",
+          "manufactureCode": null,
+          "manufactureMonth": "201711",
+          "registrationDate": "2017-11-20",
+          "initialTrafficDate": "2018-06-26",
+          "registrationPlateReused": null
+        },
+        "additionalTechSpecification": {
+          "raceCar": null,
+          "wheelbase1": 2385,
+          "wheelbase2": null,
+          "wheelbase3": null,
+          "wheelbase4": null,
+          "equipment1": null,
+          "equipment2": null,
+          "equipment3": null,
+          "maximumSpeed": 156,
+          "numAxleShafts": "",
+          "passengerAirBag": true,
+          "tyreDimensionRear": "175/65R14 86T",
+          "tyreDimensionFront": "175/65R14 86T",
+          "dualSteeringControl": null
+        }
+      },
+      "fuels": [
+        {
+          "fuelCode": "Petrol",
+          "powerUnit": "EG",
+          "enginePower": 48.5,
+          "enginePowerHp": 66,
+          "fuelTankVolume": ""
+        }
+      ],
+      "earliestAvailableAt": null,
+      "modelName": "i10 1.0 (66hk)",
+      "salesFlow": "CONSUMER_CARS",
+      "registrationPlate": "ZBS453",
+      "state": "MANUAL_VALUATION_PENDING",
+      "odometerUnit": "km",
+      "fabricAndMake": "HYUNDAI",
+      "registrationCountry": "se",
+      "id": "518676",
+      "familyName": "i10",
+      "modelId": null,
+      "year": "2018",
+      "createdAt": "2026-09-25T12:58:26.813174+00:00",
+      "brand": "Hyundai",
+      "body": "Hatchback",
+      "exteriorColor": "Silver",
+      "technicalSpecification": {
+        "modelId": null,
+        "vehicle": {
+          "brand": "Hyundai",
+          "body": "Hatchback",
+          "modelName": "i10 1.0 (66hk)",
+          "familyName": "i10"
+        },
+        "year": "2018"
+      }
+    },
+    "vehicleType": "CAR",
+    "initialBuyNowAmount": 74900,
+    "baseObjectId": "518676",
     "conditionClassification": "CERTIFIED",
     "proactiveBrokering": null,
+    "presentationApproved": false,
+    "state": "AUCTION_RESOLUTION",
     "properties": {
-      "length": 3665,
-      "mustExport": false,
-      "odometerUnit": "km",
-      "familyName": "i10",
-      "drivingBan": false,
-      "taxWeight": 1080,
-      "odometerReading": 94330,
       "grades": {
+        "BRAKES": {
+          "max": 3,
+          "value": 3,
+          "min": 1
+        },
+        "TOTAL": {
+          "max": 5,
+          "value": 3,
+          "min": 1
+        },
+        "TECHNOLOGY_AND_EQUIPMENT": {
+          "max": 3,
+          "value": 2,
+          "min": 1
+        },
+        "ENGINE_AND_GEARBOX": {
+          "max": 3,
+          "value": 3,
+          "min": 1
+        },
         "INTERIOR": {
           "max": 5,
           "value": 3,
@@ -65,130 +270,9 @@
           "max": 5,
           "value": 3,
           "min": 1
-        },
-        "TOTAL": {
-          "max": 5,
-          "value": 3,
-          "min": 1
-        },
-        "ENGINE_AND_GEARBOX": {
-          "max": 3,
-          "value": 3,
-          "min": 1
-        },
-        "TECHNOLOGY_AND_EQUIPMENT": {
-          "max": 3,
-          "value": 2,
-          "min": 1
-        },
-        "BRAKES": {
-          "max": 3,
-          "value": 3,
-          "min": 1
         }
       },
-      "fuels": [
-        {
-          "enginePower": 66,
-          "fuelCode": "Petrol",
-          "co2": 108,
-          "consumption": 4.7
-        }
-      ],
-      "curbWeight": 1083,
-      "remarks": {
-        "TIRES": [],
-        "INTERIOR": [
-          {
-            "category": "INTERIOR",
-            "key": "Klädsel smutsig fram",
-            "id": "0"
-          }
-        ],
-        "EXTERIOR": [
-          {
-            "category": "EXTERIOR",
-            "key": "Bakljus höger, repa",
-            "id": "0"
-          },
-          {
-            "category": "EXTERIOR",
-            "key": "Fåtal bucklor, lackskador och rostangrepp, Stenskott i vindruta",
-            "id": "1"
-          }
-        ],
-        "ENGINE_AND_GEARBOX": [],
-        "TECHNOLOGY_AND_EQUIPMENT": [
-          {
-            "category": "TECHNOLOGY_AND_EQUIPMENT",
-            "key": "Dovt missljud vid rattsutslag i låga hastigheter",
-            "id": "0"
-          }
-        ],
-        "BRAKES": []
-      },
-      "width": 1660,
-      "numberOfSeats": 5,
-      "body": "Hatchback",
-      "textile": "Textil",
-      "ecoFriendly": false,
-      "maxPayload": 337,
-      "exportable": true,
-      "inspectionValidToDate": "2027-08-31",
-      "taxFee": 360,
-      "modelYear": 2018,
-      "inspectionPeriod": "2026-06-26 - 2027-08-31",
-      "dateOfInspection": "2026-06-26",
-      "registrationPlate": "ZBS453",
-      "totalWeight": 1420,
-      "adHeader": "i10 1.0 (66hk) Comfort AC Farthållare",
       "numberOfKeys": 2,
-      "towbar": false,
-      "hasUnpaidLoan": false,
-      "equipment": [
-        "AC",
-        "Antisladdsystem",
-        "Antispinn",
-        "AUX-ingång",
-        "Elhiss bak",
-        "Elhiss fram",
-        "Elspeglar",
-        "Farthållare",
-        "Fjärrlås",
-        "Isofix bak",
-        "Radio",
-        "Rattvärme",
-        "Stolsvärme fram",
-        "Urkopplingsbar passagerarairbag",
-        "USB-ingång"
-      ],
-      "isRepairObject": false,
-      "mediation": false,
-      "residualLoanValue": 0,
-      "numberOfPreviousOwners": 6,
-      "package": "Comfort AC Farthållare",
-      "remarksLocalized": {
-        "TIRES": null,
-        "BRAKES": null,
-        "EXTERIOR": "Bakljus höger, repa. Fåtal bucklor, lackskador och rostangrepp, Stenskott i vindruta",
-        "INTERIOR": "Klädsel smutsig fram",
-        "ENGINE_AND_GEARBOX": null,
-        "TECHNOLOGY_AND_EQUIPMENT": "Dovt missljud vid rattsutslag i låga hastigheter"
-      },
-      "importedForPersonalUse": false,
-      "gearbox": "Manual",
-      "title": "Hyundai i10 1.0 (66hk)",
-      "chassisNumber": "NLHA851AAJZ410470",
-      "deductibleVat": false,
-      "saleLimitedToCorporate": false,
-      "heavyEquipment": false,
-      "manufactureMonth": "201711",
-      "height": 1500,
-      "initialTrafficDate": "2018-06-26",
-      "registrationCountry": "se",
-      "environmentalClassEuro": "6",
-      "registrationPlateCountry": "se",
-      "brand": "Hyundai",
       "formattedEquipment": [
         {
           "key": "AC",
@@ -281,20 +365,121 @@
           "priority": 14
         }
       ],
-      "modelName": "i10 1.0 (66hk)",
-      "finishType": "Metallic",
+      "exportable": true,
+      "mustExport": false,
+      "deductibleVat": false,
+      "manufactureMonth": "201711",
+      "totalWeight": 1420,
+      "dateOfInspection": "2026-06-26",
+      "registrationPlate": "ZBS453",
+      "equipment": [
+        "AC",
+        "Antisladdsystem",
+        "Antispinn",
+        "AUX-ingång",
+        "Elhiss bak",
+        "Elhiss fram",
+        "Elspeglar",
+        "Farthållare",
+        "Fjärrlås",
+        "Isofix bak",
+        "Radio",
+        "Rattvärme",
+        "Stolsvärme fram",
+        "Urkopplingsbar passagerarairbag",
+        "USB-ingång"
+      ],
+      "taxWeight": 1080,
+      "odometerUnit": "km",
+      "mediation": false,
+      "ecoFriendly": false,
+      "towbar": false,
+      "remarksLocalized": {
+        "TIRES": null,
+        "BRAKES": null,
+        "EXTERIOR": "Bakljus höger, repa. Fåtal bucklor, lackskador och rostangrepp, Stenskott i vindruta",
+        "INTERIOR": "Klädsel smutsig fram",
+        "ENGINE_AND_GEARBOX": null,
+        "TECHNOLOGY_AND_EQUIPMENT": "Dovt missljud vid rattsutslag i låga hastigheter"
+      },
+      "width": 1660,
+      "body": "Hatchback",
       "exteriorColor": "Silver",
+      "remarks": {
+        "TIRES": [],
+        "BRAKES": [],
+        "TECHNOLOGY_AND_EQUIPMENT": [
+          {
+            "category": "TECHNOLOGY_AND_EQUIPMENT",
+            "id": "0",
+            "key": "Dovt missljud vid rattsutslag i låga hastigheter"
+          }
+        ],
+        "ENGINE_AND_GEARBOX": [],
+        "INTERIOR": [
+          {
+            "category": "INTERIOR",
+            "id": "0",
+            "key": "Klädsel smutsig fram"
+          }
+        ],
+        "EXTERIOR": [
+          {
+            "category": "EXTERIOR",
+            "id": "0",
+            "key": "Bakljus höger, repa"
+          },
+          {
+            "category": "EXTERIOR",
+            "id": "1",
+            "key": "Fåtal bucklor, lackskador och rostangrepp, Stenskott i vindruta"
+          }
+        ]
+      },
+      "numberOfPreviousOwners": 6,
+      "adHeader": "i10 1.0 (66hk) Comfort AC Farthållare",
+      "fuels": [
+        {
+          "fuelCode": "Petrol",
+          "co2": 108,
+          "consumption": 4.7,
+          "enginePower": 66
+        }
+      ],
+      "textile": "Textil",
+      "maxPayload": 337,
+      "inspectionPeriod": "2026-06-26 - 2027-08-31",
+      "inspectionValidToDate": "2027-08-31",
+      "saleLimitedToCorporate": false,
+      "package": "Comfort AC Farthållare",
+      "hasUnpaidLoan": false,
+      "heavyEquipment": false,
+      "residualLoanValue": 0,
+      "brand": "Hyundai",
+      "gearbox": "Manual",
+      "height": 1500,
+      "length": 3665,
+      "environmentalClassEuro": "6",
+      "curbWeight": 1083,
+      "drivingBan": false,
+      "initialTrafficDate": "2018-06-26",
+      "chassisNumber": "NLHA851AAJZ410470",
+      "familyName": "i10",
+      "finishType": "Metallic",
+      "importedForPersonalUse": false,
+      "isRepairObject": false,
+      "title": "Hyundai i10 1.0 (66hk)",
+      "odometerReading": 94330,
+      "modelName": "i10 1.0 (66hk)",
+      "modelYear": 2018,
+      "numberOfSeats": 5,
+      "registrationPlateCountry": "se",
+      "registrationCountry": "se",
+      "taxFee": 360,
       "heading1": "Hyundai i10",
       "heading2": "1.0",
       "heading3": "Comfort AC Farthållare"
     },
-    "car360Spin": null,
-    "testDriveAllowed": true,
-    "certified": true,
-    "objectType": "CAR",
-    "statisticalValuation": null,
-    "buyNowAmount": 64800,
-    "sellMethod": "BUY_NOW",
     "orderableAdditionalServices": {
       "tradein": false,
       "transport": true,
@@ -303,201 +488,16 @@
       "warranty": true,
       "extraTires": true
     },
-    "isFixedPrice": false,
-    "vehicleType": "CAR",
-    "leaseReturnProperties": {},
-    "baseObjectId": "518676",
-    "initialBuyNowAmount": 74900,
-    "isReleasable": false,
-    "id": "7290055",
     "offsiteSalesContact": null,
-    "presentationApproved": false,
+    "leaseReturnProperties": {},
+    "id": "7290055",
+    "displayCar360Spin": true,
+    "certified": true,
+    "sellMethod": "BUY_NOW",
+    "isReleasable": false,
+    "car360Spin": null,
+    "statisticalValuation": null,
     "createdAt": "2026-09-25 12:58:27.114203+00:00",
-    "state": "AUCTION_RESOLUTION",
-    "reducedPrice": true,
-    "baseObject": {
-      "body": "Hatchback",
-      "modelId": null,
-      "exteriorColor": "Silver",
-      "baseObjectType": "CAR",
-      "registrationCountry": "se",
-      "odometerUnit": "km",
-      "familyName": "i10",
-      "odometerReading": null,
-      "earliestAvailableAt": null,
-      "brand": "Hyundai",
-      "registrationPlate": "ZBS453",
-      "fuels": [
-        {
-          "fuelCode": "Petrol",
-          "powerUnit": "EG",
-          "enginePower": 48.5,
-          "enginePowerHp": 66,
-          "fuelTankVolume": ""
-        }
-      ],
-      "id": "518676",
-      "authorityRegisterInformation": {
-        "generalTechSpecification": {
-          "eeg": "e11*2007/46*1008*06",
-          "fuels": [
-            {
-              "fuelCode": "Petrol",
-              "powerUnit": "EG",
-              "enginePower": 48.5,
-              "enginePowerHp": 66,
-              "fuelTankVolume": ""
-            }
-          ],
-          "width": 1660,
-          "height": 1500,
-          "length": 3665,
-          "gearbox": "Manual",
-          "variant": "B5P11",
-          "version": "M52BZ1",
-          "taxWeight": 1080,
-          "curbWeight": 1083,
-          "maxPayload": 337,
-          "totalWeight": 1420,
-          "chassisCode1": null,
-          "chassisCode2": null,
-          "cubicCapacity": "998",
-          "numPassengers": "4",
-          "numberOfSeats": 5,
-          "fourWheelDrive": false,
-          "maxPullWeightB": "",
-          "clutchMechanism1": null,
-          "clutchMechanism2": null,
-          "maxTrailerWeight": null,
-          "chassisCodeSupplement": null,
-          "maxPullWieghtNoBreaks": null,
-          "maxPullWeightBExtended": null,
-          "maxSingle Axle TrailerWeight": null
-        },
-        "vehicleOrigin": {
-          "originCode": "INFÖRT",
-          "originCodeReason": null,
-          "importerIdentifier": null,
-          "preRegistrationDate": null,
-          "importRegistrationDate": null,
-          "importedForPersonalUse": false,
-          "importedPreviouslyRegistered": false
-        },
-        "vehicleInspectionInformation": {
-          "inspections": [
-            {
-              "inspectionType": "5",
-              "odometerReading": 90068,
-              "dateOfInspection": "2026-06-26"
-            },
-            {
-              "inspectionType": "6",
-              "odometerReading": 78491,
-              "dateOfInspection": "2025-07-18"
-            }
-          ],
-          "inspectionGroup": "36/24/14",
-          "odometerReading": 90068,
-          "inspectionPeriod": "2026-06-26 - 2027-08-31",
-          "dateOfInspection": "2026-06-26",
-          "inspectionValidToDate": "2027-08-31",
-          "inspectionExemptionGroup": null
-        },
-        "environmentalClassification": {
-          "fuels": [
-            {
-              "co2": 108,
-              "nox": "",
-              "nox4": null,
-              "fuelCode": "Petrol",
-              "hcThcNox": "",
-              "consumption": 4.7,
-              "noiseLevel": 71,
-              "emissionUnit": "g/km",
-              "innovationCo2": null,
-              "particleValue": "",
-              "particleMass4": null,
-              "consumptionUnit": "4,7",
-              "rangeNedcDrive": null,
-              "rangeWltpDrive": null,
-              "consumptionUrban": 6,
-              "rangeCityWltpDrive": null,
-              "consumptionExtraUrban": 4,
-              "electricEnergyConsumption": null,
-              "energyConsumptionWltpDrive": null
-            }
-          ],
-          "ecoFriendly": false,
-          "emissionClass": "EURO 6",
-          "innovationCode": null,
-          "environmentalClass": null,
-          "environmentalClassEuro": "6"
-        },
-        "additionalTechSpecification": {
-          "raceCar": null,
-          "wheelbase1": 2385,
-          "wheelbase2": null,
-          "wheelbase3": null,
-          "wheelbase4": null,
-          "equipment1": null,
-          "equipment2": null,
-          "equipment3": null,
-          "maximumSpeed": 156,
-          "numAxleShafts": "",
-          "passengerAirBag": true,
-          "tyreDimensionRear": "175/65R14 86T",
-          "tyreDimensionFront": "175/65R14 86T",
-          "dualSteeringControl": null
-        },
-        "vehicleStatus": {
-          "tax": 360
-        },
-        "vehicleInformation": {
-          "vin": "NLHA851AAJZ410470",
-          "body": "AB",
-          "type": "CAR",
-          "year": "2017",
-          "model": "I10",
-          "rawType": "PB",
-          "modelYear": null,
-          "categoryEu": "e11*2007/46*1008*06",
-          "groupNumber": "HK 128400",
-          "modelNumber": "HK 000000",
-          "chassisNumber": "NLHA851AAJZ410470",
-          "exteriorColor": "Silver",
-          "fabricAndMake": "HYUNDAI",
-          "baseObjectType": "CAR",
-          "manufactureCode": null,
-          "manufactureMonth": "201711",
-          "registrationDate": "2017-11-20",
-          "initialTrafficDate": "2018-06-26",
-          "registrationPlateReused": null
-        },
-        "registrationInformation": {
-          "registrationPlate": "ZBS453",
-          "deregistrationDate": null,
-          "deregistrationText": null,
-          "deregistrationReason": null
-        }
-      },
-      "modelName": "i10 1.0 (66hk)",
-      "createdAt": "2026-09-25T12:58:26.813174+00:00",
-      "state": "MANUAL_VALUATION_PENDING",
-      "gearbox": "Manual",
-      "salesFlow": "CONSUMER_CARS",
-      "year": "2018",
-      "fabricAndMake": "HYUNDAI",
-      "technicalSpecification": {
-        "modelId": null,
-        "vehicle": {
-          "brand": "Hyundai",
-          "body": "Hatchback",
-          "modelName": "i10 1.0 (66hk)",
-          "familyName": "i10"
-        },
-        "year": "2018"
-      }
-    },
     "exportable": true,
     "deductibleVat": false,
     "collisionWarranty": null,
@@ -1458,6 +1458,6 @@
     "closedAt": "2026-10-26T17:44:02.733839+00:00",
     "updatedAt": "2026-10-26T17:44:02.734754+00:00"
   },
-  "_scraped_at": "2026-10-30T16:16:30.692346+00:00",
+  "_scraped_at": "2026-10-30T19:53:54.244981+00:00",
   "_url": "https://www.kvd.se/auktioner/hyundai-i10-1-0-66hk-309088"
 }
