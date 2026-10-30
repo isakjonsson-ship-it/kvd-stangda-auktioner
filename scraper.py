@@ -71,6 +71,38 @@ def scrape_detail(auction: dict) -> dict:
     return full
 
 
+def extract_fuel_info(props: dict) -> dict:
+    """Extraherar bränsletyp, EV-flagga och hybrid-info."""
+    electric_type = props.get("electricType")  # t.ex. "Plug-in hybrid", "Electric" etc.
+    fuels = props.get("fuels") or []
+    fuel_codes = [f.get("fuelCode") for f in fuels if f.get("fuelCode")]
+
+    is_electric = "Electric" in fuel_codes or (electric_type and "electric" in electric_type.lower())
+    is_hybrid = electric_type and "hybrid" in electric_type.lower()
+    is_phev = is_hybrid and is_electric
+
+    # Primärt bränsle för visning
+    if is_electric and not is_hybrid:
+        fuel_display = "El"
+    elif is_phev:
+        fuel_display = "Plug-in hybrid"
+    elif is_hybrid:
+        fuel_display = "Hybrid"
+    elif fuel_codes:
+        fuel_display = ", ".join(fuel_codes)
+    else:
+        fuel_display = None
+
+    return {
+        "fuel": fuel_display,
+        "fuel_codes": ", ".join(fuel_codes) if fuel_codes else None,
+        "electric_type": electric_type,
+        "is_ev": is_electric and not is_hybrid,
+        "is_hybrid": bool(is_hybrid),
+        "is_phev": bool(is_phev),
+    }
+
+
 def flatten_for_aggregate(full: dict) -> dict:
     """Tar ut de intressanta fälten till den aggregerade filen."""
     if "error" in full:
@@ -96,6 +128,8 @@ def flatten_for_aggregate(full: dict) -> dict:
         status = "osåld / reservationspris ej uppnått"
         price = None
 
+    fuel_info = extract_fuel_info(props)
+
     return {
         "id": full.get("id"),
         "slug": full.get("slug"),
@@ -105,7 +139,12 @@ def flatten_for_aggregate(full: dict) -> dict:
         "model_name": vehicle.get("modelName") or props.get("modelName"),
         "model_year": props.get("modelYear") or vehicle.get("year"),
         "odometer_km": props.get("odometerReading"),
-        "fuel": props.get("fuelType"),
+        "fuel": fuel_info["fuel"],
+        "fuel_codes": fuel_info["fuel_codes"],
+        "electric_type": fuel_info["electric_type"],
+        "is_ev": fuel_info["is_ev"],
+        "is_hybrid": fuel_info["is_hybrid"],
+        "is_phev": fuel_info["is_phev"],
         "gearbox": props.get("gearbox"),
         "closed_at": full.get("closedAt"),
         "start_bid": full.get("startBid"),
