@@ -44,22 +44,223 @@
   "eurBuyNowAmount": null,
   "winningBid": null,
   "processObject": {
-    "displayCar360Spin": true,
+    "objectType": "CAR",
+    "buyNowAmount": null,
+    "reducedPrice": false,
+    "testDriveAllowed": true,
+    "isFixedPrice": false,
+    "baseObject": {
+      "gearbox": "Automatic",
+      "baseObjectType": "CAR",
+      "odometerReading": 21500,
+      "authorityRegisterInformation": {
+        "vehicleOrigin": {
+          "originCode": "INFÖRT",
+          "originCodeReason": null,
+          "importerIdentifier": null,
+          "preRegistrationDate": null,
+          "importRegistrationDate": null,
+          "importedForPersonalUse": false,
+          "importedPreviouslyRegistered": false
+        },
+        "generalTechSpecification": {
+          "eeg": "e4*2007/46*1259*16",
+          "fuels": [
+            {
+              "fuelCode": "Petrol",
+              "powerUnit": "EG",
+              "enginePower": 77.2,
+              "enginePowerHp": 105,
+              "fuelTankVolume": ""
+            }
+          ],
+          "width": 1800,
+          "height": 1565,
+          "length": 4205,
+          "gearbox": "Automatic",
+          "variant": "F5P31",
+          "version": "D61CY1Y2",
+          "taxWeight": 1480,
+          "curbWeight": 1484,
+          "maxPayload": 396,
+          "totalWeight": 1880,
+          "chassisCode1": null,
+          "chassisCode2": null,
+          "cubicCapacity": "1580",
+          "numPassengers": "4",
+          "numberOfSeats": 5,
+          "fourWheelDrive": false,
+          "maxPullWeightB": 1620,
+          "clutchMechanism1": null,
+          "clutchMechanism2": null,
+          "maxTrailerWeight": 1300,
+          "chassisCodeSupplement": null,
+          "maxPullWieghtNoBreaks": null,
+          "maxPullWeightBExtended": null,
+          "maxSingle Axle TrailerWeight": null
+        },
+        "environmentalClassification": {
+          "fuels": [
+            {
+              "co2": 90,
+              "nox": "",
+              "nox4": null,
+              "fuelCode": "Petrol",
+              "hcThcNox": "",
+              "consumption": 3.9,
+              "noiseLevel": 66,
+              "emissionUnit": "g/km",
+              "innovationCo2": null,
+              "particleValue": "",
+              "particleMass4": null,
+              "consumptionUnit": "3,9",
+              "rangeNedcDrive": null,
+              "rangeWltpDrive": null,
+              "consumptionUrban": 3.6,
+              "rangeCityWltpDrive": null,
+              "consumptionExtraUrban": 3.9,
+              "electricEnergyConsumption": null,
+              "energyConsumptionWltpDrive": null
+            }
+          ],
+          "ecoFriendly": false,
+          "emissionClass": "ELHYBRID",
+          "innovationCode": null,
+          "environmentalClass": null,
+          "environmentalClassEuro": "6"
+        },
+        "vehicleStatus": {
+          "tax": 1744
+        },
+        "vehicleInspectionInformation": {
+          "inspections": [
+            {
+              "inspectionType": "5",
+              "odometerReading": 21269,
+              "dateOfInspection": "2026-06-30"
+            },
+            {
+              "inspectionType": "13",
+              "odometerReading": null,
+              "dateOfInspection": "2023-02-13"
+            }
+          ],
+          "inspectionGroup": "36/24/14",
+          "odometerReading": 21269,
+          "inspectionPeriod": "2026-06-30 - 2028-06-30",
+          "dateOfInspection": "2026-06-30",
+          "inspectionValidToDate": "2028-06-30",
+          "inspectionExemptionGroup": null
+        },
+        "registrationInformation": {
+          "registrationPlate": "SDD40H",
+          "deregistrationDate": null,
+          "deregistrationText": null,
+          "deregistrationReason": null
+        },
+        "vehicleInformation": {
+          "vin": "KMHK581EGPU118333",
+          "body": "AF",
+          "type": "CAR",
+          "year": "2023",
+          "model": "KONA",
+          "rawType": "PB",
+          "modelYear": null,
+          "categoryEu": "e4*2007/46*1259*16",
+          "groupNumber": "HK 410010",
+          "modelNumber": "HK 000000",
+          "chassisNumber": "KMHK581EGPU118333",
+          "exteriorColor": "Grey",
+          "fabricAndMake": "HYUNDAI",
+          "baseObjectType": "CAR",
+          "manufactureCode": null,
+          "manufactureMonth": "202301",
+          "registrationDate": "2023-01-11",
+          "initialTrafficDate": "2023-08-01",
+          "registrationPlateReused": null
+        },
+        "additionalTechSpecification": {
+          "raceCar": null,
+          "wheelbase1": 2600,
+          "wheelbase2": null,
+          "wheelbase3": null,
+          "wheelbase4": null,
+          "equipment1": null,
+          "equipment2": null,
+          "equipment3": null,
+          "maximumSpeed": 160,
+          "numAxleShafts": 2,
+          "passengerAirBag": true,
+          "tyreDimensionRear": "205/60R16 92H",
+          "tyreDimensionFront": "205/60R16 92H",
+          "dualSteeringControl": null
+        }
+      },
+      "fuels": [
+        {
+          "fuelCode": "Petrol",
+          "powerUnit": "EG",
+          "enginePower": 77.2,
+          "enginePowerHp": 105,
+          "fuelTankVolume": ""
+        }
+      ],
+      "earliestAvailableAt": null,
+      "modelName": "Kona 1.6 GDI Hybrid (141hk)",
+      "salesFlow": "CONSUMER_CARS",
+      "registrationPlate": "SDD40H",
+      "state": "PREPARING_SALES_AGREEMENT",
+      "odometerUnit": "km",
+      "fabricAndMake": "HYUNDAI",
+      "registrationCountry": "se",
+      "id": "520692",
+      "familyName": "Kona",
+      "modelId": null,
+      "year": "2023",
+      "createdAt": "2026-10-06T08:26:35.338894+00:00",
+      "brand": "Hyundai",
+      "body": "SUV",
+      "exteriorColor": "Grey",
+      "technicalSpecification": {
+        "modelId": null,
+        "vehicle": {
+          "brand": "Hyundai",
+          "body": "SUV",
+          "modelName": "Kona 1.6 GDI Hybrid (141hk)",
+          "familyName": "Kona"
+        },
+        "year": "2023"
+      }
+    },
+    "vehicleType": "CAR",
+    "initialBuyNowAmount": null,
+    "baseObjectId": "520692",
     "conditionClassification": "TESTED",
     "proactiveBrokering": null,
+    "presentationApproved": false,
+    "state": "AUCTION",
     "properties": {
-      "length": 4205,
-      "mustExport": false,
-      "odometerUnit": "km",
-      "familyName": "Kona",
-      "drivingBan": false,
-      "taxWeight": 1480,
-      "manufacturerWarranty": {
-        "odometerReadingLimit": 0,
-        "expirationDate": "2028-07-31"
-      },
-      "odometerReading": 21360,
       "grades": {
+        "BRAKES": {
+          "max": 3,
+          "value": 3,
+          "min": 1
+        },
+        "TOTAL": {
+          "max": 5,
+          "value": 3,
+          "min": 1
+        },
+        "TECHNOLOGY_AND_EQUIPMENT": {
+          "max": 3,
+          "value": 2,
+          "min": 1
+        },
+        "ENGINE_AND_GEARBOX": {
+          "max": 3,
+          "value": 3,
+          "min": 1
+        },
         "INTERIOR": {
           "max": 5,
           "value": 3,
@@ -69,131 +270,9 @@
           "max": 5,
           "value": 3,
           "min": 1
-        },
-        "TOTAL": {
-          "max": 5,
-          "value": 3,
-          "min": 1
-        },
-        "ENGINE_AND_GEARBOX": {
-          "max": 3,
-          "value": 3,
-          "min": 1
-        },
-        "TECHNOLOGY_AND_EQUIPMENT": {
-          "max": 3,
-          "value": 2,
-          "min": 1
-        },
-        "BRAKES": {
-          "max": 3,
-          "value": 3,
-          "min": 1
         }
       },
-      "fuels": [
-        {
-          "enginePower": 105,
-          "fuelCode": "Petrol",
-          "co2": 90,
-          "consumption": 3.9
-        }
-      ],
-      "curbWeight": 1484,
-      "remarks": {
-        "TIRES": [],
-        "INTERIOR": [],
-        "EXTERIOR": [
-          {
-            "category": "EXTERIOR",
-            "key": "Flertal stenskott, dörruppslag och repor",
-            "id": "0"
-          }
-        ],
-        "ENGINE_AND_GEARBOX": [],
-        "TECHNOLOGY_AND_EQUIPMENT": [
-          {
-            "category": "TECHNOLOGY_AND_EQUIPMENT",
-            "key": "Signalhorn, ur funktion",
-            "id": "0"
-          }
-        ],
-        "BRAKES": []
-      },
-      "width": 1800,
-      "numberOfSeats": 5,
-      "body": "SUV",
-      "maxPullWeightB": 1620,
-      "textile": "Textil",
-      "ecoFriendly": false,
-      "maxPayload": 396,
-      "exportable": true,
-      "inspectionValidToDate": "2028-06-30",
-      "taxFee": 1744,
-      "modelYear": 2023,
-      "inspectionPeriod": "2026-06-30 - 2028-06-30",
-      "dateOfInspection": "2026-06-30",
-      "registrationPlate": "SDD40H",
-      "totalWeight": 1880,
-      "adHeader": "Kona 1.6 GDI Hybrid (141hk) GPS Backkamera",
       "numberOfKeys": 2,
-      "towbar": false,
-      "hasUnpaidLoan": false,
-      "equipment": [
-        "Antisladdsystem",
-        "Assistanssystem",
-        "Auto hold",
-        "Backkamera",
-        "Bluetooth",
-        "Dödavinkelvarnare",
-        "Elhiss bak",
-        "Elhiss fram",
-        "Elinfällbara speglar",
-        "Farthållare",
-        "Filbytesvarnare",
-        "Fjärrlås",
-        "GPS",
-        "Isofix bak",
-        "Klimatanläggning",
-        "LED-strålkastare",
-        "Nyckellöst startsystem",
-        "Parkeringssensorer bak",
-        "Parkeringssensorer fram",
-        "Radio",
-        "Rattvärme",
-        "Regnsensor",
-        "Stolsvärme fram",
-        "Urkopplingsbar passagerarairbag",
-        "USB-ingång"
-      ],
-      "isRepairObject": false,
-      "mediation": true,
-      "residualLoanValue": 0,
-      "numberOfPreviousOwners": 1,
-      "package": "GPS Backkamera",
-      "remarksLocalized": {
-        "TIRES": null,
-        "BRAKES": null,
-        "EXTERIOR": "Flertal stenskott, dörruppslag och repor",
-        "INTERIOR": null,
-        "ENGINE_AND_GEARBOX": null,
-        "TECHNOLOGY_AND_EQUIPMENT": "Signalhorn, ur funktion"
-      },
-      "importedForPersonalUse": false,
-      "gearbox": "Automatic",
-      "title": "Hyundai Kona 1.6 GDI Hybrid (141hk)",
-      "chassisNumber": "KMHK581EGPU118333",
-      "deductibleVat": false,
-      "saleLimitedToCorporate": false,
-      "heavyEquipment": false,
-      "manufactureMonth": "202301",
-      "height": 1565,
-      "initialTrafficDate": "2023-08-01",
-      "registrationCountry": "se",
-      "environmentalClassEuro": "6",
-      "registrationPlateCountry": "se",
-      "maxTrailerWeight": 1300,
-      "brand": "Hyundai",
       "formattedEquipment": [
         {
           "key": "ANTISLADDSYSTEM",
@@ -346,25 +425,126 @@
           "priority": 24
         }
       ],
-      "modelName": "Kona 1.6 GDI Hybrid (141hk)",
-      "finishType": "Metallic",
+      "exportable": true,
+      "mustExport": false,
+      "deductibleVat": false,
+      "manufactureMonth": "202301",
+      "totalWeight": 1880,
+      "dateOfInspection": "2026-06-30",
+      "registrationPlate": "SDD40H",
+      "equipment": [
+        "Antisladdsystem",
+        "Assistanssystem",
+        "Auto hold",
+        "Backkamera",
+        "Bluetooth",
+        "Dödavinkelvarnare",
+        "Elhiss bak",
+        "Elhiss fram",
+        "Elinfällbara speglar",
+        "Farthållare",
+        "Filbytesvarnare",
+        "Fjärrlås",
+        "GPS",
+        "Isofix bak",
+        "Klimatanläggning",
+        "LED-strålkastare",
+        "Nyckellöst startsystem",
+        "Parkeringssensorer bak",
+        "Parkeringssensorer fram",
+        "Radio",
+        "Rattvärme",
+        "Regnsensor",
+        "Stolsvärme fram",
+        "Urkopplingsbar passagerarairbag",
+        "USB-ingång"
+      ],
+      "taxWeight": 1480,
+      "odometerUnit": "km",
+      "mediation": true,
+      "ecoFriendly": false,
+      "towbar": false,
+      "remarksLocalized": {
+        "TIRES": null,
+        "BRAKES": null,
+        "EXTERIOR": "Flertal stenskott, dörruppslag och repor",
+        "INTERIOR": null,
+        "ENGINE_AND_GEARBOX": null,
+        "TECHNOLOGY_AND_EQUIPMENT": "Signalhorn, ur funktion"
+      },
+      "width": 1800,
+      "body": "SUV",
       "exteriorColor": "Grey",
+      "remarks": {
+        "TIRES": [],
+        "BRAKES": [],
+        "TECHNOLOGY_AND_EQUIPMENT": [
+          {
+            "category": "TECHNOLOGY_AND_EQUIPMENT",
+            "id": "0",
+            "key": "Signalhorn, ur funktion"
+          }
+        ],
+        "ENGINE_AND_GEARBOX": [],
+        "INTERIOR": [],
+        "EXTERIOR": [
+          {
+            "category": "EXTERIOR",
+            "id": "0",
+            "key": "Flertal stenskott, dörruppslag och repor"
+          }
+        ]
+      },
+      "numberOfPreviousOwners": 1,
+      "adHeader": "Kona 1.6 GDI Hybrid (141hk) GPS Backkamera",
+      "fuels": [
+        {
+          "fuelCode": "Petrol",
+          "co2": 90,
+          "consumption": 3.9,
+          "enginePower": 105
+        }
+      ],
+      "textile": "Textil",
+      "maxTrailerWeight": 1300,
+      "maxPayload": 396,
+      "inspectionPeriod": "2026-06-30 - 2028-06-30",
+      "inspectionValidToDate": "2028-06-30",
+      "saleLimitedToCorporate": false,
+      "manufacturerWarranty": {
+        "odometerReadingLimit": 0,
+        "expirationDate": "2028-07-31"
+      },
+      "package": "GPS Backkamera",
+      "hasUnpaidLoan": false,
+      "heavyEquipment": false,
+      "residualLoanValue": 0,
+      "brand": "Hyundai",
+      "gearbox": "Automatic",
+      "height": 1565,
+      "maxPullWeightB": 1620,
+      "length": 4205,
+      "environmentalClassEuro": "6",
+      "curbWeight": 1484,
+      "drivingBan": false,
+      "initialTrafficDate": "2023-08-01",
+      "chassisNumber": "KMHK581EGPU118333",
+      "familyName": "Kona",
+      "finishType": "Metallic",
+      "importedForPersonalUse": false,
+      "isRepairObject": false,
+      "title": "Hyundai Kona 1.6 GDI Hybrid (141hk)",
+      "odometerReading": 21360,
+      "modelName": "Kona 1.6 GDI Hybrid (141hk)",
+      "modelYear": 2023,
+      "numberOfSeats": 5,
+      "registrationPlateCountry": "se",
+      "registrationCountry": "se",
+      "taxFee": 1744,
       "heading1": "Hyundai Kona",
       "heading2": "1.6 GDI Hybrid",
       "heading3": "GPS Backkamera"
     },
-    "car360Spin": null,
-    "testDriveAllowed": true,
-    "certified": false,
-    "objectType": "CAR",
-    "statisticalValuation": {
-      "bpGreen": null,
-      "bpOrange": 231720,
-      "bpWhite": 231720,
-      "marketPrice": 231720
-    },
-    "buyNowAmount": null,
-    "sellMethod": "BIDDING",
     "orderableAdditionalServices": {
       "tradein": false,
       "transport": true,
@@ -373,201 +553,21 @@
       "warranty": true,
       "extraTires": false
     },
-    "isFixedPrice": false,
-    "vehicleType": "CAR",
-    "leaseReturnProperties": {},
-    "baseObjectId": "520692",
-    "initialBuyNowAmount": null,
-    "isReleasable": false,
-    "id": "7291142",
     "offsiteSalesContact": null,
-    "presentationApproved": false,
-    "createdAt": "2026-10-06 08:29:04.560876+00:00",
-    "state": "AUCTION",
-    "reducedPrice": false,
-    "baseObject": {
-      "body": "SUV",
-      "modelId": null,
-      "exteriorColor": "Grey",
-      "baseObjectType": "CAR",
-      "registrationCountry": "se",
-      "odometerUnit": "km",
-      "familyName": "Kona",
-      "odometerReading": 21500,
-      "earliestAvailableAt": null,
-      "brand": "Hyundai",
-      "registrationPlate": "SDD40H",
-      "fuels": [
-        {
-          "fuelCode": "Petrol",
-          "powerUnit": "EG",
-          "enginePower": 77.2,
-          "enginePowerHp": 105,
-          "fuelTankVolume": ""
-        }
-      ],
-      "id": "520692",
-      "authorityRegisterInformation": {
-        "generalTechSpecification": {
-          "eeg": "e4*2007/46*1259*16",
-          "fuels": [
-            {
-              "fuelCode": "Petrol",
-              "powerUnit": "EG",
-              "enginePower": 77.2,
-              "enginePowerHp": 105,
-              "fuelTankVolume": ""
-            }
-          ],
-          "width": 1800,
-          "height": 1565,
-          "length": 4205,
-          "gearbox": "Automatic",
-          "variant": "F5P31",
-          "version": "D61CY1Y2",
-          "taxWeight": 1480,
-          "curbWeight": 1484,
-          "maxPayload": 396,
-          "totalWeight": 1880,
-          "chassisCode1": null,
-          "chassisCode2": null,
-          "cubicCapacity": "1580",
-          "numPassengers": "4",
-          "numberOfSeats": 5,
-          "fourWheelDrive": false,
-          "maxPullWeightB": 1620,
-          "clutchMechanism1": null,
-          "clutchMechanism2": null,
-          "maxTrailerWeight": 1300,
-          "chassisCodeSupplement": null,
-          "maxPullWieghtNoBreaks": null,
-          "maxPullWeightBExtended": null,
-          "maxSingle Axle TrailerWeight": null
-        },
-        "vehicleOrigin": {
-          "originCode": "INFÖRT",
-          "originCodeReason": null,
-          "importerIdentifier": null,
-          "preRegistrationDate": null,
-          "importRegistrationDate": null,
-          "importedForPersonalUse": false,
-          "importedPreviouslyRegistered": false
-        },
-        "vehicleInspectionInformation": {
-          "inspections": [
-            {
-              "inspectionType": "5",
-              "odometerReading": 21269,
-              "dateOfInspection": "2026-06-30"
-            },
-            {
-              "inspectionType": "13",
-              "odometerReading": null,
-              "dateOfInspection": "2023-02-13"
-            }
-          ],
-          "inspectionGroup": "36/24/14",
-          "odometerReading": 21269,
-          "inspectionPeriod": "2026-06-30 - 2028-06-30",
-          "dateOfInspection": "2026-06-30",
-          "inspectionValidToDate": "2028-06-30",
-          "inspectionExemptionGroup": null
-        },
-        "environmentalClassification": {
-          "fuels": [
-            {
-              "co2": 90,
-              "nox": "",
-              "nox4": null,
-              "fuelCode": "Petrol",
-              "hcThcNox": "",
-              "consumption": 3.9,
-              "noiseLevel": 66,
-              "emissionUnit": "g/km",
-              "innovationCo2": null,
-              "particleValue": "",
-              "particleMass4": null,
-              "consumptionUnit": "3,9",
-              "rangeNedcDrive": null,
-              "rangeWltpDrive": null,
-              "consumptionUrban": 3.6,
-              "rangeCityWltpDrive": null,
-              "consumptionExtraUrban": 3.9,
-              "electricEnergyConsumption": null,
-              "energyConsumptionWltpDrive": null
-            }
-          ],
-          "ecoFriendly": false,
-          "emissionClass": "ELHYBRID",
-          "innovationCode": null,
-          "environmentalClass": null,
-          "environmentalClassEuro": "6"
-        },
-        "additionalTechSpecification": {
-          "raceCar": null,
-          "wheelbase1": 2600,
-          "wheelbase2": null,
-          "wheelbase3": null,
-          "wheelbase4": null,
-          "equipment1": null,
-          "equipment2": null,
-          "equipment3": null,
-          "maximumSpeed": 160,
-          "numAxleShafts": 2,
-          "passengerAirBag": true,
-          "tyreDimensionRear": "205/60R16 92H",
-          "tyreDimensionFront": "205/60R16 92H",
-          "dualSteeringControl": null
-        },
-        "vehicleStatus": {
-          "tax": 1744
-        },
-        "vehicleInformation": {
-          "vin": "KMHK581EGPU118333",
-          "body": "AF",
-          "type": "CAR",
-          "year": "2023",
-          "model": "KONA",
-          "rawType": "PB",
-          "modelYear": null,
-          "categoryEu": "e4*2007/46*1259*16",
-          "groupNumber": "HK 410010",
-          "modelNumber": "HK 000000",
-          "chassisNumber": "KMHK581EGPU118333",
-          "exteriorColor": "Grey",
-          "fabricAndMake": "HYUNDAI",
-          "baseObjectType": "CAR",
-          "manufactureCode": null,
-          "manufactureMonth": "202301",
-          "registrationDate": "2023-01-11",
-          "initialTrafficDate": "2023-08-01",
-          "registrationPlateReused": null
-        },
-        "registrationInformation": {
-          "registrationPlate": "SDD40H",
-          "deregistrationDate": null,
-          "deregistrationText": null,
-          "deregistrationReason": null
-        }
-      },
-      "modelName": "Kona 1.6 GDI Hybrid (141hk)",
-      "createdAt": "2026-10-06T08:26:35.338894+00:00",
-      "state": "PREPARING_SALES_AGREEMENT",
-      "gearbox": "Automatic",
-      "salesFlow": "CONSUMER_CARS",
-      "year": "2023",
-      "fabricAndMake": "HYUNDAI",
-      "technicalSpecification": {
-        "modelId": null,
-        "vehicle": {
-          "brand": "Hyundai",
-          "body": "SUV",
-          "modelName": "Kona 1.6 GDI Hybrid (141hk)",
-          "familyName": "Kona"
-        },
-        "year": "2023"
-      }
+    "leaseReturnProperties": {},
+    "id": "7291142",
+    "displayCar360Spin": true,
+    "certified": false,
+    "sellMethod": "BIDDING",
+    "isReleasable": false,
+    "car360Spin": null,
+    "statisticalValuation": {
+      "bpGreen": null,
+      "bpWhite": 231720,
+      "marketPrice": 231720,
+      "bpOrange": 231720
     },
+    "createdAt": "2026-10-06 08:29:04.560876+00:00",
     "exportable": true,
     "deductibleVat": false,
     "collisionWarranty": null,
@@ -1737,6 +1737,6 @@
     "closedAt": "2026-10-29T09:00:00.051465+00:00",
     "updatedAt": "2026-10-29T14:44:02.614616+00:00"
   },
-  "_scraped_at": "2026-10-30T19:54:11.211779+00:00",
+  "_scraped_at": "2026-10-30T23:33:20.715271+00:00",
   "_url": "https://www.kvd.se/auktioner/hyundai-kona-1-6-gdi-hybrid-141hk-309074"
 }

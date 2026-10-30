@@ -44,76 +44,235 @@
   "eurBuyNowAmount": null,
   "winningBid": null,
   "processObject": {
-    "orderableAdditionalServices": {
-      "tradein": false,
-      "transport": true,
-      "insurance": true,
-      "finance": true,
-      "warranty": true,
-      "extraTires": false
-    },
-    "car360Spin": null,
-    "proactiveBrokering": null,
-    "displayCar360Spin": true,
-    "offsiteSalesContact": null,
-    "sellMethod": "BIDDING",
+    "objectType": "CAR",
+    "buyNowAmount": null,
     "reducedPrice": false,
-    "conditionClassification": "TESTED",
-    "properties": {
-      "adHeader": "3008 BlueHDi (180hk) GT Panorama Focal Vinterhjul",
-      "brand": "Peugeot",
-      "mediation": true,
-      "curbWeight": 1640,
-      "maxPayload": 450,
-      "equipment": [
-        "AC",
-        "Aktiv parkeringshjälp",
-        "Antisladdsystem",
-        "Antispinn",
-        "Backkamera",
-        "Bluetooth",
-        "Dödavinkelvarnare",
-        "Eldriven baklucka",
-        "Elhiss bak",
-        "Elhiss fram",
-        "Elinfällbara speglar",
-        "Elspeglar",
-        "Elstol förarplats",
-        "Elstol med minnesfunktion förarplats",
-        "Farthållare",
-        "Fastmonterad dragkrok",
-        "Filbytesvarnare",
-        "Fjärrlås",
-        "GPS",
-        "Isofix bak",
-        "Klimatanläggning",
-        "LED-strålkastare",
-        "Nyckellöst startsystem",
-        "Parkeringssensorer bak",
-        "Parkeringssensorer fram",
-        "Radio",
-        "Regnsensor",
-        "Smartphone integration",
-        "Stolsvärme fram",
-        "Urkopplingsbar passagerarairbag",
-        "USB-ingång",
-        "Öppningsbart panoramatak"
+    "testDriveAllowed": true,
+    "isFixedPrice": false,
+    "baseObject": {
+      "gearbox": "Automatic",
+      "baseObjectType": "CAR",
+      "odometerReading": null,
+      "authorityRegisterInformation": {
+        "vehicleOrigin": {
+          "originCode": "INFÖRT",
+          "originCodeReason": null,
+          "importerIdentifier": null,
+          "preRegistrationDate": null,
+          "importRegistrationDate": null,
+          "importedForPersonalUse": false,
+          "importedPreviouslyRegistered": false
+        },
+        "generalTechSpecification": {
+          "eeg": "e2*2007/46*0534*03",
+          "fuels": [
+            {
+              "fuelCode": "Diesel",
+              "powerUnit": "EG",
+              "enginePower": 133,
+              "enginePowerHp": 181,
+              "fuelTankVolume": ""
+            }
+          ],
+          "width": 1841,
+          "height": 1623,
+          "length": 4447,
+          "gearbox": "Automatic",
+          "variant": "J",
+          "version": "AHWW-C2B000",
+          "taxWeight": 1640,
+          "curbWeight": 1640,
+          "maxPayload": 450,
+          "totalWeight": 2090,
+          "chassisCode1": null,
+          "chassisCode2": null,
+          "cubicCapacity": "1997",
+          "numPassengers": "4",
+          "numberOfSeats": 5,
+          "fourWheelDrive": false,
+          "maxPullWeightB": 1410,
+          "clutchMechanism1": null,
+          "clutchMechanism2": null,
+          "maxTrailerWeight": 1700,
+          "chassisCodeSupplement": null,
+          "maxPullWieghtNoBreaks": null,
+          "maxPullWeightBExtended": null,
+          "maxSingle Axle TrailerWeight": null
+        },
+        "environmentalClassification": {
+          "fuels": [
+            {
+              "co2": 124,
+              "nox": "",
+              "nox4": null,
+              "fuelCode": "Diesel",
+              "hcThcNox": "",
+              "consumption": 4.8,
+              "noiseLevel": 72,
+              "emissionUnit": "g/km",
+              "innovationCo2": null,
+              "particleValue": "",
+              "particleMass4": null,
+              "consumptionUnit": "4,8",
+              "rangeNedcDrive": null,
+              "rangeWltpDrive": null,
+              "consumptionUrban": 5.5,
+              "rangeCityWltpDrive": null,
+              "consumptionExtraUrban": 4.4,
+              "electricEnergyConsumption": null,
+              "energyConsumptionWltpDrive": null
+            }
+          ],
+          "ecoFriendly": false,
+          "emissionClass": "EURO 6",
+          "innovationCode": null,
+          "environmentalClass": null,
+          "environmentalClassEuro": "6"
+        },
+        "vehicleStatus": {
+          "tax": 1781
+        },
+        "vehicleInspectionInformation": {
+          "inspections": [
+            {
+              "inspectionType": "5",
+              "odometerReading": 123545,
+              "dateOfInspection": "2025-09-15"
+            },
+            {
+              "inspectionType": "5",
+              "odometerReading": 112802,
+              "dateOfInspection": "2024-09-05"
+            }
+          ],
+          "inspectionGroup": "36/24/14",
+          "odometerReading": 123545,
+          "inspectionPeriod": "2025-09-15 - 2026-11-30",
+          "dateOfInspection": "2025-09-15",
+          "inspectionValidToDate": "2026-11-30",
+          "inspectionExemptionGroup": null
+        },
+        "registrationInformation": {
+          "registrationPlate": "HMP938",
+          "deregistrationDate": null,
+          "deregistrationText": null,
+          "deregistrationReason": null
+        },
+        "vehicleInformation": {
+          "vin": "VF3MJAHWWHS229031",
+          "body": "AF",
+          "type": "CAR",
+          "year": "2017",
+          "model": "3008",
+          "rawType": "PB",
+          "modelYear": null,
+          "categoryEu": "e2*2007/46*0534*03",
+          "groupNumber": "PG 084056",
+          "modelNumber": "PG 000000",
+          "chassisNumber": "VF3MJAHWWHS229031",
+          "exteriorColor": "Unknown",
+          "fabricAndMake": "PEUGEOT",
+          "baseObjectType": "CAR",
+          "manufactureCode": null,
+          "manufactureMonth": "201708",
+          "registrationDate": "2017-08-21",
+          "initialTrafficDate": "2017-09-21",
+          "registrationPlateReused": null
+        },
+        "additionalTechSpecification": {
+          "raceCar": null,
+          "wheelbase1": 2675,
+          "wheelbase2": null,
+          "wheelbase3": null,
+          "wheelbase4": null,
+          "equipment1": null,
+          "equipment2": null,
+          "equipment3": null,
+          "maximumSpeed": 211,
+          "numAxleShafts": "",
+          "passengerAirBag": false,
+          "tyreDimensionRear": "215/65R17",
+          "tyreDimensionFront": "215/65R17",
+          "dualSteeringControl": null
+        }
+      },
+      "fuels": [
+        {
+          "fuelCode": "Diesel",
+          "powerUnit": "EG",
+          "enginePower": 133,
+          "enginePowerHp": 181,
+          "fuelTankVolume": ""
+        }
       ],
-      "inspectionValidToDate": "2026-11-30",
+      "earliestAvailableAt": null,
+      "modelName": "3008 2.0 BlueHDi (180hk)",
+      "salesFlow": "CONSUMER_CARS",
+      "registrationPlate": "HMP938",
+      "state": "MANUAL_VALUATION_PENDING",
       "odometerUnit": "km",
-      "length": 4447,
-      "finishType": "Metallic",
-      "textile": "Läder/Alcantara",
-      "saleLimitedToCorporate": false,
-      "chassisNumber": "VF3MJAHWWHS229031",
-      "title": "Peugeot 3008 2.0 BlueHDi (180hk)",
-      "dateOfInspection": "2025-09-15",
-      "inspectionPeriod": "2025-09-15 - 2026-11-30",
-      "totalWeight": 2090,
-      "registrationPlateCountry": "se",
-      "exportable": true,
-      "residualLoanValue": 0,
-      "taxFee": 1781,
+      "fabricAndMake": "PEUGEOT",
+      "registrationCountry": "se",
+      "id": "516794",
+      "familyName": "3008",
+      "modelId": null,
+      "year": "2018",
+      "createdAt": "2026-09-17T06:52:51.450427+00:00",
+      "brand": "Peugeot",
+      "body": "SUV",
+      "exteriorColor": "Unknown",
+      "technicalSpecification": {
+        "modelId": null,
+        "vehicle": {
+          "brand": "Peugeot",
+          "body": "SUV",
+          "modelName": "3008 2.0 BlueHDi (180hk)",
+          "familyName": "3008"
+        },
+        "year": "2018"
+      }
+    },
+    "vehicleType": "CAR",
+    "initialBuyNowAmount": null,
+    "baseObjectId": "516794",
+    "conditionClassification": "TESTED",
+    "proactiveBrokering": null,
+    "presentationApproved": false,
+    "state": "AUCTION_RESOLUTION",
+    "properties": {
+      "grades": {
+        "BRAKES": {
+          "max": 3,
+          "value": 3,
+          "min": 1
+        },
+        "TOTAL": {
+          "max": 5,
+          "value": 3,
+          "min": 1
+        },
+        "TECHNOLOGY_AND_EQUIPMENT": {
+          "max": 3,
+          "value": 2,
+          "min": 1
+        },
+        "ENGINE_AND_GEARBOX": {
+          "max": 3,
+          "value": 3,
+          "min": 1
+        },
+        "INTERIOR": {
+          "max": 5,
+          "value": 3,
+          "min": 1
+        },
+        "EXTERIOR": {
+          "max": 5,
+          "value": 3,
+          "min": 1
+        }
+      },
+      "numberOfKeys": 2,
       "formattedEquipment": [
         {
           "key": "AC",
@@ -308,113 +467,52 @@
           "priority": 31
         }
       ],
-      "familyName": "3008",
-      "environmentalClassEuro": "6",
-      "towbar": false,
-      "isRepairObject": false,
-      "body": "SUV",
-      "numberOfSeats": 5,
-      "maxPullWeightB": 1410,
-      "fuels": [
-        {
-          "enginePower": 181,
-          "consumption": 4.8,
-          "co2": 124,
-          "fuelCode": "Diesel"
-        }
-      ],
-      "grades": {
-        "INTERIOR": {
-          "value": 3,
-          "min": 1,
-          "max": 5
-        },
-        "TOTAL": {
-          "value": 3,
-          "min": 1,
-          "max": 5
-        },
-        "ENGINE_AND_GEARBOX": {
-          "value": 3,
-          "min": 1,
-          "max": 3
-        },
-        "EXTERIOR": {
-          "value": 3,
-          "min": 1,
-          "max": 5
-        },
-        "BRAKES": {
-          "value": 3,
-          "min": 1,
-          "max": 3
-        },
-        "TECHNOLOGY_AND_EQUIPMENT": {
-          "value": 2,
-          "min": 1,
-          "max": 3
-        }
-      },
-      "maxTrailerWeight": 1700,
-      "odometerReading": 136800,
-      "package": "GT Panorama Focal Vinterhjul",
-      "initialTrafficDate": "2017-09-21",
+      "exportable": true,
       "mustExport": false,
-      "manufactureMonth": "201708",
-      "ecoFriendly": false,
       "deductibleVat": false,
-      "numberOfKeys": 2,
+      "manufactureMonth": "201708",
+      "totalWeight": 2090,
+      "dateOfInspection": "2025-09-15",
       "registrationPlate": "HMP938",
-      "numberOfPreviousOwners": 3,
-      "heavyEquipment": false,
-      "modelYear": 2017,
-      "height": 1623,
-      "gearbox": "Automatic",
-      "modelName": "3008 2.0 BlueHDi (180hk)",
+      "equipment": [
+        "AC",
+        "Aktiv parkeringshjälp",
+        "Antisladdsystem",
+        "Antispinn",
+        "Backkamera",
+        "Bluetooth",
+        "Dödavinkelvarnare",
+        "Eldriven baklucka",
+        "Elhiss bak",
+        "Elhiss fram",
+        "Elinfällbara speglar",
+        "Elspeglar",
+        "Elstol förarplats",
+        "Elstol med minnesfunktion förarplats",
+        "Farthållare",
+        "Fastmonterad dragkrok",
+        "Filbytesvarnare",
+        "Fjärrlås",
+        "GPS",
+        "Isofix bak",
+        "Klimatanläggning",
+        "LED-strålkastare",
+        "Nyckellöst startsystem",
+        "Parkeringssensorer bak",
+        "Parkeringssensorer fram",
+        "Radio",
+        "Regnsensor",
+        "Smartphone integration",
+        "Stolsvärme fram",
+        "Urkopplingsbar passagerarairbag",
+        "USB-ingång",
+        "Öppningsbart panoramatak"
+      ],
       "taxWeight": 1640,
-      "width": 1841,
-      "remarks": {
-        "INTERIOR": [
-          {
-            "key": "Invändigt flertal repor, fläckar och märken",
-            "id": "0",
-            "category": "INTERIOR"
-          },
-          {
-            "key": "Insynsskydd medföljer ej",
-            "id": "1",
-            "category": "INTERIOR"
-          }
-        ],
-        "ENGINE_AND_GEARBOX": [],
-        "EXTERIOR": [
-          {
-            "key": "Stenskott i vindruta",
-            "id": "0",
-            "category": "EXTERIOR"
-          },
-          {
-            "key": "Några lackskador, stenskott, bucklor och repor",
-            "id": "1",
-            "category": "EXTERIOR"
-          }
-        ],
-        "BRAKES": [],
-        "TECHNOLOGY_AND_EQUIPMENT": [
-          {
-            "key": "Elhiss höger bak missljud",
-            "id": "0",
-            "category": "TECHNOLOGY_AND_EQUIPMENT"
-          },
-          {
-            "key": "Servicelampa lyser",
-            "id": "1",
-            "category": "TECHNOLOGY_AND_EQUIPMENT"
-          }
-        ],
-        "TIRES": []
-      },
-      "drivingBan": false,
+      "odometerUnit": "km",
+      "mediation": true,
+      "ecoFriendly": false,
+      "towbar": false,
       "remarksLocalized": {
         "TIRES": null,
         "BRAKES": null,
@@ -423,210 +521,112 @@
         "ENGINE_AND_GEARBOX": null,
         "TECHNOLOGY_AND_EQUIPMENT": "Elhiss höger bak missljud. Servicelampa lyser"
       },
+      "width": 1841,
+      "body": "SUV",
+      "remarks": {
+        "TIRES": [],
+        "BRAKES": [],
+        "TECHNOLOGY_AND_EQUIPMENT": [
+          {
+            "category": "TECHNOLOGY_AND_EQUIPMENT",
+            "id": "0",
+            "key": "Elhiss höger bak missljud"
+          },
+          {
+            "category": "TECHNOLOGY_AND_EQUIPMENT",
+            "id": "1",
+            "key": "Servicelampa lyser"
+          }
+        ],
+        "ENGINE_AND_GEARBOX": [],
+        "INTERIOR": [
+          {
+            "category": "INTERIOR",
+            "id": "0",
+            "key": "Invändigt flertal repor, fläckar och märken"
+          },
+          {
+            "category": "INTERIOR",
+            "id": "1",
+            "key": "Insynsskydd medföljer ej"
+          }
+        ],
+        "EXTERIOR": [
+          {
+            "category": "EXTERIOR",
+            "id": "0",
+            "key": "Stenskott i vindruta"
+          },
+          {
+            "category": "EXTERIOR",
+            "id": "1",
+            "key": "Några lackskador, stenskott, bucklor och repor"
+          }
+        ]
+      },
+      "numberOfPreviousOwners": 3,
+      "adHeader": "3008 BlueHDi (180hk) GT Panorama Focal Vinterhjul",
+      "fuels": [
+        {
+          "fuelCode": "Diesel",
+          "co2": 124,
+          "consumption": 4.8,
+          "enginePower": 181
+        }
+      ],
+      "textile": "Läder/Alcantara",
+      "maxTrailerWeight": 1700,
+      "maxPayload": 450,
+      "inspectionPeriod": "2025-09-15 - 2026-11-30",
+      "inspectionValidToDate": "2026-11-30",
+      "saleLimitedToCorporate": false,
+      "package": "GT Panorama Focal Vinterhjul",
       "hasUnpaidLoan": false,
-      "registrationCountry": "se",
+      "heavyEquipment": false,
+      "residualLoanValue": 0,
+      "brand": "Peugeot",
+      "gearbox": "Automatic",
+      "height": 1623,
+      "maxPullWeightB": 1410,
+      "length": 4447,
+      "environmentalClassEuro": "6",
+      "curbWeight": 1640,
+      "drivingBan": false,
+      "initialTrafficDate": "2017-09-21",
+      "chassisNumber": "VF3MJAHWWHS229031",
+      "familyName": "3008",
+      "finishType": "Metallic",
       "importedForPersonalUse": false,
+      "isRepairObject": false,
+      "title": "Peugeot 3008 2.0 BlueHDi (180hk)",
+      "odometerReading": 136800,
+      "modelName": "3008 2.0 BlueHDi (180hk)",
+      "modelYear": 2017,
+      "numberOfSeats": 5,
+      "registrationPlateCountry": "se",
+      "registrationCountry": "se",
+      "taxFee": 1781,
       "heading1": "Peugeot 3008",
       "heading2": "2.0 BlueHDi",
       "heading3": "GT Panorama Focal Vinterhjul"
     },
-    "baseObject": {
-      "exteriorColor": "Unknown",
-      "registrationPlate": "HMP938",
-      "year": "2018",
-      "body": "SUV",
-      "authorityRegisterInformation": {
-        "additionalTechSpecification": {
-          "raceCar": null,
-          "wheelbase1": 2675,
-          "wheelbase2": null,
-          "wheelbase3": null,
-          "wheelbase4": null,
-          "equipment1": null,
-          "equipment2": null,
-          "equipment3": null,
-          "maximumSpeed": 211,
-          "numAxleShafts": "",
-          "passengerAirBag": false,
-          "tyreDimensionRear": "215/65R17",
-          "tyreDimensionFront": "215/65R17",
-          "dualSteeringControl": null
-        },
-        "environmentalClassification": {
-          "fuels": [
-            {
-              "co2": 124,
-              "nox": "",
-              "nox4": null,
-              "fuelCode": "Diesel",
-              "hcThcNox": "",
-              "consumption": 4.8,
-              "noiseLevel": 72,
-              "emissionUnit": "g/km",
-              "innovationCo2": null,
-              "particleValue": "",
-              "particleMass4": null,
-              "consumptionUnit": "4,8",
-              "rangeNedcDrive": null,
-              "rangeWltpDrive": null,
-              "consumptionUrban": 5.5,
-              "rangeCityWltpDrive": null,
-              "consumptionExtraUrban": 4.4,
-              "electricEnergyConsumption": null,
-              "energyConsumptionWltpDrive": null
-            }
-          ],
-          "ecoFriendly": false,
-          "emissionClass": "EURO 6",
-          "innovationCode": null,
-          "environmentalClass": null,
-          "environmentalClassEuro": "6"
-        },
-        "vehicleStatus": {
-          "tax": 1781
-        },
-        "registrationInformation": {
-          "registrationPlate": "HMP938",
-          "deregistrationDate": null,
-          "deregistrationText": null,
-          "deregistrationReason": null
-        },
-        "generalTechSpecification": {
-          "eeg": "e2*2007/46*0534*03",
-          "fuels": [
-            {
-              "fuelCode": "Diesel",
-              "powerUnit": "EG",
-              "enginePower": 133,
-              "enginePowerHp": 181,
-              "fuelTankVolume": ""
-            }
-          ],
-          "width": 1841,
-          "height": 1623,
-          "length": 4447,
-          "gearbox": "Automatic",
-          "variant": "J",
-          "version": "AHWW-C2B000",
-          "taxWeight": 1640,
-          "curbWeight": 1640,
-          "maxPayload": 450,
-          "totalWeight": 2090,
-          "chassisCode1": null,
-          "chassisCode2": null,
-          "cubicCapacity": "1997",
-          "numPassengers": "4",
-          "numberOfSeats": 5,
-          "fourWheelDrive": false,
-          "maxPullWeightB": 1410,
-          "clutchMechanism1": null,
-          "clutchMechanism2": null,
-          "maxTrailerWeight": 1700,
-          "chassisCodeSupplement": null,
-          "maxPullWieghtNoBreaks": null,
-          "maxPullWeightBExtended": null,
-          "maxSingle Axle TrailerWeight": null
-        },
-        "vehicleOrigin": {
-          "originCode": "INFÖRT",
-          "originCodeReason": null,
-          "importerIdentifier": null,
-          "preRegistrationDate": null,
-          "importRegistrationDate": null,
-          "importedForPersonalUse": false,
-          "importedPreviouslyRegistered": false
-        },
-        "vehicleInspectionInformation": {
-          "inspections": [
-            {
-              "inspectionType": "5",
-              "odometerReading": 123545,
-              "dateOfInspection": "2025-09-15"
-            },
-            {
-              "inspectionType": "5",
-              "odometerReading": 112802,
-              "dateOfInspection": "2024-09-05"
-            }
-          ],
-          "inspectionGroup": "36/24/14",
-          "odometerReading": 123545,
-          "inspectionPeriod": "2025-09-15 - 2026-11-30",
-          "dateOfInspection": "2025-09-15",
-          "inspectionValidToDate": "2026-11-30",
-          "inspectionExemptionGroup": null
-        },
-        "vehicleInformation": {
-          "vin": "VF3MJAHWWHS229031",
-          "body": "AF",
-          "type": "CAR",
-          "year": "2017",
-          "model": "3008",
-          "rawType": "PB",
-          "modelYear": null,
-          "categoryEu": "e2*2007/46*0534*03",
-          "groupNumber": "PG 084056",
-          "modelNumber": "PG 000000",
-          "chassisNumber": "VF3MJAHWWHS229031",
-          "exteriorColor": "Unknown",
-          "fabricAndMake": "PEUGEOT",
-          "baseObjectType": "CAR",
-          "manufactureCode": null,
-          "manufactureMonth": "201708",
-          "registrationDate": "2017-08-21",
-          "initialTrafficDate": "2017-09-21",
-          "registrationPlateReused": null
-        }
-      },
-      "brand": "Peugeot",
-      "id": "516794",
-      "fuels": [
-        {
-          "fuelCode": "Diesel",
-          "powerUnit": "EG",
-          "enginePower": 133,
-          "enginePowerHp": 181,
-          "fuelTankVolume": ""
-        }
-      ],
-      "gearbox": "Automatic",
-      "fabricAndMake": "PEUGEOT",
-      "baseObjectType": "CAR",
-      "modelId": null,
-      "odometerReading": null,
-      "modelName": "3008 2.0 BlueHDi (180hk)",
-      "salesFlow": "CONSUMER_CARS",
-      "state": "MANUAL_VALUATION_PENDING",
-      "odometerUnit": "km",
-      "earliestAvailableAt": null,
-      "registrationCountry": "se",
-      "createdAt": "2026-09-17T06:52:51.450427+00:00",
-      "familyName": "3008",
-      "technicalSpecification": {
-        "modelId": null,
-        "vehicle": {
-          "brand": "Peugeot",
-          "body": "SUV",
-          "modelName": "3008 2.0 BlueHDi (180hk)",
-          "familyName": "3008"
-        },
-        "year": "2018"
-      }
+    "orderableAdditionalServices": {
+      "tradein": false,
+      "transport": true,
+      "insurance": true,
+      "finance": true,
+      "warranty": true,
+      "extraTires": false
     },
-    "id": "7289099",
+    "offsiteSalesContact": null,
     "leaseReturnProperties": {},
-    "vehicleType": "CAR",
-    "presentationApproved": false,
-    "baseObjectId": "516794",
-    "isFixedPrice": false,
+    "id": "7289099",
+    "displayCar360Spin": true,
     "certified": false,
-    "objectType": "CAR",
-    "state": "AUCTION_RESOLUTION",
-    "initialBuyNowAmount": null,
-    "statisticalValuation": null,
-    "testDriveAllowed": true,
-    "buyNowAmount": null,
+    "sellMethod": "BIDDING",
     "isReleasable": false,
+    "car360Spin": null,
+    "statisticalValuation": null,
     "createdAt": "2026-09-17 06:52:51.731521+00:00",
     "exportable": true,
     "deductibleVat": false,
@@ -1679,6 +1679,6 @@
     "closedAt": "2026-10-30T09:06:00.008582+00:00",
     "updatedAt": "2026-10-30T09:06:00.078920+00:00"
   },
-  "_scraped_at": "2026-10-30T19:53:52.945598+00:00",
+  "_scraped_at": "2026-10-30T23:33:01.535746+00:00",
   "_url": "https://www.kvd.se/auktioner/peugeot-3008-2-0-bluehdi-180hk-309106"
 }

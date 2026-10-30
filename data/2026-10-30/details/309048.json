@@ -54,223 +54,18 @@
     "evaluationType": "BROKERING"
   },
   "processObject": {
-    "objectType": "CAR",
-    "buyNowAmount": null,
-    "reducedPrice": false,
-    "testDriveAllowed": true,
-    "isFixedPrice": false,
-    "baseObject": {
-      "gearbox": null,
-      "baseObjectType": "CAR",
-      "odometerReading": 219000,
-      "authorityRegisterInformation": {
-        "vehicleOrigin": {
-          "originCode": "INFÖRT",
-          "originCodeReason": null,
-          "importerIdentifier": null,
-          "preRegistrationDate": null,
-          "importRegistrationDate": null,
-          "importedForPersonalUse": false,
-          "importedPreviouslyRegistered": false
-        },
-        "generalTechSpecification": {
-          "eeg": "e4*2007/46*1018*04",
-          "fuels": [
-            {
-              "fuelCode": "Diesel",
-              "powerUnit": "EG",
-              "enginePower": 104,
-              "enginePowerHp": 141,
-              "fuelTankVolume": ""
-            }
-          ],
-          "width": 1860,
-          "height": 1470,
-          "length": 4855,
-          "gearbox": null,
-          "variant": "F5D21",
-          "version": "D72CZ1",
-          "taxWeight": 1710,
-          "curbWeight": 1712,
-          "maxPayload": 438,
-          "totalWeight": 2150,
-          "chassisCode1": null,
-          "chassisCode2": null,
-          "cubicCapacity": "1685",
-          "numPassengers": "4",
-          "numberOfSeats": 5,
-          "fourWheelDrive": false,
-          "maxPullWeightB": 1350,
-          "clutchMechanism1": null,
-          "clutchMechanism2": null,
-          "maxTrailerWeight": null,
-          "chassisCodeSupplement": null,
-          "maxPullWieghtNoBreaks": null,
-          "maxPullWeightBExtended": null,
-          "maxSingle Axle TrailerWeight": null
-        },
-        "environmentalClassification": {
-          "fuels": [
-            {
-              "co2": 120,
-              "nox": "",
-              "nox4": null,
-              "fuelCode": "Diesel",
-              "hcThcNox": "",
-              "consumption": 4.6,
-              "noiseLevel": 71,
-              "emissionUnit": "g/km",
-              "innovationCo2": null,
-              "particleValue": "",
-              "particleMass4": null,
-              "consumptionUnit": "4,6",
-              "rangeNedcDrive": null,
-              "rangeWltpDrive": null,
-              "consumptionUrban": 5.2,
-              "rangeCityWltpDrive": null,
-              "consumptionExtraUrban": 4.2,
-              "electricEnergyConsumption": null,
-              "energyConsumptionWltpDrive": null
-            }
-          ],
-          "ecoFriendly": false,
-          "emissionClass": "EURO 6",
-          "innovationCode": null,
-          "environmentalClass": null,
-          "environmentalClassEuro": "6"
-        },
-        "vehicleStatus": {
-          "tax": 1572
-        },
-        "vehicleInspectionInformation": {
-          "inspections": [
-            {
-              "inspectionType": "5",
-              "odometerReading": 217436,
-              "dateOfInspection": "2026-07-08"
-            },
-            {
-              "inspectionType": "5",
-              "odometerReading": 190819,
-              "dateOfInspection": "2025-05-28"
-            }
-          ],
-          "inspectionGroup": "36/24/14",
-          "odometerReading": 217436,
-          "inspectionPeriod": "2026-07-08 - 2027-09-30",
-          "dateOfInspection": "2026-07-08",
-          "inspectionValidToDate": "2027-09-30",
-          "inspectionExemptionGroup": null
-        },
-        "registrationInformation": {
-          "registrationPlate": "YHK530",
-          "deregistrationDate": null,
-          "deregistrationText": null,
-          "deregistrationReason": null
-        },
-        "vehicleInformation": {
-          "vin": "KNAGU815GH5128691",
-          "body": "AC",
-          "type": "CAR",
-          "year": "2016",
-          "model": "OPTIMA",
-          "rawType": "PB",
-          "modelYear": null,
-          "categoryEu": "e4*2007/46*1018*04",
-          "groupNumber": "KG 101907",
-          "modelNumber": "KG 000000",
-          "chassisNumber": "KNAGU815GH5128691",
-          "exteriorColor": "White",
-          "fabricAndMake": "KIA OPTIMA SW 1,7 CRDI D",
-          "baseObjectType": "CAR",
-          "manufactureCode": null,
-          "manufactureMonth": "201609",
-          "registrationDate": "2016-11-08",
-          "initialTrafficDate": "2017-12-19",
-          "registrationPlateReused": null
-        },
-        "additionalTechSpecification": {
-          "raceCar": null,
-          "wheelbase1": 2805,
-          "wheelbase2": null,
-          "wheelbase3": null,
-          "wheelbase4": null,
-          "equipment1": null,
-          "equipment2": null,
-          "equipment3": null,
-          "maximumSpeed": 200,
-          "numAxleShafts": "",
-          "passengerAirBag": true,
-          "tyreDimensionRear": "205/65R1695H",
-          "tyreDimensionFront": "205/65R1695H",
-          "dualSteeringControl": null
-        }
-      },
-      "fuels": [
-        {
-          "fuelCode": "Diesel",
-          "powerUnit": "EG",
-          "enginePower": 104,
-          "enginePowerHp": 141,
-          "fuelTankVolume": ""
-        }
-      ],
-      "earliestAvailableAt": null,
-      "modelName": "Optima 1.7 CRDi SW (141hk)",
-      "salesFlow": "CONSUMER_CARS",
-      "registrationPlate": "YHK530",
-      "state": "PREPARING_SALES_AGREEMENT",
-      "odometerUnit": "km",
-      "fabricAndMake": "KIA OPTIMA SW 1,7 CRDI D",
-      "registrationCountry": "se",
-      "id": "521412",
-      "familyName": "Optima",
-      "modelId": null,
-      "year": "2017",
-      "createdAt": "2026-10-08T11:01:43.090812+00:00",
-      "brand": "KIA",
-      "body": "Wagon",
-      "exteriorColor": "White",
-      "technicalSpecification": {
-        "modelId": null,
-        "vehicle": {
-          "brand": "KIA",
-          "body": "Wagon",
-          "modelName": "Optima 1.7 CRDi SW (141hk)",
-          "familyName": "Optima"
-        },
-        "year": "2017"
-      }
-    },
-    "vehicleType": "CAR",
-    "initialBuyNowAmount": null,
-    "baseObjectId": "521412",
+    "displayCar360Spin": true,
     "conditionClassification": "TESTED",
     "proactiveBrokering": null,
-    "presentationApproved": false,
-    "state": "AUCTION_RESOLUTION",
     "properties": {
+      "length": 4855,
+      "mustExport": false,
+      "odometerUnit": "km",
+      "familyName": "Optima",
+      "drivingBan": false,
+      "taxWeight": 1710,
+      "odometerReading": 219420,
       "grades": {
-        "BRAKES": {
-          "max": 3,
-          "value": 2,
-          "min": 1
-        },
-        "TOTAL": {
-          "max": 5,
-          "value": 3,
-          "min": 1
-        },
-        "TECHNOLOGY_AND_EQUIPMENT": {
-          "max": 3,
-          "value": 2,
-          "min": 1
-        },
-        "ENGINE_AND_GEARBOX": {
-          "max": 3,
-          "value": 2,
-          "min": 1
-        },
         "INTERIOR": {
           "max": 5,
           "value": 3,
@@ -280,9 +75,157 @@
           "max": 5,
           "value": 3,
           "min": 1
+        },
+        "TOTAL": {
+          "max": 5,
+          "value": 3,
+          "min": 1
+        },
+        "ENGINE_AND_GEARBOX": {
+          "max": 3,
+          "value": 2,
+          "min": 1
+        },
+        "TECHNOLOGY_AND_EQUIPMENT": {
+          "max": 3,
+          "value": 2,
+          "min": 1
+        },
+        "BRAKES": {
+          "max": 3,
+          "value": 2,
+          "min": 1
         }
       },
+      "fuels": [
+        {
+          "enginePower": 141,
+          "fuelCode": "Diesel",
+          "co2": 120,
+          "consumption": 4.6
+        }
+      ],
+      "curbWeight": 1712,
+      "remarks": {
+        "TIRES": [],
+        "INTERIOR": [],
+        "EXTERIOR": [
+          {
+            "category": "EXTERIOR",
+            "key": "Vindruta sliten",
+            "id": "0"
+          },
+          {
+            "category": "EXTERIOR",
+            "key": "Mindre spricka i vindruta",
+            "id": "1"
+          },
+          {
+            "category": "EXTERIOR",
+            "key": "Några rostangrepp",
+            "id": "2"
+          }
+        ],
+        "ENGINE_AND_GEARBOX": [
+          {
+            "category": "ENGINE_AND_GEARBOX",
+            "key": "Vibrationer från drivlina, motor vid krypkörning",
+            "id": "0"
+          }
+        ],
+        "TECHNOLOGY_AND_EQUIPMENT": [
+          {
+            "category": "TECHNOLOGY_AND_EQUIPMENT",
+            "key": "AC missljud och ur funktion",
+            "id": "0"
+          },
+          {
+            "category": "TECHNOLOGY_AND_EQUIPMENT",
+            "key": "Fälgar lackskadade",
+            "id": "1"
+          }
+        ],
+        "BRAKES": [
+          {
+            "category": "BRAKES",
+            "key": "Bromsskivor fram är slitna, behöver bytas inom 6 månader",
+            "id": "0"
+          }
+        ]
+      },
+      "width": 1860,
+      "numberOfSeats": 5,
+      "body": "Wagon",
+      "maxPullWeightB": 1350,
+      "textile": "Textil",
+      "ecoFriendly": false,
+      "maxPayload": 438,
+      "exportable": true,
+      "inspectionValidToDate": "2027-09-30",
+      "taxFee": 1572,
+      "modelYear": 2017,
+      "inspectionPeriod": "2026-07-08 - 2027-09-30",
+      "dateOfInspection": "2026-07-08",
+      "registrationPlate": "YHK530",
+      "totalWeight": 2150,
+      "adHeader": "Optima 1.7 CRDi SW (141hk) GPS Backkamera",
       "numberOfKeys": 2,
+      "towbar": false,
+      "hasUnpaidLoan": false,
+      "equipment": [
+        "Adaptiv farthållare",
+        "Antisladdsystem",
+        "Auto hold",
+        "AUX-ingång",
+        "Backkamera",
+        "Bluetooth",
+        "Elhiss bak",
+        "Elhiss fram",
+        "Elinfällbara speglar",
+        "Elspeglar",
+        "Fastmonterad dragkrok",
+        "Filbytesvarnare",
+        "Fjärrlås",
+        "GPS",
+        "Isofix bak",
+        "Klimatanläggning",
+        "Nyckellöst startsystem",
+        "Parkeringssensorer bak",
+        "Parkeringssensorer fram",
+        "Radio",
+        "Rattvärme",
+        "Regnsensor",
+        "Start/Stop-funktion",
+        "Stolsvärme fram",
+        "USB-ingång"
+      ],
+      "isRepairObject": false,
+      "mediation": true,
+      "residualLoanValue": 0,
+      "numberOfPreviousOwners": 1,
+      "package": "GPS Backkamera",
+      "remarksLocalized": {
+        "TIRES": null,
+        "BRAKES": "Bromsskivor fram är slitna, behöver bytas inom 6 månader",
+        "EXTERIOR": "Vindruta sliten. Mindre spricka i vindruta. Några rostangrepp",
+        "INTERIOR": null,
+        "ENGINE_AND_GEARBOX": "Vibrationer från drivlina, motor vid krypkörning",
+        "TECHNOLOGY_AND_EQUIPMENT": "AC missljud och ur funktion. Fälgar lackskadade"
+      },
+      "importedForPersonalUse": false,
+      "gearbox": "Automatic",
+      "title": "KIA Optima 1.7 CRDi SW (141hk)",
+      "chassisNumber": "KNAGU815GH5128691",
+      "deductibleVat": false,
+      "saleLimitedToCorporate": false,
+      "heavyEquipment": false,
+      "manufactureMonth": "201609",
+      "height": 1470,
+      "initialTrafficDate": "2017-12-19",
+      "registrationCountry": "se",
+      "environmentalClassEuro": "6",
+      "registrationPlateCountry": "se",
+      "brand": "KIA",
       "formattedEquipment": [
         {
           "key": "ADAPTIV_FARTHALLARE",
@@ -435,148 +378,25 @@
           "priority": 24
         }
       ],
-      "exportable": true,
-      "mustExport": false,
-      "deductibleVat": false,
-      "manufactureMonth": "201609",
-      "totalWeight": 2150,
-      "dateOfInspection": "2026-07-08",
-      "registrationPlate": "YHK530",
-      "equipment": [
-        "Adaptiv farthållare",
-        "Antisladdsystem",
-        "Auto hold",
-        "AUX-ingång",
-        "Backkamera",
-        "Bluetooth",
-        "Elhiss bak",
-        "Elhiss fram",
-        "Elinfällbara speglar",
-        "Elspeglar",
-        "Fastmonterad dragkrok",
-        "Filbytesvarnare",
-        "Fjärrlås",
-        "GPS",
-        "Isofix bak",
-        "Klimatanläggning",
-        "Nyckellöst startsystem",
-        "Parkeringssensorer bak",
-        "Parkeringssensorer fram",
-        "Radio",
-        "Rattvärme",
-        "Regnsensor",
-        "Start/Stop-funktion",
-        "Stolsvärme fram",
-        "USB-ingång"
-      ],
-      "taxWeight": 1710,
-      "odometerUnit": "km",
-      "mediation": true,
-      "ecoFriendly": false,
-      "towbar": false,
-      "remarksLocalized": {
-        "TIRES": null,
-        "BRAKES": "Bromsskivor fram är slitna, behöver bytas inom 6 månader",
-        "EXTERIOR": "Vindruta sliten. Mindre spricka i vindruta. Några rostangrepp",
-        "INTERIOR": null,
-        "ENGINE_AND_GEARBOX": "Vibrationer från drivlina, motor vid krypkörning",
-        "TECHNOLOGY_AND_EQUIPMENT": "AC missljud och ur funktion. Fälgar lackskadade"
-      },
-      "width": 1860,
-      "body": "Wagon",
-      "exteriorColor": "White",
-      "remarks": {
-        "TIRES": [],
-        "BRAKES": [
-          {
-            "category": "BRAKES",
-            "id": "0",
-            "key": "Bromsskivor fram är slitna, behöver bytas inom 6 månader"
-          }
-        ],
-        "TECHNOLOGY_AND_EQUIPMENT": [
-          {
-            "category": "TECHNOLOGY_AND_EQUIPMENT",
-            "id": "0",
-            "key": "AC missljud och ur funktion"
-          },
-          {
-            "category": "TECHNOLOGY_AND_EQUIPMENT",
-            "id": "1",
-            "key": "Fälgar lackskadade"
-          }
-        ],
-        "ENGINE_AND_GEARBOX": [
-          {
-            "category": "ENGINE_AND_GEARBOX",
-            "id": "0",
-            "key": "Vibrationer från drivlina, motor vid krypkörning"
-          }
-        ],
-        "INTERIOR": [],
-        "EXTERIOR": [
-          {
-            "category": "EXTERIOR",
-            "id": "0",
-            "key": "Vindruta sliten"
-          },
-          {
-            "category": "EXTERIOR",
-            "id": "1",
-            "key": "Mindre spricka i vindruta"
-          },
-          {
-            "category": "EXTERIOR",
-            "id": "2",
-            "key": "Några rostangrepp"
-          }
-        ]
-      },
-      "numberOfPreviousOwners": 1,
-      "adHeader": "Optima 1.7 CRDi SW (141hk) GPS Backkamera",
-      "fuels": [
-        {
-          "fuelCode": "Diesel",
-          "co2": 120,
-          "consumption": 4.6,
-          "enginePower": 141
-        }
-      ],
-      "textile": "Textil",
-      "maxPayload": 438,
-      "inspectionPeriod": "2026-07-08 - 2027-09-30",
-      "inspectionValidToDate": "2027-09-30",
-      "saleLimitedToCorporate": false,
-      "package": "GPS Backkamera",
-      "hasUnpaidLoan": false,
-      "heavyEquipment": false,
-      "residualLoanValue": 0,
-      "brand": "KIA",
-      "gearbox": "Automatic",
-      "height": 1470,
-      "maxPullWeightB": 1350,
-      "length": 4855,
-      "environmentalClassEuro": "6",
-      "curbWeight": 1712,
-      "drivingBan": false,
-      "initialTrafficDate": "2017-12-19",
-      "chassisNumber": "KNAGU815GH5128691",
-      "familyName": "Optima",
-      "finishType": "Metallic",
-      "importedForPersonalUse": false,
-      "isRepairObject": false,
-      "title": "KIA Optima 1.7 CRDi SW (141hk)",
-      "odometerReading": 219420,
       "modelName": "Optima 1.7 CRDi SW (141hk)",
-      "modelYear": 2017,
-      "numberOfSeats": 5,
-      "registrationPlateCountry": "se",
-      "registrationCountry": "se",
-      "taxFee": 1572,
+      "finishType": "Metallic",
+      "exteriorColor": "White",
       "heading1": "KIA Optima",
       "heading2": "1.7 CRDi SW",
       "heading3": "GPS Backkamera"
     },
+    "car360Spin": null,
+    "testDriveAllowed": true,
+    "certified": false,
+    "objectType": "CAR",
+    "statisticalValuation": {
+      "bpGreen": null,
+      "bpOrange": 120809,
+      "bpWhite": 120809,
+      "marketPrice": 120809
+    },
+    "buyNowAmount": null,
+    "sellMethod": "BIDDING",
     "orderableAdditionalServices": {
       "tradein": false,
       "transport": true,
@@ -585,21 +405,201 @@
       "warranty": true,
       "extraTires": false
     },
-    "offsiteSalesContact": null,
+    "isFixedPrice": false,
+    "vehicleType": "CAR",
     "leaseReturnProperties": {},
-    "id": "7291554",
-    "displayCar360Spin": true,
-    "certified": false,
-    "sellMethod": "BIDDING",
+    "baseObjectId": "521412",
+    "initialBuyNowAmount": null,
     "isReleasable": false,
-    "car360Spin": null,
-    "statisticalValuation": {
-      "bpGreen": null,
-      "bpWhite": 120809,
-      "marketPrice": 120809,
-      "bpOrange": 120809
-    },
+    "id": "7291554",
+    "offsiteSalesContact": null,
+    "presentationApproved": false,
     "createdAt": "2026-10-08 11:03:37.964359+00:00",
+    "state": "AUCTION_RESOLUTION",
+    "reducedPrice": false,
+    "baseObject": {
+      "body": "Wagon",
+      "modelId": null,
+      "exteriorColor": "White",
+      "baseObjectType": "CAR",
+      "registrationCountry": "se",
+      "odometerUnit": "km",
+      "familyName": "Optima",
+      "odometerReading": 219000,
+      "earliestAvailableAt": null,
+      "brand": "KIA",
+      "registrationPlate": "YHK530",
+      "fuels": [
+        {
+          "fuelCode": "Diesel",
+          "powerUnit": "EG",
+          "enginePower": 104,
+          "enginePowerHp": 141,
+          "fuelTankVolume": ""
+        }
+      ],
+      "id": "521412",
+      "authorityRegisterInformation": {
+        "generalTechSpecification": {
+          "eeg": "e4*2007/46*1018*04",
+          "fuels": [
+            {
+              "fuelCode": "Diesel",
+              "powerUnit": "EG",
+              "enginePower": 104,
+              "enginePowerHp": 141,
+              "fuelTankVolume": ""
+            }
+          ],
+          "width": 1860,
+          "height": 1470,
+          "length": 4855,
+          "gearbox": null,
+          "variant": "F5D21",
+          "version": "D72CZ1",
+          "taxWeight": 1710,
+          "curbWeight": 1712,
+          "maxPayload": 438,
+          "totalWeight": 2150,
+          "chassisCode1": null,
+          "chassisCode2": null,
+          "cubicCapacity": "1685",
+          "numPassengers": "4",
+          "numberOfSeats": 5,
+          "fourWheelDrive": false,
+          "maxPullWeightB": 1350,
+          "clutchMechanism1": null,
+          "clutchMechanism2": null,
+          "maxTrailerWeight": null,
+          "chassisCodeSupplement": null,
+          "maxPullWieghtNoBreaks": null,
+          "maxPullWeightBExtended": null,
+          "maxSingle Axle TrailerWeight": null
+        },
+        "vehicleOrigin": {
+          "originCode": "INFÖRT",
+          "originCodeReason": null,
+          "importerIdentifier": null,
+          "preRegistrationDate": null,
+          "importRegistrationDate": null,
+          "importedForPersonalUse": false,
+          "importedPreviouslyRegistered": false
+        },
+        "vehicleInspectionInformation": {
+          "inspections": [
+            {
+              "inspectionType": "5",
+              "odometerReading": 217436,
+              "dateOfInspection": "2026-07-08"
+            },
+            {
+              "inspectionType": "5",
+              "odometerReading": 190819,
+              "dateOfInspection": "2025-05-28"
+            }
+          ],
+          "inspectionGroup": "36/24/14",
+          "odometerReading": 217436,
+          "inspectionPeriod": "2026-07-08 - 2027-09-30",
+          "dateOfInspection": "2026-07-08",
+          "inspectionValidToDate": "2027-09-30",
+          "inspectionExemptionGroup": null
+        },
+        "environmentalClassification": {
+          "fuels": [
+            {
+              "co2": 120,
+              "nox": "",
+              "nox4": null,
+              "fuelCode": "Diesel",
+              "hcThcNox": "",
+              "consumption": 4.6,
+              "noiseLevel": 71,
+              "emissionUnit": "g/km",
+              "innovationCo2": null,
+              "particleValue": "",
+              "particleMass4": null,
+              "consumptionUnit": "4,6",
+              "rangeNedcDrive": null,
+              "rangeWltpDrive": null,
+              "consumptionUrban": 5.2,
+              "rangeCityWltpDrive": null,
+              "consumptionExtraUrban": 4.2,
+              "electricEnergyConsumption": null,
+              "energyConsumptionWltpDrive": null
+            }
+          ],
+          "ecoFriendly": false,
+          "emissionClass": "EURO 6",
+          "innovationCode": null,
+          "environmentalClass": null,
+          "environmentalClassEuro": "6"
+        },
+        "additionalTechSpecification": {
+          "raceCar": null,
+          "wheelbase1": 2805,
+          "wheelbase2": null,
+          "wheelbase3": null,
+          "wheelbase4": null,
+          "equipment1": null,
+          "equipment2": null,
+          "equipment3": null,
+          "maximumSpeed": 200,
+          "numAxleShafts": "",
+          "passengerAirBag": true,
+          "tyreDimensionRear": "205/65R1695H",
+          "tyreDimensionFront": "205/65R1695H",
+          "dualSteeringControl": null
+        },
+        "vehicleStatus": {
+          "tax": 1572
+        },
+        "vehicleInformation": {
+          "vin": "KNAGU815GH5128691",
+          "body": "AC",
+          "type": "CAR",
+          "year": "2016",
+          "model": "OPTIMA",
+          "rawType": "PB",
+          "modelYear": null,
+          "categoryEu": "e4*2007/46*1018*04",
+          "groupNumber": "KG 101907",
+          "modelNumber": "KG 000000",
+          "chassisNumber": "KNAGU815GH5128691",
+          "exteriorColor": "White",
+          "fabricAndMake": "KIA OPTIMA SW 1,7 CRDI D",
+          "baseObjectType": "CAR",
+          "manufactureCode": null,
+          "manufactureMonth": "201609",
+          "registrationDate": "2016-11-08",
+          "initialTrafficDate": "2017-12-19",
+          "registrationPlateReused": null
+        },
+        "registrationInformation": {
+          "registrationPlate": "YHK530",
+          "deregistrationDate": null,
+          "deregistrationText": null,
+          "deregistrationReason": null
+        }
+      },
+      "modelName": "Optima 1.7 CRDi SW (141hk)",
+      "createdAt": "2026-10-08T11:01:43.090812+00:00",
+      "state": "PREPARING_SALES_AGREEMENT",
+      "gearbox": null,
+      "salesFlow": "CONSUMER_CARS",
+      "year": "2017",
+      "fabricAndMake": "KIA OPTIMA SW 1,7 CRDI D",
+      "technicalSpecification": {
+        "modelId": null,
+        "vehicle": {
+          "brand": "KIA",
+          "body": "Wagon",
+          "modelName": "Optima 1.7 CRDi SW (141hk)",
+          "familyName": "Optima"
+        },
+        "year": "2017"
+      }
+    },
     "exportable": true,
     "deductibleVat": false,
     "collisionWarranty": null,
@@ -2062,6 +2062,6 @@
     "closedAt": "2026-10-29T17:49:07.091274+00:00",
     "updatedAt": "2026-10-30T10:53:13.808867+00:00"
   },
-  "_scraped_at": "2026-10-30T19:54:37.470593+00:00",
+  "_scraped_at": "2026-10-30T23:33:47.425752+00:00",
   "_url": "https://www.kvd.se/auktioner/kia-optima-1-7-crdi-sw-141hk-309048"
 }

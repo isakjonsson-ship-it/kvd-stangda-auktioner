@@ -44,235 +44,63 @@
   "eurBuyNowAmount": null,
   "winningBid": null,
   "processObject": {
-    "objectType": "LIGHT_TRUCK",
-    "buyNowAmount": null,
-    "reducedPrice": false,
-    "testDriveAllowed": true,
-    "isFixedPrice": false,
-    "baseObject": {
-      "gearbox": "Automatic",
-      "baseObjectType": "LIGHT_TRUCK",
-      "odometerReading": 56680,
-      "authorityRegisterInformation": {
-        "vehicleOrigin": {
-          "originCode": "INFÖRT",
-          "originCodeReason": null,
-          "importerIdentifier": null,
-          "preRegistrationDate": null,
-          "importRegistrationDate": null,
-          "importedForPersonalUse": false,
-          "importedPreviouslyRegistered": false
-        },
-        "generalTechSpecification": {
-          "eeg": "e13*2018/858*00003*11",
-          "fuels": [
-            {
-              "fuelCode": "Diesel",
-              "powerUnit": "EG",
-              "enginePower": 90,
-              "enginePowerHp": 122,
-              "fuelTankVolume": ""
-            }
-          ],
-          "width": 1855,
-          "height": 1842,
-          "length": 4853,
-          "gearbox": "Automatic",
-          "variant": "BBDTRCX0V",
-          "version": "L235FD7FD7GC004H2N24BJG21AA20NC",
-          "taxWeight": 2350,
-          "curbWeight": 1678,
-          "maxPayload": 672,
-          "totalWeight": 2350,
-          "chassisCode1": null,
-          "chassisCode2": null,
-          "cubicCapacity": "1968",
-          "numPassengers": "1",
-          "numberOfSeats": 2,
-          "fourWheelDrive": false,
-          "maxPullWeightB": 1150,
-          "clutchMechanism1": null,
-          "clutchMechanism2": null,
-          "maxTrailerWeight": 1500,
-          "chassisCodeSupplement": null,
-          "maxPullWieghtNoBreaks": null,
-          "maxPullWeightBExtended": null,
-          "maxSingle Axle TrailerWeight": null
-        },
-        "environmentalClassification": {
-          "fuels": [
-            {
-              "co2": "",
-              "nox": "",
-              "nox4": null,
-              "fuelCode": "Diesel",
-              "hcThcNox": "",
-              "consumption": "",
-              "noiseLevel": 68,
-              "emissionUnit": "g/km",
-              "innovationCo2": null,
-              "particleValue": "",
-              "particleMass4": null,
-              "consumptionUnit": "",
-              "rangeNedcDrive": null,
-              "rangeWltpDrive": null,
-              "consumptionUrban": "",
-              "rangeCityWltpDrive": null,
-              "consumptionExtraUrban": "",
-              "electricEnergyConsumption": null,
-              "energyConsumptionWltpDrive": null
-            }
-          ],
-          "ecoFriendly": false,
-          "emissionClass": "EURO 6",
-          "innovationCode": null,
-          "environmentalClass": null,
-          "environmentalClassEuro": "6"
-        },
-        "vehicleStatus": {
-          "tax": 6305
-        },
-        "vehicleInspectionInformation": {
-          "inspections": [
-            {
-              "inspectionType": "5",
-              "odometerReading": 39667,
-              "dateOfInspection": "2025-11-25"
-            },
-            {
-              "inspectionType": "5",
-              "odometerReading": 19402,
-              "dateOfInspection": "2024-11-27"
-            }
-          ],
-          "inspectionGroup": "12/12/12",
-          "odometerReading": 39667,
-          "inspectionPeriod": "2025-11-25 - 2026-11-30",
-          "dateOfInspection": "2025-11-25",
-          "inspectionValidToDate": "2026-11-30",
-          "inspectionExemptionGroup": null
-        },
-        "registrationInformation": {
-          "registrationPlate": "BAK22X",
-          "deregistrationDate": null,
-          "deregistrationText": null,
-          "deregistrationReason": null
-        },
-        "vehicleInformation": {
-          "vin": "WV1ZZZSK3RX023802",
-          "body": "BB",
-          "type": "LIGHT_TRUCK",
-          "year": "2023",
-          "model": "CADDY",
-          "rawType": "LB",
-          "modelYear": null,
-          "categoryEu": "e13*2018/858*00003*11",
-          "groupNumber": "VW 904222",
-          "modelNumber": "VW 000000",
-          "chassisNumber": "WV1ZZZSK3RX023802",
-          "exteriorColor": "White",
-          "fabricAndMake": "VOLKSWAGEN, VW",
-          "baseObjectType": "LIGHT_TRUCK",
-          "manufactureCode": null,
-          "manufactureMonth": "202310",
-          "registrationDate": "2023-10-12",
-          "initialTrafficDate": "2023-12-01",
-          "registrationPlateReused": null
-        },
-        "additionalTechSpecification": {
-          "raceCar": null,
-          "wheelbase1": 2970,
-          "wheelbase2": null,
-          "wheelbase3": null,
-          "wheelbase4": null,
-          "equipment1": null,
-          "equipment2": null,
-          "equipment3": null,
-          "maximumSpeed": 184,
-          "numAxleShafts": 2,
-          "passengerAirBag": false,
-          "tyreDimensionRear": "205/60 R16 96H",
-          "tyreDimensionFront": "205/60 R16 96H",
-          "dualSteeringControl": null
-        }
-      },
-      "fuels": [
-        {
-          "fuelCode": "Diesel",
-          "powerUnit": "EG",
-          "enginePower": 90,
-          "enginePowerHp": 122,
-          "fuelTankVolume": ""
-        }
-      ],
-      "earliestAvailableAt": null,
-      "modelName": "Caddy Cargo Maxi 2.0 TDI Skåp (122hk)",
-      "salesFlow": "CORPORATE_CARS_SMALL",
-      "registrationPlate": "BAK22X",
-      "state": "PREPARING_SALES_AGREEMENT",
-      "odometerUnit": "km",
-      "fabricAndMake": "VOLKSWAGEN, VW",
-      "registrationCountry": "se",
-      "id": "520893",
-      "familyName": "Caddy",
-      "modelId": null,
-      "year": "2024",
-      "createdAt": "2026-10-06T17:05:29.124990+00:00",
-      "brand": "Volkswagen",
-      "body": "Van",
-      "exteriorColor": "White",
-      "technicalSpecification": {
-        "modelId": null,
-        "vehicle": {
-          "brand": "Volkswagen",
-          "body": "Van",
-          "modelName": "Caddy Cargo Maxi 2.0 TDI Skåp (122hk)",
-          "familyName": "Caddy"
-        },
-        "year": "2024"
-      }
+    "orderableAdditionalServices": {
+      "tradein": false,
+      "transport": true,
+      "insurance": true,
+      "finance": true,
+      "warranty": true,
+      "extraTires": false
     },
-    "vehicleType": "LIGHT_TRANSPORT",
-    "initialBuyNowAmount": null,
-    "baseObjectId": "520893",
-    "conditionClassification": "TESTED",
+    "car360Spin": null,
     "proactiveBrokering": null,
-    "presentationApproved": false,
-    "state": "AUCTION",
+    "displayCar360Spin": true,
+    "offsiteSalesContact": null,
+    "sellMethod": "BIDDING",
+    "reducedPrice": false,
+    "conditionClassification": "TESTED",
     "properties": {
-      "grades": {
-        "BRAKES": {
-          "max": 3,
-          "value": 3,
-          "min": 1
-        },
-        "TOTAL": {
-          "max": 5,
-          "value": 3,
-          "min": 1
-        },
-        "TECHNOLOGY_AND_EQUIPMENT": {
-          "max": 3,
-          "value": 2,
-          "min": 1
-        },
-        "ENGINE_AND_GEARBOX": {
-          "max": 3,
-          "value": 3,
-          "min": 1
-        },
-        "INTERIOR": {
-          "max": 5,
-          "value": 3,
-          "min": 1
-        },
-        "EXTERIOR": {
-          "max": 5,
-          "value": 3,
-          "min": 1
-        }
-      },
-      "numberOfKeys": 2,
+      "exteriorColor": "White",
+      "brand": "Volkswagen",
+      "mediation": true,
+      "curbWeight": 1678,
+      "maxPayload": 672,
+      "equipment": [
+        "AC",
+        "Antisladdsystem",
+        "Antispinn",
+        "Auto hold",
+        "Bluetooth",
+        "Elhiss fram",
+        "Elspeglar",
+        "Farthållare",
+        "Fastmonterad dragkrok",
+        "Nyckellöst startsystem",
+        "Parkeringssensorer bak",
+        "Parkeringsvärmare med fjärrstyrning",
+        "Parkeringsvärmare med tidur",
+        "Radio",
+        "Smartphone integration",
+        "Start/Stop-funktion",
+        "Stolsvärme fram",
+        "Urkopplingsbar passagerarairbag",
+        "USB-ingång"
+      ],
+      "inspectionValidToDate": "2027-10-31",
+      "odometerUnit": "km",
+      "length": 4853,
+      "finishType": "Solid",
+      "textile": "Textil",
+      "saleLimitedToCorporate": false,
+      "chassisNumber": "WV1ZZZSK3RX023802",
+      "title": "VW Caddy Cargo Maxi 2.0 TDI Skåp (122hk)",
+      "dateOfInspection": "2026-10-16",
+      "inspectionPeriod": "2026-10-16 - 2027-10-31",
+      "totalWeight": 2350,
+      "registrationPlateCountry": "se",
+      "exportable": true,
+      "residualLoanValue": 189329,
+      "taxFee": 6305,
       "formattedEquipment": [
         {
           "key": "AC",
@@ -389,39 +217,116 @@
           "priority": 18
         }
       ],
-      "exportable": true,
-      "mustExport": false,
-      "deductibleVat": true,
-      "manufactureMonth": "202310",
-      "totalWeight": 2350,
-      "dateOfInspection": "2026-10-16",
-      "registrationPlate": "BAK22X",
-      "equipment": [
-        "AC",
-        "Antisladdsystem",
-        "Antispinn",
-        "Auto hold",
-        "Bluetooth",
-        "Elhiss fram",
-        "Elspeglar",
-        "Farthållare",
-        "Fastmonterad dragkrok",
-        "Nyckellöst startsystem",
-        "Parkeringssensorer bak",
-        "Parkeringsvärmare med fjärrstyrning",
-        "Parkeringsvärmare med tidur",
-        "Radio",
-        "Smartphone integration",
-        "Start/Stop-funktion",
-        "Stolsvärme fram",
-        "Urkopplingsbar passagerarairbag",
-        "USB-ingång"
-      ],
-      "taxWeight": 2350,
-      "odometerUnit": "km",
-      "mediation": true,
-      "ecoFriendly": false,
+      "familyName": "Caddy",
+      "environmentalClassEuro": "6",
       "towbar": false,
+      "isRepairObject": false,
+      "body": "Van",
+      "numberOfSeats": 2,
+      "maxPullWeightB": 1150,
+      "fuels": [
+        {
+          "enginePower": 122,
+          "fuelCode": "Diesel"
+        }
+      ],
+      "grades": {
+        "INTERIOR": {
+          "value": 3,
+          "min": 1,
+          "max": 5
+        },
+        "TOTAL": {
+          "value": 3,
+          "min": 1,
+          "max": 5
+        },
+        "ENGINE_AND_GEARBOX": {
+          "value": 3,
+          "min": 1,
+          "max": 3
+        },
+        "EXTERIOR": {
+          "value": 3,
+          "min": 1,
+          "max": 5
+        },
+        "BRAKES": {
+          "value": 3,
+          "min": 1,
+          "max": 3
+        },
+        "TECHNOLOGY_AND_EQUIPMENT": {
+          "value": 2,
+          "min": 1,
+          "max": 3
+        }
+      },
+      "maxTrailerWeight": 1500,
+      "odometerReading": 57420,
+      "initialTrafficDate": "2023-12-01",
+      "mustExport": false,
+      "manufactureMonth": "202310",
+      "ecoFriendly": false,
+      "deductibleVat": true,
+      "numberOfKeys": 2,
+      "registrationPlate": "BAK22X",
+      "numberOfPreviousOwners": 1,
+      "heavyEquipment": false,
+      "modelYear": 2024,
+      "height": 1842,
+      "gearbox": "Automatic",
+      "modelName": "Caddy Cargo Maxi 2.0 TDI Skåp (122hk)",
+      "taxWeight": 2350,
+      "width": 1855,
+      "remarks": {
+        "INTERIOR": [
+          {
+            "key": "Invändigt några repor, fläckar och märken",
+            "id": "0",
+            "category": "INTERIOR"
+          }
+        ],
+        "ENGINE_AND_GEARBOX": [],
+        "EXTERIOR": [
+          {
+            "key": "Ytrost motorhuv",
+            "id": "0",
+            "category": "EXTERIOR"
+          },
+          {
+            "key": "Stenskott i vindruta",
+            "id": "1",
+            "category": "EXTERIOR"
+          },
+          {
+            "key": "Ena bakluckedörren går trögt",
+            "id": "2",
+            "category": "EXTERIOR"
+          }
+        ],
+        "BRAKES": [],
+        "TECHNOLOGY_AND_EQUIPMENT": [
+          {
+            "key": "Servicelampa lyser",
+            "id": "0",
+            "category": "TECHNOLOGY_AND_EQUIPMENT"
+          },
+          {
+            "key": "Ena fjärrnyckel ur funktion",
+            "id": "1",
+            "category": "TECHNOLOGY_AND_EQUIPMENT"
+          }
+        ],
+        "TIRES": [
+          {
+            "key": "Däckpar extradäck, snedslitna",
+            "id": "0",
+            "category": "TIRES"
+          }
+        ]
+      },
+      "drivingBan": false,
       "remarksLocalized": {
         "TIRES": "Däckpar extradäck, snedslitna",
         "BRAKES": null,
@@ -430,120 +335,215 @@
         "ENGINE_AND_GEARBOX": null,
         "TECHNOLOGY_AND_EQUIPMENT": "Servicelampa lyser. Ena fjärrnyckel ur funktion"
       },
-      "width": 1855,
-      "body": "Van",
-      "exteriorColor": "White",
-      "remarks": {
-        "TIRES": [
-          {
-            "category": "TIRES",
-            "id": "0",
-            "key": "Däckpar extradäck, snedslitna"
-          }
-        ],
-        "BRAKES": [],
-        "TECHNOLOGY_AND_EQUIPMENT": [
-          {
-            "category": "TECHNOLOGY_AND_EQUIPMENT",
-            "id": "0",
-            "key": "Servicelampa lyser"
-          },
-          {
-            "category": "TECHNOLOGY_AND_EQUIPMENT",
-            "id": "1",
-            "key": "Ena fjärrnyckel ur funktion"
-          }
-        ],
-        "ENGINE_AND_GEARBOX": [],
-        "INTERIOR": [
-          {
-            "category": "INTERIOR",
-            "id": "0",
-            "key": "Invändigt några repor, fläckar och märken"
-          }
-        ],
-        "EXTERIOR": [
-          {
-            "category": "EXTERIOR",
-            "id": "0",
-            "key": "Ytrost motorhuv"
-          },
-          {
-            "category": "EXTERIOR",
-            "id": "1",
-            "key": "Stenskott i vindruta"
-          },
-          {
-            "category": "EXTERIOR",
-            "id": "2",
-            "key": "Ena bakluckedörren går trögt"
-          }
-        ]
-      },
-      "numberOfPreviousOwners": 1,
-      "fuels": [
-        {
-          "fuelCode": "Diesel",
-          "enginePower": 122
-        }
-      ],
-      "textile": "Textil",
-      "maxTrailerWeight": 1500,
-      "maxPayload": 672,
-      "inspectionPeriod": "2026-10-16 - 2027-10-31",
-      "inspectionValidToDate": "2027-10-31",
-      "saleLimitedToCorporate": false,
       "hasUnpaidLoan": true,
-      "heavyEquipment": false,
-      "residualLoanValue": 189329,
-      "brand": "Volkswagen",
-      "gearbox": "Automatic",
-      "height": 1842,
-      "maxPullWeightB": 1150,
-      "length": 4853,
-      "environmentalClassEuro": "6",
-      "curbWeight": 1678,
-      "drivingBan": false,
-      "initialTrafficDate": "2023-12-01",
-      "chassisNumber": "WV1ZZZSK3RX023802",
-      "familyName": "Caddy",
-      "finishType": "Solid",
-      "importedForPersonalUse": false,
-      "isRepairObject": false,
-      "title": "VW Caddy Cargo Maxi 2.0 TDI Skåp (122hk)",
-      "odometerReading": 57420,
-      "modelName": "Caddy Cargo Maxi 2.0 TDI Skåp (122hk)",
-      "modelYear": 2024,
-      "numberOfSeats": 2,
-      "registrationPlateCountry": "se",
       "registrationCountry": "se",
-      "taxFee": 6305,
+      "importedForPersonalUse": false,
       "heading1": "Volkswagen Caddy",
       "heading2": "Cargo Maxi 2.0 TDI Skåp",
       "heading3": null
     },
-    "orderableAdditionalServices": {
-      "tradein": false,
-      "transport": true,
-      "insurance": true,
-      "finance": true,
-      "warranty": true,
-      "extraTires": false
+    "baseObject": {
+      "exteriorColor": "White",
+      "registrationPlate": "BAK22X",
+      "year": "2024",
+      "body": "Van",
+      "authorityRegisterInformation": {
+        "additionalTechSpecification": {
+          "raceCar": null,
+          "wheelbase1": 2970,
+          "wheelbase2": null,
+          "wheelbase3": null,
+          "wheelbase4": null,
+          "equipment1": null,
+          "equipment2": null,
+          "equipment3": null,
+          "maximumSpeed": 184,
+          "numAxleShafts": 2,
+          "passengerAirBag": false,
+          "tyreDimensionRear": "205/60 R16 96H",
+          "tyreDimensionFront": "205/60 R16 96H",
+          "dualSteeringControl": null
+        },
+        "environmentalClassification": {
+          "fuels": [
+            {
+              "co2": "",
+              "nox": "",
+              "nox4": null,
+              "fuelCode": "Diesel",
+              "hcThcNox": "",
+              "consumption": "",
+              "noiseLevel": 68,
+              "emissionUnit": "g/km",
+              "innovationCo2": null,
+              "particleValue": "",
+              "particleMass4": null,
+              "consumptionUnit": "",
+              "rangeNedcDrive": null,
+              "rangeWltpDrive": null,
+              "consumptionUrban": "",
+              "rangeCityWltpDrive": null,
+              "consumptionExtraUrban": "",
+              "electricEnergyConsumption": null,
+              "energyConsumptionWltpDrive": null
+            }
+          ],
+          "ecoFriendly": false,
+          "emissionClass": "EURO 6",
+          "innovationCode": null,
+          "environmentalClass": null,
+          "environmentalClassEuro": "6"
+        },
+        "vehicleStatus": {
+          "tax": 6305
+        },
+        "registrationInformation": {
+          "registrationPlate": "BAK22X",
+          "deregistrationDate": null,
+          "deregistrationText": null,
+          "deregistrationReason": null
+        },
+        "generalTechSpecification": {
+          "eeg": "e13*2018/858*00003*11",
+          "fuels": [
+            {
+              "fuelCode": "Diesel",
+              "powerUnit": "EG",
+              "enginePower": 90,
+              "enginePowerHp": 122,
+              "fuelTankVolume": ""
+            }
+          ],
+          "width": 1855,
+          "height": 1842,
+          "length": 4853,
+          "gearbox": "Automatic",
+          "variant": "BBDTRCX0V",
+          "version": "L235FD7FD7GC004H2N24BJG21AA20NC",
+          "taxWeight": 2350,
+          "curbWeight": 1678,
+          "maxPayload": 672,
+          "totalWeight": 2350,
+          "chassisCode1": null,
+          "chassisCode2": null,
+          "cubicCapacity": "1968",
+          "numPassengers": "1",
+          "numberOfSeats": 2,
+          "fourWheelDrive": false,
+          "maxPullWeightB": 1150,
+          "clutchMechanism1": null,
+          "clutchMechanism2": null,
+          "maxTrailerWeight": 1500,
+          "chassisCodeSupplement": null,
+          "maxPullWieghtNoBreaks": null,
+          "maxPullWeightBExtended": null,
+          "maxSingle Axle TrailerWeight": null
+        },
+        "vehicleOrigin": {
+          "originCode": "INFÖRT",
+          "originCodeReason": null,
+          "importerIdentifier": null,
+          "preRegistrationDate": null,
+          "importRegistrationDate": null,
+          "importedForPersonalUse": false,
+          "importedPreviouslyRegistered": false
+        },
+        "vehicleInspectionInformation": {
+          "inspections": [
+            {
+              "inspectionType": "5",
+              "odometerReading": 39667,
+              "dateOfInspection": "2025-11-25"
+            },
+            {
+              "inspectionType": "5",
+              "odometerReading": 19402,
+              "dateOfInspection": "2024-11-27"
+            }
+          ],
+          "inspectionGroup": "12/12/12",
+          "odometerReading": 39667,
+          "inspectionPeriod": "2025-11-25 - 2026-11-30",
+          "dateOfInspection": "2025-11-25",
+          "inspectionValidToDate": "2026-11-30",
+          "inspectionExemptionGroup": null
+        },
+        "vehicleInformation": {
+          "vin": "WV1ZZZSK3RX023802",
+          "body": "BB",
+          "type": "LIGHT_TRUCK",
+          "year": "2023",
+          "model": "CADDY",
+          "rawType": "LB",
+          "modelYear": null,
+          "categoryEu": "e13*2018/858*00003*11",
+          "groupNumber": "VW 904222",
+          "modelNumber": "VW 000000",
+          "chassisNumber": "WV1ZZZSK3RX023802",
+          "exteriorColor": "White",
+          "fabricAndMake": "VOLKSWAGEN, VW",
+          "baseObjectType": "LIGHT_TRUCK",
+          "manufactureCode": null,
+          "manufactureMonth": "202310",
+          "registrationDate": "2023-10-12",
+          "initialTrafficDate": "2023-12-01",
+          "registrationPlateReused": null
+        }
+      },
+      "brand": "Volkswagen",
+      "id": "520893",
+      "fuels": [
+        {
+          "fuelCode": "Diesel",
+          "powerUnit": "EG",
+          "enginePower": 90,
+          "enginePowerHp": 122,
+          "fuelTankVolume": ""
+        }
+      ],
+      "gearbox": "Automatic",
+      "fabricAndMake": "VOLKSWAGEN, VW",
+      "baseObjectType": "LIGHT_TRUCK",
+      "modelId": null,
+      "odometerReading": 56680,
+      "modelName": "Caddy Cargo Maxi 2.0 TDI Skåp (122hk)",
+      "salesFlow": "CORPORATE_CARS_SMALL",
+      "state": "PREPARING_SALES_AGREEMENT",
+      "odometerUnit": "km",
+      "earliestAvailableAt": null,
+      "registrationCountry": "se",
+      "createdAt": "2026-10-06T17:05:29.124990+00:00",
+      "familyName": "Caddy",
+      "technicalSpecification": {
+        "modelId": null,
+        "vehicle": {
+          "brand": "Volkswagen",
+          "body": "Van",
+          "modelName": "Caddy Cargo Maxi 2.0 TDI Skåp (122hk)",
+          "familyName": "Caddy"
+        },
+        "year": "2024"
+      }
     },
-    "offsiteSalesContact": null,
-    "leaseReturnProperties": {},
     "id": "7291922",
-    "displayCar360Spin": true,
+    "leaseReturnProperties": {},
+    "vehicleType": "LIGHT_TRANSPORT",
+    "presentationApproved": false,
+    "baseObjectId": "520893",
+    "isFixedPrice": false,
     "certified": false,
-    "sellMethod": "BIDDING",
-    "isReleasable": false,
-    "car360Spin": null,
+    "objectType": "LIGHT_TRUCK",
+    "state": "AUCTION",
+    "initialBuyNowAmount": null,
     "statisticalValuation": {
-      "bpGreen": null,
       "bpWhite": 272166,
       "marketPrice": 272166,
+      "bpGreen": null,
       "bpOrange": 272166
     },
+    "testDriveAllowed": true,
+    "buyNowAmount": null,
+    "isReleasable": false,
     "createdAt": "2026-10-12 12:41:20.639686+00:00",
     "exportable": true,
     "deductibleVat": true,
@@ -1655,6 +1655,6 @@
     "closedAt": "2026-10-29T11:00:00.014190+00:00",
     "updatedAt": "2026-10-29T13:50:04.104477+00:00"
   },
-  "_scraped_at": "2026-10-30T19:54:01.305263+00:00",
+  "_scraped_at": "2026-10-30T23:33:09.863354+00:00",
   "_url": "https://www.kvd.se/auktioner/vw-caddy-cargo-maxi-2-0-tdi-skap-122hk-309081"
 }

@@ -55,223 +55,18 @@
     "evaluationType": "AUTOMATIC"
   },
   "processObject": {
-    "objectType": "LIGHT_TRUCK",
-    "buyNowAmount": null,
-    "reducedPrice": false,
-    "testDriveAllowed": true,
-    "isFixedPrice": false,
-    "baseObject": {
-      "gearbox": "Automatic",
-      "baseObjectType": "LIGHT_TRUCK",
-      "odometerReading": null,
-      "authorityRegisterInformation": {
-        "vehicleOrigin": {
-          "originCode": "INFÖRT",
-          "originCodeReason": null,
-          "importerIdentifier": null,
-          "preRegistrationDate": null,
-          "importRegistrationDate": null,
-          "importedForPersonalUse": false,
-          "importedPreviouslyRegistered": false
-        },
-        "generalTechSpecification": {
-          "eeg": "e1*2007/46*0130*25",
-          "fuels": [
-            {
-              "fuelCode": "Diesel",
-              "powerUnit": "EG",
-              "enginePower": 110,
-              "enginePowerHp": 150,
-              "fuelTankVolume": ""
-            }
-          ],
-          "width": 1904,
-          "height": 1990,
-          "length": 5304,
-          "gearbox": "Automatic",
-          "variant": "GCXHA300X0",
-          "version": "LNFD7BT0116NVR227MMG3TL6323",
-          "taxWeight": 3000,
-          "curbWeight": 2235,
-          "maxPayload": 765,
-          "totalWeight": 3000,
-          "chassisCode1": null,
-          "chassisCode2": null,
-          "cubicCapacity": "1968",
-          "numPassengers": "2",
-          "numberOfSeats": 3,
-          "fourWheelDrive": false,
-          "maxPullWeightB": 750,
-          "clutchMechanism1": null,
-          "clutchMechanism2": null,
-          "maxTrailerWeight": 2500,
-          "chassisCodeSupplement": null,
-          "maxPullWieghtNoBreaks": null,
-          "maxPullWeightBExtended": null,
-          "maxSingle Axle TrailerWeight": null
-        },
-        "environmentalClassification": {
-          "fuels": [
-            {
-              "co2": 161,
-              "nox": "",
-              "nox4": null,
-              "fuelCode": "Diesel",
-              "hcThcNox": "",
-              "consumption": 6.2,
-              "noiseLevel": 73,
-              "emissionUnit": "g/km",
-              "innovationCo2": null,
-              "particleValue": "",
-              "particleMass4": null,
-              "consumptionUnit": "6,2",
-              "rangeNedcDrive": null,
-              "rangeWltpDrive": null,
-              "consumptionUrban": 6.9,
-              "rangeCityWltpDrive": null,
-              "consumptionExtraUrban": 5.7,
-              "electricEnergyConsumption": null,
-              "energyConsumptionWltpDrive": null
-            }
-          ],
-          "ecoFriendly": false,
-          "emissionClass": "EURO 6",
-          "innovationCode": null,
-          "environmentalClass": null,
-          "environmentalClassEuro": "6"
-        },
-        "vehicleStatus": {
-          "tax": 3710
-        },
-        "vehicleInspectionInformation": {
-          "inspections": [
-            {
-              "inspectionType": "5",
-              "odometerReading": 270231,
-              "dateOfInspection": "2026-07-02"
-            },
-            {
-              "inspectionType": "6",
-              "odometerReading": 237953,
-              "dateOfInspection": "2025-04-25"
-            }
-          ],
-          "inspectionGroup": "36/24/14",
-          "odometerReading": 270231,
-          "inspectionPeriod": "2026-07-02 - 2027-09-30",
-          "dateOfInspection": "2026-07-02",
-          "inspectionValidToDate": "2027-09-30",
-          "inspectionExemptionGroup": null
-        },
-        "registrationInformation": {
-          "registrationPlate": "ETH733",
-          "deregistrationDate": null,
-          "deregistrationText": null,
-          "deregistrationReason": null
-        },
-        "vehicleInformation": {
-          "vin": "WV1ZZZ7HZHH035972",
-          "body": "BB",
-          "type": "LIGHT_TRUCK",
-          "year": "2016",
-          "model": "TRANSPORTER",
-          "rawType": "LB",
-          "modelYear": null,
-          "categoryEu": "e1*2007/46*0130*25",
-          "groupNumber": "VW 936314",
-          "modelNumber": "VW 000000",
-          "chassisNumber": "WV1ZZZ7HZHH035972",
-          "exteriorColor": "Silver",
-          "fabricAndMake": "VOLKSWAGEN, VW",
-          "baseObjectType": "LIGHT_TRUCK",
-          "manufactureCode": null,
-          "manufactureMonth": "201608",
-          "registrationDate": "2016-08-23",
-          "initialTrafficDate": "2016-09-15",
-          "registrationPlateReused": null
-        },
-        "additionalTechSpecification": {
-          "raceCar": null,
-          "wheelbase1": 3400,
-          "wheelbase2": null,
-          "wheelbase3": null,
-          "wheelbase4": null,
-          "equipment1": null,
-          "equipment2": null,
-          "equipment3": null,
-          "maximumSpeed": 181,
-          "numAxleShafts": 2,
-          "passengerAirBag": true,
-          "tyreDimensionRear": "205/65 R16C 107T",
-          "tyreDimensionFront": "205/65 R16C 107T",
-          "dualSteeringControl": null
-        }
-      },
-      "fuels": [
-        {
-          "fuelCode": "Diesel",
-          "powerUnit": "EG",
-          "enginePower": 110,
-          "enginePowerHp": 150,
-          "fuelTankVolume": ""
-        }
-      ],
-      "earliestAvailableAt": null,
-      "modelName": "Transporter T6 2.0 TDI BMT Skåp (150hk)",
-      "salesFlow": "CORPORATE_CARS",
-      "registrationPlate": "ETH733",
-      "state": "MANUAL_VALUATION_PENDING",
-      "odometerUnit": "km",
-      "fabricAndMake": "VOLKSWAGEN, VW",
-      "registrationCountry": "se",
-      "id": "519671",
-      "familyName": "Transporter",
-      "modelId": null,
-      "year": "2017",
-      "createdAt": "2026-09-30T14:18:03.917479+00:00",
-      "brand": "Volkswagen",
-      "body": "Van",
-      "exteriorColor": "Silver",
-      "technicalSpecification": {
-        "modelId": null,
-        "vehicle": {
-          "brand": "Volkswagen",
-          "body": "Van",
-          "modelName": "Transporter T6 2.0 TDI BMT Skåp (150hk)",
-          "familyName": "Transporter"
-        },
-        "year": "2017"
-      }
-    },
-    "vehicleType": "LIGHT_TRANSPORT",
-    "initialBuyNowAmount": null,
-    "baseObjectId": "519671",
+    "displayCar360Spin": true,
     "conditionClassification": "TESTED",
     "proactiveBrokering": null,
-    "presentationApproved": false,
-    "state": "AUCTION_RESOLUTION",
     "properties": {
+      "length": 5304,
+      "mustExport": false,
+      "odometerUnit": "km",
+      "familyName": "Transporter",
+      "drivingBan": false,
+      "taxWeight": 3000,
+      "odometerReading": 275680,
       "grades": {
-        "BRAKES": {
-          "max": 3,
-          "value": 3,
-          "min": 1
-        },
-        "TOTAL": {
-          "max": 5,
-          "value": 3,
-          "min": 1
-        },
-        "TECHNOLOGY_AND_EQUIPMENT": {
-          "max": 3,
-          "value": 2,
-          "min": 1
-        },
-        "ENGINE_AND_GEARBOX": {
-          "max": 3,
-          "value": 3,
-          "min": 1
-        },
         "INTERIOR": {
           "max": 5,
           "value": 3,
@@ -281,9 +76,131 @@
           "max": 5,
           "value": 3,
           "min": 1
+        },
+        "TOTAL": {
+          "max": 5,
+          "value": 3,
+          "min": 1
+        },
+        "ENGINE_AND_GEARBOX": {
+          "max": 3,
+          "value": 3,
+          "min": 1
+        },
+        "TECHNOLOGY_AND_EQUIPMENT": {
+          "max": 3,
+          "value": 2,
+          "min": 1
+        },
+        "BRAKES": {
+          "max": 3,
+          "value": 3,
+          "min": 1
         }
       },
+      "fuels": [
+        {
+          "enginePower": 150,
+          "fuelCode": "Diesel",
+          "co2": 161,
+          "consumption": 6.2
+        }
+      ],
+      "curbWeight": 2235,
+      "remarks": {
+        "TIRES": [],
+        "INTERIOR": [
+          {
+            "category": "INTERIOR",
+            "key": "Klädsel skadad fram vänster",
+            "id": "0"
+          }
+        ],
+        "EXTERIOR": [
+          {
+            "category": "EXTERIOR",
+            "key": "Några rostangrepp",
+            "id": "0"
+          },
+          {
+            "category": "EXTERIOR",
+            "key": "Spår efter tidigare dekor,",
+            "id": "1"
+          }
+        ],
+        "ENGINE_AND_GEARBOX": [],
+        "TECHNOLOGY_AND_EQUIPMENT": [
+          {
+            "category": "TECHNOLOGY_AND_EQUIPMENT",
+            "key": "Service inom kort",
+            "id": "0"
+          }
+        ],
+        "BRAKES": []
+      },
+      "width": 1904,
+      "numberOfSeats": 3,
+      "body": "Van",
+      "maxPullWeightB": 750,
+      "textile": "Textil",
+      "ecoFriendly": false,
+      "maxPayload": 765,
+      "exportable": true,
+      "inspectionValidToDate": "2027-09-30",
+      "taxFee": 3710,
+      "modelYear": 2017,
+      "inspectionPeriod": "2026-07-02 - 2027-09-30",
+      "dateOfInspection": "2026-07-02",
+      "registrationPlate": "ETH733",
+      "totalWeight": 3000,
+      "adHeader": "Transporter T6 2.0 TDI Skåp (150hk) Värmare Drag",
       "numberOfKeys": 2,
+      "towbar": true,
+      "hasUnpaidLoan": false,
+      "equipment": [
+        "AC",
+        "Antispinn",
+        "AUX-ingång",
+        "Bluetooth",
+        "CD-Stereo",
+        "Elhiss fram",
+        "Elspeglar",
+        "Farthållare",
+        "Fastmonterad dragkrok",
+        "Fjärrlås",
+        "Parkeringsvärmare med tidur",
+        "Radio",
+        "Start/Stop-funktion",
+        "USB-ingång"
+      ],
+      "isRepairObject": false,
+      "mediation": true,
+      "residualLoanValue": 0,
+      "numberOfPreviousOwners": 2,
+      "package": "Värmare Drag",
+      "remarksLocalized": {
+        "TIRES": null,
+        "BRAKES": null,
+        "EXTERIOR": "Några rostangrepp. Spår efter tidigare dekor,",
+        "INTERIOR": "Klädsel skadad fram vänster",
+        "ENGINE_AND_GEARBOX": null,
+        "TECHNOLOGY_AND_EQUIPMENT": "Service inom kort"
+      },
+      "importedForPersonalUse": false,
+      "gearbox": "Automatic",
+      "title": "VW Transporter T6 2.0 TDI BMT Skåp (150hk)",
+      "chassisNumber": "WV1ZZZ7HZHH035972",
+      "deductibleVat": false,
+      "saleLimitedToCorporate": false,
+      "heavyEquipment": false,
+      "manufactureMonth": "201608",
+      "height": 1990,
+      "initialTrafficDate": "2016-09-15",
+      "registrationCountry": "se",
+      "environmentalClassEuro": "6",
+      "registrationPlateCountry": "se",
+      "maxTrailerWeight": 2500,
+      "brand": "Volkswagen",
       "formattedEquipment": [
         {
           "key": "AC",
@@ -370,122 +287,20 @@
           "priority": 13
         }
       ],
-      "exportable": true,
-      "mustExport": false,
-      "deductibleVat": false,
-      "manufactureMonth": "201608",
-      "totalWeight": 3000,
-      "dateOfInspection": "2026-07-02",
-      "registrationPlate": "ETH733",
-      "equipment": [
-        "AC",
-        "Antispinn",
-        "AUX-ingång",
-        "Bluetooth",
-        "CD-Stereo",
-        "Elhiss fram",
-        "Elspeglar",
-        "Farthållare",
-        "Fastmonterad dragkrok",
-        "Fjärrlås",
-        "Parkeringsvärmare med tidur",
-        "Radio",
-        "Start/Stop-funktion",
-        "USB-ingång"
-      ],
-      "taxWeight": 3000,
-      "odometerUnit": "km",
-      "mediation": true,
-      "ecoFriendly": false,
-      "towbar": true,
-      "remarksLocalized": {
-        "TIRES": null,
-        "BRAKES": null,
-        "EXTERIOR": "Några rostangrepp. Spår efter tidigare dekor,",
-        "INTERIOR": "Klädsel skadad fram vänster",
-        "ENGINE_AND_GEARBOX": null,
-        "TECHNOLOGY_AND_EQUIPMENT": "Service inom kort"
-      },
-      "width": 1904,
-      "body": "Van",
-      "exteriorColor": "Silver",
-      "remarks": {
-        "TIRES": [],
-        "BRAKES": [],
-        "TECHNOLOGY_AND_EQUIPMENT": [
-          {
-            "category": "TECHNOLOGY_AND_EQUIPMENT",
-            "id": "0",
-            "key": "Service inom kort"
-          }
-        ],
-        "ENGINE_AND_GEARBOX": [],
-        "INTERIOR": [
-          {
-            "category": "INTERIOR",
-            "id": "0",
-            "key": "Klädsel skadad fram vänster"
-          }
-        ],
-        "EXTERIOR": [
-          {
-            "category": "EXTERIOR",
-            "id": "0",
-            "key": "Några rostangrepp"
-          },
-          {
-            "category": "EXTERIOR",
-            "id": "1",
-            "key": "Spår efter tidigare dekor,"
-          }
-        ]
-      },
-      "numberOfPreviousOwners": 2,
-      "adHeader": "Transporter T6 2.0 TDI Skåp (150hk) Värmare Drag",
-      "fuels": [
-        {
-          "fuelCode": "Diesel",
-          "co2": 161,
-          "consumption": 6.2,
-          "enginePower": 150
-        }
-      ],
-      "textile": "Textil",
-      "maxTrailerWeight": 2500,
-      "maxPayload": 765,
-      "inspectionPeriod": "2026-07-02 - 2027-09-30",
-      "inspectionValidToDate": "2027-09-30",
-      "saleLimitedToCorporate": false,
-      "package": "Värmare Drag",
-      "hasUnpaidLoan": false,
-      "heavyEquipment": false,
-      "residualLoanValue": 0,
-      "brand": "Volkswagen",
-      "gearbox": "Automatic",
-      "height": 1990,
-      "maxPullWeightB": 750,
-      "length": 5304,
-      "environmentalClassEuro": "6",
-      "curbWeight": 2235,
-      "drivingBan": false,
-      "initialTrafficDate": "2016-09-15",
-      "chassisNumber": "WV1ZZZ7HZHH035972",
-      "familyName": "Transporter",
-      "finishType": "Metallic",
-      "importedForPersonalUse": false,
-      "isRepairObject": false,
-      "title": "VW Transporter T6 2.0 TDI BMT Skåp (150hk)",
-      "odometerReading": 275680,
       "modelName": "Transporter T6 2.0 TDI BMT Skåp (150hk)",
-      "modelYear": 2017,
-      "numberOfSeats": 3,
-      "registrationPlateCountry": "se",
-      "registrationCountry": "se",
-      "taxFee": 3710,
+      "finishType": "Metallic",
+      "exteriorColor": "Silver",
       "heading1": "Volkswagen Transporter",
       "heading2": "T6 2.0 TDI BMT Skåp",
       "heading3": "Värmare Drag"
     },
+    "car360Spin": null,
+    "testDriveAllowed": true,
+    "certified": false,
+    "objectType": "LIGHT_TRUCK",
+    "statisticalValuation": null,
+    "buyNowAmount": null,
+    "sellMethod": "BIDDING",
     "orderableAdditionalServices": {
       "tradein": false,
       "transport": true,
@@ -494,16 +309,201 @@
       "warranty": true,
       "extraTires": false
     },
-    "offsiteSalesContact": null,
+    "isFixedPrice": false,
+    "vehicleType": "LIGHT_TRANSPORT",
     "leaseReturnProperties": {},
-    "id": "7290570",
-    "displayCar360Spin": true,
-    "certified": false,
-    "sellMethod": "BIDDING",
+    "baseObjectId": "519671",
+    "initialBuyNowAmount": null,
     "isReleasable": false,
-    "car360Spin": null,
-    "statisticalValuation": null,
+    "id": "7290570",
+    "offsiteSalesContact": null,
+    "presentationApproved": false,
     "createdAt": "2026-09-30 14:18:04.235659+00:00",
+    "state": "AUCTION_RESOLUTION",
+    "reducedPrice": false,
+    "baseObject": {
+      "body": "Van",
+      "modelId": null,
+      "exteriorColor": "Silver",
+      "baseObjectType": "LIGHT_TRUCK",
+      "registrationCountry": "se",
+      "odometerUnit": "km",
+      "familyName": "Transporter",
+      "odometerReading": null,
+      "earliestAvailableAt": null,
+      "brand": "Volkswagen",
+      "registrationPlate": "ETH733",
+      "fuels": [
+        {
+          "fuelCode": "Diesel",
+          "powerUnit": "EG",
+          "enginePower": 110,
+          "enginePowerHp": 150,
+          "fuelTankVolume": ""
+        }
+      ],
+      "id": "519671",
+      "authorityRegisterInformation": {
+        "generalTechSpecification": {
+          "eeg": "e1*2007/46*0130*25",
+          "fuels": [
+            {
+              "fuelCode": "Diesel",
+              "powerUnit": "EG",
+              "enginePower": 110,
+              "enginePowerHp": 150,
+              "fuelTankVolume": ""
+            }
+          ],
+          "width": 1904,
+          "height": 1990,
+          "length": 5304,
+          "gearbox": "Automatic",
+          "variant": "GCXHA300X0",
+          "version": "LNFD7BT0116NVR227MMG3TL6323",
+          "taxWeight": 3000,
+          "curbWeight": 2235,
+          "maxPayload": 765,
+          "totalWeight": 3000,
+          "chassisCode1": null,
+          "chassisCode2": null,
+          "cubicCapacity": "1968",
+          "numPassengers": "2",
+          "numberOfSeats": 3,
+          "fourWheelDrive": false,
+          "maxPullWeightB": 750,
+          "clutchMechanism1": null,
+          "clutchMechanism2": null,
+          "maxTrailerWeight": 2500,
+          "chassisCodeSupplement": null,
+          "maxPullWieghtNoBreaks": null,
+          "maxPullWeightBExtended": null,
+          "maxSingle Axle TrailerWeight": null
+        },
+        "vehicleOrigin": {
+          "originCode": "INFÖRT",
+          "originCodeReason": null,
+          "importerIdentifier": null,
+          "preRegistrationDate": null,
+          "importRegistrationDate": null,
+          "importedForPersonalUse": false,
+          "importedPreviouslyRegistered": false
+        },
+        "vehicleInspectionInformation": {
+          "inspections": [
+            {
+              "inspectionType": "5",
+              "odometerReading": 270231,
+              "dateOfInspection": "2026-07-02"
+            },
+            {
+              "inspectionType": "6",
+              "odometerReading": 237953,
+              "dateOfInspection": "2025-04-25"
+            }
+          ],
+          "inspectionGroup": "36/24/14",
+          "odometerReading": 270231,
+          "inspectionPeriod": "2026-07-02 - 2027-09-30",
+          "dateOfInspection": "2026-07-02",
+          "inspectionValidToDate": "2027-09-30",
+          "inspectionExemptionGroup": null
+        },
+        "environmentalClassification": {
+          "fuels": [
+            {
+              "co2": 161,
+              "nox": "",
+              "nox4": null,
+              "fuelCode": "Diesel",
+              "hcThcNox": "",
+              "consumption": 6.2,
+              "noiseLevel": 73,
+              "emissionUnit": "g/km",
+              "innovationCo2": null,
+              "particleValue": "",
+              "particleMass4": null,
+              "consumptionUnit": "6,2",
+              "rangeNedcDrive": null,
+              "rangeWltpDrive": null,
+              "consumptionUrban": 6.9,
+              "rangeCityWltpDrive": null,
+              "consumptionExtraUrban": 5.7,
+              "electricEnergyConsumption": null,
+              "energyConsumptionWltpDrive": null
+            }
+          ],
+          "ecoFriendly": false,
+          "emissionClass": "EURO 6",
+          "innovationCode": null,
+          "environmentalClass": null,
+          "environmentalClassEuro": "6"
+        },
+        "additionalTechSpecification": {
+          "raceCar": null,
+          "wheelbase1": 3400,
+          "wheelbase2": null,
+          "wheelbase3": null,
+          "wheelbase4": null,
+          "equipment1": null,
+          "equipment2": null,
+          "equipment3": null,
+          "maximumSpeed": 181,
+          "numAxleShafts": 2,
+          "passengerAirBag": true,
+          "tyreDimensionRear": "205/65 R16C 107T",
+          "tyreDimensionFront": "205/65 R16C 107T",
+          "dualSteeringControl": null
+        },
+        "vehicleStatus": {
+          "tax": 3710
+        },
+        "vehicleInformation": {
+          "vin": "WV1ZZZ7HZHH035972",
+          "body": "BB",
+          "type": "LIGHT_TRUCK",
+          "year": "2016",
+          "model": "TRANSPORTER",
+          "rawType": "LB",
+          "modelYear": null,
+          "categoryEu": "e1*2007/46*0130*25",
+          "groupNumber": "VW 936314",
+          "modelNumber": "VW 000000",
+          "chassisNumber": "WV1ZZZ7HZHH035972",
+          "exteriorColor": "Silver",
+          "fabricAndMake": "VOLKSWAGEN, VW",
+          "baseObjectType": "LIGHT_TRUCK",
+          "manufactureCode": null,
+          "manufactureMonth": "201608",
+          "registrationDate": "2016-08-23",
+          "initialTrafficDate": "2016-09-15",
+          "registrationPlateReused": null
+        },
+        "registrationInformation": {
+          "registrationPlate": "ETH733",
+          "deregistrationDate": null,
+          "deregistrationText": null,
+          "deregistrationReason": null
+        }
+      },
+      "modelName": "Transporter T6 2.0 TDI BMT Skåp (150hk)",
+      "createdAt": "2026-09-30T14:18:03.917479+00:00",
+      "state": "MANUAL_VALUATION_PENDING",
+      "gearbox": "Automatic",
+      "salesFlow": "CORPORATE_CARS",
+      "year": "2017",
+      "fabricAndMake": "VOLKSWAGEN, VW",
+      "technicalSpecification": {
+        "modelId": null,
+        "vehicle": {
+          "brand": "Volkswagen",
+          "body": "Van",
+          "modelName": "Transporter T6 2.0 TDI BMT Skåp (150hk)",
+          "familyName": "Transporter"
+        },
+        "year": "2017"
+      }
+    },
     "exportable": true,
     "deductibleVat": false,
     "collisionWarranty": null,
@@ -1995,6 +1995,6 @@
     "closedAt": "2026-10-29T10:46:31.818044+00:00",
     "updatedAt": "2026-10-30T12:54:52.108193+00:00"
   },
-  "_scraped_at": "2026-10-30T19:53:56.984824+00:00",
+  "_scraped_at": "2026-10-30T23:33:05.644151+00:00",
   "_url": "https://www.kvd.se/auktioner/vw-transporter-t6-2-0-tdi-bmt-skap-150hk-309085"
 }

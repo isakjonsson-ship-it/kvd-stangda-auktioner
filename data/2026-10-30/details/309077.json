@@ -44,235 +44,66 @@
   "eurBuyNowAmount": null,
   "winningBid": null,
   "processObject": {
-    "objectType": "CAR",
-    "buyNowAmount": null,
-    "reducedPrice": false,
-    "testDriveAllowed": true,
-    "isFixedPrice": false,
-    "baseObject": {
-      "gearbox": null,
-      "baseObjectType": "CAR",
-      "odometerReading": 114380,
-      "authorityRegisterInformation": {
-        "vehicleOrigin": {
-          "originCode": "INFÖRT",
-          "originCodeReason": null,
-          "importerIdentifier": null,
-          "preRegistrationDate": null,
-          "importRegistrationDate": null,
-          "importedForPersonalUse": false,
-          "importedPreviouslyRegistered": false
-        },
-        "generalTechSpecification": {
-          "eeg": "e1*2007/46*0200*25",
-          "fuels": [
-            {
-              "fuelCode": "Diesel",
-              "powerUnit": "EG",
-              "enginePower": 125,
-              "enginePowerHp": 170,
-              "fuelTankVolume": ""
-            }
-          ],
-          "width": 1873,
-          "height": 1511,
-          "length": 4918,
-          "gearbox": null,
-          "variant": "J20RP0",
-          "version": "CZCC35KX",
-          "taxWeight": 1950,
-          "curbWeight": 1955,
-          "maxPayload": 455,
-          "totalWeight": 2410,
-          "chassisCode1": null,
-          "chassisCode2": null,
-          "cubicCapacity": "2143",
-          "numPassengers": "4",
-          "numberOfSeats": 5,
-          "fourWheelDrive": false,
-          "maxPullWeightB": "",
-          "clutchMechanism1": null,
-          "clutchMechanism2": null,
-          "maxTrailerWeight": null,
-          "chassisCodeSupplement": null,
-          "maxPullWieghtNoBreaks": null,
-          "maxPullWeightBExtended": null,
-          "maxSingle Axle TrailerWeight": null
-        },
-        "environmentalClassification": {
-          "fuels": [
-            {
-              "co2": 118,
-              "nox": "",
-              "nox4": null,
-              "fuelCode": "Diesel",
-              "hcThcNox": "",
-              "consumption": 4.5,
-              "noiseLevel": 74,
-              "emissionUnit": "g/km",
-              "innovationCo2": null,
-              "particleValue": "",
-              "particleMass4": null,
-              "consumptionUnit": "4,5",
-              "rangeNedcDrive": null,
-              "rangeWltpDrive": null,
-              "consumptionUrban": 5.4,
-              "rangeCityWltpDrive": null,
-              "consumptionExtraUrban": 4,
-              "electricEnergyConsumption": null,
-              "energyConsumptionWltpDrive": null
-            }
-          ],
-          "ecoFriendly": false,
-          "emissionClass": "EURO 6",
-          "innovationCode": null,
-          "environmentalClass": null,
-          "environmentalClassEuro": "6"
-        },
-        "vehicleStatus": {
-          "tax": 1468
-        },
-        "vehicleInspectionInformation": {
-          "inspections": [
-            {
-              "inspectionType": "5",
-              "odometerReading": 113637,
-              "dateOfInspection": "2026-04-22"
-            },
-            {
-              "inspectionType": "5",
-              "odometerReading": 111052,
-              "dateOfInspection": "2025-02-21"
-            }
-          ],
-          "inspectionGroup": "36/24/14",
-          "odometerReading": 113637,
-          "inspectionPeriod": "2026-04-22 - 2027-06-30",
-          "dateOfInspection": "2026-04-22",
-          "inspectionValidToDate": "2027-06-30",
-          "inspectionExemptionGroup": null
-        },
-        "registrationInformation": {
-          "registrationPlate": "ODH784",
-          "deregistrationDate": null,
-          "deregistrationText": null,
-          "deregistrationReason": null
-        },
-        "vehicleInformation": {
-          "vin": "WDD2122011B339459",
-          "body": "AC",
-          "type": "CAR",
-          "year": "2016",
-          "model": "E 220 BLUETEC",
-          "rawType": "PB",
-          "modelYear": null,
-          "categoryEu": "e1*2007/46*0200*25",
-          "groupNumber": "MB 542013",
-          "modelNumber": "MB 000000",
-          "chassisNumber": "WDD2122011B339459",
-          "exteriorColor": "Black",
-          "fabricAndMake": "MERCEDES-BENZ",
-          "baseObjectType": "CAR",
-          "manufactureCode": null,
-          "manufactureMonth": "201604",
-          "registrationDate": "2016-04-23",
-          "initialTrafficDate": "2016-08-18",
-          "registrationPlateReused": null
-        },
-        "additionalTechSpecification": {
-          "raceCar": null,
-          "wheelbase1": 2874,
-          "wheelbase2": null,
-          "wheelbase3": null,
-          "wheelbase4": null,
-          "equipment1": null,
-          "equipment2": null,
-          "equipment3": null,
-          "maximumSpeed": 225,
-          "numAxleShafts": "",
-          "passengerAirBag": false,
-          "tyreDimensionRear": "225/50 R17 94W",
-          "tyreDimensionFront": "225/50 R17 94W",
-          "dualSteeringControl": null
-        }
-      },
-      "fuels": [
-        {
-          "fuelCode": "Diesel",
-          "powerUnit": "EG",
-          "enginePower": 125,
-          "enginePowerHp": 170,
-          "fuelTankVolume": ""
-        }
-      ],
-      "earliestAvailableAt": null,
-      "modelName": "E 220 CDI BlueTEC Kombi S212 (170hk)",
-      "salesFlow": "CONSUMER_CARS",
-      "registrationPlate": "ODH784",
-      "state": "PREPARING_SALES_AGREEMENT",
-      "odometerUnit": "km",
-      "fabricAndMake": "MERCEDES-BENZ",
-      "registrationCountry": "se",
-      "id": "520943",
-      "familyName": "E-Klass",
-      "modelId": null,
-      "year": "2016",
-      "createdAt": "2026-10-07T04:38:19.540760+00:00",
-      "brand": "Mercedes-Benz",
-      "body": "Wagon",
-      "exteriorColor": "Black",
-      "technicalSpecification": {
-        "modelId": null,
-        "vehicle": {
-          "brand": "Mercedes-Benz",
-          "body": "Wagon",
-          "modelName": "E 220 CDI BlueTEC Kombi S212 (170hk)",
-          "familyName": "E-Klass"
-        },
-        "year": "2016"
-      }
+    "orderableAdditionalServices": {
+      "tradein": false,
+      "transport": true,
+      "insurance": true,
+      "finance": true,
+      "warranty": true,
+      "extraTires": false
     },
-    "vehicleType": "CAR",
-    "initialBuyNowAmount": null,
-    "baseObjectId": "520943",
-    "conditionClassification": "TESTED",
+    "car360Spin": null,
     "proactiveBrokering": null,
-    "presentationApproved": false,
-    "state": "AUCTION",
+    "displayCar360Spin": true,
+    "offsiteSalesContact": null,
+    "sellMethod": "BIDDING",
+    "reducedPrice": false,
+    "conditionClassification": "TESTED",
     "properties": {
-      "grades": {
-        "BRAKES": {
-          "max": 3,
-          "value": 3,
-          "min": 1
-        },
-        "TOTAL": {
-          "max": 5,
-          "value": 3,
-          "min": 1
-        },
-        "TECHNOLOGY_AND_EQUIPMENT": {
-          "max": 3,
-          "value": 3,
-          "min": 1
-        },
-        "ENGINE_AND_GEARBOX": {
-          "max": 3,
-          "value": 3,
-          "min": 1
-        },
-        "INTERIOR": {
-          "max": 5,
-          "value": 3,
-          "min": 1
-        },
-        "EXTERIOR": {
-          "max": 5,
-          "value": 3,
-          "min": 1
-        }
-      },
-      "numberOfKeys": 2,
+      "adHeader": "E 220 CDI BlueTEC Kombi 170hk Avantgarde Läder",
+      "exteriorColor": "Black",
+      "brand": "Mercedes",
+      "mediation": true,
+      "curbWeight": 1955,
+      "maxPayload": 455,
+      "equipment": [
+        "Antispinn",
+        "Autobroms",
+        "Elspeglar",
+        "Farthållare",
+        "Fjärrlås",
+        "Stolsvärme fram",
+        "Antisladdsystem",
+        "Assistanssystem",
+        "Eldriven baklucka",
+        "Fastmonterad dragkrok",
+        "Isofix bak",
+        "Klimatanläggning",
+        "LED-strålkastare",
+        "Motorvärmare",
+        "Parkeringssensorer bak",
+        "Parkeringssensorer fram",
+        "Start/Stop-funktion",
+        "Avantgarde",
+        "Aktiv parkeringshjälp",
+        "Multikonturstolar fram"
+      ],
+      "taxExemptExpires": "2021-07-31",
+      "inspectionValidToDate": "2027-06-30",
+      "odometerUnit": "km",
+      "length": 4918,
+      "finishType": "Metallic",
+      "textile": "Helläder",
+      "saleLimitedToCorporate": false,
+      "chassisNumber": "WDD2122011B339459",
+      "title": "Mercedes E 220 CDI BlueTEC Kombi S212 (170hk)",
+      "dateOfInspection": "2026-04-22",
+      "inspectionPeriod": "2026-04-22 - 2027-06-30",
+      "totalWeight": 2410,
+      "registrationPlateCountry": "se",
+      "exportable": true,
+      "residualLoanValue": 0,
+      "taxFee": 1468,
       "formattedEquipment": [
         {
           "key": "ANTISPINN",
@@ -395,41 +226,90 @@
           "priority": 19
         }
       ],
-      "exportable": true,
-      "mustExport": false,
-      "deductibleVat": false,
-      "manufactureMonth": "201604",
-      "totalWeight": 2410,
-      "dateOfInspection": "2026-04-22",
-      "registrationPlate": "ODH784",
-      "equipment": [
-        "Antispinn",
-        "Autobroms",
-        "Elspeglar",
-        "Farthållare",
-        "Fjärrlås",
-        "Stolsvärme fram",
-        "Antisladdsystem",
-        "Assistanssystem",
-        "Eldriven baklucka",
-        "Fastmonterad dragkrok",
-        "Isofix bak",
-        "Klimatanläggning",
-        "LED-strålkastare",
-        "Motorvärmare",
-        "Parkeringssensorer bak",
-        "Parkeringssensorer fram",
-        "Start/Stop-funktion",
-        "Avantgarde",
-        "Aktiv parkeringshjälp",
-        "Multikonturstolar fram"
-      ],
-      "taxWeight": 1950,
-      "odometerUnit": "km",
-      "mediation": true,
-      "taxExemptExpires": "2021-07-31",
-      "ecoFriendly": false,
+      "familyName": "E-Klass",
+      "environmentalClassEuro": "6",
       "towbar": false,
+      "isRepairObject": false,
+      "body": "Wagon",
+      "numberOfSeats": 5,
+      "fuels": [
+        {
+          "enginePower": 170,
+          "consumption": 4.5,
+          "co2": 118,
+          "fuelCode": "Diesel"
+        }
+      ],
+      "grades": {
+        "INTERIOR": {
+          "value": 3,
+          "min": 1,
+          "max": 5
+        },
+        "TOTAL": {
+          "value": 3,
+          "min": 1,
+          "max": 5
+        },
+        "ENGINE_AND_GEARBOX": {
+          "value": 3,
+          "min": 1,
+          "max": 3
+        },
+        "EXTERIOR": {
+          "value": 3,
+          "min": 1,
+          "max": 5
+        },
+        "BRAKES": {
+          "value": 3,
+          "min": 1,
+          "max": 3
+        },
+        "TECHNOLOGY_AND_EQUIPMENT": {
+          "value": 3,
+          "min": 1,
+          "max": 3
+        }
+      },
+      "odometerReading": 114440,
+      "package": "Avantgarde Läder",
+      "initialTrafficDate": "2016-08-18",
+      "mustExport": false,
+      "manufactureMonth": "201604",
+      "ecoFriendly": false,
+      "deductibleVat": false,
+      "numberOfKeys": 2,
+      "registrationPlate": "ODH784",
+      "numberOfPreviousOwners": 5,
+      "heavyEquipment": false,
+      "modelYear": 2016,
+      "height": 1511,
+      "gearbox": "Automatic",
+      "modelName": "E 220 CDI BlueTEC Kombi S212 (170hk)",
+      "taxWeight": 1950,
+      "width": 1873,
+      "remarks": {
+        "INTERIOR": [],
+        "ENGINE_AND_GEARBOX": [],
+        "EXTERIOR": [
+          {
+            "key": "Fåtal bucklor/dörruppslag, Kaross, några spruckna/skadade plastdetaljer",
+            "id": "0",
+            "category": "EXTERIOR"
+          }
+        ],
+        "BRAKES": [],
+        "TECHNOLOGY_AND_EQUIPMENT": [],
+        "TIRES": [
+          {
+            "key": "Lackskada på fälg till extradäck",
+            "id": "0",
+            "category": "TIRES"
+          }
+        ]
+      },
+      "drivingBan": false,
       "remarksLocalized": {
         "TIRES": "Lackskada på fälg till extradäck",
         "BRAKES": null,
@@ -438,95 +318,215 @@
         "ENGINE_AND_GEARBOX": null,
         "TECHNOLOGY_AND_EQUIPMENT": null
       },
-      "width": 1873,
-      "body": "Wagon",
-      "exteriorColor": "Black",
-      "remarks": {
-        "TIRES": [
-          {
-            "category": "TIRES",
-            "id": "0",
-            "key": "Lackskada på fälg till extradäck"
-          }
-        ],
-        "BRAKES": [],
-        "TECHNOLOGY_AND_EQUIPMENT": [],
-        "ENGINE_AND_GEARBOX": [],
-        "INTERIOR": [],
-        "EXTERIOR": [
-          {
-            "category": "EXTERIOR",
-            "id": "0",
-            "key": "Fåtal bucklor/dörruppslag, Kaross, några spruckna/skadade plastdetaljer"
-          }
-        ]
-      },
-      "numberOfPreviousOwners": 5,
-      "adHeader": "E 220 CDI BlueTEC Kombi 170hk Avantgarde Läder",
-      "fuels": [
-        {
-          "fuelCode": "Diesel",
-          "co2": 118,
-          "consumption": 4.5,
-          "enginePower": 170
-        }
-      ],
-      "textile": "Helläder",
-      "maxPayload": 455,
-      "inspectionPeriod": "2026-04-22 - 2027-06-30",
-      "inspectionValidToDate": "2027-06-30",
-      "saleLimitedToCorporate": false,
-      "package": "Avantgarde Läder",
       "hasUnpaidLoan": false,
-      "heavyEquipment": false,
-      "residualLoanValue": 0,
-      "brand": "Mercedes",
-      "gearbox": "Automatic",
-      "height": 1511,
-      "length": 4918,
-      "environmentalClassEuro": "6",
-      "curbWeight": 1955,
-      "drivingBan": false,
-      "initialTrafficDate": "2016-08-18",
-      "chassisNumber": "WDD2122011B339459",
-      "familyName": "E-Klass",
-      "finishType": "Metallic",
-      "importedForPersonalUse": false,
-      "isRepairObject": false,
-      "title": "Mercedes E 220 CDI BlueTEC Kombi S212 (170hk)",
-      "odometerReading": 114440,
-      "modelName": "E 220 CDI BlueTEC Kombi S212 (170hk)",
-      "modelYear": 2016,
-      "numberOfSeats": 5,
-      "registrationPlateCountry": "se",
       "registrationCountry": "se",
-      "taxFee": 1468,
+      "importedForPersonalUse": false,
       "heading1": "Mercedes E-Klass",
       "heading2": "E 220 CDI BlueTEC Kombi S212",
       "heading3": "Avantgarde Läder"
     },
-    "orderableAdditionalServices": {
-      "tradein": false,
-      "transport": true,
-      "insurance": true,
-      "finance": true,
-      "warranty": true,
-      "extraTires": false
+    "baseObject": {
+      "exteriorColor": "Black",
+      "registrationPlate": "ODH784",
+      "year": "2016",
+      "body": "Wagon",
+      "authorityRegisterInformation": {
+        "additionalTechSpecification": {
+          "raceCar": null,
+          "wheelbase1": 2874,
+          "wheelbase2": null,
+          "wheelbase3": null,
+          "wheelbase4": null,
+          "equipment1": null,
+          "equipment2": null,
+          "equipment3": null,
+          "maximumSpeed": 225,
+          "numAxleShafts": "",
+          "passengerAirBag": false,
+          "tyreDimensionRear": "225/50 R17 94W",
+          "tyreDimensionFront": "225/50 R17 94W",
+          "dualSteeringControl": null
+        },
+        "environmentalClassification": {
+          "fuels": [
+            {
+              "co2": 118,
+              "nox": "",
+              "nox4": null,
+              "fuelCode": "Diesel",
+              "hcThcNox": "",
+              "consumption": 4.5,
+              "noiseLevel": 74,
+              "emissionUnit": "g/km",
+              "innovationCo2": null,
+              "particleValue": "",
+              "particleMass4": null,
+              "consumptionUnit": "4,5",
+              "rangeNedcDrive": null,
+              "rangeWltpDrive": null,
+              "consumptionUrban": 5.4,
+              "rangeCityWltpDrive": null,
+              "consumptionExtraUrban": 4,
+              "electricEnergyConsumption": null,
+              "energyConsumptionWltpDrive": null
+            }
+          ],
+          "ecoFriendly": false,
+          "emissionClass": "EURO 6",
+          "innovationCode": null,
+          "environmentalClass": null,
+          "environmentalClassEuro": "6"
+        },
+        "vehicleStatus": {
+          "tax": 1468
+        },
+        "registrationInformation": {
+          "registrationPlate": "ODH784",
+          "deregistrationDate": null,
+          "deregistrationText": null,
+          "deregistrationReason": null
+        },
+        "generalTechSpecification": {
+          "eeg": "e1*2007/46*0200*25",
+          "fuels": [
+            {
+              "fuelCode": "Diesel",
+              "powerUnit": "EG",
+              "enginePower": 125,
+              "enginePowerHp": 170,
+              "fuelTankVolume": ""
+            }
+          ],
+          "width": 1873,
+          "height": 1511,
+          "length": 4918,
+          "gearbox": null,
+          "variant": "J20RP0",
+          "version": "CZCC35KX",
+          "taxWeight": 1950,
+          "curbWeight": 1955,
+          "maxPayload": 455,
+          "totalWeight": 2410,
+          "chassisCode1": null,
+          "chassisCode2": null,
+          "cubicCapacity": "2143",
+          "numPassengers": "4",
+          "numberOfSeats": 5,
+          "fourWheelDrive": false,
+          "maxPullWeightB": "",
+          "clutchMechanism1": null,
+          "clutchMechanism2": null,
+          "maxTrailerWeight": null,
+          "chassisCodeSupplement": null,
+          "maxPullWieghtNoBreaks": null,
+          "maxPullWeightBExtended": null,
+          "maxSingle Axle TrailerWeight": null
+        },
+        "vehicleOrigin": {
+          "originCode": "INFÖRT",
+          "originCodeReason": null,
+          "importerIdentifier": null,
+          "preRegistrationDate": null,
+          "importRegistrationDate": null,
+          "importedForPersonalUse": false,
+          "importedPreviouslyRegistered": false
+        },
+        "vehicleInspectionInformation": {
+          "inspections": [
+            {
+              "inspectionType": "5",
+              "odometerReading": 113637,
+              "dateOfInspection": "2026-04-22"
+            },
+            {
+              "inspectionType": "5",
+              "odometerReading": 111052,
+              "dateOfInspection": "2025-02-21"
+            }
+          ],
+          "inspectionGroup": "36/24/14",
+          "odometerReading": 113637,
+          "inspectionPeriod": "2026-04-22 - 2027-06-30",
+          "dateOfInspection": "2026-04-22",
+          "inspectionValidToDate": "2027-06-30",
+          "inspectionExemptionGroup": null
+        },
+        "vehicleInformation": {
+          "vin": "WDD2122011B339459",
+          "body": "AC",
+          "type": "CAR",
+          "year": "2016",
+          "model": "E 220 BLUETEC",
+          "rawType": "PB",
+          "modelYear": null,
+          "categoryEu": "e1*2007/46*0200*25",
+          "groupNumber": "MB 542013",
+          "modelNumber": "MB 000000",
+          "chassisNumber": "WDD2122011B339459",
+          "exteriorColor": "Black",
+          "fabricAndMake": "MERCEDES-BENZ",
+          "baseObjectType": "CAR",
+          "manufactureCode": null,
+          "manufactureMonth": "201604",
+          "registrationDate": "2016-04-23",
+          "initialTrafficDate": "2016-08-18",
+          "registrationPlateReused": null
+        }
+      },
+      "brand": "Mercedes-Benz",
+      "id": "520943",
+      "fuels": [
+        {
+          "fuelCode": "Diesel",
+          "powerUnit": "EG",
+          "enginePower": 125,
+          "enginePowerHp": 170,
+          "fuelTankVolume": ""
+        }
+      ],
+      "gearbox": null,
+      "fabricAndMake": "MERCEDES-BENZ",
+      "baseObjectType": "CAR",
+      "modelId": null,
+      "odometerReading": 114380,
+      "modelName": "E 220 CDI BlueTEC Kombi S212 (170hk)",
+      "salesFlow": "CONSUMER_CARS",
+      "state": "PREPARING_SALES_AGREEMENT",
+      "odometerUnit": "km",
+      "earliestAvailableAt": null,
+      "registrationCountry": "se",
+      "createdAt": "2026-10-07T04:38:19.540760+00:00",
+      "familyName": "E-Klass",
+      "technicalSpecification": {
+        "modelId": null,
+        "vehicle": {
+          "brand": "Mercedes-Benz",
+          "body": "Wagon",
+          "modelName": "E 220 CDI BlueTEC Kombi S212 (170hk)",
+          "familyName": "E-Klass"
+        },
+        "year": "2016"
+      }
     },
-    "offsiteSalesContact": null,
-    "leaseReturnProperties": {},
     "id": "7291488",
-    "displayCar360Spin": true,
+    "leaseReturnProperties": {},
+    "vehicleType": "CAR",
+    "presentationApproved": false,
+    "baseObjectId": "520943",
+    "isFixedPrice": false,
     "certified": false,
-    "sellMethod": "BIDDING",
-    "isReleasable": false,
-    "car360Spin": null,
+    "objectType": "CAR",
+    "state": "AUCTION",
+    "initialBuyNowAmount": null,
     "statisticalValuation": {
-      "bpGreen": null,
       "bpWhite": 208624,
       "marketPrice": 208624,
+      "bpGreen": null,
       "bpOrange": 208624
     },
+    "testDriveAllowed": true,
+    "buyNowAmount": null,
+    "isReleasable": false,
     "createdAt": "2026-10-08 07:07:38.024028+00:00",
     "exportable": true,
     "deductibleVat": false,
@@ -1854,6 +1854,6 @@
     "closedAt": "2026-10-29T11:09:41.010566+00:00",
     "updatedAt": "2026-10-30T11:40:56.621690+00:00"
   },
-  "_scraped_at": "2026-10-30T19:54:07.217277+00:00",
+  "_scraped_at": "2026-10-30T23:33:16.615842+00:00",
   "_url": "https://www.kvd.se/auktioner/mercedes-e-220-cdi-bluetec-kombi-s212-170hk-309077"
 }

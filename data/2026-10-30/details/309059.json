@@ -55,27 +55,144 @@
     "evaluationType": "AUTOMATIC"
   },
   "processObject": {
-    "orderableAdditionalServices": {
-      "tradein": false,
-      "transport": true,
-      "insurance": true,
-      "finance": true,
-      "warranty": true,
-      "extraTires": false
-    },
-    "car360Spin": null,
-    "proactiveBrokering": null,
     "displayCar360Spin": true,
-    "offsiteSalesContact": null,
-    "sellMethod": "BIDDING",
-    "reducedPrice": false,
     "conditionClassification": "TESTED",
+    "proactiveBrokering": null,
     "properties": {
-      "exteriorColor": "Black",
-      "brand": "Mercedes",
-      "mediation": true,
+      "length": 5926,
+      "mustExport": false,
+      "odometerUnit": "km",
+      "familyName": "Sprinter",
+      "drivingBan": false,
+      "taxWeight": 3500,
+      "odometerReading": 329220,
+      "grades": {
+        "INTERIOR": {
+          "max": 5,
+          "value": 2,
+          "min": 1
+        },
+        "EXTERIOR": {
+          "max": 5,
+          "value": 2,
+          "min": 1
+        },
+        "TOTAL": {
+          "max": 5,
+          "value": 2,
+          "min": 1
+        },
+        "ENGINE_AND_GEARBOX": {
+          "max": 3,
+          "value": 2,
+          "min": 1
+        },
+        "TECHNOLOGY_AND_EQUIPMENT": {
+          "max": 3,
+          "value": 2,
+          "min": 1
+        },
+        "BRAKES": {
+          "max": 3,
+          "value": 2,
+          "min": 1
+        }
+      },
+      "fuels": [
+        {
+          "enginePower": 163,
+          "fuelCode": "Diesel",
+          "co2": 202,
+          "consumption": 7.7
+        }
+      ],
       "curbWeight": 2434,
+      "remarks": {
+        "TIRES": [],
+        "INTERIOR": [
+          {
+            "category": "INTERIOR",
+            "key": "Invändigt flertal repor, fläckar och märken",
+            "id": "0"
+          },
+          {
+            "category": "INTERIOR",
+            "key": "Klädsel skadad förarstol",
+            "id": "1"
+          }
+        ],
+        "EXTERIOR": [
+          {
+            "category": "EXTERIOR",
+            "key": "Karosskada vänster framskärm",
+            "id": "0"
+          },
+          {
+            "category": "EXTERIOR",
+            "key": "Flertal rostangrepp, stenskott, bucklor och repor",
+            "id": "1"
+          },
+          {
+            "category": "EXTERIOR",
+            "key": "Spår efter tidigare dekor",
+            "id": "2"
+          }
+        ],
+        "ENGINE_AND_GEARBOX": [
+          {
+            "category": "ENGINE_AND_GEARBOX",
+            "key": "Motorlampan lyser",
+            "id": "0"
+          }
+        ],
+        "TECHNOLOGY_AND_EQUIPMENT": [
+          {
+            "category": "TECHNOLOGY_AND_EQUIPMENT",
+            "key": "Felfunktion Adbluelampan",
+            "id": "0"
+          },
+          {
+            "category": "TECHNOLOGY_AND_EQUIPMENT",
+            "key": "AC fungerar men kyler dåligt",
+            "id": "1"
+          }
+        ],
+        "BRAKES": [
+          {
+            "category": "BRAKES",
+            "key": "Bromsbelägg fram behöver bytas, Vibrerar vid inbromsning",
+            "id": "0"
+          },
+          {
+            "category": "BRAKES",
+            "key": "Broms vänster fram, anliggande",
+            "id": "1"
+          },
+          {
+            "category": "BRAKES",
+            "key": "Bromsskivor är slitna, behöver bytas inom 6 månader",
+            "id": "2"
+          }
+        ]
+      },
+      "width": 1993,
+      "numberOfSeats": 3,
+      "body": "Van",
+      "maxPullWeightB": 750,
+      "textile": "Textil",
+      "ecoFriendly": false,
       "maxPayload": 1066,
+      "exportable": true,
+      "inspectionValidToDate": "2027-08-31",
+      "taxFee": 5847,
+      "modelYear": 2017,
+      "inspectionPeriod": "2026-06-02 - 2027-08-31",
+      "dateOfInspection": "2026-06-02",
+      "registrationPlate": "ELF701",
+      "totalWeight": 3500,
+      "numberOfKeys": 2,
+      "towbar": true,
+      "hasUnpaidLoan": false,
       "equipment": [
         "AC",
         "Antisladdsystem",
@@ -93,21 +210,33 @@
         "Stolsvärme fram",
         "USB-ingång"
       ],
-      "inspectionValidToDate": "2027-08-31",
-      "odometerUnit": "km",
-      "length": 5926,
-      "finishType": "Solid",
-      "textile": "Textil",
-      "saleLimitedToCorporate": false,
-      "chassisNumber": "WDB9066331P376711",
-      "title": "Mercedes Sprinter 316 CDI (163hk)",
-      "dateOfInspection": "2026-06-02",
-      "inspectionPeriod": "2026-06-02 - 2027-08-31",
-      "totalWeight": 3500,
-      "registrationPlateCountry": "se",
-      "exportable": true,
+      "isRepairObject": false,
+      "mediation": true,
       "residualLoanValue": 0,
-      "taxFee": 5847,
+      "numberOfPreviousOwners": 2,
+      "remarksLocalized": {
+        "TIRES": null,
+        "BRAKES": "Bromsbelägg fram behöver bytas, Vibrerar vid inbromsning. Broms vänster fram, anliggande. Bromsskivor är slitna, behöver bytas inom 6 månader",
+        "EXTERIOR": "Karosskada vänster framskärm. Flertal rostangrepp, stenskott, bucklor och repor. Spår efter tidigare dekor",
+        "INTERIOR": "Invändigt flertal repor, fläckar och märken. Klädsel skadad förarstol",
+        "ENGINE_AND_GEARBOX": "Motorlampan lyser",
+        "TECHNOLOGY_AND_EQUIPMENT": "Felfunktion Adbluelampan. AC fungerar men kyler dåligt"
+      },
+      "importedForPersonalUse": false,
+      "gearbox": "Automatic",
+      "title": "Mercedes Sprinter 316 CDI (163hk)",
+      "chassisNumber": "WDB9066331P376711",
+      "deductibleVat": false,
+      "saleLimitedToCorporate": false,
+      "heavyEquipment": false,
+      "manufactureMonth": "201702",
+      "height": 2357,
+      "initialTrafficDate": "2017-03-10",
+      "registrationCountry": "se",
+      "environmentalClassEuro": "VI",
+      "registrationPlateCountry": "se",
+      "maxTrailerWeight": 2000,
+      "brand": "Mercedes",
       "formattedEquipment": [
         {
           "key": "AC",
@@ -200,215 +329,63 @@
           "priority": 14
         }
       ],
-      "familyName": "Sprinter",
-      "environmentalClassEuro": "VI",
-      "towbar": true,
-      "isRepairObject": false,
-      "body": "Van",
-      "numberOfSeats": 3,
-      "maxPullWeightB": 750,
-      "fuels": [
-        {
-          "enginePower": 163,
-          "consumption": 7.7,
-          "co2": 202,
-          "fuelCode": "Diesel"
-        }
-      ],
-      "grades": {
-        "INTERIOR": {
-          "value": 2,
-          "min": 1,
-          "max": 5
-        },
-        "TOTAL": {
-          "value": 2,
-          "min": 1,
-          "max": 5
-        },
-        "ENGINE_AND_GEARBOX": {
-          "value": 2,
-          "min": 1,
-          "max": 3
-        },
-        "EXTERIOR": {
-          "value": 2,
-          "min": 1,
-          "max": 5
-        },
-        "BRAKES": {
-          "value": 2,
-          "min": 1,
-          "max": 3
-        },
-        "TECHNOLOGY_AND_EQUIPMENT": {
-          "value": 2,
-          "min": 1,
-          "max": 3
-        }
-      },
-      "maxTrailerWeight": 2000,
-      "odometerReading": 329220,
-      "initialTrafficDate": "2017-03-10",
-      "mustExport": false,
-      "manufactureMonth": "201702",
-      "ecoFriendly": false,
-      "deductibleVat": false,
-      "numberOfKeys": 2,
-      "registrationPlate": "ELF701",
-      "numberOfPreviousOwners": 2,
-      "heavyEquipment": false,
-      "modelYear": 2017,
-      "height": 2357,
-      "gearbox": "Automatic",
       "modelName": "Sprinter 316 CDI (163hk)",
-      "taxWeight": 3500,
-      "width": 1993,
-      "remarks": {
-        "INTERIOR": [
-          {
-            "key": "Invändigt flertal repor, fläckar och märken",
-            "id": "0",
-            "category": "INTERIOR"
-          },
-          {
-            "key": "Klädsel skadad förarstol",
-            "id": "1",
-            "category": "INTERIOR"
-          }
-        ],
-        "ENGINE_AND_GEARBOX": [
-          {
-            "key": "Motorlampan lyser",
-            "id": "0",
-            "category": "ENGINE_AND_GEARBOX"
-          }
-        ],
-        "EXTERIOR": [
-          {
-            "key": "Karosskada vänster framskärm",
-            "id": "0",
-            "category": "EXTERIOR"
-          },
-          {
-            "key": "Flertal rostangrepp, stenskott, bucklor och repor",
-            "id": "1",
-            "category": "EXTERIOR"
-          },
-          {
-            "key": "Spår efter tidigare dekor",
-            "id": "2",
-            "category": "EXTERIOR"
-          }
-        ],
-        "BRAKES": [
-          {
-            "key": "Bromsbelägg fram behöver bytas, Vibrerar vid inbromsning",
-            "id": "0",
-            "category": "BRAKES"
-          },
-          {
-            "key": "Broms vänster fram, anliggande",
-            "id": "1",
-            "category": "BRAKES"
-          },
-          {
-            "key": "Bromsskivor är slitna, behöver bytas inom 6 månader",
-            "id": "2",
-            "category": "BRAKES"
-          }
-        ],
-        "TECHNOLOGY_AND_EQUIPMENT": [
-          {
-            "key": "Felfunktion Adbluelampan",
-            "id": "0",
-            "category": "TECHNOLOGY_AND_EQUIPMENT"
-          },
-          {
-            "key": "AC fungerar men kyler dåligt",
-            "id": "1",
-            "category": "TECHNOLOGY_AND_EQUIPMENT"
-          }
-        ],
-        "TIRES": []
-      },
-      "drivingBan": false,
-      "remarksLocalized": {
-        "TIRES": null,
-        "BRAKES": "Bromsbelägg fram behöver bytas, Vibrerar vid inbromsning. Broms vänster fram, anliggande. Bromsskivor är slitna, behöver bytas inom 6 månader",
-        "EXTERIOR": "Karosskada vänster framskärm. Flertal rostangrepp, stenskott, bucklor och repor. Spår efter tidigare dekor",
-        "INTERIOR": "Invändigt flertal repor, fläckar och märken. Klädsel skadad förarstol",
-        "ENGINE_AND_GEARBOX": "Motorlampan lyser",
-        "TECHNOLOGY_AND_EQUIPMENT": "Felfunktion Adbluelampan. AC fungerar men kyler dåligt"
-      },
-      "hasUnpaidLoan": false,
-      "registrationCountry": "se",
-      "importedForPersonalUse": false,
+      "finishType": "Solid",
+      "exteriorColor": "Black",
       "heading1": "Mercedes Sprinter",
       "heading2": "316 CDI",
       "heading3": null
     },
+    "car360Spin": null,
+    "testDriveAllowed": true,
+    "certified": false,
+    "objectType": "LIGHT_TRUCK",
+    "statisticalValuation": null,
+    "buyNowAmount": null,
+    "sellMethod": "BIDDING",
+    "orderableAdditionalServices": {
+      "tradein": false,
+      "transport": true,
+      "insurance": true,
+      "finance": true,
+      "warranty": true,
+      "extraTires": false
+    },
+    "isFixedPrice": false,
+    "vehicleType": "LIGHT_TRANSPORT",
+    "leaseReturnProperties": {},
+    "baseObjectId": "521011",
+    "initialBuyNowAmount": null,
+    "isReleasable": false,
+    "id": "7291318",
+    "offsiteSalesContact": null,
+    "presentationApproved": false,
+    "createdAt": "2026-10-07 08:08:43.997249+00:00",
+    "state": "AUCTION_RESOLUTION",
+    "reducedPrice": false,
     "baseObject": {
-      "exteriorColor": "Black",
-      "registrationPlate": "ELF701",
-      "year": "2017",
       "body": "Van",
+      "modelId": null,
+      "exteriorColor": "Black",
+      "baseObjectType": "LIGHT_TRUCK",
+      "registrationCountry": "se",
+      "odometerUnit": "km",
+      "familyName": "Sprinter",
+      "odometerReading": 328613,
+      "earliestAvailableAt": null,
+      "brand": "Mercedes-Benz",
+      "registrationPlate": "ELF701",
+      "fuels": [
+        {
+          "fuelCode": "Diesel",
+          "powerUnit": "EG",
+          "enginePower": 120,
+          "enginePowerHp": 163,
+          "fuelTankVolume": ""
+        }
+      ],
+      "id": "521011",
       "authorityRegisterInformation": {
-        "additionalTechSpecification": {
-          "raceCar": null,
-          "wheelbase1": 3665,
-          "wheelbase2": null,
-          "wheelbase3": null,
-          "wheelbase4": null,
-          "equipment1": null,
-          "equipment2": null,
-          "equipment3": null,
-          "maximumSpeed": 160,
-          "numAxleShafts": 2,
-          "passengerAirBag": false,
-          "tyreDimensionRear": "235/65R16C 115/113R",
-          "tyreDimensionFront": "235/65R16C 115/113R",
-          "dualSteeringControl": null
-        },
-        "environmentalClassification": {
-          "fuels": [
-            {
-              "co2": 202,
-              "nox": "",
-              "nox4": null,
-              "fuelCode": "Diesel",
-              "hcThcNox": "",
-              "consumption": 7.7,
-              "noiseLevel": 74,
-              "emissionUnit": "g/km",
-              "innovationCo2": null,
-              "particleValue": "",
-              "particleMass4": null,
-              "consumptionUnit": "7,7",
-              "rangeNedcDrive": null,
-              "rangeWltpDrive": null,
-              "consumptionUrban": 8.1,
-              "rangeCityWltpDrive": null,
-              "consumptionExtraUrban": 7.5,
-              "electricEnergyConsumption": null,
-              "energyConsumptionWltpDrive": null
-            }
-          ],
-          "ecoFriendly": false,
-          "emissionClass": "EURO 6",
-          "innovationCode": null,
-          "environmentalClass": null,
-          "environmentalClassEuro": "VI"
-        },
-        "vehicleStatus": {
-          "tax": 5847
-        },
-        "registrationInformation": {
-          "registrationPlate": "ELF701",
-          "deregistrationDate": null,
-          "deregistrationText": null,
-          "deregistrationReason": null
-        },
         "generalTechSpecification": {
           "eeg": "e1*2007/46*0301*15",
           "fuels": [
@@ -474,6 +451,55 @@
           "inspectionValidToDate": "2027-08-31",
           "inspectionExemptionGroup": null
         },
+        "environmentalClassification": {
+          "fuels": [
+            {
+              "co2": 202,
+              "nox": "",
+              "nox4": null,
+              "fuelCode": "Diesel",
+              "hcThcNox": "",
+              "consumption": 7.7,
+              "noiseLevel": 74,
+              "emissionUnit": "g/km",
+              "innovationCo2": null,
+              "particleValue": "",
+              "particleMass4": null,
+              "consumptionUnit": "7,7",
+              "rangeNedcDrive": null,
+              "rangeWltpDrive": null,
+              "consumptionUrban": 8.1,
+              "rangeCityWltpDrive": null,
+              "consumptionExtraUrban": 7.5,
+              "electricEnergyConsumption": null,
+              "energyConsumptionWltpDrive": null
+            }
+          ],
+          "ecoFriendly": false,
+          "emissionClass": "EURO 6",
+          "innovationCode": null,
+          "environmentalClass": null,
+          "environmentalClassEuro": "VI"
+        },
+        "additionalTechSpecification": {
+          "raceCar": null,
+          "wheelbase1": 3665,
+          "wheelbase2": null,
+          "wheelbase3": null,
+          "wheelbase4": null,
+          "equipment1": null,
+          "equipment2": null,
+          "equipment3": null,
+          "maximumSpeed": 160,
+          "numAxleShafts": 2,
+          "passengerAirBag": false,
+          "tyreDimensionRear": "235/65R16C 115/113R",
+          "tyreDimensionFront": "235/65R16C 115/113R",
+          "dualSteeringControl": null
+        },
+        "vehicleStatus": {
+          "tax": 5847
+        },
         "vehicleInformation": {
           "vin": "WDB9066331P376711",
           "body": "BB",
@@ -494,32 +520,21 @@
           "registrationDate": "2017-02-08",
           "initialTrafficDate": "2017-03-10",
           "registrationPlateReused": null
+        },
+        "registrationInformation": {
+          "registrationPlate": "ELF701",
+          "deregistrationDate": null,
+          "deregistrationText": null,
+          "deregistrationReason": null
         }
       },
-      "brand": "Mercedes-Benz",
-      "id": "521011",
-      "fuels": [
-        {
-          "fuelCode": "Diesel",
-          "powerUnit": "EG",
-          "enginePower": 120,
-          "enginePowerHp": 163,
-          "fuelTankVolume": ""
-        }
-      ],
-      "gearbox": "Automatic",
-      "fabricAndMake": "MERCEDES-BENZ",
-      "baseObjectType": "LIGHT_TRUCK",
-      "modelId": null,
-      "odometerReading": 328613,
       "modelName": "Sprinter 316 CDI (163hk)",
-      "salesFlow": "CORPORATE_CARS",
-      "state": "CREATED",
-      "odometerUnit": "km",
-      "earliestAvailableAt": null,
-      "registrationCountry": "se",
       "createdAt": "2026-10-07T08:08:21.327309+00:00",
-      "familyName": "Sprinter",
+      "state": "CREATED",
+      "gearbox": "Automatic",
+      "salesFlow": "CORPORATE_CARS",
+      "year": "2017",
+      "fabricAndMake": "MERCEDES-BENZ",
       "technicalSpecification": {
         "modelId": null,
         "vehicle": {
@@ -531,21 +546,6 @@
         "year": "2017"
       }
     },
-    "id": "7291318",
-    "leaseReturnProperties": {},
-    "vehicleType": "LIGHT_TRANSPORT",
-    "presentationApproved": false,
-    "baseObjectId": "521011",
-    "isFixedPrice": false,
-    "certified": false,
-    "objectType": "LIGHT_TRUCK",
-    "state": "AUCTION_RESOLUTION",
-    "initialBuyNowAmount": null,
-    "statisticalValuation": null,
-    "testDriveAllowed": true,
-    "buyNowAmount": null,
-    "isReleasable": false,
-    "createdAt": "2026-10-07 08:08:43.997249+00:00",
     "exportable": true,
     "deductibleVat": false,
     "collisionWarranty": null,
@@ -1902,6 +1902,6 @@
     "closedAt": "2026-10-29T11:37:00.009208+00:00",
     "updatedAt": "2026-10-29T11:37:00.098897+00:00"
   },
-  "_scraped_at": "2026-10-30T19:54:32.083637+00:00",
+  "_scraped_at": "2026-10-30T23:33:41.793240+00:00",
   "_url": "https://www.kvd.se/auktioner/mercedes-sprinter-316-cdi-163hk-309059"
 }

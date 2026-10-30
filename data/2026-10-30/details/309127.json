@@ -44,18 +44,258 @@
   "eurBuyNowAmount": null,
   "winningBid": null,
   "processObject": {
-    "displayCar360Spin": true,
+    "objectType": "CAR",
+    "buyNowAmount": null,
+    "reducedPrice": false,
+    "testDriveAllowed": true,
+    "isFixedPrice": false,
+    "baseObject": {
+      "gearbox": "Automatic",
+      "baseObjectType": "CAR",
+      "odometerReading": 127000,
+      "authorityRegisterInformation": {
+        "vehicleOrigin": {
+          "originCode": "INFÖRT",
+          "originCodeReason": null,
+          "importerIdentifier": null,
+          "preRegistrationDate": null,
+          "importRegistrationDate": null,
+          "importedForPersonalUse": false,
+          "importedPreviouslyRegistered": false
+        },
+        "generalTechSpecification": {
+          "eeg": "e1*2001/116*0457*51",
+          "fuels": [
+            {
+              "fuelCode": "Petrol",
+              "powerUnit": "EG",
+              "enginePower": 155,
+              "enginePowerHp": 211,
+              "fuelTankVolume": ""
+            },
+            {
+              "fuelCode": "Electric",
+              "powerUnit": "",
+              "enginePower": 90,
+              "enginePowerHp": 122,
+              "fuelTankVolume": ""
+            }
+          ],
+          "width": 1839,
+          "height": 1465,
+          "length": 4772,
+          "gearbox": "Automatic",
+          "variant": "R24ST0",
+          "version": "CLAA057B",
+          "taxWeight": 1930,
+          "curbWeight": 1936,
+          "maxPayload": 479,
+          "totalWeight": 2415,
+          "chassisCode1": null,
+          "chassisCode2": null,
+          "cubicCapacity": "1991",
+          "numPassengers": "4",
+          "numberOfSeats": 5,
+          "fourWheelDrive": false,
+          "maxPullWeightB": 1085,
+          "clutchMechanism1": null,
+          "clutchMechanism2": null,
+          "maxTrailerWeight": null,
+          "chassisCodeSupplement": null,
+          "maxPullWieghtNoBreaks": null,
+          "maxPullWeightBExtended": null,
+          "maxSingle Axle TrailerWeight": null
+        },
+        "environmentalClassification": {
+          "fuels": [
+            {
+              "co2": "",
+              "nox": "",
+              "nox4": null,
+              "fuelCode": "Petrol",
+              "hcThcNox": "",
+              "consumption": "",
+              "noiseLevel": 66,
+              "emissionUnit": "g/km",
+              "innovationCo2": null,
+              "particleValue": "",
+              "particleMass4": null,
+              "consumptionUnit": "",
+              "rangeNedcDrive": null,
+              "rangeWltpDrive": null,
+              "consumptionUrban": "",
+              "rangeCityWltpDrive": null,
+              "consumptionExtraUrban": "",
+              "electricEnergyConsumption": null,
+              "energyConsumptionWltpDrive": null
+            },
+            {
+              "co2": 0,
+              "nox": "",
+              "nox4": null,
+              "fuelCode": "Electric",
+              "hcThcNox": "",
+              "consumption": "",
+              "noiseLevel": "",
+              "emissionUnit": "g/km",
+              "innovationCo2": null,
+              "particleValue": "",
+              "particleMass4": null,
+              "consumptionUnit": "",
+              "rangeNedcDrive": null,
+              "rangeWltpDrive": "55",
+              "consumptionUrban": "",
+              "rangeCityWltpDrive": "58",
+              "consumptionExtraUrban": "",
+              "electricEnergyConsumption": null,
+              "energyConsumptionWltpDrive": null
+            }
+          ],
+          "ecoFriendly": true,
+          "emissionClass": "LADDHYBRID",
+          "innovationCode": null,
+          "environmentalClass": "HYBRID",
+          "environmentalClassEuro": "6"
+        },
+        "vehicleStatus": {
+          "tax": 360
+        },
+        "vehicleInspectionInformation": {
+          "inspections": [
+            {
+              "inspectionType": "5",
+              "odometerReading": 105522,
+              "dateOfInspection": "2025-10-30"
+            },
+            {
+              "inspectionType": "5",
+              "odometerReading": 45132,
+              "dateOfInspection": "2023-12-28"
+            }
+          ],
+          "inspectionGroup": "36/24/14",
+          "odometerReading": 105522,
+          "inspectionPeriod": "2025-10-30 - 2026-12-31",
+          "dateOfInspection": "2025-10-30",
+          "inspectionValidToDate": "2026-12-31",
+          "inspectionExemptionGroup": null
+        },
+        "registrationInformation": {
+          "registrationPlate": "UDR79D",
+          "deregistrationDate": null,
+          "deregistrationText": null,
+          "deregistrationReason": null
+        },
+        "vehicleInformation": {
+          "vin": "W1K2052531G069057",
+          "body": "AC",
+          "type": "CAR",
+          "year": "2020",
+          "model": "C 300 E",
+          "rawType": "PB",
+          "modelYear": null,
+          "categoryEu": "e1*2001/116*0457*51",
+          "groupNumber": "MB 522535",
+          "modelNumber": "MB 000000",
+          "chassisNumber": "W1K2052531G069057",
+          "exteriorColor": "Black",
+          "fabricAndMake": "MERCEDES-BENZ",
+          "baseObjectType": "CAR",
+          "manufactureCode": null,
+          "manufactureMonth": "202011",
+          "registrationDate": "2020-11-26",
+          "initialTrafficDate": "2021-01-05",
+          "registrationPlateReused": null
+        },
+        "additionalTechSpecification": {
+          "raceCar": null,
+          "wheelbase1": 2840,
+          "wheelbase2": null,
+          "wheelbase3": null,
+          "wheelbase4": null,
+          "equipment1": null,
+          "equipment2": null,
+          "equipment3": null,
+          "maximumSpeed": 250,
+          "numAxleShafts": 2,
+          "passengerAirBag": false,
+          "tyreDimensionRear": "245/40 R18 97Y XL",
+          "tyreDimensionFront": "225/45 R18 95Y XL",
+          "dualSteeringControl": null
+        }
+      },
+      "fuels": [
+        {
+          "fuelCode": "Petrol",
+          "powerUnit": "EG",
+          "enginePower": 155,
+          "enginePowerHp": 211,
+          "fuelTankVolume": ""
+        },
+        {
+          "fuelCode": "Electric",
+          "powerUnit": "",
+          "enginePower": 90,
+          "enginePowerHp": 122,
+          "fuelTankVolume": ""
+        }
+      ],
+      "earliestAvailableAt": null,
+      "modelName": "C 300 e Kombi S205 (320hk)",
+      "salesFlow": "CONSUMER_CARS",
+      "registrationPlate": "UDR79D",
+      "state": "PREPARING_SALES_AGREEMENT",
+      "odometerUnit": "km",
+      "fabricAndMake": "MERCEDES-BENZ",
+      "registrationCountry": "se",
+      "id": "521818",
+      "familyName": "C-Klass",
+      "modelId": null,
+      "year": "2021",
+      "createdAt": "2026-10-10T12:20:34.279468+00:00",
+      "brand": "Mercedes-Benz",
+      "body": "Wagon",
+      "exteriorColor": "Black",
+      "technicalSpecification": {
+        "modelId": null,
+        "vehicle": {
+          "brand": "Mercedes-Benz",
+          "body": "Wagon",
+          "modelName": "C 300 e Kombi S205 (320hk)",
+          "familyName": "C-Klass"
+        },
+        "year": "2021"
+      }
+    },
+    "vehicleType": "CAR",
+    "initialBuyNowAmount": null,
+    "baseObjectId": "521818",
     "conditionClassification": "TESTED",
     "proactiveBrokering": null,
+    "presentationApproved": false,
+    "state": "AUCTION_RESOLUTION",
     "properties": {
-      "length": 4772,
-      "mustExport": false,
-      "odometerUnit": "km",
-      "familyName": "C-Klass",
-      "drivingBan": false,
-      "taxWeight": 1930,
-      "odometerReading": 127400,
       "grades": {
+        "BRAKES": {
+          "max": 3,
+          "value": 3,
+          "min": 1
+        },
+        "TOTAL": {
+          "max": 5,
+          "value": 3,
+          "min": 1
+        },
+        "TECHNOLOGY_AND_EQUIPMENT": {
+          "max": 3,
+          "value": 3,
+          "min": 1
+        },
+        "ENGINE_AND_GEARBOX": {
+          "max": 3,
+          "value": 3,
+          "min": 1
+        },
         "INTERIOR": {
           "max": 5,
           "value": 3,
@@ -65,168 +305,9 @@
           "max": 5,
           "value": 2,
           "min": 1
-        },
-        "TOTAL": {
-          "max": 5,
-          "value": 3,
-          "min": 1
-        },
-        "ENGINE_AND_GEARBOX": {
-          "max": 3,
-          "value": 3,
-          "min": 1
-        },
-        "TECHNOLOGY_AND_EQUIPMENT": {
-          "max": 3,
-          "value": 3,
-          "min": 1
-        },
-        "BRAKES": {
-          "max": 3,
-          "value": 3,
-          "min": 1
         }
-      },
-      "fuels": [
-        {
-          "enginePower": 211,
-          "fuelCode": "Petrol"
-        },
-        {
-          "enginePower": 122,
-          "fuelCode": "Electric",
-          "rangeCityWltpDrive": 58,
-          "rangeWltpDrive": 55
-        }
-      ],
-      "curbWeight": 1936,
-      "remarks": {
-        "TIRES": [],
-        "INTERIOR": [],
-        "EXTERIOR": [
-          {
-            "category": "EXTERIOR",
-            "key": "Stenskott i vindruta",
-            "id": "0"
-          },
-          {
-            "category": "EXTERIOR",
-            "key": "Lackskada stötfångare bak",
-            "id": "1"
-          },
-          {
-            "category": "EXTERIOR",
-            "key": "Dörrlister missfärgade",
-            "id": "2"
-          },
-          {
-            "category": "EXTERIOR",
-            "key": "Motorhuv dåligt omlackerad",
-            "id": "3"
-          }
-        ],
-        "ENGINE_AND_GEARBOX": [],
-        "TECHNOLOGY_AND_EQUIPMENT": [],
-        "BRAKES": [
-          {
-            "category": "BRAKES",
-            "key": "Mindre bromsvibrationer",
-            "id": "0"
-          }
-        ]
-      },
-      "width": 1839,
-      "numberOfSeats": 5,
-      "body": "Wagon",
-      "maxPullWeightB": 1085,
-      "textile": "Läder/Alcantara",
-      "ecoFriendly": true,
-      "maxPayload": 479,
-      "exportable": true,
-      "inspectionValidToDate": "2026-12-31",
-      "taxFee": 360,
-      "modelYear": 2021,
-      "inspectionPeriod": "2025-10-30 - 2026-12-31",
-      "dateOfInspection": "2025-10-30",
-      "registrationPlate": "UDR79D",
-      "totalWeight": 2415,
-      "adHeader": "C 300 e Kombi S205 (320hk) AMG Night Edition",
-      "battstatResult": {
-        "rankingRangeMax": 3,
-        "sohPercent": 86,
-        "rankingRangeMin": 1,
-        "ranking": 2
       },
       "numberOfKeys": 2,
-      "towbar": false,
-      "hasUnpaidLoan": true,
-      "equipment": [
-        "Backkamera",
-        "Bluetooth",
-        "Elspeglar",
-        "Farthållare",
-        "Fjärrlås",
-        "GPS",
-        "Radio",
-        "Regnsensor",
-        "Stolsvärme fram",
-        "Assistanssystem",
-        "Eldriven baklucka",
-        "Elhiss bak",
-        "Elhiss fram",
-        "Elinfällbara speglar",
-        "Infällbar dragkrok",
-        "Isofix bak",
-        "Klimatanläggning",
-        "LED-strålkastare",
-        "Nyckellöst startsystem",
-        "Parkeringssensorer bak",
-        "Parkeringssensorer fram",
-        "USB-ingång",
-        "Mercedes-Benz Connect",
-        "Aktiv parkeringshjälp",
-        "Förvaringspaket",
-        "Komfortchassi",
-        "Kupébelysningspaket",
-        "Stämningsbelysning",
-        "Supersportratt",
-        "AMG Line",
-        "Parkeringspaket",
-        "Spegelpaket",
-        "Night-Paket",
-        "Ergonomipaket",
-        "MBUX Navigation Plus",
-        "Night Edition",
-        "Belyst instegslist",
-        "Sportbromssystem"
-      ],
-      "isRepairObject": false,
-      "mediation": true,
-      "residualLoanValue": 212340,
-      "numberOfPreviousOwners": 4,
-      "package": "AMG Night Edition",
-      "remarksLocalized": {
-        "TIRES": null,
-        "BRAKES": "Mindre bromsvibrationer",
-        "EXTERIOR": "Stenskott i vindruta. Lackskada stötfångare bak. Dörrlister missfärgade. Motorhuv dåligt omlackerad",
-        "INTERIOR": null,
-        "ENGINE_AND_GEARBOX": null,
-        "TECHNOLOGY_AND_EQUIPMENT": null
-      },
-      "importedForPersonalUse": false,
-      "gearbox": "Automatic",
-      "title": "Mercedes C 300 e Kombi S205 (320hk)",
-      "chassisNumber": "W1K2052531G069057",
-      "deductibleVat": false,
-      "saleLimitedToCorporate": false,
-      "heavyEquipment": false,
-      "manufactureMonth": "202011",
-      "height": 1465,
-      "initialTrafficDate": "2021-01-05",
-      "registrationCountry": "se",
-      "environmentalClassEuro": "6",
-      "registrationPlateCountry": "se",
-      "brand": "Mercedes",
       "formattedEquipment": [
         {
           "key": "BACKKAMERA",
@@ -457,26 +538,160 @@
           "priority": 37
         }
       ],
-      "modelName": "C 300 e Kombi S205 (320hk)",
-      "finishType": "Solid",
-      "electricType": "Plug-in hybrid",
+      "exportable": true,
+      "mustExport": false,
+      "deductibleVat": false,
+      "manufactureMonth": "202011",
+      "totalWeight": 2415,
+      "dateOfInspection": "2025-10-30",
+      "registrationPlate": "UDR79D",
+      "equipment": [
+        "Backkamera",
+        "Bluetooth",
+        "Elspeglar",
+        "Farthållare",
+        "Fjärrlås",
+        "GPS",
+        "Radio",
+        "Regnsensor",
+        "Stolsvärme fram",
+        "Assistanssystem",
+        "Eldriven baklucka",
+        "Elhiss bak",
+        "Elhiss fram",
+        "Elinfällbara speglar",
+        "Infällbar dragkrok",
+        "Isofix bak",
+        "Klimatanläggning",
+        "LED-strålkastare",
+        "Nyckellöst startsystem",
+        "Parkeringssensorer bak",
+        "Parkeringssensorer fram",
+        "USB-ingång",
+        "Mercedes-Benz Connect",
+        "Aktiv parkeringshjälp",
+        "Förvaringspaket",
+        "Komfortchassi",
+        "Kupébelysningspaket",
+        "Stämningsbelysning",
+        "Supersportratt",
+        "AMG Line",
+        "Parkeringspaket",
+        "Spegelpaket",
+        "Night-Paket",
+        "Ergonomipaket",
+        "MBUX Navigation Plus",
+        "Night Edition",
+        "Belyst instegslist",
+        "Sportbromssystem"
+      ],
+      "taxWeight": 1930,
+      "odometerUnit": "km",
+      "mediation": true,
+      "ecoFriendly": true,
+      "towbar": false,
+      "remarksLocalized": {
+        "TIRES": null,
+        "BRAKES": "Mindre bromsvibrationer",
+        "EXTERIOR": "Stenskott i vindruta. Lackskada stötfångare bak. Dörrlister missfärgade. Motorhuv dåligt omlackerad",
+        "INTERIOR": null,
+        "ENGINE_AND_GEARBOX": null,
+        "TECHNOLOGY_AND_EQUIPMENT": null
+      },
+      "width": 1839,
+      "battstatResult": {
+        "ranking": 2,
+        "sohPercent": 86,
+        "rankingRangeMin": 1,
+        "rankingRangeMax": 3
+      },
+      "body": "Wagon",
       "exteriorColor": "Black",
+      "remarks": {
+        "TIRES": [],
+        "BRAKES": [
+          {
+            "category": "BRAKES",
+            "id": "0",
+            "key": "Mindre bromsvibrationer"
+          }
+        ],
+        "TECHNOLOGY_AND_EQUIPMENT": [],
+        "ENGINE_AND_GEARBOX": [],
+        "INTERIOR": [],
+        "EXTERIOR": [
+          {
+            "category": "EXTERIOR",
+            "id": "0",
+            "key": "Stenskott i vindruta"
+          },
+          {
+            "category": "EXTERIOR",
+            "id": "1",
+            "key": "Lackskada stötfångare bak"
+          },
+          {
+            "category": "EXTERIOR",
+            "id": "2",
+            "key": "Dörrlister missfärgade"
+          },
+          {
+            "category": "EXTERIOR",
+            "id": "3",
+            "key": "Motorhuv dåligt omlackerad"
+          }
+        ]
+      },
+      "numberOfPreviousOwners": 4,
+      "adHeader": "C 300 e Kombi S205 (320hk) AMG Night Edition",
+      "fuels": [
+        {
+          "fuelCode": "Petrol",
+          "enginePower": 211
+        },
+        {
+          "fuelCode": "Electric",
+          "rangeCityWltpDrive": 58,
+          "rangeWltpDrive": 55,
+          "enginePower": 122
+        }
+      ],
+      "textile": "Läder/Alcantara",
+      "maxPayload": 479,
+      "inspectionPeriod": "2025-10-30 - 2026-12-31",
+      "inspectionValidToDate": "2026-12-31",
+      "saleLimitedToCorporate": false,
+      "package": "AMG Night Edition",
+      "hasUnpaidLoan": true,
+      "heavyEquipment": false,
+      "residualLoanValue": 212340,
+      "brand": "Mercedes",
+      "gearbox": "Automatic",
+      "height": 1465,
+      "maxPullWeightB": 1085,
+      "length": 4772,
+      "electricType": "Plug-in hybrid",
+      "environmentalClassEuro": "6",
+      "curbWeight": 1936,
+      "drivingBan": false,
+      "initialTrafficDate": "2021-01-05",
+      "chassisNumber": "W1K2052531G069057",
+      "familyName": "C-Klass",
+      "finishType": "Solid",
+      "importedForPersonalUse": false,
+      "isRepairObject": false,
+      "title": "Mercedes C 300 e Kombi S205 (320hk)",
+      "odometerReading": 127400,
+      "modelName": "C 300 e Kombi S205 (320hk)",
+      "modelYear": 2021,
+      "numberOfSeats": 5,
+      "registrationPlateCountry": "se",
+      "registrationCountry": "se",
+      "taxFee": 360,
       "heading1": "Mercedes C-Klass",
       "heading2": "C 300 e Kombi S205",
       "heading3": "AMG Night Edition"
     },
-    "car360Spin": null,
-    "testDriveAllowed": true,
-    "certified": false,
-    "objectType": "CAR",
-    "statisticalValuation": {
-      "bpGreen": null,
-      "bpOrange": 268000,
-      "bpWhite": 268000,
-      "marketPrice": 268000
-    },
-    "buyNowAmount": null,
-    "sellMethod": "BIDDING",
     "orderableAdditionalServices": {
       "tradein": false,
       "transport": true,
@@ -485,236 +700,21 @@
       "warranty": true,
       "extraTires": false
     },
-    "isFixedPrice": false,
-    "vehicleType": "CAR",
-    "leaseReturnProperties": {},
-    "baseObjectId": "521818",
-    "initialBuyNowAmount": null,
-    "isReleasable": false,
-    "id": "7291921",
     "offsiteSalesContact": null,
-    "presentationApproved": false,
-    "createdAt": "2026-10-12 12:39:04.374835+00:00",
-    "state": "AUCTION_RESOLUTION",
-    "reducedPrice": false,
-    "baseObject": {
-      "body": "Wagon",
-      "modelId": null,
-      "exteriorColor": "Black",
-      "baseObjectType": "CAR",
-      "registrationCountry": "se",
-      "odometerUnit": "km",
-      "familyName": "C-Klass",
-      "odometerReading": 127000,
-      "earliestAvailableAt": null,
-      "brand": "Mercedes-Benz",
-      "registrationPlate": "UDR79D",
-      "fuels": [
-        {
-          "fuelCode": "Petrol",
-          "powerUnit": "EG",
-          "enginePower": 155,
-          "enginePowerHp": 211,
-          "fuelTankVolume": ""
-        },
-        {
-          "fuelCode": "Electric",
-          "powerUnit": "",
-          "enginePower": 90,
-          "enginePowerHp": 122,
-          "fuelTankVolume": ""
-        }
-      ],
-      "id": "521818",
-      "authorityRegisterInformation": {
-        "generalTechSpecification": {
-          "eeg": "e1*2001/116*0457*51",
-          "fuels": [
-            {
-              "fuelCode": "Petrol",
-              "powerUnit": "EG",
-              "enginePower": 155,
-              "enginePowerHp": 211,
-              "fuelTankVolume": ""
-            },
-            {
-              "fuelCode": "Electric",
-              "powerUnit": "",
-              "enginePower": 90,
-              "enginePowerHp": 122,
-              "fuelTankVolume": ""
-            }
-          ],
-          "width": 1839,
-          "height": 1465,
-          "length": 4772,
-          "gearbox": "Automatic",
-          "variant": "R24ST0",
-          "version": "CLAA057B",
-          "taxWeight": 1930,
-          "curbWeight": 1936,
-          "maxPayload": 479,
-          "totalWeight": 2415,
-          "chassisCode1": null,
-          "chassisCode2": null,
-          "cubicCapacity": "1991",
-          "numPassengers": "4",
-          "numberOfSeats": 5,
-          "fourWheelDrive": false,
-          "maxPullWeightB": 1085,
-          "clutchMechanism1": null,
-          "clutchMechanism2": null,
-          "maxTrailerWeight": null,
-          "chassisCodeSupplement": null,
-          "maxPullWieghtNoBreaks": null,
-          "maxPullWeightBExtended": null,
-          "maxSingle Axle TrailerWeight": null
-        },
-        "vehicleOrigin": {
-          "originCode": "INFÖRT",
-          "originCodeReason": null,
-          "importerIdentifier": null,
-          "preRegistrationDate": null,
-          "importRegistrationDate": null,
-          "importedForPersonalUse": false,
-          "importedPreviouslyRegistered": false
-        },
-        "vehicleInspectionInformation": {
-          "inspections": [
-            {
-              "inspectionType": "5",
-              "odometerReading": 105522,
-              "dateOfInspection": "2025-10-30"
-            },
-            {
-              "inspectionType": "5",
-              "odometerReading": 45132,
-              "dateOfInspection": "2023-12-28"
-            }
-          ],
-          "inspectionGroup": "36/24/14",
-          "odometerReading": 105522,
-          "inspectionPeriod": "2025-10-30 - 2026-12-31",
-          "dateOfInspection": "2025-10-30",
-          "inspectionValidToDate": "2026-12-31",
-          "inspectionExemptionGroup": null
-        },
-        "environmentalClassification": {
-          "fuels": [
-            {
-              "co2": "",
-              "nox": "",
-              "nox4": null,
-              "fuelCode": "Petrol",
-              "hcThcNox": "",
-              "consumption": "",
-              "noiseLevel": 66,
-              "emissionUnit": "g/km",
-              "innovationCo2": null,
-              "particleValue": "",
-              "particleMass4": null,
-              "consumptionUnit": "",
-              "rangeNedcDrive": null,
-              "rangeWltpDrive": null,
-              "consumptionUrban": "",
-              "rangeCityWltpDrive": null,
-              "consumptionExtraUrban": "",
-              "electricEnergyConsumption": null,
-              "energyConsumptionWltpDrive": null
-            },
-            {
-              "co2": 0,
-              "nox": "",
-              "nox4": null,
-              "fuelCode": "Electric",
-              "hcThcNox": "",
-              "consumption": "",
-              "noiseLevel": "",
-              "emissionUnit": "g/km",
-              "innovationCo2": null,
-              "particleValue": "",
-              "particleMass4": null,
-              "consumptionUnit": "",
-              "rangeNedcDrive": null,
-              "rangeWltpDrive": "55",
-              "consumptionUrban": "",
-              "rangeCityWltpDrive": "58",
-              "consumptionExtraUrban": "",
-              "electricEnergyConsumption": null,
-              "energyConsumptionWltpDrive": null
-            }
-          ],
-          "ecoFriendly": true,
-          "emissionClass": "LADDHYBRID",
-          "innovationCode": null,
-          "environmentalClass": "HYBRID",
-          "environmentalClassEuro": "6"
-        },
-        "additionalTechSpecification": {
-          "raceCar": null,
-          "wheelbase1": 2840,
-          "wheelbase2": null,
-          "wheelbase3": null,
-          "wheelbase4": null,
-          "equipment1": null,
-          "equipment2": null,
-          "equipment3": null,
-          "maximumSpeed": 250,
-          "numAxleShafts": 2,
-          "passengerAirBag": false,
-          "tyreDimensionRear": "245/40 R18 97Y XL",
-          "tyreDimensionFront": "225/45 R18 95Y XL",
-          "dualSteeringControl": null
-        },
-        "vehicleStatus": {
-          "tax": 360
-        },
-        "vehicleInformation": {
-          "vin": "W1K2052531G069057",
-          "body": "AC",
-          "type": "CAR",
-          "year": "2020",
-          "model": "C 300 E",
-          "rawType": "PB",
-          "modelYear": null,
-          "categoryEu": "e1*2001/116*0457*51",
-          "groupNumber": "MB 522535",
-          "modelNumber": "MB 000000",
-          "chassisNumber": "W1K2052531G069057",
-          "exteriorColor": "Black",
-          "fabricAndMake": "MERCEDES-BENZ",
-          "baseObjectType": "CAR",
-          "manufactureCode": null,
-          "manufactureMonth": "202011",
-          "registrationDate": "2020-11-26",
-          "initialTrafficDate": "2021-01-05",
-          "registrationPlateReused": null
-        },
-        "registrationInformation": {
-          "registrationPlate": "UDR79D",
-          "deregistrationDate": null,
-          "deregistrationText": null,
-          "deregistrationReason": null
-        }
-      },
-      "modelName": "C 300 e Kombi S205 (320hk)",
-      "createdAt": "2026-10-10T12:20:34.279468+00:00",
-      "state": "PREPARING_SALES_AGREEMENT",
-      "gearbox": "Automatic",
-      "salesFlow": "CONSUMER_CARS",
-      "year": "2021",
-      "fabricAndMake": "MERCEDES-BENZ",
-      "technicalSpecification": {
-        "modelId": null,
-        "vehicle": {
-          "brand": "Mercedes-Benz",
-          "body": "Wagon",
-          "modelName": "C 300 e Kombi S205 (320hk)",
-          "familyName": "C-Klass"
-        },
-        "year": "2021"
-      }
+    "leaseReturnProperties": {},
+    "id": "7291921",
+    "displayCar360Spin": true,
+    "certified": false,
+    "sellMethod": "BIDDING",
+    "isReleasable": false,
+    "car360Spin": null,
+    "statisticalValuation": {
+      "bpGreen": null,
+      "bpWhite": 268000,
+      "marketPrice": 268000,
+      "bpOrange": 268000
     },
+    "createdAt": "2026-10-12 12:39:04.374835+00:00",
     "exportable": true,
     "deductibleVat": false,
     "collisionWarranty": null,
@@ -2107,6 +2107,6 @@
     "closedAt": "2026-10-30T09:39:05.301902+00:00",
     "updatedAt": "2026-10-30T09:39:05.367496+00:00"
   },
-  "_scraped_at": "2026-10-30T19:53:47.459575+00:00",
+  "_scraped_at": "2026-10-30T23:32:55.662514+00:00",
   "_url": "https://www.kvd.se/auktioner/mercedes-c-300-e-kombi-s205-320hk-309127"
 }

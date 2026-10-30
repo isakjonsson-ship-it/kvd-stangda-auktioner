@@ -55,235 +55,73 @@
     "evaluationType": "AUTOMATIC"
   },
   "processObject": {
-    "objectType": "LIGHT_TRUCK",
-    "buyNowAmount": null,
-    "reducedPrice": false,
-    "testDriveAllowed": true,
-    "isFixedPrice": false,
-    "baseObject": {
-      "gearbox": "Automatic",
-      "baseObjectType": "LIGHT_TRUCK",
-      "odometerReading": null,
-      "authorityRegisterInformation": {
-        "vehicleOrigin": {
-          "originCode": "INFÖRT",
-          "originCodeReason": null,
-          "importerIdentifier": null,
-          "preRegistrationDate": null,
-          "importRegistrationDate": null,
-          "importedForPersonalUse": false,
-          "importedPreviouslyRegistered": false
-        },
-        "generalTechSpecification": {
-          "eeg": "e11*2007/46*0154*12",
-          "fuels": [
-            {
-              "fuelCode": "Diesel",
-              "powerUnit": "ECE",
-              "enginePower": 118,
-              "enginePowerHp": 160,
-              "fuelTankVolume": ""
-            }
-          ],
-          "width": 1860,
-          "height": 1848,
-          "length": 5354,
-          "gearbox": "Automatic",
-          "variant": "QJ2W4P",
-          "version": "59EBG2",
-          "taxWeight": 3200,
-          "curbWeight": 2238,
-          "maxPayload": 962,
-          "totalWeight": 3200,
-          "chassisCode1": null,
-          "chassisCode2": null,
-          "cubicCapacity": "2198",
-          "numPassengers": "4",
-          "numberOfSeats": 5,
-          "fourWheelDrive": true,
-          "maxPullWeightB": 750,
-          "clutchMechanism1": null,
-          "clutchMechanism2": null,
-          "maxTrailerWeight": null,
-          "chassisCodeSupplement": null,
-          "maxPullWieghtNoBreaks": null,
-          "maxPullWeightBExtended": null,
-          "maxSingle Axle TrailerWeight": null
-        },
-        "environmentalClassification": {
-          "fuels": [
-            {
-              "co2": 207,
-              "nox": "",
-              "nox4": null,
-              "fuelCode": "Diesel",
-              "hcThcNox": "",
-              "consumption": 7.8,
-              "noiseLevel": 74,
-              "emissionUnit": "g/km",
-              "innovationCo2": null,
-              "particleValue": "",
-              "particleMass4": null,
-              "consumptionUnit": "7,8",
-              "rangeNedcDrive": null,
-              "rangeWltpDrive": null,
-              "consumptionUrban": 9.8,
-              "rangeCityWltpDrive": null,
-              "consumptionExtraUrban": 6.7,
-              "electricEnergyConsumption": null,
-              "energyConsumptionWltpDrive": null
-            }
-          ],
-          "ecoFriendly": false,
-          "emissionClass": "EURO 6",
-          "innovationCode": null,
-          "environmentalClass": null,
-          "environmentalClassEuro": "6"
-        },
-        "vehicleStatus": {
-          "tax": 6108
-        },
-        "vehicleInspectionInformation": {
-          "inspections": [
-            {
-              "inspectionType": "5",
-              "odometerReading": 216416,
-              "dateOfInspection": "2025-12-10"
-            },
-            {
-              "inspectionType": "5",
-              "odometerReading": 191888,
-              "dateOfInspection": "2024-10-31"
-            }
-          ],
-          "inspectionGroup": "36/24/14",
-          "odometerReading": 216416,
-          "inspectionPeriod": "2025-12-10 - 2027-02-28",
-          "dateOfInspection": "2025-12-10",
-          "inspectionValidToDate": "2027-02-28",
-          "inspectionExemptionGroup": null
-        },
-        "registrationInformation": {
-          "registrationPlate": "YKO670",
-          "deregistrationDate": null,
-          "deregistrationText": null,
-          "deregistrationReason": null
-        },
-        "vehicleInformation": {
-          "vin": "6FPPXXMJ2PHJ38744",
-          "body": "BA",
-          "type": "LIGHT_TRUCK",
-          "year": "2017",
-          "model": "RANGER",
-          "rawType": "LB",
-          "modelYear": null,
-          "categoryEu": "e11*2007/46*0154*12",
-          "groupNumber": "FO 907028",
-          "modelNumber": "FO 000000",
-          "chassisNumber": "6FPPXXMJ2PHJ38744",
-          "exteriorColor": "Black",
-          "fabricAndMake": "FORD",
-          "baseObjectType": "LIGHT_TRUCK",
-          "manufactureCode": null,
-          "manufactureMonth": "201701",
-          "registrationDate": "2017-01-24",
-          "initialTrafficDate": "2017-05-10",
-          "registrationPlateReused": null
-        },
-        "additionalTechSpecification": {
-          "raceCar": null,
-          "wheelbase1": 3220,
-          "wheelbase2": null,
-          "wheelbase3": null,
-          "wheelbase4": null,
-          "equipment1": null,
-          "equipment2": null,
-          "equipment3": null,
-          "maximumSpeed": 175,
-          "numAxleShafts": 2,
-          "passengerAirBag": false,
-          "tyreDimensionRear": "265/65 R17 112 T",
-          "tyreDimensionFront": "265/65 R17 112 T",
-          "dualSteeringControl": null
-        }
-      },
-      "fuels": [
-        {
-          "fuelCode": "Diesel",
-          "powerUnit": "ECE",
-          "enginePower": 118,
-          "enginePowerHp": 160,
-          "fuelTankVolume": ""
-        }
-      ],
-      "earliestAvailableAt": null,
-      "modelName": "Ranger 2.2 TDCi 4WD (160hk)",
-      "salesFlow": "CORPORATE_CARS",
-      "registrationPlate": "YKO670",
-      "state": "MANUAL_VALUATION_PENDING",
-      "odometerUnit": "km",
-      "fabricAndMake": "FORD",
-      "registrationCountry": "se",
-      "id": "520982",
-      "familyName": "Ranger",
-      "modelId": null,
-      "year": "2017",
-      "createdAt": "2026-10-07T07:07:41.955073+00:00",
-      "brand": "Ford",
-      "body": "Pick-up",
-      "exteriorColor": "Black",
-      "technicalSpecification": {
-        "modelId": null,
-        "vehicle": {
-          "brand": "Ford",
-          "body": "Pick-up",
-          "modelName": "Ranger 2.2 TDCi 4WD (160hk)",
-          "familyName": "Ranger"
-        },
-        "year": "2017"
-      }
+    "orderableAdditionalServices": {
+      "tradein": false,
+      "transport": true,
+      "insurance": true,
+      "finance": true,
+      "warranty": true,
+      "extraTires": false
     },
-    "vehicleType": "LIGHT_TRANSPORT",
-    "initialBuyNowAmount": null,
-    "baseObjectId": "520982",
-    "conditionClassification": "TESTED",
+    "car360Spin": null,
     "proactiveBrokering": null,
-    "presentationApproved": false,
-    "state": "COMPLETED",
+    "displayCar360Spin": true,
+    "offsiteSalesContact": null,
+    "sellMethod": "BIDDING",
+    "reducedPrice": false,
+    "conditionClassification": "TESTED",
     "properties": {
-      "grades": {
-        "BRAKES": {
-          "max": 3,
-          "value": 3,
-          "min": 1
-        },
-        "TOTAL": {
-          "max": 5,
-          "value": 2,
-          "min": 1
-        },
-        "TECHNOLOGY_AND_EQUIPMENT": {
-          "max": 3,
-          "value": 2,
-          "min": 1
-        },
-        "ENGINE_AND_GEARBOX": {
-          "max": 3,
-          "value": 2,
-          "min": 1
-        },
-        "INTERIOR": {
-          "max": 5,
-          "value": 2,
-          "min": 1
-        },
-        "EXTERIOR": {
-          "max": 5,
-          "value": 2,
-          "min": 1
-        }
-      },
-      "numberOfKeys": 2,
+      "adHeader": "Ranger 2.2 TDCi 4WD 160hk Limited Dubbelhytt Kåpa",
+      "exteriorColor": "Black",
+      "brand": "Ford",
+      "mediation": true,
+      "curbWeight": 2238,
+      "maxPayload": 962,
+      "equipment": [
+        "4WD",
+        "Antispinn",
+        "Backkamera",
+        "Bluetooth",
+        "CD-Stereo",
+        "Elspeglar",
+        "Farthållare",
+        "Fjärrlås",
+        "Radio",
+        "Regnsensor",
+        "Stolsvärme fram",
+        "Alkolås",
+        "Antisladdsystem",
+        "Elhiss bak",
+        "Elhiss fram",
+        "Elinfällbara speglar",
+        "Elstol förarplats",
+        "Eluppvärmd vindruta",
+        "Fastmonterad dragkrok",
+        "Isofix bak",
+        "Klimatanläggning",
+        "Parkeringssensorer bak",
+        "Parkeringssensorer fram",
+        "Parkeringsvärmare med fjärrstyrning",
+        "Parkeringsvärmare med tidur",
+        "Smartphone integration",
+        "USB-ingång",
+        "Flakkåpa"
+      ],
+      "inspectionValidToDate": "2027-02-28",
+      "odometerUnit": "km",
+      "length": 5354,
+      "finishType": "Metallic",
+      "textile": "Helläder",
+      "saleLimitedToCorporate": false,
+      "chassisNumber": "6FPPXXMJ2PHJ38744",
+      "title": "Ford Ranger 2.2 TDCi 4WD (160hk)",
+      "dateOfInspection": "2025-12-10",
+      "inspectionPeriod": "2025-12-10 - 2027-02-28",
+      "totalWeight": 3200,
+      "registrationPlateCountry": "se",
+      "exportable": true,
+      "residualLoanValue": 0,
+      "taxFee": 6108,
       "formattedEquipment": [
         {
           "key": "4WD",
@@ -454,48 +292,159 @@
           "priority": 27
         }
       ],
-      "exportable": true,
-      "mustExport": false,
-      "deductibleVat": true,
-      "manufactureMonth": "201701",
-      "totalWeight": 3200,
-      "dateOfInspection": "2025-12-10",
-      "registrationPlate": "YKO670",
-      "equipment": [
-        "4WD",
-        "Antispinn",
-        "Backkamera",
-        "Bluetooth",
-        "CD-Stereo",
-        "Elspeglar",
-        "Farthållare",
-        "Fjärrlås",
-        "Radio",
-        "Regnsensor",
-        "Stolsvärme fram",
-        "Alkolås",
-        "Antisladdsystem",
-        "Elhiss bak",
-        "Elhiss fram",
-        "Elinfällbara speglar",
-        "Elstol förarplats",
-        "Eluppvärmd vindruta",
-        "Fastmonterad dragkrok",
-        "Isofix bak",
-        "Klimatanläggning",
-        "Parkeringssensorer bak",
-        "Parkeringssensorer fram",
-        "Parkeringsvärmare med fjärrstyrning",
-        "Parkeringsvärmare med tidur",
-        "Smartphone integration",
-        "USB-ingång",
-        "Flakkåpa"
-      ],
-      "taxWeight": 3200,
-      "odometerUnit": "km",
-      "mediation": true,
-      "ecoFriendly": false,
+      "familyName": "Ranger",
+      "environmentalClassEuro": "6",
       "towbar": true,
+      "isRepairObject": false,
+      "body": "Pick-up",
+      "numberOfSeats": 5,
+      "maxPullWeightB": 750,
+      "fuels": [
+        {
+          "enginePower": 160,
+          "consumption": 7.8,
+          "co2": 207,
+          "fuelCode": "Diesel"
+        }
+      ],
+      "grades": {
+        "INTERIOR": {
+          "value": 2,
+          "min": 1,
+          "max": 5
+        },
+        "TOTAL": {
+          "value": 2,
+          "min": 1,
+          "max": 5
+        },
+        "ENGINE_AND_GEARBOX": {
+          "value": 2,
+          "min": 1,
+          "max": 3
+        },
+        "EXTERIOR": {
+          "value": 2,
+          "min": 1,
+          "max": 5
+        },
+        "BRAKES": {
+          "value": 3,
+          "min": 1,
+          "max": 3
+        },
+        "TECHNOLOGY_AND_EQUIPMENT": {
+          "value": 2,
+          "min": 1,
+          "max": 3
+        }
+      },
+      "odometerReading": 248450,
+      "package": "Limited Dubbelhytt Kåpa",
+      "initialTrafficDate": "2017-05-10",
+      "mustExport": false,
+      "manufactureMonth": "201701",
+      "ecoFriendly": false,
+      "deductibleVat": true,
+      "numberOfKeys": 2,
+      "registrationPlate": "YKO670",
+      "numberOfPreviousOwners": 1,
+      "heavyEquipment": false,
+      "modelYear": 2017,
+      "height": 1848,
+      "gearbox": "Automatic",
+      "modelName": "Ranger 2.2 TDCi 4WD (160hk)",
+      "taxWeight": 3200,
+      "width": 1860,
+      "remarks": {
+        "INTERIOR": [
+          {
+            "key": "Invändigt flertal repor, fläckar och märken",
+            "id": "0",
+            "category": "INTERIOR"
+          },
+          {
+            "key": "Klädsel skadad fram vänster",
+            "id": "1",
+            "category": "INTERIOR"
+          }
+        ],
+        "ENGINE_AND_GEARBOX": [
+          {
+            "key": "Kylarvätska, kraftigt läckage",
+            "id": "0",
+            "category": "ENGINE_AND_GEARBOX"
+          },
+          {
+            "key": "Mindre oljeläckage",
+            "id": "1",
+            "category": "ENGINE_AND_GEARBOX"
+          },
+          {
+            "key": "Oljefukt runt ventilkåpa samt vänster sida av motor",
+            "id": "2",
+            "category": "ENGINE_AND_GEARBOX"
+          }
+        ],
+        "EXTERIOR": [
+          {
+            "key": "Skada på stötfångaren bak",
+            "id": "0",
+            "category": "EXTERIOR"
+          },
+          {
+            "key": "Dålig linjepassning på stötfångare bak",
+            "id": "1",
+            "category": "EXTERIOR"
+          },
+          {
+            "key": "bristfällig fastsättning stötfångare bak",
+            "id": "2",
+            "category": "EXTERIOR"
+          },
+          {
+            "key": "Spår efter tidigare dekor, Flertal stenskott, bucklor och repor",
+            "id": "3",
+            "category": "EXTERIOR"
+          }
+        ],
+        "BRAKES": [],
+        "TECHNOLOGY_AND_EQUIPMENT": [
+          {
+            "key": "Centrallåset fungerar med fjärrnyckel men ej med fysisk nyckel",
+            "id": "0",
+            "category": "TECHNOLOGY_AND_EQUIPMENT"
+          },
+          {
+            "key": "Bagagelucka/flak låses/öppnas ej med centrallås",
+            "id": "1",
+            "category": "TECHNOLOGY_AND_EQUIPMENT"
+          },
+          {
+            "key": "Alkolås, servicedatum passerat, indikerar för service",
+            "id": "2",
+            "category": "TECHNOLOGY_AND_EQUIPMENT"
+          },
+          {
+            "key": "Spricka i vindruta",
+            "id": "3",
+            "category": "TECHNOLOGY_AND_EQUIPMENT"
+          },
+          {
+            "key": "Positionsljus fram ur funktion",
+            "id": "4",
+            "category": "TECHNOLOGY_AND_EQUIPMENT"
+          }
+        ],
+        "TIRES": [
+          {
+            "key": "Olika fabrikat på extradäck",
+            "id": "0",
+            "category": "TIRES"
+          }
+        ]
+      },
+      "drivingBan": false,
       "remarksLocalized": {
         "TIRES": "Olika fabrikat på extradäck",
         "BRAKES": null,
@@ -504,159 +453,210 @@
         "ENGINE_AND_GEARBOX": "Kylarvätska, kraftigt läckage. Mindre oljeläckage. Oljefukt runt ventilkåpa samt vänster sida av motor",
         "TECHNOLOGY_AND_EQUIPMENT": "Centrallåset fungerar med fjärrnyckel men ej med fysisk nyckel. Bagagelucka/flak låses/öppnas ej med centrallås. Alkolås, servicedatum passerat, indikerar för service. Spricka i vindruta. Positionsljus fram ur funktion"
       },
-      "width": 1860,
-      "body": "Pick-up",
-      "exteriorColor": "Black",
-      "remarks": {
-        "TIRES": [
-          {
-            "category": "TIRES",
-            "id": "0",
-            "key": "Olika fabrikat på extradäck"
-          }
-        ],
-        "BRAKES": [],
-        "TECHNOLOGY_AND_EQUIPMENT": [
-          {
-            "category": "TECHNOLOGY_AND_EQUIPMENT",
-            "id": "0",
-            "key": "Centrallåset fungerar med fjärrnyckel men ej med fysisk nyckel"
-          },
-          {
-            "category": "TECHNOLOGY_AND_EQUIPMENT",
-            "id": "1",
-            "key": "Bagagelucka/flak låses/öppnas ej med centrallås"
-          },
-          {
-            "category": "TECHNOLOGY_AND_EQUIPMENT",
-            "id": "2",
-            "key": "Alkolås, servicedatum passerat, indikerar för service"
-          },
-          {
-            "category": "TECHNOLOGY_AND_EQUIPMENT",
-            "id": "3",
-            "key": "Spricka i vindruta"
-          },
-          {
-            "category": "TECHNOLOGY_AND_EQUIPMENT",
-            "id": "4",
-            "key": "Positionsljus fram ur funktion"
-          }
-        ],
-        "ENGINE_AND_GEARBOX": [
-          {
-            "category": "ENGINE_AND_GEARBOX",
-            "id": "0",
-            "key": "Kylarvätska, kraftigt läckage"
-          },
-          {
-            "category": "ENGINE_AND_GEARBOX",
-            "id": "1",
-            "key": "Mindre oljeläckage"
-          },
-          {
-            "category": "ENGINE_AND_GEARBOX",
-            "id": "2",
-            "key": "Oljefukt runt ventilkåpa samt vänster sida av motor"
-          }
-        ],
-        "INTERIOR": [
-          {
-            "category": "INTERIOR",
-            "id": "0",
-            "key": "Invändigt flertal repor, fläckar och märken"
-          },
-          {
-            "category": "INTERIOR",
-            "id": "1",
-            "key": "Klädsel skadad fram vänster"
-          }
-        ],
-        "EXTERIOR": [
-          {
-            "category": "EXTERIOR",
-            "id": "0",
-            "key": "Skada på stötfångaren bak"
-          },
-          {
-            "category": "EXTERIOR",
-            "id": "1",
-            "key": "Dålig linjepassning på stötfångare bak"
-          },
-          {
-            "category": "EXTERIOR",
-            "id": "2",
-            "key": "bristfällig fastsättning stötfångare bak"
-          },
-          {
-            "category": "EXTERIOR",
-            "id": "3",
-            "key": "Spår efter tidigare dekor, Flertal stenskott, bucklor och repor"
-          }
-        ]
-      },
-      "numberOfPreviousOwners": 1,
-      "adHeader": "Ranger 2.2 TDCi 4WD 160hk Limited Dubbelhytt Kåpa",
-      "fuels": [
-        {
-          "fuelCode": "Diesel",
-          "co2": 207,
-          "consumption": 7.8,
-          "enginePower": 160
-        }
-      ],
-      "textile": "Helläder",
-      "maxPayload": 962,
-      "inspectionPeriod": "2025-12-10 - 2027-02-28",
-      "inspectionValidToDate": "2027-02-28",
-      "saleLimitedToCorporate": false,
-      "package": "Limited Dubbelhytt Kåpa",
       "hasUnpaidLoan": false,
-      "heavyEquipment": false,
-      "residualLoanValue": 0,
-      "brand": "Ford",
-      "gearbox": "Automatic",
-      "height": 1848,
-      "maxPullWeightB": 750,
-      "length": 5354,
-      "environmentalClassEuro": "6",
-      "curbWeight": 2238,
-      "drivingBan": false,
-      "initialTrafficDate": "2017-05-10",
-      "chassisNumber": "6FPPXXMJ2PHJ38744",
-      "familyName": "Ranger",
-      "finishType": "Metallic",
-      "importedForPersonalUse": false,
-      "isRepairObject": false,
-      "title": "Ford Ranger 2.2 TDCi 4WD (160hk)",
-      "odometerReading": 248450,
-      "modelName": "Ranger 2.2 TDCi 4WD (160hk)",
-      "modelYear": 2017,
-      "numberOfSeats": 5,
-      "registrationPlateCountry": "se",
       "registrationCountry": "se",
-      "taxFee": 6108,
+      "importedForPersonalUse": false,
       "heading1": "Ford Ranger",
       "heading2": "2.2 TDCi 4WD",
       "heading3": "Limited Dubbelhytt Kåpa"
     },
-    "orderableAdditionalServices": {
-      "tradein": false,
-      "transport": true,
-      "insurance": true,
-      "finance": true,
-      "warranty": true,
-      "extraTires": false
+    "baseObject": {
+      "exteriorColor": "Black",
+      "registrationPlate": "YKO670",
+      "year": "2017",
+      "body": "Pick-up",
+      "authorityRegisterInformation": {
+        "additionalTechSpecification": {
+          "raceCar": null,
+          "wheelbase1": 3220,
+          "wheelbase2": null,
+          "wheelbase3": null,
+          "wheelbase4": null,
+          "equipment1": null,
+          "equipment2": null,
+          "equipment3": null,
+          "maximumSpeed": 175,
+          "numAxleShafts": 2,
+          "passengerAirBag": false,
+          "tyreDimensionRear": "265/65 R17 112 T",
+          "tyreDimensionFront": "265/65 R17 112 T",
+          "dualSteeringControl": null
+        },
+        "environmentalClassification": {
+          "fuels": [
+            {
+              "co2": 207,
+              "nox": "",
+              "nox4": null,
+              "fuelCode": "Diesel",
+              "hcThcNox": "",
+              "consumption": 7.8,
+              "noiseLevel": 74,
+              "emissionUnit": "g/km",
+              "innovationCo2": null,
+              "particleValue": "",
+              "particleMass4": null,
+              "consumptionUnit": "7,8",
+              "rangeNedcDrive": null,
+              "rangeWltpDrive": null,
+              "consumptionUrban": 9.8,
+              "rangeCityWltpDrive": null,
+              "consumptionExtraUrban": 6.7,
+              "electricEnergyConsumption": null,
+              "energyConsumptionWltpDrive": null
+            }
+          ],
+          "ecoFriendly": false,
+          "emissionClass": "EURO 6",
+          "innovationCode": null,
+          "environmentalClass": null,
+          "environmentalClassEuro": "6"
+        },
+        "vehicleStatus": {
+          "tax": 6108
+        },
+        "registrationInformation": {
+          "registrationPlate": "YKO670",
+          "deregistrationDate": null,
+          "deregistrationText": null,
+          "deregistrationReason": null
+        },
+        "generalTechSpecification": {
+          "eeg": "e11*2007/46*0154*12",
+          "fuels": [
+            {
+              "fuelCode": "Diesel",
+              "powerUnit": "ECE",
+              "enginePower": 118,
+              "enginePowerHp": 160,
+              "fuelTankVolume": ""
+            }
+          ],
+          "width": 1860,
+          "height": 1848,
+          "length": 5354,
+          "gearbox": "Automatic",
+          "variant": "QJ2W4P",
+          "version": "59EBG2",
+          "taxWeight": 3200,
+          "curbWeight": 2238,
+          "maxPayload": 962,
+          "totalWeight": 3200,
+          "chassisCode1": null,
+          "chassisCode2": null,
+          "cubicCapacity": "2198",
+          "numPassengers": "4",
+          "numberOfSeats": 5,
+          "fourWheelDrive": true,
+          "maxPullWeightB": 750,
+          "clutchMechanism1": null,
+          "clutchMechanism2": null,
+          "maxTrailerWeight": null,
+          "chassisCodeSupplement": null,
+          "maxPullWieghtNoBreaks": null,
+          "maxPullWeightBExtended": null,
+          "maxSingle Axle TrailerWeight": null
+        },
+        "vehicleOrigin": {
+          "originCode": "INFÖRT",
+          "originCodeReason": null,
+          "importerIdentifier": null,
+          "preRegistrationDate": null,
+          "importRegistrationDate": null,
+          "importedForPersonalUse": false,
+          "importedPreviouslyRegistered": false
+        },
+        "vehicleInspectionInformation": {
+          "inspections": [
+            {
+              "inspectionType": "5",
+              "odometerReading": 216416,
+              "dateOfInspection": "2025-12-10"
+            },
+            {
+              "inspectionType": "5",
+              "odometerReading": 191888,
+              "dateOfInspection": "2024-10-31"
+            }
+          ],
+          "inspectionGroup": "36/24/14",
+          "odometerReading": 216416,
+          "inspectionPeriod": "2025-12-10 - 2027-02-28",
+          "dateOfInspection": "2025-12-10",
+          "inspectionValidToDate": "2027-02-28",
+          "inspectionExemptionGroup": null
+        },
+        "vehicleInformation": {
+          "vin": "6FPPXXMJ2PHJ38744",
+          "body": "BA",
+          "type": "LIGHT_TRUCK",
+          "year": "2017",
+          "model": "RANGER",
+          "rawType": "LB",
+          "modelYear": null,
+          "categoryEu": "e11*2007/46*0154*12",
+          "groupNumber": "FO 907028",
+          "modelNumber": "FO 000000",
+          "chassisNumber": "6FPPXXMJ2PHJ38744",
+          "exteriorColor": "Black",
+          "fabricAndMake": "FORD",
+          "baseObjectType": "LIGHT_TRUCK",
+          "manufactureCode": null,
+          "manufactureMonth": "201701",
+          "registrationDate": "2017-01-24",
+          "initialTrafficDate": "2017-05-10",
+          "registrationPlateReused": null
+        }
+      },
+      "brand": "Ford",
+      "id": "520982",
+      "fuels": [
+        {
+          "fuelCode": "Diesel",
+          "powerUnit": "ECE",
+          "enginePower": 118,
+          "enginePowerHp": 160,
+          "fuelTankVolume": ""
+        }
+      ],
+      "gearbox": "Automatic",
+      "fabricAndMake": "FORD",
+      "baseObjectType": "LIGHT_TRUCK",
+      "modelId": null,
+      "odometerReading": null,
+      "modelName": "Ranger 2.2 TDCi 4WD (160hk)",
+      "salesFlow": "CORPORATE_CARS",
+      "state": "MANUAL_VALUATION_PENDING",
+      "odometerUnit": "km",
+      "earliestAvailableAt": null,
+      "registrationCountry": "se",
+      "createdAt": "2026-10-07T07:07:41.955073+00:00",
+      "familyName": "Ranger",
+      "technicalSpecification": {
+        "modelId": null,
+        "vehicle": {
+          "brand": "Ford",
+          "body": "Pick-up",
+          "modelName": "Ranger 2.2 TDCi 4WD (160hk)",
+          "familyName": "Ranger"
+        },
+        "year": "2017"
+      }
     },
-    "offsiteSalesContact": null,
-    "leaseReturnProperties": {},
     "id": "7291291",
-    "displayCar360Spin": true,
+    "leaseReturnProperties": {},
+    "vehicleType": "LIGHT_TRANSPORT",
+    "presentationApproved": false,
+    "baseObjectId": "520982",
+    "isFixedPrice": false,
     "certified": false,
-    "sellMethod": "BIDDING",
-    "isReleasable": false,
-    "car360Spin": null,
+    "objectType": "LIGHT_TRUCK",
+    "state": "COMPLETED",
+    "initialBuyNowAmount": null,
     "statisticalValuation": null,
+    "testDriveAllowed": true,
+    "buyNowAmount": null,
+    "isReleasable": false,
     "createdAt": "2026-10-07 07:07:42.421272+00:00",
     "exportable": true,
     "deductibleVat": true,
@@ -2552,6 +2552,6 @@
     "closedAt": "2026-10-29T11:50:14.398578+00:00",
     "updatedAt": "2026-10-29T12:28:40.492694+00:00"
   },
-  "_scraped_at": "2026-10-30T19:54:33.555610+00:00",
+  "_scraped_at": "2026-10-30T23:33:43.258293+00:00",
   "_url": "https://www.kvd.se/auktioner/ford-ranger-2-2-tdci-4wd-160hk-309057"
 }

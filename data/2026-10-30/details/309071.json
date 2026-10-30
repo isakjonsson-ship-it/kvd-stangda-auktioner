@@ -54,28 +54,100 @@
     "evaluationType": "BROKERING"
   },
   "processObject": {
-    "orderableAdditionalServices": {
-      "tradein": false,
-      "transport": true,
-      "insurance": true,
-      "finance": true,
-      "warranty": true,
-      "extraTires": false
-    },
-    "car360Spin": null,
-    "proactiveBrokering": null,
     "displayCar360Spin": true,
-    "offsiteSalesContact": null,
-    "sellMethod": "BIDDING",
-    "reducedPrice": false,
     "conditionClassification": "TESTED",
+    "proactiveBrokering": null,
     "properties": {
-      "adHeader": "Jumper II BlueHDi (140hk) L2H2 Värmare Kamera Drag",
-      "exteriorColor": "White",
-      "brand": "Citroën",
-      "mediation": true,
+      "length": 5413,
+      "mustExport": false,
+      "odometerUnit": "km",
+      "familyName": "Jumper",
+      "drivingBan": false,
+      "taxWeight": 3500,
+      "odometerReading": 128220,
+      "grades": {
+        "INTERIOR": {
+          "max": 5,
+          "value": 3,
+          "min": 1
+        },
+        "EXTERIOR": {
+          "max": 5,
+          "value": 3,
+          "min": 1
+        },
+        "TOTAL": {
+          "max": 5,
+          "value": 3,
+          "min": 1
+        },
+        "ENGINE_AND_GEARBOX": {
+          "max": 3,
+          "value": 3,
+          "min": 1
+        },
+        "TECHNOLOGY_AND_EQUIPMENT": {
+          "max": 3,
+          "value": 2,
+          "min": 1
+        },
+        "BRAKES": {
+          "max": 3,
+          "value": 3,
+          "min": 1
+        }
+      },
+      "fuels": [
+        {
+          "enginePower": 140,
+          "fuelCode": "Diesel"
+        }
+      ],
       "curbWeight": 2138,
+      "remarks": {
+        "TIRES": [],
+        "INTERIOR": [],
+        "EXTERIOR": [
+          {
+            "category": "EXTERIOR",
+            "key": "Fåtal rostangrepp",
+            "id": "0"
+          },
+          {
+            "category": "EXTERIOR",
+            "key": "Flertal repor, stenskott och lackskador",
+            "id": "1"
+          }
+        ],
+        "ENGINE_AND_GEARBOX": [],
+        "TECHNOLOGY_AND_EQUIPMENT": [
+          {
+            "category": "TECHNOLOGY_AND_EQUIPMENT",
+            "key": "Vänster halvljus ur funktion",
+            "id": "0"
+          }
+        ],
+        "BRAKES": []
+      },
+      "width": 2050,
+      "numberOfSeats": 3,
+      "body": "Van",
+      "maxPullWeightB": 750,
+      "textile": "Textil",
+      "ecoFriendly": false,
       "maxPayload": 1362,
+      "exportable": true,
+      "inspectionValidToDate": "2027-12-31",
+      "taxFee": 6728,
+      "modelYear": 2022,
+      "inspectionPeriod": "2025-12-12 - 2027-12-31",
+      "dateOfInspection": "2025-12-12",
+      "registrationPlate": "URA108",
+      "totalWeight": 3500,
+      "adHeader": "Jumper II BlueHDi (140hk) L2H2 Värmare Kamera Drag",
+      "numberOfKeys": 2,
+      "towbar": false,
+      "hasUnpaidLoan": false,
       "equipment": [
         "AC",
         "Antisladdsystem",
@@ -95,21 +167,33 @@
         "Stolsvärme fram",
         "Verkstads inr."
       ],
-      "inspectionValidToDate": "2027-12-31",
-      "odometerUnit": "km",
-      "length": 5413,
-      "finishType": "Solid",
-      "textile": "Textil",
-      "saleLimitedToCorporate": false,
-      "chassisNumber": "VF7YCBPFBNG019849",
-      "title": "Citroën Jumper II BlueHDi Skåp (140hk)",
-      "dateOfInspection": "2025-12-12",
-      "inspectionPeriod": "2025-12-12 - 2027-12-31",
-      "totalWeight": 3500,
-      "registrationPlateCountry": "se",
-      "exportable": true,
+      "isRepairObject": false,
+      "mediation": true,
       "residualLoanValue": 0,
-      "taxFee": 6728,
+      "numberOfPreviousOwners": 3,
+      "package": "L2H2 Värmare Backkamera Drag",
+      "remarksLocalized": {
+        "TIRES": null,
+        "BRAKES": null,
+        "EXTERIOR": "Fåtal rostangrepp. Flertal repor, stenskott och lackskador",
+        "INTERIOR": null,
+        "ENGINE_AND_GEARBOX": null,
+        "TECHNOLOGY_AND_EQUIPMENT": "Vänster halvljus ur funktion"
+      },
+      "importedForPersonalUse": false,
+      "gearbox": "Manual",
+      "title": "Citroën Jumper II BlueHDi Skåp (140hk)",
+      "chassisNumber": "VF7YCBPFBNG019849",
+      "deductibleVat": true,
+      "saleLimitedToCorporate": false,
+      "heavyEquipment": false,
+      "manufactureMonth": "202211",
+      "height": 2522,
+      "initialTrafficDate": "2022-12-27",
+      "registrationCountry": "se",
+      "environmentalClassEuro": "6",
+      "registrationPlateCountry": "se",
+      "brand": "Citroën",
       "formattedEquipment": [
         {
           "key": "AC",
@@ -214,170 +298,63 @@
           "priority": 16
         }
       ],
-      "familyName": "Jumper",
-      "environmentalClassEuro": "6",
-      "towbar": false,
-      "isRepairObject": false,
-      "body": "Van",
-      "numberOfSeats": 3,
-      "maxPullWeightB": 750,
-      "fuels": [
-        {
-          "enginePower": 140,
-          "fuelCode": "Diesel"
-        }
-      ],
-      "grades": {
-        "INTERIOR": {
-          "value": 3,
-          "min": 1,
-          "max": 5
-        },
-        "TOTAL": {
-          "value": 3,
-          "min": 1,
-          "max": 5
-        },
-        "ENGINE_AND_GEARBOX": {
-          "value": 3,
-          "min": 1,
-          "max": 3
-        },
-        "EXTERIOR": {
-          "value": 3,
-          "min": 1,
-          "max": 5
-        },
-        "BRAKES": {
-          "value": 3,
-          "min": 1,
-          "max": 3
-        },
-        "TECHNOLOGY_AND_EQUIPMENT": {
-          "value": 2,
-          "min": 1,
-          "max": 3
-        }
-      },
-      "odometerReading": 128220,
-      "package": "L2H2 Värmare Backkamera Drag",
-      "initialTrafficDate": "2022-12-27",
-      "mustExport": false,
-      "manufactureMonth": "202211",
-      "ecoFriendly": false,
-      "deductibleVat": true,
-      "numberOfKeys": 2,
-      "registrationPlate": "URA108",
-      "numberOfPreviousOwners": 3,
-      "heavyEquipment": false,
-      "modelYear": 2022,
-      "height": 2522,
-      "gearbox": "Manual",
       "modelName": "Jumper II BlueHDi Skåp (140hk)",
-      "taxWeight": 3500,
-      "width": 2050,
-      "remarks": {
-        "INTERIOR": [],
-        "ENGINE_AND_GEARBOX": [],
-        "EXTERIOR": [
-          {
-            "key": "Fåtal rostangrepp",
-            "id": "0",
-            "category": "EXTERIOR"
-          },
-          {
-            "key": "Flertal repor, stenskott och lackskador",
-            "id": "1",
-            "category": "EXTERIOR"
-          }
-        ],
-        "BRAKES": [],
-        "TECHNOLOGY_AND_EQUIPMENT": [
-          {
-            "key": "Vänster halvljus ur funktion",
-            "id": "0",
-            "category": "TECHNOLOGY_AND_EQUIPMENT"
-          }
-        ],
-        "TIRES": []
-      },
-      "drivingBan": false,
-      "remarksLocalized": {
-        "TIRES": null,
-        "BRAKES": null,
-        "EXTERIOR": "Fåtal rostangrepp. Flertal repor, stenskott och lackskador",
-        "INTERIOR": null,
-        "ENGINE_AND_GEARBOX": null,
-        "TECHNOLOGY_AND_EQUIPMENT": "Vänster halvljus ur funktion"
-      },
-      "hasUnpaidLoan": false,
-      "registrationCountry": "se",
-      "importedForPersonalUse": false,
+      "finishType": "Solid",
+      "exteriorColor": "White",
       "heading1": "Citroën Jumper",
       "heading2": "II BlueHDi Skåp",
       "heading3": "L2H2 Värmare Backkamera Drag"
     },
+    "car360Spin": null,
+    "testDriveAllowed": true,
+    "certified": false,
+    "objectType": "LIGHT_TRUCK",
+    "statisticalValuation": null,
+    "buyNowAmount": null,
+    "sellMethod": "BIDDING",
+    "orderableAdditionalServices": {
+      "tradein": false,
+      "transport": true,
+      "insurance": true,
+      "finance": true,
+      "warranty": true,
+      "extraTires": false
+    },
+    "isFixedPrice": false,
+    "vehicleType": "LIGHT_TRANSPORT",
+    "leaseReturnProperties": {},
+    "baseObjectId": "522526",
+    "initialBuyNowAmount": null,
+    "isReleasable": false,
+    "id": "7292068",
+    "offsiteSalesContact": null,
+    "presentationApproved": false,
+    "createdAt": "2026-10-13 11:58:02.385249+00:00",
+    "state": "AUCTION_RESOLUTION",
+    "reducedPrice": false,
     "baseObject": {
-      "exteriorColor": "White",
-      "registrationPlate": "URA108",
-      "year": "2023",
       "body": "Van",
+      "modelId": null,
+      "exteriorColor": "White",
+      "baseObjectType": "LIGHT_TRUCK",
+      "registrationCountry": "se",
+      "odometerUnit": "km",
+      "familyName": "Jumper",
+      "odometerReading": null,
+      "earliestAvailableAt": null,
+      "brand": "Citroën",
+      "registrationPlate": "URA108",
+      "fuels": [
+        {
+          "fuelCode": "Diesel",
+          "powerUnit": "EG",
+          "enginePower": 103,
+          "enginePowerHp": 140,
+          "fuelTankVolume": ""
+        }
+      ],
+      "id": "522526",
       "authorityRegisterInformation": {
-        "additionalTechSpecification": {
-          "raceCar": null,
-          "wheelbase1": 3450,
-          "wheelbase2": null,
-          "wheelbase3": null,
-          "wheelbase4": null,
-          "equipment1": null,
-          "equipment2": null,
-          "equipment3": null,
-          "maximumSpeed": 160,
-          "numAxleShafts": 2,
-          "passengerAirBag": true,
-          "tyreDimensionRear": "215/70R15C",
-          "tyreDimensionFront": "215/70R15C",
-          "dualSteeringControl": null
-        },
-        "environmentalClassification": {
-          "fuels": [
-            {
-              "co2": "",
-              "nox": "",
-              "nox4": null,
-              "fuelCode": "Diesel",
-              "hcThcNox": "",
-              "consumption": "",
-              "noiseLevel": 70,
-              "emissionUnit": "g/km",
-              "innovationCo2": null,
-              "particleValue": "",
-              "particleMass4": null,
-              "consumptionUnit": "",
-              "rangeNedcDrive": null,
-              "rangeWltpDrive": null,
-              "consumptionUrban": "",
-              "rangeCityWltpDrive": null,
-              "consumptionExtraUrban": "",
-              "electricEnergyConsumption": null,
-              "energyConsumptionWltpDrive": null
-            }
-          ],
-          "ecoFriendly": false,
-          "emissionClass": "EURO 6",
-          "innovationCode": null,
-          "environmentalClass": null,
-          "environmentalClassEuro": "6"
-        },
-        "vehicleStatus": {
-          "tax": 6728
-        },
-        "registrationInformation": {
-          "registrationPlate": "URA108",
-          "deregistrationDate": null,
-          "deregistrationText": null,
-          "deregistrationReason": null
-        },
         "generalTechSpecification": {
           "eeg": "e3*2007/46*0046*26",
           "fuels": [
@@ -443,6 +420,55 @@
           "inspectionValidToDate": "2027-12-31",
           "inspectionExemptionGroup": null
         },
+        "environmentalClassification": {
+          "fuels": [
+            {
+              "co2": "",
+              "nox": "",
+              "nox4": null,
+              "fuelCode": "Diesel",
+              "hcThcNox": "",
+              "consumption": "",
+              "noiseLevel": 70,
+              "emissionUnit": "g/km",
+              "innovationCo2": null,
+              "particleValue": "",
+              "particleMass4": null,
+              "consumptionUnit": "",
+              "rangeNedcDrive": null,
+              "rangeWltpDrive": null,
+              "consumptionUrban": "",
+              "rangeCityWltpDrive": null,
+              "consumptionExtraUrban": "",
+              "electricEnergyConsumption": null,
+              "energyConsumptionWltpDrive": null
+            }
+          ],
+          "ecoFriendly": false,
+          "emissionClass": "EURO 6",
+          "innovationCode": null,
+          "environmentalClass": null,
+          "environmentalClassEuro": "6"
+        },
+        "additionalTechSpecification": {
+          "raceCar": null,
+          "wheelbase1": 3450,
+          "wheelbase2": null,
+          "wheelbase3": null,
+          "wheelbase4": null,
+          "equipment1": null,
+          "equipment2": null,
+          "equipment3": null,
+          "maximumSpeed": 160,
+          "numAxleShafts": 2,
+          "passengerAirBag": true,
+          "tyreDimensionRear": "215/70R15C",
+          "tyreDimensionFront": "215/70R15C",
+          "dualSteeringControl": null
+        },
+        "vehicleStatus": {
+          "tax": 6728
+        },
         "vehicleInformation": {
           "vin": "VF7YCBPFBNG019849",
           "body": "BB",
@@ -463,32 +489,21 @@
           "registrationDate": "2022-11-09",
           "initialTrafficDate": "2022-12-27",
           "registrationPlateReused": null
+        },
+        "registrationInformation": {
+          "registrationPlate": "URA108",
+          "deregistrationDate": null,
+          "deregistrationText": null,
+          "deregistrationReason": null
         }
       },
-      "brand": "Citroën",
-      "id": "522526",
-      "fuels": [
-        {
-          "fuelCode": "Diesel",
-          "powerUnit": "EG",
-          "enginePower": 103,
-          "enginePowerHp": 140,
-          "fuelTankVolume": ""
-        }
-      ],
-      "gearbox": "Manual",
-      "fabricAndMake": "CITROEN",
-      "baseObjectType": "LIGHT_TRUCK",
-      "modelId": null,
-      "odometerReading": null,
       "modelName": "Jumper II BlueHDi Skåp (140hk)",
-      "salesFlow": "CORPORATE_CARS",
-      "state": "MANUAL_VALUATION_PENDING",
-      "odometerUnit": "km",
-      "earliestAvailableAt": null,
-      "registrationCountry": "se",
       "createdAt": "2026-10-13T11:58:02.098741+00:00",
-      "familyName": "Jumper",
+      "state": "MANUAL_VALUATION_PENDING",
+      "gearbox": "Manual",
+      "salesFlow": "CORPORATE_CARS",
+      "year": "2023",
+      "fabricAndMake": "CITROEN",
       "technicalSpecification": {
         "modelId": null,
         "vehicle": {
@@ -500,21 +515,6 @@
         "year": "2023"
       }
     },
-    "id": "7292068",
-    "leaseReturnProperties": {},
-    "vehicleType": "LIGHT_TRANSPORT",
-    "presentationApproved": false,
-    "baseObjectId": "522526",
-    "isFixedPrice": false,
-    "certified": false,
-    "objectType": "LIGHT_TRUCK",
-    "state": "AUCTION_RESOLUTION",
-    "initialBuyNowAmount": null,
-    "statisticalValuation": null,
-    "testDriveAllowed": true,
-    "buyNowAmount": null,
-    "isReleasable": false,
-    "createdAt": "2026-10-13 11:58:02.385249+00:00",
     "exportable": true,
     "deductibleVat": true,
     "collisionWarranty": null,
@@ -1891,6 +1891,6 @@
     "closedAt": "2026-10-29T11:24:11.632150+00:00",
     "updatedAt": "2026-10-30T07:39:39.085576+00:00"
   },
-  "_scraped_at": "2026-10-30T19:54:15.520382+00:00",
+  "_scraped_at": "2026-10-30T23:33:24.910696+00:00",
   "_url": "https://www.kvd.se/auktioner/citroen-jumper-ii-bluehdi-skap-140hk-309071"
 }

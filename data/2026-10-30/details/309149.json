@@ -54,97 +54,28 @@
     "evaluationType": "BROKERING"
   },
   "processObject": {
-    "displayCar360Spin": true,
-    "conditionClassification": "CERTIFIED",
+    "orderableAdditionalServices": {
+      "tradein": false,
+      "transport": true,
+      "insurance": true,
+      "finance": true,
+      "warranty": true,
+      "extraTires": true
+    },
+    "car360Spin": null,
     "proactiveBrokering": null,
+    "displayCar360Spin": true,
+    "offsiteSalesContact": null,
+    "sellMethod": "BIDDING",
+    "reducedPrice": true,
+    "conditionClassification": "CERTIFIED",
     "properties": {
-      "length": 4993,
-      "mustExport": false,
-      "odometerUnit": "km",
-      "familyName": "E-Klass",
-      "drivingBan": false,
-      "taxWeight": 1810,
-      "odometerReading": 97720,
-      "grades": {
-        "INTERIOR": {
-          "max": 5,
-          "value": 3,
-          "min": 1
-        },
-        "EXTERIOR": {
-          "max": 5,
-          "value": 3,
-          "min": 1
-        },
-        "TOTAL": {
-          "max": 5,
-          "value": 3,
-          "min": 1
-        },
-        "ENGINE_AND_GEARBOX": {
-          "max": 3,
-          "value": 3,
-          "min": 1
-        },
-        "TECHNOLOGY_AND_EQUIPMENT": {
-          "max": 3,
-          "value": 3,
-          "min": 1
-        },
-        "BRAKES": {
-          "max": 3,
-          "value": 3,
-          "min": 1
-        }
-      },
-      "fuels": [
-        {
-          "enginePower": 160,
-          "fuelCode": "Diesel",
-          "co2": 120,
-          "consumption": 4.5
-        }
-      ],
-      "curbWeight": 1810,
-      "remarks": {
-        "TIRES": [
-          {
-            "category": "TIRES",
-            "key": "Dubb saknas på vinterdäck",
-            "id": "0"
-          }
-        ],
-        "INTERIOR": [
-          {
-            "category": "INTERIOR",
-            "key": "Klädsel smutsig",
-            "id": "0"
-          }
-        ],
-        "EXTERIOR": [],
-        "ENGINE_AND_GEARBOX": [],
-        "TECHNOLOGY_AND_EQUIPMENT": [],
-        "BRAKES": []
-      },
-      "width": 1907,
-      "numberOfSeats": 5,
-      "body": "Sedan",
-      "maxPullWeightB": 1135,
-      "textile": "Delläder",
-      "ecoFriendly": false,
-      "maxPayload": 555,
-      "exportable": true,
-      "inspectionValidToDate": "2027-04-30",
-      "taxFee": 2430,
-      "modelYear": 2020,
-      "inspectionPeriod": "2026-02-24 - 2027-04-30",
-      "dateOfInspection": "2026-02-24",
-      "registrationPlate": "WBE78F",
-      "totalWeight": 2365,
       "adHeader": "E 200 d Sedan 160hk AMG Widescreen GPS 360°",
-      "numberOfKeys": 2,
-      "towbar": false,
-      "hasUnpaidLoan": false,
+      "exteriorColor": "Black",
+      "brand": "Mercedes",
+      "mediation": false,
+      "curbWeight": 1810,
+      "maxPayload": 555,
       "equipment": [
         "360 kamera",
         "Aktiv parkeringshjälp",
@@ -188,33 +119,21 @@
         "Stolsvärme fram",
         "USB-ingång"
       ],
-      "isRepairObject": false,
-      "mediation": false,
-      "residualLoanValue": 0,
-      "numberOfPreviousOwners": 2,
-      "package": "AMG Widescreen GPS 360°",
-      "remarksLocalized": {
-        "TIRES": "Dubb saknas på vinterdäck",
-        "BRAKES": null,
-        "EXTERIOR": null,
-        "INTERIOR": "Klädsel smutsig",
-        "ENGINE_AND_GEARBOX": null,
-        "TECHNOLOGY_AND_EQUIPMENT": null
-      },
-      "importedForPersonalUse": false,
-      "gearbox": "Automatic",
-      "title": "Mercedes E 200 d Sedan W213 (160hk)",
-      "chassisNumber": "W1K2130121A766945",
-      "deductibleVat": false,
+      "inspectionValidToDate": "2027-04-30",
+      "odometerUnit": "km",
+      "length": 4993,
+      "finishType": "Solid",
+      "textile": "Delläder",
       "saleLimitedToCorporate": false,
-      "heavyEquipment": false,
-      "manufactureMonth": "201911",
-      "height": 1495,
-      "initialTrafficDate": "2019-12-20",
-      "registrationCountry": "se",
-      "environmentalClassEuro": "6",
+      "chassisNumber": "W1K2130121A766945",
+      "title": "Mercedes E 200 d Sedan W213 (160hk)",
+      "dateOfInspection": "2026-02-24",
+      "inspectionPeriod": "2026-02-24 - 2027-04-30",
+      "totalWeight": 2365,
       "registrationPlateCountry": "se",
-      "brand": "Mercedes",
+      "exportable": true,
+      "residualLoanValue": 0,
+      "taxFee": 2430,
       "formattedEquipment": [
         {
           "key": "360_KAMERA",
@@ -463,63 +382,167 @@
           "priority": 40
         }
       ],
+      "familyName": "E-Klass",
+      "environmentalClassEuro": "6",
+      "towbar": false,
+      "isRepairObject": false,
+      "body": "Sedan",
+      "numberOfSeats": 5,
+      "maxPullWeightB": 1135,
+      "fuels": [
+        {
+          "enginePower": 160,
+          "consumption": 4.5,
+          "co2": 120,
+          "fuelCode": "Diesel"
+        }
+      ],
+      "grades": {
+        "INTERIOR": {
+          "value": 3,
+          "min": 1,
+          "max": 5
+        },
+        "TOTAL": {
+          "value": 3,
+          "min": 1,
+          "max": 5
+        },
+        "ENGINE_AND_GEARBOX": {
+          "value": 3,
+          "min": 1,
+          "max": 3
+        },
+        "EXTERIOR": {
+          "value": 3,
+          "min": 1,
+          "max": 5
+        },
+        "BRAKES": {
+          "value": 3,
+          "min": 1,
+          "max": 3
+        },
+        "TECHNOLOGY_AND_EQUIPMENT": {
+          "value": 3,
+          "min": 1,
+          "max": 3
+        }
+      },
+      "odometerReading": 97720,
+      "package": "AMG Widescreen GPS 360°",
+      "initialTrafficDate": "2019-12-20",
+      "mustExport": false,
+      "manufactureMonth": "201911",
+      "ecoFriendly": false,
+      "deductibleVat": false,
+      "numberOfKeys": 2,
+      "registrationPlate": "WBE78F",
+      "numberOfPreviousOwners": 2,
+      "heavyEquipment": false,
+      "modelYear": 2020,
+      "height": 1495,
+      "gearbox": "Automatic",
       "modelName": "E 200 d Sedan 160hk",
-      "finishType": "Solid",
-      "exteriorColor": "Black",
+      "taxWeight": 1810,
+      "width": 1907,
+      "remarks": {
+        "INTERIOR": [
+          {
+            "key": "Klädsel smutsig",
+            "id": "0",
+            "category": "INTERIOR"
+          }
+        ],
+        "ENGINE_AND_GEARBOX": [],
+        "EXTERIOR": [],
+        "BRAKES": [],
+        "TECHNOLOGY_AND_EQUIPMENT": [],
+        "TIRES": [
+          {
+            "key": "Dubb saknas på vinterdäck",
+            "id": "0",
+            "category": "TIRES"
+          }
+        ]
+      },
+      "drivingBan": false,
+      "remarksLocalized": {
+        "TIRES": "Dubb saknas på vinterdäck",
+        "BRAKES": null,
+        "EXTERIOR": null,
+        "INTERIOR": "Klädsel smutsig",
+        "ENGINE_AND_GEARBOX": null,
+        "TECHNOLOGY_AND_EQUIPMENT": null
+      },
+      "hasUnpaidLoan": false,
+      "registrationCountry": "se",
+      "importedForPersonalUse": false,
       "heading1": "Mercedes E-Klass",
       "heading2": "E 200 d Sedan 160hk",
       "heading3": "AMG Widescreen GPS 360°"
     },
-    "car360Spin": null,
-    "testDriveAllowed": true,
-    "certified": true,
-    "objectType": "CAR",
-    "statisticalValuation": null,
-    "buyNowAmount": 249800,
-    "sellMethod": "BIDDING",
-    "orderableAdditionalServices": {
-      "tradein": false,
-      "transport": true,
-      "insurance": true,
-      "finance": true,
-      "warranty": true,
-      "extraTires": true
-    },
-    "isFixedPrice": false,
-    "vehicleType": "CAR",
-    "leaseReturnProperties": {},
-    "baseObjectId": "506036",
-    "initialBuyNowAmount": 289800,
-    "isReleasable": false,
-    "id": "7283947",
-    "offsiteSalesContact": null,
-    "presentationApproved": false,
-    "createdAt": "2026-07-23 05:09:40.876786+00:00",
-    "state": "AUCTION_RESOLUTION",
-    "reducedPrice": true,
     "baseObject": {
-      "body": "Sedan",
-      "modelId": null,
       "exteriorColor": "Black",
-      "baseObjectType": "CAR",
-      "registrationCountry": "se",
-      "odometerUnit": "km",
-      "familyName": "E-Klass",
-      "odometerReading": null,
-      "earliestAvailableAt": null,
-      "brand": "Mercedes-Benz",
       "registrationPlate": "WBE78F",
-      "fuels": [
-        {
-          "fuelCode": "Diesel",
-          "powerUnit": "EG",
-          "enginePower": 118,
-          "enginePowerHp": 160,
-          "fuelTankVolume": ""
-        }
-      ],
-      "id": "506036",
+      "year": "2020",
+      "body": "Sedan",
       "authorityRegisterInformation": {
+        "additionalTechSpecification": {
+          "raceCar": null,
+          "wheelbase1": 2939,
+          "wheelbase2": null,
+          "wheelbase3": null,
+          "wheelbase4": null,
+          "equipment1": null,
+          "equipment2": null,
+          "equipment3": null,
+          "maximumSpeed": 226,
+          "numAxleShafts": "",
+          "passengerAirBag": false,
+          "tyreDimensionRear": "245/45 R18 100Y XL",
+          "tyreDimensionFront": "245/45 R18 100Y XL",
+          "dualSteeringControl": null
+        },
+        "environmentalClassification": {
+          "fuels": [
+            {
+              "co2": 120,
+              "nox": "",
+              "nox4": null,
+              "fuelCode": "Diesel",
+              "hcThcNox": "",
+              "consumption": 4.5,
+              "noiseLevel": 69,
+              "emissionUnit": "g/km",
+              "innovationCo2": null,
+              "particleValue": "",
+              "particleMass4": null,
+              "consumptionUnit": "4,5",
+              "rangeNedcDrive": null,
+              "rangeWltpDrive": null,
+              "consumptionUrban": 5.3,
+              "rangeCityWltpDrive": null,
+              "consumptionExtraUrban": 4.1,
+              "electricEnergyConsumption": null,
+              "energyConsumptionWltpDrive": null
+            }
+          ],
+          "ecoFriendly": false,
+          "emissionClass": "EURO 6",
+          "innovationCode": null,
+          "environmentalClass": null,
+          "environmentalClassEuro": "6"
+        },
+        "vehicleStatus": {
+          "tax": 2430
+        },
+        "registrationInformation": {
+          "registrationPlate": "WBE78F",
+          "deregistrationDate": null,
+          "deregistrationText": null,
+          "deregistrationReason": null
+        },
         "generalTechSpecification": {
           "eeg": "e1*2001/116*0501*43",
           "fuels": [
@@ -585,55 +608,6 @@
           "inspectionValidToDate": "2027-04-30",
           "inspectionExemptionGroup": null
         },
-        "environmentalClassification": {
-          "fuels": [
-            {
-              "co2": 120,
-              "nox": "",
-              "nox4": null,
-              "fuelCode": "Diesel",
-              "hcThcNox": "",
-              "consumption": 4.5,
-              "noiseLevel": 69,
-              "emissionUnit": "g/km",
-              "innovationCo2": null,
-              "particleValue": "",
-              "particleMass4": null,
-              "consumptionUnit": "4,5",
-              "rangeNedcDrive": null,
-              "rangeWltpDrive": null,
-              "consumptionUrban": 5.3,
-              "rangeCityWltpDrive": null,
-              "consumptionExtraUrban": 4.1,
-              "electricEnergyConsumption": null,
-              "energyConsumptionWltpDrive": null
-            }
-          ],
-          "ecoFriendly": false,
-          "emissionClass": "EURO 6",
-          "innovationCode": null,
-          "environmentalClass": null,
-          "environmentalClassEuro": "6"
-        },
-        "additionalTechSpecification": {
-          "raceCar": null,
-          "wheelbase1": 2939,
-          "wheelbase2": null,
-          "wheelbase3": null,
-          "wheelbase4": null,
-          "equipment1": null,
-          "equipment2": null,
-          "equipment3": null,
-          "maximumSpeed": 226,
-          "numAxleShafts": "",
-          "passengerAirBag": false,
-          "tyreDimensionRear": "245/45 R18 100Y XL",
-          "tyreDimensionFront": "245/45 R18 100Y XL",
-          "dualSteeringControl": null
-        },
-        "vehicleStatus": {
-          "tax": 2430
-        },
         "vehicleInformation": {
           "vin": "W1K2130121A766945",
           "body": "AA",
@@ -654,21 +628,32 @@
           "registrationDate": "2019-11-20",
           "initialTrafficDate": "2019-12-20",
           "registrationPlateReused": null
-        },
-        "registrationInformation": {
-          "registrationPlate": "WBE78F",
-          "deregistrationDate": null,
-          "deregistrationText": null,
-          "deregistrationReason": null
         }
       },
-      "modelName": "E 200 d Sedan W213 (160hk)",
-      "createdAt": "2026-07-23T05:09:40.579895+00:00",
-      "state": "MANUAL_VALUATION_PENDING",
+      "brand": "Mercedes-Benz",
+      "id": "506036",
+      "fuels": [
+        {
+          "fuelCode": "Diesel",
+          "powerUnit": "EG",
+          "enginePower": 118,
+          "enginePowerHp": 160,
+          "fuelTankVolume": ""
+        }
+      ],
       "gearbox": null,
-      "salesFlow": "CONSUMER_CARS",
-      "year": "2020",
       "fabricAndMake": "MERCEDES-BENZ",
+      "baseObjectType": "CAR",
+      "modelId": null,
+      "odometerReading": null,
+      "modelName": "E 200 d Sedan W213 (160hk)",
+      "salesFlow": "CONSUMER_CARS",
+      "state": "MANUAL_VALUATION_PENDING",
+      "odometerUnit": "km",
+      "earliestAvailableAt": null,
+      "registrationCountry": "se",
+      "createdAt": "2026-07-23T05:09:40.579895+00:00",
+      "familyName": "E-Klass",
       "technicalSpecification": {
         "modelId": null,
         "vehicle": {
@@ -680,6 +665,21 @@
         "year": "2020"
       }
     },
+    "id": "7283947",
+    "leaseReturnProperties": {},
+    "vehicleType": "CAR",
+    "presentationApproved": false,
+    "baseObjectId": "506036",
+    "isFixedPrice": false,
+    "certified": true,
+    "objectType": "CAR",
+    "state": "AUCTION_RESOLUTION",
+    "initialBuyNowAmount": 289800,
+    "statisticalValuation": null,
+    "testDriveAllowed": true,
+    "buyNowAmount": 249800,
+    "isReleasable": false,
+    "createdAt": "2026-07-23 05:09:40.876786+00:00",
     "exportable": true,
     "deductibleVat": false,
     "collisionWarranty": null,
@@ -2472,6 +2472,6 @@
     "closedAt": "2026-10-29T09:00:00.008420+00:00",
     "updatedAt": "2026-10-30T15:03:10.300367+00:00"
   },
-  "_scraped_at": "2026-10-30T19:53:43.618537+00:00",
+  "_scraped_at": "2026-10-30T23:32:51.589304+00:00",
   "_url": "https://www.kvd.se/auktioner/mercedes-e-200-d-sedan-w213-160hk-309149"
 }

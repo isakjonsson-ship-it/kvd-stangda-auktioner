@@ -44,235 +44,76 @@
   "eurBuyNowAmount": 24540,
   "winningBid": null,
   "processObject": {
-    "objectType": "CAR",
-    "buyNowAmount": 269900,
-    "reducedPrice": false,
-    "testDriveAllowed": true,
-    "isFixedPrice": false,
-    "baseObject": {
-      "gearbox": "Automatic",
-      "baseObjectType": "CAR",
-      "odometerReading": 90000,
-      "authorityRegisterInformation": {
-        "vehicleOrigin": {
-          "originCode": "INFÖRT",
-          "originCodeReason": null,
-          "importerIdentifier": null,
-          "preRegistrationDate": null,
-          "importRegistrationDate": null,
-          "importedForPersonalUse": false,
-          "importedPreviouslyRegistered": false
-        },
-        "generalTechSpecification": {
-          "eeg": "e1*2001/116*0450*52",
-          "fuels": [
-            {
-              "fuelCode": "Diesel",
-              "powerUnit": "EG",
-              "enginePower": 147,
-              "enginePowerHp": 200,
-              "fuelTankVolume": ""
-            }
-          ],
-          "width": 1839,
-          "height": 1635,
-          "length": 4509,
-          "gearbox": "Automatic",
-          "variant": "ACDTUAX1",
-          "version": "AD7AD7GC010N5N5NVR24BI1CSB0M1G0",
-          "taxWeight": 1800,
-          "curbWeight": 1808,
-          "maxPayload": 492,
-          "totalWeight": 2300,
-          "chassisCode1": null,
-          "chassisCode2": null,
-          "cubicCapacity": "1968",
-          "numPassengers": "4",
-          "numberOfSeats": 5,
-          "fourWheelDrive": true,
-          "maxPullWeightB": 1200,
-          "clutchMechanism1": null,
-          "clutchMechanism2": null,
-          "maxTrailerWeight": 2500,
-          "chassisCodeSupplement": null,
-          "maxPullWieghtNoBreaks": null,
-          "maxPullWeightBExtended": null,
-          "maxSingle Axle TrailerWeight": null
-        },
-        "environmentalClassification": {
-          "fuels": [
-            {
-              "co2": 143,
-              "nox": "",
-              "nox4": null,
-              "fuelCode": "Diesel",
-              "hcThcNox": "",
-              "consumption": 5.4,
-              "noiseLevel": 68,
-              "emissionUnit": "g/km",
-              "innovationCo2": null,
-              "particleValue": "",
-              "particleMass4": null,
-              "consumptionUnit": "5,4",
-              "rangeNedcDrive": null,
-              "rangeWltpDrive": null,
-              "consumptionUrban": 6.5,
-              "rangeCityWltpDrive": null,
-              "consumptionExtraUrban": 4.9,
-              "electricEnergyConsumption": null,
-              "energyConsumptionWltpDrive": null
-            }
-          ],
-          "ecoFriendly": false,
-          "emissionClass": "EURO 6",
-          "innovationCode": null,
-          "environmentalClass": null,
-          "environmentalClassEuro": "6"
-        },
-        "vehicleStatus": {
-          "tax": 4455
-        },
-        "vehicleInspectionInformation": {
-          "inspections": [
-            {
-              "inspectionType": "5",
-              "odometerReading": 81055,
-              "dateOfInspection": "2026-02-27"
-            },
-            {
-              "inspectionType": "5",
-              "odometerReading": 46219,
-              "dateOfInspection": "2024-02-29"
-            }
-          ],
-          "inspectionGroup": "36/24/14",
-          "odometerReading": 81055,
-          "inspectionPeriod": "2026-02-27 - 2027-04-30",
-          "dateOfInspection": "2026-02-27",
-          "inspectionValidToDate": "2027-04-30",
-          "inspectionExemptionGroup": null
-        },
-        "registrationInformation": {
-          "registrationPlate": "OZK63U",
-          "deregistrationDate": null,
-          "deregistrationText": null,
-          "deregistrationReason": null
-        },
-        "vehicleInformation": {
-          "vin": "WVGZZZ5NZMW013586",
-          "body": "AC",
-          "type": "CAR",
-          "year": "2020",
-          "model": "TIGUAN",
-          "rawType": "PB",
-          "modelYear": null,
-          "categoryEu": "e1*2001/116*0450*52",
-          "groupNumber": "VW 846005",
-          "modelNumber": "VW 000000",
-          "chassisNumber": "WVGZZZ5NZMW013586",
-          "exteriorColor": "Silver",
-          "fabricAndMake": "VOLKSWAGEN, VW",
-          "baseObjectType": "CAR",
-          "manufactureCode": null,
-          "manufactureMonth": "202010",
-          "registrationDate": "2020-10-09",
-          "initialTrafficDate": "2021-02-02",
-          "registrationPlateReused": null
-        },
-        "additionalTechSpecification": {
-          "raceCar": null,
-          "wheelbase1": 2679,
-          "wheelbase2": null,
-          "wheelbase3": null,
-          "wheelbase4": null,
-          "equipment1": null,
-          "equipment2": null,
-          "equipment3": null,
-          "maximumSpeed": 216,
-          "numAxleShafts": 2,
-          "passengerAirBag": false,
-          "tyreDimensionRear": "235/50 R19 99V",
-          "tyreDimensionFront": "235/50 R19 99V",
-          "dualSteeringControl": null
-        }
-      },
-      "fuels": [
-        {
-          "fuelCode": "Diesel",
-          "powerUnit": "EG",
-          "enginePower": 147,
-          "enginePowerHp": 200,
-          "fuelTankVolume": ""
-        }
-      ],
-      "earliestAvailableAt": null,
-      "modelName": "Tiguan 2.0 TDI 4MOTION (200hk)",
-      "salesFlow": "CONSUMER_CARS",
-      "registrationPlate": "OZK63U",
-      "state": "PREPARING_SALES_AGREEMENT",
-      "odometerUnit": "km",
-      "fabricAndMake": "VOLKSWAGEN, VW",
-      "registrationCountry": "se",
-      "id": "519295",
-      "familyName": "Tiguan",
-      "modelId": null,
-      "year": "2021",
-      "createdAt": "2026-09-29T09:11:31.836575+00:00",
-      "brand": "Volkswagen",
-      "body": "SUV",
-      "exteriorColor": "Silver",
-      "technicalSpecification": {
-        "modelId": null,
-        "vehicle": {
-          "brand": "Volkswagen",
-          "body": "SUV",
-          "modelName": "Tiguan 2.0 TDI 4MOTION (200hk)",
-          "familyName": "Tiguan"
-        },
-        "year": "2021"
-      }
+    "orderableAdditionalServices": {
+      "tradein": false,
+      "transport": true,
+      "insurance": true,
+      "finance": true,
+      "warranty": true,
+      "extraTires": false
     },
-    "vehicleType": "CAR",
-    "initialBuyNowAmount": 269900,
-    "baseObjectId": "519295",
-    "conditionClassification": "CERTIFIED",
+    "car360Spin": null,
     "proactiveBrokering": null,
-    "presentationApproved": false,
-    "state": "AUCTION",
+    "displayCar360Spin": true,
+    "offsiteSalesContact": null,
+    "sellMethod": "BIDDING",
+    "reducedPrice": false,
+    "conditionClassification": "CERTIFIED",
     "properties": {
-      "grades": {
-        "BRAKES": {
-          "max": 3,
-          "value": 3,
-          "min": 1
-        },
-        "TOTAL": {
-          "max": 5,
-          "value": 3,
-          "min": 1
-        },
-        "TECHNOLOGY_AND_EQUIPMENT": {
-          "max": 3,
-          "value": 3,
-          "min": 1
-        },
-        "ENGINE_AND_GEARBOX": {
-          "max": 3,
-          "value": 3,
-          "min": 1
-        },
-        "INTERIOR": {
-          "max": 5,
-          "value": 3,
-          "min": 1
-        },
-        "EXTERIOR": {
-          "max": 5,
-          "value": 3,
-          "min": 1
-        }
-      },
-      "numberOfKeys": 2,
+      "adHeader": "Tiguan 2.0 TDI 4MOTION (200hk) Elegance Dragpaket",
+      "exteriorColor": "Silver",
+      "brand": "Volkswagen",
+      "mediation": true,
+      "curbWeight": 1808,
+      "maxPayload": 492,
+      "equipment": [
+        "4WD",
+        "Backkamera",
+        "Bluetooth",
+        "Fjärrlås",
+        "Radio",
+        "Stolsvärme fram",
+        "Adaptiv farthållare",
+        "Antisladdsystem",
+        "Assistanssystem",
+        "Auto hold",
+        "Dödavinkelvarnare",
+        "Eldriven baklucka",
+        "Elhiss bak",
+        "Elhiss fram",
+        "Elinfällbara speglar",
+        "Filbytesvarnare",
+        "Infällbar dragkrok",
+        "Isofix bak",
+        "Klimatanläggning",
+        "IQ Matrix LED-strålkastare",
+        "Nyckellöst startsystem",
+        "Parkeringssensorer bak",
+        "Parkeringssensorer fram",
+        "Parkeringsvärmare med fjärrstyrning",
+        "Rattvärme",
+        "Start/Stop-funktion",
+        "Urkopplingsbar passagerarairbag",
+        "USB-ingång",
+        "Förarassistanspaket",
+        "Dragpaket",
+        "Vinterpaket"
+      ],
+      "inspectionValidToDate": "2027-04-30",
+      "odometerUnit": "km",
+      "length": 4509,
+      "finishType": "Metallic",
+      "textile": "Textil",
+      "saleLimitedToCorporate": false,
+      "chassisNumber": "WVGZZZ5NZMW013586",
+      "title": "VW Tiguan 2.0 TDI 4MOTION (200hk)",
+      "dateOfInspection": "2026-02-27",
+      "inspectionPeriod": "2026-02-27 - 2027-04-30",
+      "totalWeight": 2300,
+      "registrationPlateCountry": "se",
+      "exportable": true,
+      "residualLoanValue": 0,
+      "taxFee": 4455,
       "formattedEquipment": [
         {
           "key": "4WD",
@@ -461,51 +302,86 @@
           "priority": 30
         }
       ],
-      "exportable": true,
-      "mustExport": false,
-      "deductibleVat": false,
-      "manufactureMonth": "202010",
-      "totalWeight": 2300,
-      "dateOfInspection": "2026-02-27",
-      "registrationPlate": "OZK63U",
-      "equipment": [
-        "4WD",
-        "Backkamera",
-        "Bluetooth",
-        "Fjärrlås",
-        "Radio",
-        "Stolsvärme fram",
-        "Adaptiv farthållare",
-        "Antisladdsystem",
-        "Assistanssystem",
-        "Auto hold",
-        "Dödavinkelvarnare",
-        "Eldriven baklucka",
-        "Elhiss bak",
-        "Elhiss fram",
-        "Elinfällbara speglar",
-        "Filbytesvarnare",
-        "Infällbar dragkrok",
-        "Isofix bak",
-        "Klimatanläggning",
-        "IQ Matrix LED-strålkastare",
-        "Nyckellöst startsystem",
-        "Parkeringssensorer bak",
-        "Parkeringssensorer fram",
-        "Parkeringsvärmare med fjärrstyrning",
-        "Rattvärme",
-        "Start/Stop-funktion",
-        "Urkopplingsbar passagerarairbag",
-        "USB-ingång",
-        "Förarassistanspaket",
-        "Dragpaket",
-        "Vinterpaket"
-      ],
-      "taxWeight": 1800,
-      "odometerUnit": "km",
-      "mediation": true,
-      "ecoFriendly": false,
+      "familyName": "Tiguan",
+      "environmentalClassEuro": "6",
       "towbar": false,
+      "isRepairObject": false,
+      "body": "SUV",
+      "numberOfSeats": 5,
+      "maxPullWeightB": 1200,
+      "fuels": [
+        {
+          "enginePower": 200,
+          "consumption": 5.4,
+          "co2": 143,
+          "fuelCode": "Diesel"
+        }
+      ],
+      "grades": {
+        "INTERIOR": {
+          "value": 3,
+          "min": 1,
+          "max": 5
+        },
+        "TOTAL": {
+          "value": 3,
+          "min": 1,
+          "max": 5
+        },
+        "ENGINE_AND_GEARBOX": {
+          "value": 3,
+          "min": 1,
+          "max": 3
+        },
+        "EXTERIOR": {
+          "value": 3,
+          "min": 1,
+          "max": 5
+        },
+        "BRAKES": {
+          "value": 3,
+          "min": 1,
+          "max": 3
+        },
+        "TECHNOLOGY_AND_EQUIPMENT": {
+          "value": 3,
+          "min": 1,
+          "max": 3
+        }
+      },
+      "maxTrailerWeight": 2500,
+      "odometerReading": 90320,
+      "package": "Elegance Dragpaket",
+      "initialTrafficDate": "2021-02-02",
+      "mustExport": false,
+      "manufactureMonth": "202010",
+      "ecoFriendly": false,
+      "deductibleVat": false,
+      "numberOfKeys": 2,
+      "registrationPlate": "OZK63U",
+      "numberOfPreviousOwners": 2,
+      "heavyEquipment": false,
+      "modelYear": 2021,
+      "height": 1635,
+      "gearbox": "Automatic",
+      "modelName": "Tiguan 2.0 TDI 4MOTION (200hk)",
+      "taxWeight": 1800,
+      "width": 1839,
+      "remarks": {
+        "INTERIOR": [],
+        "ENGINE_AND_GEARBOX": [],
+        "EXTERIOR": [
+          {
+            "key": "Fåtal lackskador och bucklor",
+            "id": "0",
+            "category": "EXTERIOR"
+          }
+        ],
+        "BRAKES": [],
+        "TECHNOLOGY_AND_EQUIPMENT": [],
+        "TIRES": []
+      },
+      "drivingBan": false,
       "remarksLocalized": {
         "TIRES": null,
         "BRAKES": null,
@@ -514,91 +390,215 @@
         "ENGINE_AND_GEARBOX": null,
         "TECHNOLOGY_AND_EQUIPMENT": null
       },
-      "width": 1839,
-      "body": "SUV",
-      "exteriorColor": "Silver",
-      "remarks": {
-        "TIRES": [],
-        "BRAKES": [],
-        "TECHNOLOGY_AND_EQUIPMENT": [],
-        "ENGINE_AND_GEARBOX": [],
-        "INTERIOR": [],
-        "EXTERIOR": [
-          {
-            "category": "EXTERIOR",
-            "id": "0",
-            "key": "Fåtal lackskador och bucklor"
-          }
-        ]
-      },
-      "numberOfPreviousOwners": 2,
-      "adHeader": "Tiguan 2.0 TDI 4MOTION (200hk) Elegance Dragpaket",
-      "fuels": [
-        {
-          "fuelCode": "Diesel",
-          "co2": 143,
-          "consumption": 5.4,
-          "enginePower": 200
-        }
-      ],
-      "textile": "Textil",
-      "maxTrailerWeight": 2500,
-      "maxPayload": 492,
-      "inspectionPeriod": "2026-02-27 - 2027-04-30",
-      "inspectionValidToDate": "2027-04-30",
-      "saleLimitedToCorporate": false,
-      "package": "Elegance Dragpaket",
       "hasUnpaidLoan": false,
-      "heavyEquipment": false,
-      "residualLoanValue": 0,
-      "brand": "Volkswagen",
-      "gearbox": "Automatic",
-      "height": 1635,
-      "maxPullWeightB": 1200,
-      "length": 4509,
-      "environmentalClassEuro": "6",
-      "curbWeight": 1808,
-      "drivingBan": false,
-      "initialTrafficDate": "2021-02-02",
-      "chassisNumber": "WVGZZZ5NZMW013586",
-      "familyName": "Tiguan",
-      "finishType": "Metallic",
-      "importedForPersonalUse": false,
-      "isRepairObject": false,
-      "title": "VW Tiguan 2.0 TDI 4MOTION (200hk)",
-      "odometerReading": 90320,
-      "modelName": "Tiguan 2.0 TDI 4MOTION (200hk)",
-      "modelYear": 2021,
-      "numberOfSeats": 5,
-      "registrationPlateCountry": "se",
       "registrationCountry": "se",
-      "taxFee": 4455,
+      "importedForPersonalUse": false,
       "heading1": "Volkswagen Tiguan",
       "heading2": "2.0 TDI 4MOTION",
       "heading3": "Elegance Dragpaket"
     },
-    "orderableAdditionalServices": {
-      "tradein": false,
-      "transport": true,
-      "insurance": true,
-      "finance": true,
-      "warranty": true,
-      "extraTires": false
+    "baseObject": {
+      "exteriorColor": "Silver",
+      "registrationPlate": "OZK63U",
+      "year": "2021",
+      "body": "SUV",
+      "authorityRegisterInformation": {
+        "additionalTechSpecification": {
+          "raceCar": null,
+          "wheelbase1": 2679,
+          "wheelbase2": null,
+          "wheelbase3": null,
+          "wheelbase4": null,
+          "equipment1": null,
+          "equipment2": null,
+          "equipment3": null,
+          "maximumSpeed": 216,
+          "numAxleShafts": 2,
+          "passengerAirBag": false,
+          "tyreDimensionRear": "235/50 R19 99V",
+          "tyreDimensionFront": "235/50 R19 99V",
+          "dualSteeringControl": null
+        },
+        "environmentalClassification": {
+          "fuels": [
+            {
+              "co2": 143,
+              "nox": "",
+              "nox4": null,
+              "fuelCode": "Diesel",
+              "hcThcNox": "",
+              "consumption": 5.4,
+              "noiseLevel": 68,
+              "emissionUnit": "g/km",
+              "innovationCo2": null,
+              "particleValue": "",
+              "particleMass4": null,
+              "consumptionUnit": "5,4",
+              "rangeNedcDrive": null,
+              "rangeWltpDrive": null,
+              "consumptionUrban": 6.5,
+              "rangeCityWltpDrive": null,
+              "consumptionExtraUrban": 4.9,
+              "electricEnergyConsumption": null,
+              "energyConsumptionWltpDrive": null
+            }
+          ],
+          "ecoFriendly": false,
+          "emissionClass": "EURO 6",
+          "innovationCode": null,
+          "environmentalClass": null,
+          "environmentalClassEuro": "6"
+        },
+        "vehicleStatus": {
+          "tax": 4455
+        },
+        "registrationInformation": {
+          "registrationPlate": "OZK63U",
+          "deregistrationDate": null,
+          "deregistrationText": null,
+          "deregistrationReason": null
+        },
+        "generalTechSpecification": {
+          "eeg": "e1*2001/116*0450*52",
+          "fuels": [
+            {
+              "fuelCode": "Diesel",
+              "powerUnit": "EG",
+              "enginePower": 147,
+              "enginePowerHp": 200,
+              "fuelTankVolume": ""
+            }
+          ],
+          "width": 1839,
+          "height": 1635,
+          "length": 4509,
+          "gearbox": "Automatic",
+          "variant": "ACDTUAX1",
+          "version": "AD7AD7GC010N5N5NVR24BI1CSB0M1G0",
+          "taxWeight": 1800,
+          "curbWeight": 1808,
+          "maxPayload": 492,
+          "totalWeight": 2300,
+          "chassisCode1": null,
+          "chassisCode2": null,
+          "cubicCapacity": "1968",
+          "numPassengers": "4",
+          "numberOfSeats": 5,
+          "fourWheelDrive": true,
+          "maxPullWeightB": 1200,
+          "clutchMechanism1": null,
+          "clutchMechanism2": null,
+          "maxTrailerWeight": 2500,
+          "chassisCodeSupplement": null,
+          "maxPullWieghtNoBreaks": null,
+          "maxPullWeightBExtended": null,
+          "maxSingle Axle TrailerWeight": null
+        },
+        "vehicleOrigin": {
+          "originCode": "INFÖRT",
+          "originCodeReason": null,
+          "importerIdentifier": null,
+          "preRegistrationDate": null,
+          "importRegistrationDate": null,
+          "importedForPersonalUse": false,
+          "importedPreviouslyRegistered": false
+        },
+        "vehicleInspectionInformation": {
+          "inspections": [
+            {
+              "inspectionType": "5",
+              "odometerReading": 81055,
+              "dateOfInspection": "2026-02-27"
+            },
+            {
+              "inspectionType": "5",
+              "odometerReading": 46219,
+              "dateOfInspection": "2024-02-29"
+            }
+          ],
+          "inspectionGroup": "36/24/14",
+          "odometerReading": 81055,
+          "inspectionPeriod": "2026-02-27 - 2027-04-30",
+          "dateOfInspection": "2026-02-27",
+          "inspectionValidToDate": "2027-04-30",
+          "inspectionExemptionGroup": null
+        },
+        "vehicleInformation": {
+          "vin": "WVGZZZ5NZMW013586",
+          "body": "AC",
+          "type": "CAR",
+          "year": "2020",
+          "model": "TIGUAN",
+          "rawType": "PB",
+          "modelYear": null,
+          "categoryEu": "e1*2001/116*0450*52",
+          "groupNumber": "VW 846005",
+          "modelNumber": "VW 000000",
+          "chassisNumber": "WVGZZZ5NZMW013586",
+          "exteriorColor": "Silver",
+          "fabricAndMake": "VOLKSWAGEN, VW",
+          "baseObjectType": "CAR",
+          "manufactureCode": null,
+          "manufactureMonth": "202010",
+          "registrationDate": "2020-10-09",
+          "initialTrafficDate": "2021-02-02",
+          "registrationPlateReused": null
+        }
+      },
+      "brand": "Volkswagen",
+      "id": "519295",
+      "fuels": [
+        {
+          "fuelCode": "Diesel",
+          "powerUnit": "EG",
+          "enginePower": 147,
+          "enginePowerHp": 200,
+          "fuelTankVolume": ""
+        }
+      ],
+      "gearbox": "Automatic",
+      "fabricAndMake": "VOLKSWAGEN, VW",
+      "baseObjectType": "CAR",
+      "modelId": null,
+      "odometerReading": 90000,
+      "modelName": "Tiguan 2.0 TDI 4MOTION (200hk)",
+      "salesFlow": "CONSUMER_CARS",
+      "state": "PREPARING_SALES_AGREEMENT",
+      "odometerUnit": "km",
+      "earliestAvailableAt": null,
+      "registrationCountry": "se",
+      "createdAt": "2026-09-29T09:11:31.836575+00:00",
+      "familyName": "Tiguan",
+      "technicalSpecification": {
+        "modelId": null,
+        "vehicle": {
+          "brand": "Volkswagen",
+          "body": "SUV",
+          "modelName": "Tiguan 2.0 TDI 4MOTION (200hk)",
+          "familyName": "Tiguan"
+        },
+        "year": "2021"
+      }
     },
-    "offsiteSalesContact": null,
-    "leaseReturnProperties": {},
     "id": "7290342",
-    "displayCar360Spin": true,
+    "leaseReturnProperties": {},
+    "vehicleType": "CAR",
+    "presentationApproved": false,
+    "baseObjectId": "519295",
+    "isFixedPrice": false,
     "certified": true,
-    "sellMethod": "BIDDING",
-    "isReleasable": false,
-    "car360Spin": null,
+    "objectType": "CAR",
+    "state": "AUCTION",
+    "initialBuyNowAmount": 269900,
     "statisticalValuation": {
-      "bpGreen": null,
       "bpWhite": 283280,
       "marketPrice": 283280,
+      "bpGreen": null,
       "bpOrange": 283280
     },
+    "testDriveAllowed": true,
+    "buyNowAmount": 269900,
+    "isReleasable": false,
     "createdAt": "2026-09-29 09:17:05.530315+00:00",
     "exportable": true,
     "deductibleVat": false,
@@ -2006,6 +2006,6 @@
     "closedAt": "2026-10-29T10:53:15.067465+00:00",
     "updatedAt": "2026-10-29T13:38:17.357751+00:00"
   },
-  "_scraped_at": "2026-10-30T19:54:18.335144+00:00",
+  "_scraped_at": "2026-10-30T23:33:27.763061+00:00",
   "_url": "https://www.kvd.se/auktioner/vw-tiguan-2-0-tdi-4motion-200hk-309069"
 }

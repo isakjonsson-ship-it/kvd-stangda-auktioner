@@ -54,27 +54,118 @@
     "evaluationType": "BROKERING"
   },
   "processObject": {
-    "orderableAdditionalServices": {
-      "tradein": false,
-      "transport": true,
-      "insurance": true,
-      "finance": true,
-      "warranty": true,
-      "extraTires": false
-    },
-    "car360Spin": null,
-    "proactiveBrokering": null,
     "displayCar360Spin": true,
-    "offsiteSalesContact": null,
-    "sellMethod": "BIDDING",
-    "reducedPrice": false,
     "conditionClassification": "TESTED",
+    "proactiveBrokering": null,
     "properties": {
-      "exteriorColor": "Dark Grey",
-      "brand": "Mercedes",
-      "mediation": true,
+      "length": 4902,
+      "mustExport": false,
+      "odometerUnit": "km",
+      "familyName": "E-Klass",
+      "drivingBan": false,
+      "taxWeight": 1980,
+      "odometerReading": 98190,
+      "grades": {
+        "INTERIOR": {
+          "max": 5,
+          "value": 3,
+          "min": 1
+        },
+        "EXTERIOR": {
+          "max": 5,
+          "value": 3,
+          "min": 1
+        },
+        "TOTAL": {
+          "max": 5,
+          "value": 3,
+          "min": 1
+        },
+        "ENGINE_AND_GEARBOX": {
+          "max": 3,
+          "value": 2,
+          "min": 1
+        },
+        "TECHNOLOGY_AND_EQUIPMENT": {
+          "max": 3,
+          "value": 2,
+          "min": 1
+        },
+        "BRAKES": {
+          "max": 3,
+          "value": 3,
+          "min": 1
+        }
+      },
+      "fuels": [
+        {
+          "enginePower": 204,
+          "fuelCode": "Diesel",
+          "co2": 135,
+          "consumption": 5.1
+        }
+      ],
       "curbWeight": 1980,
+      "remarks": {
+        "TIRES": [],
+        "INTERIOR": [
+          {
+            "category": "INTERIOR",
+            "key": "Klädsel smutsig bak",
+            "id": "0"
+          },
+          {
+            "category": "INTERIOR",
+            "key": "Repa på inredningsdetalj",
+            "id": "1"
+          }
+        ],
+        "EXTERIOR": [
+          {
+            "category": "EXTERIOR",
+            "key": "Stenskott i vindruta",
+            "id": "0"
+          },
+          {
+            "category": "EXTERIOR",
+            "key": "Fåtal rostangrepp, Flertal bucklor/dörruppslag, Kaross, några spruckna/skadade plastdetaljer, Tanklock, skadat höger bakskärm",
+            "id": "1"
+          }
+        ],
+        "ENGINE_AND_GEARBOX": [
+          {
+            "category": "ENGINE_AND_GEARBOX",
+            "key": "Oljeläckage, mindre, ej lokaliserat",
+            "id": "0"
+          }
+        ],
+        "TECHNOLOGY_AND_EQUIPMENT": [
+          {
+            "category": "TECHNOLOGY_AND_EQUIPMENT",
+            "key": "Servicelampa lyser",
+            "id": "0"
+          }
+        ],
+        "BRAKES": []
+      },
+      "width": 1873,
+      "numberOfSeats": 5,
+      "body": "Sedan",
+      "maxPullWeightB": 1060,
+      "textile": "Delläder",
+      "ecoFriendly": false,
       "maxPayload": 460,
+      "exportable": true,
+      "inspectionValidToDate": "2027-04-30",
+      "taxFee": 2354,
+      "modelYear": 2015,
+      "inspectionPeriod": "2026-02-03 - 2027-04-30",
+      "dateOfInspection": "2026-02-03",
+      "registrationPlate": "BNN168",
+      "totalWeight": 2440,
+      "numberOfKeys": 2,
+      "towbar": false,
+      "hasUnpaidLoan": false,
       "equipment": [
         "4WD",
         "Antispinn",
@@ -100,21 +191,32 @@
         "Xenon-ljus",
         "Aktiv parkeringshjälp"
       ],
-      "inspectionValidToDate": "2027-04-30",
-      "odometerUnit": "km",
-      "length": 4902,
-      "finishType": "Metallic",
-      "textile": "Delläder",
-      "saleLimitedToCorporate": false,
-      "chassisNumber": "WDD2120971B168201",
-      "title": "Mercedes E 250 BlueTEC 4MATIC W212 (204hk)",
-      "dateOfInspection": "2026-02-03",
-      "inspectionPeriod": "2026-02-03 - 2027-04-30",
-      "totalWeight": 2440,
-      "registrationPlateCountry": "se",
-      "exportable": true,
+      "isRepairObject": false,
+      "mediation": true,
       "residualLoanValue": 0,
-      "taxFee": 2354,
+      "numberOfPreviousOwners": 3,
+      "remarksLocalized": {
+        "TIRES": null,
+        "BRAKES": null,
+        "EXTERIOR": "Stenskott i vindruta. Fåtal rostangrepp, Flertal bucklor/dörruppslag, Kaross, några spruckna/skadade plastdetaljer, Tanklock, skadat höger bakskärm",
+        "INTERIOR": "Klädsel smutsig bak. Repa på inredningsdetalj",
+        "ENGINE_AND_GEARBOX": "Oljeläckage, mindre, ej lokaliserat",
+        "TECHNOLOGY_AND_EQUIPMENT": "Servicelampa lyser"
+      },
+      "importedForPersonalUse": false,
+      "gearbox": "Automatic",
+      "title": "Mercedes E 250 BlueTEC 4MATIC W212 (204hk)",
+      "chassisNumber": "WDD2120971B168201",
+      "deductibleVat": false,
+      "saleLimitedToCorporate": false,
+      "heavyEquipment": false,
+      "manufactureMonth": "201503",
+      "height": 1490,
+      "initialTrafficDate": "2015-12-30",
+      "registrationCountry": "se",
+      "environmentalClassEuro": "6",
+      "registrationPlateCountry": "se",
+      "brand": "Mercedes",
       "formattedEquipment": [
         {
           "key": "4WD",
@@ -255,188 +357,68 @@
           "priority": 22
         }
       ],
-      "familyName": "E-Klass",
-      "environmentalClassEuro": "6",
-      "towbar": false,
-      "isRepairObject": false,
-      "body": "Sedan",
-      "numberOfSeats": 5,
-      "maxPullWeightB": 1060,
-      "fuels": [
-        {
-          "enginePower": 204,
-          "consumption": 5.1,
-          "co2": 135,
-          "fuelCode": "Diesel"
-        }
-      ],
-      "grades": {
-        "INTERIOR": {
-          "value": 3,
-          "min": 1,
-          "max": 5
-        },
-        "TOTAL": {
-          "value": 3,
-          "min": 1,
-          "max": 5
-        },
-        "ENGINE_AND_GEARBOX": {
-          "value": 2,
-          "min": 1,
-          "max": 3
-        },
-        "EXTERIOR": {
-          "value": 3,
-          "min": 1,
-          "max": 5
-        },
-        "BRAKES": {
-          "value": 3,
-          "min": 1,
-          "max": 3
-        },
-        "TECHNOLOGY_AND_EQUIPMENT": {
-          "value": 2,
-          "min": 1,
-          "max": 3
-        }
-      },
-      "odometerReading": 98190,
-      "initialTrafficDate": "2015-12-30",
-      "mustExport": false,
-      "manufactureMonth": "201503",
-      "ecoFriendly": false,
-      "deductibleVat": false,
-      "numberOfKeys": 2,
-      "registrationPlate": "BNN168",
-      "numberOfPreviousOwners": 3,
-      "heavyEquipment": false,
-      "modelYear": 2015,
-      "height": 1490,
-      "gearbox": "Automatic",
       "modelName": "E 250 BlueTEC 4MATIC W212 (204hk)",
-      "taxWeight": 1980,
-      "width": 1873,
-      "remarks": {
-        "INTERIOR": [
-          {
-            "key": "Klädsel smutsig bak",
-            "id": "0",
-            "category": "INTERIOR"
-          },
-          {
-            "key": "Repa på inredningsdetalj",
-            "id": "1",
-            "category": "INTERIOR"
-          }
-        ],
-        "ENGINE_AND_GEARBOX": [
-          {
-            "key": "Oljeläckage, mindre, ej lokaliserat",
-            "id": "0",
-            "category": "ENGINE_AND_GEARBOX"
-          }
-        ],
-        "EXTERIOR": [
-          {
-            "key": "Stenskott i vindruta",
-            "id": "0",
-            "category": "EXTERIOR"
-          },
-          {
-            "key": "Fåtal rostangrepp, Flertal bucklor/dörruppslag, Kaross, några spruckna/skadade plastdetaljer, Tanklock, skadat höger bakskärm",
-            "id": "1",
-            "category": "EXTERIOR"
-          }
-        ],
-        "BRAKES": [],
-        "TECHNOLOGY_AND_EQUIPMENT": [
-          {
-            "key": "Servicelampa lyser",
-            "id": "0",
-            "category": "TECHNOLOGY_AND_EQUIPMENT"
-          }
-        ],
-        "TIRES": []
-      },
-      "drivingBan": false,
-      "remarksLocalized": {
-        "TIRES": null,
-        "BRAKES": null,
-        "EXTERIOR": "Stenskott i vindruta. Fåtal rostangrepp, Flertal bucklor/dörruppslag, Kaross, några spruckna/skadade plastdetaljer, Tanklock, skadat höger bakskärm",
-        "INTERIOR": "Klädsel smutsig bak. Repa på inredningsdetalj",
-        "ENGINE_AND_GEARBOX": "Oljeläckage, mindre, ej lokaliserat",
-        "TECHNOLOGY_AND_EQUIPMENT": "Servicelampa lyser"
-      },
-      "hasUnpaidLoan": false,
-      "registrationCountry": "se",
-      "importedForPersonalUse": false,
+      "finishType": "Metallic",
+      "exteriorColor": "Dark Grey",
       "heading1": "Mercedes E-Klass",
       "heading2": "E 250 BlueTEC 4MATIC W212",
       "heading3": null
     },
+    "car360Spin": null,
+    "testDriveAllowed": true,
+    "certified": false,
+    "objectType": "CAR",
+    "statisticalValuation": {
+      "bpGreen": null,
+      "bpOrange": 171900,
+      "bpWhite": 171900,
+      "marketPrice": 171900
+    },
+    "buyNowAmount": null,
+    "sellMethod": "BIDDING",
+    "orderableAdditionalServices": {
+      "tradein": false,
+      "transport": true,
+      "insurance": true,
+      "finance": true,
+      "warranty": true,
+      "extraTires": false
+    },
+    "isFixedPrice": false,
+    "vehicleType": "CAR",
+    "leaseReturnProperties": {},
+    "baseObjectId": "522090",
+    "initialBuyNowAmount": null,
+    "isReleasable": false,
+    "id": "7291812",
+    "offsiteSalesContact": null,
+    "presentationApproved": false,
+    "createdAt": "2026-10-12 08:38:34.877015+00:00",
+    "state": "COMPLETED",
+    "reducedPrice": false,
     "baseObject": {
-      "exteriorColor": "Dark Grey",
-      "registrationPlate": "BNN168",
-      "year": "2015",
       "body": "Sedan",
+      "modelId": null,
+      "exteriorColor": "Dark Grey",
+      "baseObjectType": "CAR",
+      "registrationCountry": "se",
+      "odometerUnit": "km",
+      "familyName": "E-Klass",
+      "odometerReading": 98000,
+      "earliestAvailableAt": null,
+      "brand": "Mercedes-Benz",
+      "registrationPlate": "BNN168",
+      "fuels": [
+        {
+          "fuelCode": "Diesel",
+          "powerUnit": "EG",
+          "enginePower": 150,
+          "enginePowerHp": 204,
+          "fuelTankVolume": ""
+        }
+      ],
+      "id": "522090",
       "authorityRegisterInformation": {
-        "additionalTechSpecification": {
-          "raceCar": null,
-          "wheelbase1": 2874,
-          "wheelbase2": null,
-          "wheelbase3": null,
-          "wheelbase4": null,
-          "equipment1": null,
-          "equipment2": null,
-          "equipment3": null,
-          "maximumSpeed": 238,
-          "numAxleShafts": "",
-          "passengerAirBag": false,
-          "tyreDimensionRear": "245/40 R18 97Y XL",
-          "tyreDimensionFront": "245/40 R18 97Y XL",
-          "dualSteeringControl": null
-        },
-        "environmentalClassification": {
-          "fuels": [
-            {
-              "co2": 135,
-              "nox": "",
-              "nox4": null,
-              "fuelCode": "Diesel",
-              "hcThcNox": "",
-              "consumption": 5.1,
-              "noiseLevel": 69,
-              "emissionUnit": "g/km",
-              "innovationCo2": null,
-              "particleValue": "",
-              "particleMass4": null,
-              "consumptionUnit": "5,1",
-              "rangeNedcDrive": null,
-              "rangeWltpDrive": null,
-              "consumptionUrban": 6.3,
-              "rangeCityWltpDrive": null,
-              "consumptionExtraUrban": 4.4,
-              "electricEnergyConsumption": null,
-              "energyConsumptionWltpDrive": null
-            }
-          ],
-          "ecoFriendly": false,
-          "emissionClass": "EURO 6",
-          "innovationCode": null,
-          "environmentalClass": null,
-          "environmentalClassEuro": "6"
-        },
-        "vehicleStatus": {
-          "tax": 2354
-        },
-        "registrationInformation": {
-          "registrationPlate": "BNN168",
-          "deregistrationDate": null,
-          "deregistrationText": null,
-          "deregistrationReason": null
-        },
         "generalTechSpecification": {
           "eeg": "e1*2001/116*0501*23",
           "fuels": [
@@ -502,6 +484,55 @@
           "inspectionValidToDate": "2027-04-30",
           "inspectionExemptionGroup": null
         },
+        "environmentalClassification": {
+          "fuels": [
+            {
+              "co2": 135,
+              "nox": "",
+              "nox4": null,
+              "fuelCode": "Diesel",
+              "hcThcNox": "",
+              "consumption": 5.1,
+              "noiseLevel": 69,
+              "emissionUnit": "g/km",
+              "innovationCo2": null,
+              "particleValue": "",
+              "particleMass4": null,
+              "consumptionUnit": "5,1",
+              "rangeNedcDrive": null,
+              "rangeWltpDrive": null,
+              "consumptionUrban": 6.3,
+              "rangeCityWltpDrive": null,
+              "consumptionExtraUrban": 4.4,
+              "electricEnergyConsumption": null,
+              "energyConsumptionWltpDrive": null
+            }
+          ],
+          "ecoFriendly": false,
+          "emissionClass": "EURO 6",
+          "innovationCode": null,
+          "environmentalClass": null,
+          "environmentalClassEuro": "6"
+        },
+        "additionalTechSpecification": {
+          "raceCar": null,
+          "wheelbase1": 2874,
+          "wheelbase2": null,
+          "wheelbase3": null,
+          "wheelbase4": null,
+          "equipment1": null,
+          "equipment2": null,
+          "equipment3": null,
+          "maximumSpeed": 238,
+          "numAxleShafts": "",
+          "passengerAirBag": false,
+          "tyreDimensionRear": "245/40 R18 97Y XL",
+          "tyreDimensionFront": "245/40 R18 97Y XL",
+          "dualSteeringControl": null
+        },
+        "vehicleStatus": {
+          "tax": 2354
+        },
         "vehicleInformation": {
           "vin": "WDD2120971B168201",
           "body": "AA",
@@ -522,32 +553,21 @@
           "registrationDate": "2015-03-04",
           "initialTrafficDate": "2015-12-30",
           "registrationPlateReused": null
+        },
+        "registrationInformation": {
+          "registrationPlate": "BNN168",
+          "deregistrationDate": null,
+          "deregistrationText": null,
+          "deregistrationReason": null
         }
       },
-      "brand": "Mercedes-Benz",
-      "id": "522090",
-      "fuels": [
-        {
-          "fuelCode": "Diesel",
-          "powerUnit": "EG",
-          "enginePower": 150,
-          "enginePowerHp": 204,
-          "fuelTankVolume": ""
-        }
-      ],
-      "gearbox": null,
-      "fabricAndMake": "MERCEDES-BENZ 212",
-      "baseObjectType": "CAR",
-      "modelId": null,
-      "odometerReading": 98000,
       "modelName": "E 250 BlueTEC 4MATIC W212 (204hk)",
-      "salesFlow": "CONSUMER_CARS",
-      "state": "PREPARING_SALES_AGREEMENT",
-      "odometerUnit": "km",
-      "earliestAvailableAt": null,
-      "registrationCountry": "se",
       "createdAt": "2026-10-12T08:35:46.121143+00:00",
-      "familyName": "E-Klass",
+      "state": "PREPARING_SALES_AGREEMENT",
+      "gearbox": null,
+      "salesFlow": "CONSUMER_CARS",
+      "year": "2015",
+      "fabricAndMake": "MERCEDES-BENZ 212",
       "technicalSpecification": {
         "modelId": null,
         "vehicle": {
@@ -559,26 +579,6 @@
         "year": "2015"
       }
     },
-    "id": "7291812",
-    "leaseReturnProperties": {},
-    "vehicleType": "CAR",
-    "presentationApproved": false,
-    "baseObjectId": "522090",
-    "isFixedPrice": false,
-    "certified": false,
-    "objectType": "CAR",
-    "state": "COMPLETED",
-    "initialBuyNowAmount": null,
-    "statisticalValuation": {
-      "bpWhite": 171900,
-      "marketPrice": 171900,
-      "bpGreen": null,
-      "bpOrange": 171900
-    },
-    "testDriveAllowed": true,
-    "buyNowAmount": null,
-    "isReleasable": false,
-    "createdAt": "2026-10-12 08:38:34.877015+00:00",
     "exportable": true,
     "deductibleVat": false,
     "collisionWarranty": null,
@@ -2070,6 +2070,6 @@
     "closedAt": "2026-10-29T09:19:17.186729+00:00",
     "updatedAt": "2026-10-29T13:38:15.850993+00:00"
   },
-  "_scraped_at": "2026-10-30T19:54:05.472002+00:00",
+  "_scraped_at": "2026-10-30T23:33:14.984322+00:00",
   "_url": "https://www.kvd.se/auktioner/mercedes-e-250-bluetec-4matic-w212-204hk-309078"
 }

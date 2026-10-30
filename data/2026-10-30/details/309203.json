@@ -44,223 +44,18 @@
   "eurBuyNowAmount": null,
   "winningBid": null,
   "processObject": {
-    "objectType": "LIGHT_TRUCK",
-    "buyNowAmount": null,
-    "reducedPrice": false,
-    "testDriveAllowed": true,
-    "isFixedPrice": false,
-    "baseObject": {
-      "gearbox": "Manual",
-      "baseObjectType": "LIGHT_TRUCK",
-      "odometerReading": 487996,
-      "authorityRegisterInformation": {
-        "vehicleOrigin": {
-          "originCode": "INFÖRT",
-          "originCodeReason": null,
-          "importerIdentifier": null,
-          "preRegistrationDate": null,
-          "importRegistrationDate": null,
-          "importedForPersonalUse": false,
-          "importedPreviouslyRegistered": false
-        },
-        "generalTechSpecification": {
-          "eeg": null,
-          "fuels": [
-            {
-              "fuelCode": "Diesel",
-              "powerUnit": "EG",
-              "enginePower": 96,
-              "enginePowerHp": 131,
-              "fuelTankVolume": ""
-            }
-          ],
-          "width": 2059,
-          "height": 2720,
-          "length": 5981,
-          "gearbox": "Manual",
-          "variant": null,
-          "version": null,
-          "taxWeight": 2910,
-          "curbWeight": 2910,
-          "maxPayload": 590,
-          "totalWeight": 3500,
-          "chassisCode1": null,
-          "chassisCode2": null,
-          "cubicCapacity": "1995",
-          "numPassengers": "7",
-          "numberOfSeats": 8,
-          "fourWheelDrive": false,
-          "maxPullWeightB": 750,
-          "clutchMechanism1": null,
-          "clutchMechanism2": null,
-          "maxTrailerWeight": 1750,
-          "chassisCodeSupplement": null,
-          "maxPullWieghtNoBreaks": null,
-          "maxPullWeightBExtended": null,
-          "maxSingle Axle TrailerWeight": null
-        },
-        "environmentalClassification": {
-          "fuels": [
-            {
-              "co2": 171,
-              "nox": "",
-              "nox4": null,
-              "fuelCode": "Diesel",
-              "hcThcNox": "",
-              "consumption": 6.5,
-              "noiseLevel": 73,
-              "emissionUnit": "g/km",
-              "innovationCo2": null,
-              "particleValue": "",
-              "particleMass4": null,
-              "consumptionUnit": "6,5",
-              "rangeNedcDrive": null,
-              "rangeWltpDrive": null,
-              "consumptionUrban": 7.5,
-              "rangeCityWltpDrive": null,
-              "consumptionExtraUrban": 5.9,
-              "electricEnergyConsumption": null,
-              "energyConsumptionWltpDrive": null
-            }
-          ],
-          "ecoFriendly": false,
-          "emissionClass": "EURO 6",
-          "innovationCode": null,
-          "environmentalClass": null,
-          "environmentalClassEuro": "6"
-        },
-        "vehicleStatus": {
-          "tax": 4241
-        },
-        "vehicleInspectionInformation": {
-          "inspections": [
-            {
-              "inspectionType": "5",
-              "odometerReading": 487996,
-              "dateOfInspection": "2025-08-28"
-            },
-            {
-              "inspectionType": "6",
-              "odometerReading": 442887,
-              "dateOfInspection": "2024-08-07"
-            }
-          ],
-          "inspectionGroup": "12/12/12",
-          "odometerReading": 487996,
-          "inspectionPeriod": "2024-08-07 - 2025-08-31",
-          "dateOfInspection": "2024-08-07",
-          "inspectionValidToDate": "2025-08-31",
-          "inspectionExemptionGroup": null
-        },
-        "registrationInformation": {
-          "registrationPlate": "HWE867",
-          "deregistrationDate": null,
-          "deregistrationText": null,
-          "deregistrationReason": null
-        },
-        "vehicleInformation": {
-          "vin": "WF0FXXTTGFJR48378",
-          "body": "AF",
-          "type": "LIGHT_TRUCK",
-          "year": "2018",
-          "model": "TRANSIT",
-          "rawType": "PB",
-          "modelYear": null,
-          "categoryEu": null,
-          "groupNumber": "FO 018504",
-          "modelNumber": "FO 000000",
-          "chassisNumber": "WF0FXXTTGFJR48378",
-          "exteriorColor": "White",
-          "fabricAndMake": "FORD",
-          "baseObjectType": "LIGHT_TRUCK",
-          "manufactureCode": null,
-          "manufactureMonth": "201810",
-          "registrationDate": "2018-10-22",
-          "initialTrafficDate": "2019-08-21",
-          "registrationPlateReused": null
-        },
-        "additionalTechSpecification": {
-          "raceCar": null,
-          "wheelbase1": 3750,
-          "wheelbase2": null,
-          "wheelbase3": null,
-          "wheelbase4": null,
-          "equipment1": "ALKOLÅS",
-          "equipment2": null,
-          "equipment3": null,
-          "maximumSpeed": 145,
-          "numAxleShafts": "",
-          "passengerAirBag": true,
-          "tyreDimensionRear": "215/65R15C 104/102T",
-          "tyreDimensionFront": "215/65R15C 104/102T",
-          "dualSteeringControl": null
-        }
-      },
-      "fuels": [
-        {
-          "fuelCode": "Diesel",
-          "powerUnit": "EG",
-          "enginePower": 96,
-          "enginePowerHp": 131,
-          "fuelTankVolume": ""
-        }
-      ],
-      "earliestAvailableAt": null,
-      "modelName": "Transit 310 2.0 TDCi FWD Skåp (130hk)",
-      "salesFlow": "CORPORATE_CARS",
-      "registrationPlate": "HWE867",
-      "state": "CREATED",
-      "odometerUnit": "km",
-      "fabricAndMake": "FORD",
-      "registrationCountry": "se",
-      "id": "518446",
-      "familyName": "Transit",
-      "modelId": null,
-      "year": "2019",
-      "createdAt": "2026-09-24T12:50:24.017034+00:00",
-      "brand": "Ford",
-      "body": "Van",
-      "exteriorColor": "White",
-      "technicalSpecification": {
-        "modelId": null,
-        "vehicle": {
-          "brand": "Ford",
-          "body": "Van",
-          "modelName": "Transit 310 2.0 TDCi FWD Skåp (130hk)",
-          "familyName": "Transit"
-        },
-        "year": "2019"
-      }
-    },
-    "vehicleType": "LIGHT_TRANSPORT",
-    "initialBuyNowAmount": null,
-    "baseObjectId": "518446",
+    "displayCar360Spin": true,
     "conditionClassification": "TESTED",
     "proactiveBrokering": null,
-    "presentationApproved": false,
-    "state": "AUCTION_RESOLUTION",
     "properties": {
+      "length": 5981,
+      "mustExport": false,
+      "odometerUnit": "km",
+      "familyName": "Transit",
+      "drivingBan": true,
+      "taxWeight": 2910,
+      "odometerReading": 488040,
       "grades": {
-        "BRAKES": {
-          "max": 3,
-          "value": 2,
-          "min": 1
-        },
-        "TOTAL": {
-          "max": 5,
-          "value": 2,
-          "min": 1
-        },
-        "TECHNOLOGY_AND_EQUIPMENT": {
-          "max": 3,
-          "value": 2,
-          "min": 1
-        },
-        "ENGINE_AND_GEARBOX": {
-          "max": 3,
-          "value": 2,
-          "min": 1
-        },
         "INTERIOR": {
           "max": 5,
           "value": 2,
@@ -270,9 +65,266 @@
           "max": 5,
           "value": 2,
           "min": 1
+        },
+        "TOTAL": {
+          "max": 5,
+          "value": 2,
+          "min": 1
+        },
+        "ENGINE_AND_GEARBOX": {
+          "max": 3,
+          "value": 2,
+          "min": 1
+        },
+        "TECHNOLOGY_AND_EQUIPMENT": {
+          "max": 3,
+          "value": 2,
+          "min": 1
+        },
+        "BRAKES": {
+          "max": 3,
+          "value": 2,
+          "min": 1
         }
       },
+      "fuels": [
+        {
+          "enginePower": 131,
+          "fuelCode": "Diesel",
+          "co2": 171,
+          "consumption": 6.5
+        }
+      ],
+      "curbWeight": 2910,
+      "remarks": {
+        "TIRES": [],
+        "INTERIOR": [
+          {
+            "category": "INTERIOR",
+            "key": "Klädsel skadad fram vänster",
+            "id": "0"
+          },
+          {
+            "category": "INTERIOR",
+            "key": "Några lösa/skadade inredningsdetaljer",
+            "id": "1"
+          },
+          {
+            "category": "INTERIOR",
+            "key": "Spår av mögel",
+            "id": "2"
+          },
+          {
+            "category": "INTERIOR",
+            "key": "Invändigt några repor, fläckar och märken",
+            "id": "3"
+          },
+          {
+            "category": "INTERIOR",
+            "key": "Spår av tidigare utrustning",
+            "id": "4"
+          },
+          {
+            "category": "INTERIOR",
+            "key": "Skadad tätningslist",
+            "id": "5"
+          },
+          {
+            "category": "INTERIOR",
+            "key": "Försämrad upprullningsförmåga på samtliga Upprullningsdon",
+            "id": "6"
+          },
+          {
+            "category": "INTERIOR",
+            "key": "Saknas ett hjul till rampen",
+            "id": "7"
+          }
+        ],
+        "EXTERIOR": [
+          {
+            "category": "EXTERIOR",
+            "key": "Spricka i grill",
+            "id": "0"
+          },
+          {
+            "category": "EXTERIOR",
+            "key": "bristfällig fastsättning stötfångare fram",
+            "id": "1"
+          },
+          {
+            "category": "EXTERIOR",
+            "key": "Spår efter tidigare dekor, Karosskador tak",
+            "id": "2"
+          },
+          {
+            "category": "EXTERIOR",
+            "key": "Flertal rostangrepp, stenskott, bucklor och repor, Kaross, några spruckna/skadade plastdetaljer, Fåtal lackskador, Sidospeglar, kondens i blinkersglas, Skada på stötfångaren bak",
+            "id": "3"
+          },
+          {
+            "category": "EXTERIOR",
+            "key": "Stötfångare bak reflex skadad",
+            "id": "4"
+          },
+          {
+            "category": "EXTERIOR",
+            "key": "Bristfällig fastsättning höger sidospegel",
+            "id": "5"
+          },
+          {
+            "category": "EXTERIOR",
+            "key": "Sprickor i sidospegelglas höger",
+            "id": "6"
+          },
+          {
+            "category": "EXTERIOR",
+            "key": "Vänster bakljus, småsprickor, Spricka i bakljus höger sida",
+            "id": "7"
+          },
+          {
+            "category": "EXTERIOR",
+            "key": "Flertal plastpaneler fastskruvade",
+            "id": "8"
+          }
+        ],
+        "ENGINE_AND_GEARBOX": [
+          {
+            "category": "ENGINE_AND_GEARBOX",
+            "key": "Ej provkörd p.g.a",
+            "id": "0"
+          },
+          {
+            "category": "ENGINE_AND_GEARBOX",
+            "key": "koppling slirar, Bränsletank läckage, Ad-blue",
+            "id": "1"
+          },
+          {
+            "category": "ENGINE_AND_GEARBOX",
+            "key": "Oljeläckage.\rResultatet på besiktningen: 2 Underkänd med föreläggande att ombesiktning krävs 2025-09-28\rBrister:\r2 LÄNKARMSLAGRING (5.3.3) FRAM HÖGER FRÄMRE GLAPP\rAnmärkningar:\r2X STOPPLYKTA (4.3) VÄNSTER UR FUNKTION (EN)\r2X EXTRA STOPPLYKTA (4.3) UR FUNKTION\r2X HALVLJUS (4.1.1) VÄNSTER LJUSBILD FELRIKTAD I SIDLED",
+            "id": "2"
+          }
+        ],
+        "TECHNOLOGY_AND_EQUIPMENT": [
+          {
+            "category": "TECHNOLOGY_AND_EQUIPMENT",
+            "key": "Spricka i vindruta",
+            "id": "0"
+          },
+          {
+            "category": "TECHNOLOGY_AND_EQUIPMENT",
+            "key": "AC ur funktion",
+            "id": "1"
+          },
+          {
+            "category": "TECHNOLOGY_AND_EQUIPMENT",
+            "key": "Övre bromsljus, ur funktion och karosskada",
+            "id": "2"
+          },
+          {
+            "category": "TECHNOLOGY_AND_EQUIPMENT",
+            "key": "Drivknutsdamask höger fram skadad",
+            "id": "3"
+          },
+          {
+            "category": "TECHNOLOGY_AND_EQUIPMENT",
+            "key": "Avgassystem, flexrör skadat/fransar och läcker",
+            "id": "4"
+          },
+          {
+            "category": "TECHNOLOGY_AND_EQUIPMENT",
+            "key": "Parkeringssensor ur funktion",
+            "id": "5"
+          },
+          {
+            "category": "TECHNOLOGY_AND_EQUIPMENT",
+            "key": "Backsensor ur funktion, Parkeringsvärmare med tidur, ur funktion",
+            "id": "6"
+          },
+          {
+            "category": "TECHNOLOGY_AND_EQUIPMENT",
+            "key": "Extramonterad webasto ur funktion",
+            "id": "7"
+          }
+        ],
+        "BRAKES": [
+          {
+            "category": "BRAKES",
+            "key": "Bromsskivor bak rostskadade, bör bytas, Bromsrör rostskadade",
+            "id": "0"
+          }
+        ]
+      },
+      "width": 2059,
+      "numberOfSeats": 8,
+      "body": "Minivan",
+      "maxPullWeightB": 750,
+      "textile": "Textil",
+      "ecoFriendly": false,
+      "maxPayload": 590,
+      "exportable": true,
+      "inspectionValidToDate": "2025-08-31",
+      "taxFee": 4241,
+      "modelYear": 2019,
+      "inspectionPeriod": "2024-08-07 -",
+      "dateOfInspection": "2024-08-07",
+      "registrationPlate": "HWE867",
+      "totalWeight": 3500,
+      "adHeader": "Transit 350 2.0 TDCi (130hk) Färdtjänstbuss Ramp",
       "numberOfKeys": 1,
+      "towbar": false,
+      "hasUnpaidLoan": false,
+      "equipment": [
+        "AC",
+        "Antisladdsystem",
+        "Antispinn",
+        "AUX-ingång",
+        "Backkamera",
+        "Bluetooth",
+        "CD-Stereo",
+        "Elhiss fram",
+        "Elspeglar",
+        "Eluppvärmd vindruta",
+        "Farthållare",
+        "Fjärrlås",
+        "Luftfjädring (justerbar)",
+        "Parkeringssensorer bak",
+        "Parkeringssensorer fram",
+        "Parkeringsvärmare med tidur",
+        "Radio",
+        "Regnsensor",
+        "Start/Stop-funktion",
+        "Stolsvärme fram",
+        "Urkopplingsbar passagerarairbag",
+        "USB-ingång"
+      ],
+      "isRepairObject": false,
+      "mediation": true,
+      "residualLoanValue": 0,
+      "numberOfPreviousOwners": 3,
+      "package": "Färdtjänstbuss Lastramp",
+      "remarksLocalized": {
+        "TIRES": null,
+        "BRAKES": "Bromsskivor bak rostskadade, bör bytas, Bromsrör rostskadade",
+        "EXTERIOR": "Spricka i grill. bristfällig fastsättning stötfångare fram. Spår efter tidigare dekor, Karosskador tak. Flertal rostangrepp, stenskott, bucklor och repor, Kaross, några spruckna/skadade plastdetaljer, Fåtal lackskador, Sidospeglar, kondens i blinkersglas, Skada på stötfångaren bak. Stötfångare bak reflex skadad. Bristfällig fastsättning höger sidospegel. Sprickor i sidospegelglas höger. Vänster bakljus, småsprickor, Spricka i bakljus höger sida. Flertal plastpaneler fastskruvade",
+        "INTERIOR": "Klädsel skadad fram vänster. Några lösa/skadade inredningsdetaljer. Spår av mögel. Invändigt några repor, fläckar och märken. Spår av tidigare utrustning. Skadad tätningslist. Försämrad upprullningsförmåga på samtliga Upprullningsdon. Saknas ett hjul till rampen",
+        "ENGINE_AND_GEARBOX": "Ej provkörd p.g.a. koppling slirar, Bränsletank läckage, Ad-blue. Oljeläckage.\rResultatet på besiktningen: 2 Underkänd med föreläggande att ombesiktning krävs 2025-09-28\rBrister:\r2 LÄNKARMSLAGRING (5.3.3) FRAM HÖGER FRÄMRE GLAPP\rAnmärkningar:\r2X STOPPLYKTA (4.3) VÄNSTER UR FUNKTION (EN)\r2X EXTRA STOPPLYKTA (4.3) UR FUNKTION\r2X HALVLJUS (4.1.1) VÄNSTER LJUSBILD FELRIKTAD I SIDLED",
+        "TECHNOLOGY_AND_EQUIPMENT": "Spricka i vindruta. AC ur funktion. Övre bromsljus, ur funktion och karosskada. Drivknutsdamask höger fram skadad. Avgassystem, flexrör skadat/fransar och läcker. Parkeringssensor ur funktion. Backsensor ur funktion, Parkeringsvärmare med tidur, ur funktion. Extramonterad webasto ur funktion"
+      },
+      "importedForPersonalUse": false,
+      "gearbox": "Manual",
+      "title": "Ford Transit 350 2.0 TDCi 2WD (130hk)",
+      "chassisNumber": "WF0FXXTTGFJR48378",
+      "deductibleVat": false,
+      "saleLimitedToCorporate": false,
+      "heavyEquipment": false,
+      "manufactureMonth": "201810",
+      "height": 2720,
+      "initialTrafficDate": "2019-08-21",
+      "registrationCountry": "se",
+      "environmentalClassEuro": "6",
+      "registrationPlateCountry": "se",
+      "maxTrailerWeight": 1750,
+      "brand": "Ford",
       "formattedEquipment": [
         {
           "key": "AC",
@@ -407,257 +459,20 @@
           "priority": 21
         }
       ],
-      "exportable": true,
-      "mustExport": false,
-      "deductibleVat": false,
-      "manufactureMonth": "201810",
-      "totalWeight": 3500,
-      "dateOfInspection": "2024-08-07",
-      "registrationPlate": "HWE867",
-      "equipment": [
-        "AC",
-        "Antisladdsystem",
-        "Antispinn",
-        "AUX-ingång",
-        "Backkamera",
-        "Bluetooth",
-        "CD-Stereo",
-        "Elhiss fram",
-        "Elspeglar",
-        "Eluppvärmd vindruta",
-        "Farthållare",
-        "Fjärrlås",
-        "Luftfjädring (justerbar)",
-        "Parkeringssensorer bak",
-        "Parkeringssensorer fram",
-        "Parkeringsvärmare med tidur",
-        "Radio",
-        "Regnsensor",
-        "Start/Stop-funktion",
-        "Stolsvärme fram",
-        "Urkopplingsbar passagerarairbag",
-        "USB-ingång"
-      ],
-      "taxWeight": 2910,
-      "odometerUnit": "km",
-      "mediation": true,
-      "ecoFriendly": false,
-      "towbar": false,
-      "remarksLocalized": {
-        "TIRES": null,
-        "BRAKES": "Bromsskivor bak rostskadade, bör bytas, Bromsrör rostskadade",
-        "EXTERIOR": "Spricka i grill. bristfällig fastsättning stötfångare fram. Spår efter tidigare dekor, Karosskador tak. Flertal rostangrepp, stenskott, bucklor och repor, Kaross, några spruckna/skadade plastdetaljer, Fåtal lackskador, Sidospeglar, kondens i blinkersglas, Skada på stötfångaren bak. Stötfångare bak reflex skadad. Bristfällig fastsättning höger sidospegel. Sprickor i sidospegelglas höger. Vänster bakljus, småsprickor, Spricka i bakljus höger sida. Flertal plastpaneler fastskruvade",
-        "INTERIOR": "Klädsel skadad fram vänster. Några lösa/skadade inredningsdetaljer. Spår av mögel. Invändigt några repor, fläckar och märken. Spår av tidigare utrustning. Skadad tätningslist. Försämrad upprullningsförmåga på samtliga Upprullningsdon. Saknas ett hjul till rampen",
-        "ENGINE_AND_GEARBOX": "Ej provkörd p.g.a. koppling slirar, Bränsletank läckage, Ad-blue. Oljeläckage.\rResultatet på besiktningen: 2 Underkänd med föreläggande att ombesiktning krävs 2025-09-28\rBrister:\r2 LÄNKARMSLAGRING (5.3.3) FRAM HÖGER FRÄMRE GLAPP\rAnmärkningar:\r2X STOPPLYKTA (4.3) VÄNSTER UR FUNKTION (EN)\r2X EXTRA STOPPLYKTA (4.3) UR FUNKTION\r2X HALVLJUS (4.1.1) VÄNSTER LJUSBILD FELRIKTAD I SIDLED",
-        "TECHNOLOGY_AND_EQUIPMENT": "Spricka i vindruta. AC ur funktion. Övre bromsljus, ur funktion och karosskada. Drivknutsdamask höger fram skadad. Avgassystem, flexrör skadat/fransar och läcker. Parkeringssensor ur funktion. Backsensor ur funktion, Parkeringsvärmare med tidur, ur funktion. Extramonterad webasto ur funktion"
-      },
-      "width": 2059,
-      "body": "Minivan",
-      "exteriorColor": "White",
-      "remarks": {
-        "TIRES": [],
-        "BRAKES": [
-          {
-            "category": "BRAKES",
-            "id": "0",
-            "key": "Bromsskivor bak rostskadade, bör bytas, Bromsrör rostskadade"
-          }
-        ],
-        "TECHNOLOGY_AND_EQUIPMENT": [
-          {
-            "category": "TECHNOLOGY_AND_EQUIPMENT",
-            "id": "0",
-            "key": "Spricka i vindruta"
-          },
-          {
-            "category": "TECHNOLOGY_AND_EQUIPMENT",
-            "id": "1",
-            "key": "AC ur funktion"
-          },
-          {
-            "category": "TECHNOLOGY_AND_EQUIPMENT",
-            "id": "2",
-            "key": "Övre bromsljus, ur funktion och karosskada"
-          },
-          {
-            "category": "TECHNOLOGY_AND_EQUIPMENT",
-            "id": "3",
-            "key": "Drivknutsdamask höger fram skadad"
-          },
-          {
-            "category": "TECHNOLOGY_AND_EQUIPMENT",
-            "id": "4",
-            "key": "Avgassystem, flexrör skadat/fransar och läcker"
-          },
-          {
-            "category": "TECHNOLOGY_AND_EQUIPMENT",
-            "id": "5",
-            "key": "Parkeringssensor ur funktion"
-          },
-          {
-            "category": "TECHNOLOGY_AND_EQUIPMENT",
-            "id": "6",
-            "key": "Backsensor ur funktion, Parkeringsvärmare med tidur, ur funktion"
-          },
-          {
-            "category": "TECHNOLOGY_AND_EQUIPMENT",
-            "id": "7",
-            "key": "Extramonterad webasto ur funktion"
-          }
-        ],
-        "ENGINE_AND_GEARBOX": [
-          {
-            "category": "ENGINE_AND_GEARBOX",
-            "id": "0",
-            "key": "Ej provkörd p.g.a"
-          },
-          {
-            "category": "ENGINE_AND_GEARBOX",
-            "id": "1",
-            "key": "koppling slirar, Bränsletank läckage, Ad-blue"
-          },
-          {
-            "category": "ENGINE_AND_GEARBOX",
-            "id": "2",
-            "key": "Oljeläckage.\rResultatet på besiktningen: 2 Underkänd med föreläggande att ombesiktning krävs 2025-09-28\rBrister:\r2 LÄNKARMSLAGRING (5.3.3) FRAM HÖGER FRÄMRE GLAPP\rAnmärkningar:\r2X STOPPLYKTA (4.3) VÄNSTER UR FUNKTION (EN)\r2X EXTRA STOPPLYKTA (4.3) UR FUNKTION\r2X HALVLJUS (4.1.1) VÄNSTER LJUSBILD FELRIKTAD I SIDLED"
-          }
-        ],
-        "INTERIOR": [
-          {
-            "category": "INTERIOR",
-            "id": "0",
-            "key": "Klädsel skadad fram vänster"
-          },
-          {
-            "category": "INTERIOR",
-            "id": "1",
-            "key": "Några lösa/skadade inredningsdetaljer"
-          },
-          {
-            "category": "INTERIOR",
-            "id": "2",
-            "key": "Spår av mögel"
-          },
-          {
-            "category": "INTERIOR",
-            "id": "3",
-            "key": "Invändigt några repor, fläckar och märken"
-          },
-          {
-            "category": "INTERIOR",
-            "id": "4",
-            "key": "Spår av tidigare utrustning"
-          },
-          {
-            "category": "INTERIOR",
-            "id": "5",
-            "key": "Skadad tätningslist"
-          },
-          {
-            "category": "INTERIOR",
-            "id": "6",
-            "key": "Försämrad upprullningsförmåga på samtliga Upprullningsdon"
-          },
-          {
-            "category": "INTERIOR",
-            "id": "7",
-            "key": "Saknas ett hjul till rampen"
-          }
-        ],
-        "EXTERIOR": [
-          {
-            "category": "EXTERIOR",
-            "id": "0",
-            "key": "Spricka i grill"
-          },
-          {
-            "category": "EXTERIOR",
-            "id": "1",
-            "key": "bristfällig fastsättning stötfångare fram"
-          },
-          {
-            "category": "EXTERIOR",
-            "id": "2",
-            "key": "Spår efter tidigare dekor, Karosskador tak"
-          },
-          {
-            "category": "EXTERIOR",
-            "id": "3",
-            "key": "Flertal rostangrepp, stenskott, bucklor och repor, Kaross, några spruckna/skadade plastdetaljer, Fåtal lackskador, Sidospeglar, kondens i blinkersglas, Skada på stötfångaren bak"
-          },
-          {
-            "category": "EXTERIOR",
-            "id": "4",
-            "key": "Stötfångare bak reflex skadad"
-          },
-          {
-            "category": "EXTERIOR",
-            "id": "5",
-            "key": "Bristfällig fastsättning höger sidospegel"
-          },
-          {
-            "category": "EXTERIOR",
-            "id": "6",
-            "key": "Sprickor i sidospegelglas höger"
-          },
-          {
-            "category": "EXTERIOR",
-            "id": "7",
-            "key": "Vänster bakljus, småsprickor, Spricka i bakljus höger sida"
-          },
-          {
-            "category": "EXTERIOR",
-            "id": "8",
-            "key": "Flertal plastpaneler fastskruvade"
-          }
-        ]
-      },
-      "numberOfPreviousOwners": 3,
-      "adHeader": "Transit 350 2.0 TDCi (130hk) Färdtjänstbuss Ramp",
-      "fuels": [
-        {
-          "fuelCode": "Diesel",
-          "co2": 171,
-          "consumption": 6.5,
-          "enginePower": 131
-        }
-      ],
-      "textile": "Textil",
-      "maxTrailerWeight": 1750,
-      "maxPayload": 590,
-      "inspectionPeriod": "2024-08-07 -",
-      "inspectionValidToDate": "2025-08-31",
-      "saleLimitedToCorporate": false,
-      "package": "Färdtjänstbuss Lastramp",
-      "hasUnpaidLoan": false,
-      "heavyEquipment": false,
-      "residualLoanValue": 0,
-      "brand": "Ford",
-      "gearbox": "Manual",
-      "height": 2720,
-      "maxPullWeightB": 750,
-      "length": 5981,
-      "environmentalClassEuro": "6",
-      "curbWeight": 2910,
-      "drivingBan": true,
-      "initialTrafficDate": "2019-08-21",
-      "chassisNumber": "WF0FXXTTGFJR48378",
-      "familyName": "Transit",
-      "finishType": "Solid",
-      "importedForPersonalUse": false,
-      "isRepairObject": false,
-      "title": "Ford Transit 350 2.0 TDCi 2WD (130hk)",
-      "odometerReading": 488040,
       "modelName": "Transit 350 2.0 TDCi 2WD (130hk)",
-      "modelYear": 2019,
-      "numberOfSeats": 8,
-      "registrationPlateCountry": "se",
-      "registrationCountry": "se",
-      "taxFee": 4241,
+      "finishType": "Solid",
+      "exteriorColor": "White",
       "heading1": "Ford Transit",
       "heading2": "350 2.0 TDCi 2WD",
       "heading3": "Färdtjänstbuss Lastramp"
     },
+    "car360Spin": null,
+    "testDriveAllowed": true,
+    "certified": false,
+    "objectType": "LIGHT_TRUCK",
+    "statisticalValuation": null,
+    "buyNowAmount": null,
+    "sellMethod": "BIDDING",
     "orderableAdditionalServices": {
       "tradein": false,
       "transport": true,
@@ -666,16 +481,201 @@
       "warranty": true,
       "extraTires": false
     },
-    "offsiteSalesContact": null,
+    "isFixedPrice": false,
+    "vehicleType": "LIGHT_TRANSPORT",
     "leaseReturnProperties": {},
-    "id": "7289919",
-    "displayCar360Spin": true,
-    "certified": false,
-    "sellMethod": "BIDDING",
+    "baseObjectId": "518446",
+    "initialBuyNowAmount": null,
     "isReleasable": false,
-    "car360Spin": null,
-    "statisticalValuation": null,
+    "id": "7289919",
+    "offsiteSalesContact": null,
+    "presentationApproved": false,
     "createdAt": "2026-09-24 12:50:55.486745+00:00",
+    "state": "AUCTION_RESOLUTION",
+    "reducedPrice": false,
+    "baseObject": {
+      "body": "Van",
+      "modelId": null,
+      "exteriorColor": "White",
+      "baseObjectType": "LIGHT_TRUCK",
+      "registrationCountry": "se",
+      "odometerUnit": "km",
+      "familyName": "Transit",
+      "odometerReading": 487996,
+      "earliestAvailableAt": null,
+      "brand": "Ford",
+      "registrationPlate": "HWE867",
+      "fuels": [
+        {
+          "fuelCode": "Diesel",
+          "powerUnit": "EG",
+          "enginePower": 96,
+          "enginePowerHp": 131,
+          "fuelTankVolume": ""
+        }
+      ],
+      "id": "518446",
+      "authorityRegisterInformation": {
+        "generalTechSpecification": {
+          "eeg": null,
+          "fuels": [
+            {
+              "fuelCode": "Diesel",
+              "powerUnit": "EG",
+              "enginePower": 96,
+              "enginePowerHp": 131,
+              "fuelTankVolume": ""
+            }
+          ],
+          "width": 2059,
+          "height": 2720,
+          "length": 5981,
+          "gearbox": "Manual",
+          "variant": null,
+          "version": null,
+          "taxWeight": 2910,
+          "curbWeight": 2910,
+          "maxPayload": 590,
+          "totalWeight": 3500,
+          "chassisCode1": null,
+          "chassisCode2": null,
+          "cubicCapacity": "1995",
+          "numPassengers": "7",
+          "numberOfSeats": 8,
+          "fourWheelDrive": false,
+          "maxPullWeightB": 750,
+          "clutchMechanism1": null,
+          "clutchMechanism2": null,
+          "maxTrailerWeight": 1750,
+          "chassisCodeSupplement": null,
+          "maxPullWieghtNoBreaks": null,
+          "maxPullWeightBExtended": null,
+          "maxSingle Axle TrailerWeight": null
+        },
+        "vehicleOrigin": {
+          "originCode": "INFÖRT",
+          "originCodeReason": null,
+          "importerIdentifier": null,
+          "preRegistrationDate": null,
+          "importRegistrationDate": null,
+          "importedForPersonalUse": false,
+          "importedPreviouslyRegistered": false
+        },
+        "vehicleInspectionInformation": {
+          "inspections": [
+            {
+              "inspectionType": "5",
+              "odometerReading": 487996,
+              "dateOfInspection": "2025-08-28"
+            },
+            {
+              "inspectionType": "6",
+              "odometerReading": 442887,
+              "dateOfInspection": "2024-08-07"
+            }
+          ],
+          "inspectionGroup": "12/12/12",
+          "odometerReading": 487996,
+          "inspectionPeriod": "2024-08-07 - 2025-08-31",
+          "dateOfInspection": "2024-08-07",
+          "inspectionValidToDate": "2025-08-31",
+          "inspectionExemptionGroup": null
+        },
+        "environmentalClassification": {
+          "fuels": [
+            {
+              "co2": 171,
+              "nox": "",
+              "nox4": null,
+              "fuelCode": "Diesel",
+              "hcThcNox": "",
+              "consumption": 6.5,
+              "noiseLevel": 73,
+              "emissionUnit": "g/km",
+              "innovationCo2": null,
+              "particleValue": "",
+              "particleMass4": null,
+              "consumptionUnit": "6,5",
+              "rangeNedcDrive": null,
+              "rangeWltpDrive": null,
+              "consumptionUrban": 7.5,
+              "rangeCityWltpDrive": null,
+              "consumptionExtraUrban": 5.9,
+              "electricEnergyConsumption": null,
+              "energyConsumptionWltpDrive": null
+            }
+          ],
+          "ecoFriendly": false,
+          "emissionClass": "EURO 6",
+          "innovationCode": null,
+          "environmentalClass": null,
+          "environmentalClassEuro": "6"
+        },
+        "additionalTechSpecification": {
+          "raceCar": null,
+          "wheelbase1": 3750,
+          "wheelbase2": null,
+          "wheelbase3": null,
+          "wheelbase4": null,
+          "equipment1": "ALKOLÅS",
+          "equipment2": null,
+          "equipment3": null,
+          "maximumSpeed": 145,
+          "numAxleShafts": "",
+          "passengerAirBag": true,
+          "tyreDimensionRear": "215/65R15C 104/102T",
+          "tyreDimensionFront": "215/65R15C 104/102T",
+          "dualSteeringControl": null
+        },
+        "vehicleStatus": {
+          "tax": 4241
+        },
+        "vehicleInformation": {
+          "vin": "WF0FXXTTGFJR48378",
+          "body": "AF",
+          "type": "LIGHT_TRUCK",
+          "year": "2018",
+          "model": "TRANSIT",
+          "rawType": "PB",
+          "modelYear": null,
+          "categoryEu": null,
+          "groupNumber": "FO 018504",
+          "modelNumber": "FO 000000",
+          "chassisNumber": "WF0FXXTTGFJR48378",
+          "exteriorColor": "White",
+          "fabricAndMake": "FORD",
+          "baseObjectType": "LIGHT_TRUCK",
+          "manufactureCode": null,
+          "manufactureMonth": "201810",
+          "registrationDate": "2018-10-22",
+          "initialTrafficDate": "2019-08-21",
+          "registrationPlateReused": null
+        },
+        "registrationInformation": {
+          "registrationPlate": "HWE867",
+          "deregistrationDate": null,
+          "deregistrationText": null,
+          "deregistrationReason": null
+        }
+      },
+      "modelName": "Transit 310 2.0 TDCi FWD Skåp (130hk)",
+      "createdAt": "2026-09-24T12:50:24.017034+00:00",
+      "state": "CREATED",
+      "gearbox": "Manual",
+      "salesFlow": "CORPORATE_CARS",
+      "year": "2019",
+      "fabricAndMake": "FORD",
+      "technicalSpecification": {
+        "modelId": null,
+        "vehicle": {
+          "brand": "Ford",
+          "body": "Van",
+          "modelName": "Transit 310 2.0 TDCi FWD Skåp (130hk)",
+          "familyName": "Transit"
+        },
+        "year": "2019"
+      }
+    },
     "exportable": true,
     "deductibleVat": false,
     "collisionWarranty": null,
@@ -2741,6 +2741,6 @@
     "closedAt": "2026-10-30T10:47:35.297888+00:00",
     "updatedAt": "2026-10-30T10:47:35.368584+00:00"
   },
-  "_scraped_at": "2026-10-30T19:53:36.209442+00:00",
+  "_scraped_at": "2026-10-30T23:32:44.220781+00:00",
   "_url": "https://www.kvd.se/auktioner/ford-transit-350-2-0-tdci-2wd-130hk-309203"
 }

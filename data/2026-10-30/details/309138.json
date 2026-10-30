@@ -54,27 +54,113 @@
     "evaluationType": "BROKERING"
   },
   "processObject": {
-    "orderableAdditionalServices": {
-      "tradein": false,
-      "transport": true,
-      "insurance": true,
-      "finance": true,
-      "warranty": true,
-      "extraTires": false
-    },
-    "car360Spin": null,
-    "proactiveBrokering": null,
     "displayCar360Spin": true,
-    "offsiteSalesContact": null,
-    "sellMethod": "BIDDING",
-    "reducedPrice": false,
     "conditionClassification": "TESTED",
+    "proactiveBrokering": null,
     "properties": {
-      "exteriorColor": "Black",
-      "brand": "Audi",
-      "mediation": true,
+      "length": 4938,
+      "mustExport": false,
+      "odometerUnit": "km",
+      "familyName": "A6 Allroad",
+      "drivingBan": false,
+      "taxWeight": 2040,
+      "odometerReading": 120420,
+      "grades": {
+        "INTERIOR": {
+          "max": 5,
+          "value": 3,
+          "min": 1
+        },
+        "EXTERIOR": {
+          "max": 5,
+          "value": 3,
+          "min": 1
+        },
+        "TOTAL": {
+          "max": 5,
+          "value": 3,
+          "min": 1
+        },
+        "ENGINE_AND_GEARBOX": {
+          "max": 3,
+          "value": 3,
+          "min": 1
+        },
+        "TECHNOLOGY_AND_EQUIPMENT": {
+          "max": 3,
+          "value": 2,
+          "min": 1
+        },
+        "BRAKES": {
+          "max": 3,
+          "value": 3,
+          "min": 1
+        }
+      },
+      "fuels": [
+        {
+          "enginePower": 218,
+          "fuelCode": "Diesel",
+          "co2": 149,
+          "consumption": 5.7
+        }
+      ],
       "curbWeight": 2046,
+      "remarks": {
+        "TIRES": [],
+        "INTERIOR": [
+          {
+            "category": "INTERIOR",
+            "key": "Invändigt några repor, fläckar och märken",
+            "id": "0"
+          }
+        ],
+        "EXTERIOR": [
+          {
+            "category": "EXTERIOR",
+            "key": "Stenskott i vindruta",
+            "id": "0"
+          },
+          {
+            "category": "EXTERIOR",
+            "key": "Flertal stenskott, dörruppslag och repor",
+            "id": "1"
+          }
+        ],
+        "ENGINE_AND_GEARBOX": [],
+        "TECHNOLOGY_AND_EQUIPMENT": [
+          {
+            "category": "TECHNOLOGY_AND_EQUIPMENT",
+            "key": "Bilen är anpassad med 3 nycklar men endast 2 medföljer",
+            "id": "0"
+          }
+        ],
+        "BRAKES": [
+          {
+            "category": "BRAKES",
+            "key": "Bromsvibrationer fram",
+            "id": "0"
+          }
+        ]
+      },
+      "width": 1898,
+      "numberOfSeats": 5,
+      "body": "Wagon",
+      "maxPullWeightB": 980,
+      "textile": "Delläder",
+      "ecoFriendly": false,
       "maxPayload": 474,
+      "exportable": true,
+      "inspectionValidToDate": "2027-10-31",
+      "taxFee": 3084,
+      "modelYear": 2017,
+      "inspectionPeriod": "2026-08-19 - 2027-10-31",
+      "dateOfInspection": "2026-08-19",
+      "registrationPlate": "EDS587",
+      "totalWeight": 2520,
+      "numberOfKeys": 2,
+      "towbar": false,
+      "hasUnpaidLoan": false,
       "equipment": [
         "4WD",
         "Antisladdsystem",
@@ -105,21 +191,33 @@
         "Stolsvärme fram",
         "Urkopplingsbar passagerarairbag"
       ],
-      "inspectionValidToDate": "2027-10-31",
-      "odometerUnit": "km",
-      "length": 4938,
-      "finishType": "Solid",
-      "textile": "Delläder",
-      "saleLimitedToCorporate": false,
-      "chassisNumber": "WAUZZZ4G1HN123004",
-      "title": "Audi A6 Allroad 3.0 TDI quattro (218hk)",
-      "dateOfInspection": "2026-08-19",
-      "inspectionPeriod": "2026-08-19 - 2027-10-31",
-      "totalWeight": 2520,
-      "registrationPlateCountry": "se",
-      "exportable": true,
+      "isRepairObject": false,
+      "mediation": true,
       "residualLoanValue": 0,
-      "taxFee": 3084,
+      "numberOfPreviousOwners": 3,
+      "remarksLocalized": {
+        "TIRES": null,
+        "BRAKES": "Bromsvibrationer fram",
+        "EXTERIOR": "Stenskott i vindruta. Flertal stenskott, dörruppslag och repor",
+        "INTERIOR": "Invändigt några repor, fläckar och märken",
+        "ENGINE_AND_GEARBOX": null,
+        "TECHNOLOGY_AND_EQUIPMENT": "Bilen är anpassad med 3 nycklar men endast 2 medföljer"
+      },
+      "importedForPersonalUse": false,
+      "gearbox": "Automatic",
+      "title": "Audi A6 Allroad 3.0 TDI quattro (218hk)",
+      "chassisNumber": "WAUZZZ4G1HN123004",
+      "deductibleVat": false,
+      "saleLimitedToCorporate": false,
+      "heavyEquipment": false,
+      "manufactureMonth": "201704",
+      "height": 1441,
+      "initialTrafficDate": "2017-05-22",
+      "registrationCountry": "se",
+      "environmentalClassEuro": "6",
+      "registrationPlateCountry": "se",
+      "maxTrailerWeight": 2500,
+      "brand": "Audi",
       "formattedEquipment": [
         {
           "key": "4WD",
@@ -290,184 +388,68 @@
           "priority": 27
         }
       ],
-      "familyName": "A6 Allroad",
-      "environmentalClassEuro": "6",
-      "towbar": false,
-      "isRepairObject": false,
-      "body": "Wagon",
-      "numberOfSeats": 5,
-      "maxPullWeightB": 980,
-      "fuels": [
-        {
-          "enginePower": 218,
-          "consumption": 5.7,
-          "co2": 149,
-          "fuelCode": "Diesel"
-        }
-      ],
-      "grades": {
-        "INTERIOR": {
-          "value": 3,
-          "min": 1,
-          "max": 5
-        },
-        "TOTAL": {
-          "value": 3,
-          "min": 1,
-          "max": 5
-        },
-        "ENGINE_AND_GEARBOX": {
-          "value": 3,
-          "min": 1,
-          "max": 3
-        },
-        "EXTERIOR": {
-          "value": 3,
-          "min": 1,
-          "max": 5
-        },
-        "BRAKES": {
-          "value": 3,
-          "min": 1,
-          "max": 3
-        },
-        "TECHNOLOGY_AND_EQUIPMENT": {
-          "value": 2,
-          "min": 1,
-          "max": 3
-        }
-      },
-      "maxTrailerWeight": 2500,
-      "odometerReading": 120420,
-      "initialTrafficDate": "2017-05-22",
-      "mustExport": false,
-      "manufactureMonth": "201704",
-      "ecoFriendly": false,
-      "deductibleVat": false,
-      "numberOfKeys": 2,
-      "registrationPlate": "EDS587",
-      "numberOfPreviousOwners": 3,
-      "heavyEquipment": false,
-      "modelYear": 2017,
-      "height": 1441,
-      "gearbox": "Automatic",
       "modelName": "A6 Allroad 3.0 TDI quattro (218hk)",
-      "taxWeight": 2040,
-      "width": 1898,
-      "remarks": {
-        "INTERIOR": [
-          {
-            "key": "Invändigt några repor, fläckar och märken",
-            "id": "0",
-            "category": "INTERIOR"
-          }
-        ],
-        "ENGINE_AND_GEARBOX": [],
-        "EXTERIOR": [
-          {
-            "key": "Stenskott i vindruta",
-            "id": "0",
-            "category": "EXTERIOR"
-          },
-          {
-            "key": "Flertal stenskott, dörruppslag och repor",
-            "id": "1",
-            "category": "EXTERIOR"
-          }
-        ],
-        "BRAKES": [
-          {
-            "key": "Bromsvibrationer fram",
-            "id": "0",
-            "category": "BRAKES"
-          }
-        ],
-        "TECHNOLOGY_AND_EQUIPMENT": [
-          {
-            "key": "Bilen är anpassad med 3 nycklar men endast 2 medföljer",
-            "id": "0",
-            "category": "TECHNOLOGY_AND_EQUIPMENT"
-          }
-        ],
-        "TIRES": []
-      },
-      "drivingBan": false,
-      "remarksLocalized": {
-        "TIRES": null,
-        "BRAKES": "Bromsvibrationer fram",
-        "EXTERIOR": "Stenskott i vindruta. Flertal stenskott, dörruppslag och repor",
-        "INTERIOR": "Invändigt några repor, fläckar och märken",
-        "ENGINE_AND_GEARBOX": null,
-        "TECHNOLOGY_AND_EQUIPMENT": "Bilen är anpassad med 3 nycklar men endast 2 medföljer"
-      },
-      "hasUnpaidLoan": false,
-      "registrationCountry": "se",
-      "importedForPersonalUse": false,
+      "finishType": "Solid",
+      "exteriorColor": "Black",
       "heading1": "Audi A6 Allroad",
       "heading2": "A6 Allroad 3.0 TDI quattro",
       "heading3": null
     },
+    "car360Spin": null,
+    "testDriveAllowed": true,
+    "certified": false,
+    "objectType": "CAR",
+    "statisticalValuation": {
+      "bpGreen": null,
+      "bpOrange": 232000,
+      "bpWhite": 232000,
+      "marketPrice": 232000
+    },
+    "buyNowAmount": null,
+    "sellMethod": "BIDDING",
+    "orderableAdditionalServices": {
+      "tradein": false,
+      "transport": true,
+      "insurance": true,
+      "finance": true,
+      "warranty": true,
+      "extraTires": false
+    },
+    "isFixedPrice": false,
+    "vehicleType": "CAR",
+    "leaseReturnProperties": {},
+    "baseObjectId": "521237",
+    "initialBuyNowAmount": null,
+    "isReleasable": false,
+    "id": "7291448",
+    "offsiteSalesContact": null,
+    "presentationApproved": false,
+    "createdAt": "2026-10-07 18:15:19.010264+00:00",
+    "state": "AUCTION_RESOLUTION",
+    "reducedPrice": false,
     "baseObject": {
-      "exteriorColor": "Black",
-      "registrationPlate": "EDS587",
-      "year": "2017",
       "body": "Wagon",
+      "modelId": null,
+      "exteriorColor": "Black",
+      "baseObjectType": "CAR",
+      "registrationCountry": "se",
+      "odometerUnit": "km",
+      "familyName": "A6 Allroad",
+      "odometerReading": 120190,
+      "earliestAvailableAt": null,
+      "brand": "Audi",
+      "registrationPlate": "EDS587",
+      "fuels": [
+        {
+          "fuelCode": "Diesel",
+          "powerUnit": "EG",
+          "enginePower": 160,
+          "enginePowerHp": 218,
+          "fuelTankVolume": ""
+        }
+      ],
+      "id": "521237",
       "authorityRegisterInformation": {
-        "additionalTechSpecification": {
-          "raceCar": null,
-          "wheelbase1": 2914,
-          "wheelbase2": null,
-          "wheelbase3": null,
-          "wheelbase4": null,
-          "equipment1": null,
-          "equipment2": null,
-          "equipment3": null,
-          "maximumSpeed": 231,
-          "numAxleShafts": "",
-          "passengerAirBag": true,
-          "tyreDimensionRear": "235/55 R18 100Y",
-          "tyreDimensionFront": "235/55 R18 100Y",
-          "dualSteeringControl": null
-        },
-        "environmentalClassification": {
-          "fuels": [
-            {
-              "co2": 149,
-              "nox": "",
-              "nox4": null,
-              "fuelCode": "Diesel",
-              "hcThcNox": "",
-              "consumption": 5.7,
-              "noiseLevel": 70,
-              "emissionUnit": "g/km",
-              "innovationCo2": null,
-              "particleValue": "",
-              "particleMass4": null,
-              "consumptionUnit": "5,7",
-              "rangeNedcDrive": null,
-              "rangeWltpDrive": null,
-              "consumptionUrban": 6.2,
-              "rangeCityWltpDrive": null,
-              "consumptionExtraUrban": 5.4,
-              "electricEnergyConsumption": null,
-              "energyConsumptionWltpDrive": null
-            }
-          ],
-          "ecoFriendly": false,
-          "emissionClass": "EURO 6",
-          "innovationCode": null,
-          "environmentalClass": null,
-          "environmentalClassEuro": "6"
-        },
-        "vehicleStatus": {
-          "tax": 3084
-        },
-        "registrationInformation": {
-          "registrationPlate": "EDS587",
-          "deregistrationDate": null,
-          "deregistrationText": null,
-          "deregistrationReason": null
-        },
         "generalTechSpecification": {
           "eeg": "e1*2007/46*0436*28",
           "fuels": [
@@ -533,6 +515,55 @@
           "inspectionValidToDate": "2027-10-31",
           "inspectionExemptionGroup": null
         },
+        "environmentalClassification": {
+          "fuels": [
+            {
+              "co2": 149,
+              "nox": "",
+              "nox4": null,
+              "fuelCode": "Diesel",
+              "hcThcNox": "",
+              "consumption": 5.7,
+              "noiseLevel": 70,
+              "emissionUnit": "g/km",
+              "innovationCo2": null,
+              "particleValue": "",
+              "particleMass4": null,
+              "consumptionUnit": "5,7",
+              "rangeNedcDrive": null,
+              "rangeWltpDrive": null,
+              "consumptionUrban": 6.2,
+              "rangeCityWltpDrive": null,
+              "consumptionExtraUrban": 5.4,
+              "electricEnergyConsumption": null,
+              "energyConsumptionWltpDrive": null
+            }
+          ],
+          "ecoFriendly": false,
+          "emissionClass": "EURO 6",
+          "innovationCode": null,
+          "environmentalClass": null,
+          "environmentalClassEuro": "6"
+        },
+        "additionalTechSpecification": {
+          "raceCar": null,
+          "wheelbase1": 2914,
+          "wheelbase2": null,
+          "wheelbase3": null,
+          "wheelbase4": null,
+          "equipment1": null,
+          "equipment2": null,
+          "equipment3": null,
+          "maximumSpeed": 231,
+          "numAxleShafts": "",
+          "passengerAirBag": true,
+          "tyreDimensionRear": "235/55 R18 100Y",
+          "tyreDimensionFront": "235/55 R18 100Y",
+          "dualSteeringControl": null
+        },
+        "vehicleStatus": {
+          "tax": 3084
+        },
         "vehicleInformation": {
           "vin": "WAUZZZ4G1HN123004",
           "body": "AC",
@@ -553,32 +584,21 @@
           "registrationDate": "2017-04-21",
           "initialTrafficDate": "2017-05-22",
           "registrationPlateReused": null
+        },
+        "registrationInformation": {
+          "registrationPlate": "EDS587",
+          "deregistrationDate": null,
+          "deregistrationText": null,
+          "deregistrationReason": null
         }
       },
-      "brand": "Audi",
-      "id": "521237",
-      "fuels": [
-        {
-          "fuelCode": "Diesel",
-          "powerUnit": "EG",
-          "enginePower": 160,
-          "enginePowerHp": 218,
-          "fuelTankVolume": ""
-        }
-      ],
-      "gearbox": "Automatic",
-      "fabricAndMake": "AUDI",
-      "baseObjectType": "CAR",
-      "modelId": null,
-      "odometerReading": 120190,
       "modelName": "A6 Allroad 3.0 TDI quattro (218hk)",
-      "salesFlow": "CONSUMER_CARS",
-      "state": "IMPORTING_INTO_PROCESS_OBJECT",
-      "odometerUnit": "km",
-      "earliestAvailableAt": null,
-      "registrationCountry": "se",
       "createdAt": "2026-10-07T18:11:25.309584+00:00",
-      "familyName": "A6 Allroad",
+      "state": "IMPORTING_INTO_PROCESS_OBJECT",
+      "gearbox": "Automatic",
+      "salesFlow": "CONSUMER_CARS",
+      "year": "2017",
+      "fabricAndMake": "AUDI",
       "technicalSpecification": {
         "modelId": null,
         "vehicle": {
@@ -590,26 +610,6 @@
         "year": "2017"
       }
     },
-    "id": "7291448",
-    "leaseReturnProperties": {},
-    "vehicleType": "CAR",
-    "presentationApproved": false,
-    "baseObjectId": "521237",
-    "isFixedPrice": false,
-    "certified": false,
-    "objectType": "CAR",
-    "state": "AUCTION_RESOLUTION",
-    "initialBuyNowAmount": null,
-    "statisticalValuation": {
-      "bpWhite": 232000,
-      "marketPrice": 232000,
-      "bpGreen": null,
-      "bpOrange": 232000
-    },
-    "testDriveAllowed": true,
-    "buyNowAmount": null,
-    "isReleasable": false,
-    "createdAt": "2026-10-07 18:15:19.010264+00:00",
     "exportable": true,
     "deductibleVat": false,
     "collisionWarranty": null,
@@ -2049,6 +2049,6 @@
     "closedAt": "2026-10-30T09:16:00.007503+00:00",
     "updatedAt": "2026-10-30T11:00:25.994443+00:00"
   },
-  "_scraped_at": "2026-10-30T19:53:46.176718+00:00",
+  "_scraped_at": "2026-10-30T23:32:54.413760+00:00",
   "_url": "https://www.kvd.se/auktioner/audi-a6-allroad-3-0-tdi-quattro-218hk-309138"
 }

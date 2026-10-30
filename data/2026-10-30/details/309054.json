@@ -44,58 +44,234 @@
   "eurBuyNowAmount": null,
   "winningBid": null,
   "processObject": {
-    "orderableAdditionalServices": {
-      "tradein": false,
-      "transport": true,
-      "insurance": true,
-      "finance": true,
-      "warranty": true,
-      "extraTires": false
-    },
-    "car360Spin": null,
-    "proactiveBrokering": null,
-    "displayCar360Spin": true,
-    "offsiteSalesContact": null,
-    "sellMethod": "BIDDING",
+    "objectType": "LIGHT_TRUCK",
+    "buyNowAmount": null,
     "reducedPrice": false,
-    "conditionClassification": "TESTED",
-    "properties": {
-      "adHeader": "Cenntro Logistar (82hk) Backkamera Vinterhjul",
-      "exteriorColor": "White",
-      "brand": "Cenntro",
-      "mediation": true,
-      "curbWeight": 1445,
-      "maxPayload": 1155,
-      "equipment": [
-        "AC",
-        "Backkamera",
-        "Bluetooth",
-        "Elhiss fram",
-        "Motorvärmare",
-        "Radio"
-      ],
-      "inspectionValidToDate": "2028-01-31",
-      "odometerUnit": "km",
-      "length": 4720,
-      "electricType": "Electric",
-      "finishType": "Solid",
-      "textile": "Textil",
-      "saleLimitedToCorporate": false,
-      "chassisNumber": "7MW2LTRH4MC010472",
-      "title": "Cenntro Cenntro Logistar (82hk)",
-      "battstatResult": {
-        "rankingRangeMin": 0,
-        "ranking": null,
-        "sohPercent": null,
-        "rankingRangeMax": 0
+    "testDriveAllowed": true,
+    "isFixedPrice": false,
+    "baseObject": {
+      "gearbox": null,
+      "baseObjectType": "LIGHT_TRUCK",
+      "odometerReading": 100342,
+      "authorityRegisterInformation": {
+        "vehicleOrigin": {
+          "originCode": "INFÖRT",
+          "originCodeReason": null,
+          "importerIdentifier": null,
+          "preRegistrationDate": null,
+          "importRegistrationDate": null,
+          "importedForPersonalUse": false,
+          "importedPreviouslyRegistered": false
+        },
+        "generalTechSpecification": {
+          "eeg": "e49*KS18/858*00008*01",
+          "fuels": [
+            {
+              "fuelCode": "Electric",
+              "powerUnit": "",
+              "enginePower": 60,
+              "enginePowerHp": 82,
+              "fuelTankVolume": ""
+            }
+          ],
+          "width": 1640,
+          "height": 1925,
+          "length": 4720,
+          "gearbox": null,
+          "variant": "CBE211",
+          "version": "26A21AEA",
+          "taxWeight": 2600,
+          "curbWeight": 1445,
+          "maxPayload": 1155,
+          "totalWeight": 2600,
+          "chassisCode1": null,
+          "chassisCode2": null,
+          "cubicCapacity": null,
+          "numPassengers": "1",
+          "numberOfSeats": 2,
+          "fourWheelDrive": false,
+          "maxPullWeightB": "",
+          "clutchMechanism1": null,
+          "clutchMechanism2": null,
+          "maxTrailerWeight": null,
+          "chassisCodeSupplement": null,
+          "maxPullWieghtNoBreaks": null,
+          "maxPullWeightBExtended": null,
+          "maxSingle Axle TrailerWeight": null
+        },
+        "environmentalClassification": {
+          "fuels": [
+            {
+              "co2": 0,
+              "nox": "",
+              "nox4": null,
+              "fuelCode": "Electric",
+              "hcThcNox": "",
+              "consumption": "",
+              "noiseLevel": 69,
+              "emissionUnit": "g/km",
+              "innovationCo2": null,
+              "particleValue": "",
+              "particleMass4": null,
+              "consumptionUnit": "",
+              "rangeNedcDrive": null,
+              "rangeWltpDrive": "188",
+              "consumptionUrban": "",
+              "rangeCityWltpDrive": "264",
+              "consumptionExtraUrban": "",
+              "electricEnergyConsumption": null,
+              "energyConsumptionWltpDrive": "232"
+            }
+          ],
+          "ecoFriendly": true,
+          "emissionClass": "EL",
+          "innovationCode": null,
+          "environmentalClass": "EL",
+          "environmentalClassEuro": null
+        },
+        "vehicleStatus": {
+          "tax": 360
+        },
+        "vehicleInspectionInformation": {
+          "inspections": [
+            {
+              "inspectionType": "5",
+              "odometerReading": 100342,
+              "dateOfInspection": "2026-01-19"
+            },
+            {
+              "inspectionType": "13",
+              "odometerReading": null,
+              "dateOfInspection": "2022-12-19"
+            }
+          ],
+          "inspectionGroup": "36/24/14",
+          "odometerReading": 100342,
+          "inspectionPeriod": "2026-01-19 - 2028-01-31",
+          "dateOfInspection": "2026-01-19",
+          "inspectionValidToDate": "2028-01-31",
+          "inspectionExemptionGroup": null
+        },
+        "registrationInformation": {
+          "registrationPlate": "LNU64H",
+          "deregistrationDate": null,
+          "deregistrationText": null,
+          "deregistrationReason": null
+        },
+        "vehicleInformation": {
+          "vin": "7MW2LTRH4MC010472",
+          "body": "BA",
+          "type": "LIGHT_TRUCK",
+          "year": "2022",
+          "model": "LOGISTAR",
+          "rawType": "LB",
+          "modelYear": null,
+          "categoryEu": "e49*KS18/858*00008*01",
+          "groupNumber": "CEO010000",
+          "modelNumber": "CEO000000",
+          "chassisNumber": "7MW2LTRH4MC010472",
+          "exteriorColor": "White",
+          "fabricAndMake": "CENNTRO",
+          "baseObjectType": "LIGHT_TRUCK",
+          "manufactureCode": null,
+          "manufactureMonth": "202202",
+          "registrationDate": "2022-02-28",
+          "initialTrafficDate": "2023-01-04",
+          "registrationPlateReused": null
+        },
+        "additionalTechSpecification": {
+          "raceCar": null,
+          "wheelbase1": 3050,
+          "wheelbase2": null,
+          "wheelbase3": null,
+          "wheelbase4": null,
+          "equipment1": null,
+          "equipment2": null,
+          "equipment3": null,
+          "maximumSpeed": 80,
+          "numAxleShafts": 2,
+          "passengerAirBag": false,
+          "tyreDimensionRear": "185/65 R15LT 103S",
+          "tyreDimensionFront": "185/65 R15LT 103S",
+          "dualSteeringControl": null
+        }
       },
-      "dateOfInspection": "2026-01-19",
-      "inspectionPeriod": "2026-01-19 - 2028-01-31",
-      "totalWeight": 2600,
-      "registrationPlateCountry": "se",
-      "exportable": true,
-      "residualLoanValue": 0,
-      "taxFee": 360,
+      "fuels": [
+        {
+          "fuelCode": "Electric",
+          "powerUnit": "",
+          "enginePower": 60,
+          "enginePowerHp": 82,
+          "fuelTankVolume": ""
+        }
+      ],
+      "earliestAvailableAt": null,
+      "modelName": null,
+      "salesFlow": "CORPORATE_CARS",
+      "registrationPlate": "LNU64H",
+      "state": "CREATED",
+      "odometerUnit": "km",
+      "fabricAndMake": "CENNTRO",
+      "registrationCountry": "se",
+      "id": "519848",
+      "familyName": null,
+      "modelId": null,
+      "year": null,
+      "createdAt": "2026-10-01T10:29:48.952451+00:00",
+      "brand": null,
+      "body": null,
+      "exteriorColor": "White",
+      "technicalSpecification": {
+        "modelId": null,
+        "vehicle": {
+          "brand": null,
+          "body": null,
+          "modelName": null,
+          "familyName": null
+        },
+        "year": null
+      }
+    },
+    "vehicleType": "LIGHT_TRANSPORT",
+    "initialBuyNowAmount": null,
+    "baseObjectId": "519848",
+    "conditionClassification": "TESTED",
+    "proactiveBrokering": null,
+    "presentationApproved": false,
+    "state": "AUCTION",
+    "properties": {
+      "grades": {
+        "BRAKES": {
+          "max": 3,
+          "value": 3,
+          "min": 1
+        },
+        "TOTAL": {
+          "max": 5,
+          "value": 3,
+          "min": 1
+        },
+        "TECHNOLOGY_AND_EQUIPMENT": {
+          "max": 3,
+          "value": 2,
+          "min": 1
+        },
+        "ENGINE_AND_GEARBOX": {
+          "max": 3,
+          "value": 3,
+          "min": 1
+        },
+        "INTERIOR": {
+          "max": 5,
+          "value": 3,
+          "min": 1
+        },
+        "EXTERIOR": {
+          "max": 5,
+          "value": 3,
+          "min": 1
+        }
+      },
       "formattedEquipment": [
         {
           "key": "AC",
@@ -134,114 +310,26 @@
           "priority": 5
         }
       ],
-      "familyName": "Logistar",
-      "towbar": false,
-      "isRepairObject": false,
-      "numberOfSeats": 2,
-      "fuels": [
-        {
-          "enginePower": 82,
-          "energyConsumptionWltpDrive": 232,
-          "rangeWltpDrive": 188,
-          "fuelCode": "Electric",
-          "rangeCityWltpDrive": 264
-        }
-      ],
-      "grades": {
-        "INTERIOR": {
-          "value": 3,
-          "min": 1,
-          "max": 5
-        },
-        "TOTAL": {
-          "value": 3,
-          "min": 1,
-          "max": 5
-        },
-        "ENGINE_AND_GEARBOX": {
-          "value": 3,
-          "min": 1,
-          "max": 3
-        },
-        "EXTERIOR": {
-          "value": 3,
-          "min": 1,
-          "max": 5
-        },
-        "BRAKES": {
-          "value": 3,
-          "min": 1,
-          "max": 3
-        },
-        "TECHNOLOGY_AND_EQUIPMENT": {
-          "value": 2,
-          "min": 1,
-          "max": 3
-        }
-      },
-      "odometerReading": 16610,
-      "package": "Backkamera Vinterhjul",
-      "initialTrafficDate": "2023-01-04",
+      "exportable": true,
       "mustExport": false,
-      "manufactureMonth": "202202",
-      "ecoFriendly": true,
       "deductibleVat": true,
+      "manufactureMonth": "202202",
+      "totalWeight": 2600,
+      "dateOfInspection": "2026-01-19",
       "registrationPlate": "LNU64H",
-      "numberOfPreviousOwners": 1,
-      "heavyEquipment": false,
-      "modelYear": 2022,
-      "height": 1925,
-      "gearbox": "Automatic",
-      "modelName": "Cenntro Logistar (82hk)",
+      "equipment": [
+        "AC",
+        "Backkamera",
+        "Bluetooth",
+        "Elhiss fram",
+        "Motorvärmare",
+        "Radio"
+      ],
       "taxWeight": 2600,
-      "width": 1640,
-      "remarks": {
-        "INTERIOR": [
-          {
-            "key": "Invändigt några repor, fläckar och märken",
-            "id": "0",
-            "category": "INTERIOR"
-          },
-          {
-            "key": "Klädsel skadad",
-            "id": "1",
-            "category": "INTERIOR"
-          }
-        ],
-        "ENGINE_AND_GEARBOX": [],
-        "EXTERIOR": [
-          {
-            "key": "Skada på stötfångaren bak",
-            "id": "0",
-            "category": "EXTERIOR"
-          },
-          {
-            "key": "Flertal stenskott, dörruppslag och repor, Spår efter tidigare dekor",
-            "id": "1",
-            "category": "EXTERIOR"
-          }
-        ],
-        "BRAKES": [],
-        "TECHNOLOGY_AND_EQUIPMENT": [
-          {
-            "key": "Mediaskärm, repig",
-            "id": "0",
-            "category": "TECHNOLOGY_AND_EQUIPMENT"
-          },
-          {
-            "key": "Laddkabel medföljer ej",
-            "id": "1",
-            "category": "TECHNOLOGY_AND_EQUIPMENT"
-          },
-          {
-            "key": "Laddlucka går ej att öppna",
-            "id": "2",
-            "category": "TECHNOLOGY_AND_EQUIPMENT"
-          }
-        ],
-        "TIRES": []
-      },
-      "drivingBan": false,
+      "odometerUnit": "km",
+      "mediation": true,
+      "ecoFriendly": true,
+      "towbar": false,
       "remarksLocalized": {
         "TIRES": null,
         "BRAKES": null,
@@ -250,210 +338,122 @@
         "ENGINE_AND_GEARBOX": null,
         "TECHNOLOGY_AND_EQUIPMENT": "Mediaskärm, repig. Laddkabel medföljer ej. Laddlucka går ej att öppna"
       },
+      "width": 1640,
+      "battstatResult": {
+        "ranking": null,
+        "sohPercent": null,
+        "rankingRangeMin": 0,
+        "rankingRangeMax": 0
+      },
+      "exteriorColor": "White",
+      "remarks": {
+        "TIRES": [],
+        "BRAKES": [],
+        "TECHNOLOGY_AND_EQUIPMENT": [
+          {
+            "category": "TECHNOLOGY_AND_EQUIPMENT",
+            "id": "0",
+            "key": "Mediaskärm, repig"
+          },
+          {
+            "category": "TECHNOLOGY_AND_EQUIPMENT",
+            "id": "1",
+            "key": "Laddkabel medföljer ej"
+          },
+          {
+            "category": "TECHNOLOGY_AND_EQUIPMENT",
+            "id": "2",
+            "key": "Laddlucka går ej att öppna"
+          }
+        ],
+        "ENGINE_AND_GEARBOX": [],
+        "INTERIOR": [
+          {
+            "category": "INTERIOR",
+            "id": "0",
+            "key": "Invändigt några repor, fläckar och märken"
+          },
+          {
+            "category": "INTERIOR",
+            "id": "1",
+            "key": "Klädsel skadad"
+          }
+        ],
+        "EXTERIOR": [
+          {
+            "category": "EXTERIOR",
+            "id": "0",
+            "key": "Skada på stötfångaren bak"
+          },
+          {
+            "category": "EXTERIOR",
+            "id": "1",
+            "key": "Flertal stenskott, dörruppslag och repor, Spår efter tidigare dekor"
+          }
+        ]
+      },
+      "numberOfPreviousOwners": 1,
+      "adHeader": "Cenntro Logistar (82hk) Backkamera Vinterhjul",
+      "fuels": [
+        {
+          "energyConsumptionWltpDrive": 232,
+          "fuelCode": "Electric",
+          "rangeCityWltpDrive": 264,
+          "rangeWltpDrive": 188,
+          "enginePower": 82
+        }
+      ],
+      "textile": "Textil",
+      "maxPayload": 1155,
+      "inspectionPeriod": "2026-01-19 - 2028-01-31",
+      "inspectionValidToDate": "2028-01-31",
+      "saleLimitedToCorporate": false,
+      "package": "Backkamera Vinterhjul",
       "hasUnpaidLoan": false,
-      "registrationCountry": "se",
+      "heavyEquipment": false,
+      "residualLoanValue": 0,
+      "brand": "Cenntro",
+      "gearbox": "Automatic",
+      "height": 1925,
+      "length": 4720,
+      "electricType": "Electric",
+      "curbWeight": 1445,
+      "drivingBan": false,
+      "initialTrafficDate": "2023-01-04",
+      "chassisNumber": "7MW2LTRH4MC010472",
+      "familyName": "Logistar",
+      "finishType": "Solid",
       "importedForPersonalUse": false,
+      "isRepairObject": false,
+      "title": "Cenntro Cenntro Logistar (82hk)",
+      "odometerReading": 16610,
+      "modelName": "Cenntro Logistar (82hk)",
+      "modelYear": 2022,
+      "numberOfSeats": 2,
+      "registrationPlateCountry": "se",
+      "registrationCountry": "se",
+      "taxFee": 360,
       "heading1": "Cenntro Logistar",
       "heading2": "Cenntro Logistar",
       "heading3": "Backkamera Vinterhjul"
     },
-    "baseObject": {
-      "exteriorColor": "White",
-      "registrationPlate": "LNU64H",
-      "year": null,
-      "body": null,
-      "authorityRegisterInformation": {
-        "additionalTechSpecification": {
-          "raceCar": null,
-          "wheelbase1": 3050,
-          "wheelbase2": null,
-          "wheelbase3": null,
-          "wheelbase4": null,
-          "equipment1": null,
-          "equipment2": null,
-          "equipment3": null,
-          "maximumSpeed": 80,
-          "numAxleShafts": 2,
-          "passengerAirBag": false,
-          "tyreDimensionRear": "185/65 R15LT 103S",
-          "tyreDimensionFront": "185/65 R15LT 103S",
-          "dualSteeringControl": null
-        },
-        "environmentalClassification": {
-          "fuels": [
-            {
-              "co2": 0,
-              "nox": "",
-              "nox4": null,
-              "fuelCode": "Electric",
-              "hcThcNox": "",
-              "consumption": "",
-              "noiseLevel": 69,
-              "emissionUnit": "g/km",
-              "innovationCo2": null,
-              "particleValue": "",
-              "particleMass4": null,
-              "consumptionUnit": "",
-              "rangeNedcDrive": null,
-              "rangeWltpDrive": "188",
-              "consumptionUrban": "",
-              "rangeCityWltpDrive": "264",
-              "consumptionExtraUrban": "",
-              "electricEnergyConsumption": null,
-              "energyConsumptionWltpDrive": "232"
-            }
-          ],
-          "ecoFriendly": true,
-          "emissionClass": "EL",
-          "innovationCode": null,
-          "environmentalClass": "EL",
-          "environmentalClassEuro": null
-        },
-        "vehicleStatus": {
-          "tax": 360
-        },
-        "registrationInformation": {
-          "registrationPlate": "LNU64H",
-          "deregistrationDate": null,
-          "deregistrationText": null,
-          "deregistrationReason": null
-        },
-        "generalTechSpecification": {
-          "eeg": "e49*KS18/858*00008*01",
-          "fuels": [
-            {
-              "fuelCode": "Electric",
-              "powerUnit": "",
-              "enginePower": 60,
-              "enginePowerHp": 82,
-              "fuelTankVolume": ""
-            }
-          ],
-          "width": 1640,
-          "height": 1925,
-          "length": 4720,
-          "gearbox": null,
-          "variant": "CBE211",
-          "version": "26A21AEA",
-          "taxWeight": 2600,
-          "curbWeight": 1445,
-          "maxPayload": 1155,
-          "totalWeight": 2600,
-          "chassisCode1": null,
-          "chassisCode2": null,
-          "cubicCapacity": null,
-          "numPassengers": "1",
-          "numberOfSeats": 2,
-          "fourWheelDrive": false,
-          "maxPullWeightB": "",
-          "clutchMechanism1": null,
-          "clutchMechanism2": null,
-          "maxTrailerWeight": null,
-          "chassisCodeSupplement": null,
-          "maxPullWieghtNoBreaks": null,
-          "maxPullWeightBExtended": null,
-          "maxSingle Axle TrailerWeight": null
-        },
-        "vehicleOrigin": {
-          "originCode": "INFÖRT",
-          "originCodeReason": null,
-          "importerIdentifier": null,
-          "preRegistrationDate": null,
-          "importRegistrationDate": null,
-          "importedForPersonalUse": false,
-          "importedPreviouslyRegistered": false
-        },
-        "vehicleInspectionInformation": {
-          "inspections": [
-            {
-              "inspectionType": "5",
-              "odometerReading": 100342,
-              "dateOfInspection": "2026-01-19"
-            },
-            {
-              "inspectionType": "13",
-              "odometerReading": null,
-              "dateOfInspection": "2022-12-19"
-            }
-          ],
-          "inspectionGroup": "36/24/14",
-          "odometerReading": 100342,
-          "inspectionPeriod": "2026-01-19 - 2028-01-31",
-          "dateOfInspection": "2026-01-19",
-          "inspectionValidToDate": "2028-01-31",
-          "inspectionExemptionGroup": null
-        },
-        "vehicleInformation": {
-          "vin": "7MW2LTRH4MC010472",
-          "body": "BA",
-          "type": "LIGHT_TRUCK",
-          "year": "2022",
-          "model": "LOGISTAR",
-          "rawType": "LB",
-          "modelYear": null,
-          "categoryEu": "e49*KS18/858*00008*01",
-          "groupNumber": "CEO010000",
-          "modelNumber": "CEO000000",
-          "chassisNumber": "7MW2LTRH4MC010472",
-          "exteriorColor": "White",
-          "fabricAndMake": "CENNTRO",
-          "baseObjectType": "LIGHT_TRUCK",
-          "manufactureCode": null,
-          "manufactureMonth": "202202",
-          "registrationDate": "2022-02-28",
-          "initialTrafficDate": "2023-01-04",
-          "registrationPlateReused": null
-        }
-      },
-      "brand": null,
-      "id": "519848",
-      "fuels": [
-        {
-          "fuelCode": "Electric",
-          "powerUnit": "",
-          "enginePower": 60,
-          "enginePowerHp": 82,
-          "fuelTankVolume": ""
-        }
-      ],
-      "gearbox": null,
-      "fabricAndMake": "CENNTRO",
-      "baseObjectType": "LIGHT_TRUCK",
-      "modelId": null,
-      "odometerReading": 100342,
-      "modelName": null,
-      "salesFlow": "CORPORATE_CARS",
-      "state": "CREATED",
-      "odometerUnit": "km",
-      "earliestAvailableAt": null,
-      "registrationCountry": "se",
-      "createdAt": "2026-10-01T10:29:48.952451+00:00",
-      "familyName": null,
-      "technicalSpecification": {
-        "modelId": null,
-        "vehicle": {
-          "brand": null,
-          "body": null,
-          "modelName": null,
-          "familyName": null
-        },
-        "year": null
-      }
+    "orderableAdditionalServices": {
+      "tradein": false,
+      "transport": true,
+      "insurance": true,
+      "finance": true,
+      "warranty": true,
+      "extraTires": false
     },
-    "id": "7290683",
+    "offsiteSalesContact": null,
     "leaseReturnProperties": {},
-    "vehicleType": "LIGHT_TRANSPORT",
-    "presentationApproved": false,
-    "baseObjectId": "519848",
-    "isFixedPrice": false,
+    "id": "7290683",
+    "displayCar360Spin": true,
     "certified": false,
-    "objectType": "LIGHT_TRUCK",
-    "state": "AUCTION",
-    "initialBuyNowAmount": null,
-    "statisticalValuation": null,
-    "testDriveAllowed": true,
-    "buyNowAmount": null,
+    "sellMethod": "BIDDING",
     "isReleasable": false,
+    "car360Spin": null,
+    "statisticalValuation": null,
     "createdAt": "2026-10-01 10:32:24.014841+00:00",
     "exportable": true,
     "deductibleVat": true,
@@ -1738,6 +1738,6 @@
     "closedAt": "2026-10-29T10:15:00.008266+00:00",
     "updatedAt": "2026-10-30T12:03:09.414893+00:00"
   },
-  "_scraped_at": "2026-10-30T19:54:35.037871+00:00",
+  "_scraped_at": "2026-10-30T23:33:44.690488+00:00",
   "_url": "https://www.kvd.se/auktioner/cenntro-cenntro-logistar-82hk-309054"
 }

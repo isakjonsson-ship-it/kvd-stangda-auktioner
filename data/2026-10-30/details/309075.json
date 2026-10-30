@@ -44,270 +44,88 @@
   "eurBuyNowAmount": null,
   "winningBid": null,
   "processObject": {
-    "objectType": "CAR",
-    "buyNowAmount": null,
-    "reducedPrice": false,
-    "testDriveAllowed": true,
-    "isFixedPrice": false,
-    "baseObject": {
-      "gearbox": "Automatic",
-      "baseObjectType": "CAR",
-      "odometerReading": 68402,
-      "authorityRegisterInformation": {
-        "vehicleOrigin": {
-          "originCode": "INFÖRT",
-          "originCodeReason": null,
-          "importerIdentifier": null,
-          "preRegistrationDate": null,
-          "importRegistrationDate": null,
-          "importedForPersonalUse": false,
-          "importedPreviouslyRegistered": false
-        },
-        "generalTechSpecification": {
-          "eeg": "e1*2007/46*2017*05",
-          "fuels": [
-            {
-              "fuelCode": "Petrol",
-              "powerUnit": "EG",
-              "enginePower": 135,
-              "enginePowerHp": 184,
-              "fuelTankVolume": ""
-            },
-            {
-              "fuelCode": "Electric",
-              "powerUnit": "",
-              "enginePower": 83,
-              "enginePowerHp": 113,
-              "fuelTankVolume": ""
-            }
-          ],
-          "width": 1827,
-          "height": 1442,
-          "length": 4709,
-          "gearbox": "Automatic",
-          "variant": "6N71",
-          "version": "IAW50000",
-          "taxWeight": 2000,
-          "curbWeight": 2007,
-          "maxPayload": 418,
-          "totalWeight": 2425,
-          "chassisCode1": null,
-          "chassisCode2": null,
-          "cubicCapacity": "1998",
-          "numPassengers": "4",
-          "numberOfSeats": 5,
-          "fourWheelDrive": true,
-          "maxPullWeightB": 1075,
-          "clutchMechanism1": null,
-          "clutchMechanism2": null,
-          "maxTrailerWeight": 1500,
-          "chassisCodeSupplement": null,
-          "maxPullWieghtNoBreaks": null,
-          "maxPullWeightBExtended": null,
-          "maxSingle Axle TrailerWeight": null
-        },
-        "environmentalClassification": {
-          "fuels": [
-            {
-              "co2": "",
-              "nox": "",
-              "nox4": null,
-              "fuelCode": "Petrol",
-              "hcThcNox": "",
-              "consumption": "",
-              "noiseLevel": 68,
-              "emissionUnit": "g/km",
-              "innovationCo2": null,
-              "particleValue": "",
-              "particleMass4": null,
-              "consumptionUnit": "",
-              "rangeNedcDrive": null,
-              "rangeWltpDrive": null,
-              "consumptionUrban": "",
-              "rangeCityWltpDrive": null,
-              "consumptionExtraUrban": "",
-              "electricEnergyConsumption": null,
-              "energyConsumptionWltpDrive": null
-            },
-            {
-              "co2": 0,
-              "nox": "",
-              "nox4": null,
-              "fuelCode": "Electric",
-              "hcThcNox": "",
-              "consumption": "",
-              "noiseLevel": "",
-              "emissionUnit": "g/km",
-              "innovationCo2": null,
-              "particleValue": "",
-              "particleMass4": null,
-              "consumptionUnit": "",
-              "rangeNedcDrive": null,
-              "rangeWltpDrive": "55",
-              "consumptionUrban": "",
-              "rangeCityWltpDrive": "58",
-              "consumptionExtraUrban": "",
-              "electricEnergyConsumption": null,
-              "energyConsumptionWltpDrive": null
-            }
-          ],
-          "ecoFriendly": true,
-          "emissionClass": "LADDHYBRID",
-          "innovationCode": null,
-          "environmentalClass": "HYBRID",
-          "environmentalClassEuro": "6"
-        },
-        "vehicleStatus": {
-          "tax": 360
-        },
-        "vehicleInspectionInformation": {
-          "inspections": [
-            {
-              "inspectionType": "5",
-              "odometerReading": 43863,
-              "dateOfInspection": "2024-09-25"
-            },
-            {
-              "inspectionType": "13",
-              "odometerReading": null,
-              "dateOfInspection": "2021-06-23"
-            }
-          ],
-          "inspectionGroup": "36/24/14",
-          "odometerReading": 68402,
-          "inspectionPeriod": "2026-09-24 - 2027-11-30",
-          "dateOfInspection": "2026-09-24",
-          "inspectionValidToDate": "2027-11-30",
-          "inspectionExemptionGroup": null
-        },
-        "registrationInformation": {
-          "registrationPlate": "GJF80R",
-          "deregistrationDate": null,
-          "deregistrationText": null,
-          "deregistrationReason": null
-        },
-        "vehicleInformation": {
-          "vin": "WBA6N7100MFL56158",
-          "body": "AC",
-          "type": "CAR",
-          "year": "2021",
-          "model": "330E XDRIVE",
-          "rawType": "PB",
-          "modelYear": null,
-          "categoryEu": "e1*2007/46*2017*05",
-          "groupNumber": "BW 200045",
-          "modelNumber": "BW 000000",
-          "chassisNumber": "WBA6N7100MFL56158",
-          "exteriorColor": "Black",
-          "fabricAndMake": "BMW",
-          "baseObjectType": "CAR",
-          "manufactureCode": null,
-          "manufactureMonth": "202106",
-          "registrationDate": "2021-06-23",
-          "initialTrafficDate": "2021-09-01",
-          "registrationPlateReused": null
-        },
-        "additionalTechSpecification": {
-          "raceCar": null,
-          "wheelbase1": 2851,
-          "wheelbase2": null,
-          "wheelbase3": null,
-          "wheelbase4": null,
-          "equipment1": null,
-          "equipment2": null,
-          "equipment3": null,
-          "maximumSpeed": 225,
-          "numAxleShafts": 2,
-          "passengerAirBag": true,
-          "tyreDimensionRear": "225/50 R17 98 Y",
-          "tyreDimensionFront": "225/50 R17 98 Y",
-          "dualSteeringControl": null
-        }
-      },
-      "fuels": [
-        {
-          "fuelCode": "Petrol",
-          "powerUnit": "EG",
-          "enginePower": 135,
-          "enginePowerHp": 184,
-          "fuelTankVolume": ""
-        },
-        {
-          "fuelCode": "Electric",
-          "powerUnit": "",
-          "enginePower": 83,
-          "enginePowerHp": 113,
-          "fuelTankVolume": ""
-        }
-      ],
-      "earliestAvailableAt": null,
-      "modelName": "330e xDrive Touring, G21 (292hk)",
-      "salesFlow": "CONSUMER_CARS",
-      "registrationPlate": "GJF80R",
-      "state": "PREPARING_SALES_AGREEMENT",
-      "odometerUnit": "km",
-      "fabricAndMake": "BMW",
-      "registrationCountry": "se",
-      "id": "519439",
-      "familyName": "3-serien",
-      "modelId": null,
-      "year": "2021",
-      "createdAt": "2026-09-29T19:38:23.682597+00:00",
-      "brand": "BMW",
-      "body": "Wagon",
-      "exteriorColor": "Black",
-      "technicalSpecification": {
-        "modelId": null,
-        "vehicle": {
-          "brand": "BMW",
-          "body": "Wagon",
-          "modelName": "330e xDrive Touring, G21 (292hk)",
-          "familyName": "3-serien"
-        },
-        "year": "2021"
-      }
+    "orderableAdditionalServices": {
+      "tradein": false,
+      "transport": true,
+      "insurance": true,
+      "finance": true,
+      "warranty": true,
+      "extraTires": false
     },
-    "vehicleType": "CAR",
-    "initialBuyNowAmount": null,
-    "baseObjectId": "519439",
-    "conditionClassification": "TESTED",
+    "car360Spin": null,
     "proactiveBrokering": null,
-    "presentationApproved": false,
-    "state": "AUCTION_RESOLUTION",
+    "displayCar360Spin": true,
+    "offsiteSalesContact": null,
+    "sellMethod": "BIDDING",
+    "reducedPrice": false,
+    "conditionClassification": "TESTED",
     "properties": {
-      "grades": {
-        "BRAKES": {
-          "max": 3,
-          "value": 3,
-          "min": 1
-        },
-        "TOTAL": {
-          "max": 5,
-          "value": 3,
-          "min": 1
-        },
-        "TECHNOLOGY_AND_EQUIPMENT": {
-          "max": 3,
-          "value": 2,
-          "min": 1
-        },
-        "ENGINE_AND_GEARBOX": {
-          "max": 3,
-          "value": 3,
-          "min": 1
-        },
-        "INTERIOR": {
-          "max": 5,
-          "value": 3,
-          "min": 1
-        },
-        "EXTERIOR": {
-          "max": 5,
-          "value": 3,
-          "min": 1
-        }
+      "adHeader": "330e xDrive Touring, G21 (292hk) Sport Line",
+      "exteriorColor": "Black",
+      "brand": "BMW",
+      "mediation": true,
+      "curbWeight": 2007,
+      "maxPayload": 418,
+      "equipment": [
+        "4WD",
+        "Autobroms",
+        "Bluetooth",
+        "Elspeglar",
+        "Farthållare",
+        "Fjärrlås",
+        "GPS",
+        "Radio",
+        "Regnsensor",
+        "Stolsvärme fram",
+        "Antisladdsystem",
+        "Assistanssystem",
+        "Auto hold",
+        "Eldriven baklucka",
+        "Elhiss bak",
+        "Elhiss fram",
+        "Filbytesvarnare",
+        "Infällbar dragkrok",
+        "Isofix bak",
+        "Klimatanläggning",
+        "Lastskydd/lastnät",
+        "LED-strålkastare",
+        "Nyckellöst startsystem",
+        "Parkeringssensorer bak",
+        "Parkeringssensorer fram",
+        "Rattvärme",
+        "Urkopplingsbar passagerarairbag",
+        "USB-ingång",
+        "Shadow Line",
+        "Connected Package Professional",
+        "WiFi-Hotspot",
+        "Xtraboost",
+        "ConnectedDrive Services",
+        "DAB+ radio",
+        "Akustik laminerade främre sidorutor",
+        "Förvaringspaket"
+      ],
+      "inspectionValidToDate": "2027-11-30",
+      "odometerUnit": "km",
+      "length": 4709,
+      "electricType": "Plug-in hybrid",
+      "finishType": "Solid",
+      "textile": "Delläder",
+      "saleLimitedToCorporate": false,
+      "chassisNumber": "WBA6N7100MFL56158",
+      "title": "BMW 330e xDrive Touring, G21 (292hk)",
+      "battstatResult": {
+        "rankingRangeMin": 1,
+        "ranking": 3,
+        "sohPercent": 90,
+        "rankingRangeMax": 3
       },
-      "numberOfKeys": 2,
+      "dateOfInspection": "2026-09-24",
+      "inspectionPeriod": "2026-09-24 - 2027-11-30",
+      "totalWeight": 2425,
+      "registrationPlateCountry": "se",
+      "exportable": true,
+      "residualLoanValue": 254540,
+      "taxFee": 360,
       "formattedEquipment": [
         {
           "key": "4WD",
@@ -526,56 +344,128 @@
           "priority": 35
         }
       ],
-      "exportable": true,
-      "mustExport": false,
-      "deductibleVat": false,
-      "manufactureMonth": "202106",
-      "totalWeight": 2425,
-      "dateOfInspection": "2026-09-24",
-      "registrationPlate": "GJF80R",
-      "equipment": [
-        "4WD",
-        "Autobroms",
-        "Bluetooth",
-        "Elspeglar",
-        "Farthållare",
-        "Fjärrlås",
-        "GPS",
-        "Radio",
-        "Regnsensor",
-        "Stolsvärme fram",
-        "Antisladdsystem",
-        "Assistanssystem",
-        "Auto hold",
-        "Eldriven baklucka",
-        "Elhiss bak",
-        "Elhiss fram",
-        "Filbytesvarnare",
-        "Infällbar dragkrok",
-        "Isofix bak",
-        "Klimatanläggning",
-        "Lastskydd/lastnät",
-        "LED-strålkastare",
-        "Nyckellöst startsystem",
-        "Parkeringssensorer bak",
-        "Parkeringssensorer fram",
-        "Rattvärme",
-        "Urkopplingsbar passagerarairbag",
-        "USB-ingång",
-        "Shadow Line",
-        "Connected Package Professional",
-        "WiFi-Hotspot",
-        "Xtraboost",
-        "ConnectedDrive Services",
-        "DAB+ radio",
-        "Akustik laminerade främre sidorutor",
-        "Förvaringspaket"
-      ],
-      "taxWeight": 2000,
-      "odometerUnit": "km",
-      "mediation": true,
-      "ecoFriendly": true,
+      "familyName": "3-serien",
+      "environmentalClassEuro": "6",
       "towbar": false,
+      "isRepairObject": false,
+      "body": "Wagon",
+      "numberOfSeats": 5,
+      "maxPullWeightB": 1075,
+      "fuels": [
+        {
+          "enginePower": 184,
+          "fuelCode": "Petrol"
+        },
+        {
+          "enginePower": 113,
+          "rangeWltpDrive": 55,
+          "fuelCode": "Electric",
+          "rangeCityWltpDrive": 58
+        }
+      ],
+      "grades": {
+        "INTERIOR": {
+          "value": 3,
+          "min": 1,
+          "max": 5
+        },
+        "TOTAL": {
+          "value": 3,
+          "min": 1,
+          "max": 5
+        },
+        "ENGINE_AND_GEARBOX": {
+          "value": 3,
+          "min": 1,
+          "max": 3
+        },
+        "EXTERIOR": {
+          "value": 3,
+          "min": 1,
+          "max": 5
+        },
+        "BRAKES": {
+          "value": 3,
+          "min": 1,
+          "max": 3
+        },
+        "TECHNOLOGY_AND_EQUIPMENT": {
+          "value": 2,
+          "min": 1,
+          "max": 3
+        }
+      },
+      "maxTrailerWeight": 1500,
+      "odometerReading": 68600,
+      "package": "Sport Line",
+      "initialTrafficDate": "2021-09-01",
+      "mustExport": false,
+      "manufactureMonth": "202106",
+      "ecoFriendly": true,
+      "deductibleVat": false,
+      "numberOfKeys": 2,
+      "registrationPlate": "GJF80R",
+      "numberOfPreviousOwners": 4,
+      "heavyEquipment": false,
+      "modelYear": 2021,
+      "height": 1442,
+      "gearbox": "Automatic",
+      "modelName": "330e xDrive Touring, G21 (292hk)",
+      "taxWeight": 2000,
+      "width": 1827,
+      "remarks": {
+        "INTERIOR": [
+          {
+            "key": "Repa på ratt, Klädsel skadad fram vänster",
+            "id": "0",
+            "category": "INTERIOR"
+          },
+          {
+            "key": "Smutsiga klädslar",
+            "id": "1",
+            "category": "INTERIOR"
+          }
+        ],
+        "ENGINE_AND_GEARBOX": [],
+        "EXTERIOR": [
+          {
+            "key": "Vänster bakljus kondens",
+            "id": "0",
+            "category": "EXTERIOR"
+          },
+          {
+            "key": "Flertal repor, bucklor och dörruppslag",
+            "id": "1",
+            "category": "EXTERIOR"
+          }
+        ],
+        "BRAKES": [],
+        "TECHNOLOGY_AND_EQUIPMENT": [
+          {
+            "key": "Strålkastare vänster, repa på glas/plast",
+            "id": "0",
+            "category": "TECHNOLOGY_AND_EQUIPMENT"
+          },
+          {
+            "key": "Mindre klonkande missljud framvagn",
+            "id": "1",
+            "category": "TECHNOLOGY_AND_EQUIPMENT"
+          }
+        ],
+        "TIRES": [
+          {
+            "key": "Däck, snedslitna",
+            "id": "0",
+            "category": "TIRES"
+          },
+          {
+            "key": "Däckpar extradäck, snedslitna",
+            "id": "1",
+            "category": "TIRES"
+          }
+        ]
+      },
+      "drivingBan": false,
       "remarksLocalized": {
         "TIRES": "Däck, snedslitna. Däckpar extradäck, snedslitna",
         "BRAKES": null,
@@ -584,140 +474,250 @@
         "ENGINE_AND_GEARBOX": null,
         "TECHNOLOGY_AND_EQUIPMENT": "Strålkastare vänster, repa på glas/plast. Mindre klonkande missljud framvagn"
       },
-      "width": 1827,
-      "battstatResult": {
-        "ranking": 3,
-        "sohPercent": 90,
-        "rankingRangeMin": 1,
-        "rankingRangeMax": 3
-      },
-      "body": "Wagon",
-      "exteriorColor": "Black",
-      "remarks": {
-        "TIRES": [
-          {
-            "category": "TIRES",
-            "id": "0",
-            "key": "Däck, snedslitna"
-          },
-          {
-            "category": "TIRES",
-            "id": "1",
-            "key": "Däckpar extradäck, snedslitna"
-          }
-        ],
-        "BRAKES": [],
-        "TECHNOLOGY_AND_EQUIPMENT": [
-          {
-            "category": "TECHNOLOGY_AND_EQUIPMENT",
-            "id": "0",
-            "key": "Strålkastare vänster, repa på glas/plast"
-          },
-          {
-            "category": "TECHNOLOGY_AND_EQUIPMENT",
-            "id": "1",
-            "key": "Mindre klonkande missljud framvagn"
-          }
-        ],
-        "ENGINE_AND_GEARBOX": [],
-        "INTERIOR": [
-          {
-            "category": "INTERIOR",
-            "id": "0",
-            "key": "Repa på ratt, Klädsel skadad fram vänster"
-          },
-          {
-            "category": "INTERIOR",
-            "id": "1",
-            "key": "Smutsiga klädslar"
-          }
-        ],
-        "EXTERIOR": [
-          {
-            "category": "EXTERIOR",
-            "id": "0",
-            "key": "Vänster bakljus kondens"
-          },
-          {
-            "category": "EXTERIOR",
-            "id": "1",
-            "key": "Flertal repor, bucklor och dörruppslag"
-          }
-        ]
-      },
-      "numberOfPreviousOwners": 4,
-      "adHeader": "330e xDrive Touring, G21 (292hk) Sport Line",
-      "fuels": [
-        {
-          "fuelCode": "Petrol",
-          "enginePower": 184
-        },
-        {
-          "fuelCode": "Electric",
-          "rangeCityWltpDrive": 58,
-          "rangeWltpDrive": 55,
-          "enginePower": 113
-        }
-      ],
-      "textile": "Delläder",
-      "maxTrailerWeight": 1500,
-      "maxPayload": 418,
-      "inspectionPeriod": "2026-09-24 - 2027-11-30",
-      "inspectionValidToDate": "2027-11-30",
-      "saleLimitedToCorporate": false,
-      "package": "Sport Line",
       "hasUnpaidLoan": true,
-      "heavyEquipment": false,
-      "residualLoanValue": 254540,
-      "brand": "BMW",
-      "gearbox": "Automatic",
-      "height": 1442,
-      "maxPullWeightB": 1075,
-      "length": 4709,
-      "electricType": "Plug-in hybrid",
-      "environmentalClassEuro": "6",
-      "curbWeight": 2007,
-      "drivingBan": false,
-      "initialTrafficDate": "2021-09-01",
-      "chassisNumber": "WBA6N7100MFL56158",
-      "familyName": "3-serien",
-      "finishType": "Solid",
-      "importedForPersonalUse": false,
-      "isRepairObject": false,
-      "title": "BMW 330e xDrive Touring, G21 (292hk)",
-      "odometerReading": 68600,
-      "modelName": "330e xDrive Touring, G21 (292hk)",
-      "modelYear": 2021,
-      "numberOfSeats": 5,
-      "registrationPlateCountry": "se",
       "registrationCountry": "se",
-      "taxFee": 360,
+      "importedForPersonalUse": false,
       "heading1": "BMW 3-serien",
       "heading2": "330e xDrive Touring, G21",
       "heading3": "Sport Line"
     },
-    "orderableAdditionalServices": {
-      "tradein": false,
-      "transport": true,
-      "insurance": true,
-      "finance": true,
-      "warranty": true,
-      "extraTires": false
+    "baseObject": {
+      "exteriorColor": "Black",
+      "registrationPlate": "GJF80R",
+      "year": "2021",
+      "body": "Wagon",
+      "authorityRegisterInformation": {
+        "additionalTechSpecification": {
+          "raceCar": null,
+          "wheelbase1": 2851,
+          "wheelbase2": null,
+          "wheelbase3": null,
+          "wheelbase4": null,
+          "equipment1": null,
+          "equipment2": null,
+          "equipment3": null,
+          "maximumSpeed": 225,
+          "numAxleShafts": 2,
+          "passengerAirBag": true,
+          "tyreDimensionRear": "225/50 R17 98 Y",
+          "tyreDimensionFront": "225/50 R17 98 Y",
+          "dualSteeringControl": null
+        },
+        "environmentalClassification": {
+          "fuels": [
+            {
+              "co2": "",
+              "nox": "",
+              "nox4": null,
+              "fuelCode": "Petrol",
+              "hcThcNox": "",
+              "consumption": "",
+              "noiseLevel": 68,
+              "emissionUnit": "g/km",
+              "innovationCo2": null,
+              "particleValue": "",
+              "particleMass4": null,
+              "consumptionUnit": "",
+              "rangeNedcDrive": null,
+              "rangeWltpDrive": null,
+              "consumptionUrban": "",
+              "rangeCityWltpDrive": null,
+              "consumptionExtraUrban": "",
+              "electricEnergyConsumption": null,
+              "energyConsumptionWltpDrive": null
+            },
+            {
+              "co2": 0,
+              "nox": "",
+              "nox4": null,
+              "fuelCode": "Electric",
+              "hcThcNox": "",
+              "consumption": "",
+              "noiseLevel": "",
+              "emissionUnit": "g/km",
+              "innovationCo2": null,
+              "particleValue": "",
+              "particleMass4": null,
+              "consumptionUnit": "",
+              "rangeNedcDrive": null,
+              "rangeWltpDrive": "55",
+              "consumptionUrban": "",
+              "rangeCityWltpDrive": "58",
+              "consumptionExtraUrban": "",
+              "electricEnergyConsumption": null,
+              "energyConsumptionWltpDrive": null
+            }
+          ],
+          "ecoFriendly": true,
+          "emissionClass": "LADDHYBRID",
+          "innovationCode": null,
+          "environmentalClass": "HYBRID",
+          "environmentalClassEuro": "6"
+        },
+        "vehicleStatus": {
+          "tax": 360
+        },
+        "registrationInformation": {
+          "registrationPlate": "GJF80R",
+          "deregistrationDate": null,
+          "deregistrationText": null,
+          "deregistrationReason": null
+        },
+        "generalTechSpecification": {
+          "eeg": "e1*2007/46*2017*05",
+          "fuels": [
+            {
+              "fuelCode": "Petrol",
+              "powerUnit": "EG",
+              "enginePower": 135,
+              "enginePowerHp": 184,
+              "fuelTankVolume": ""
+            },
+            {
+              "fuelCode": "Electric",
+              "powerUnit": "",
+              "enginePower": 83,
+              "enginePowerHp": 113,
+              "fuelTankVolume": ""
+            }
+          ],
+          "width": 1827,
+          "height": 1442,
+          "length": 4709,
+          "gearbox": "Automatic",
+          "variant": "6N71",
+          "version": "IAW50000",
+          "taxWeight": 2000,
+          "curbWeight": 2007,
+          "maxPayload": 418,
+          "totalWeight": 2425,
+          "chassisCode1": null,
+          "chassisCode2": null,
+          "cubicCapacity": "1998",
+          "numPassengers": "4",
+          "numberOfSeats": 5,
+          "fourWheelDrive": true,
+          "maxPullWeightB": 1075,
+          "clutchMechanism1": null,
+          "clutchMechanism2": null,
+          "maxTrailerWeight": 1500,
+          "chassisCodeSupplement": null,
+          "maxPullWieghtNoBreaks": null,
+          "maxPullWeightBExtended": null,
+          "maxSingle Axle TrailerWeight": null
+        },
+        "vehicleOrigin": {
+          "originCode": "INFÖRT",
+          "originCodeReason": null,
+          "importerIdentifier": null,
+          "preRegistrationDate": null,
+          "importRegistrationDate": null,
+          "importedForPersonalUse": false,
+          "importedPreviouslyRegistered": false
+        },
+        "vehicleInspectionInformation": {
+          "inspections": [
+            {
+              "inspectionType": "5",
+              "odometerReading": 43863,
+              "dateOfInspection": "2024-09-25"
+            },
+            {
+              "inspectionType": "13",
+              "odometerReading": null,
+              "dateOfInspection": "2021-06-23"
+            }
+          ],
+          "inspectionGroup": "36/24/14",
+          "odometerReading": 68402,
+          "inspectionPeriod": "2026-09-24 - 2027-11-30",
+          "dateOfInspection": "2026-09-24",
+          "inspectionValidToDate": "2027-11-30",
+          "inspectionExemptionGroup": null
+        },
+        "vehicleInformation": {
+          "vin": "WBA6N7100MFL56158",
+          "body": "AC",
+          "type": "CAR",
+          "year": "2021",
+          "model": "330E XDRIVE",
+          "rawType": "PB",
+          "modelYear": null,
+          "categoryEu": "e1*2007/46*2017*05",
+          "groupNumber": "BW 200045",
+          "modelNumber": "BW 000000",
+          "chassisNumber": "WBA6N7100MFL56158",
+          "exteriorColor": "Black",
+          "fabricAndMake": "BMW",
+          "baseObjectType": "CAR",
+          "manufactureCode": null,
+          "manufactureMonth": "202106",
+          "registrationDate": "2021-06-23",
+          "initialTrafficDate": "2021-09-01",
+          "registrationPlateReused": null
+        }
+      },
+      "brand": "BMW",
+      "id": "519439",
+      "fuels": [
+        {
+          "fuelCode": "Petrol",
+          "powerUnit": "EG",
+          "enginePower": 135,
+          "enginePowerHp": 184,
+          "fuelTankVolume": ""
+        },
+        {
+          "fuelCode": "Electric",
+          "powerUnit": "",
+          "enginePower": 83,
+          "enginePowerHp": 113,
+          "fuelTankVolume": ""
+        }
+      ],
+      "gearbox": "Automatic",
+      "fabricAndMake": "BMW",
+      "baseObjectType": "CAR",
+      "modelId": null,
+      "odometerReading": 68402,
+      "modelName": "330e xDrive Touring, G21 (292hk)",
+      "salesFlow": "CONSUMER_CARS",
+      "state": "PREPARING_SALES_AGREEMENT",
+      "odometerUnit": "km",
+      "earliestAvailableAt": null,
+      "registrationCountry": "se",
+      "createdAt": "2026-09-29T19:38:23.682597+00:00",
+      "familyName": "3-serien",
+      "technicalSpecification": {
+        "modelId": null,
+        "vehicle": {
+          "brand": "BMW",
+          "body": "Wagon",
+          "modelName": "330e xDrive Touring, G21 (292hk)",
+          "familyName": "3-serien"
+        },
+        "year": "2021"
+      }
     },
-    "offsiteSalesContact": null,
-    "leaseReturnProperties": {},
     "id": "7291186",
-    "displayCar360Spin": true,
+    "leaseReturnProperties": {},
+    "vehicleType": "CAR",
+    "presentationApproved": false,
+    "baseObjectId": "519439",
+    "isFixedPrice": false,
     "certified": false,
-    "sellMethod": "BIDDING",
-    "isReleasable": false,
-    "car360Spin": null,
+    "objectType": "CAR",
+    "state": "AUCTION_RESOLUTION",
+    "initialBuyNowAmount": null,
     "statisticalValuation": {
-      "bpGreen": null,
       "bpWhite": 289100,
       "marketPrice": 289100,
+      "bpGreen": null,
       "bpOrange": 289100
     },
+    "testDriveAllowed": true,
+    "buyNowAmount": null,
+    "isReleasable": false,
     "createdAt": "2026-10-06 11:02:38.022520+00:00",
     "exportable": true,
     "deductibleVat": false,
@@ -2321,6 +2321,6 @@
     "closedAt": "2026-10-29T10:07:19.484185+00:00",
     "updatedAt": "2026-10-29T10:07:19.587219+00:00"
   },
-  "_scraped_at": "2026-10-30T19:54:09.840690+00:00",
+  "_scraped_at": "2026-10-30T23:33:19.500441+00:00",
   "_url": "https://www.kvd.se/auktioner/bmw-330e-xdrive-touring-g21-292hk-309075"
 }

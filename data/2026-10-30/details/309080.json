@@ -44,235 +44,62 @@
   "eurBuyNowAmount": null,
   "winningBid": null,
   "processObject": {
-    "objectType": "LIGHT_TRUCK",
-    "buyNowAmount": null,
-    "reducedPrice": false,
-    "testDriveAllowed": true,
-    "isFixedPrice": false,
-    "baseObject": {
-      "gearbox": "Automatic",
-      "baseObjectType": "LIGHT_TRUCK",
-      "odometerReading": 239422,
-      "authorityRegisterInformation": {
-        "vehicleOrigin": {
-          "originCode": "INFÖRT",
-          "originCodeReason": null,
-          "importerIdentifier": null,
-          "preRegistrationDate": null,
-          "importRegistrationDate": null,
-          "importedForPersonalUse": false,
-          "importedPreviouslyRegistered": false
-        },
-        "generalTechSpecification": {
-          "eeg": "e1*2007/46*0130*25",
-          "fuels": [
-            {
-              "fuelCode": "Diesel",
-              "powerUnit": "EG",
-              "enginePower": 150,
-              "enginePowerHp": 204,
-              "fuelTankVolume": ""
-            }
-          ],
-          "width": 1904,
-          "height": 1970,
-          "length": 4904,
-          "gearbox": "Automatic",
-          "variant": "GCXEB300X0",
-          "version": "NNFD7BT0117NVR227MMG3TL6423",
-          "taxWeight": 3000,
-          "curbWeight": 2100,
-          "maxPayload": 900,
-          "totalWeight": 3000,
-          "chassisCode1": null,
-          "chassisCode2": null,
-          "cubicCapacity": "1968",
-          "numPassengers": "1",
-          "numberOfSeats": 2,
-          "fourWheelDrive": false,
-          "maxPullWeightB": 750,
-          "clutchMechanism1": null,
-          "clutchMechanism2": null,
-          "maxTrailerWeight": 2500,
-          "chassisCodeSupplement": null,
-          "maxPullWieghtNoBreaks": null,
-          "maxPullWeightBExtended": null,
-          "maxSingle Axle TrailerWeight": null
-        },
-        "environmentalClassification": {
-          "fuels": [
-            {
-              "co2": 166,
-              "nox": "",
-              "nox4": null,
-              "fuelCode": "Diesel",
-              "hcThcNox": "",
-              "consumption": 6.4,
-              "noiseLevel": 72,
-              "emissionUnit": "g/km",
-              "innovationCo2": null,
-              "particleValue": "",
-              "particleMass4": null,
-              "consumptionUnit": "6,4",
-              "rangeNedcDrive": null,
-              "rangeWltpDrive": null,
-              "consumptionUrban": 7.3,
-              "rangeCityWltpDrive": null,
-              "consumptionExtraUrban": 5.8,
-              "electricEnergyConsumption": null,
-              "energyConsumptionWltpDrive": null
-            }
-          ],
-          "ecoFriendly": false,
-          "emissionClass": "EURO 6",
-          "innovationCode": null,
-          "environmentalClass": null,
-          "environmentalClassEuro": "6"
-        },
-        "vehicleStatus": {
-          "tax": 3970
-        },
-        "vehicleInspectionInformation": {
-          "inspections": [
-            {
-              "inspectionType": "5",
-              "odometerReading": 239422,
-              "dateOfInspection": "2025-11-04"
-            },
-            {
-              "inspectionType": "5",
-              "odometerReading": 236220,
-              "dateOfInspection": "2025-10-06"
-            }
-          ],
-          "inspectionGroup": "36/24/14",
-          "odometerReading": 239422,
-          "inspectionPeriod": "2025-11-04 - 2027-01-31",
-          "dateOfInspection": "2025-11-04",
-          "inspectionValidToDate": "2027-01-31",
-          "inspectionExemptionGroup": null
-        },
-        "registrationInformation": {
-          "registrationPlate": "YGA123",
-          "deregistrationDate": null,
-          "deregistrationText": null,
-          "deregistrationReason": null
-        },
-        "vehicleInformation": {
-          "vin": "WV1ZZZ7HZHX007567",
-          "body": "BB",
-          "type": "LIGHT_TRUCK",
-          "year": "2016",
-          "model": "TRANSPORTER",
-          "rawType": "LB",
-          "modelYear": null,
-          "categoryEu": "e1*2007/46*0130*25",
-          "groupNumber": "VW 936217",
-          "modelNumber": "VW 000000",
-          "chassisNumber": "WV1ZZZ7HZHX007567",
-          "exteriorColor": "White",
-          "fabricAndMake": "VOLKSWAGEN, VW",
-          "baseObjectType": "LIGHT_TRUCK",
-          "manufactureCode": null,
-          "manufactureMonth": "201608",
-          "registrationDate": "2016-08-30",
-          "initialTrafficDate": "2016-09-16",
-          "registrationPlateReused": null
-        },
-        "additionalTechSpecification": {
-          "raceCar": null,
-          "wheelbase1": 3000,
-          "wheelbase2": null,
-          "wheelbase3": null,
-          "wheelbase4": null,
-          "equipment1": null,
-          "equipment2": null,
-          "equipment3": null,
-          "maximumSpeed": 203,
-          "numAxleShafts": 2,
-          "passengerAirBag": true,
-          "tyreDimensionRear": "215/60R17C109T(104H)",
-          "tyreDimensionFront": "215/60R17C109T(104H)",
-          "dualSteeringControl": null
-        }
-      },
-      "fuels": [
-        {
-          "fuelCode": "Diesel",
-          "powerUnit": "EG",
-          "enginePower": 150,
-          "enginePowerHp": 204,
-          "fuelTankVolume": ""
-        }
-      ],
-      "earliestAvailableAt": null,
-      "modelName": "Transporter T6 2.0 TDI BMT (204hk)",
-      "salesFlow": "CONSUMER_CARS",
-      "registrationPlate": "YGA123",
-      "state": "BUSINESS_PROPOSAL_DENIED",
-      "odometerUnit": "km",
-      "fabricAndMake": "VOLKSWAGEN, VW",
-      "registrationCountry": "se",
-      "id": "521702",
-      "familyName": "Transporter",
-      "modelId": null,
-      "year": "2017",
-      "createdAt": "2026-10-09T14:09:17.670967+00:00",
-      "brand": "Volkswagen",
-      "body": "Van",
-      "exteriorColor": "White",
-      "technicalSpecification": {
-        "modelId": null,
-        "vehicle": {
-          "brand": "Volkswagen",
-          "body": "Van",
-          "modelName": "Transporter T6 2.0 TDI BMT (204hk)",
-          "familyName": "Transporter"
-        },
-        "year": "2017"
-      }
+    "orderableAdditionalServices": {
+      "tradein": false,
+      "transport": true,
+      "insurance": true,
+      "finance": true,
+      "warranty": true,
+      "extraTires": false
     },
-    "vehicleType": "LIGHT_TRANSPORT",
-    "initialBuyNowAmount": null,
-    "baseObjectId": "521702",
-    "conditionClassification": "TESTED",
+    "car360Spin": null,
     "proactiveBrokering": null,
-    "presentationApproved": false,
-    "state": "AUCTION",
+    "displayCar360Spin": true,
+    "offsiteSalesContact": null,
+    "sellMethod": "BIDDING",
+    "reducedPrice": false,
+    "conditionClassification": "TESTED",
     "properties": {
-      "grades": {
-        "BRAKES": {
-          "max": 3,
-          "value": 2,
-          "min": 1
-        },
-        "TOTAL": {
-          "max": 5,
-          "value": 3,
-          "min": 1
-        },
-        "TECHNOLOGY_AND_EQUIPMENT": {
-          "max": 3,
-          "value": 2,
-          "min": 1
-        },
-        "ENGINE_AND_GEARBOX": {
-          "max": 3,
-          "value": 2,
-          "min": 1
-        },
-        "INTERIOR": {
-          "max": 5,
-          "value": 3,
-          "min": 1
-        },
-        "EXTERIOR": {
-          "max": 5,
-          "value": 3,
-          "min": 1
-        }
-      },
-      "numberOfKeys": 2,
+      "exteriorColor": "White",
+      "brand": "Volkswagen",
+      "mediation": true,
+      "curbWeight": 2100,
+      "maxPayload": 900,
+      "equipment": [
+        "AC",
+        "AUX-ingång",
+        "Bluetooth",
+        "CD-Stereo",
+        "Elhiss fram",
+        "Elspeglar",
+        "Farthållare",
+        "Fastmonterad dragkrok",
+        "Fjärrlås",
+        "GPS",
+        "LED-strålkastare",
+        "Parkeringsvärmare med fjärrstyrning",
+        "Parkeringsvärmare med tidur",
+        "Radio",
+        "Start/Stop-funktion",
+        "Stolsvärme fram",
+        "Urkopplingsbar passagerarairbag",
+        "USB-ingång"
+      ],
+      "inspectionValidToDate": "2027-01-31",
+      "odometerUnit": "km",
+      "length": 4904,
+      "finishType": "Solid",
+      "textile": "Textil",
+      "saleLimitedToCorporate": false,
+      "chassisNumber": "WV1ZZZ7HZHX007567",
+      "title": "VW Transporter T6 2.0 TDI BMT (204hk)",
+      "dateOfInspection": "2025-11-04",
+      "inspectionPeriod": "2025-11-04 - 2027-01-31",
+      "totalWeight": 3000,
+      "registrationPlateCountry": "se",
+      "exportable": true,
+      "residualLoanValue": 44689,
+      "taxFee": 3970,
       "formattedEquipment": [
         {
           "key": "AC",
@@ -383,38 +210,169 @@
           "priority": 17
         }
       ],
-      "exportable": true,
-      "mustExport": false,
-      "deductibleVat": false,
-      "manufactureMonth": "201608",
-      "totalWeight": 3000,
-      "dateOfInspection": "2025-11-04",
-      "registrationPlate": "YGA123",
-      "equipment": [
-        "AC",
-        "AUX-ingång",
-        "Bluetooth",
-        "CD-Stereo",
-        "Elhiss fram",
-        "Elspeglar",
-        "Farthållare",
-        "Fastmonterad dragkrok",
-        "Fjärrlås",
-        "GPS",
-        "LED-strålkastare",
-        "Parkeringsvärmare med fjärrstyrning",
-        "Parkeringsvärmare med tidur",
-        "Radio",
-        "Start/Stop-funktion",
-        "Stolsvärme fram",
-        "Urkopplingsbar passagerarairbag",
-        "USB-ingång"
-      ],
-      "taxWeight": 3000,
-      "odometerUnit": "km",
-      "mediation": true,
-      "ecoFriendly": false,
+      "familyName": "Transporter",
+      "environmentalClassEuro": "6",
       "towbar": true,
+      "isRepairObject": false,
+      "body": "Van",
+      "numberOfSeats": 2,
+      "maxPullWeightB": 750,
+      "fuels": [
+        {
+          "enginePower": 204,
+          "consumption": 6.4,
+          "co2": 166,
+          "fuelCode": "Diesel"
+        }
+      ],
+      "grades": {
+        "INTERIOR": {
+          "value": 3,
+          "min": 1,
+          "max": 5
+        },
+        "TOTAL": {
+          "value": 3,
+          "min": 1,
+          "max": 5
+        },
+        "ENGINE_AND_GEARBOX": {
+          "value": 2,
+          "min": 1,
+          "max": 3
+        },
+        "EXTERIOR": {
+          "value": 3,
+          "min": 1,
+          "max": 5
+        },
+        "BRAKES": {
+          "value": 2,
+          "min": 1,
+          "max": 3
+        },
+        "TECHNOLOGY_AND_EQUIPMENT": {
+          "value": 2,
+          "min": 1,
+          "max": 3
+        }
+      },
+      "maxTrailerWeight": 2500,
+      "odometerReading": 250910,
+      "initialTrafficDate": "2016-09-16",
+      "mustExport": false,
+      "manufactureMonth": "201608",
+      "ecoFriendly": false,
+      "deductibleVat": false,
+      "numberOfKeys": 2,
+      "registrationPlate": "YGA123",
+      "numberOfPreviousOwners": 4,
+      "heavyEquipment": false,
+      "modelYear": 2017,
+      "height": 1970,
+      "gearbox": "Automatic",
+      "modelName": "Transporter T6 2.0 TDI BMT (204hk)",
+      "taxWeight": 3000,
+      "width": 1904,
+      "remarks": {
+        "INTERIOR": [
+          {
+            "key": "Trasiga inredningsdetaljer",
+            "id": "0",
+            "category": "INTERIOR"
+          }
+        ],
+        "ENGINE_AND_GEARBOX": [
+          {
+            "key": "Ojämn tomgång",
+            "id": "0",
+            "category": "ENGINE_AND_GEARBOX"
+          },
+          {
+            "key": "Vibrationer i drivlinan",
+            "id": "1",
+            "category": "ENGINE_AND_GEARBOX"
+          },
+          {
+            "key": "Drivlinan hugger/rycker",
+            "id": "2",
+            "category": "ENGINE_AND_GEARBOX"
+          },
+          {
+            "key": "Oljeläckage",
+            "id": "3",
+            "category": "ENGINE_AND_GEARBOX"
+          },
+          {
+            "key": "Vibrerar till något mer än normalt i underredet när man startar bilen",
+            "id": "4",
+            "category": "ENGINE_AND_GEARBOX"
+          },
+          {
+            "key": "Kraftiga avgaslukt i bilen",
+            "id": "5",
+            "category": "ENGINE_AND_GEARBOX"
+          }
+        ],
+        "EXTERIOR": [
+          {
+            "key": "Plastdetaljer saknas stötfångare fram",
+            "id": "0",
+            "category": "EXTERIOR"
+          },
+          {
+            "key": "Skada på stötfångaren bak",
+            "id": "1",
+            "category": "EXTERIOR"
+          },
+          {
+            "key": "Karosskada höger sidospegel, Spricka i bakljus vänster sida",
+            "id": "2",
+            "category": "EXTERIOR"
+          },
+          {
+            "key": "Övre bromsljus skada",
+            "id": "3",
+            "category": "EXTERIOR"
+          },
+          {
+            "key": "Flertal bucklor och rostangrepp, Plastkåpa under bil skadad, Lås bak, skadat",
+            "id": "4",
+            "category": "EXTERIOR"
+          },
+          {
+            "key": "Sidospegel vänster skadades efter tvätt",
+            "id": "5",
+            "category": "EXTERIOR"
+          }
+        ],
+        "BRAKES": [
+          {
+            "key": "Vibrerar vid inbromsning",
+            "id": "0",
+            "category": "BRAKES"
+          }
+        ],
+        "TECHNOLOGY_AND_EQUIPMENT": [
+          {
+            "key": "Spricka i vindruta",
+            "id": "0",
+            "category": "TECHNOLOGY_AND_EQUIPMENT"
+          },
+          {
+            "key": "Drivknutsdamask vänster fram skadad",
+            "id": "1",
+            "category": "TECHNOLOGY_AND_EQUIPMENT"
+          },
+          {
+            "key": "AC fungerar men kyler dåligt",
+            "id": "2",
+            "category": "TECHNOLOGY_AND_EQUIPMENT"
+          }
+        ],
+        "TIRES": []
+      },
+      "drivingBan": false,
       "remarksLocalized": {
         "TIRES": null,
         "BRAKES": "Vibrerar vid inbromsning",
@@ -423,173 +381,215 @@
         "ENGINE_AND_GEARBOX": "Ojämn tomgång. Vibrationer i drivlinan. Drivlinan hugger/rycker. Oljeläckage. Vibrerar till något mer än normalt i underredet när man startar bilen. Kraftiga avgaslukt i bilen",
         "TECHNOLOGY_AND_EQUIPMENT": "Spricka i vindruta. Drivknutsdamask vänster fram skadad. AC fungerar men kyler dåligt"
       },
-      "width": 1904,
-      "body": "Van",
-      "exteriorColor": "White",
-      "remarks": {
-        "TIRES": [],
-        "BRAKES": [
-          {
-            "category": "BRAKES",
-            "id": "0",
-            "key": "Vibrerar vid inbromsning"
-          }
-        ],
-        "TECHNOLOGY_AND_EQUIPMENT": [
-          {
-            "category": "TECHNOLOGY_AND_EQUIPMENT",
-            "id": "0",
-            "key": "Spricka i vindruta"
-          },
-          {
-            "category": "TECHNOLOGY_AND_EQUIPMENT",
-            "id": "1",
-            "key": "Drivknutsdamask vänster fram skadad"
-          },
-          {
-            "category": "TECHNOLOGY_AND_EQUIPMENT",
-            "id": "2",
-            "key": "AC fungerar men kyler dåligt"
-          }
-        ],
-        "ENGINE_AND_GEARBOX": [
-          {
-            "category": "ENGINE_AND_GEARBOX",
-            "id": "0",
-            "key": "Ojämn tomgång"
-          },
-          {
-            "category": "ENGINE_AND_GEARBOX",
-            "id": "1",
-            "key": "Vibrationer i drivlinan"
-          },
-          {
-            "category": "ENGINE_AND_GEARBOX",
-            "id": "2",
-            "key": "Drivlinan hugger/rycker"
-          },
-          {
-            "category": "ENGINE_AND_GEARBOX",
-            "id": "3",
-            "key": "Oljeläckage"
-          },
-          {
-            "category": "ENGINE_AND_GEARBOX",
-            "id": "4",
-            "key": "Vibrerar till något mer än normalt i underredet när man startar bilen"
-          },
-          {
-            "category": "ENGINE_AND_GEARBOX",
-            "id": "5",
-            "key": "Kraftiga avgaslukt i bilen"
-          }
-        ],
-        "INTERIOR": [
-          {
-            "category": "INTERIOR",
-            "id": "0",
-            "key": "Trasiga inredningsdetaljer"
-          }
-        ],
-        "EXTERIOR": [
-          {
-            "category": "EXTERIOR",
-            "id": "0",
-            "key": "Plastdetaljer saknas stötfångare fram"
-          },
-          {
-            "category": "EXTERIOR",
-            "id": "1",
-            "key": "Skada på stötfångaren bak"
-          },
-          {
-            "category": "EXTERIOR",
-            "id": "2",
-            "key": "Karosskada höger sidospegel, Spricka i bakljus vänster sida"
-          },
-          {
-            "category": "EXTERIOR",
-            "id": "3",
-            "key": "Övre bromsljus skada"
-          },
-          {
-            "category": "EXTERIOR",
-            "id": "4",
-            "key": "Flertal bucklor och rostangrepp, Plastkåpa under bil skadad, Lås bak, skadat"
-          },
-          {
-            "category": "EXTERIOR",
-            "id": "5",
-            "key": "Sidospegel vänster skadades efter tvätt"
-          }
-        ]
-      },
-      "numberOfPreviousOwners": 4,
-      "fuels": [
-        {
-          "fuelCode": "Diesel",
-          "co2": 166,
-          "consumption": 6.4,
-          "enginePower": 204
-        }
-      ],
-      "textile": "Textil",
-      "maxTrailerWeight": 2500,
-      "maxPayload": 900,
-      "inspectionPeriod": "2025-11-04 - 2027-01-31",
-      "inspectionValidToDate": "2027-01-31",
-      "saleLimitedToCorporate": false,
       "hasUnpaidLoan": true,
-      "heavyEquipment": false,
-      "residualLoanValue": 44689,
-      "brand": "Volkswagen",
-      "gearbox": "Automatic",
-      "height": 1970,
-      "maxPullWeightB": 750,
-      "length": 4904,
-      "environmentalClassEuro": "6",
-      "curbWeight": 2100,
-      "drivingBan": false,
-      "initialTrafficDate": "2016-09-16",
-      "chassisNumber": "WV1ZZZ7HZHX007567",
-      "familyName": "Transporter",
-      "finishType": "Solid",
-      "importedForPersonalUse": false,
-      "isRepairObject": false,
-      "title": "VW Transporter T6 2.0 TDI BMT (204hk)",
-      "odometerReading": 250910,
-      "modelName": "Transporter T6 2.0 TDI BMT (204hk)",
-      "modelYear": 2017,
-      "numberOfSeats": 2,
-      "registrationPlateCountry": "se",
       "registrationCountry": "se",
-      "taxFee": 3970,
+      "importedForPersonalUse": false,
       "heading1": "Volkswagen Transporter",
       "heading2": "T6 2.0 TDI BMT",
       "heading3": null
     },
-    "orderableAdditionalServices": {
-      "tradein": false,
-      "transport": true,
-      "insurance": true,
-      "finance": true,
-      "warranty": true,
-      "extraTires": false
+    "baseObject": {
+      "exteriorColor": "White",
+      "registrationPlate": "YGA123",
+      "year": "2017",
+      "body": "Van",
+      "authorityRegisterInformation": {
+        "additionalTechSpecification": {
+          "raceCar": null,
+          "wheelbase1": 3000,
+          "wheelbase2": null,
+          "wheelbase3": null,
+          "wheelbase4": null,
+          "equipment1": null,
+          "equipment2": null,
+          "equipment3": null,
+          "maximumSpeed": 203,
+          "numAxleShafts": 2,
+          "passengerAirBag": true,
+          "tyreDimensionRear": "215/60R17C109T(104H)",
+          "tyreDimensionFront": "215/60R17C109T(104H)",
+          "dualSteeringControl": null
+        },
+        "environmentalClassification": {
+          "fuels": [
+            {
+              "co2": 166,
+              "nox": "",
+              "nox4": null,
+              "fuelCode": "Diesel",
+              "hcThcNox": "",
+              "consumption": 6.4,
+              "noiseLevel": 72,
+              "emissionUnit": "g/km",
+              "innovationCo2": null,
+              "particleValue": "",
+              "particleMass4": null,
+              "consumptionUnit": "6,4",
+              "rangeNedcDrive": null,
+              "rangeWltpDrive": null,
+              "consumptionUrban": 7.3,
+              "rangeCityWltpDrive": null,
+              "consumptionExtraUrban": 5.8,
+              "electricEnergyConsumption": null,
+              "energyConsumptionWltpDrive": null
+            }
+          ],
+          "ecoFriendly": false,
+          "emissionClass": "EURO 6",
+          "innovationCode": null,
+          "environmentalClass": null,
+          "environmentalClassEuro": "6"
+        },
+        "vehicleStatus": {
+          "tax": 3970
+        },
+        "registrationInformation": {
+          "registrationPlate": "YGA123",
+          "deregistrationDate": null,
+          "deregistrationText": null,
+          "deregistrationReason": null
+        },
+        "generalTechSpecification": {
+          "eeg": "e1*2007/46*0130*25",
+          "fuels": [
+            {
+              "fuelCode": "Diesel",
+              "powerUnit": "EG",
+              "enginePower": 150,
+              "enginePowerHp": 204,
+              "fuelTankVolume": ""
+            }
+          ],
+          "width": 1904,
+          "height": 1970,
+          "length": 4904,
+          "gearbox": "Automatic",
+          "variant": "GCXEB300X0",
+          "version": "NNFD7BT0117NVR227MMG3TL6423",
+          "taxWeight": 3000,
+          "curbWeight": 2100,
+          "maxPayload": 900,
+          "totalWeight": 3000,
+          "chassisCode1": null,
+          "chassisCode2": null,
+          "cubicCapacity": "1968",
+          "numPassengers": "1",
+          "numberOfSeats": 2,
+          "fourWheelDrive": false,
+          "maxPullWeightB": 750,
+          "clutchMechanism1": null,
+          "clutchMechanism2": null,
+          "maxTrailerWeight": 2500,
+          "chassisCodeSupplement": null,
+          "maxPullWieghtNoBreaks": null,
+          "maxPullWeightBExtended": null,
+          "maxSingle Axle TrailerWeight": null
+        },
+        "vehicleOrigin": {
+          "originCode": "INFÖRT",
+          "originCodeReason": null,
+          "importerIdentifier": null,
+          "preRegistrationDate": null,
+          "importRegistrationDate": null,
+          "importedForPersonalUse": false,
+          "importedPreviouslyRegistered": false
+        },
+        "vehicleInspectionInformation": {
+          "inspections": [
+            {
+              "inspectionType": "5",
+              "odometerReading": 239422,
+              "dateOfInspection": "2025-11-04"
+            },
+            {
+              "inspectionType": "5",
+              "odometerReading": 236220,
+              "dateOfInspection": "2025-10-06"
+            }
+          ],
+          "inspectionGroup": "36/24/14",
+          "odometerReading": 239422,
+          "inspectionPeriod": "2025-11-04 - 2027-01-31",
+          "dateOfInspection": "2025-11-04",
+          "inspectionValidToDate": "2027-01-31",
+          "inspectionExemptionGroup": null
+        },
+        "vehicleInformation": {
+          "vin": "WV1ZZZ7HZHX007567",
+          "body": "BB",
+          "type": "LIGHT_TRUCK",
+          "year": "2016",
+          "model": "TRANSPORTER",
+          "rawType": "LB",
+          "modelYear": null,
+          "categoryEu": "e1*2007/46*0130*25",
+          "groupNumber": "VW 936217",
+          "modelNumber": "VW 000000",
+          "chassisNumber": "WV1ZZZ7HZHX007567",
+          "exteriorColor": "White",
+          "fabricAndMake": "VOLKSWAGEN, VW",
+          "baseObjectType": "LIGHT_TRUCK",
+          "manufactureCode": null,
+          "manufactureMonth": "201608",
+          "registrationDate": "2016-08-30",
+          "initialTrafficDate": "2016-09-16",
+          "registrationPlateReused": null
+        }
+      },
+      "brand": "Volkswagen",
+      "id": "521702",
+      "fuels": [
+        {
+          "fuelCode": "Diesel",
+          "powerUnit": "EG",
+          "enginePower": 150,
+          "enginePowerHp": 204,
+          "fuelTankVolume": ""
+        }
+      ],
+      "gearbox": "Automatic",
+      "fabricAndMake": "VOLKSWAGEN, VW",
+      "baseObjectType": "LIGHT_TRUCK",
+      "modelId": null,
+      "odometerReading": 239422,
+      "modelName": "Transporter T6 2.0 TDI BMT (204hk)",
+      "salesFlow": "CONSUMER_CARS",
+      "state": "BUSINESS_PROPOSAL_DENIED",
+      "odometerUnit": "km",
+      "earliestAvailableAt": null,
+      "registrationCountry": "se",
+      "createdAt": "2026-10-09T14:09:17.670967+00:00",
+      "familyName": "Transporter",
+      "technicalSpecification": {
+        "modelId": null,
+        "vehicle": {
+          "brand": "Volkswagen",
+          "body": "Van",
+          "modelName": "Transporter T6 2.0 TDI BMT (204hk)",
+          "familyName": "Transporter"
+        },
+        "year": "2017"
+      }
     },
-    "offsiteSalesContact": null,
-    "leaseReturnProperties": {},
     "id": "7291916",
-    "displayCar360Spin": true,
+    "leaseReturnProperties": {},
+    "vehicleType": "LIGHT_TRANSPORT",
+    "presentationApproved": false,
+    "baseObjectId": "521702",
+    "isFixedPrice": false,
     "certified": false,
-    "sellMethod": "BIDDING",
-    "isReleasable": false,
-    "car360Spin": null,
+    "objectType": "LIGHT_TRUCK",
+    "state": "AUCTION",
+    "initialBuyNowAmount": null,
     "statisticalValuation": {
-      "bpGreen": null,
       "bpWhite": 176098,
       "marketPrice": 176098,
+      "bpGreen": null,
       "bpOrange": 176098
     },
+    "testDriveAllowed": true,
+    "buyNowAmount": null,
+    "isReleasable": false,
     "createdAt": "2026-10-12 12:32:01.629000+00:00",
     "exportable": true,
     "deductibleVat": false,
@@ -1800,6 +1800,6 @@
     "closedAt": "2026-10-29T09:00:00.009772+00:00",
     "updatedAt": "2026-10-30T09:44:02.650238+00:00"
   },
-  "_scraped_at": "2026-10-30T19:54:02.720116+00:00",
+  "_scraped_at": "2026-10-30T23:33:12.149258+00:00",
   "_url": "https://www.kvd.se/auktioner/vw-transporter-t6-2-0-tdi-bmt-204hk-309080"
 }
