@@ -55,61 +55,249 @@
     "evaluationType": "AUTOMATIC"
   },
   "processObject": {
-    "orderableAdditionalServices": {
-      "tradein": false,
-      "transport": true,
-      "insurance": true,
-      "finance": true,
-      "warranty": true,
-      "extraTires": false
-    },
-    "car360Spin": null,
-    "proactiveBrokering": null,
-    "displayCar360Spin": true,
-    "offsiteSalesContact": null,
-    "sellMethod": "BIDDING",
+    "objectType": "LIGHT_TRUCK",
+    "buyNowAmount": null,
     "reducedPrice": false,
-    "conditionClassification": "TESTED",
-    "properties": {
-      "adHeader": "Doblo Cargo 1.4T CNG 120hk Verkstadsinredning Drag",
-      "exteriorColor": "Grey",
-      "brand": "Fiat",
-      "mediation": true,
-      "curbWeight": 1693,
-      "maxPayload": 787,
-      "equipment": [
-        "AC",
-        "Antisladdsystem",
-        "Backkamera",
-        "Bluetooth",
-        "Elhiss fram",
-        "Elspeglar",
-        "Farthållare",
-        "Fastmonterad dragkrok",
-        "Fjärrlås",
-        "Parkeringssensorer bak",
-        "Radio",
-        "Regnsensor",
-        "Stolsvärme fram",
-        "Urkopplingsbar passagerarairbag",
-        "USB-ingång",
-        "Verkstads inr."
+    "testDriveAllowed": true,
+    "isFixedPrice": false,
+    "baseObject": {
+      "gearbox": "Manual",
+      "baseObjectType": "LIGHT_TRUCK",
+      "odometerReading": null,
+      "authorityRegisterInformation": {
+        "vehicleOrigin": {
+          "originCode": "INFÖRT",
+          "originCodeReason": null,
+          "importerIdentifier": null,
+          "preRegistrationDate": null,
+          "importRegistrationDate": null,
+          "importedForPersonalUse": false,
+          "importedPreviouslyRegistered": false
+        },
+        "generalTechSpecification": {
+          "eeg": "e3*2007/46*0002*48",
+          "fuels": [
+            {
+              "fuelCode": "Petrol",
+              "powerUnit": "EG",
+              "enginePower": 88,
+              "enginePowerHp": 120,
+              "fuelTankVolume": ""
+            },
+            {
+              "fuelCode": "Methane",
+              "powerUnit": "EG",
+              "enginePower": 88,
+              "enginePowerHp": 120,
+              "fuelTankVolume": ""
+            }
+          ],
+          "width": 1832,
+          "height": 1880,
+          "length": 4756,
+          "gearbox": "Manual",
+          "variant": "WXG1B",
+          "version": "BR3FN",
+          "taxWeight": 2480,
+          "curbWeight": 1693,
+          "maxPayload": 787,
+          "totalWeight": 2480,
+          "chassisCode1": null,
+          "chassisCode2": null,
+          "cubicCapacity": "1368",
+          "numPassengers": "2",
+          "numberOfSeats": 3,
+          "fourWheelDrive": false,
+          "maxPullWeightB": 1020,
+          "clutchMechanism1": null,
+          "clutchMechanism2": null,
+          "maxTrailerWeight": null,
+          "chassisCodeSupplement": null,
+          "maxPullWieghtNoBreaks": null,
+          "maxPullWeightBExtended": null,
+          "maxSingle Axle TrailerWeight": null
+        },
+        "environmentalClassification": {
+          "fuels": [
+            {
+              "co2": 211,
+              "nox": "",
+              "nox4": null,
+              "fuelCode": "Petrol",
+              "hcThcNox": "",
+              "consumption": 9.3,
+              "noiseLevel": 73,
+              "emissionUnit": "g/km",
+              "innovationCo2": null,
+              "particleValue": "",
+              "particleMass4": null,
+              "consumptionUnit": "9,3",
+              "rangeNedcDrive": null,
+              "rangeWltpDrive": null,
+              "consumptionUrban": 16.1,
+              "rangeCityWltpDrive": null,
+              "consumptionExtraUrban": 7.6,
+              "electricEnergyConsumption": null,
+              "energyConsumptionWltpDrive": null
+            }
+          ],
+          "ecoFriendly": false,
+          "emissionClass": "EURO 6",
+          "innovationCode": null,
+          "environmentalClass": null,
+          "environmentalClassEuro": "6"
+        },
+        "vehicleStatus": {
+          "tax": 1064
+        },
+        "vehicleInspectionInformation": {
+          "inspections": [
+            {
+              "inspectionType": "5",
+              "odometerReading": 115328,
+              "dateOfInspection": "2026-06-10"
+            },
+            {
+              "inspectionType": "5",
+              "odometerReading": 84631,
+              "dateOfInspection": "2024-06-13"
+            }
+          ],
+          "inspectionGroup": "36/24/14",
+          "odometerReading": 115328,
+          "inspectionPeriod": "2026-06-10 - 2027-08-31",
+          "dateOfInspection": "2026-06-10",
+          "inspectionValidToDate": "2027-08-31",
+          "inspectionExemptionGroup": null
+        },
+        "registrationInformation": {
+          "registrationPlate": "DZK36D",
+          "deregistrationDate": null,
+          "deregistrationText": null,
+          "deregistrationReason": null
+        },
+        "vehicleInformation": {
+          "vin": "ZFA26300006T98840",
+          "body": "BB",
+          "type": "LIGHT_TRUCK",
+          "year": "2021",
+          "model": "FIAT DOBLO",
+          "rawType": "LB",
+          "modelYear": null,
+          "categoryEu": "e3*2007/46*0002*48",
+          "groupNumber": "FI 904109",
+          "modelNumber": "FI 000000",
+          "chassisNumber": "ZFA26300006T98840",
+          "exteriorColor": "Grey",
+          "fabricAndMake": "FIAT",
+          "baseObjectType": "LIGHT_TRUCK",
+          "manufactureCode": null,
+          "manufactureMonth": "202102",
+          "registrationDate": "2021-02-01",
+          "initialTrafficDate": "2021-05-12",
+          "registrationPlateReused": null
+        },
+        "additionalTechSpecification": {
+          "raceCar": null,
+          "wheelbase1": 3105,
+          "wheelbase2": null,
+          "wheelbase3": null,
+          "wheelbase4": null,
+          "equipment1": null,
+          "equipment2": null,
+          "equipment3": null,
+          "maximumSpeed": 172,
+          "numAxleShafts": 2,
+          "passengerAirBag": true,
+          "tyreDimensionRear": "195/60R16 C 99/97T -",
+          "tyreDimensionFront": "195/60R16 C 99/97T -",
+          "dualSteeringControl": null
+        }
+      },
+      "fuels": [
+        {
+          "fuelCode": "Petrol",
+          "powerUnit": "EG",
+          "enginePower": 88,
+          "enginePowerHp": 120,
+          "fuelTankVolume": ""
+        },
+        {
+          "fuelCode": "Methane",
+          "powerUnit": "EG",
+          "enginePower": 88,
+          "enginePowerHp": 120,
+          "fuelTankVolume": ""
+        }
       ],
-      "inspectionValidToDate": "2027-08-31",
+      "earliestAvailableAt": null,
+      "modelName": "Doblo Cargo 1.4T CNG (120hk)",
+      "salesFlow": "CORPORATE_CARS",
+      "registrationPlate": "DZK36D",
+      "state": "MANUAL_VALUATION_PENDING",
       "odometerUnit": "km",
-      "length": 4756,
-      "finishType": "Metallic",
-      "textile": "Textil",
-      "saleLimitedToCorporate": false,
-      "chassisNumber": "ZFA26300006T98840",
-      "title": "Fiat Doblo Cargo 1.4T CNG (120hk)",
-      "dateOfInspection": "2026-06-10",
-      "inspectionPeriod": "2026-06-10 - 2027-08-31",
-      "totalWeight": 2480,
-      "registrationPlateCountry": "se",
-      "exportable": true,
-      "residualLoanValue": 0,
-      "taxFee": 1064,
+      "fabricAndMake": "FIAT",
+      "registrationCountry": "se",
+      "id": "521642",
+      "familyName": "Doblo",
+      "modelId": null,
+      "year": "2021",
+      "createdAt": "2026-10-09T10:26:21.133355+00:00",
+      "brand": "Fiat",
+      "body": "Van",
+      "exteriorColor": "Grey",
+      "technicalSpecification": {
+        "modelId": null,
+        "vehicle": {
+          "brand": "Fiat",
+          "body": "Van",
+          "modelName": "Doblo Cargo 1.4T CNG (120hk)",
+          "familyName": "Doblo"
+        },
+        "year": "2021"
+      }
+    },
+    "vehicleType": "LIGHT_TRANSPORT",
+    "initialBuyNowAmount": null,
+    "baseObjectId": "521642",
+    "conditionClassification": "TESTED",
+    "proactiveBrokering": null,
+    "presentationApproved": false,
+    "state": "COMPLETED",
+    "properties": {
+      "grades": {
+        "BRAKES": {
+          "max": 3,
+          "value": 2,
+          "min": 1
+        },
+        "TOTAL": {
+          "max": 5,
+          "value": 3,
+          "min": 1
+        },
+        "TECHNOLOGY_AND_EQUIPMENT": {
+          "max": 3,
+          "value": 2,
+          "min": 1
+        },
+        "ENGINE_AND_GEARBOX": {
+          "max": 3,
+          "value": 3,
+          "min": 1
+        },
+        "INTERIOR": {
+          "max": 5,
+          "value": 3,
+          "min": 1
+        },
+        "EXTERIOR": {
+          "max": 5,
+          "value": 3,
+          "min": 1
+        }
+      },
+      "numberOfKeys": 2,
       "formattedEquipment": [
         {
           "key": "AC",
@@ -208,144 +396,36 @@
           "priority": 15
         }
       ],
-      "familyName": "Doblo",
-      "environmentalClassEuro": "6",
-      "towbar": true,
-      "isRepairObject": false,
-      "body": "Van",
-      "numberOfSeats": 3,
-      "maxPullWeightB": 1020,
-      "fuels": [
-        {
-          "enginePower": 120,
-          "consumption": 9.3,
-          "co2": 211,
-          "fuelCode": "Petrol"
-        },
-        {
-          "enginePower": 120,
-          "consumption": 9.1,
-          "co2": 164,
-          "fuelCode": "Methane"
-        }
-      ],
-      "grades": {
-        "INTERIOR": {
-          "value": 3,
-          "min": 1,
-          "max": 5
-        },
-        "TOTAL": {
-          "value": 3,
-          "min": 1,
-          "max": 5
-        },
-        "ENGINE_AND_GEARBOX": {
-          "value": 3,
-          "min": 1,
-          "max": 3
-        },
-        "EXTERIOR": {
-          "value": 3,
-          "min": 1,
-          "max": 5
-        },
-        "BRAKES": {
-          "value": 2,
-          "min": 1,
-          "max": 3
-        },
-        "TECHNOLOGY_AND_EQUIPMENT": {
-          "value": 2,
-          "min": 1,
-          "max": 3
-        }
-      },
-      "odometerReading": 120720,
-      "package": "Verkstadsinredning Drag",
-      "initialTrafficDate": "2021-05-12",
+      "exportable": true,
       "mustExport": false,
-      "manufactureMonth": "202102",
-      "ecoFriendly": false,
       "deductibleVat": true,
-      "numberOfKeys": 2,
+      "manufactureMonth": "202102",
+      "totalWeight": 2480,
+      "dateOfInspection": "2026-06-10",
       "registrationPlate": "DZK36D",
-      "numberOfPreviousOwners": 3,
-      "heavyEquipment": false,
-      "modelYear": 2021,
-      "height": 1880,
-      "gearbox": "Manual",
-      "modelName": "Doblo Cargo 1.4T CNG (120hk)",
+      "equipment": [
+        "AC",
+        "Antisladdsystem",
+        "Backkamera",
+        "Bluetooth",
+        "Elhiss fram",
+        "Elspeglar",
+        "Farthållare",
+        "Fastmonterad dragkrok",
+        "Fjärrlås",
+        "Parkeringssensorer bak",
+        "Radio",
+        "Regnsensor",
+        "Stolsvärme fram",
+        "Urkopplingsbar passagerarairbag",
+        "USB-ingång",
+        "Verkstads inr."
+      ],
       "taxWeight": 2480,
-      "width": 1832,
-      "remarks": {
-        "INTERIOR": [
-          {
-            "key": "Invändigt flertal repor, fläckar och märken",
-            "id": "0",
-            "category": "INTERIOR"
-          }
-        ],
-        "ENGINE_AND_GEARBOX": [],
-        "EXTERIOR": [
-          {
-            "key": "Stenskott i vindruta",
-            "id": "0",
-            "category": "EXTERIOR"
-          },
-          {
-            "key": "Skada höger sidoblinkers",
-            "id": "1",
-            "category": "EXTERIOR"
-          },
-          {
-            "key": "Flertal stenskott, bucklor och repor, Kaross, några spruckna/skadade plastdetaljer, Fåtal lackskador och rostangrepp",
-            "id": "2",
-            "category": "EXTERIOR"
-          },
-          {
-            "key": "Lås bak, skadat",
-            "id": "3",
-            "category": "EXTERIOR"
-          },
-          {
-            "key": "Dörrstopp höger bakdörr borta",
-            "id": "4",
-            "category": "EXTERIOR"
-          }
-        ],
-        "BRAKES": [
-          {
-            "key": "Rostkant på bromsskivorna fram",
-            "id": "0",
-            "category": "BRAKES"
-          },
-          {
-            "key": "Bromsvätskan väldigt mörk",
-            "id": "1",
-            "category": "BRAKES"
-          }
-        ],
-        "TECHNOLOGY_AND_EQUIPMENT": [
-          {
-            "key": "Backsensor ur funktion, Kupéfläkt, missljud",
-            "id": "0",
-            "category": "TECHNOLOGY_AND_EQUIPMENT"
-          },
-          {
-            "key": "Stolsvärme förarplats, ur funktion",
-            "id": "1",
-            "category": "TECHNOLOGY_AND_EQUIPMENT"
-          },
-          {
-            "key": "Ratt står snett, hjulinställning rekommenderas, Lås vänster, skadat",
-            "id": "2",
-            "category": "TECHNOLOGY_AND_EQUIPMENT"
-          }
-        ],
-        "TIRES": []
-      },
-      "drivingBan": false,
+      "odometerUnit": "km",
+      "mediation": true,
+      "ecoFriendly": false,
+      "towbar": true,
       "remarksLocalized": {
         "TIRES": null,
         "BRAKES": "Rostkant på bromsskivorna fram. Bromsvätskan väldigt mörk",
@@ -354,224 +434,144 @@
         "ENGINE_AND_GEARBOX": null,
         "TECHNOLOGY_AND_EQUIPMENT": "Backsensor ur funktion, Kupéfläkt, missljud. Stolsvärme förarplats, ur funktion. Ratt står snett, hjulinställning rekommenderas, Lås vänster, skadat"
       },
+      "width": 1832,
+      "body": "Van",
+      "exteriorColor": "Grey",
+      "remarks": {
+        "TIRES": [],
+        "BRAKES": [
+          {
+            "category": "BRAKES",
+            "id": "0",
+            "key": "Rostkant på bromsskivorna fram"
+          },
+          {
+            "category": "BRAKES",
+            "id": "1",
+            "key": "Bromsvätskan väldigt mörk"
+          }
+        ],
+        "TECHNOLOGY_AND_EQUIPMENT": [
+          {
+            "category": "TECHNOLOGY_AND_EQUIPMENT",
+            "id": "0",
+            "key": "Backsensor ur funktion, Kupéfläkt, missljud"
+          },
+          {
+            "category": "TECHNOLOGY_AND_EQUIPMENT",
+            "id": "1",
+            "key": "Stolsvärme förarplats, ur funktion"
+          },
+          {
+            "category": "TECHNOLOGY_AND_EQUIPMENT",
+            "id": "2",
+            "key": "Ratt står snett, hjulinställning rekommenderas, Lås vänster, skadat"
+          }
+        ],
+        "ENGINE_AND_GEARBOX": [],
+        "INTERIOR": [
+          {
+            "category": "INTERIOR",
+            "id": "0",
+            "key": "Invändigt flertal repor, fläckar och märken"
+          }
+        ],
+        "EXTERIOR": [
+          {
+            "category": "EXTERIOR",
+            "id": "0",
+            "key": "Stenskott i vindruta"
+          },
+          {
+            "category": "EXTERIOR",
+            "id": "1",
+            "key": "Skada höger sidoblinkers"
+          },
+          {
+            "category": "EXTERIOR",
+            "id": "2",
+            "key": "Flertal stenskott, bucklor och repor, Kaross, några spruckna/skadade plastdetaljer, Fåtal lackskador och rostangrepp"
+          },
+          {
+            "category": "EXTERIOR",
+            "id": "3",
+            "key": "Lås bak, skadat"
+          },
+          {
+            "category": "EXTERIOR",
+            "id": "4",
+            "key": "Dörrstopp höger bakdörr borta"
+          }
+        ]
+      },
+      "numberOfPreviousOwners": 3,
+      "adHeader": "Doblo Cargo 1.4T CNG 120hk Verkstadsinredning Drag",
+      "fuels": [
+        {
+          "fuelCode": "Petrol",
+          "co2": 211,
+          "consumption": 9.3,
+          "enginePower": 120
+        },
+        {
+          "fuelCode": "Methane",
+          "co2": 164,
+          "consumption": 9.1,
+          "enginePower": 120
+        }
+      ],
+      "textile": "Textil",
+      "maxPayload": 787,
+      "inspectionPeriod": "2026-06-10 - 2027-08-31",
+      "inspectionValidToDate": "2027-08-31",
+      "saleLimitedToCorporate": false,
+      "package": "Verkstadsinredning Drag",
       "hasUnpaidLoan": false,
-      "registrationCountry": "se",
+      "heavyEquipment": false,
+      "residualLoanValue": 0,
+      "brand": "Fiat",
+      "gearbox": "Manual",
+      "height": 1880,
+      "maxPullWeightB": 1020,
+      "length": 4756,
+      "environmentalClassEuro": "6",
+      "curbWeight": 1693,
+      "drivingBan": false,
+      "initialTrafficDate": "2021-05-12",
+      "chassisNumber": "ZFA26300006T98840",
+      "familyName": "Doblo",
+      "finishType": "Metallic",
       "importedForPersonalUse": false,
+      "isRepairObject": false,
+      "title": "Fiat Doblo Cargo 1.4T CNG (120hk)",
+      "odometerReading": 120720,
+      "modelName": "Doblo Cargo 1.4T CNG (120hk)",
+      "modelYear": 2021,
+      "numberOfSeats": 3,
+      "registrationPlateCountry": "se",
+      "registrationCountry": "se",
+      "taxFee": 1064,
       "heading1": "Fiat Doblo",
       "heading2": "Cargo 1.4T CNG",
       "heading3": "Verkstadsinredning Drag"
     },
-    "baseObject": {
-      "exteriorColor": "Grey",
-      "registrationPlate": "DZK36D",
-      "year": "2021",
-      "body": "Van",
-      "authorityRegisterInformation": {
-        "additionalTechSpecification": {
-          "raceCar": null,
-          "wheelbase1": 3105,
-          "wheelbase2": null,
-          "wheelbase3": null,
-          "wheelbase4": null,
-          "equipment1": null,
-          "equipment2": null,
-          "equipment3": null,
-          "maximumSpeed": 172,
-          "numAxleShafts": 2,
-          "passengerAirBag": true,
-          "tyreDimensionRear": "195/60R16 C 99/97T -",
-          "tyreDimensionFront": "195/60R16 C 99/97T -",
-          "dualSteeringControl": null
-        },
-        "environmentalClassification": {
-          "fuels": [
-            {
-              "co2": 211,
-              "nox": "",
-              "nox4": null,
-              "fuelCode": "Petrol",
-              "hcThcNox": "",
-              "consumption": 9.3,
-              "noiseLevel": 73,
-              "emissionUnit": "g/km",
-              "innovationCo2": null,
-              "particleValue": "",
-              "particleMass4": null,
-              "consumptionUnit": "9,3",
-              "rangeNedcDrive": null,
-              "rangeWltpDrive": null,
-              "consumptionUrban": 16.1,
-              "rangeCityWltpDrive": null,
-              "consumptionExtraUrban": 7.6,
-              "electricEnergyConsumption": null,
-              "energyConsumptionWltpDrive": null
-            }
-          ],
-          "ecoFriendly": false,
-          "emissionClass": "EURO 6",
-          "innovationCode": null,
-          "environmentalClass": null,
-          "environmentalClassEuro": "6"
-        },
-        "vehicleStatus": {
-          "tax": 1064
-        },
-        "registrationInformation": {
-          "registrationPlate": "DZK36D",
-          "deregistrationDate": null,
-          "deregistrationText": null,
-          "deregistrationReason": null
-        },
-        "generalTechSpecification": {
-          "eeg": "e3*2007/46*0002*48",
-          "fuels": [
-            {
-              "fuelCode": "Petrol",
-              "powerUnit": "EG",
-              "enginePower": 88,
-              "enginePowerHp": 120,
-              "fuelTankVolume": ""
-            },
-            {
-              "fuelCode": "Methane",
-              "powerUnit": "EG",
-              "enginePower": 88,
-              "enginePowerHp": 120,
-              "fuelTankVolume": ""
-            }
-          ],
-          "width": 1832,
-          "height": 1880,
-          "length": 4756,
-          "gearbox": "Manual",
-          "variant": "WXG1B",
-          "version": "BR3FN",
-          "taxWeight": 2480,
-          "curbWeight": 1693,
-          "maxPayload": 787,
-          "totalWeight": 2480,
-          "chassisCode1": null,
-          "chassisCode2": null,
-          "cubicCapacity": "1368",
-          "numPassengers": "2",
-          "numberOfSeats": 3,
-          "fourWheelDrive": false,
-          "maxPullWeightB": 1020,
-          "clutchMechanism1": null,
-          "clutchMechanism2": null,
-          "maxTrailerWeight": null,
-          "chassisCodeSupplement": null,
-          "maxPullWieghtNoBreaks": null,
-          "maxPullWeightBExtended": null,
-          "maxSingle Axle TrailerWeight": null
-        },
-        "vehicleOrigin": {
-          "originCode": "INFÖRT",
-          "originCodeReason": null,
-          "importerIdentifier": null,
-          "preRegistrationDate": null,
-          "importRegistrationDate": null,
-          "importedForPersonalUse": false,
-          "importedPreviouslyRegistered": false
-        },
-        "vehicleInspectionInformation": {
-          "inspections": [
-            {
-              "inspectionType": "5",
-              "odometerReading": 115328,
-              "dateOfInspection": "2026-06-10"
-            },
-            {
-              "inspectionType": "5",
-              "odometerReading": 84631,
-              "dateOfInspection": "2024-06-13"
-            }
-          ],
-          "inspectionGroup": "36/24/14",
-          "odometerReading": 115328,
-          "inspectionPeriod": "2026-06-10 - 2027-08-31",
-          "dateOfInspection": "2026-06-10",
-          "inspectionValidToDate": "2027-08-31",
-          "inspectionExemptionGroup": null
-        },
-        "vehicleInformation": {
-          "vin": "ZFA26300006T98840",
-          "body": "BB",
-          "type": "LIGHT_TRUCK",
-          "year": "2021",
-          "model": "FIAT DOBLO",
-          "rawType": "LB",
-          "modelYear": null,
-          "categoryEu": "e3*2007/46*0002*48",
-          "groupNumber": "FI 904109",
-          "modelNumber": "FI 000000",
-          "chassisNumber": "ZFA26300006T98840",
-          "exteriorColor": "Grey",
-          "fabricAndMake": "FIAT",
-          "baseObjectType": "LIGHT_TRUCK",
-          "manufactureCode": null,
-          "manufactureMonth": "202102",
-          "registrationDate": "2021-02-01",
-          "initialTrafficDate": "2021-05-12",
-          "registrationPlateReused": null
-        }
-      },
-      "brand": "Fiat",
-      "id": "521642",
-      "fuels": [
-        {
-          "fuelCode": "Petrol",
-          "powerUnit": "EG",
-          "enginePower": 88,
-          "enginePowerHp": 120,
-          "fuelTankVolume": ""
-        },
-        {
-          "fuelCode": "Methane",
-          "powerUnit": "EG",
-          "enginePower": 88,
-          "enginePowerHp": 120,
-          "fuelTankVolume": ""
-        }
-      ],
-      "gearbox": "Manual",
-      "fabricAndMake": "FIAT",
-      "baseObjectType": "LIGHT_TRUCK",
-      "modelId": null,
-      "odometerReading": null,
-      "modelName": "Doblo Cargo 1.4T CNG (120hk)",
-      "salesFlow": "CORPORATE_CARS",
-      "state": "MANUAL_VALUATION_PENDING",
-      "odometerUnit": "km",
-      "earliestAvailableAt": null,
-      "registrationCountry": "se",
-      "createdAt": "2026-10-09T10:26:21.133355+00:00",
-      "familyName": "Doblo",
-      "technicalSpecification": {
-        "modelId": null,
-        "vehicle": {
-          "brand": "Fiat",
-          "body": "Van",
-          "modelName": "Doblo Cargo 1.4T CNG (120hk)",
-          "familyName": "Doblo"
-        },
-        "year": "2021"
-      }
+    "orderableAdditionalServices": {
+      "tradein": false,
+      "transport": true,
+      "insurance": true,
+      "finance": true,
+      "warranty": true,
+      "extraTires": false
     },
-    "id": "7291669",
+    "offsiteSalesContact": null,
     "leaseReturnProperties": {},
-    "vehicleType": "LIGHT_TRANSPORT",
-    "presentationApproved": false,
-    "baseObjectId": "521642",
-    "isFixedPrice": false,
+    "id": "7291669",
+    "displayCar360Spin": true,
     "certified": false,
-    "objectType": "LIGHT_TRUCK",
-    "state": "COMPLETED",
-    "initialBuyNowAmount": null,
-    "statisticalValuation": null,
-    "testDriveAllowed": true,
-    "buyNowAmount": null,
+    "sellMethod": "BIDDING",
     "isReleasable": false,
+    "car360Spin": null,
+    "statisticalValuation": null,
     "createdAt": "2026-10-09 10:26:21.579243+00:00",
     "exportable": true,
     "deductibleVat": true,
@@ -2554,6 +2554,6 @@
     "closedAt": "2026-10-29T09:39:04.520907+00:00",
     "updatedAt": "2026-10-29T13:44:35.104333+00:00"
   },
-  "_scraped_at": "2026-10-30T14:09:39.552573+00:00",
+  "_scraped_at": "2026-10-30T16:17:02.345903+00:00",
   "_url": "https://www.kvd.se/auktioner/fiat-doblo-cargo-1-4t-cng-120hk-309064"
 }

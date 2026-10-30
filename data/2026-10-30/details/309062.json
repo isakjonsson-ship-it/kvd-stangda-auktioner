@@ -55,18 +55,223 @@
     "evaluationType": "AUTOMATIC"
   },
   "processObject": {
-    "displayCar360Spin": true,
+    "objectType": "LIGHT_TRUCK",
+    "buyNowAmount": null,
+    "reducedPrice": false,
+    "testDriveAllowed": true,
+    "isFixedPrice": false,
+    "baseObject": {
+      "gearbox": "Automatic",
+      "baseObjectType": "LIGHT_TRUCK",
+      "odometerReading": 45512,
+      "authorityRegisterInformation": {
+        "vehicleOrigin": {
+          "originCode": "INFÖRT",
+          "originCodeReason": null,
+          "importerIdentifier": null,
+          "preRegistrationDate": null,
+          "importRegistrationDate": null,
+          "importedForPersonalUse": false,
+          "importedPreviouslyRegistered": false
+        },
+        "generalTechSpecification": {
+          "eeg": "e2*2007/46*0002*27",
+          "fuels": [
+            {
+              "fuelCode": "Electric",
+              "powerUnit": "EG",
+              "enginePower": 49,
+              "enginePowerHp": 67,
+              "fuelTankVolume": ""
+            }
+          ],
+          "width": 1810,
+          "height": 1862,
+          "length": 4380,
+          "gearbox": "Automatic",
+          "variant": "7DZKY*",
+          "version": "7DZKYZ",
+          "taxWeight": 2220,
+          "curbWeight": 1730,
+          "maxPayload": 495,
+          "totalWeight": 2225,
+          "chassisCode1": null,
+          "chassisCode2": null,
+          "cubicCapacity": null,
+          "numPassengers": "2",
+          "numberOfSeats": 3,
+          "fourWheelDrive": false,
+          "maxPullWeightB": "",
+          "clutchMechanism1": null,
+          "clutchMechanism2": null,
+          "maxTrailerWeight": null,
+          "chassisCodeSupplement": null,
+          "maxPullWieghtNoBreaks": null,
+          "maxPullWeightBExtended": null,
+          "maxSingle Axle TrailerWeight": null
+        },
+        "environmentalClassification": {
+          "fuels": [
+            {
+              "co2": 0,
+              "nox": "",
+              "nox4": null,
+              "fuelCode": "Electric",
+              "hcThcNox": "",
+              "consumption": "",
+              "noiseLevel": 68,
+              "emissionUnit": "g/km",
+              "innovationCo2": null,
+              "particleValue": "",
+              "particleMass4": null,
+              "consumptionUnit": "",
+              "rangeNedcDrive": "170",
+              "rangeWltpDrive": null,
+              "consumptionUrban": "",
+              "rangeCityWltpDrive": null,
+              "consumptionExtraUrban": "",
+              "electricEnergyConsumption": null,
+              "energyConsumptionWltpDrive": null
+            }
+          ],
+          "ecoFriendly": false,
+          "emissionClass": "EL",
+          "innovationCode": null,
+          "environmentalClass": "EL",
+          "environmentalClassEuro": "6"
+        },
+        "vehicleStatus": {
+          "tax": 360
+        },
+        "vehicleInspectionInformation": {
+          "inspections": [
+            {
+              "inspectionType": "5",
+              "odometerReading": 45512,
+              "dateOfInspection": "2025-02-27"
+            },
+            {
+              "inspectionType": "5",
+              "odometerReading": 41294,
+              "dateOfInspection": "2023-12-22"
+            }
+          ],
+          "inspectionGroup": "36/24/14",
+          "odometerReading": 45512,
+          "inspectionPeriod": "2025-02-27 - 2026-04-30",
+          "dateOfInspection": "2025-02-27",
+          "inspectionValidToDate": "2026-04-30",
+          "inspectionExemptionGroup": null
+        },
+        "registrationInformation": {
+          "registrationPlate": "KSX651",
+          "deregistrationDate": null,
+          "deregistrationText": null,
+          "deregistrationReason": null
+        },
+        "vehicleInformation": {
+          "vin": "VF77DZKYZHJ807468",
+          "body": "BB",
+          "type": "LIGHT_TRUCK",
+          "year": "2017",
+          "model": "BERLINGO",
+          "rawType": "LB",
+          "modelYear": null,
+          "categoryEu": "e2*2007/46*0002*27",
+          "groupNumber": "CI 901333",
+          "modelNumber": "CI 000000",
+          "chassisNumber": "VF77DZKYZHJ807468",
+          "exteriorColor": "White",
+          "fabricAndMake": "CITROEN",
+          "baseObjectType": "LIGHT_TRUCK",
+          "manufactureCode": null,
+          "manufactureMonth": "201709",
+          "registrationDate": "2017-09-12",
+          "initialTrafficDate": "2017-10-25",
+          "registrationPlateReused": null
+        },
+        "additionalTechSpecification": {
+          "raceCar": null,
+          "wheelbase1": 2728,
+          "wheelbase2": null,
+          "wheelbase3": null,
+          "wheelbase4": null,
+          "equipment1": null,
+          "equipment2": null,
+          "equipment3": null,
+          "maximumSpeed": 110,
+          "numAxleShafts": 2,
+          "passengerAirBag": false,
+          "tyreDimensionRear": "195/70R15C 93K",
+          "tyreDimensionFront": "195/70R15C 93K",
+          "dualSteeringControl": null
+        }
+      },
+      "fuels": [
+        {
+          "fuelCode": "Electric",
+          "powerUnit": "EG",
+          "enginePower": 49,
+          "enginePowerHp": 67,
+          "fuelTankVolume": ""
+        }
+      ],
+      "earliestAvailableAt": null,
+      "modelName": null,
+      "salesFlow": "CONSUMER_CARS",
+      "registrationPlate": "KSX651",
+      "state": "PREPARING_SALES_AGREEMENT",
+      "odometerUnit": "km",
+      "fabricAndMake": "CITROEN",
+      "registrationCountry": "se",
+      "id": "514833",
+      "familyName": null,
+      "modelId": null,
+      "year": null,
+      "createdAt": "2026-09-08T11:33:52.946577+00:00",
+      "brand": null,
+      "body": null,
+      "exteriorColor": "White",
+      "technicalSpecification": {
+        "modelId": null,
+        "vehicle": {
+          "brand": null,
+          "body": null,
+          "modelName": null,
+          "familyName": null
+        },
+        "year": null
+      }
+    },
+    "vehicleType": "LIGHT_TRANSPORT",
+    "initialBuyNowAmount": null,
+    "baseObjectId": "514833",
     "conditionClassification": "TESTED",
     "proactiveBrokering": null,
+    "presentationApproved": false,
+    "state": "AUCTION_RESOLUTION",
     "properties": {
-      "length": 4380,
-      "mustExport": false,
-      "odometerUnit": "km",
-      "familyName": "Berlingo",
-      "drivingBan": false,
-      "taxWeight": 2220,
-      "odometerReading": 47670,
       "grades": {
+        "BRAKES": {
+          "max": 3,
+          "value": 3,
+          "min": 1
+        },
+        "TOTAL": {
+          "max": 5,
+          "value": 3,
+          "min": 1
+        },
+        "TECHNOLOGY_AND_EQUIPMENT": {
+          "max": 3,
+          "value": 2,
+          "min": 1
+        },
+        "ENGINE_AND_GEARBOX": {
+          "max": 3,
+          "value": 3,
+          "min": 1
+        },
         "INTERIOR": {
           "max": 5,
           "value": 3,
@@ -76,150 +281,9 @@
           "max": 5,
           "value": 3,
           "min": 1
-        },
-        "TOTAL": {
-          "max": 5,
-          "value": 3,
-          "min": 1
-        },
-        "ENGINE_AND_GEARBOX": {
-          "max": 3,
-          "value": 3,
-          "min": 1
-        },
-        "TECHNOLOGY_AND_EQUIPMENT": {
-          "max": 3,
-          "value": 2,
-          "min": 1
-        },
-        "BRAKES": {
-          "max": 3,
-          "value": 3,
-          "min": 1
         }
-      },
-      "fuels": [
-        {
-          "rangeNedcDrive": 170,
-          "enginePower": 67,
-          "fuelCode": "Electric"
-        }
-      ],
-      "curbWeight": 1730,
-      "remarks": {
-        "TIRES": [
-          {
-            "category": "TIRES",
-            "key": "Centrumkåpa saknas",
-            "id": "0"
-          }
-        ],
-        "INTERIOR": [
-          {
-            "category": "INTERIOR",
-            "key": "Panel insida baklucka, skada",
-            "id": "0"
-          }
-        ],
-        "EXTERIOR": [
-          {
-            "category": "EXTERIOR",
-            "key": "Spår efter tidigare dekor",
-            "id": "0"
-          }
-        ],
-        "ENGINE_AND_GEARBOX": [],
-        "TECHNOLOGY_AND_EQUIPMENT": [
-          {
-            "category": "TECHNOLOGY_AND_EQUIPMENT",
-            "key": "Nyckel/ar",
-            "id": "0"
-          },
-          {
-            "category": "TECHNOLOGY_AND_EQUIPMENT",
-            "key": "skadad och flipfunktion ur funktion",
-            "id": "1"
-          },
-          {
-            "category": "TECHNOLOGY_AND_EQUIPMENT",
-            "key": "Lås bak, går ej att använda med fysisk nyckel men fungerar med fjärrlås",
-            "id": "2"
-          },
-          {
-            "category": "TECHNOLOGY_AND_EQUIPMENT",
-            "key": "Farthållare ur funktion., Nyckellås förardörr delvis ur funktion, går bara att låsa upp med fysiska nyckeln",
-            "id": "3"
-          }
-        ],
-        "BRAKES": []
-      },
-      "width": 1810,
-      "numberOfSeats": 3,
-      "textile": "Textil",
-      "ecoFriendly": true,
-      "maxPayload": 495,
-      "exportable": true,
-      "inspectionValidToDate": "2027-11-30",
-      "taxFee": 360,
-      "modelYear": 2017,
-      "inspectionPeriod": "2026-09-08 - 2027-11-30",
-      "dateOfInspection": "2026-09-08",
-      "registrationPlate": "KSX651",
-      "totalWeight": 2225,
-      "adHeader": "Berlingo Electric 22.5 kWh (67hk)",
-      "taxExemptExpires": "2022-09-30",
-      "battstatResult": {
-        "rankingRangeMax": 0,
-        "sohPercent": null,
-        "rankingRangeMin": 0,
-        "ranking": null
       },
       "numberOfKeys": 1,
-      "towbar": false,
-      "hasUnpaidLoan": false,
-      "equipment": [
-        "AC",
-        "Antisladdsystem",
-        "Antispinn",
-        "AUX-ingång",
-        "Bluetooth",
-        "Elhiss fram",
-        "Elspeglar",
-        "Farthållare",
-        "Fjärrlås",
-        "Lastbågar",
-        "Motorvärmare",
-        "Radio",
-        "Stolsvärme fram",
-        "Urkopplingsbar passagerarairbag",
-        "USB-ingång"
-      ],
-      "isRepairObject": false,
-      "mediation": true,
-      "residualLoanValue": 0,
-      "numberOfPreviousOwners": 4,
-      "remarksLocalized": {
-        "TIRES": "Centrumkåpa saknas",
-        "BRAKES": null,
-        "EXTERIOR": "Spår efter tidigare dekor",
-        "INTERIOR": "Panel insida baklucka, skada",
-        "ENGINE_AND_GEARBOX": null,
-        "TECHNOLOGY_AND_EQUIPMENT": "Nyckel/ar. skadad och flipfunktion ur funktion. Lås bak, går ej att använda med fysisk nyckel men fungerar med fjärrlås. Farthållare ur funktion., Nyckellås förardörr delvis ur funktion, går bara att låsa upp med fysiska nyckeln"
-      },
-      "importedForPersonalUse": false,
-      "gearbox": "Automatic",
-      "title": "Citroën Berlingo Electric 22.5 kWh (67hk)",
-      "chassisNumber": "VF77DZKYZHJ807468",
-      "deductibleVat": false,
-      "saleLimitedToCorporate": false,
-      "heavyEquipment": false,
-      "manufactureMonth": "201709",
-      "height": 1862,
-      "initialTrafficDate": "2017-10-25",
-      "registrationCountry": "se",
-      "environmentalClassEuro": "6",
-      "registrationPlateCountry": "se",
-      "brand": "Citroën",
       "formattedEquipment": [
         {
           "key": "AC",
@@ -312,21 +376,142 @@
           "priority": 14
         }
       ],
-      "modelName": "Berlingo Electric 22.5 kWh (67hk)",
-      "finishType": "Solid",
-      "electricType": "Electric",
+      "exportable": true,
+      "mustExport": false,
+      "deductibleVat": false,
+      "manufactureMonth": "201709",
+      "totalWeight": 2225,
+      "dateOfInspection": "2026-09-08",
+      "registrationPlate": "KSX651",
+      "equipment": [
+        "AC",
+        "Antisladdsystem",
+        "Antispinn",
+        "AUX-ingång",
+        "Bluetooth",
+        "Elhiss fram",
+        "Elspeglar",
+        "Farthållare",
+        "Fjärrlås",
+        "Lastbågar",
+        "Motorvärmare",
+        "Radio",
+        "Stolsvärme fram",
+        "Urkopplingsbar passagerarairbag",
+        "USB-ingång"
+      ],
+      "taxWeight": 2220,
+      "odometerUnit": "km",
+      "mediation": true,
+      "taxExemptExpires": "2022-09-30",
+      "ecoFriendly": true,
+      "towbar": false,
+      "remarksLocalized": {
+        "TIRES": "Centrumkåpa saknas",
+        "BRAKES": null,
+        "EXTERIOR": "Spår efter tidigare dekor",
+        "INTERIOR": "Panel insida baklucka, skada",
+        "ENGINE_AND_GEARBOX": null,
+        "TECHNOLOGY_AND_EQUIPMENT": "Nyckel/ar. skadad och flipfunktion ur funktion. Lås bak, går ej att använda med fysisk nyckel men fungerar med fjärrlås. Farthållare ur funktion., Nyckellås förardörr delvis ur funktion, går bara att låsa upp med fysiska nyckeln"
+      },
+      "width": 1810,
+      "battstatResult": {
+        "ranking": null,
+        "sohPercent": null,
+        "rankingRangeMin": 0,
+        "rankingRangeMax": 0
+      },
       "exteriorColor": "White",
+      "remarks": {
+        "TIRES": [
+          {
+            "category": "TIRES",
+            "id": "0",
+            "key": "Centrumkåpa saknas"
+          }
+        ],
+        "BRAKES": [],
+        "TECHNOLOGY_AND_EQUIPMENT": [
+          {
+            "category": "TECHNOLOGY_AND_EQUIPMENT",
+            "id": "0",
+            "key": "Nyckel/ar"
+          },
+          {
+            "category": "TECHNOLOGY_AND_EQUIPMENT",
+            "id": "1",
+            "key": "skadad och flipfunktion ur funktion"
+          },
+          {
+            "category": "TECHNOLOGY_AND_EQUIPMENT",
+            "id": "2",
+            "key": "Lås bak, går ej att använda med fysisk nyckel men fungerar med fjärrlås"
+          },
+          {
+            "category": "TECHNOLOGY_AND_EQUIPMENT",
+            "id": "3",
+            "key": "Farthållare ur funktion., Nyckellås förardörr delvis ur funktion, går bara att låsa upp med fysiska nyckeln"
+          }
+        ],
+        "ENGINE_AND_GEARBOX": [],
+        "INTERIOR": [
+          {
+            "category": "INTERIOR",
+            "id": "0",
+            "key": "Panel insida baklucka, skada"
+          }
+        ],
+        "EXTERIOR": [
+          {
+            "category": "EXTERIOR",
+            "id": "0",
+            "key": "Spår efter tidigare dekor"
+          }
+        ]
+      },
+      "numberOfPreviousOwners": 4,
+      "adHeader": "Berlingo Electric 22.5 kWh (67hk)",
+      "fuels": [
+        {
+          "fuelCode": "Electric",
+          "rangeNedcDrive": 170,
+          "enginePower": 67
+        }
+      ],
+      "textile": "Textil",
+      "maxPayload": 495,
+      "inspectionPeriod": "2026-09-08 - 2027-11-30",
+      "inspectionValidToDate": "2027-11-30",
+      "saleLimitedToCorporate": false,
+      "hasUnpaidLoan": false,
+      "heavyEquipment": false,
+      "residualLoanValue": 0,
+      "brand": "Citroën",
+      "gearbox": "Automatic",
+      "height": 1862,
+      "length": 4380,
+      "electricType": "Electric",
+      "environmentalClassEuro": "6",
+      "curbWeight": 1730,
+      "drivingBan": false,
+      "initialTrafficDate": "2017-10-25",
+      "chassisNumber": "VF77DZKYZHJ807468",
+      "familyName": "Berlingo",
+      "finishType": "Solid",
+      "importedForPersonalUse": false,
+      "isRepairObject": false,
+      "title": "Citroën Berlingo Electric 22.5 kWh (67hk)",
+      "odometerReading": 47670,
+      "modelName": "Berlingo Electric 22.5 kWh (67hk)",
+      "modelYear": 2017,
+      "numberOfSeats": 3,
+      "registrationPlateCountry": "se",
+      "registrationCountry": "se",
+      "taxFee": 360,
       "heading1": "Citroën Berlingo",
       "heading2": "Electric 22.5 kWh",
       "heading3": null
     },
-    "car360Spin": null,
-    "testDriveAllowed": true,
-    "certified": false,
-    "objectType": "LIGHT_TRUCK",
-    "statisticalValuation": null,
-    "buyNowAmount": null,
-    "sellMethod": "BIDDING",
     "orderableAdditionalServices": {
       "tradein": false,
       "transport": true,
@@ -335,201 +520,16 @@
       "warranty": true,
       "extraTires": false
     },
-    "isFixedPrice": false,
-    "vehicleType": "LIGHT_TRANSPORT",
-    "leaseReturnProperties": {},
-    "baseObjectId": "514833",
-    "initialBuyNowAmount": null,
-    "isReleasable": false,
-    "id": "7288128",
     "offsiteSalesContact": null,
-    "presentationApproved": false,
+    "leaseReturnProperties": {},
+    "id": "7288128",
+    "displayCar360Spin": true,
+    "certified": false,
+    "sellMethod": "BIDDING",
+    "isReleasable": false,
+    "car360Spin": null,
+    "statisticalValuation": null,
     "createdAt": "2026-09-08 11:42:39.285339+00:00",
-    "state": "AUCTION_RESOLUTION",
-    "reducedPrice": false,
-    "baseObject": {
-      "body": null,
-      "modelId": null,
-      "exteriorColor": "White",
-      "baseObjectType": "LIGHT_TRUCK",
-      "registrationCountry": "se",
-      "odometerUnit": "km",
-      "familyName": null,
-      "odometerReading": 45512,
-      "earliestAvailableAt": null,
-      "brand": null,
-      "registrationPlate": "KSX651",
-      "fuels": [
-        {
-          "fuelCode": "Electric",
-          "powerUnit": "EG",
-          "enginePower": 49,
-          "enginePowerHp": 67,
-          "fuelTankVolume": ""
-        }
-      ],
-      "id": "514833",
-      "authorityRegisterInformation": {
-        "generalTechSpecification": {
-          "eeg": "e2*2007/46*0002*27",
-          "fuels": [
-            {
-              "fuelCode": "Electric",
-              "powerUnit": "EG",
-              "enginePower": 49,
-              "enginePowerHp": 67,
-              "fuelTankVolume": ""
-            }
-          ],
-          "width": 1810,
-          "height": 1862,
-          "length": 4380,
-          "gearbox": "Automatic",
-          "variant": "7DZKY*",
-          "version": "7DZKYZ",
-          "taxWeight": 2220,
-          "curbWeight": 1730,
-          "maxPayload": 495,
-          "totalWeight": 2225,
-          "chassisCode1": null,
-          "chassisCode2": null,
-          "cubicCapacity": null,
-          "numPassengers": "2",
-          "numberOfSeats": 3,
-          "fourWheelDrive": false,
-          "maxPullWeightB": "",
-          "clutchMechanism1": null,
-          "clutchMechanism2": null,
-          "maxTrailerWeight": null,
-          "chassisCodeSupplement": null,
-          "maxPullWieghtNoBreaks": null,
-          "maxPullWeightBExtended": null,
-          "maxSingle Axle TrailerWeight": null
-        },
-        "vehicleOrigin": {
-          "originCode": "INFÖRT",
-          "originCodeReason": null,
-          "importerIdentifier": null,
-          "preRegistrationDate": null,
-          "importRegistrationDate": null,
-          "importedForPersonalUse": false,
-          "importedPreviouslyRegistered": false
-        },
-        "vehicleInspectionInformation": {
-          "inspections": [
-            {
-              "inspectionType": "5",
-              "odometerReading": 45512,
-              "dateOfInspection": "2025-02-27"
-            },
-            {
-              "inspectionType": "5",
-              "odometerReading": 41294,
-              "dateOfInspection": "2023-12-22"
-            }
-          ],
-          "inspectionGroup": "36/24/14",
-          "odometerReading": 45512,
-          "inspectionPeriod": "2025-02-27 - 2026-04-30",
-          "dateOfInspection": "2025-02-27",
-          "inspectionValidToDate": "2026-04-30",
-          "inspectionExemptionGroup": null
-        },
-        "environmentalClassification": {
-          "fuels": [
-            {
-              "co2": 0,
-              "nox": "",
-              "nox4": null,
-              "fuelCode": "Electric",
-              "hcThcNox": "",
-              "consumption": "",
-              "noiseLevel": 68,
-              "emissionUnit": "g/km",
-              "innovationCo2": null,
-              "particleValue": "",
-              "particleMass4": null,
-              "consumptionUnit": "",
-              "rangeNedcDrive": "170",
-              "rangeWltpDrive": null,
-              "consumptionUrban": "",
-              "rangeCityWltpDrive": null,
-              "consumptionExtraUrban": "",
-              "electricEnergyConsumption": null,
-              "energyConsumptionWltpDrive": null
-            }
-          ],
-          "ecoFriendly": false,
-          "emissionClass": "EL",
-          "innovationCode": null,
-          "environmentalClass": "EL",
-          "environmentalClassEuro": "6"
-        },
-        "additionalTechSpecification": {
-          "raceCar": null,
-          "wheelbase1": 2728,
-          "wheelbase2": null,
-          "wheelbase3": null,
-          "wheelbase4": null,
-          "equipment1": null,
-          "equipment2": null,
-          "equipment3": null,
-          "maximumSpeed": 110,
-          "numAxleShafts": 2,
-          "passengerAirBag": false,
-          "tyreDimensionRear": "195/70R15C 93K",
-          "tyreDimensionFront": "195/70R15C 93K",
-          "dualSteeringControl": null
-        },
-        "vehicleStatus": {
-          "tax": 360
-        },
-        "vehicleInformation": {
-          "vin": "VF77DZKYZHJ807468",
-          "body": "BB",
-          "type": "LIGHT_TRUCK",
-          "year": "2017",
-          "model": "BERLINGO",
-          "rawType": "LB",
-          "modelYear": null,
-          "categoryEu": "e2*2007/46*0002*27",
-          "groupNumber": "CI 901333",
-          "modelNumber": "CI 000000",
-          "chassisNumber": "VF77DZKYZHJ807468",
-          "exteriorColor": "White",
-          "fabricAndMake": "CITROEN",
-          "baseObjectType": "LIGHT_TRUCK",
-          "manufactureCode": null,
-          "manufactureMonth": "201709",
-          "registrationDate": "2017-09-12",
-          "initialTrafficDate": "2017-10-25",
-          "registrationPlateReused": null
-        },
-        "registrationInformation": {
-          "registrationPlate": "KSX651",
-          "deregistrationDate": null,
-          "deregistrationText": null,
-          "deregistrationReason": null
-        }
-      },
-      "modelName": null,
-      "createdAt": "2026-09-08T11:33:52.946577+00:00",
-      "state": "PREPARING_SALES_AGREEMENT",
-      "gearbox": "Automatic",
-      "salesFlow": "CONSUMER_CARS",
-      "year": null,
-      "fabricAndMake": "CITROEN",
-      "technicalSpecification": {
-        "modelId": null,
-        "vehicle": {
-          "brand": null,
-          "body": null,
-          "modelName": null,
-          "familyName": null
-        },
-        "year": null
-      }
-    },
     "exportable": true,
     "deductibleVat": false,
     "collisionWarranty": null,
@@ -1611,6 +1611,6 @@
     "closedAt": "2026-10-29T11:18:23.516457+00:00",
     "updatedAt": "2026-10-29T11:18:23.603452+00:00"
   },
-  "_scraped_at": "2026-10-30T14:09:42.152219+00:00",
+  "_scraped_at": "2026-10-30T16:17:05.314431+00:00",
   "_url": "https://www.kvd.se/auktioner/citroen-berlingo-electric-22-5-kwh-67hk-309062"
 }

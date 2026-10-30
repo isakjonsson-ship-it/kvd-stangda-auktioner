@@ -44,28 +44,150 @@
   "eurBuyNowAmount": null,
   "winningBid": null,
   "processObject": {
-    "orderableAdditionalServices": {
-      "tradein": false,
-      "transport": true,
-      "insurance": true,
-      "finance": true,
-      "warranty": true,
-      "extraTires": false
-    },
-    "car360Spin": null,
-    "proactiveBrokering": null,
     "displayCar360Spin": true,
-    "offsiteSalesContact": null,
-    "sellMethod": "BIDDING",
-    "reducedPrice": false,
     "conditionClassification": "TESTED",
+    "proactiveBrokering": null,
     "properties": {
-      "adHeader": "V 250 d 4MATIC W447 (190hk) AMG Line",
-      "exteriorColor": "Black",
-      "brand": "Mercedes",
-      "mediation": true,
+      "length": 5370,
+      "mustExport": false,
+      "odometerUnit": "km",
+      "familyName": "V-Klass",
+      "drivingBan": false,
+      "taxWeight": 2620,
+      "odometerReading": 189590,
+      "grades": {
+        "INTERIOR": {
+          "max": 5,
+          "value": 3,
+          "min": 1
+        },
+        "EXTERIOR": {
+          "max": 5,
+          "value": 3,
+          "min": 1
+        },
+        "TOTAL": {
+          "max": 5,
+          "value": 3,
+          "min": 1
+        },
+        "ENGINE_AND_GEARBOX": {
+          "max": 3,
+          "value": 3,
+          "min": 1
+        },
+        "TECHNOLOGY_AND_EQUIPMENT": {
+          "max": 3,
+          "value": 2,
+          "min": 1
+        },
+        "BRAKES": {
+          "max": 3,
+          "value": 2,
+          "min": 1
+        }
+      },
+      "fuels": [
+        {
+          "enginePower": 190,
+          "fuelCode": "Diesel",
+          "co2": 199,
+          "consumption": 7.5
+        }
+      ],
       "curbWeight": 2620,
+      "remarks": {
+        "TIRES": [
+          {
+            "category": "TIRES",
+            "key": "Centrumkåpa saknas",
+            "id": "0"
+          },
+          {
+            "category": "TIRES",
+            "key": "Torrsprickor i 4 däck",
+            "id": "1"
+          }
+        ],
+        "INTERIOR": [
+          {
+            "category": "INTERIOR",
+            "key": "Klädsel skadad bak",
+            "id": "0"
+          },
+          {
+            "category": "INTERIOR",
+            "key": "Klädsel ytligt slitage fram vänster",
+            "id": "1"
+          }
+        ],
+        "EXTERIOR": [
+          {
+            "category": "EXTERIOR",
+            "key": "Små sprickor i blinkersglas på vänster sida",
+            "id": "0"
+          },
+          {
+            "category": "EXTERIOR",
+            "key": "Sidospegel höger, kondens i blinkersglas",
+            "id": "1"
+          },
+          {
+            "category": "EXTERIOR",
+            "key": "Vänster bakljus, småsprickor",
+            "id": "2"
+          },
+          {
+            "category": "EXTERIOR",
+            "key": "Fåtal rostangrepp, Nyansskillnad i lack förekommer",
+            "id": "3"
+          }
+        ],
+        "ENGINE_AND_GEARBOX": [],
+        "TECHNOLOGY_AND_EQUIPMENT": [
+          {
+            "category": "TECHNOLOGY_AND_EQUIPMENT",
+            "key": "Avgassystem, flexrör skadat/fransar",
+            "id": "0"
+          },
+          {
+            "category": "TECHNOLOGY_AND_EQUIPMENT",
+            "key": "Ratt står snett, hjulinställning rekommenderas",
+            "id": "1"
+          },
+          {
+            "category": "TECHNOLOGY_AND_EQUIPMENT",
+            "key": "P-sensor höger bak osäker funktion, varnar utan hinder i närheten",
+            "id": "2"
+          }
+        ],
+        "BRAKES": [
+          {
+            "category": "BRAKES",
+            "key": "Bromsskivor fram rostskadade, bör bytas",
+            "id": "0"
+          }
+        ]
+      },
+      "width": 1928,
+      "numberOfSeats": 7,
+      "body": "MPV",
+      "maxPullWeightB": 750,
+      "textile": "Helläder",
+      "ecoFriendly": false,
       "maxPayload": 580,
+      "exportable": true,
+      "inspectionValidToDate": "2027-08-31",
+      "taxFee": 5236,
+      "modelYear": 2019,
+      "inspectionPeriod": "2026-06-05 - 2027-08-31",
+      "dateOfInspection": "2026-06-05",
+      "registrationPlate": "SHN762",
+      "totalWeight": 3200,
+      "adHeader": "V 250 d 4MATIC W447 (190hk) AMG Line",
+      "numberOfKeys": 2,
+      "towbar": true,
+      "hasUnpaidLoan": false,
       "equipment": [
         "4WD",
         "AC",
@@ -104,21 +226,34 @@
         "AMG Line",
         "Framsäten komfort"
       ],
-      "inspectionValidToDate": "2027-08-31",
-      "odometerUnit": "km",
-      "length": 5370,
-      "finishType": "Metallic",
-      "textile": "Helläder",
-      "saleLimitedToCorporate": false,
-      "chassisNumber": "WDF44781513508839",
-      "title": "Mercedes V 250 d 4MATIC W447 (190hk)",
-      "dateOfInspection": "2026-06-05",
-      "inspectionPeriod": "2026-06-05 - 2027-08-31",
-      "totalWeight": 3200,
-      "registrationPlateCountry": "se",
-      "exportable": true,
+      "isRepairObject": false,
+      "mediation": true,
       "residualLoanValue": 0,
-      "taxFee": 5236,
+      "numberOfPreviousOwners": 7,
+      "package": "AMG Line",
+      "remarksLocalized": {
+        "TIRES": "Centrumkåpa saknas. Torrsprickor i 4 däck",
+        "BRAKES": "Bromsskivor fram rostskadade, bör bytas",
+        "EXTERIOR": "Små sprickor i blinkersglas på vänster sida. Sidospegel höger, kondens i blinkersglas. Vänster bakljus, småsprickor. Fåtal rostangrepp, Nyansskillnad i lack förekommer",
+        "INTERIOR": "Klädsel skadad bak. Klädsel ytligt slitage fram vänster",
+        "ENGINE_AND_GEARBOX": null,
+        "TECHNOLOGY_AND_EQUIPMENT": "Avgassystem, flexrör skadat/fransar. Ratt står snett, hjulinställning rekommenderas. P-sensor höger bak osäker funktion, varnar utan hinder i närheten"
+      },
+      "importedForPersonalUse": false,
+      "gearbox": "Automatic",
+      "title": "Mercedes V 250 d 4MATIC W447 (190hk)",
+      "chassisNumber": "WDF44781513508839",
+      "deductibleVat": false,
+      "saleLimitedToCorporate": false,
+      "heavyEquipment": false,
+      "manufactureMonth": "201807",
+      "height": 1884,
+      "initialTrafficDate": "2018-08-31",
+      "registrationCountry": "se",
+      "environmentalClassEuro": "6",
+      "registrationPlateCountry": "se",
+      "maxTrailerWeight": 2500,
+      "brand": "Mercedes",
       "formattedEquipment": [
         {
           "key": "4WD",
@@ -337,221 +472,68 @@
           "priority": 35
         }
       ],
-      "familyName": "V-Klass",
-      "environmentalClassEuro": "6",
-      "towbar": true,
-      "isRepairObject": false,
-      "body": "MPV",
-      "numberOfSeats": 7,
-      "maxPullWeightB": 750,
-      "fuels": [
-        {
-          "enginePower": 190,
-          "consumption": 7.5,
-          "co2": 199,
-          "fuelCode": "Diesel"
-        }
-      ],
-      "grades": {
-        "INTERIOR": {
-          "value": 3,
-          "min": 1,
-          "max": 5
-        },
-        "TOTAL": {
-          "value": 3,
-          "min": 1,
-          "max": 5
-        },
-        "ENGINE_AND_GEARBOX": {
-          "value": 3,
-          "min": 1,
-          "max": 3
-        },
-        "EXTERIOR": {
-          "value": 3,
-          "min": 1,
-          "max": 5
-        },
-        "BRAKES": {
-          "value": 2,
-          "min": 1,
-          "max": 3
-        },
-        "TECHNOLOGY_AND_EQUIPMENT": {
-          "value": 2,
-          "min": 1,
-          "max": 3
-        }
-      },
-      "maxTrailerWeight": 2500,
-      "odometerReading": 189590,
-      "package": "AMG Line",
-      "initialTrafficDate": "2018-08-31",
-      "mustExport": false,
-      "manufactureMonth": "201807",
-      "ecoFriendly": false,
-      "deductibleVat": false,
-      "numberOfKeys": 2,
-      "registrationPlate": "SHN762",
-      "numberOfPreviousOwners": 7,
-      "heavyEquipment": false,
-      "modelYear": 2019,
-      "height": 1884,
-      "gearbox": "Automatic",
       "modelName": "V 250 d 4MATIC W447 (190hk)",
-      "taxWeight": 2620,
-      "width": 1928,
-      "remarks": {
-        "INTERIOR": [
-          {
-            "key": "Klädsel skadad bak",
-            "id": "0",
-            "category": "INTERIOR"
-          },
-          {
-            "key": "Klädsel ytligt slitage fram vänster",
-            "id": "1",
-            "category": "INTERIOR"
-          }
-        ],
-        "ENGINE_AND_GEARBOX": [],
-        "EXTERIOR": [
-          {
-            "key": "Små sprickor i blinkersglas på vänster sida",
-            "id": "0",
-            "category": "EXTERIOR"
-          },
-          {
-            "key": "Sidospegel höger, kondens i blinkersglas",
-            "id": "1",
-            "category": "EXTERIOR"
-          },
-          {
-            "key": "Vänster bakljus, småsprickor",
-            "id": "2",
-            "category": "EXTERIOR"
-          },
-          {
-            "key": "Fåtal rostangrepp, Nyansskillnad i lack förekommer",
-            "id": "3",
-            "category": "EXTERIOR"
-          }
-        ],
-        "BRAKES": [
-          {
-            "key": "Bromsskivor fram rostskadade, bör bytas",
-            "id": "0",
-            "category": "BRAKES"
-          }
-        ],
-        "TECHNOLOGY_AND_EQUIPMENT": [
-          {
-            "key": "Avgassystem, flexrör skadat/fransar",
-            "id": "0",
-            "category": "TECHNOLOGY_AND_EQUIPMENT"
-          },
-          {
-            "key": "Ratt står snett, hjulinställning rekommenderas",
-            "id": "1",
-            "category": "TECHNOLOGY_AND_EQUIPMENT"
-          },
-          {
-            "key": "P-sensor höger bak osäker funktion, varnar utan hinder i närheten",
-            "id": "2",
-            "category": "TECHNOLOGY_AND_EQUIPMENT"
-          }
-        ],
-        "TIRES": [
-          {
-            "key": "Centrumkåpa saknas",
-            "id": "0",
-            "category": "TIRES"
-          },
-          {
-            "key": "Torrsprickor i 4 däck",
-            "id": "1",
-            "category": "TIRES"
-          }
-        ]
-      },
-      "drivingBan": false,
-      "remarksLocalized": {
-        "TIRES": "Centrumkåpa saknas. Torrsprickor i 4 däck",
-        "BRAKES": "Bromsskivor fram rostskadade, bör bytas",
-        "EXTERIOR": "Små sprickor i blinkersglas på vänster sida. Sidospegel höger, kondens i blinkersglas. Vänster bakljus, småsprickor. Fåtal rostangrepp, Nyansskillnad i lack förekommer",
-        "INTERIOR": "Klädsel skadad bak. Klädsel ytligt slitage fram vänster",
-        "ENGINE_AND_GEARBOX": null,
-        "TECHNOLOGY_AND_EQUIPMENT": "Avgassystem, flexrör skadat/fransar. Ratt står snett, hjulinställning rekommenderas. P-sensor höger bak osäker funktion, varnar utan hinder i närheten"
-      },
-      "hasUnpaidLoan": false,
-      "registrationCountry": "se",
-      "importedForPersonalUse": false,
+      "finishType": "Metallic",
+      "exteriorColor": "Black",
       "heading1": "Mercedes V-Klass",
       "heading2": "V 250 d 4MATIC W447",
       "heading3": "AMG Line"
     },
+    "car360Spin": null,
+    "testDriveAllowed": true,
+    "certified": false,
+    "objectType": "CAR",
+    "statisticalValuation": {
+      "bpGreen": null,
+      "bpOrange": 401215,
+      "bpWhite": 401215,
+      "marketPrice": 401215
+    },
+    "buyNowAmount": null,
+    "sellMethod": "BIDDING",
+    "orderableAdditionalServices": {
+      "tradein": false,
+      "transport": true,
+      "insurance": true,
+      "finance": true,
+      "warranty": true,
+      "extraTires": false
+    },
+    "isFixedPrice": false,
+    "vehicleType": "CAR",
+    "leaseReturnProperties": {},
+    "baseObjectId": "520108",
+    "initialBuyNowAmount": null,
+    "isReleasable": false,
+    "id": "7290885",
+    "offsiteSalesContact": null,
+    "presentationApproved": false,
+    "createdAt": "2026-10-02 14:56:49.869536+00:00",
+    "state": "AUCTION_RESOLUTION",
+    "reducedPrice": false,
     "baseObject": {
-      "exteriorColor": "Black",
-      "registrationPlate": "SHN762",
-      "year": "2019",
       "body": "MPV",
+      "modelId": null,
+      "exteriorColor": "Black",
+      "baseObjectType": "CAR",
+      "registrationCountry": "se",
+      "odometerUnit": "km",
+      "familyName": "V-Klass",
+      "odometerReading": 189500,
+      "earliestAvailableAt": null,
+      "brand": "Mercedes-Benz",
+      "registrationPlate": "SHN762",
+      "fuels": [
+        {
+          "fuelCode": "Diesel",
+          "powerUnit": "EG",
+          "enginePower": 140,
+          "enginePowerHp": 190,
+          "fuelTankVolume": ""
+        }
+      ],
+      "id": "520108",
       "authorityRegisterInformation": {
-        "additionalTechSpecification": {
-          "raceCar": null,
-          "wheelbase1": 3430,
-          "wheelbase2": null,
-          "wheelbase3": null,
-          "wheelbase4": null,
-          "equipment1": null,
-          "equipment2": null,
-          "equipment3": null,
-          "maximumSpeed": 199,
-          "numAxleShafts": 2,
-          "passengerAirBag": true,
-          "tyreDimensionRear": "245/45R19XL 102Y",
-          "tyreDimensionFront": "245/45R19XL 102Y",
-          "dualSteeringControl": null
-        },
-        "environmentalClassification": {
-          "fuels": [
-            {
-              "co2": 199,
-              "nox": "",
-              "nox4": null,
-              "fuelCode": "Diesel",
-              "hcThcNox": "",
-              "consumption": 7.5,
-              "noiseLevel": 71,
-              "emissionUnit": "g/km",
-              "innovationCo2": null,
-              "particleValue": "",
-              "particleMass4": null,
-              "consumptionUnit": "7,5",
-              "rangeNedcDrive": null,
-              "rangeWltpDrive": null,
-              "consumptionUrban": 9,
-              "rangeCityWltpDrive": null,
-              "consumptionExtraUrban": 6.7,
-              "electricEnergyConsumption": null,
-              "energyConsumptionWltpDrive": null
-            }
-          ],
-          "ecoFriendly": false,
-          "emissionClass": "EURO 6",
-          "innovationCode": null,
-          "environmentalClass": null,
-          "environmentalClassEuro": "6"
-        },
-        "vehicleStatus": {
-          "tax": 5236
-        },
-        "registrationInformation": {
-          "registrationPlate": "SHN762",
-          "deregistrationDate": null,
-          "deregistrationText": null,
-          "deregistrationReason": null
-        },
         "generalTechSpecification": {
           "eeg": "e1*2007/46*0457*19",
           "fuels": [
@@ -617,6 +599,55 @@
           "inspectionValidToDate": "2027-08-31",
           "inspectionExemptionGroup": null
         },
+        "environmentalClassification": {
+          "fuels": [
+            {
+              "co2": 199,
+              "nox": "",
+              "nox4": null,
+              "fuelCode": "Diesel",
+              "hcThcNox": "",
+              "consumption": 7.5,
+              "noiseLevel": 71,
+              "emissionUnit": "g/km",
+              "innovationCo2": null,
+              "particleValue": "",
+              "particleMass4": null,
+              "consumptionUnit": "7,5",
+              "rangeNedcDrive": null,
+              "rangeWltpDrive": null,
+              "consumptionUrban": 9,
+              "rangeCityWltpDrive": null,
+              "consumptionExtraUrban": 6.7,
+              "electricEnergyConsumption": null,
+              "energyConsumptionWltpDrive": null
+            }
+          ],
+          "ecoFriendly": false,
+          "emissionClass": "EURO 6",
+          "innovationCode": null,
+          "environmentalClass": null,
+          "environmentalClassEuro": "6"
+        },
+        "additionalTechSpecification": {
+          "raceCar": null,
+          "wheelbase1": 3430,
+          "wheelbase2": null,
+          "wheelbase3": null,
+          "wheelbase4": null,
+          "equipment1": null,
+          "equipment2": null,
+          "equipment3": null,
+          "maximumSpeed": 199,
+          "numAxleShafts": 2,
+          "passengerAirBag": true,
+          "tyreDimensionRear": "245/45R19XL 102Y",
+          "tyreDimensionFront": "245/45R19XL 102Y",
+          "dualSteeringControl": null
+        },
+        "vehicleStatus": {
+          "tax": 5236
+        },
         "vehicleInformation": {
           "vin": "WDF44781513508839",
           "body": "AF",
@@ -637,32 +668,21 @@
           "registrationDate": "2018-07-12",
           "initialTrafficDate": "2018-08-31",
           "registrationPlateReused": null
+        },
+        "registrationInformation": {
+          "registrationPlate": "SHN762",
+          "deregistrationDate": null,
+          "deregistrationText": null,
+          "deregistrationReason": null
         }
       },
-      "brand": "Mercedes-Benz",
-      "id": "520108",
-      "fuels": [
-        {
-          "fuelCode": "Diesel",
-          "powerUnit": "EG",
-          "enginePower": 140,
-          "enginePowerHp": 190,
-          "fuelTankVolume": ""
-        }
-      ],
-      "gearbox": "Automatic",
-      "fabricAndMake": "MERCEDES-BENZ",
-      "baseObjectType": "CAR",
-      "modelId": null,
-      "odometerReading": 189500,
       "modelName": "V 250 d 4MATIC W447 (190hk)",
-      "salesFlow": "CONSUMER_CARS",
-      "state": "IMPORTING_INTO_PROCESS_OBJECT",
-      "odometerUnit": "km",
-      "earliestAvailableAt": null,
-      "registrationCountry": "se",
       "createdAt": "2026-10-02T14:43:58.791905+00:00",
-      "familyName": "V-Klass",
+      "state": "IMPORTING_INTO_PROCESS_OBJECT",
+      "gearbox": "Automatic",
+      "salesFlow": "CONSUMER_CARS",
+      "year": "2019",
+      "fabricAndMake": "MERCEDES-BENZ",
       "technicalSpecification": {
         "modelId": null,
         "vehicle": {
@@ -674,26 +694,6 @@
         "year": "2019"
       }
     },
-    "id": "7290885",
-    "leaseReturnProperties": {},
-    "vehicleType": "CAR",
-    "presentationApproved": false,
-    "baseObjectId": "520108",
-    "isFixedPrice": false,
-    "certified": false,
-    "objectType": "CAR",
-    "state": "AUCTION_RESOLUTION",
-    "initialBuyNowAmount": null,
-    "statisticalValuation": {
-      "bpWhite": 401215,
-      "marketPrice": 401215,
-      "bpGreen": null,
-      "bpOrange": 401215
-    },
-    "testDriveAllowed": true,
-    "buyNowAmount": null,
-    "isReleasable": false,
-    "createdAt": "2026-10-02 14:56:49.869536+00:00",
     "exportable": true,
     "deductibleVat": false,
     "collisionWarranty": null,
@@ -2071,15 +2071,54 @@
         "isHighestBidLowerThanResidualLoanValue": false
       },
       "processObject": {
-        "objectType": "CAR",
-        "buyNowAmount": null,
+        "car360Spin": null,
+        "proactiveBrokering": null,
+        "displayCar360Spin": true,
+        "offsiteSalesContact": null,
+        "sellMethod": "BIDDING",
         "reducedPrice": false,
-        "testDriveAllowed": true,
-        "isFixedPrice": false,
+        "conditionClassification": "TESTED",
+        "properties": {
+          "adHeader": "V 300 d 4MATIC 239hk 8 sits SE Edition Multibeam",
+          "saleLimitedToCorporate": false,
+          "ecoFriendly": false,
+          "deductibleVat": false,
+          "exteriorColor": "Dark Blue",
+          "registrationPlate": "MSF02A",
+          "title": "Mercedes V 300 d 4MATIC W447 (239hk)",
+          "body": "MPV",
+          "numberOfPreviousOwners": 5,
+          "brand": "Mercedes",
+          "heavyEquipment": false,
+          "modelYear": 2020,
+          "fuels": [
+            {
+              "enginePower": 239,
+              "consumption": 6.5,
+              "co2": 171,
+              "fuelCode": "Diesel"
+            }
+          ],
+          "gearbox": "Automatic",
+          "odometerReading": 162710,
+          "package": "8 sits SE Edition Multibeam",
+          "modelName": "V 300 d 4MATIC W447 (239hk)",
+          "mustExport": false,
+          "odometerUnit": "km",
+          "exportable": true,
+          "hasUnpaidLoan": false,
+          "familyName": "V-Klass",
+          "heading1": "Mercedes V-Klass",
+          "heading2": "V 300 d 4MATIC W447",
+          "heading3": "8 sits SE Edition Multibeam"
+        },
         "baseObject": {
-          "gearbox": null,
-          "baseObjectType": "CAR",
-          "odometerReading": 159000,
+          "exteriorColor": "Dark Blue",
+          "registrationPlate": "MSF02A",
+          "year": "2020",
+          "body": "MPV",
+          "brand": "Mercedes-Benz",
+          "id": "508346",
           "fuels": [
             {
               "fuelCode": "Diesel",
@@ -2089,22 +2128,19 @@
               "fuelTankVolume": ""
             }
           ],
-          "earliestAvailableAt": null,
+          "gearbox": null,
+          "fabricAndMake": "MERCEDES-BENZ",
+          "baseObjectType": "CAR",
+          "modelId": null,
+          "odometerReading": 159000,
           "modelName": "V 300 d 4MATIC W447 (237hk)",
           "salesFlow": "CONSUMER_CARS",
-          "registrationPlate": "MSF02A",
           "state": "PREPARING_SALES_AGREEMENT",
           "odometerUnit": "km",
-          "fabricAndMake": "MERCEDES-BENZ",
+          "earliestAvailableAt": null,
           "registrationCountry": "se",
-          "id": "508346",
-          "familyName": "V-Klass",
-          "modelId": null,
-          "year": "2020",
           "createdAt": "2026-08-07T10:35:17.598945+00:00",
-          "brand": "Mercedes-Benz",
-          "body": "MPV",
-          "exteriorColor": "Dark Blue",
+          "familyName": "V-Klass",
           "technicalSpecification": {
             "modelId": null,
             "vehicle": {
@@ -2116,61 +2152,25 @@
             "year": "2020"
           }
         },
-        "vehicleType": "CAR",
-        "initialBuyNowAmount": null,
-        "baseObjectId": "508346",
-        "conditionClassification": "TESTED",
-        "proactiveBrokering": null,
-        "presentationApproved": false,
-        "state": "AUCTION",
-        "properties": {
-          "gearbox": "Automatic",
-          "numberOfPreviousOwners": 5,
-          "title": "Mercedes V 300 d 4MATIC W447 (239hk)",
-          "odometerReading": 162710,
-          "adHeader": "V 300 d 4MATIC 239hk 8 sits SE Edition Multibeam",
-          "fuels": [
-            {
-              "fuelCode": "Diesel",
-              "co2": 171,
-              "consumption": 6.5,
-              "enginePower": 239
-            }
-          ],
-          "exportable": true,
-          "mustExport": false,
-          "deductibleVat": false,
-          "modelName": "V 300 d 4MATIC W447 (239hk)",
-          "modelYear": 2020,
-          "registrationPlate": "MSF02A",
-          "saleLimitedToCorporate": false,
-          "package": "8 sits SE Edition Multibeam",
-          "odometerUnit": "km",
-          "ecoFriendly": false,
-          "hasUnpaidLoan": false,
-          "familyName": "V-Klass",
-          "heavyEquipment": false,
-          "brand": "Mercedes",
-          "body": "MPV",
-          "exteriorColor": "Dark Blue",
-          "heading1": "Mercedes V-Klass",
-          "heading2": "V 300 d 4MATIC W447",
-          "heading3": "8 sits SE Edition Multibeam"
-        },
-        "offsiteSalesContact": null,
-        "leaseReturnProperties": {},
         "id": "7290308",
-        "displayCar360Spin": true,
+        "leaseReturnProperties": {},
+        "vehicleType": "CAR",
+        "presentationApproved": false,
+        "baseObjectId": "508346",
+        "isFixedPrice": false,
         "certified": false,
-        "sellMethod": "BIDDING",
-        "isReleasable": false,
-        "car360Spin": null,
+        "objectType": "CAR",
+        "state": "AUCTION",
+        "initialBuyNowAmount": null,
         "statisticalValuation": {
-          "bpGreen": null,
           "bpWhite": 435816,
           "marketPrice": 435816,
+          "bpGreen": null,
           "bpOrange": 435816
         },
+        "testDriveAllowed": true,
+        "buyNowAmount": null,
+        "isReleasable": false,
         "createdAt": "2026-09-29 07:25:33.857877+00:00",
         "exportable": true,
         "deductibleVat": false,
@@ -2584,6 +2584,6 @@
     "closedAt": "2026-10-30T09:22:53.231137+00:00",
     "updatedAt": "2026-10-30T09:22:53.317974+00:00"
   },
-  "_scraped_at": "2026-10-30T14:08:47.882904+00:00",
+  "_scraped_at": "2026-10-30T16:16:08.051578+00:00",
   "_url": "https://www.kvd.se/auktioner/mercedes-v-250-d-4matic-w447-190hk-309248"
 }

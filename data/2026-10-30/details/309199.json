@@ -44,28 +44,106 @@
   "eurBuyNowAmount": null,
   "winningBid": null,
   "processObject": {
-    "orderableAdditionalServices": {
-      "tradein": false,
-      "transport": true,
-      "insurance": true,
-      "finance": true,
-      "warranty": true,
-      "extraTires": false
-    },
-    "car360Spin": null,
-    "proactiveBrokering": null,
     "displayCar360Spin": true,
-    "offsiteSalesContact": null,
-    "sellMethod": "BIDDING",
-    "reducedPrice": false,
     "conditionClassification": "TESTED",
+    "proactiveBrokering": null,
     "properties": {
-      "adHeader": "E 300 de Kombi S213 (316hk) Avantgarde 360 GPS",
-      "exteriorColor": "Black",
-      "brand": "Mercedes",
-      "mediation": true,
+      "length": 5005,
+      "mustExport": false,
+      "odometerUnit": "km",
+      "familyName": "E-Klass",
+      "drivingBan": false,
+      "taxWeight": 2190,
+      "odometerReading": 126100,
+      "grades": {
+        "INTERIOR": {
+          "max": 5,
+          "value": 3,
+          "min": 1
+        },
+        "EXTERIOR": {
+          "max": 5,
+          "value": 3,
+          "min": 1
+        },
+        "TOTAL": {
+          "max": 5,
+          "value": 3,
+          "min": 1
+        },
+        "ENGINE_AND_GEARBOX": {
+          "max": 3,
+          "value": 3,
+          "min": 1
+        },
+        "TECHNOLOGY_AND_EQUIPMENT": {
+          "max": 3,
+          "value": 3,
+          "min": 1
+        },
+        "BRAKES": {
+          "max": 3,
+          "value": 3,
+          "min": 1
+        }
+      },
+      "fuels": [
+        {
+          "enginePower": 194,
+          "fuelCode": "Diesel"
+        },
+        {
+          "enginePower": 122,
+          "fuelCode": "Electric",
+          "rangeCityWltpDrive": 50,
+          "rangeWltpDrive": 49
+        }
+      ],
       "curbWeight": 2190,
+      "remarks": {
+        "TIRES": [],
+        "INTERIOR": [],
+        "EXTERIOR": [
+          {
+            "category": "EXTERIOR",
+            "key": "Vindruta sliten",
+            "id": "0"
+          },
+          {
+            "category": "EXTERIOR",
+            "key": "Flertal stenskott och repor, Fåtal bucklor och lackskador",
+            "id": "1"
+          }
+        ],
+        "ENGINE_AND_GEARBOX": [],
+        "TECHNOLOGY_AND_EQUIPMENT": [],
+        "BRAKES": []
+      },
+      "width": 1907,
+      "numberOfSeats": 5,
+      "body": "Wagon",
+      "maxPullWeightB": 750,
+      "textile": "Delläder",
+      "ecoFriendly": true,
       "maxPayload": 610,
+      "exportable": true,
+      "inspectionValidToDate": "2027-08-31",
+      "taxFee": 1177,
+      "modelYear": 2020,
+      "inspectionPeriod": "2026-06-01 - 2027-08-31",
+      "dateOfInspection": "2026-06-01",
+      "registrationPlate": "FUJ86P",
+      "totalWeight": 2800,
+      "adHeader": "E 300 de Kombi S213 (316hk) Avantgarde 360 GPS",
+      "battstatResult": {
+        "rankingRangeMax": 3,
+        "sohPercent": 85,
+        "rankingRangeMin": 1,
+        "ranking": 2
+      },
+      "numberOfKeys": 2,
+      "towbar": false,
+      "hasUnpaidLoan": true,
       "equipment": [
         "Backkamera",
         "Bluetooth",
@@ -110,28 +188,33 @@
         "Android Auto",
         "Apple CarPlay"
       ],
-      "inspectionValidToDate": "2027-08-31",
-      "odometerUnit": "km",
-      "length": 5005,
-      "electricType": "Plug-in hybrid",
-      "finishType": "Solid",
-      "textile": "Delläder",
-      "saleLimitedToCorporate": false,
-      "chassisNumber": "W1K2132161A834477",
-      "title": "Mercedes E 300 de Kombi S213 (316hk)",
-      "battstatResult": {
-        "rankingRangeMin": 1,
-        "ranking": 2,
-        "sohPercent": 85,
-        "rankingRangeMax": 3
-      },
-      "dateOfInspection": "2026-06-01",
-      "inspectionPeriod": "2026-06-01 - 2027-08-31",
-      "totalWeight": 2800,
-      "registrationPlateCountry": "se",
-      "exportable": true,
+      "isRepairObject": false,
+      "mediation": true,
       "residualLoanValue": 155313,
-      "taxFee": 1177,
+      "numberOfPreviousOwners": 4,
+      "package": "Avantgarde 360 GPS",
+      "remarksLocalized": {
+        "TIRES": null,
+        "BRAKES": null,
+        "EXTERIOR": "Vindruta sliten. Flertal stenskott och repor, Fåtal bucklor och lackskador",
+        "INTERIOR": null,
+        "ENGINE_AND_GEARBOX": null,
+        "TECHNOLOGY_AND_EQUIPMENT": null
+      },
+      "importedForPersonalUse": false,
+      "gearbox": "Automatic",
+      "title": "Mercedes E 300 de Kombi S213 (316hk)",
+      "chassisNumber": "W1K2132161A834477",
+      "deductibleVat": false,
+      "saleLimitedToCorporate": false,
+      "heavyEquipment": false,
+      "manufactureMonth": "202003",
+      "height": 1494,
+      "initialTrafficDate": "2020-03-30",
+      "registrationCountry": "se",
+      "environmentalClassEuro": "6",
+      "registrationPlateCountry": "se",
+      "brand": "Mercedes",
       "formattedEquipment": [
         {
           "key": "BACKKAMERA",
@@ -386,191 +469,76 @@
           "priority": 41
         }
       ],
-      "familyName": "E-Klass",
-      "environmentalClassEuro": "6",
-      "towbar": false,
-      "isRepairObject": false,
-      "body": "Wagon",
-      "numberOfSeats": 5,
-      "maxPullWeightB": 750,
-      "fuels": [
-        {
-          "enginePower": 194,
-          "fuelCode": "Diesel"
-        },
-        {
-          "enginePower": 122,
-          "rangeWltpDrive": 49,
-          "fuelCode": "Electric",
-          "rangeCityWltpDrive": 50
-        }
-      ],
-      "grades": {
-        "INTERIOR": {
-          "value": 3,
-          "min": 1,
-          "max": 5
-        },
-        "TOTAL": {
-          "value": 3,
-          "min": 1,
-          "max": 5
-        },
-        "ENGINE_AND_GEARBOX": {
-          "value": 3,
-          "min": 1,
-          "max": 3
-        },
-        "EXTERIOR": {
-          "value": 3,
-          "min": 1,
-          "max": 5
-        },
-        "BRAKES": {
-          "value": 3,
-          "min": 1,
-          "max": 3
-        },
-        "TECHNOLOGY_AND_EQUIPMENT": {
-          "value": 3,
-          "min": 1,
-          "max": 3
-        }
-      },
-      "odometerReading": 126100,
-      "package": "Avantgarde 360 GPS",
-      "initialTrafficDate": "2020-03-30",
-      "mustExport": false,
-      "manufactureMonth": "202003",
-      "ecoFriendly": true,
-      "deductibleVat": false,
-      "numberOfKeys": 2,
-      "registrationPlate": "FUJ86P",
-      "numberOfPreviousOwners": 4,
-      "heavyEquipment": false,
-      "modelYear": 2020,
-      "height": 1494,
-      "gearbox": "Automatic",
       "modelName": "E 300 de Kombi S213 (316hk)",
-      "taxWeight": 2190,
-      "width": 1907,
-      "remarks": {
-        "INTERIOR": [],
-        "ENGINE_AND_GEARBOX": [],
-        "EXTERIOR": [
-          {
-            "key": "Vindruta sliten",
-            "id": "0",
-            "category": "EXTERIOR"
-          },
-          {
-            "key": "Flertal stenskott och repor, Fåtal bucklor och lackskador",
-            "id": "1",
-            "category": "EXTERIOR"
-          }
-        ],
-        "BRAKES": [],
-        "TECHNOLOGY_AND_EQUIPMENT": [],
-        "TIRES": []
-      },
-      "drivingBan": false,
-      "remarksLocalized": {
-        "TIRES": null,
-        "BRAKES": null,
-        "EXTERIOR": "Vindruta sliten. Flertal stenskott och repor, Fåtal bucklor och lackskador",
-        "INTERIOR": null,
-        "ENGINE_AND_GEARBOX": null,
-        "TECHNOLOGY_AND_EQUIPMENT": null
-      },
-      "hasUnpaidLoan": true,
-      "registrationCountry": "se",
-      "importedForPersonalUse": false,
+      "finishType": "Solid",
+      "electricType": "Plug-in hybrid",
+      "exteriorColor": "Black",
       "heading1": "Mercedes E-Klass",
       "heading2": "E 300 de Kombi S213",
       "heading3": "Avantgarde 360 GPS"
     },
+    "car360Spin": null,
+    "testDriveAllowed": true,
+    "certified": false,
+    "objectType": "CAR",
+    "statisticalValuation": {
+      "bpGreen": null,
+      "bpOrange": 296125,
+      "bpWhite": 296125,
+      "marketPrice": 296125
+    },
+    "buyNowAmount": null,
+    "sellMethod": "BIDDING",
+    "orderableAdditionalServices": {
+      "tradein": false,
+      "transport": true,
+      "insurance": true,
+      "finance": true,
+      "warranty": true,
+      "extraTires": false
+    },
+    "isFixedPrice": false,
+    "vehicleType": "CAR",
+    "leaseReturnProperties": {},
+    "baseObjectId": "520118",
+    "initialBuyNowAmount": null,
+    "isReleasable": false,
+    "id": "7291967",
+    "offsiteSalesContact": null,
+    "presentationApproved": false,
+    "createdAt": "2026-10-12 20:56:13.728663+00:00",
+    "state": "AUCTION_RESOLUTION",
+    "reducedPrice": false,
     "baseObject": {
-      "exteriorColor": "Black",
-      "registrationPlate": "FUJ86P",
-      "year": "2020",
       "body": "Wagon",
+      "modelId": null,
+      "exteriorColor": "Black",
+      "baseObjectType": "CAR",
+      "registrationCountry": "se",
+      "odometerUnit": "km",
+      "familyName": "E-Klass",
+      "odometerReading": 125000,
+      "earliestAvailableAt": null,
+      "brand": "Mercedes-Benz",
+      "registrationPlate": "FUJ86P",
+      "fuels": [
+        {
+          "fuelCode": "Diesel",
+          "powerUnit": "EG",
+          "enginePower": 143,
+          "enginePowerHp": 194,
+          "fuelTankVolume": ""
+        },
+        {
+          "fuelCode": "Electric",
+          "powerUnit": "",
+          "enginePower": 90,
+          "enginePowerHp": 122,
+          "fuelTankVolume": ""
+        }
+      ],
+      "id": "520118",
       "authorityRegisterInformation": {
-        "additionalTechSpecification": {
-          "raceCar": null,
-          "wheelbase1": 2939,
-          "wheelbase2": null,
-          "wheelbase3": null,
-          "wheelbase4": null,
-          "equipment1": null,
-          "equipment2": null,
-          "equipment3": null,
-          "maximumSpeed": 250,
-          "numAxleShafts": 2,
-          "passengerAirBag": false,
-          "tyreDimensionRear": "275/40 R18 103Y XL",
-          "tyreDimensionFront": "245/45 R18 100Y XL",
-          "dualSteeringControl": null
-        },
-        "environmentalClassification": {
-          "fuels": [
-            {
-              "co2": "",
-              "nox": "",
-              "nox4": null,
-              "fuelCode": "Diesel",
-              "hcThcNox": "",
-              "consumption": "",
-              "noiseLevel": 68,
-              "emissionUnit": "g/km",
-              "innovationCo2": null,
-              "particleValue": "",
-              "particleMass4": null,
-              "consumptionUnit": "",
-              "rangeNedcDrive": null,
-              "rangeWltpDrive": null,
-              "consumptionUrban": "",
-              "rangeCityWltpDrive": null,
-              "consumptionExtraUrban": "",
-              "electricEnergyConsumption": null,
-              "energyConsumptionWltpDrive": null
-            },
-            {
-              "co2": 0,
-              "nox": "",
-              "nox4": null,
-              "fuelCode": "Electric",
-              "hcThcNox": "",
-              "consumption": "",
-              "noiseLevel": "",
-              "emissionUnit": "g/km",
-              "innovationCo2": null,
-              "particleValue": "",
-              "particleMass4": null,
-              "consumptionUnit": "",
-              "rangeNedcDrive": null,
-              "rangeWltpDrive": "49",
-              "consumptionUrban": "",
-              "rangeCityWltpDrive": "50",
-              "consumptionExtraUrban": "",
-              "electricEnergyConsumption": null,
-              "energyConsumptionWltpDrive": null
-            }
-          ],
-          "ecoFriendly": true,
-          "emissionClass": "LADDHYBRID",
-          "innovationCode": null,
-          "environmentalClass": "HYBRID",
-          "environmentalClassEuro": "6"
-        },
-        "vehicleStatus": {
-          "tax": 1177
-        },
-        "registrationInformation": {
-          "registrationPlate": "FUJ86P",
-          "deregistrationDate": null,
-          "deregistrationText": null,
-          "deregistrationReason": null
-        },
         "generalTechSpecification": {
           "eeg": "e1*2007/46*1560*18",
           "fuels": [
@@ -643,6 +611,76 @@
           "inspectionValidToDate": "2027-08-31",
           "inspectionExemptionGroup": null
         },
+        "environmentalClassification": {
+          "fuels": [
+            {
+              "co2": "",
+              "nox": "",
+              "nox4": null,
+              "fuelCode": "Diesel",
+              "hcThcNox": "",
+              "consumption": "",
+              "noiseLevel": 68,
+              "emissionUnit": "g/km",
+              "innovationCo2": null,
+              "particleValue": "",
+              "particleMass4": null,
+              "consumptionUnit": "",
+              "rangeNedcDrive": null,
+              "rangeWltpDrive": null,
+              "consumptionUrban": "",
+              "rangeCityWltpDrive": null,
+              "consumptionExtraUrban": "",
+              "electricEnergyConsumption": null,
+              "energyConsumptionWltpDrive": null
+            },
+            {
+              "co2": 0,
+              "nox": "",
+              "nox4": null,
+              "fuelCode": "Electric",
+              "hcThcNox": "",
+              "consumption": "",
+              "noiseLevel": "",
+              "emissionUnit": "g/km",
+              "innovationCo2": null,
+              "particleValue": "",
+              "particleMass4": null,
+              "consumptionUnit": "",
+              "rangeNedcDrive": null,
+              "rangeWltpDrive": "49",
+              "consumptionUrban": "",
+              "rangeCityWltpDrive": "50",
+              "consumptionExtraUrban": "",
+              "electricEnergyConsumption": null,
+              "energyConsumptionWltpDrive": null
+            }
+          ],
+          "ecoFriendly": true,
+          "emissionClass": "LADDHYBRID",
+          "innovationCode": null,
+          "environmentalClass": "HYBRID",
+          "environmentalClassEuro": "6"
+        },
+        "additionalTechSpecification": {
+          "raceCar": null,
+          "wheelbase1": 2939,
+          "wheelbase2": null,
+          "wheelbase3": null,
+          "wheelbase4": null,
+          "equipment1": null,
+          "equipment2": null,
+          "equipment3": null,
+          "maximumSpeed": 250,
+          "numAxleShafts": 2,
+          "passengerAirBag": false,
+          "tyreDimensionRear": "275/40 R18 103Y XL",
+          "tyreDimensionFront": "245/45 R18 100Y XL",
+          "dualSteeringControl": null
+        },
+        "vehicleStatus": {
+          "tax": 1177
+        },
         "vehicleInformation": {
           "vin": "W1K2132161A834477",
           "body": "AC",
@@ -663,39 +701,21 @@
           "registrationDate": "2020-03-02",
           "initialTrafficDate": "2020-03-30",
           "registrationPlateReused": null
+        },
+        "registrationInformation": {
+          "registrationPlate": "FUJ86P",
+          "deregistrationDate": null,
+          "deregistrationText": null,
+          "deregistrationReason": null
         }
       },
-      "brand": "Mercedes-Benz",
-      "id": "520118",
-      "fuels": [
-        {
-          "fuelCode": "Diesel",
-          "powerUnit": "EG",
-          "enginePower": 143,
-          "enginePowerHp": 194,
-          "fuelTankVolume": ""
-        },
-        {
-          "fuelCode": "Electric",
-          "powerUnit": "",
-          "enginePower": 90,
-          "enginePowerHp": 122,
-          "fuelTankVolume": ""
-        }
-      ],
-      "gearbox": null,
-      "fabricAndMake": "MERCEDES-BENZ",
-      "baseObjectType": "CAR",
-      "modelId": null,
-      "odometerReading": 125000,
       "modelName": "E 300 de Kombi S213 (316hk)",
-      "salesFlow": "CONSUMER_CARS",
-      "state": "IMPORTING_INTO_PROCESS_OBJECT",
-      "odometerUnit": "km",
-      "earliestAvailableAt": null,
-      "registrationCountry": "se",
       "createdAt": "2026-10-02T15:52:10.063735+00:00",
-      "familyName": "E-Klass",
+      "state": "IMPORTING_INTO_PROCESS_OBJECT",
+      "gearbox": null,
+      "salesFlow": "CONSUMER_CARS",
+      "year": "2020",
+      "fabricAndMake": "MERCEDES-BENZ",
       "technicalSpecification": {
         "modelId": null,
         "vehicle": {
@@ -707,26 +727,6 @@
         "year": "2020"
       }
     },
-    "id": "7291967",
-    "leaseReturnProperties": {},
-    "vehicleType": "CAR",
-    "presentationApproved": false,
-    "baseObjectId": "520118",
-    "isFixedPrice": false,
-    "certified": false,
-    "objectType": "CAR",
-    "state": "AUCTION_RESOLUTION",
-    "initialBuyNowAmount": null,
-    "statisticalValuation": {
-      "bpWhite": 296125,
-      "marketPrice": 296125,
-      "bpGreen": null,
-      "bpOrange": 296125
-    },
-    "testDriveAllowed": true,
-    "buyNowAmount": null,
-    "isReleasable": false,
-    "createdAt": "2026-10-12 20:56:13.728663+00:00",
     "exportable": true,
     "deductibleVat": false,
     "collisionWarranty": null,
@@ -2642,6 +2642,6 @@
     "closedAt": "2026-10-30T09:09:00.008314+00:00",
     "updatedAt": "2026-10-30T09:09:00.088166+00:00"
   },
-  "_scraped_at": "2026-10-30T14:08:53.177087+00:00",
+  "_scraped_at": "2026-10-30T16:16:13.905451+00:00",
   "_url": "https://www.kvd.se/auktioner/mercedes-e-300-de-kombi-s213-316hk-309199"
 }

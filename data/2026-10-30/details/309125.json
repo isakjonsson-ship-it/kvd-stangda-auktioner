@@ -44,223 +44,22 @@
   "eurBuyNowAmount": null,
   "winningBid": null,
   "processObject": {
-    "objectType": "CAR",
-    "buyNowAmount": null,
-    "reducedPrice": false,
-    "testDriveAllowed": true,
-    "isFixedPrice": false,
-    "baseObject": {
-      "gearbox": "Manual",
-      "baseObjectType": "CAR",
-      "odometerReading": null,
-      "authorityRegisterInformation": {
-        "vehicleOrigin": {
-          "originCode": "INFÖRT",
-          "originCodeReason": null,
-          "importerIdentifier": null,
-          "preRegistrationDate": null,
-          "importRegistrationDate": null,
-          "importedForPersonalUse": false,
-          "importedPreviouslyRegistered": false
-        },
-        "generalTechSpecification": {
-          "eeg": "e2*2007/46*0003*73",
-          "fuels": [
-            {
-              "fuelCode": "Petrol",
-              "powerUnit": "EG",
-              "enginePower": 61,
-              "enginePowerHp": 83,
-              "fuelTankVolume": ""
-            }
-          ],
-          "width": 1749,
-          "height": 1490,
-          "length": 3996,
-          "gearbox": "Manual",
-          "variant": "XHMR",
-          "version": "V/AMXS",
-          "taxWeight": 1100,
-          "curbWeight": 1107,
-          "maxPayload": 433,
-          "totalWeight": 1540,
-          "chassisCode1": null,
-          "chassisCode2": null,
-          "cubicCapacity": "1199",
-          "numPassengers": "4",
-          "numberOfSeats": 5,
-          "fourWheelDrive": false,
-          "maxPullWeightB": 1960,
-          "clutchMechanism1": null,
-          "clutchMechanism2": null,
-          "maxTrailerWeight": null,
-          "chassisCodeSupplement": null,
-          "maxPullWieghtNoBreaks": null,
-          "maxPullWeightBExtended": null,
-          "maxSingle Axle TrailerWeight": null
-        },
-        "environmentalClassification": {
-          "fuels": [
-            {
-              "co2": "",
-              "nox": "",
-              "nox4": null,
-              "fuelCode": "Petrol",
-              "hcThcNox": "",
-              "consumption": "",
-              "noiseLevel": 68,
-              "emissionUnit": "g/km",
-              "innovationCo2": null,
-              "particleValue": "",
-              "particleMass4": null,
-              "consumptionUnit": "",
-              "rangeNedcDrive": null,
-              "rangeWltpDrive": null,
-              "consumptionUrban": "",
-              "rangeCityWltpDrive": null,
-              "consumptionExtraUrban": "",
-              "electricEnergyConsumption": null,
-              "energyConsumptionWltpDrive": null
-            }
-          ],
-          "ecoFriendly": false,
-          "emissionClass": "EURO 6",
-          "innovationCode": null,
-          "environmentalClass": null,
-          "environmentalClassEuro": "6"
-        },
-        "vehicleStatus": {
-          "tax": 5575
-        },
-        "vehicleInspectionInformation": {
-          "inspections": [
-            {
-              "inspectionType": "13",
-              "odometerReading": null,
-              "dateOfInspection": "2023-10-03"
-            },
-            {
-              "inspectionType": null,
-              "odometerReading": null,
-              "dateOfInspection": null
-            }
-          ],
-          "inspectionGroup": "36/24/14",
-          "odometerReading": "",
-          "inspectionPeriod": "2023-10-03 - 2026-11-30",
-          "dateOfInspection": "2023-10-03",
-          "inspectionValidToDate": "2026-11-30",
-          "inspectionExemptionGroup": null
-        },
-        "registrationInformation": {
-          "registrationPlate": "SRA56Y",
-          "deregistrationDate": null,
-          "deregistrationText": null,
-          "deregistrationReason": null
-        },
-        "vehicleInformation": {
-          "vin": "VF7SXHMRVPT688882",
-          "body": "AB",
-          "type": "CAR",
-          "year": "2023",
-          "model": "C3",
-          "rawType": "PB",
-          "modelYear": null,
-          "categoryEu": "e2*2007/46*0003*73",
-          "groupNumber": "CI 010000",
-          "modelNumber": "CI 000000",
-          "chassisNumber": "VF7SXHMRVPT688882",
-          "exteriorColor": "White",
-          "fabricAndMake": "CITROEN",
-          "baseObjectType": "CAR",
-          "manufactureCode": null,
-          "manufactureMonth": "202309",
-          "registrationDate": "2023-09-25",
-          "initialTrafficDate": "2023-11-29",
-          "registrationPlateReused": null
-        },
-        "additionalTechSpecification": {
-          "raceCar": null,
-          "wheelbase1": 2539,
-          "wheelbase2": null,
-          "wheelbase3": null,
-          "wheelbase4": null,
-          "equipment1": null,
-          "equipment2": null,
-          "equipment3": null,
-          "maximumSpeed": 166,
-          "numAxleShafts": 2,
-          "passengerAirBag": true,
-          "tyreDimensionRear": "205/55 R16",
-          "tyreDimensionFront": "205/55 R16",
-          "dualSteeringControl": null
-        }
-      },
-      "fuels": [
-        {
-          "fuelCode": "Petrol",
-          "powerUnit": "EG",
-          "enginePower": 61,
-          "enginePowerHp": 83,
-          "fuelTankVolume": ""
-        }
-      ],
-      "earliestAvailableAt": null,
-      "modelName": "C3 PureTech (82hk)",
-      "salesFlow": "CORPORATE_CARS",
-      "registrationPlate": "SRA56Y",
-      "state": "MANUAL_VALUATION_PENDING",
-      "odometerUnit": "km",
-      "fabricAndMake": "CITROEN",
-      "registrationCountry": "se",
-      "id": "519558",
-      "familyName": "C3",
-      "modelId": null,
-      "year": "2024",
-      "createdAt": "2026-09-30T09:29:50.560417+00:00",
-      "brand": "Citroën",
-      "body": "Hatchback",
-      "exteriorColor": "White",
-      "technicalSpecification": {
-        "modelId": null,
-        "vehicle": {
-          "brand": "Citroën",
-          "body": "Hatchback",
-          "modelName": "C3 PureTech (82hk)",
-          "familyName": "C3"
-        },
-        "year": "2024"
-      }
-    },
-    "vehicleType": "CAR",
-    "initialBuyNowAmount": null,
-    "baseObjectId": "519558",
+    "displayCar360Spin": true,
     "conditionClassification": "TESTED",
     "proactiveBrokering": null,
-    "presentationApproved": false,
-    "state": "AUCTION_RESOLUTION",
     "properties": {
+      "length": 3996,
+      "mustExport": false,
+      "odometerUnit": "km",
+      "familyName": "C3",
+      "drivingBan": false,
+      "taxWeight": 1100,
+      "manufacturerWarranty": {
+        "odometerReadingLimit": 100000,
+        "expirationDate": "2026-11-28"
+      },
+      "odometerReading": 42700,
       "grades": {
-        "BRAKES": {
-          "max": 3,
-          "value": 2,
-          "min": 1
-        },
-        "TOTAL": {
-          "max": 5,
-          "value": 3,
-          "min": 1
-        },
-        "TECHNOLOGY_AND_EQUIPMENT": {
-          "max": 3,
-          "value": 3,
-          "min": 1
-        },
-        "ENGINE_AND_GEARBOX": {
-          "max": 3,
-          "value": 3,
-          "min": 1
-        },
         "INTERIOR": {
           "max": 5,
           "value": 3,
@@ -270,9 +69,133 @@
           "max": 5,
           "value": 3,
           "min": 1
+        },
+        "TOTAL": {
+          "max": 5,
+          "value": 3,
+          "min": 1
+        },
+        "ENGINE_AND_GEARBOX": {
+          "max": 3,
+          "value": 3,
+          "min": 1
+        },
+        "TECHNOLOGY_AND_EQUIPMENT": {
+          "max": 3,
+          "value": 3,
+          "min": 1
+        },
+        "BRAKES": {
+          "max": 3,
+          "value": 2,
+          "min": 1
         }
       },
+      "fuels": [
+        {
+          "enginePower": 83,
+          "fuelCode": "Petrol"
+        }
+      ],
+      "curbWeight": 1107,
+      "remarks": {
+        "TIRES": [],
+        "INTERIOR": [
+          {
+            "category": "INTERIOR",
+            "key": "Klädsel smutsig",
+            "id": "0"
+          }
+        ],
+        "EXTERIOR": [
+          {
+            "category": "EXTERIOR",
+            "key": "Fåtal rostangrepp",
+            "id": "0"
+          },
+          {
+            "category": "EXTERIOR",
+            "key": "Detalj under stötfångare bak trasig",
+            "id": "1"
+          }
+        ],
+        "ENGINE_AND_GEARBOX": [],
+        "TECHNOLOGY_AND_EQUIPMENT": [],
+        "BRAKES": [
+          {
+            "category": "BRAKES",
+            "key": "Bromsskivor fram är slitna, behöver bytas inom 6 månader",
+            "id": "0"
+          }
+        ]
+      },
+      "collisionWarranty": "2026-11-28",
+      "width": 1749,
+      "numberOfSeats": 5,
+      "body": "Hatchback",
+      "maxPullWeightB": 1960,
+      "textile": "Delläder",
+      "ecoFriendly": false,
+      "maxPayload": 433,
+      "exportable": true,
+      "inspectionValidToDate": "2028-10-31",
+      "taxFee": 5575,
+      "modelYear": 2023,
+      "inspectionPeriod": "2026-10-12 - 2028-10-31",
+      "dateOfInspection": "2026-10-12",
+      "registrationPlate": "SRA56Y",
+      "totalWeight": 1540,
+      "adHeader": "C3 PureTech (82hk) Shine",
       "numberOfKeys": 2,
+      "towbar": false,
+      "hasUnpaidLoan": false,
+      "equipment": [
+        "Antisladdsystem",
+        "Bluetooth",
+        "Elhiss bak",
+        "Elhiss fram",
+        "Elspeglar",
+        "Farthållare",
+        "Filbytesvarnare",
+        "Fjärrlås",
+        "Isofix bak",
+        "Klimatanläggning",
+        "LED-strålkastare",
+        "Nyckellöst startsystem",
+        "Parkeringssensorer bak",
+        "Radio",
+        "Regnsensor",
+        "Start/Stop-funktion",
+        "Stolsvärme fram",
+        "USB-ingång"
+      ],
+      "isRepairObject": false,
+      "mediation": true,
+      "residualLoanValue": 0,
+      "numberOfPreviousOwners": 2,
+      "package": "Shine",
+      "remarksLocalized": {
+        "TIRES": null,
+        "BRAKES": "Bromsskivor fram är slitna, behöver bytas inom 6 månader",
+        "EXTERIOR": "Fåtal rostangrepp. Detalj under stötfångare bak trasig",
+        "INTERIOR": "Klädsel smutsig",
+        "ENGINE_AND_GEARBOX": null,
+        "TECHNOLOGY_AND_EQUIPMENT": null
+      },
+      "importedForPersonalUse": false,
+      "gearbox": "Manual",
+      "title": "Citroën C3 PureTech (82hk)",
+      "chassisNumber": "VF7SXHMRVPT688882",
+      "deductibleVat": true,
+      "saleLimitedToCorporate": false,
+      "heavyEquipment": false,
+      "manufactureMonth": "202309",
+      "height": 1490,
+      "initialTrafficDate": "2023-11-29",
+      "registrationCountry": "se",
+      "environmentalClassEuro": "6",
+      "registrationPlateCountry": "se",
+      "brand": "Citroën",
       "formattedEquipment": [
         {
           "key": "ANTISLADDSYSTEM",
@@ -383,128 +306,20 @@
           "priority": 17
         }
       ],
-      "exportable": true,
-      "mustExport": false,
-      "deductibleVat": true,
-      "manufactureMonth": "202309",
-      "totalWeight": 1540,
-      "dateOfInspection": "2026-10-12",
-      "registrationPlate": "SRA56Y",
-      "equipment": [
-        "Antisladdsystem",
-        "Bluetooth",
-        "Elhiss bak",
-        "Elhiss fram",
-        "Elspeglar",
-        "Farthållare",
-        "Filbytesvarnare",
-        "Fjärrlås",
-        "Isofix bak",
-        "Klimatanläggning",
-        "LED-strålkastare",
-        "Nyckellöst startsystem",
-        "Parkeringssensorer bak",
-        "Radio",
-        "Regnsensor",
-        "Start/Stop-funktion",
-        "Stolsvärme fram",
-        "USB-ingång"
-      ],
-      "taxWeight": 1100,
-      "odometerUnit": "km",
-      "mediation": true,
-      "ecoFriendly": false,
-      "towbar": false,
-      "remarksLocalized": {
-        "TIRES": null,
-        "BRAKES": "Bromsskivor fram är slitna, behöver bytas inom 6 månader",
-        "EXTERIOR": "Fåtal rostangrepp. Detalj under stötfångare bak trasig",
-        "INTERIOR": "Klädsel smutsig",
-        "ENGINE_AND_GEARBOX": null,
-        "TECHNOLOGY_AND_EQUIPMENT": null
-      },
-      "width": 1749,
-      "body": "Hatchback",
-      "exteriorColor": "White",
-      "remarks": {
-        "TIRES": [],
-        "BRAKES": [
-          {
-            "category": "BRAKES",
-            "id": "0",
-            "key": "Bromsskivor fram är slitna, behöver bytas inom 6 månader"
-          }
-        ],
-        "TECHNOLOGY_AND_EQUIPMENT": [],
-        "ENGINE_AND_GEARBOX": [],
-        "INTERIOR": [
-          {
-            "category": "INTERIOR",
-            "id": "0",
-            "key": "Klädsel smutsig"
-          }
-        ],
-        "EXTERIOR": [
-          {
-            "category": "EXTERIOR",
-            "id": "0",
-            "key": "Fåtal rostangrepp"
-          },
-          {
-            "category": "EXTERIOR",
-            "id": "1",
-            "key": "Detalj under stötfångare bak trasig"
-          }
-        ]
-      },
-      "numberOfPreviousOwners": 2,
-      "adHeader": "C3 PureTech (82hk) Shine",
-      "fuels": [
-        {
-          "fuelCode": "Petrol",
-          "enginePower": 83
-        }
-      ],
-      "textile": "Delläder",
-      "collisionWarranty": "2026-11-28",
-      "maxPayload": 433,
-      "inspectionPeriod": "2026-10-12 - 2028-10-31",
-      "inspectionValidToDate": "2028-10-31",
-      "saleLimitedToCorporate": false,
-      "manufacturerWarranty": {
-        "odometerReadingLimit": 100000,
-        "expirationDate": "2026-11-28"
-      },
-      "package": "Shine",
-      "hasUnpaidLoan": false,
-      "heavyEquipment": false,
-      "residualLoanValue": 0,
-      "brand": "Citroën",
-      "gearbox": "Manual",
-      "height": 1490,
-      "maxPullWeightB": 1960,
-      "length": 3996,
-      "environmentalClassEuro": "6",
-      "curbWeight": 1107,
-      "drivingBan": false,
-      "initialTrafficDate": "2023-11-29",
-      "chassisNumber": "VF7SXHMRVPT688882",
-      "familyName": "C3",
-      "finishType": "Solid",
-      "importedForPersonalUse": false,
-      "isRepairObject": false,
-      "title": "Citroën C3 PureTech (82hk)",
-      "odometerReading": 42700,
       "modelName": "C3 PureTech (82hk)",
-      "modelYear": 2023,
-      "numberOfSeats": 5,
-      "registrationPlateCountry": "se",
-      "registrationCountry": "se",
-      "taxFee": 5575,
+      "finishType": "Solid",
+      "exteriorColor": "White",
       "heading1": "Citroën C3",
       "heading2": "PureTech",
       "heading3": "Shine"
     },
+    "car360Spin": null,
+    "testDriveAllowed": true,
+    "certified": false,
+    "objectType": "CAR",
+    "statisticalValuation": null,
+    "buyNowAmount": null,
+    "sellMethod": "BIDDING",
     "orderableAdditionalServices": {
       "tradein": false,
       "transport": true,
@@ -513,16 +328,201 @@
       "warranty": true,
       "extraTires": false
     },
-    "offsiteSalesContact": null,
+    "isFixedPrice": false,
+    "vehicleType": "CAR",
     "leaseReturnProperties": {},
-    "id": "7290491",
-    "displayCar360Spin": true,
-    "certified": false,
-    "sellMethod": "BIDDING",
+    "baseObjectId": "519558",
+    "initialBuyNowAmount": null,
     "isReleasable": false,
-    "car360Spin": null,
-    "statisticalValuation": null,
+    "id": "7290491",
+    "offsiteSalesContact": null,
+    "presentationApproved": false,
     "createdAt": "2026-09-30 09:29:50.798708+00:00",
+    "state": "AUCTION_RESOLUTION",
+    "reducedPrice": false,
+    "baseObject": {
+      "body": "Hatchback",
+      "modelId": null,
+      "exteriorColor": "White",
+      "baseObjectType": "CAR",
+      "registrationCountry": "se",
+      "odometerUnit": "km",
+      "familyName": "C3",
+      "odometerReading": null,
+      "earliestAvailableAt": null,
+      "brand": "Citroën",
+      "registrationPlate": "SRA56Y",
+      "fuels": [
+        {
+          "fuelCode": "Petrol",
+          "powerUnit": "EG",
+          "enginePower": 61,
+          "enginePowerHp": 83,
+          "fuelTankVolume": ""
+        }
+      ],
+      "id": "519558",
+      "authorityRegisterInformation": {
+        "generalTechSpecification": {
+          "eeg": "e2*2007/46*0003*73",
+          "fuels": [
+            {
+              "fuelCode": "Petrol",
+              "powerUnit": "EG",
+              "enginePower": 61,
+              "enginePowerHp": 83,
+              "fuelTankVolume": ""
+            }
+          ],
+          "width": 1749,
+          "height": 1490,
+          "length": 3996,
+          "gearbox": "Manual",
+          "variant": "XHMR",
+          "version": "V/AMXS",
+          "taxWeight": 1100,
+          "curbWeight": 1107,
+          "maxPayload": 433,
+          "totalWeight": 1540,
+          "chassisCode1": null,
+          "chassisCode2": null,
+          "cubicCapacity": "1199",
+          "numPassengers": "4",
+          "numberOfSeats": 5,
+          "fourWheelDrive": false,
+          "maxPullWeightB": 1960,
+          "clutchMechanism1": null,
+          "clutchMechanism2": null,
+          "maxTrailerWeight": null,
+          "chassisCodeSupplement": null,
+          "maxPullWieghtNoBreaks": null,
+          "maxPullWeightBExtended": null,
+          "maxSingle Axle TrailerWeight": null
+        },
+        "vehicleOrigin": {
+          "originCode": "INFÖRT",
+          "originCodeReason": null,
+          "importerIdentifier": null,
+          "preRegistrationDate": null,
+          "importRegistrationDate": null,
+          "importedForPersonalUse": false,
+          "importedPreviouslyRegistered": false
+        },
+        "vehicleInspectionInformation": {
+          "inspections": [
+            {
+              "inspectionType": "13",
+              "odometerReading": null,
+              "dateOfInspection": "2023-10-03"
+            },
+            {
+              "inspectionType": null,
+              "odometerReading": null,
+              "dateOfInspection": null
+            }
+          ],
+          "inspectionGroup": "36/24/14",
+          "odometerReading": "",
+          "inspectionPeriod": "2023-10-03 - 2026-11-30",
+          "dateOfInspection": "2023-10-03",
+          "inspectionValidToDate": "2026-11-30",
+          "inspectionExemptionGroup": null
+        },
+        "environmentalClassification": {
+          "fuels": [
+            {
+              "co2": "",
+              "nox": "",
+              "nox4": null,
+              "fuelCode": "Petrol",
+              "hcThcNox": "",
+              "consumption": "",
+              "noiseLevel": 68,
+              "emissionUnit": "g/km",
+              "innovationCo2": null,
+              "particleValue": "",
+              "particleMass4": null,
+              "consumptionUnit": "",
+              "rangeNedcDrive": null,
+              "rangeWltpDrive": null,
+              "consumptionUrban": "",
+              "rangeCityWltpDrive": null,
+              "consumptionExtraUrban": "",
+              "electricEnergyConsumption": null,
+              "energyConsumptionWltpDrive": null
+            }
+          ],
+          "ecoFriendly": false,
+          "emissionClass": "EURO 6",
+          "innovationCode": null,
+          "environmentalClass": null,
+          "environmentalClassEuro": "6"
+        },
+        "additionalTechSpecification": {
+          "raceCar": null,
+          "wheelbase1": 2539,
+          "wheelbase2": null,
+          "wheelbase3": null,
+          "wheelbase4": null,
+          "equipment1": null,
+          "equipment2": null,
+          "equipment3": null,
+          "maximumSpeed": 166,
+          "numAxleShafts": 2,
+          "passengerAirBag": true,
+          "tyreDimensionRear": "205/55 R16",
+          "tyreDimensionFront": "205/55 R16",
+          "dualSteeringControl": null
+        },
+        "vehicleStatus": {
+          "tax": 5575
+        },
+        "vehicleInformation": {
+          "vin": "VF7SXHMRVPT688882",
+          "body": "AB",
+          "type": "CAR",
+          "year": "2023",
+          "model": "C3",
+          "rawType": "PB",
+          "modelYear": null,
+          "categoryEu": "e2*2007/46*0003*73",
+          "groupNumber": "CI 010000",
+          "modelNumber": "CI 000000",
+          "chassisNumber": "VF7SXHMRVPT688882",
+          "exteriorColor": "White",
+          "fabricAndMake": "CITROEN",
+          "baseObjectType": "CAR",
+          "manufactureCode": null,
+          "manufactureMonth": "202309",
+          "registrationDate": "2023-09-25",
+          "initialTrafficDate": "2023-11-29",
+          "registrationPlateReused": null
+        },
+        "registrationInformation": {
+          "registrationPlate": "SRA56Y",
+          "deregistrationDate": null,
+          "deregistrationText": null,
+          "deregistrationReason": null
+        }
+      },
+      "modelName": "C3 PureTech (82hk)",
+      "createdAt": "2026-09-30T09:29:50.560417+00:00",
+      "state": "MANUAL_VALUATION_PENDING",
+      "gearbox": "Manual",
+      "salesFlow": "CORPORATE_CARS",
+      "year": "2024",
+      "fabricAndMake": "CITROEN",
+      "technicalSpecification": {
+        "modelId": null,
+        "vehicle": {
+          "brand": "Citroën",
+          "body": "Hatchback",
+          "modelName": "C3 PureTech (82hk)",
+          "familyName": "C3"
+        },
+        "year": "2024"
+      }
+    },
     "exportable": true,
     "deductibleVat": true,
     "collisionWarranty": "2026-11-28",
@@ -1611,6 +1611,6 @@
     "closedAt": "2026-10-30T09:17:19.353768+00:00",
     "updatedAt": "2026-10-30T09:17:19.427496+00:00"
   },
-  "_scraped_at": "2026-10-30T14:09:03.817295+00:00",
+  "_scraped_at": "2026-10-30T16:16:25.252608+00:00",
   "_url": "https://www.kvd.se/auktioner/citroen-c3-puretech-82hk-309125"
 }

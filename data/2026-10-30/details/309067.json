@@ -44,77 +44,235 @@
   "eurBuyNowAmount": null,
   "winningBid": null,
   "processObject": {
-    "orderableAdditionalServices": {
-      "tradein": false,
-      "transport": true,
-      "insurance": true,
-      "finance": true,
-      "warranty": true,
-      "extraTires": false
-    },
-    "car360Spin": null,
-    "proactiveBrokering": null,
-    "displayCar360Spin": true,
-    "offsiteSalesContact": null,
-    "sellMethod": "BIDDING",
+    "objectType": "LIGHT_TRUCK",
+    "buyNowAmount": null,
     "reducedPrice": false,
-    "conditionClassification": "TESTED",
-    "properties": {
-      "adHeader": "F-150 Supercrew 3.5 V6 (406hk) Platinum",
-      "exteriorColor": "Dark Grey",
-      "brand": "Ford",
-      "mediation": true,
-      "curbWeight": 2550,
-      "maxPayload": 648,
-      "equipment": [
-        "4WD",
-        "Adaptiv farthållare",
-        "Antisladdsystem",
-        "Antispinn",
-        "Autobroms",
-        "Backkamera",
-        "Bluetooth",
-        "Dödavinkelvarnare",
-        "Elhiss bak",
-        "Elhiss fram",
-        "Elinfällbara speglar",
-        "Elspeglar",
-        "Elstol med minnesfunktion förarplats",
-        "Elstol passagerarplats",
-        "Fastmonterad dragkrok",
-        "Filbytesvarnare",
-        "Fjärrlås",
-        "Isofix bak",
-        "Klimatanläggning",
-        "LED-strålkastare",
-        "Nyckellöst startsystem",
-        "Parkeringssensorer bak",
-        "Radio",
-        "Rattvärme",
-        "Regnsensor",
-        "Smartphone integration",
-        "Start/Stop-funktion",
-        "Stolsvärme fram",
-        "Sätesvärme bak",
-        "Urkopplingsbar passagerarairbag",
-        "USB-ingång",
-        "Öppningsbart panoramatak"
+    "testDriveAllowed": true,
+    "isFixedPrice": false,
+    "baseObject": {
+      "gearbox": "Automatic",
+      "baseObjectType": "LIGHT_TRUCK",
+      "odometerReading": 105587,
+      "authorityRegisterInformation": {
+        "vehicleOrigin": {
+          "originCode": "IMPORT",
+          "originCodeReason": "ANNAT",
+          "importerIdentifier": null,
+          "preRegistrationDate": null,
+          "importRegistrationDate": "2021-11-23",
+          "importedForPersonalUse": true,
+          "importedPreviouslyRegistered": true
+        },
+        "generalTechSpecification": {
+          "eeg": null,
+          "fuels": [
+            {
+              "fuelCode": "Petrol",
+              "powerUnit": "EG",
+              "enginePower": 298,
+              "enginePowerHp": 405,
+              "fuelTankVolume": ""
+            }
+          ],
+          "width": 2029,
+          "height": 1963,
+          "length": 5890,
+          "gearbox": "Automatic",
+          "variant": null,
+          "version": null,
+          "taxWeight": 3190,
+          "curbWeight": 2550,
+          "maxPayload": 648,
+          "totalWeight": 3198,
+          "chassisCode1": null,
+          "chassisCode2": null,
+          "cubicCapacity": "3490",
+          "numPassengers": "4",
+          "numberOfSeats": 5,
+          "fourWheelDrive": true,
+          "maxPullWeightB": 750,
+          "clutchMechanism1": null,
+          "clutchMechanism2": null,
+          "maxTrailerWeight": 3500,
+          "chassisCodeSupplement": null,
+          "maxPullWieghtNoBreaks": null,
+          "maxPullWeightBExtended": null,
+          "maxSingle Axle TrailerWeight": null
+        },
+        "environmentalClassification": {
+          "fuels": [
+            {
+              "co2": "",
+              "nox": "",
+              "nox4": null,
+              "fuelCode": "Petrol",
+              "hcThcNox": "",
+              "consumption": "",
+              "noiseLevel": 74,
+              "emissionUnit": "g/km",
+              "innovationCo2": null,
+              "particleValue": "",
+              "particleMass4": null,
+              "consumptionUnit": "",
+              "rangeNedcDrive": null,
+              "rangeWltpDrive": null,
+              "consumptionUrban": "",
+              "rangeCityWltpDrive": null,
+              "consumptionExtraUrban": "",
+              "electricEnergyConsumption": null,
+              "energyConsumptionWltpDrive": null
+            }
+          ],
+          "ecoFriendly": false,
+          "emissionClass": "EURO 6",
+          "innovationCode": null,
+          "environmentalClass": null,
+          "environmentalClassEuro": "6"
+        },
+        "vehicleStatus": {
+          "tax": 3968
+        },
+        "vehicleInspectionInformation": {
+          "inspections": [
+            {
+              "inspectionType": "5",
+              "odometerReading": 105587,
+              "dateOfInspection": "2024-11-13"
+            },
+            {
+              "inspectionType": "11",
+              "odometerReading": null,
+              "dateOfInspection": "2021-11-23"
+            }
+          ],
+          "inspectionGroup": "36/24/14",
+          "odometerReading": 105587,
+          "inspectionPeriod": "2024-11-13 - 2026-11-30",
+          "dateOfInspection": "2024-11-13",
+          "inspectionValidToDate": "2026-11-30",
+          "inspectionExemptionGroup": null
+        },
+        "registrationInformation": {
+          "registrationPlate": "MWR21T",
+          "deregistrationDate": null,
+          "deregistrationText": null,
+          "deregistrationReason": null
+        },
+        "vehicleInformation": {
+          "vin": "1FTFW1E89MFA06461",
+          "body": "BE",
+          "type": "LIGHT_TRUCK",
+          "year": "2020",
+          "model": "F150",
+          "rawType": "LB",
+          "modelYear": null,
+          "categoryEu": null,
+          "groupNumber": "FO 010000",
+          "modelNumber": "FO 000000",
+          "chassisNumber": "1FTFW1E89MFA06461",
+          "exteriorColor": "Dark Grey",
+          "fabricAndMake": "FORD",
+          "baseObjectType": "LIGHT_TRUCK",
+          "manufactureCode": null,
+          "manufactureMonth": "202010",
+          "registrationDate": "2021-11-23",
+          "initialTrafficDate": "2021-11-26",
+          "registrationPlateReused": null
+        },
+        "additionalTechSpecification": {
+          "raceCar": null,
+          "wheelbase1": 3690,
+          "wheelbase2": null,
+          "wheelbase3": null,
+          "wheelbase4": null,
+          "equipment1": null,
+          "equipment2": null,
+          "equipment3": null,
+          "maximumSpeed": 180,
+          "numAxleShafts": 2,
+          "passengerAirBag": true,
+          "tyreDimensionRear": "275/60 R20",
+          "tyreDimensionFront": "275/60 R20",
+          "dualSteeringControl": null
+        }
+      },
+      "fuels": [
+        {
+          "fuelCode": "Petrol",
+          "powerUnit": "EG",
+          "enginePower": 298,
+          "enginePowerHp": 405,
+          "fuelTankVolume": ""
+        }
       ],
-      "inspectionValidToDate": "2027-11-30",
+      "earliestAvailableAt": null,
+      "modelName": null,
+      "salesFlow": "CORPORATE_CARS_SMALL",
+      "registrationPlate": "MWR21T",
+      "state": "CREATED",
       "odometerUnit": "km",
-      "length": 5890,
-      "finishType": "Metallic",
-      "textile": "Helläder",
-      "saleLimitedToCorporate": false,
-      "chassisNumber": "1FTFW1E89MFA06461",
-      "title": "Ford F-150 Supercrew 3.5 V6 (406hk)",
-      "dateOfInspection": "2026-09-30",
-      "inspectionPeriod": "2026-09-30 - 2027-11-30",
-      "totalWeight": 3198,
-      "registrationPlateCountry": "se",
-      "exportable": true,
-      "residualLoanValue": 0,
-      "taxFee": 3968,
+      "fabricAndMake": "FORD",
+      "registrationCountry": "se",
+      "id": "517784",
+      "familyName": null,
+      "modelId": null,
+      "year": null,
+      "createdAt": "2026-09-22T07:30:24.596719+00:00",
+      "brand": null,
+      "body": null,
+      "exteriorColor": "Dark Grey",
+      "technicalSpecification": {
+        "modelId": null,
+        "vehicle": {
+          "brand": null,
+          "body": null,
+          "modelName": null,
+          "familyName": null
+        },
+        "year": null
+      }
+    },
+    "vehicleType": "LIGHT_TRANSPORT",
+    "initialBuyNowAmount": null,
+    "baseObjectId": "517784",
+    "conditionClassification": "TESTED",
+    "proactiveBrokering": null,
+    "presentationApproved": false,
+    "state": "AUCTION_RESOLUTION",
+    "properties": {
+      "grades": {
+        "BRAKES": {
+          "max": 3,
+          "value": 2,
+          "min": 1
+        },
+        "TOTAL": {
+          "max": 5,
+          "value": 3,
+          "min": 1
+        },
+        "TECHNOLOGY_AND_EQUIPMENT": {
+          "max": 3,
+          "value": 2,
+          "min": 1
+        },
+        "ENGINE_AND_GEARBOX": {
+          "max": 3,
+          "value": 2,
+          "min": 1
+        },
+        "INTERIOR": {
+          "max": 5,
+          "value": 3,
+          "min": 1
+        },
+        "EXTERIOR": {
+          "max": 5,
+          "value": 3,
+          "min": 1
+        }
+      },
+      "numberOfKeys": 2,
       "formattedEquipment": [
         {
           "key": "4WD",
@@ -309,143 +467,52 @@
           "priority": 31
         }
       ],
-      "familyName": "F-150",
-      "environmentalClassEuro": "6",
-      "towbar": true,
-      "isRepairObject": false,
-      "numberOfSeats": 5,
-      "maxPullWeightB": 750,
-      "fuels": [
-        {
-          "enginePower": 405,
-          "fuelCode": "Petrol"
-        }
-      ],
-      "grades": {
-        "INTERIOR": {
-          "value": 3,
-          "min": 1,
-          "max": 5
-        },
-        "TOTAL": {
-          "value": 3,
-          "min": 1,
-          "max": 5
-        },
-        "ENGINE_AND_GEARBOX": {
-          "value": 2,
-          "min": 1,
-          "max": 3
-        },
-        "EXTERIOR": {
-          "value": 3,
-          "min": 1,
-          "max": 5
-        },
-        "BRAKES": {
-          "value": 2,
-          "min": 1,
-          "max": 3
-        },
-        "TECHNOLOGY_AND_EQUIPMENT": {
-          "value": 2,
-          "min": 1,
-          "max": 3
-        }
-      },
-      "maxTrailerWeight": 3500,
-      "odometerReading": 135900,
-      "package": "Platinum",
-      "initialTrafficDate": "2021-11-26",
+      "exportable": true,
       "mustExport": false,
-      "manufactureMonth": "202010",
-      "ecoFriendly": false,
       "deductibleVat": true,
-      "numberOfKeys": 2,
+      "manufactureMonth": "202010",
+      "totalWeight": 3198,
+      "dateOfInspection": "2026-09-30",
       "registrationPlate": "MWR21T",
-      "numberOfPreviousOwners": 4,
-      "heavyEquipment": false,
-      "modelYear": 2021,
-      "height": 1963,
-      "gearbox": "Automatic",
-      "modelName": "F-150 Supercrew 3.5 V6 (406hk)",
+      "equipment": [
+        "4WD",
+        "Adaptiv farthållare",
+        "Antisladdsystem",
+        "Antispinn",
+        "Autobroms",
+        "Backkamera",
+        "Bluetooth",
+        "Dödavinkelvarnare",
+        "Elhiss bak",
+        "Elhiss fram",
+        "Elinfällbara speglar",
+        "Elspeglar",
+        "Elstol med minnesfunktion förarplats",
+        "Elstol passagerarplats",
+        "Fastmonterad dragkrok",
+        "Filbytesvarnare",
+        "Fjärrlås",
+        "Isofix bak",
+        "Klimatanläggning",
+        "LED-strålkastare",
+        "Nyckellöst startsystem",
+        "Parkeringssensorer bak",
+        "Radio",
+        "Rattvärme",
+        "Regnsensor",
+        "Smartphone integration",
+        "Start/Stop-funktion",
+        "Stolsvärme fram",
+        "Sätesvärme bak",
+        "Urkopplingsbar passagerarairbag",
+        "USB-ingång",
+        "Öppningsbart panoramatak"
+      ],
       "taxWeight": 3190,
-      "width": 2029,
-      "remarks": {
-        "INTERIOR": [
-          {
-            "key": "Klädsel skadad fram höger/vänster",
-            "id": "0",
-            "category": "INTERIOR"
-          }
-        ],
-        "ENGINE_AND_GEARBOX": [
-          {
-            "key": "Kondens i oljelock",
-            "id": "0",
-            "category": "ENGINE_AND_GEARBOX"
-          }
-        ],
-        "EXTERIOR": [
-          {
-            "key": "Stenskott i vindruta",
-            "id": "0",
-            "category": "EXTERIOR"
-          },
-          {
-            "key": "Flertal stenskott stötfångare fram",
-            "id": "1",
-            "category": "EXTERIOR"
-          },
-          {
-            "key": "Fåtal bucklor",
-            "id": "2",
-            "category": "EXTERIOR"
-          },
-          {
-            "key": "Flertal repor,",
-            "id": "3",
-            "category": "EXTERIOR"
-          }
-        ],
-        "BRAKES": [
-          {
-            "key": "Bromsskivor bak rostskadade, bör bytas",
-            "id": "0",
-            "category": "BRAKES"
-          }
-        ],
-        "TECHNOLOGY_AND_EQUIPMENT": [
-          {
-            "key": "Service inom kort",
-            "id": "0",
-            "category": "TECHNOLOGY_AND_EQUIPMENT"
-          },
-          {
-            "key": "Upprullningsdon förarplats, funktion felaktig",
-            "id": "1",
-            "category": "TECHNOLOGY_AND_EQUIPMENT"
-          },
-          {
-            "key": "Dimljus bak skada",
-            "id": "2",
-            "category": "TECHNOLOGY_AND_EQUIPMENT"
-          }
-        ],
-        "TIRES": [
-          {
-            "key": "Fälgar på bilen kantstötta",
-            "id": "0",
-            "category": "TIRES"
-          },
-          {
-            "key": "2 däck har för litet mönsterdjup på bilen Torrsprickor i 4 extradäck, 1st extradäck har punktering, Däckpar extradäck, snedslitna",
-            "id": "1",
-            "category": "TIRES"
-          }
-        ]
-      },
-      "drivingBan": false,
+      "odometerUnit": "km",
+      "mediation": true,
+      "ecoFriendly": false,
+      "towbar": true,
       "remarksLocalized": {
         "TIRES": "Fälgar på bilen kantstötta. 2 däck har för litet mönsterdjup på bilen Torrsprickor i 4 extradäck, 1st extradäck har punktering, Däckpar extradäck, snedslitna",
         "BRAKES": "Bromsskivor bak rostskadade, bör bytas",
@@ -454,210 +521,143 @@
         "ENGINE_AND_GEARBOX": "Kondens i oljelock",
         "TECHNOLOGY_AND_EQUIPMENT": "Service inom kort. Upprullningsdon förarplats, funktion felaktig. Dimljus bak skada"
       },
+      "width": 2029,
+      "exteriorColor": "Dark Grey",
+      "remarks": {
+        "TIRES": [
+          {
+            "category": "TIRES",
+            "id": "0",
+            "key": "Fälgar på bilen kantstötta"
+          },
+          {
+            "category": "TIRES",
+            "id": "1",
+            "key": "2 däck har för litet mönsterdjup på bilen Torrsprickor i 4 extradäck, 1st extradäck har punktering, Däckpar extradäck, snedslitna"
+          }
+        ],
+        "BRAKES": [
+          {
+            "category": "BRAKES",
+            "id": "0",
+            "key": "Bromsskivor bak rostskadade, bör bytas"
+          }
+        ],
+        "TECHNOLOGY_AND_EQUIPMENT": [
+          {
+            "category": "TECHNOLOGY_AND_EQUIPMENT",
+            "id": "0",
+            "key": "Service inom kort"
+          },
+          {
+            "category": "TECHNOLOGY_AND_EQUIPMENT",
+            "id": "1",
+            "key": "Upprullningsdon förarplats, funktion felaktig"
+          },
+          {
+            "category": "TECHNOLOGY_AND_EQUIPMENT",
+            "id": "2",
+            "key": "Dimljus bak skada"
+          }
+        ],
+        "ENGINE_AND_GEARBOX": [
+          {
+            "category": "ENGINE_AND_GEARBOX",
+            "id": "0",
+            "key": "Kondens i oljelock"
+          }
+        ],
+        "INTERIOR": [
+          {
+            "category": "INTERIOR",
+            "id": "0",
+            "key": "Klädsel skadad fram höger/vänster"
+          }
+        ],
+        "EXTERIOR": [
+          {
+            "category": "EXTERIOR",
+            "id": "0",
+            "key": "Stenskott i vindruta"
+          },
+          {
+            "category": "EXTERIOR",
+            "id": "1",
+            "key": "Flertal stenskott stötfångare fram"
+          },
+          {
+            "category": "EXTERIOR",
+            "id": "2",
+            "key": "Fåtal bucklor"
+          },
+          {
+            "category": "EXTERIOR",
+            "id": "3",
+            "key": "Flertal repor,"
+          }
+        ]
+      },
+      "numberOfPreviousOwners": 4,
+      "adHeader": "F-150 Supercrew 3.5 V6 (406hk) Platinum",
+      "fuels": [
+        {
+          "fuelCode": "Petrol",
+          "enginePower": 405
+        }
+      ],
+      "textile": "Helläder",
+      "maxTrailerWeight": 3500,
+      "maxPayload": 648,
+      "inspectionPeriod": "2026-09-30 - 2027-11-30",
+      "inspectionValidToDate": "2027-11-30",
+      "saleLimitedToCorporate": false,
+      "package": "Platinum",
       "hasUnpaidLoan": false,
-      "registrationCountry": "se",
+      "heavyEquipment": false,
+      "residualLoanValue": 0,
+      "brand": "Ford",
+      "gearbox": "Automatic",
+      "height": 1963,
+      "maxPullWeightB": 750,
+      "length": 5890,
+      "environmentalClassEuro": "6",
+      "curbWeight": 2550,
+      "drivingBan": false,
+      "initialTrafficDate": "2021-11-26",
+      "chassisNumber": "1FTFW1E89MFA06461",
+      "familyName": "F-150",
+      "finishType": "Metallic",
       "importedForPersonalUse": true,
+      "isRepairObject": false,
+      "title": "Ford F-150 Supercrew 3.5 V6 (406hk)",
+      "odometerReading": 135900,
+      "modelName": "F-150 Supercrew 3.5 V6 (406hk)",
+      "modelYear": 2021,
+      "numberOfSeats": 5,
+      "registrationPlateCountry": "se",
+      "registrationCountry": "se",
+      "taxFee": 3968,
       "heading1": "Ford F-150",
       "heading2": "Supercrew 3.5 V6",
       "heading3": "Platinum"
     },
-    "baseObject": {
-      "exteriorColor": "Dark Grey",
-      "registrationPlate": "MWR21T",
-      "year": null,
-      "body": null,
-      "authorityRegisterInformation": {
-        "additionalTechSpecification": {
-          "raceCar": null,
-          "wheelbase1": 3690,
-          "wheelbase2": null,
-          "wheelbase3": null,
-          "wheelbase4": null,
-          "equipment1": null,
-          "equipment2": null,
-          "equipment3": null,
-          "maximumSpeed": 180,
-          "numAxleShafts": 2,
-          "passengerAirBag": true,
-          "tyreDimensionRear": "275/60 R20",
-          "tyreDimensionFront": "275/60 R20",
-          "dualSteeringControl": null
-        },
-        "environmentalClassification": {
-          "fuels": [
-            {
-              "co2": "",
-              "nox": "",
-              "nox4": null,
-              "fuelCode": "Petrol",
-              "hcThcNox": "",
-              "consumption": "",
-              "noiseLevel": 74,
-              "emissionUnit": "g/km",
-              "innovationCo2": null,
-              "particleValue": "",
-              "particleMass4": null,
-              "consumptionUnit": "",
-              "rangeNedcDrive": null,
-              "rangeWltpDrive": null,
-              "consumptionUrban": "",
-              "rangeCityWltpDrive": null,
-              "consumptionExtraUrban": "",
-              "electricEnergyConsumption": null,
-              "energyConsumptionWltpDrive": null
-            }
-          ],
-          "ecoFriendly": false,
-          "emissionClass": "EURO 6",
-          "innovationCode": null,
-          "environmentalClass": null,
-          "environmentalClassEuro": "6"
-        },
-        "vehicleStatus": {
-          "tax": 3968
-        },
-        "registrationInformation": {
-          "registrationPlate": "MWR21T",
-          "deregistrationDate": null,
-          "deregistrationText": null,
-          "deregistrationReason": null
-        },
-        "generalTechSpecification": {
-          "eeg": null,
-          "fuels": [
-            {
-              "fuelCode": "Petrol",
-              "powerUnit": "EG",
-              "enginePower": 298,
-              "enginePowerHp": 405,
-              "fuelTankVolume": ""
-            }
-          ],
-          "width": 2029,
-          "height": 1963,
-          "length": 5890,
-          "gearbox": "Automatic",
-          "variant": null,
-          "version": null,
-          "taxWeight": 3190,
-          "curbWeight": 2550,
-          "maxPayload": 648,
-          "totalWeight": 3198,
-          "chassisCode1": null,
-          "chassisCode2": null,
-          "cubicCapacity": "3490",
-          "numPassengers": "4",
-          "numberOfSeats": 5,
-          "fourWheelDrive": true,
-          "maxPullWeightB": 750,
-          "clutchMechanism1": null,
-          "clutchMechanism2": null,
-          "maxTrailerWeight": 3500,
-          "chassisCodeSupplement": null,
-          "maxPullWieghtNoBreaks": null,
-          "maxPullWeightBExtended": null,
-          "maxSingle Axle TrailerWeight": null
-        },
-        "vehicleOrigin": {
-          "originCode": "IMPORT",
-          "originCodeReason": "ANNAT",
-          "importerIdentifier": null,
-          "preRegistrationDate": null,
-          "importRegistrationDate": "2021-11-23",
-          "importedForPersonalUse": true,
-          "importedPreviouslyRegistered": true
-        },
-        "vehicleInspectionInformation": {
-          "inspections": [
-            {
-              "inspectionType": "5",
-              "odometerReading": 105587,
-              "dateOfInspection": "2024-11-13"
-            },
-            {
-              "inspectionType": "11",
-              "odometerReading": null,
-              "dateOfInspection": "2021-11-23"
-            }
-          ],
-          "inspectionGroup": "36/24/14",
-          "odometerReading": 105587,
-          "inspectionPeriod": "2024-11-13 - 2026-11-30",
-          "dateOfInspection": "2024-11-13",
-          "inspectionValidToDate": "2026-11-30",
-          "inspectionExemptionGroup": null
-        },
-        "vehicleInformation": {
-          "vin": "1FTFW1E89MFA06461",
-          "body": "BE",
-          "type": "LIGHT_TRUCK",
-          "year": "2020",
-          "model": "F150",
-          "rawType": "LB",
-          "modelYear": null,
-          "categoryEu": null,
-          "groupNumber": "FO 010000",
-          "modelNumber": "FO 000000",
-          "chassisNumber": "1FTFW1E89MFA06461",
-          "exteriorColor": "Dark Grey",
-          "fabricAndMake": "FORD",
-          "baseObjectType": "LIGHT_TRUCK",
-          "manufactureCode": null,
-          "manufactureMonth": "202010",
-          "registrationDate": "2021-11-23",
-          "initialTrafficDate": "2021-11-26",
-          "registrationPlateReused": null
-        }
-      },
-      "brand": null,
-      "id": "517784",
-      "fuels": [
-        {
-          "fuelCode": "Petrol",
-          "powerUnit": "EG",
-          "enginePower": 298,
-          "enginePowerHp": 405,
-          "fuelTankVolume": ""
-        }
-      ],
-      "gearbox": "Automatic",
-      "fabricAndMake": "FORD",
-      "baseObjectType": "LIGHT_TRUCK",
-      "modelId": null,
-      "odometerReading": 105587,
-      "modelName": null,
-      "salesFlow": "CORPORATE_CARS_SMALL",
-      "state": "CREATED",
-      "odometerUnit": "km",
-      "earliestAvailableAt": null,
-      "registrationCountry": "se",
-      "createdAt": "2026-09-22T07:30:24.596719+00:00",
-      "familyName": null,
-      "technicalSpecification": {
-        "modelId": null,
-        "vehicle": {
-          "brand": null,
-          "body": null,
-          "modelName": null,
-          "familyName": null
-        },
-        "year": null
-      }
+    "orderableAdditionalServices": {
+      "tradein": false,
+      "transport": true,
+      "insurance": true,
+      "finance": true,
+      "warranty": true,
+      "extraTires": false
     },
-    "id": "7289571",
+    "offsiteSalesContact": null,
     "leaseReturnProperties": {},
-    "vehicleType": "LIGHT_TRANSPORT",
-    "presentationApproved": false,
-    "baseObjectId": "517784",
-    "isFixedPrice": false,
+    "id": "7289571",
+    "displayCar360Spin": true,
     "certified": false,
-    "objectType": "LIGHT_TRUCK",
-    "state": "AUCTION_RESOLUTION",
-    "initialBuyNowAmount": null,
-    "statisticalValuation": null,
-    "testDriveAllowed": true,
-    "buyNowAmount": null,
+    "sellMethod": "BIDDING",
     "isReleasable": false,
+    "car360Spin": null,
+    "statisticalValuation": null,
     "createdAt": "2026-09-22 07:30:37.677259+00:00",
     "exportable": true,
     "deductibleVat": true,
@@ -1978,6 +1978,6 @@
     "closedAt": "2026-10-29T09:22:00.009348+00:00",
     "updatedAt": "2026-10-29T09:22:00.110383+00:00"
   },
-  "_scraped_at": "2026-10-30T14:09:35.588683+00:00",
+  "_scraped_at": "2026-10-30T16:16:57.852432+00:00",
   "_url": "https://www.kvd.se/auktioner/ford-f-150-supercrew-3-5-v6-406hk-309067"
 }

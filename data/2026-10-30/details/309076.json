@@ -54,235 +54,69 @@
     "evaluationType": "BROKERING"
   },
   "processObject": {
-    "objectType": "CAR",
-    "buyNowAmount": null,
-    "reducedPrice": false,
-    "testDriveAllowed": true,
-    "isFixedPrice": false,
-    "baseObject": {
-      "gearbox": "Automatic",
-      "baseObjectType": "CAR",
-      "odometerReading": 175300,
-      "authorityRegisterInformation": {
-        "vehicleOrigin": {
-          "originCode": "TYP",
-          "originCodeReason": null,
-          "importerIdentifier": null,
-          "preRegistrationDate": null,
-          "importRegistrationDate": null,
-          "importedForPersonalUse": false,
-          "importedPreviouslyRegistered": false
-        },
-        "generalTechSpecification": {
-          "eeg": "e9*2001/116*0065*27",
-          "fuels": [
-            {
-              "fuelCode": "Diesel",
-              "powerUnit": "EG",
-              "enginePower": 133,
-              "enginePowerHp": 181,
-              "fuelTankVolume": ""
-            }
-          ],
-          "width": 1870,
-          "height": 1604,
-          "length": 4838,
-          "gearbox": "Automatic",
-          "variant": "BZ81",
-          "version": "BZ8156??",
-          "taxWeight": 1910,
-          "curbWeight": 1917,
-          "maxPayload": 483,
-          "totalWeight": 2400,
-          "chassisCode1": null,
-          "chassisCode2": null,
-          "cubicCapacity": "2400",
-          "numPassengers": "4",
-          "numberOfSeats": 5,
-          "fourWheelDrive": true,
-          "maxPullWeightB": 1100,
-          "clutchMechanism1": null,
-          "clutchMechanism2": null,
-          "maxTrailerWeight": 2100,
-          "chassisCodeSupplement": null,
-          "maxPullWieghtNoBreaks": null,
-          "maxPullWeightBExtended": null,
-          "maxSingle Axle TrailerWeight": null
-        },
-        "environmentalClassification": {
-          "fuels": [
-            {
-              "co2": 169,
-              "nox": "",
-              "nox4": null,
-              "fuelCode": "Diesel",
-              "hcThcNox": "",
-              "consumption": 6.4,
-              "noiseLevel": 73,
-              "emissionUnit": "g/km",
-              "innovationCo2": null,
-              "particleValue": "",
-              "particleMass4": null,
-              "consumptionUnit": "6,4",
-              "rangeNedcDrive": null,
-              "rangeWltpDrive": null,
-              "consumptionUrban": 8.6,
-              "rangeCityWltpDrive": null,
-              "consumptionExtraUrban": 5.2,
-              "electricEnergyConsumption": null,
-              "energyConsumptionWltpDrive": null
-            }
-          ],
-          "ecoFriendly": false,
-          "emissionClass": "EURO 5",
-          "innovationCode": null,
-          "environmentalClass": null,
-          "environmentalClassEuro": "5"
-        },
-        "vehicleStatus": {
-          "tax": 4127
-        },
-        "vehicleInspectionInformation": {
-          "inspections": [
-            {
-              "inspectionType": "5",
-              "odometerReading": 167316,
-              "dateOfInspection": "2026-01-15"
-            },
-            {
-              "inspectionType": "5",
-              "odometerReading": 147642,
-              "dateOfInspection": "2025-01-14"
-            }
-          ],
-          "inspectionGroup": "36/24/14",
-          "odometerReading": 167316,
-          "inspectionPeriod": "2026-01-15 - 2027-03-31",
-          "dateOfInspection": "2026-01-15",
-          "inspectionValidToDate": "2027-03-31",
-          "inspectionExemptionGroup": null
-        },
-        "registrationInformation": {
-          "registrationPlate": "PBB303",
-          "deregistrationDate": null,
-          "deregistrationText": null,
-          "deregistrationReason": null
-        },
-        "vehicleInformation": {
-          "vin": "YV1BZ8156F1212419",
-          "body": "AC",
-          "type": "CAR",
-          "year": "2014",
-          "model": "XC70",
-          "rawType": "PB",
-          "modelYear": null,
-          "categoryEu": "e9*2001/116*0065*27",
-          "groupNumber": "VO 015424",
-          "modelNumber": "VO 000000",
-          "chassisNumber": "YV1BZ8156F1212419",
-          "exteriorColor": "White",
-          "fabricAndMake": "VOLVO B + XC70",
-          "baseObjectType": "CAR",
-          "manufactureCode": null,
-          "manufactureMonth": "201409",
-          "registrationDate": "2014-09-12",
-          "initialTrafficDate": "2014-10-20",
-          "registrationPlateReused": null
-        },
-        "additionalTechSpecification": {
-          "raceCar": null,
-          "wheelbase1": 2815,
-          "wheelbase2": null,
-          "wheelbase3": null,
-          "wheelbase4": null,
-          "equipment1": null,
-          "equipment2": null,
-          "equipment3": null,
-          "maximumSpeed": 200,
-          "numAxleShafts": "",
-          "passengerAirBag": true,
-          "tyreDimensionRear": "215/65R16 102V",
-          "tyreDimensionFront": "215/65R16 102V",
-          "dualSteeringControl": null
-        }
-      },
-      "fuels": [
-        {
-          "fuelCode": "Diesel",
-          "powerUnit": "EG",
-          "enginePower": 133,
-          "enginePowerHp": 181,
-          "fuelTankVolume": ""
-        }
-      ],
-      "earliestAvailableAt": null,
-      "modelName": "XC70 II D4 AWD (181hk)",
-      "salesFlow": "CONSUMER_CARS",
-      "registrationPlate": "PBB303",
-      "state": "PREPARING_SALES_AGREEMENT",
-      "odometerUnit": "km",
-      "fabricAndMake": "VOLVO B + XC70",
-      "registrationCountry": "se",
-      "id": "520629",
-      "familyName": "XC70",
-      "modelId": null,
-      "year": "2015",
-      "createdAt": "2026-10-06T05:30:39.147237+00:00",
-      "brand": "Volvo",
-      "body": "Wagon",
-      "exteriorColor": "White",
-      "technicalSpecification": {
-        "modelId": null,
-        "vehicle": {
-          "brand": "Volvo",
-          "body": "Wagon",
-          "modelName": "XC70 II D4 AWD (181hk)",
-          "familyName": "XC70"
-        },
-        "year": "2015"
-      }
+    "orderableAdditionalServices": {
+      "tradein": false,
+      "transport": true,
+      "insurance": true,
+      "finance": true,
+      "warranty": true,
+      "extraTires": false
     },
-    "vehicleType": "CAR",
-    "initialBuyNowAmount": null,
-    "baseObjectId": "520629",
-    "conditionClassification": "TESTED",
+    "car360Spin": null,
     "proactiveBrokering": null,
-    "presentationApproved": false,
-    "state": "AUCTION_RESOLUTION",
+    "displayCar360Spin": true,
+    "offsiteSalesContact": null,
+    "sellMethod": "BIDDING",
+    "reducedPrice": false,
+    "conditionClassification": "TESTED",
     "properties": {
-      "grades": {
-        "BRAKES": {
-          "max": 3,
-          "value": 2,
-          "min": 1
-        },
-        "TOTAL": {
-          "max": 5,
-          "value": 3,
-          "min": 1
-        },
-        "TECHNOLOGY_AND_EQUIPMENT": {
-          "max": 3,
-          "value": 2,
-          "min": 1
-        },
-        "ENGINE_AND_GEARBOX": {
-          "max": 3,
-          "value": 3,
-          "min": 1
-        },
-        "INTERIOR": {
-          "max": 5,
-          "value": 3,
-          "min": 1
-        },
-        "EXTERIOR": {
-          "max": 5,
-          "value": 3,
-          "min": 1
-        }
-      },
-      "numberOfKeys": 2,
+      "adHeader": "XC70 II D4 AWD (181hk) Momentum BE",
+      "exteriorColor": "White",
+      "brand": "Volvo",
+      "mediation": true,
+      "curbWeight": 1917,
+      "maxPayload": 483,
+      "equipment": [
+        "4WD",
+        "Antispinn",
+        "Autobroms",
+        "Bluetooth",
+        "CD-Stereo",
+        "Elspeglar",
+        "Farthållare",
+        "Fjärrlås",
+        "Radio",
+        "Regnsensor",
+        "Stolsvärme fram",
+        "Antisladdsystem",
+        "AUX-ingång",
+        "Elhiss bak",
+        "Elhiss fram",
+        "Elinfällbara speglar",
+        "Elstol med minnesfunktion förarplats",
+        "Isofix bak",
+        "Klimatanläggning",
+        "Kurvljus",
+        "Parkeringssensorer bak",
+        "Urkopplingsbar passagerarairbag",
+        "USB-ingång",
+        "Xenon-ljus"
+      ],
+      "inspectionValidToDate": "2027-03-31",
+      "odometerUnit": "km",
+      "length": 4838,
+      "finishType": "Solid",
+      "textile": "Textil",
+      "saleLimitedToCorporate": false,
+      "chassisNumber": "YV1BZ8156F1212419",
+      "title": "Volvo XC70 II D4 AWD (181hk)",
+      "dateOfInspection": "2026-01-15",
+      "inspectionPeriod": "2026-01-15 - 2027-03-31",
+      "totalWeight": 2400,
+      "registrationPlateCountry": "se",
+      "exportable": true,
+      "residualLoanValue": 0,
+      "taxFee": 4127,
       "formattedEquipment": [
         {
           "key": "4WD",
@@ -429,44 +263,103 @@
           "priority": 23
         }
       ],
-      "exportable": true,
-      "mustExport": false,
-      "deductibleVat": false,
-      "manufactureMonth": "201409",
-      "totalWeight": 2400,
-      "dateOfInspection": "2026-01-15",
-      "registrationPlate": "PBB303",
-      "equipment": [
-        "4WD",
-        "Antispinn",
-        "Autobroms",
-        "Bluetooth",
-        "CD-Stereo",
-        "Elspeglar",
-        "Farthållare",
-        "Fjärrlås",
-        "Radio",
-        "Regnsensor",
-        "Stolsvärme fram",
-        "Antisladdsystem",
-        "AUX-ingång",
-        "Elhiss bak",
-        "Elhiss fram",
-        "Elinfällbara speglar",
-        "Elstol med minnesfunktion förarplats",
-        "Isofix bak",
-        "Klimatanläggning",
-        "Kurvljus",
-        "Parkeringssensorer bak",
-        "Urkopplingsbar passagerarairbag",
-        "USB-ingång",
-        "Xenon-ljus"
-      ],
-      "taxWeight": 1910,
-      "odometerUnit": "km",
-      "mediation": true,
-      "ecoFriendly": false,
+      "familyName": "XC70",
+      "environmentalClassEuro": "5",
       "towbar": false,
+      "isRepairObject": false,
+      "body": "Wagon",
+      "numberOfSeats": 5,
+      "maxPullWeightB": 1100,
+      "fuels": [
+        {
+          "enginePower": 181,
+          "consumption": 6.4,
+          "co2": 169,
+          "fuelCode": "Diesel"
+        }
+      ],
+      "grades": {
+        "INTERIOR": {
+          "value": 3,
+          "min": 1,
+          "max": 5
+        },
+        "TOTAL": {
+          "value": 3,
+          "min": 1,
+          "max": 5
+        },
+        "ENGINE_AND_GEARBOX": {
+          "value": 3,
+          "min": 1,
+          "max": 3
+        },
+        "EXTERIOR": {
+          "value": 3,
+          "min": 1,
+          "max": 5
+        },
+        "BRAKES": {
+          "value": 2,
+          "min": 1,
+          "max": 3
+        },
+        "TECHNOLOGY_AND_EQUIPMENT": {
+          "value": 2,
+          "min": 1,
+          "max": 3
+        }
+      },
+      "maxTrailerWeight": 2100,
+      "odometerReading": 175470,
+      "package": "Momentum BE",
+      "initialTrafficDate": "2014-10-20",
+      "mustExport": false,
+      "manufactureMonth": "201409",
+      "ecoFriendly": false,
+      "deductibleVat": false,
+      "numberOfKeys": 2,
+      "registrationPlate": "PBB303",
+      "numberOfPreviousOwners": 2,
+      "heavyEquipment": false,
+      "modelYear": 2015,
+      "height": 1604,
+      "gearbox": "Automatic",
+      "modelName": "XC70 II D4 AWD (181hk)",
+      "taxWeight": 1910,
+      "width": 1870,
+      "remarks": {
+        "INTERIOR": [],
+        "ENGINE_AND_GEARBOX": [],
+        "EXTERIOR": [
+          {
+            "key": "Ytrost insteg höger bak, Stenskott i vindruta",
+            "id": "0",
+            "category": "EXTERIOR"
+          }
+        ],
+        "BRAKES": [
+          {
+            "key": "Mindre bromsvibrationer fram vid inbromsning",
+            "id": "0",
+            "category": "BRAKES"
+          }
+        ],
+        "TECHNOLOGY_AND_EQUIPMENT": [
+          {
+            "key": "Torkararm bak har fastnat i fel läge",
+            "id": "0",
+            "category": "TECHNOLOGY_AND_EQUIPMENT"
+          },
+          {
+            "key": "Mindre vibrationer från hjulen i högre hastigheter",
+            "id": "1",
+            "category": "TECHNOLOGY_AND_EQUIPMENT"
+          }
+        ],
+        "TIRES": []
+      },
+      "drivingBan": false,
       "remarksLocalized": {
         "TIRES": null,
         "BRAKES": "Mindre bromsvibrationer fram vid inbromsning",
@@ -475,103 +368,210 @@
         "ENGINE_AND_GEARBOX": null,
         "TECHNOLOGY_AND_EQUIPMENT": "Torkararm bak har fastnat i fel läge. Mindre vibrationer från hjulen i högre hastigheter"
       },
-      "width": 1870,
-      "body": "Wagon",
-      "exteriorColor": "White",
-      "remarks": {
-        "TIRES": [],
-        "BRAKES": [
-          {
-            "category": "BRAKES",
-            "id": "0",
-            "key": "Mindre bromsvibrationer fram vid inbromsning"
-          }
-        ],
-        "TECHNOLOGY_AND_EQUIPMENT": [
-          {
-            "category": "TECHNOLOGY_AND_EQUIPMENT",
-            "id": "0",
-            "key": "Torkararm bak har fastnat i fel läge"
-          },
-          {
-            "category": "TECHNOLOGY_AND_EQUIPMENT",
-            "id": "1",
-            "key": "Mindre vibrationer från hjulen i högre hastigheter"
-          }
-        ],
-        "ENGINE_AND_GEARBOX": [],
-        "INTERIOR": [],
-        "EXTERIOR": [
-          {
-            "category": "EXTERIOR",
-            "id": "0",
-            "key": "Ytrost insteg höger bak, Stenskott i vindruta"
-          }
-        ]
-      },
-      "numberOfPreviousOwners": 2,
-      "adHeader": "XC70 II D4 AWD (181hk) Momentum BE",
-      "fuels": [
-        {
-          "fuelCode": "Diesel",
-          "co2": 169,
-          "consumption": 6.4,
-          "enginePower": 181
-        }
-      ],
-      "textile": "Textil",
-      "maxTrailerWeight": 2100,
-      "maxPayload": 483,
-      "inspectionPeriod": "2026-01-15 - 2027-03-31",
-      "inspectionValidToDate": "2027-03-31",
-      "saleLimitedToCorporate": false,
-      "package": "Momentum BE",
       "hasUnpaidLoan": false,
-      "heavyEquipment": false,
-      "residualLoanValue": 0,
-      "brand": "Volvo",
-      "gearbox": "Automatic",
-      "height": 1604,
-      "maxPullWeightB": 1100,
-      "length": 4838,
-      "environmentalClassEuro": "5",
-      "curbWeight": 1917,
-      "drivingBan": false,
-      "initialTrafficDate": "2014-10-20",
-      "chassisNumber": "YV1BZ8156F1212419",
-      "familyName": "XC70",
-      "finishType": "Solid",
-      "importedForPersonalUse": false,
-      "isRepairObject": false,
-      "title": "Volvo XC70 II D4 AWD (181hk)",
-      "odometerReading": 175470,
-      "modelName": "XC70 II D4 AWD (181hk)",
-      "modelYear": 2015,
-      "numberOfSeats": 5,
-      "registrationPlateCountry": "se",
       "registrationCountry": "se",
-      "taxFee": 4127,
+      "importedForPersonalUse": false,
       "heading1": "Volvo XC70",
       "heading2": "II D4 AWD",
       "heading3": "Momentum BE"
     },
-    "orderableAdditionalServices": {
-      "tradein": false,
-      "transport": true,
-      "insurance": true,
-      "finance": true,
-      "warranty": true,
-      "extraTires": false
+    "baseObject": {
+      "exteriorColor": "White",
+      "registrationPlate": "PBB303",
+      "year": "2015",
+      "body": "Wagon",
+      "authorityRegisterInformation": {
+        "additionalTechSpecification": {
+          "raceCar": null,
+          "wheelbase1": 2815,
+          "wheelbase2": null,
+          "wheelbase3": null,
+          "wheelbase4": null,
+          "equipment1": null,
+          "equipment2": null,
+          "equipment3": null,
+          "maximumSpeed": 200,
+          "numAxleShafts": "",
+          "passengerAirBag": true,
+          "tyreDimensionRear": "215/65R16 102V",
+          "tyreDimensionFront": "215/65R16 102V",
+          "dualSteeringControl": null
+        },
+        "environmentalClassification": {
+          "fuels": [
+            {
+              "co2": 169,
+              "nox": "",
+              "nox4": null,
+              "fuelCode": "Diesel",
+              "hcThcNox": "",
+              "consumption": 6.4,
+              "noiseLevel": 73,
+              "emissionUnit": "g/km",
+              "innovationCo2": null,
+              "particleValue": "",
+              "particleMass4": null,
+              "consumptionUnit": "6,4",
+              "rangeNedcDrive": null,
+              "rangeWltpDrive": null,
+              "consumptionUrban": 8.6,
+              "rangeCityWltpDrive": null,
+              "consumptionExtraUrban": 5.2,
+              "electricEnergyConsumption": null,
+              "energyConsumptionWltpDrive": null
+            }
+          ],
+          "ecoFriendly": false,
+          "emissionClass": "EURO 5",
+          "innovationCode": null,
+          "environmentalClass": null,
+          "environmentalClassEuro": "5"
+        },
+        "vehicleStatus": {
+          "tax": 4127
+        },
+        "registrationInformation": {
+          "registrationPlate": "PBB303",
+          "deregistrationDate": null,
+          "deregistrationText": null,
+          "deregistrationReason": null
+        },
+        "generalTechSpecification": {
+          "eeg": "e9*2001/116*0065*27",
+          "fuels": [
+            {
+              "fuelCode": "Diesel",
+              "powerUnit": "EG",
+              "enginePower": 133,
+              "enginePowerHp": 181,
+              "fuelTankVolume": ""
+            }
+          ],
+          "width": 1870,
+          "height": 1604,
+          "length": 4838,
+          "gearbox": "Automatic",
+          "variant": "BZ81",
+          "version": "BZ8156??",
+          "taxWeight": 1910,
+          "curbWeight": 1917,
+          "maxPayload": 483,
+          "totalWeight": 2400,
+          "chassisCode1": null,
+          "chassisCode2": null,
+          "cubicCapacity": "2400",
+          "numPassengers": "4",
+          "numberOfSeats": 5,
+          "fourWheelDrive": true,
+          "maxPullWeightB": 1100,
+          "clutchMechanism1": null,
+          "clutchMechanism2": null,
+          "maxTrailerWeight": 2100,
+          "chassisCodeSupplement": null,
+          "maxPullWieghtNoBreaks": null,
+          "maxPullWeightBExtended": null,
+          "maxSingle Axle TrailerWeight": null
+        },
+        "vehicleOrigin": {
+          "originCode": "TYP",
+          "originCodeReason": null,
+          "importerIdentifier": null,
+          "preRegistrationDate": null,
+          "importRegistrationDate": null,
+          "importedForPersonalUse": false,
+          "importedPreviouslyRegistered": false
+        },
+        "vehicleInspectionInformation": {
+          "inspections": [
+            {
+              "inspectionType": "5",
+              "odometerReading": 167316,
+              "dateOfInspection": "2026-01-15"
+            },
+            {
+              "inspectionType": "5",
+              "odometerReading": 147642,
+              "dateOfInspection": "2025-01-14"
+            }
+          ],
+          "inspectionGroup": "36/24/14",
+          "odometerReading": 167316,
+          "inspectionPeriod": "2026-01-15 - 2027-03-31",
+          "dateOfInspection": "2026-01-15",
+          "inspectionValidToDate": "2027-03-31",
+          "inspectionExemptionGroup": null
+        },
+        "vehicleInformation": {
+          "vin": "YV1BZ8156F1212419",
+          "body": "AC",
+          "type": "CAR",
+          "year": "2014",
+          "model": "XC70",
+          "rawType": "PB",
+          "modelYear": null,
+          "categoryEu": "e9*2001/116*0065*27",
+          "groupNumber": "VO 015424",
+          "modelNumber": "VO 000000",
+          "chassisNumber": "YV1BZ8156F1212419",
+          "exteriorColor": "White",
+          "fabricAndMake": "VOLVO B + XC70",
+          "baseObjectType": "CAR",
+          "manufactureCode": null,
+          "manufactureMonth": "201409",
+          "registrationDate": "2014-09-12",
+          "initialTrafficDate": "2014-10-20",
+          "registrationPlateReused": null
+        }
+      },
+      "brand": "Volvo",
+      "id": "520629",
+      "fuels": [
+        {
+          "fuelCode": "Diesel",
+          "powerUnit": "EG",
+          "enginePower": 133,
+          "enginePowerHp": 181,
+          "fuelTankVolume": ""
+        }
+      ],
+      "gearbox": "Automatic",
+      "fabricAndMake": "VOLVO B + XC70",
+      "baseObjectType": "CAR",
+      "modelId": null,
+      "odometerReading": 175300,
+      "modelName": "XC70 II D4 AWD (181hk)",
+      "salesFlow": "CONSUMER_CARS",
+      "state": "PREPARING_SALES_AGREEMENT",
+      "odometerUnit": "km",
+      "earliestAvailableAt": null,
+      "registrationCountry": "se",
+      "createdAt": "2026-10-06T05:30:39.147237+00:00",
+      "familyName": "XC70",
+      "technicalSpecification": {
+        "modelId": null,
+        "vehicle": {
+          "brand": "Volvo",
+          "body": "Wagon",
+          "modelName": "XC70 II D4 AWD (181hk)",
+          "familyName": "XC70"
+        },
+        "year": "2015"
+      }
     },
-    "offsiteSalesContact": null,
-    "leaseReturnProperties": {},
     "id": "7291208",
-    "displayCar360Spin": true,
+    "leaseReturnProperties": {},
+    "vehicleType": "CAR",
+    "presentationApproved": false,
+    "baseObjectId": "520629",
+    "isFixedPrice": false,
     "certified": false,
-    "sellMethod": "BIDDING",
-    "isReleasable": false,
-    "car360Spin": null,
+    "objectType": "CAR",
+    "state": "AUCTION_RESOLUTION",
+    "initialBuyNowAmount": null,
     "statisticalValuation": null,
+    "testDriveAllowed": true,
+    "buyNowAmount": null,
+    "isReleasable": false,
     "createdAt": "2026-10-06 11:47:06.434478+00:00",
     "exportable": true,
     "deductibleVat": false,
@@ -2025,6 +2025,6 @@
     "closedAt": "2026-10-29T18:31:27.424573+00:00",
     "updatedAt": "2026-10-30T08:35:37.829556+00:00"
   },
-  "_scraped_at": "2026-10-30T14:09:22.827323+00:00",
+  "_scraped_at": "2026-10-30T16:16:45.330896+00:00",
   "_url": "https://www.kvd.se/auktioner/volvo-xc70-ii-d4-awd-181hk-309076"
 }

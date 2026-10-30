@@ -44,28 +44,155 @@
   "eurBuyNowAmount": null,
   "winningBid": null,
   "processObject": {
-    "orderableAdditionalServices": {
-      "tradein": false,
-      "transport": true,
-      "insurance": true,
-      "finance": true,
-      "warranty": true,
-      "extraTires": false
-    },
-    "car360Spin": null,
-    "proactiveBrokering": null,
     "displayCar360Spin": true,
-    "offsiteSalesContact": null,
-    "sellMethod": "BIDDING",
-    "reducedPrice": false,
     "conditionClassification": "TESTED",
+    "proactiveBrokering": null,
     "properties": {
-      "adHeader": "V60 T6 AWD Recharge (350hk) Core Edition",
-      "exteriorColor": "White",
-      "brand": "Volvo",
-      "mediation": true,
+      "length": 4778,
+      "mustExport": false,
+      "odometerUnit": "km",
+      "familyName": "V60",
+      "drivingBan": false,
+      "taxWeight": 2090,
+      "odometerReading": 120090,
+      "grades": {
+        "INTERIOR": {
+          "max": 5,
+          "value": 3,
+          "min": 1
+        },
+        "EXTERIOR": {
+          "max": 5,
+          "value": 3,
+          "min": 1
+        },
+        "TOTAL": {
+          "max": 5,
+          "value": 3,
+          "min": 1
+        },
+        "ENGINE_AND_GEARBOX": {
+          "max": 3,
+          "value": 3,
+          "min": 1
+        },
+        "TECHNOLOGY_AND_EQUIPMENT": {
+          "max": 3,
+          "value": 2,
+          "min": 1
+        },
+        "BRAKES": {
+          "max": 3,
+          "value": 2,
+          "min": 1
+        }
+      },
+      "fuels": [
+        {
+          "enginePower": 253,
+          "fuelCode": "Petrol"
+        },
+        {
+          "enginePower": 146,
+          "fuelCode": "Electric",
+          "rangeCityWltpDrive": 103,
+          "rangeWltpDrive": 87
+        }
+      ],
       "curbWeight": 2096,
+      "remarks": {
+        "TIRES": [
+          {
+            "category": "TIRES",
+            "key": "Däckpar bak, snedslitna",
+            "id": "0"
+          },
+          {
+            "category": "TIRES",
+            "key": "Fälgar på bilen kantstötta",
+            "id": "1"
+          },
+          {
+            "category": "TIRES",
+            "key": "Skrapade fälgar till extradäck",
+            "id": "2"
+          }
+        ],
+        "INTERIOR": [
+          {
+            "category": "INTERIOR",
+            "key": "Panel insida baklucka, repor",
+            "id": "0"
+          }
+        ],
+        "EXTERIOR": [
+          {
+            "category": "EXTERIOR",
+            "key": "Lackskada stötfångare bak",
+            "id": "0"
+          },
+          {
+            "category": "EXTERIOR",
+            "key": "Buckla höger bakdörr",
+            "id": "1"
+          },
+          {
+            "category": "EXTERIOR",
+            "key": "Vänster bakdörr omlackerad",
+            "id": "2"
+          }
+        ],
+        "ENGINE_AND_GEARBOX": [],
+        "TECHNOLOGY_AND_EQUIPMENT": [
+          {
+            "category": "TECHNOLOGY_AND_EQUIPMENT",
+            "key": "Släpvagnskontakt lock saknas",
+            "id": "0"
+          },
+          {
+            "category": "TECHNOLOGY_AND_EQUIPMENT",
+            "key": "Klickande missljud från bakvagn vid gaspådrag",
+            "id": "1"
+          }
+        ],
+        "BRAKES": [
+          {
+            "category": "BRAKES",
+            "key": "Vibrerar vid inbromsning",
+            "id": "0"
+          },
+          {
+            "category": "BRAKES",
+            "key": "Bromsskivor bak är slitna, behöver bytas inom 6 månader",
+            "id": "1"
+          }
+        ]
+      },
+      "width": 1850,
+      "numberOfSeats": 5,
+      "body": "Wagon",
+      "maxPullWeightB": 970,
+      "textile": "Textil",
+      "ecoFriendly": true,
       "maxPayload": 434,
+      "exportable": true,
+      "inspectionValidToDate": "2027-09-30",
+      "taxFee": 360,
+      "modelYear": 2023,
+      "inspectionPeriod": "2025-09-03 - 2027-09-30",
+      "dateOfInspection": "2025-09-03",
+      "registrationPlate": "CER00E",
+      "totalWeight": 2530,
+      "adHeader": "V60 T6 AWD Recharge (350hk) Core Edition",
+      "battstatResult": {
+        "rankingRangeMax": 0,
+        "sohPercent": null,
+        "rankingRangeMin": 0,
+        "ranking": null
+      },
+      "numberOfKeys": 2,
+      "towbar": false,
+      "hasUnpaidLoan": false,
       "equipment": [
         "4WD",
         "Adaptiv farthållare",
@@ -99,28 +226,34 @@
         "USB-ingång",
         "Volvo On Call"
       ],
-      "inspectionValidToDate": "2027-09-30",
-      "odometerUnit": "km",
-      "length": 4778,
-      "electricType": "Plug-in hybrid",
-      "finishType": "Metallic",
-      "textile": "Textil",
-      "saleLimitedToCorporate": false,
-      "chassisNumber": "YV1ZWH1V7P1526204",
-      "title": "Volvo V60 T6 AWD Recharge (350hk)",
-      "battstatResult": {
-        "rankingRangeMin": 0,
-        "ranking": null,
-        "sohPercent": null,
-        "rankingRangeMax": 0
-      },
-      "dateOfInspection": "2025-09-03",
-      "inspectionPeriod": "2025-09-03 - 2027-09-30",
-      "totalWeight": 2530,
-      "registrationPlateCountry": "se",
-      "exportable": true,
+      "isRepairObject": false,
+      "mediation": true,
       "residualLoanValue": 0,
-      "taxFee": 360,
+      "numberOfPreviousOwners": 2,
+      "package": "Core Edition",
+      "remarksLocalized": {
+        "TIRES": "Däckpar bak, snedslitna. Fälgar på bilen kantstötta. Skrapade fälgar till extradäck",
+        "BRAKES": "Vibrerar vid inbromsning. Bromsskivor bak är slitna, behöver bytas inom 6 månader",
+        "EXTERIOR": "Lackskada stötfångare bak. Buckla höger bakdörr. Vänster bakdörr omlackerad",
+        "INTERIOR": "Panel insida baklucka, repor",
+        "ENGINE_AND_GEARBOX": null,
+        "TECHNOLOGY_AND_EQUIPMENT": "Släpvagnskontakt lock saknas. Klickande missljud från bakvagn vid gaspådrag"
+      },
+      "importedForPersonalUse": false,
+      "gearbox": "Automatic",
+      "title": "Volvo V60 T6 AWD Recharge (350hk)",
+      "chassisNumber": "YV1ZWH1V7P1526204",
+      "deductibleVat": true,
+      "saleLimitedToCorporate": false,
+      "heavyEquipment": false,
+      "manufactureMonth": "202209",
+      "height": 1416,
+      "initialTrafficDate": "2022-09-29",
+      "registrationCountry": "se",
+      "environmentalClassEuro": "6",
+      "registrationPlateCountry": "se",
+      "maxTrailerWeight": 2000,
+      "brand": "Volvo",
       "formattedEquipment": [
         {
           "key": "4WD",
@@ -309,241 +442,71 @@
           "priority": 30
         }
       ],
-      "familyName": "V60",
-      "environmentalClassEuro": "6",
-      "towbar": false,
-      "isRepairObject": false,
-      "body": "Wagon",
-      "numberOfSeats": 5,
-      "maxPullWeightB": 970,
-      "fuels": [
-        {
-          "enginePower": 253,
-          "fuelCode": "Petrol"
-        },
-        {
-          "enginePower": 146,
-          "rangeWltpDrive": 87,
-          "fuelCode": "Electric",
-          "rangeCityWltpDrive": 103
-        }
-      ],
-      "grades": {
-        "INTERIOR": {
-          "value": 3,
-          "min": 1,
-          "max": 5
-        },
-        "TOTAL": {
-          "value": 3,
-          "min": 1,
-          "max": 5
-        },
-        "ENGINE_AND_GEARBOX": {
-          "value": 3,
-          "min": 1,
-          "max": 3
-        },
-        "EXTERIOR": {
-          "value": 3,
-          "min": 1,
-          "max": 5
-        },
-        "BRAKES": {
-          "value": 2,
-          "min": 1,
-          "max": 3
-        },
-        "TECHNOLOGY_AND_EQUIPMENT": {
-          "value": 2,
-          "min": 1,
-          "max": 3
-        }
-      },
-      "maxTrailerWeight": 2000,
-      "odometerReading": 120090,
-      "package": "Core Edition",
-      "initialTrafficDate": "2022-09-29",
-      "mustExport": false,
-      "manufactureMonth": "202209",
-      "ecoFriendly": true,
-      "deductibleVat": true,
-      "numberOfKeys": 2,
-      "registrationPlate": "CER00E",
-      "numberOfPreviousOwners": 2,
-      "heavyEquipment": false,
-      "modelYear": 2023,
-      "height": 1416,
-      "gearbox": "Automatic",
       "modelName": "V60 T6 AWD Recharge (350hk)",
-      "taxWeight": 2090,
-      "width": 1850,
-      "remarks": {
-        "INTERIOR": [
-          {
-            "key": "Panel insida baklucka, repor",
-            "id": "0",
-            "category": "INTERIOR"
-          }
-        ],
-        "ENGINE_AND_GEARBOX": [],
-        "EXTERIOR": [
-          {
-            "key": "Lackskada stötfångare bak",
-            "id": "0",
-            "category": "EXTERIOR"
-          },
-          {
-            "key": "Buckla höger bakdörr",
-            "id": "1",
-            "category": "EXTERIOR"
-          },
-          {
-            "key": "Vänster bakdörr omlackerad",
-            "id": "2",
-            "category": "EXTERIOR"
-          }
-        ],
-        "BRAKES": [
-          {
-            "key": "Vibrerar vid inbromsning",
-            "id": "0",
-            "category": "BRAKES"
-          },
-          {
-            "key": "Bromsskivor bak är slitna, behöver bytas inom 6 månader",
-            "id": "1",
-            "category": "BRAKES"
-          }
-        ],
-        "TECHNOLOGY_AND_EQUIPMENT": [
-          {
-            "key": "Släpvagnskontakt lock saknas",
-            "id": "0",
-            "category": "TECHNOLOGY_AND_EQUIPMENT"
-          },
-          {
-            "key": "Klickande missljud från bakvagn vid gaspådrag",
-            "id": "1",
-            "category": "TECHNOLOGY_AND_EQUIPMENT"
-          }
-        ],
-        "TIRES": [
-          {
-            "key": "Däckpar bak, snedslitna",
-            "id": "0",
-            "category": "TIRES"
-          },
-          {
-            "key": "Fälgar på bilen kantstötta",
-            "id": "1",
-            "category": "TIRES"
-          },
-          {
-            "key": "Skrapade fälgar till extradäck",
-            "id": "2",
-            "category": "TIRES"
-          }
-        ]
-      },
-      "drivingBan": false,
-      "remarksLocalized": {
-        "TIRES": "Däckpar bak, snedslitna. Fälgar på bilen kantstötta. Skrapade fälgar till extradäck",
-        "BRAKES": "Vibrerar vid inbromsning. Bromsskivor bak är slitna, behöver bytas inom 6 månader",
-        "EXTERIOR": "Lackskada stötfångare bak. Buckla höger bakdörr. Vänster bakdörr omlackerad",
-        "INTERIOR": "Panel insida baklucka, repor",
-        "ENGINE_AND_GEARBOX": null,
-        "TECHNOLOGY_AND_EQUIPMENT": "Släpvagnskontakt lock saknas. Klickande missljud från bakvagn vid gaspådrag"
-      },
-      "hasUnpaidLoan": false,
-      "registrationCountry": "se",
-      "importedForPersonalUse": false,
+      "finishType": "Metallic",
+      "electricType": "Plug-in hybrid",
+      "exteriorColor": "White",
       "heading1": "Volvo V60",
       "heading2": "T6 AWD Recharge",
       "heading3": "Core Edition"
     },
+    "car360Spin": null,
+    "testDriveAllowed": true,
+    "certified": false,
+    "objectType": "CAR",
+    "statisticalValuation": null,
+    "buyNowAmount": null,
+    "sellMethod": "BIDDING",
+    "orderableAdditionalServices": {
+      "tradein": false,
+      "transport": true,
+      "insurance": true,
+      "finance": true,
+      "warranty": true,
+      "extraTires": false
+    },
+    "isFixedPrice": false,
+    "vehicleType": "CAR",
+    "leaseReturnProperties": {},
+    "baseObjectId": "507571",
+    "initialBuyNowAmount": null,
+    "isReleasable": false,
+    "id": "7284459",
+    "offsiteSalesContact": null,
+    "presentationApproved": false,
+    "createdAt": "2026-08-03 14:20:41.512202+00:00",
+    "state": "AUCTION_RESOLUTION",
+    "reducedPrice": false,
     "baseObject": {
-      "exteriorColor": "White",
-      "registrationPlate": "CER00E",
-      "year": "2023",
       "body": "Wagon",
+      "modelId": null,
+      "exteriorColor": "White",
+      "baseObjectType": "CAR",
+      "registrationCountry": "se",
+      "odometerUnit": "km",
+      "familyName": "V60",
+      "odometerReading": null,
+      "earliestAvailableAt": null,
+      "brand": "Volvo",
+      "registrationPlate": "CER00E",
+      "fuels": [
+        {
+          "fuelCode": "Petrol",
+          "powerUnit": "EG",
+          "enginePower": 186,
+          "enginePowerHp": 253,
+          "fuelTankVolume": ""
+        },
+        {
+          "fuelCode": "Electric",
+          "powerUnit": "",
+          "enginePower": 107,
+          "enginePowerHp": 145,
+          "fuelTankVolume": ""
+        }
+      ],
+      "id": "507571",
       "authorityRegisterInformation": {
-        "additionalTechSpecification": {
-          "raceCar": null,
-          "wheelbase1": 2872,
-          "wheelbase2": null,
-          "wheelbase3": null,
-          "wheelbase4": null,
-          "equipment1": null,
-          "equipment2": null,
-          "equipment3": null,
-          "maximumSpeed": 180,
-          "numAxleShafts": 2,
-          "passengerAirBag": true,
-          "tyreDimensionRear": "235/45R18 98W",
-          "tyreDimensionFront": "235/45R18 98W",
-          "dualSteeringControl": null
-        },
-        "environmentalClassification": {
-          "fuels": [
-            {
-              "co2": "",
-              "nox": "",
-              "nox4": null,
-              "fuelCode": "Petrol",
-              "hcThcNox": "",
-              "consumption": "",
-              "noiseLevel": 68,
-              "emissionUnit": "g/km",
-              "innovationCo2": null,
-              "particleValue": "",
-              "particleMass4": null,
-              "consumptionUnit": "",
-              "rangeNedcDrive": null,
-              "rangeWltpDrive": null,
-              "consumptionUrban": "",
-              "rangeCityWltpDrive": null,
-              "consumptionExtraUrban": "",
-              "electricEnergyConsumption": null,
-              "energyConsumptionWltpDrive": null
-            },
-            {
-              "co2": 0,
-              "nox": "",
-              "nox4": null,
-              "fuelCode": "Electric",
-              "hcThcNox": "",
-              "consumption": "",
-              "noiseLevel": "",
-              "emissionUnit": "g/km",
-              "innovationCo2": null,
-              "particleValue": "",
-              "particleMass4": null,
-              "consumptionUnit": "",
-              "rangeNedcDrive": null,
-              "rangeWltpDrive": "87",
-              "consumptionUrban": "",
-              "rangeCityWltpDrive": "103",
-              "consumptionExtraUrban": "",
-              "electricEnergyConsumption": null,
-              "energyConsumptionWltpDrive": null
-            }
-          ],
-          "ecoFriendly": true,
-          "emissionClass": "LADDHYBRID",
-          "innovationCode": null,
-          "environmentalClass": "HYBRID",
-          "environmentalClassEuro": "6"
-        },
-        "vehicleStatus": {
-          "tax": 360
-        },
-        "registrationInformation": {
-          "registrationPlate": "CER00E",
-          "deregistrationDate": null,
-          "deregistrationText": null,
-          "deregistrationReason": null
-        },
         "generalTechSpecification": {
           "eeg": "e4*2007/46*1315*17",
           "fuels": [
@@ -616,6 +579,76 @@
           "inspectionValidToDate": "2027-09-30",
           "inspectionExemptionGroup": null
         },
+        "environmentalClassification": {
+          "fuels": [
+            {
+              "co2": "",
+              "nox": "",
+              "nox4": null,
+              "fuelCode": "Petrol",
+              "hcThcNox": "",
+              "consumption": "",
+              "noiseLevel": 68,
+              "emissionUnit": "g/km",
+              "innovationCo2": null,
+              "particleValue": "",
+              "particleMass4": null,
+              "consumptionUnit": "",
+              "rangeNedcDrive": null,
+              "rangeWltpDrive": null,
+              "consumptionUrban": "",
+              "rangeCityWltpDrive": null,
+              "consumptionExtraUrban": "",
+              "electricEnergyConsumption": null,
+              "energyConsumptionWltpDrive": null
+            },
+            {
+              "co2": 0,
+              "nox": "",
+              "nox4": null,
+              "fuelCode": "Electric",
+              "hcThcNox": "",
+              "consumption": "",
+              "noiseLevel": "",
+              "emissionUnit": "g/km",
+              "innovationCo2": null,
+              "particleValue": "",
+              "particleMass4": null,
+              "consumptionUnit": "",
+              "rangeNedcDrive": null,
+              "rangeWltpDrive": "87",
+              "consumptionUrban": "",
+              "rangeCityWltpDrive": "103",
+              "consumptionExtraUrban": "",
+              "electricEnergyConsumption": null,
+              "energyConsumptionWltpDrive": null
+            }
+          ],
+          "ecoFriendly": true,
+          "emissionClass": "LADDHYBRID",
+          "innovationCode": null,
+          "environmentalClass": "HYBRID",
+          "environmentalClassEuro": "6"
+        },
+        "additionalTechSpecification": {
+          "raceCar": null,
+          "wheelbase1": 2872,
+          "wheelbase2": null,
+          "wheelbase3": null,
+          "wheelbase4": null,
+          "equipment1": null,
+          "equipment2": null,
+          "equipment3": null,
+          "maximumSpeed": 180,
+          "numAxleShafts": 2,
+          "passengerAirBag": true,
+          "tyreDimensionRear": "235/45R18 98W",
+          "tyreDimensionFront": "235/45R18 98W",
+          "dualSteeringControl": null
+        },
+        "vehicleStatus": {
+          "tax": 360
+        },
         "vehicleInformation": {
           "vin": "YV1ZWH1V7P1526204",
           "body": "AC",
@@ -636,39 +669,21 @@
           "registrationDate": "2022-09-06",
           "initialTrafficDate": "2022-09-29",
           "registrationPlateReused": null
+        },
+        "registrationInformation": {
+          "registrationPlate": "CER00E",
+          "deregistrationDate": null,
+          "deregistrationText": null,
+          "deregistrationReason": null
         }
       },
-      "brand": "Volvo",
-      "id": "507571",
-      "fuels": [
-        {
-          "fuelCode": "Petrol",
-          "powerUnit": "EG",
-          "enginePower": 186,
-          "enginePowerHp": 253,
-          "fuelTankVolume": ""
-        },
-        {
-          "fuelCode": "Electric",
-          "powerUnit": "",
-          "enginePower": 107,
-          "enginePowerHp": 145,
-          "fuelTankVolume": ""
-        }
-      ],
-      "gearbox": "Automatic",
-      "fabricAndMake": "VOLVO",
-      "baseObjectType": "CAR",
-      "modelId": null,
-      "odometerReading": null,
       "modelName": "V60 T6 AWD Recharge (350hk)",
-      "salesFlow": "CORPORATE_CARS",
-      "state": "MANUAL_VALUATION_PENDING",
-      "odometerUnit": "km",
-      "earliestAvailableAt": null,
-      "registrationCountry": "se",
       "createdAt": "2026-08-03T14:20:41.181234+00:00",
-      "familyName": "V60",
+      "state": "MANUAL_VALUATION_PENDING",
+      "gearbox": "Automatic",
+      "salesFlow": "CORPORATE_CARS",
+      "year": "2023",
+      "fabricAndMake": "VOLVO",
       "technicalSpecification": {
         "modelId": null,
         "vehicle": {
@@ -680,21 +695,6 @@
         "year": "2023"
       }
     },
-    "id": "7284459",
-    "leaseReturnProperties": {},
-    "vehicleType": "CAR",
-    "presentationApproved": false,
-    "baseObjectId": "507571",
-    "isFixedPrice": false,
-    "certified": false,
-    "objectType": "CAR",
-    "state": "AUCTION_RESOLUTION",
-    "initialBuyNowAmount": null,
-    "statisticalValuation": null,
-    "testDriveAllowed": true,
-    "buyNowAmount": null,
-    "isReleasable": false,
-    "createdAt": "2026-08-03 14:20:41.512202+00:00",
     "exportable": true,
     "deductibleVat": true,
     "collisionWarranty": null,
@@ -2173,6 +2173,6 @@
     "closedAt": "2026-10-30T10:09:22.993174+00:00",
     "updatedAt": "2026-10-30T10:09:23.063389+00:00"
   },
-  "_scraped_at": "2026-10-30T14:09:05.046473+00:00",
+  "_scraped_at": "2026-10-30T16:16:26.514545+00:00",
   "_url": "https://www.kvd.se/auktioner/volvo-v60-t6-awd-recharge-350hk-309120"
 }

@@ -44,235 +44,66 @@
   "eurBuyNowAmount": null,
   "winningBid": null,
   "processObject": {
-    "objectType": "CAR",
-    "buyNowAmount": null,
-    "reducedPrice": false,
-    "testDriveAllowed": true,
-    "isFixedPrice": false,
-    "baseObject": {
-      "gearbox": "Manual",
-      "baseObjectType": "CAR",
-      "odometerReading": 180000,
-      "authorityRegisterInformation": {
-        "vehicleOrigin": {
-          "originCode": "TYP",
-          "originCodeReason": null,
-          "importerIdentifier": null,
-          "preRegistrationDate": null,
-          "importRegistrationDate": null,
-          "importedForPersonalUse": false,
-          "importedPreviouslyRegistered": false
-        },
-        "generalTechSpecification": {
-          "eeg": "e9*2007/46*0023*19",
-          "fuels": [
-            {
-              "fuelCode": "Diesel",
-              "powerUnit": "EG",
-              "enginePower": 84,
-              "enginePowerHp": 114,
-              "fuelTankVolume": ""
-            }
-          ],
-          "width": 1865,
-          "height": 1479,
-          "length": 4635,
-          "gearbox": "Manual",
-          "variant": "FS84",
-          "version": "FS8481??",
-          "taxWeight": 1610,
-          "curbWeight": 1614,
-          "maxPayload": 416,
-          "totalWeight": 2030,
-          "chassisCode1": null,
-          "chassisCode2": null,
-          "cubicCapacity": "1560",
-          "numPassengers": "4",
-          "numberOfSeats": 5,
-          "fourWheelDrive": false,
-          "maxPullWeightB": 1470,
-          "clutchMechanism1": null,
-          "clutchMechanism2": null,
-          "maxTrailerWeight": 1300,
-          "chassisCodeSupplement": null,
-          "maxPullWieghtNoBreaks": null,
-          "maxPullWeightBExtended": null,
-          "maxSingle Axle TrailerWeight": null
-        },
-        "environmentalClassification": {
-          "fuels": [
-            {
-              "co2": 103,
-              "nox": "",
-              "nox4": null,
-              "fuelCode": "Diesel",
-              "hcThcNox": "",
-              "consumption": 3.9,
-              "noiseLevel": 72,
-              "emissionUnit": "g/km",
-              "innovationCo2": null,
-              "particleValue": "",
-              "particleMass4": null,
-              "consumptionUnit": "3,9",
-              "rangeNedcDrive": null,
-              "rangeWltpDrive": null,
-              "consumptionUrban": 4.4,
-              "rangeCityWltpDrive": null,
-              "consumptionExtraUrban": 3.6,
-              "electricEnergyConsumption": null,
-              "energyConsumptionWltpDrive": null
-            }
-          ],
-          "ecoFriendly": false,
-          "emissionClass": "EURO 5",
-          "innovationCode": null,
-          "environmentalClass": null,
-          "environmentalClassEuro": "5"
-        },
-        "vehicleStatus": {
-          "tax": 1103
-        },
-        "vehicleInspectionInformation": {
-          "inspections": [
-            {
-              "inspectionType": "5",
-              "odometerReading": 178245,
-              "dateOfInspection": "2026-03-17"
-            },
-            {
-              "inspectionType": "5",
-              "odometerReading": 169928,
-              "dateOfInspection": "2025-01-24"
-            }
-          ],
-          "inspectionGroup": "36/24/14",
-          "odometerReading": 178245,
-          "inspectionPeriod": "2026-03-17 - 2027-05-31",
-          "dateOfInspection": "2026-03-17",
-          "inspectionValidToDate": "2027-05-31",
-          "inspectionExemptionGroup": null
-        },
-        "registrationInformation": {
-          "registrationPlate": "PNK934",
-          "deregistrationDate": null,
-          "deregistrationText": null,
-          "deregistrationReason": null
-        },
-        "vehicleInformation": {
-          "vin": "YV1FS8481F1341136",
-          "body": "AA",
-          "type": "CAR",
-          "year": "2014",
-          "model": "S60",
-          "rawType": "PB",
-          "modelYear": null,
-          "categoryEu": "e9*2007/46*0023*19",
-          "groupNumber": "VO 015309",
-          "modelNumber": "VO 000000",
-          "chassisNumber": "YV1FS8481F1341136",
-          "exteriorColor": "Black",
-          "fabricAndMake": "VOLVO F + S60",
-          "baseObjectType": "CAR",
-          "manufactureCode": null,
-          "manufactureMonth": "201408",
-          "registrationDate": "2014-08-19",
-          "initialTrafficDate": "2014-09-04",
-          "registrationPlateReused": null
-        },
-        "additionalTechSpecification": {
-          "raceCar": null,
-          "wheelbase1": 2776,
-          "wheelbase2": null,
-          "wheelbase3": null,
-          "wheelbase4": null,
-          "equipment1": null,
-          "equipment2": null,
-          "equipment3": null,
-          "maximumSpeed": 195,
-          "numAxleShafts": "",
-          "passengerAirBag": true,
-          "tyreDimensionRear": "205/60R16 96H",
-          "tyreDimensionFront": "205/60R16 96H",
-          "dualSteeringControl": null
-        }
-      },
-      "fuels": [
-        {
-          "fuelCode": "Diesel",
-          "powerUnit": "EG",
-          "enginePower": 84,
-          "enginePowerHp": 114,
-          "fuelTankVolume": ""
-        }
-      ],
-      "earliestAvailableAt": null,
-      "modelName": "S60 D2 (115hk)",
-      "salesFlow": "CONSUMER_CARS",
-      "registrationPlate": "PNK934",
-      "state": "PREPARING_SALES_AGREEMENT",
-      "odometerUnit": "km",
-      "fabricAndMake": "VOLVO F + S60",
-      "registrationCountry": "se",
-      "id": "520241",
-      "familyName": "S60",
-      "modelId": null,
-      "year": "2015",
-      "createdAt": "2026-10-04T08:13:17.176497+00:00",
-      "brand": "Volvo",
-      "body": "Sedan",
-      "exteriorColor": "Black",
-      "technicalSpecification": {
-        "modelId": null,
-        "vehicle": {
-          "brand": "Volvo",
-          "body": "Sedan",
-          "modelName": "S60 D2 (115hk)",
-          "familyName": "S60"
-        },
-        "year": "2015"
-      }
+    "orderableAdditionalServices": {
+      "tradein": false,
+      "transport": true,
+      "insurance": true,
+      "finance": true,
+      "warranty": true,
+      "extraTires": false
     },
-    "vehicleType": "CAR",
-    "initialBuyNowAmount": null,
-    "baseObjectId": "520241",
-    "conditionClassification": "TESTED",
+    "car360Spin": null,
     "proactiveBrokering": null,
-    "presentationApproved": false,
-    "state": "AUCTION_RESOLUTION",
+    "displayCar360Spin": true,
+    "offsiteSalesContact": null,
+    "sellMethod": "BIDDING",
+    "reducedPrice": false,
+    "conditionClassification": "TESTED",
     "properties": {
-      "grades": {
-        "BRAKES": {
-          "max": 3,
-          "value": 2,
-          "min": 1
-        },
-        "TOTAL": {
-          "max": 5,
-          "value": 3,
-          "min": 1
-        },
-        "TECHNOLOGY_AND_EQUIPMENT": {
-          "max": 3,
-          "value": 2,
-          "min": 1
-        },
-        "ENGINE_AND_GEARBOX": {
-          "max": 3,
-          "value": 3,
-          "min": 1
-        },
-        "INTERIOR": {
-          "max": 5,
-          "value": 3,
-          "min": 1
-        },
-        "EXTERIOR": {
-          "max": 5,
-          "value": 3,
-          "min": 1
-        }
-      },
-      "numberOfKeys": 2,
+      "adHeader": "S60 D2 (115hk) Kinetic Värmare",
+      "exteriorColor": "Black",
+      "brand": "Volvo",
+      "mediation": true,
+      "curbWeight": 1614,
+      "maxPayload": 416,
+      "equipment": [
+        "Antisladdsystem",
+        "Antispinn",
+        "Autobroms",
+        "AUX-ingång",
+        "Bluetooth",
+        "CD-Stereo",
+        "Elhiss bak",
+        "Elhiss fram",
+        "Elspeglar",
+        "Farthållare",
+        "Fjärrlås",
+        "Isofix bak",
+        "Klimatanläggning",
+        "Parkeringsvärmare med tidur",
+        "Radio",
+        "Rattvärme",
+        "Start/Stop-funktion",
+        "Stolsvärme fram",
+        "Sätesvärme bak",
+        "Urkopplingsbar passagerarairbag",
+        "USB-ingång"
+      ],
+      "inspectionValidToDate": "2027-05-31",
+      "odometerUnit": "km",
+      "length": 4635,
+      "finishType": "Solid",
+      "textile": "Textil",
+      "saleLimitedToCorporate": false,
+      "chassisNumber": "YV1FS8481F1341136",
+      "title": "Volvo S60 D2 (115hk)",
+      "dateOfInspection": "2026-03-17",
+      "inspectionPeriod": "2026-03-17 - 2027-05-31",
+      "totalWeight": 2030,
+      "registrationPlateCountry": "se",
+      "exportable": true,
+      "residualLoanValue": 0,
+      "taxFee": 1103,
       "formattedEquipment": [
         {
           "key": "ANTISLADDSYSTEM",
@@ -401,41 +232,119 @@
           "priority": 20
         }
       ],
-      "exportable": true,
-      "mustExport": false,
-      "deductibleVat": false,
-      "manufactureMonth": "201408",
-      "totalWeight": 2030,
-      "dateOfInspection": "2026-03-17",
-      "registrationPlate": "PNK934",
-      "equipment": [
-        "Antisladdsystem",
-        "Antispinn",
-        "Autobroms",
-        "AUX-ingång",
-        "Bluetooth",
-        "CD-Stereo",
-        "Elhiss bak",
-        "Elhiss fram",
-        "Elspeglar",
-        "Farthållare",
-        "Fjärrlås",
-        "Isofix bak",
-        "Klimatanläggning",
-        "Parkeringsvärmare med tidur",
-        "Radio",
-        "Rattvärme",
-        "Start/Stop-funktion",
-        "Stolsvärme fram",
-        "Sätesvärme bak",
-        "Urkopplingsbar passagerarairbag",
-        "USB-ingång"
-      ],
-      "taxWeight": 1610,
-      "odometerUnit": "km",
-      "mediation": true,
-      "ecoFriendly": false,
+      "familyName": "S60",
+      "environmentalClassEuro": "5",
       "towbar": false,
+      "isRepairObject": false,
+      "body": "Sedan",
+      "numberOfSeats": 5,
+      "maxPullWeightB": 1470,
+      "fuels": [
+        {
+          "enginePower": 114,
+          "consumption": 3.9,
+          "co2": 103,
+          "fuelCode": "Diesel"
+        }
+      ],
+      "grades": {
+        "INTERIOR": {
+          "value": 3,
+          "min": 1,
+          "max": 5
+        },
+        "TOTAL": {
+          "value": 3,
+          "min": 1,
+          "max": 5
+        },
+        "ENGINE_AND_GEARBOX": {
+          "value": 3,
+          "min": 1,
+          "max": 3
+        },
+        "EXTERIOR": {
+          "value": 3,
+          "min": 1,
+          "max": 5
+        },
+        "BRAKES": {
+          "value": 2,
+          "min": 1,
+          "max": 3
+        },
+        "TECHNOLOGY_AND_EQUIPMENT": {
+          "value": 2,
+          "min": 1,
+          "max": 3
+        }
+      },
+      "maxTrailerWeight": 1300,
+      "odometerReading": 181180,
+      "package": "Kinetic Värmare",
+      "initialTrafficDate": "2014-09-04",
+      "mustExport": false,
+      "manufactureMonth": "201408",
+      "ecoFriendly": false,
+      "deductibleVat": false,
+      "numberOfKeys": 2,
+      "registrationPlate": "PNK934",
+      "numberOfPreviousOwners": 6,
+      "heavyEquipment": false,
+      "modelYear": 2015,
+      "height": 1479,
+      "gearbox": "Manual",
+      "modelName": "S60 D2 (115hk)",
+      "taxWeight": 1610,
+      "width": 1865,
+      "remarks": {
+        "INTERIOR": [],
+        "ENGINE_AND_GEARBOX": [],
+        "EXTERIOR": [
+          {
+            "key": "Missljud/kärvar vid öppning/stängning höger bakdörr, Stenskott i vindruta",
+            "id": "0",
+            "category": "EXTERIOR"
+          }
+        ],
+        "BRAKES": [
+          {
+            "key": "Broms vänster/höger bak, anliggande",
+            "id": "0",
+            "category": "BRAKES"
+          }
+        ],
+        "TECHNOLOGY_AND_EQUIPMENT": [
+          {
+            "key": "Servicelampa lyser",
+            "id": "0",
+            "category": "TECHNOLOGY_AND_EQUIPMENT"
+          },
+          {
+            "key": "Missljud AC-kompressor",
+            "id": "1",
+            "category": "TECHNOLOGY_AND_EQUIPMENT"
+          },
+          {
+            "key": "Sporadiskt missljud från kupéfläkten",
+            "id": "2",
+            "category": "TECHNOLOGY_AND_EQUIPMENT"
+          },
+          {
+            "key": "Rattvärme dålig effekt",
+            "id": "3",
+            "category": "TECHNOLOGY_AND_EQUIPMENT"
+          }
+        ],
+        "TIRES": [
+          {
+            "key": "Skrapade fälgar till extradäck, Torrsprickor i 4 extradäck",
+            "id": "0",
+            "category": "TIRES"
+          }
+        ]
+      },
+      "drivingBan": false,
       "remarksLocalized": {
         "TIRES": "Skrapade fälgar till extradäck, Torrsprickor i 4 extradäck",
         "BRAKES": "Broms vänster/höger bak, anliggande",
@@ -444,124 +353,215 @@
         "ENGINE_AND_GEARBOX": null,
         "TECHNOLOGY_AND_EQUIPMENT": "Servicelampa lyser. Missljud AC-kompressor. Sporadiskt missljud från kupéfläkten. Rattvärme dålig effekt"
       },
-      "width": 1865,
-      "body": "Sedan",
-      "exteriorColor": "Black",
-      "remarks": {
-        "TIRES": [
-          {
-            "category": "TIRES",
-            "id": "0",
-            "key": "Skrapade fälgar till extradäck, Torrsprickor i 4 extradäck"
-          }
-        ],
-        "BRAKES": [
-          {
-            "category": "BRAKES",
-            "id": "0",
-            "key": "Broms vänster/höger bak, anliggande"
-          }
-        ],
-        "TECHNOLOGY_AND_EQUIPMENT": [
-          {
-            "category": "TECHNOLOGY_AND_EQUIPMENT",
-            "id": "0",
-            "key": "Servicelampa lyser"
-          },
-          {
-            "category": "TECHNOLOGY_AND_EQUIPMENT",
-            "id": "1",
-            "key": "Missljud AC-kompressor"
-          },
-          {
-            "category": "TECHNOLOGY_AND_EQUIPMENT",
-            "id": "2",
-            "key": "Sporadiskt missljud från kupéfläkten"
-          },
-          {
-            "category": "TECHNOLOGY_AND_EQUIPMENT",
-            "id": "3",
-            "key": "Rattvärme dålig effekt"
-          }
-        ],
-        "ENGINE_AND_GEARBOX": [],
-        "INTERIOR": [],
-        "EXTERIOR": [
-          {
-            "category": "EXTERIOR",
-            "id": "0",
-            "key": "Missljud/kärvar vid öppning/stängning höger bakdörr, Stenskott i vindruta"
-          }
-        ]
-      },
-      "numberOfPreviousOwners": 6,
-      "adHeader": "S60 D2 (115hk) Kinetic Värmare",
-      "fuels": [
-        {
-          "fuelCode": "Diesel",
-          "co2": 103,
-          "consumption": 3.9,
-          "enginePower": 114
-        }
-      ],
-      "textile": "Textil",
-      "maxTrailerWeight": 1300,
-      "maxPayload": 416,
-      "inspectionPeriod": "2026-03-17 - 2027-05-31",
-      "inspectionValidToDate": "2027-05-31",
-      "saleLimitedToCorporate": false,
-      "package": "Kinetic Värmare",
       "hasUnpaidLoan": false,
-      "heavyEquipment": false,
-      "residualLoanValue": 0,
-      "brand": "Volvo",
-      "gearbox": "Manual",
-      "height": 1479,
-      "maxPullWeightB": 1470,
-      "length": 4635,
-      "environmentalClassEuro": "5",
-      "curbWeight": 1614,
-      "drivingBan": false,
-      "initialTrafficDate": "2014-09-04",
-      "chassisNumber": "YV1FS8481F1341136",
-      "familyName": "S60",
-      "finishType": "Solid",
-      "importedForPersonalUse": false,
-      "isRepairObject": false,
-      "title": "Volvo S60 D2 (115hk)",
-      "odometerReading": 181180,
-      "modelName": "S60 D2 (115hk)",
-      "modelYear": 2015,
-      "numberOfSeats": 5,
-      "registrationPlateCountry": "se",
       "registrationCountry": "se",
-      "taxFee": 1103,
+      "importedForPersonalUse": false,
       "heading1": "Volvo S60",
       "heading2": "D2",
       "heading3": "Kinetic Värmare"
     },
-    "orderableAdditionalServices": {
-      "tradein": false,
-      "transport": true,
-      "insurance": true,
-      "finance": true,
-      "warranty": true,
-      "extraTires": false
+    "baseObject": {
+      "exteriorColor": "Black",
+      "registrationPlate": "PNK934",
+      "year": "2015",
+      "body": "Sedan",
+      "authorityRegisterInformation": {
+        "additionalTechSpecification": {
+          "raceCar": null,
+          "wheelbase1": 2776,
+          "wheelbase2": null,
+          "wheelbase3": null,
+          "wheelbase4": null,
+          "equipment1": null,
+          "equipment2": null,
+          "equipment3": null,
+          "maximumSpeed": 195,
+          "numAxleShafts": "",
+          "passengerAirBag": true,
+          "tyreDimensionRear": "205/60R16 96H",
+          "tyreDimensionFront": "205/60R16 96H",
+          "dualSteeringControl": null
+        },
+        "environmentalClassification": {
+          "fuels": [
+            {
+              "co2": 103,
+              "nox": "",
+              "nox4": null,
+              "fuelCode": "Diesel",
+              "hcThcNox": "",
+              "consumption": 3.9,
+              "noiseLevel": 72,
+              "emissionUnit": "g/km",
+              "innovationCo2": null,
+              "particleValue": "",
+              "particleMass4": null,
+              "consumptionUnit": "3,9",
+              "rangeNedcDrive": null,
+              "rangeWltpDrive": null,
+              "consumptionUrban": 4.4,
+              "rangeCityWltpDrive": null,
+              "consumptionExtraUrban": 3.6,
+              "electricEnergyConsumption": null,
+              "energyConsumptionWltpDrive": null
+            }
+          ],
+          "ecoFriendly": false,
+          "emissionClass": "EURO 5",
+          "innovationCode": null,
+          "environmentalClass": null,
+          "environmentalClassEuro": "5"
+        },
+        "vehicleStatus": {
+          "tax": 1103
+        },
+        "registrationInformation": {
+          "registrationPlate": "PNK934",
+          "deregistrationDate": null,
+          "deregistrationText": null,
+          "deregistrationReason": null
+        },
+        "generalTechSpecification": {
+          "eeg": "e9*2007/46*0023*19",
+          "fuels": [
+            {
+              "fuelCode": "Diesel",
+              "powerUnit": "EG",
+              "enginePower": 84,
+              "enginePowerHp": 114,
+              "fuelTankVolume": ""
+            }
+          ],
+          "width": 1865,
+          "height": 1479,
+          "length": 4635,
+          "gearbox": "Manual",
+          "variant": "FS84",
+          "version": "FS8481??",
+          "taxWeight": 1610,
+          "curbWeight": 1614,
+          "maxPayload": 416,
+          "totalWeight": 2030,
+          "chassisCode1": null,
+          "chassisCode2": null,
+          "cubicCapacity": "1560",
+          "numPassengers": "4",
+          "numberOfSeats": 5,
+          "fourWheelDrive": false,
+          "maxPullWeightB": 1470,
+          "clutchMechanism1": null,
+          "clutchMechanism2": null,
+          "maxTrailerWeight": 1300,
+          "chassisCodeSupplement": null,
+          "maxPullWieghtNoBreaks": null,
+          "maxPullWeightBExtended": null,
+          "maxSingle Axle TrailerWeight": null
+        },
+        "vehicleOrigin": {
+          "originCode": "TYP",
+          "originCodeReason": null,
+          "importerIdentifier": null,
+          "preRegistrationDate": null,
+          "importRegistrationDate": null,
+          "importedForPersonalUse": false,
+          "importedPreviouslyRegistered": false
+        },
+        "vehicleInspectionInformation": {
+          "inspections": [
+            {
+              "inspectionType": "5",
+              "odometerReading": 178245,
+              "dateOfInspection": "2026-03-17"
+            },
+            {
+              "inspectionType": "5",
+              "odometerReading": 169928,
+              "dateOfInspection": "2025-01-24"
+            }
+          ],
+          "inspectionGroup": "36/24/14",
+          "odometerReading": 178245,
+          "inspectionPeriod": "2026-03-17 - 2027-05-31",
+          "dateOfInspection": "2026-03-17",
+          "inspectionValidToDate": "2027-05-31",
+          "inspectionExemptionGroup": null
+        },
+        "vehicleInformation": {
+          "vin": "YV1FS8481F1341136",
+          "body": "AA",
+          "type": "CAR",
+          "year": "2014",
+          "model": "S60",
+          "rawType": "PB",
+          "modelYear": null,
+          "categoryEu": "e9*2007/46*0023*19",
+          "groupNumber": "VO 015309",
+          "modelNumber": "VO 000000",
+          "chassisNumber": "YV1FS8481F1341136",
+          "exteriorColor": "Black",
+          "fabricAndMake": "VOLVO F + S60",
+          "baseObjectType": "CAR",
+          "manufactureCode": null,
+          "manufactureMonth": "201408",
+          "registrationDate": "2014-08-19",
+          "initialTrafficDate": "2014-09-04",
+          "registrationPlateReused": null
+        }
+      },
+      "brand": "Volvo",
+      "id": "520241",
+      "fuels": [
+        {
+          "fuelCode": "Diesel",
+          "powerUnit": "EG",
+          "enginePower": 84,
+          "enginePowerHp": 114,
+          "fuelTankVolume": ""
+        }
+      ],
+      "gearbox": "Manual",
+      "fabricAndMake": "VOLVO F + S60",
+      "baseObjectType": "CAR",
+      "modelId": null,
+      "odometerReading": 180000,
+      "modelName": "S60 D2 (115hk)",
+      "salesFlow": "CONSUMER_CARS",
+      "state": "PREPARING_SALES_AGREEMENT",
+      "odometerUnit": "km",
+      "earliestAvailableAt": null,
+      "registrationCountry": "se",
+      "createdAt": "2026-10-04T08:13:17.176497+00:00",
+      "familyName": "S60",
+      "technicalSpecification": {
+        "modelId": null,
+        "vehicle": {
+          "brand": "Volvo",
+          "body": "Sedan",
+          "modelName": "S60 D2 (115hk)",
+          "familyName": "S60"
+        },
+        "year": "2015"
+      }
     },
-    "offsiteSalesContact": null,
-    "leaseReturnProperties": {},
     "id": "7290986",
-    "displayCar360Spin": true,
+    "leaseReturnProperties": {},
+    "vehicleType": "CAR",
+    "presentationApproved": false,
+    "baseObjectId": "520241",
+    "isFixedPrice": false,
     "certified": false,
-    "sellMethod": "BIDDING",
-    "isReleasable": false,
-    "car360Spin": null,
+    "objectType": "CAR",
+    "state": "AUCTION_RESOLUTION",
+    "initialBuyNowAmount": null,
     "statisticalValuation": {
-      "bpGreen": null,
       "bpWhite": 81770,
       "marketPrice": 81770,
+      "bpGreen": null,
       "bpOrange": 81770
     },
+    "testDriveAllowed": true,
+    "buyNowAmount": null,
+    "isReleasable": false,
     "createdAt": "2026-10-05 08:50:06.249965+00:00",
     "exportable": true,
     "deductibleVat": false,
@@ -2165,6 +2165,6 @@
     "closedAt": "2026-10-29T17:28:43.672646+00:00",
     "updatedAt": "2026-10-29T17:28:43.739209+00:00"
   },
-  "_scraped_at": "2026-10-30T14:09:10.132674+00:00",
+  "_scraped_at": "2026-10-30T16:16:32.234806+00:00",
   "_url": "https://www.kvd.se/auktioner/volvo-s60-d2-115hk-309086"
 }

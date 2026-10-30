@@ -44,89 +44,235 @@
   "eurBuyNowAmount": 34540,
   "winningBid": null,
   "processObject": {
-    "orderableAdditionalServices": {
-      "tradein": false,
-      "transport": true,
-      "insurance": true,
-      "finance": true,
-      "warranty": true,
-      "extraTires": false
-    },
-    "car360Spin": null,
-    "proactiveBrokering": null,
-    "displayCar360Spin": true,
-    "offsiteSalesContact": null,
-    "sellMethod": "BIDDING",
+    "objectType": "CAR",
+    "buyNowAmount": 379900,
     "reducedPrice": true,
-    "conditionClassification": "CERTIFIED",
-    "properties": {
-      "adHeader": "C 200 Kombi S206 (204hk) AMG Line",
-      "exteriorColor": "Black",
-      "brand": "Mercedes",
-      "mediation": true,
-      "curbWeight": 1794,
-      "maxPayload": 531,
-      "equipment": [
-        "Autobroms",
-        "Backkamera",
-        "Elspeglar",
-        "Farthållare",
-        "Regnsensor",
-        "Stolsvärme fram",
-        "Antisladdsystem",
-        "Assistanssystem",
-        "Dödavinkelvarnare",
-        "Eldriven baklucka",
-        "Elhiss bak",
-        "Elhiss fram",
-        "Elinfällbara speglar",
-        "Elstol med minnesfunktion förarplats",
-        "Elstol minnesfunktion passagerarplats",
-        "Filbytesvarnare",
-        "Isofix bak",
-        "Klimatanläggning",
-        "Lastskydd/lastnät",
-        "LED-strålkastare",
-        "Nyckellöst startsystem",
-        "Parkeringssensorer bak",
-        "Parkeringssensorer fram",
-        "Start/Stop-funktion",
-        "USB-ingång",
-        "Smartphone Integrationspaket",
-        "Apple CarPlay",
-        "Android Auto",
-        "Dödvinkelassistent",
-        "Aktiv Parkeringshjälp",
-        "Minnespaket",
-        "Förvaringspaket",
-        "USB-Paket",
-        "Kupébelysningspaket",
-        "Panelbelysning premium",
-        "PTC-extravärmare",
-        "Supersportratt",
-        "AMG Line",
-        "Parkeringspaket",
-        "Spegelpaket",
-        "MBUX Navigation Premium",
-        "Belyst Instegslist",
-        "Sportbromssystem",
-        "Fjärrlås"
+    "testDriveAllowed": true,
+    "isFixedPrice": false,
+    "baseObject": {
+      "gearbox": "Automatic",
+      "baseObjectType": "CAR",
+      "odometerReading": 26370,
+      "authorityRegisterInformation": {
+        "vehicleOrigin": {
+          "originCode": "INFÖRT",
+          "originCodeReason": null,
+          "importerIdentifier": null,
+          "preRegistrationDate": null,
+          "importRegistrationDate": null,
+          "importedForPersonalUse": false,
+          "importedPreviouslyRegistered": false
+        },
+        "generalTechSpecification": {
+          "eeg": "e1*2018/858*00017*07",
+          "fuels": [
+            {
+              "fuelCode": "Petrol",
+              "powerUnit": "EG",
+              "enginePower": 150,
+              "enginePowerHp": 204,
+              "fuelTankVolume": ""
+            }
+          ],
+          "width": 1900,
+          "height": 1491,
+          "length": 4793,
+          "gearbox": "Automatic",
+          "variant": "H242T0",
+          "version": "CZAA051A",
+          "taxWeight": 1790,
+          "curbWeight": 1794,
+          "maxPayload": 531,
+          "totalWeight": 2325,
+          "chassisCode1": null,
+          "chassisCode2": null,
+          "cubicCapacity": "1496",
+          "numPassengers": "4",
+          "numberOfSeats": 5,
+          "fourWheelDrive": false,
+          "maxPullWeightB": 1175,
+          "clutchMechanism1": null,
+          "clutchMechanism2": null,
+          "maxTrailerWeight": null,
+          "chassisCodeSupplement": null,
+          "maxPullWieghtNoBreaks": null,
+          "maxPullWeightBExtended": null,
+          "maxSingle Axle TrailerWeight": null
+        },
+        "environmentalClassification": {
+          "fuels": [
+            {
+              "co2": "",
+              "nox": "",
+              "nox4": null,
+              "fuelCode": "Petrol",
+              "hcThcNox": "",
+              "consumption": "",
+              "noiseLevel": 70,
+              "emissionUnit": "g/km",
+              "innovationCo2": null,
+              "particleValue": "",
+              "particleMass4": null,
+              "consumptionUnit": "",
+              "rangeNedcDrive": null,
+              "rangeWltpDrive": null,
+              "consumptionUrban": "",
+              "rangeCityWltpDrive": null,
+              "consumptionExtraUrban": "",
+              "electricEnergyConsumption": null,
+              "energyConsumptionWltpDrive": null
+            }
+          ],
+          "ecoFriendly": false,
+          "emissionClass": "ELHYBRID",
+          "innovationCode": null,
+          "environmentalClass": null,
+          "environmentalClassEuro": "6"
+        },
+        "vehicleStatus": {
+          "tax": 3576
+        },
+        "vehicleInspectionInformation": {
+          "inspections": [
+            {
+              "inspectionType": "13",
+              "odometerReading": null,
+              "dateOfInspection": "2023-08-22"
+            },
+            {
+              "inspectionType": null,
+              "odometerReading": null,
+              "dateOfInspection": null
+            }
+          ],
+          "inspectionGroup": "36/24/14",
+          "odometerReading": "",
+          "inspectionPeriod": "2023-08-22 - 2026-09-30",
+          "dateOfInspection": "2023-08-22",
+          "inspectionValidToDate": "2026-09-30",
+          "inspectionExemptionGroup": null
+        },
+        "registrationInformation": {
+          "registrationPlate": "NUK32Y",
+          "deregistrationDate": null,
+          "deregistrationText": null,
+          "deregistrationReason": null
+        },
+        "vehicleInformation": {
+          "vin": "W1KAH4CB5RF127313",
+          "body": "AC",
+          "type": "CAR",
+          "year": "2023",
+          "model": "C 200",
+          "rawType": "PB",
+          "modelYear": null,
+          "categoryEu": "e1*2018/858*00017*07",
+          "groupNumber": "MB 522426",
+          "modelNumber": "MB 000000",
+          "chassisNumber": "W1KAH4CB5RF127313",
+          "exteriorColor": "Black",
+          "fabricAndMake": "MERCEDES-BENZ",
+          "baseObjectType": "CAR",
+          "manufactureCode": null,
+          "manufactureMonth": "202308",
+          "registrationDate": "2023-08-01",
+          "initialTrafficDate": "2023-09-15",
+          "registrationPlateReused": null
+        },
+        "additionalTechSpecification": {
+          "raceCar": null,
+          "wheelbase1": 2865,
+          "wheelbase2": null,
+          "wheelbase3": null,
+          "wheelbase4": null,
+          "equipment1": null,
+          "equipment2": null,
+          "equipment3": null,
+          "maximumSpeed": 240,
+          "numAxleShafts": 2,
+          "passengerAirBag": false,
+          "tyreDimensionRear": "245/40 R18 97Y XL",
+          "tyreDimensionFront": "225/45 R18 95Y XL",
+          "dualSteeringControl": null
+        }
+      },
+      "fuels": [
+        {
+          "fuelCode": "Petrol",
+          "powerUnit": "EG",
+          "enginePower": 150,
+          "enginePowerHp": 204,
+          "fuelTankVolume": ""
+        }
       ],
-      "inspectionValidToDate": "2028-09-30",
+      "earliestAvailableAt": null,
+      "modelName": "C 200 Kombi S206 (204hk)",
+      "salesFlow": "CORPORATE_CARS_SMALL",
+      "registrationPlate": "NUK32Y",
+      "state": "PREPARING_SALES_AGREEMENT",
       "odometerUnit": "km",
-      "length": 4793,
-      "finishType": "Solid",
-      "textile": "Delläder",
-      "saleLimitedToCorporate": false,
-      "chassisNumber": "W1KAH4CB5RF127313",
-      "title": "Mercedes C 200 Kombi S206 (204hk)",
-      "dateOfInspection": "2026-09-23",
-      "inspectionPeriod": "2026-09-23 - 2028-09-30",
-      "totalWeight": 2325,
-      "registrationPlateCountry": "se",
-      "exportable": true,
-      "residualLoanValue": 0,
-      "taxFee": 3576,
+      "fabricAndMake": "MERCEDES-BENZ",
+      "registrationCountry": "se",
+      "id": "515061",
+      "familyName": "C-Klass",
+      "modelId": null,
+      "year": "2024",
+      "createdAt": "2026-09-09T07:50:38.393816+00:00",
+      "brand": "Mercedes-Benz",
+      "body": "Wagon",
+      "exteriorColor": "Black",
+      "technicalSpecification": {
+        "modelId": null,
+        "vehicle": {
+          "brand": "Mercedes-Benz",
+          "body": "Wagon",
+          "modelName": "C 200 Kombi S206 (204hk)",
+          "familyName": "C-Klass"
+        },
+        "year": "2024"
+      }
+    },
+    "vehicleType": "CAR",
+    "initialBuyNowAmount": 384900,
+    "baseObjectId": "515061",
+    "conditionClassification": "CERTIFIED",
+    "proactiveBrokering": null,
+    "presentationApproved": false,
+    "state": "AUCTION_RESOLUTION",
+    "properties": {
+      "grades": {
+        "BRAKES": {
+          "max": 3,
+          "value": 3,
+          "min": 1
+        },
+        "TOTAL": {
+          "max": 5,
+          "value": 3,
+          "min": 1
+        },
+        "TECHNOLOGY_AND_EQUIPMENT": {
+          "max": 3,
+          "value": 3,
+          "min": 1
+        },
+        "ENGINE_AND_GEARBOX": {
+          "max": 3,
+          "value": 3,
+          "min": 1
+        },
+        "INTERIOR": {
+          "max": 5,
+          "value": 3,
+          "min": 1
+        },
+        "EXTERIOR": {
+          "max": 5,
+          "value": 3,
+          "min": 1
+        }
+      },
+      "numberOfKeys": 2,
       "formattedEquipment": [
         {
           "key": "AUTOBROMS",
@@ -393,94 +539,64 @@
           "priority": 43
         }
       ],
-      "familyName": "C-Klass",
-      "environmentalClassEuro": "6",
-      "towbar": false,
-      "isRepairObject": false,
-      "body": "Wagon",
-      "numberOfSeats": 5,
-      "maxPullWeightB": 1175,
-      "fuels": [
-        {
-          "enginePower": 204,
-          "fuelCode": "Petrol"
-        }
-      ],
-      "grades": {
-        "INTERIOR": {
-          "value": 3,
-          "min": 1,
-          "max": 5
-        },
-        "TOTAL": {
-          "value": 3,
-          "min": 1,
-          "max": 5
-        },
-        "ENGINE_AND_GEARBOX": {
-          "value": 3,
-          "min": 1,
-          "max": 3
-        },
-        "EXTERIOR": {
-          "value": 3,
-          "min": 1,
-          "max": 5
-        },
-        "BRAKES": {
-          "value": 3,
-          "min": 1,
-          "max": 3
-        },
-        "TECHNOLOGY_AND_EQUIPMENT": {
-          "value": 3,
-          "min": 1,
-          "max": 3
-        }
-      },
-      "odometerReading": 26420,
-      "package": "AMG Line",
-      "initialTrafficDate": "2023-09-15",
+      "exportable": true,
       "mustExport": false,
-      "manufactureMonth": "202308",
-      "ecoFriendly": false,
       "deductibleVat": false,
-      "numberOfKeys": 2,
+      "manufactureMonth": "202308",
+      "totalWeight": 2325,
+      "dateOfInspection": "2026-09-23",
       "registrationPlate": "NUK32Y",
-      "numberOfPreviousOwners": 2,
-      "heavyEquipment": false,
-      "modelYear": 2024,
-      "height": 1491,
-      "gearbox": "Automatic",
-      "modelName": "C 200 Kombi S206 (204hk)",
+      "equipment": [
+        "Autobroms",
+        "Backkamera",
+        "Elspeglar",
+        "Farthållare",
+        "Regnsensor",
+        "Stolsvärme fram",
+        "Antisladdsystem",
+        "Assistanssystem",
+        "Dödavinkelvarnare",
+        "Eldriven baklucka",
+        "Elhiss bak",
+        "Elhiss fram",
+        "Elinfällbara speglar",
+        "Elstol med minnesfunktion förarplats",
+        "Elstol minnesfunktion passagerarplats",
+        "Filbytesvarnare",
+        "Isofix bak",
+        "Klimatanläggning",
+        "Lastskydd/lastnät",
+        "LED-strålkastare",
+        "Nyckellöst startsystem",
+        "Parkeringssensorer bak",
+        "Parkeringssensorer fram",
+        "Start/Stop-funktion",
+        "USB-ingång",
+        "Smartphone Integrationspaket",
+        "Apple CarPlay",
+        "Android Auto",
+        "Dödvinkelassistent",
+        "Aktiv Parkeringshjälp",
+        "Minnespaket",
+        "Förvaringspaket",
+        "USB-Paket",
+        "Kupébelysningspaket",
+        "Panelbelysning premium",
+        "PTC-extravärmare",
+        "Supersportratt",
+        "AMG Line",
+        "Parkeringspaket",
+        "Spegelpaket",
+        "MBUX Navigation Premium",
+        "Belyst Instegslist",
+        "Sportbromssystem",
+        "Fjärrlås"
+      ],
       "taxWeight": 1790,
-      "width": 1900,
-      "remarks": {
-        "INTERIOR": [
-          {
-            "key": "Klädsel ytligt slitage fram vänster",
-            "id": "0",
-            "category": "INTERIOR"
-          }
-        ],
-        "ENGINE_AND_GEARBOX": [],
-        "EXTERIOR": [
-          {
-            "key": "Bilen har några lackskador",
-            "id": "0",
-            "category": "EXTERIOR"
-          },
-          {
-            "key": "Stenskott i vindruta",
-            "id": "1",
-            "category": "EXTERIOR"
-          }
-        ],
-        "BRAKES": [],
-        "TECHNOLOGY_AND_EQUIPMENT": [],
-        "TIRES": []
-      },
-      "drivingBan": false,
+      "odometerUnit": "km",
+      "mediation": true,
+      "ecoFriendly": false,
+      "towbar": false,
       "remarksLocalized": {
         "TIRES": null,
         "BRAKES": null,
@@ -489,215 +605,99 @@
         "ENGINE_AND_GEARBOX": null,
         "TECHNOLOGY_AND_EQUIPMENT": null
       },
+      "width": 1900,
+      "body": "Wagon",
+      "exteriorColor": "Black",
+      "remarks": {
+        "TIRES": [],
+        "BRAKES": [],
+        "TECHNOLOGY_AND_EQUIPMENT": [],
+        "ENGINE_AND_GEARBOX": [],
+        "INTERIOR": [
+          {
+            "category": "INTERIOR",
+            "id": "0",
+            "key": "Klädsel ytligt slitage fram vänster"
+          }
+        ],
+        "EXTERIOR": [
+          {
+            "category": "EXTERIOR",
+            "id": "0",
+            "key": "Bilen har några lackskador"
+          },
+          {
+            "category": "EXTERIOR",
+            "id": "1",
+            "key": "Stenskott i vindruta"
+          }
+        ]
+      },
+      "numberOfPreviousOwners": 2,
+      "adHeader": "C 200 Kombi S206 (204hk) AMG Line",
+      "fuels": [
+        {
+          "fuelCode": "Petrol",
+          "enginePower": 204
+        }
+      ],
+      "textile": "Delläder",
+      "maxPayload": 531,
+      "inspectionPeriod": "2026-09-23 - 2028-09-30",
+      "inspectionValidToDate": "2028-09-30",
+      "saleLimitedToCorporate": false,
+      "package": "AMG Line",
       "hasUnpaidLoan": false,
-      "registrationCountry": "se",
+      "heavyEquipment": false,
+      "residualLoanValue": 0,
+      "brand": "Mercedes",
+      "gearbox": "Automatic",
+      "height": 1491,
+      "maxPullWeightB": 1175,
+      "length": 4793,
+      "environmentalClassEuro": "6",
+      "curbWeight": 1794,
+      "drivingBan": false,
+      "initialTrafficDate": "2023-09-15",
+      "chassisNumber": "W1KAH4CB5RF127313",
+      "familyName": "C-Klass",
+      "finishType": "Solid",
       "importedForPersonalUse": false,
+      "isRepairObject": false,
+      "title": "Mercedes C 200 Kombi S206 (204hk)",
+      "odometerReading": 26420,
+      "modelName": "C 200 Kombi S206 (204hk)",
+      "modelYear": 2024,
+      "numberOfSeats": 5,
+      "registrationPlateCountry": "se",
+      "registrationCountry": "se",
+      "taxFee": 3576,
       "heading1": "Mercedes C-Klass",
       "heading2": "C 200 Kombi S206",
       "heading3": "AMG Line"
     },
-    "baseObject": {
-      "exteriorColor": "Black",
-      "registrationPlate": "NUK32Y",
-      "year": "2024",
-      "body": "Wagon",
-      "authorityRegisterInformation": {
-        "additionalTechSpecification": {
-          "raceCar": null,
-          "wheelbase1": 2865,
-          "wheelbase2": null,
-          "wheelbase3": null,
-          "wheelbase4": null,
-          "equipment1": null,
-          "equipment2": null,
-          "equipment3": null,
-          "maximumSpeed": 240,
-          "numAxleShafts": 2,
-          "passengerAirBag": false,
-          "tyreDimensionRear": "245/40 R18 97Y XL",
-          "tyreDimensionFront": "225/45 R18 95Y XL",
-          "dualSteeringControl": null
-        },
-        "environmentalClassification": {
-          "fuels": [
-            {
-              "co2": "",
-              "nox": "",
-              "nox4": null,
-              "fuelCode": "Petrol",
-              "hcThcNox": "",
-              "consumption": "",
-              "noiseLevel": 70,
-              "emissionUnit": "g/km",
-              "innovationCo2": null,
-              "particleValue": "",
-              "particleMass4": null,
-              "consumptionUnit": "",
-              "rangeNedcDrive": null,
-              "rangeWltpDrive": null,
-              "consumptionUrban": "",
-              "rangeCityWltpDrive": null,
-              "consumptionExtraUrban": "",
-              "electricEnergyConsumption": null,
-              "energyConsumptionWltpDrive": null
-            }
-          ],
-          "ecoFriendly": false,
-          "emissionClass": "ELHYBRID",
-          "innovationCode": null,
-          "environmentalClass": null,
-          "environmentalClassEuro": "6"
-        },
-        "vehicleStatus": {
-          "tax": 3576
-        },
-        "registrationInformation": {
-          "registrationPlate": "NUK32Y",
-          "deregistrationDate": null,
-          "deregistrationText": null,
-          "deregistrationReason": null
-        },
-        "generalTechSpecification": {
-          "eeg": "e1*2018/858*00017*07",
-          "fuels": [
-            {
-              "fuelCode": "Petrol",
-              "powerUnit": "EG",
-              "enginePower": 150,
-              "enginePowerHp": 204,
-              "fuelTankVolume": ""
-            }
-          ],
-          "width": 1900,
-          "height": 1491,
-          "length": 4793,
-          "gearbox": "Automatic",
-          "variant": "H242T0",
-          "version": "CZAA051A",
-          "taxWeight": 1790,
-          "curbWeight": 1794,
-          "maxPayload": 531,
-          "totalWeight": 2325,
-          "chassisCode1": null,
-          "chassisCode2": null,
-          "cubicCapacity": "1496",
-          "numPassengers": "4",
-          "numberOfSeats": 5,
-          "fourWheelDrive": false,
-          "maxPullWeightB": 1175,
-          "clutchMechanism1": null,
-          "clutchMechanism2": null,
-          "maxTrailerWeight": null,
-          "chassisCodeSupplement": null,
-          "maxPullWieghtNoBreaks": null,
-          "maxPullWeightBExtended": null,
-          "maxSingle Axle TrailerWeight": null
-        },
-        "vehicleOrigin": {
-          "originCode": "INFÖRT",
-          "originCodeReason": null,
-          "importerIdentifier": null,
-          "preRegistrationDate": null,
-          "importRegistrationDate": null,
-          "importedForPersonalUse": false,
-          "importedPreviouslyRegistered": false
-        },
-        "vehicleInspectionInformation": {
-          "inspections": [
-            {
-              "inspectionType": "13",
-              "odometerReading": null,
-              "dateOfInspection": "2023-08-22"
-            },
-            {
-              "inspectionType": null,
-              "odometerReading": null,
-              "dateOfInspection": null
-            }
-          ],
-          "inspectionGroup": "36/24/14",
-          "odometerReading": "",
-          "inspectionPeriod": "2023-08-22 - 2026-09-30",
-          "dateOfInspection": "2023-08-22",
-          "inspectionValidToDate": "2026-09-30",
-          "inspectionExemptionGroup": null
-        },
-        "vehicleInformation": {
-          "vin": "W1KAH4CB5RF127313",
-          "body": "AC",
-          "type": "CAR",
-          "year": "2023",
-          "model": "C 200",
-          "rawType": "PB",
-          "modelYear": null,
-          "categoryEu": "e1*2018/858*00017*07",
-          "groupNumber": "MB 522426",
-          "modelNumber": "MB 000000",
-          "chassisNumber": "W1KAH4CB5RF127313",
-          "exteriorColor": "Black",
-          "fabricAndMake": "MERCEDES-BENZ",
-          "baseObjectType": "CAR",
-          "manufactureCode": null,
-          "manufactureMonth": "202308",
-          "registrationDate": "2023-08-01",
-          "initialTrafficDate": "2023-09-15",
-          "registrationPlateReused": null
-        }
-      },
-      "brand": "Mercedes-Benz",
-      "id": "515061",
-      "fuels": [
-        {
-          "fuelCode": "Petrol",
-          "powerUnit": "EG",
-          "enginePower": 150,
-          "enginePowerHp": 204,
-          "fuelTankVolume": ""
-        }
-      ],
-      "gearbox": "Automatic",
-      "fabricAndMake": "MERCEDES-BENZ",
-      "baseObjectType": "CAR",
-      "modelId": null,
-      "odometerReading": 26370,
-      "modelName": "C 200 Kombi S206 (204hk)",
-      "salesFlow": "CORPORATE_CARS_SMALL",
-      "state": "PREPARING_SALES_AGREEMENT",
-      "odometerUnit": "km",
-      "earliestAvailableAt": null,
-      "registrationCountry": "se",
-      "createdAt": "2026-09-09T07:50:38.393816+00:00",
-      "familyName": "C-Klass",
-      "technicalSpecification": {
-        "modelId": null,
-        "vehicle": {
-          "brand": "Mercedes-Benz",
-          "body": "Wagon",
-          "modelName": "C 200 Kombi S206 (204hk)",
-          "familyName": "C-Klass"
-        },
-        "year": "2024"
-      }
+    "orderableAdditionalServices": {
+      "tradein": false,
+      "transport": true,
+      "insurance": true,
+      "finance": true,
+      "warranty": true,
+      "extraTires": false
     },
-    "id": "7289211",
+    "offsiteSalesContact": null,
     "leaseReturnProperties": {},
-    "vehicleType": "CAR",
-    "presentationApproved": false,
-    "baseObjectId": "515061",
-    "isFixedPrice": false,
+    "id": "7289211",
+    "displayCar360Spin": true,
     "certified": true,
-    "objectType": "CAR",
-    "state": "AUCTION_RESOLUTION",
-    "initialBuyNowAmount": 384900,
+    "sellMethod": "BIDDING",
+    "isReleasable": false,
+    "car360Spin": null,
     "statisticalValuation": {
+      "bpGreen": null,
       "bpWhite": 397900,
       "marketPrice": 397900,
-      "bpGreen": null,
       "bpOrange": 397900
     },
-    "testDriveAllowed": true,
-    "buyNowAmount": 379900,
-    "isReleasable": false,
     "createdAt": "2026-09-17 12:47:01.938211+00:00",
     "exportable": true,
     "deductibleVat": false,
@@ -2326,6 +2326,6 @@
     "closedAt": "2026-10-29T11:38:39.801413+00:00",
     "updatedAt": "2026-10-29T11:38:39.891060+00:00"
   },
-  "_scraped_at": "2026-10-30T14:09:37.014381+00:00",
+  "_scraped_at": "2026-10-30T16:16:59.293689+00:00",
   "_url": "https://www.kvd.se/auktioner/mercedes-c-200-kombi-s206-204hk-309066"
 }

@@ -44,28 +44,102 @@
   "eurBuyNowAmount": null,
   "winningBid": null,
   "processObject": {
-    "orderableAdditionalServices": {
-      "tradein": false,
-      "transport": true,
-      "insurance": true,
-      "finance": true,
-      "warranty": true,
-      "extraTires": false
-    },
-    "car360Spin": null,
-    "proactiveBrokering": null,
     "displayCar360Spin": true,
-    "offsiteSalesContact": null,
-    "sellMethod": "BIDDING",
-    "reducedPrice": false,
     "conditionClassification": "TESTED",
+    "proactiveBrokering": null,
     "properties": {
-      "adHeader": "X 250 d 4MATIC (190hk) Power Line Style",
-      "exteriorColor": "White",
-      "brand": "Mercedes",
-      "mediation": true,
+      "length": 5277,
+      "mustExport": false,
+      "odometerUnit": "km",
+      "familyName": "X-klass",
+      "drivingBan": false,
+      "taxWeight": 3250,
+      "odometerReading": 111270,
+      "grades": {
+        "INTERIOR": {
+          "max": 5,
+          "value": 3,
+          "min": 1
+        },
+        "EXTERIOR": {
+          "max": 5,
+          "value": 3,
+          "min": 1
+        },
+        "TOTAL": {
+          "max": 5,
+          "value": 3,
+          "min": 1
+        },
+        "ENGINE_AND_GEARBOX": {
+          "max": 3,
+          "value": 3,
+          "min": 1
+        },
+        "TECHNOLOGY_AND_EQUIPMENT": {
+          "max": 3,
+          "value": 2,
+          "min": 1
+        },
+        "BRAKES": {
+          "max": 3,
+          "value": 3,
+          "min": 1
+        }
+      },
+      "fuels": [
+        {
+          "enginePower": 190,
+          "fuelCode": "Diesel",
+          "co2": 207,
+          "consumption": 7.9
+        }
+      ],
       "curbWeight": 2352,
+      "remarks": {
+        "TIRES": [],
+        "INTERIOR": [],
+        "EXTERIOR": [
+          {
+            "category": "EXTERIOR",
+            "key": "Stenskott i vindruta",
+            "id": "0"
+          },
+          {
+            "category": "EXTERIOR",
+            "key": "Flertal lackskador och bucklor",
+            "id": "1"
+          }
+        ],
+        "ENGINE_AND_GEARBOX": [],
+        "TECHNOLOGY_AND_EQUIPMENT": [
+          {
+            "category": "TECHNOLOGY_AND_EQUIPMENT",
+            "key": "AC missljud, Kupéfläkt, missljud",
+            "id": "0"
+          }
+        ],
+        "BRAKES": []
+      },
+      "width": 1920,
+      "numberOfSeats": 5,
+      "body": "Pick-up",
+      "maxPullWeightB": 750,
+      "textile": "Helläder",
+      "ecoFriendly": false,
       "maxPayload": 898,
+      "exportable": true,
+      "inspectionValidToDate": "2027-06-30",
+      "taxFee": 6108,
+      "modelYear": 2018,
+      "inspectionPeriod": "2026-04-10 - 2027-06-30",
+      "dateOfInspection": "2026-04-10",
+      "registrationPlate": "JGE967",
+      "totalWeight": 3250,
+      "adHeader": "X 250 d 4MATIC (190hk) Power Line Style",
+      "numberOfKeys": 2,
+      "towbar": false,
+      "hasUnpaidLoan": false,
       "equipment": [
         "4WD",
         "Backkamera",
@@ -96,21 +170,34 @@
         "Stylingpaket",
         "Flakjalusi."
       ],
-      "inspectionValidToDate": "2027-06-30",
-      "odometerUnit": "km",
-      "length": 5277,
-      "finishType": "Metallic",
-      "textile": "Helläder",
-      "saleLimitedToCorporate": false,
-      "chassisNumber": "WDF4702311G010647",
-      "title": "Mercedes X 250 d 4MATIC (190hk)",
-      "dateOfInspection": "2026-04-10",
-      "inspectionPeriod": "2026-04-10 - 2027-06-30",
-      "totalWeight": 3250,
-      "registrationPlateCountry": "se",
-      "exportable": true,
+      "isRepairObject": false,
+      "mediation": true,
       "residualLoanValue": 0,
-      "taxFee": 6108,
+      "numberOfPreviousOwners": 1,
+      "package": "Power Line Style",
+      "remarksLocalized": {
+        "TIRES": null,
+        "BRAKES": null,
+        "EXTERIOR": "Stenskott i vindruta. Flertal lackskador och bucklor",
+        "INTERIOR": null,
+        "ENGINE_AND_GEARBOX": null,
+        "TECHNOLOGY_AND_EQUIPMENT": "AC missljud, Kupéfläkt, missljud"
+      },
+      "importedForPersonalUse": false,
+      "gearbox": "Automatic",
+      "title": "Mercedes X 250 d 4MATIC (190hk)",
+      "chassisNumber": "WDF4702311G010647",
+      "deductibleVat": true,
+      "saleLimitedToCorporate": false,
+      "heavyEquipment": false,
+      "manufactureMonth": "201802",
+      "height": 1819,
+      "initialTrafficDate": "2018-05-24",
+      "registrationCountry": "se",
+      "environmentalClassEuro": "6",
+      "registrationPlateCountry": "se",
+      "maxTrailerWeight": 3500,
+      "brand": "Mercedes",
       "formattedEquipment": [
         {
           "key": "4WD",
@@ -281,173 +368,63 @@
           "priority": 27
         }
       ],
-      "familyName": "X-klass",
-      "environmentalClassEuro": "6",
-      "towbar": false,
-      "isRepairObject": false,
-      "body": "Pick-up",
-      "numberOfSeats": 5,
-      "maxPullWeightB": 750,
-      "fuels": [
-        {
-          "enginePower": 190,
-          "consumption": 7.9,
-          "co2": 207,
-          "fuelCode": "Diesel"
-        }
-      ],
-      "grades": {
-        "INTERIOR": {
-          "value": 3,
-          "min": 1,
-          "max": 5
-        },
-        "TOTAL": {
-          "value": 3,
-          "min": 1,
-          "max": 5
-        },
-        "ENGINE_AND_GEARBOX": {
-          "value": 3,
-          "min": 1,
-          "max": 3
-        },
-        "EXTERIOR": {
-          "value": 3,
-          "min": 1,
-          "max": 5
-        },
-        "BRAKES": {
-          "value": 3,
-          "min": 1,
-          "max": 3
-        },
-        "TECHNOLOGY_AND_EQUIPMENT": {
-          "value": 2,
-          "min": 1,
-          "max": 3
-        }
-      },
-      "maxTrailerWeight": 3500,
-      "odometerReading": 111270,
-      "package": "Power Line Style",
-      "initialTrafficDate": "2018-05-24",
-      "mustExport": false,
-      "manufactureMonth": "201802",
-      "ecoFriendly": false,
-      "deductibleVat": true,
-      "numberOfKeys": 2,
-      "registrationPlate": "JGE967",
-      "numberOfPreviousOwners": 1,
-      "heavyEquipment": false,
-      "modelYear": 2018,
-      "height": 1819,
-      "gearbox": "Automatic",
       "modelName": "X 250 d 4MATIC (190hk)",
-      "taxWeight": 3250,
-      "width": 1920,
-      "remarks": {
-        "INTERIOR": [],
-        "ENGINE_AND_GEARBOX": [],
-        "EXTERIOR": [
-          {
-            "key": "Stenskott i vindruta",
-            "id": "0",
-            "category": "EXTERIOR"
-          },
-          {
-            "key": "Flertal lackskador och bucklor",
-            "id": "1",
-            "category": "EXTERIOR"
-          }
-        ],
-        "BRAKES": [],
-        "TECHNOLOGY_AND_EQUIPMENT": [
-          {
-            "key": "AC missljud, Kupéfläkt, missljud",
-            "id": "0",
-            "category": "TECHNOLOGY_AND_EQUIPMENT"
-          }
-        ],
-        "TIRES": []
-      },
-      "drivingBan": false,
-      "remarksLocalized": {
-        "TIRES": null,
-        "BRAKES": null,
-        "EXTERIOR": "Stenskott i vindruta. Flertal lackskador och bucklor",
-        "INTERIOR": null,
-        "ENGINE_AND_GEARBOX": null,
-        "TECHNOLOGY_AND_EQUIPMENT": "AC missljud, Kupéfläkt, missljud"
-      },
-      "hasUnpaidLoan": false,
-      "registrationCountry": "se",
-      "importedForPersonalUse": false,
+      "finishType": "Metallic",
+      "exteriorColor": "White",
       "heading1": "Mercedes X-klass",
       "heading2": "X 250 d 4MATIC",
       "heading3": "Power Line Style"
     },
+    "car360Spin": null,
+    "testDriveAllowed": true,
+    "certified": false,
+    "objectType": "LIGHT_TRUCK",
+    "statisticalValuation": null,
+    "buyNowAmount": null,
+    "sellMethod": "BIDDING",
+    "orderableAdditionalServices": {
+      "tradein": false,
+      "transport": true,
+      "insurance": true,
+      "finance": true,
+      "warranty": true,
+      "extraTires": false
+    },
+    "isFixedPrice": false,
+    "vehicleType": "LIGHT_TRANSPORT",
+    "leaseReturnProperties": {},
+    "baseObjectId": "519934",
+    "initialBuyNowAmount": null,
+    "isReleasable": false,
+    "id": "7290754",
+    "offsiteSalesContact": null,
+    "presentationApproved": false,
+    "createdAt": "2026-10-01 14:31:07.382182+00:00",
+    "state": "AUCTION_RESOLUTION",
+    "reducedPrice": false,
     "baseObject": {
-      "exteriorColor": "White",
-      "registrationPlate": "JGE967",
-      "year": "2018",
       "body": "Pick-up",
+      "modelId": null,
+      "exteriorColor": "White",
+      "baseObjectType": "LIGHT_TRUCK",
+      "registrationCountry": "se",
+      "odometerUnit": "km",
+      "familyName": "X-klass",
+      "odometerReading": null,
+      "earliestAvailableAt": null,
+      "brand": "Mercedes-Benz",
+      "registrationPlate": "JGE967",
+      "fuels": [
+        {
+          "fuelCode": "Diesel",
+          "powerUnit": "EG",
+          "enginePower": 140,
+          "enginePowerHp": 190,
+          "fuelTankVolume": ""
+        }
+      ],
+      "id": "519934",
       "authorityRegisterInformation": {
-        "additionalTechSpecification": {
-          "raceCar": null,
-          "wheelbase1": 3150,
-          "wheelbase2": null,
-          "wheelbase3": null,
-          "wheelbase4": null,
-          "equipment1": null,
-          "equipment2": null,
-          "equipment3": null,
-          "maximumSpeed": 175,
-          "numAxleShafts": 2,
-          "passengerAirBag": false,
-          "tyreDimensionRear": "255/65R17 110H",
-          "tyreDimensionFront": "255/65R17 110H",
-          "dualSteeringControl": null
-        },
-        "environmentalClassification": {
-          "fuels": [
-            {
-              "co2": 207,
-              "nox": "",
-              "nox4": null,
-              "fuelCode": "Diesel",
-              "hcThcNox": "",
-              "consumption": 7.9,
-              "noiseLevel": 71,
-              "emissionUnit": "g/km",
-              "innovationCo2": null,
-              "particleValue": "",
-              "particleMass4": null,
-              "consumptionUnit": "7,9",
-              "rangeNedcDrive": null,
-              "rangeWltpDrive": null,
-              "consumptionUrban": 9.6,
-              "rangeCityWltpDrive": null,
-              "consumptionExtraUrban": 6.9,
-              "electricEnergyConsumption": null,
-              "energyConsumptionWltpDrive": null
-            }
-          ],
-          "ecoFriendly": false,
-          "emissionClass": "EURO 6",
-          "innovationCode": null,
-          "environmentalClass": null,
-          "environmentalClassEuro": "6"
-        },
-        "vehicleStatus": {
-          "tax": 6108
-        },
-        "registrationInformation": {
-          "registrationPlate": "JGE967",
-          "deregistrationDate": null,
-          "deregistrationText": null,
-          "deregistrationReason": null
-        },
         "generalTechSpecification": {
           "eeg": "e9*2007/46*6531*01",
           "fuels": [
@@ -513,6 +490,55 @@
           "inspectionValidToDate": "2027-06-30",
           "inspectionExemptionGroup": null
         },
+        "environmentalClassification": {
+          "fuels": [
+            {
+              "co2": 207,
+              "nox": "",
+              "nox4": null,
+              "fuelCode": "Diesel",
+              "hcThcNox": "",
+              "consumption": 7.9,
+              "noiseLevel": 71,
+              "emissionUnit": "g/km",
+              "innovationCo2": null,
+              "particleValue": "",
+              "particleMass4": null,
+              "consumptionUnit": "7,9",
+              "rangeNedcDrive": null,
+              "rangeWltpDrive": null,
+              "consumptionUrban": 9.6,
+              "rangeCityWltpDrive": null,
+              "consumptionExtraUrban": 6.9,
+              "electricEnergyConsumption": null,
+              "energyConsumptionWltpDrive": null
+            }
+          ],
+          "ecoFriendly": false,
+          "emissionClass": "EURO 6",
+          "innovationCode": null,
+          "environmentalClass": null,
+          "environmentalClassEuro": "6"
+        },
+        "additionalTechSpecification": {
+          "raceCar": null,
+          "wheelbase1": 3150,
+          "wheelbase2": null,
+          "wheelbase3": null,
+          "wheelbase4": null,
+          "equipment1": null,
+          "equipment2": null,
+          "equipment3": null,
+          "maximumSpeed": 175,
+          "numAxleShafts": 2,
+          "passengerAirBag": false,
+          "tyreDimensionRear": "255/65R17 110H",
+          "tyreDimensionFront": "255/65R17 110H",
+          "dualSteeringControl": null
+        },
+        "vehicleStatus": {
+          "tax": 6108
+        },
         "vehicleInformation": {
           "vin": "WDF4702311G010647",
           "body": "BE",
@@ -533,32 +559,21 @@
           "registrationDate": "2018-02-23",
           "initialTrafficDate": "2018-05-24",
           "registrationPlateReused": null
+        },
+        "registrationInformation": {
+          "registrationPlate": "JGE967",
+          "deregistrationDate": null,
+          "deregistrationText": null,
+          "deregistrationReason": null
         }
       },
-      "brand": "Mercedes-Benz",
-      "id": "519934",
-      "fuels": [
-        {
-          "fuelCode": "Diesel",
-          "powerUnit": "EG",
-          "enginePower": 140,
-          "enginePowerHp": 190,
-          "fuelTankVolume": ""
-        }
-      ],
-      "gearbox": "Automatic",
-      "fabricAndMake": "MERCEDES-BENZ",
-      "baseObjectType": "LIGHT_TRUCK",
-      "modelId": null,
-      "odometerReading": null,
       "modelName": "X 250 d 4MATIC (190hk)",
-      "salesFlow": "CORPORATE_CARS_SMALL",
-      "state": "MANUAL_VALUATION_PENDING",
-      "odometerUnit": "km",
-      "earliestAvailableAt": null,
-      "registrationCountry": "se",
       "createdAt": "2026-10-01T14:31:07.170928+00:00",
-      "familyName": "X-klass",
+      "state": "MANUAL_VALUATION_PENDING",
+      "gearbox": "Automatic",
+      "salesFlow": "CORPORATE_CARS_SMALL",
+      "year": "2018",
+      "fabricAndMake": "MERCEDES-BENZ",
       "technicalSpecification": {
         "modelId": null,
         "vehicle": {
@@ -570,21 +585,6 @@
         "year": "2018"
       }
     },
-    "id": "7290754",
-    "leaseReturnProperties": {},
-    "vehicleType": "LIGHT_TRANSPORT",
-    "presentationApproved": false,
-    "baseObjectId": "519934",
-    "isFixedPrice": false,
-    "certified": false,
-    "objectType": "LIGHT_TRUCK",
-    "state": "AUCTION_RESOLUTION",
-    "initialBuyNowAmount": null,
-    "statisticalValuation": null,
-    "testDriveAllowed": true,
-    "buyNowAmount": null,
-    "isReleasable": false,
-    "createdAt": "2026-10-01 14:31:07.382182+00:00",
     "exportable": true,
     "deductibleVat": true,
     "collisionWarranty": null,
@@ -788,6 +788,14 @@
         "type": "PRESENTATION",
         "contentType": "image",
         "order": 18
+      },
+      {
+        "processObjectId": "7290754",
+        "uri": "https://kvdbil-images.imgix.net/7290754/b1f7b7d7.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7290754/b1f7b7d7.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 19
       }
     ],
     "locationInfo": {
@@ -1474,6 +1482,14 @@
       "type": "PRESENTATION",
       "contentType": "image",
       "order": 18
+    },
+    {
+      "processObjectId": "7290754",
+      "uri": "https://kvdbil-images.imgix.net/7290754/b1f7b7d7.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7290754/b1f7b7d7.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 19
     }
   ],
   "similarAuctions": [],
@@ -1790,6 +1806,6 @@
     "closedAt": "2026-10-29T09:45:00.007875+00:00",
     "updatedAt": "2026-10-29T09:45:00.087193+00:00"
   },
-  "_scraped_at": "2026-10-30T14:09:27.039770+00:00",
+  "_scraped_at": "2026-10-30T16:16:49.710386+00:00",
   "_url": "https://www.kvd.se/auktioner/mercedes-x-250-d-4matic-190hk-309073"
 }

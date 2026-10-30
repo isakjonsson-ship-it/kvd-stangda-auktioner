@@ -54,223 +54,18 @@
     "evaluationType": "BROKERING"
   },
   "processObject": {
-    "objectType": "CAR",
-    "buyNowAmount": null,
-    "reducedPrice": false,
-    "testDriveAllowed": true,
-    "isFixedPrice": false,
-    "baseObject": {
-      "gearbox": "Automatic",
-      "baseObjectType": "CAR",
-      "odometerReading": null,
-      "authorityRegisterInformation": {
-        "vehicleOrigin": {
-          "originCode": "INFÖRT",
-          "originCodeReason": null,
-          "importerIdentifier": null,
-          "preRegistrationDate": null,
-          "importRegistrationDate": null,
-          "importedForPersonalUse": false,
-          "importedPreviouslyRegistered": false
-        },
-        "generalTechSpecification": {
-          "eeg": "e6*2007/46*0338*02",
-          "fuels": [
-            {
-              "fuelCode": "Petrol",
-              "powerUnit": "EG",
-              "enginePower": 72,
-              "enginePowerHp": 98,
-              "fuelTankVolume": ""
-            }
-          ],
-          "width": 1795,
-          "height": 1555,
-          "length": 4390,
-          "gearbox": "Automatic",
-          "variant": "ZYX11(H)",
-          "version": "ZYX11L-AHXNBW(1E)",
-          "taxWeight": 1500,
-          "curbWeight": 1502,
-          "maxPayload": 358,
-          "totalWeight": 1860,
-          "chassisCode1": null,
-          "chassisCode2": null,
-          "cubicCapacity": "1798",
-          "numPassengers": "4",
-          "numberOfSeats": 5,
-          "fourWheelDrive": false,
-          "maxPullWeightB": 1640,
-          "clutchMechanism1": null,
-          "clutchMechanism2": null,
-          "maxTrailerWeight": 725,
-          "chassisCodeSupplement": null,
-          "maxPullWieghtNoBreaks": null,
-          "maxPullWeightBExtended": null,
-          "maxSingle Axle TrailerWeight": null
-        },
-        "environmentalClassification": {
-          "fuels": [
-            {
-              "co2": 86,
-              "nox": "",
-              "nox4": null,
-              "fuelCode": "Petrol",
-              "hcThcNox": "",
-              "consumption": 3.8,
-              "noiseLevel": 67,
-              "emissionUnit": "g/km",
-              "innovationCo2": null,
-              "particleValue": "",
-              "particleMass4": null,
-              "consumptionUnit": "3,8",
-              "rangeNedcDrive": null,
-              "rangeWltpDrive": null,
-              "consumptionUrban": 3.2,
-              "rangeCityWltpDrive": null,
-              "consumptionExtraUrban": 4.2,
-              "electricEnergyConsumption": null,
-              "energyConsumptionWltpDrive": null
-            }
-          ],
-          "ecoFriendly": false,
-          "emissionClass": "ELHYBRID",
-          "innovationCode": null,
-          "environmentalClass": null,
-          "environmentalClassEuro": "6"
-        },
-        "vehicleStatus": {
-          "tax": 360
-        },
-        "vehicleInspectionInformation": {
-          "inspections": [
-            {
-              "inspectionType": "5",
-              "odometerReading": 129592,
-              "dateOfInspection": "2026-09-23"
-            },
-            {
-              "inspectionType": "5",
-              "odometerReading": 116493,
-              "dateOfInspection": "2025-09-25"
-            }
-          ],
-          "inspectionGroup": "12/12/12",
-          "odometerReading": 129592,
-          "inspectionPeriod": "2025-09-25 - 2026-09-30",
-          "dateOfInspection": "2025-09-25",
-          "inspectionValidToDate": "2026-09-30",
-          "inspectionExemptionGroup": null
-        },
-        "registrationInformation": {
-          "registrationPlate": "NFT14B",
-          "deregistrationDate": null,
-          "deregistrationText": null,
-          "deregistrationReason": null
-        },
-        "vehicleInformation": {
-          "vin": "NMTK33BX90R047664",
-          "body": "AB",
-          "type": "CAR",
-          "year": "2020",
-          "model": "TOYOTA C-HR",
-          "rawType": "PB",
-          "modelYear": null,
-          "categoryEu": "e6*2007/46*0338*02",
-          "groupNumber": "TO 273523",
-          "modelNumber": "TO 000000",
-          "chassisNumber": "NMTK33BX90R047664",
-          "exteriorColor": "Dark Grey",
-          "fabricAndMake": "TOYOTA",
-          "baseObjectType": "CAR",
-          "manufactureCode": null,
-          "manufactureMonth": "202003",
-          "registrationDate": "2020-06-05",
-          "initialTrafficDate": "2020-08-05",
-          "registrationPlateReused": null
-        },
-        "additionalTechSpecification": {
-          "raceCar": null,
-          "wheelbase1": 2640,
-          "wheelbase2": null,
-          "wheelbase3": null,
-          "wheelbase4": null,
-          "equipment1": null,
-          "equipment2": null,
-          "equipment3": null,
-          "maximumSpeed": 170,
-          "numAxleShafts": 2,
-          "passengerAirBag": true,
-          "tyreDimensionRear": "215/60R17",
-          "tyreDimensionFront": "215/60R17",
-          "dualSteeringControl": null
-        }
-      },
-      "fuels": [
-        {
-          "fuelCode": "Petrol",
-          "powerUnit": "EG",
-          "enginePower": 72,
-          "enginePowerHp": 98,
-          "fuelTankVolume": ""
-        }
-      ],
-      "earliestAvailableAt": null,
-      "modelName": "C-HR 1.8 HSD (122hk)",
-      "salesFlow": "CORPORATE_CARS",
-      "registrationPlate": "NFT14B",
-      "state": "MANUAL_VALUATION_PENDING",
-      "odometerUnit": "km",
-      "fabricAndMake": "TOYOTA",
-      "registrationCountry": "se",
-      "id": "521878",
-      "familyName": "C-HR",
-      "modelId": null,
-      "year": "2020",
-      "createdAt": "2026-10-11T06:53:31.291748+00:00",
-      "brand": "Toyota",
-      "body": "SUV",
-      "exteriorColor": "Dark Grey",
-      "technicalSpecification": {
-        "modelId": null,
-        "vehicle": {
-          "brand": "Toyota",
-          "body": "SUV",
-          "modelName": "C-HR 1.8 HSD (122hk)",
-          "familyName": "C-HR"
-        },
-        "year": "2020"
-      }
-    },
-    "vehicleType": "CAR",
-    "initialBuyNowAmount": null,
-    "baseObjectId": "521878",
+    "displayCar360Spin": true,
     "conditionClassification": "TESTED",
     "proactiveBrokering": null,
-    "presentationApproved": false,
-    "state": "AUCTION_RESOLUTION",
     "properties": {
+      "length": 4390,
+      "mustExport": false,
+      "odometerUnit": "km",
+      "familyName": "C-HR",
+      "drivingBan": false,
+      "taxWeight": 1500,
+      "odometerReading": 131870,
       "grades": {
-        "BRAKES": {
-          "max": 3,
-          "value": 2,
-          "min": 1
-        },
-        "TOTAL": {
-          "max": 5,
-          "value": 2,
-          "min": 1
-        },
-        "TECHNOLOGY_AND_EQUIPMENT": {
-          "max": 3,
-          "value": 2,
-          "min": 1
-        },
-        "ENGINE_AND_GEARBOX": {
-          "max": 3,
-          "value": 2,
-          "min": 1
-        },
         "INTERIOR": {
           "max": 5,
           "value": 3,
@@ -280,9 +75,201 @@
           "max": 5,
           "value": 2,
           "min": 1
+        },
+        "TOTAL": {
+          "max": 5,
+          "value": 2,
+          "min": 1
+        },
+        "ENGINE_AND_GEARBOX": {
+          "max": 3,
+          "value": 2,
+          "min": 1
+        },
+        "TECHNOLOGY_AND_EQUIPMENT": {
+          "max": 3,
+          "value": 2,
+          "min": 1
+        },
+        "BRAKES": {
+          "max": 3,
+          "value": 2,
+          "min": 1
         }
       },
+      "fuels": [
+        {
+          "enginePower": 98,
+          "fuelCode": "Petrol",
+          "co2": 86,
+          "consumption": 3.8
+        },
+        {
+          "fuelCode": "Electric"
+        }
+      ],
+      "curbWeight": 1502,
+      "remarks": {
+        "TIRES": [
+          {
+            "category": "TIRES",
+            "key": "Däck snedslitna",
+            "id": "0"
+          },
+          {
+            "category": "TIRES",
+            "key": "Fälgar på bilen kantstötta",
+            "id": "1"
+          }
+        ],
+        "INTERIOR": [
+          {
+            "category": "INTERIOR",
+            "key": "Invändigt flertal repor, fläckar och märken",
+            "id": "0"
+          },
+          {
+            "category": "INTERIOR",
+            "key": "Klädsel smutsig",
+            "id": "1"
+          },
+          {
+            "category": "INTERIOR",
+            "key": "Ratten är sliten",
+            "id": "2"
+          },
+          {
+            "category": "INTERIOR",
+            "key": "Insynsskydd medföljer ej",
+            "id": "3"
+          }
+        ],
+        "EXTERIOR": [
+          {
+            "category": "EXTERIOR",
+            "key": "Flertal bucklor och lackskador",
+            "id": "0"
+          },
+          {
+            "category": "EXTERIOR",
+            "key": "Fåtal rostangrepp",
+            "id": "1"
+          },
+          {
+            "category": "EXTERIOR",
+            "key": "Dekorlist vänster fram och höger bak skadade",
+            "id": "2"
+          },
+          {
+            "category": "EXTERIOR",
+            "key": "Plastkåpa under bil sitter löst",
+            "id": "3"
+          },
+          {
+            "category": "EXTERIOR",
+            "key": "Vänster bakdörr vågig i lacken",
+            "id": "4"
+          }
+        ],
+        "ENGINE_AND_GEARBOX": [
+          {
+            "category": "ENGINE_AND_GEARBOX",
+            "key": "Oljeläckage",
+            "id": "0"
+          },
+          {
+            "category": "ENGINE_AND_GEARBOX",
+            "key": "Resultatet på besiktningen: 2 Underkänd med föreläggande att ombesiktning krävs.\rBrister:\r2 VINDRUTA (3.2) SKADAD-SPRICKA\r2 SKYLTLYKTA (4.7) UR FUNKTION",
+            "id": "1"
+          }
+        ],
+        "TECHNOLOGY_AND_EQUIPMENT": [
+          {
+            "category": "TECHNOLOGY_AND_EQUIPMENT",
+            "key": "Däcktrycksövervakningslampa lyser",
+            "id": "0"
+          },
+          {
+            "category": "TECHNOLOGY_AND_EQUIPMENT",
+            "key": "Spricka i vindruta",
+            "id": "1"
+          }
+        ],
+        "BRAKES": [
+          {
+            "category": "BRAKES",
+            "key": "Bromsskivor fram är slitna, behöver bytas inom 6 månader",
+            "id": "0"
+          }
+        ]
+      },
+      "width": 1795,
+      "numberOfSeats": 5,
+      "body": "SUV",
+      "maxPullWeightB": 1640,
+      "textile": "Textil",
+      "ecoFriendly": false,
+      "maxPayload": 358,
+      "exportable": true,
+      "inspectionValidToDate": "2026-09-30",
+      "taxFee": 360,
+      "modelYear": 2020,
+      "inspectionPeriod": "2025-09-25 - 2026-09-30",
+      "dateOfInspection": "2025-09-25",
+      "registrationPlate": "NFT14B",
+      "totalWeight": 1860,
+      "adHeader": "C-HR 1.8 HSD (122hk) Backkamera",
       "numberOfKeys": 2,
+      "towbar": false,
+      "hasUnpaidLoan": false,
+      "equipment": [
+        "Antisladdsystem",
+        "Assistanssystem",
+        "Auto hold",
+        "Backkamera",
+        "Bluetooth",
+        "Elhiss bak",
+        "Elhiss fram",
+        "Elspeglar",
+        "Farthållare",
+        "Filbytesvarnare",
+        "Fjärrlås",
+        "Isofix bak",
+        "Klimatanläggning",
+        "LED-strålkastare",
+        "Nyckellöst startsystem",
+        "Radio",
+        "Stolsvärme fram",
+        "USB-ingång"
+      ],
+      "isRepairObject": false,
+      "mediation": true,
+      "residualLoanValue": 0,
+      "numberOfPreviousOwners": 3,
+      "package": "Backkamera",
+      "remarksLocalized": {
+        "TIRES": "Däck snedslitna. Fälgar på bilen kantstötta",
+        "BRAKES": "Bromsskivor fram är slitna, behöver bytas inom 6 månader",
+        "EXTERIOR": "Flertal bucklor och lackskador. Fåtal rostangrepp. Dekorlist vänster fram och höger bak skadade. Plastkåpa under bil sitter löst. Vänster bakdörr vågig i lacken",
+        "INTERIOR": "Invändigt flertal repor, fläckar och märken. Klädsel smutsig. Ratten är sliten. Insynsskydd medföljer ej",
+        "ENGINE_AND_GEARBOX": "Oljeläckage. Resultatet på besiktningen: 2 Underkänd med föreläggande att ombesiktning krävs.\rBrister:\r2 VINDRUTA (3.2) SKADAD-SPRICKA\r2 SKYLTLYKTA (4.7) UR FUNKTION",
+        "TECHNOLOGY_AND_EQUIPMENT": "Däcktrycksövervakningslampa lyser. Spricka i vindruta"
+      },
+      "importedForPersonalUse": false,
+      "gearbox": "Automatic",
+      "title": "Toyota C-HR 1.8 HSD (122hk)",
+      "chassisNumber": "NMTK33BX90R047664",
+      "deductibleVat": true,
+      "saleLimitedToCorporate": false,
+      "heavyEquipment": false,
+      "manufactureMonth": "202003",
+      "height": 1555,
+      "initialTrafficDate": "2020-08-05",
+      "registrationCountry": "se",
+      "environmentalClassEuro": "6",
+      "registrationPlateCountry": "se",
+      "maxTrailerWeight": 725,
+      "brand": "Toyota",
       "formattedEquipment": [
         {
           "key": "ANTISLADDSYSTEM",
@@ -393,192 +380,20 @@
           "priority": 17
         }
       ],
-      "exportable": true,
-      "mustExport": false,
-      "deductibleVat": true,
-      "manufactureMonth": "202003",
-      "totalWeight": 1860,
-      "dateOfInspection": "2025-09-25",
-      "registrationPlate": "NFT14B",
-      "equipment": [
-        "Antisladdsystem",
-        "Assistanssystem",
-        "Auto hold",
-        "Backkamera",
-        "Bluetooth",
-        "Elhiss bak",
-        "Elhiss fram",
-        "Elspeglar",
-        "Farthållare",
-        "Filbytesvarnare",
-        "Fjärrlås",
-        "Isofix bak",
-        "Klimatanläggning",
-        "LED-strålkastare",
-        "Nyckellöst startsystem",
-        "Radio",
-        "Stolsvärme fram",
-        "USB-ingång"
-      ],
-      "taxWeight": 1500,
-      "odometerUnit": "km",
-      "mediation": true,
-      "ecoFriendly": false,
-      "towbar": false,
-      "remarksLocalized": {
-        "TIRES": "Däck snedslitna. Fälgar på bilen kantstötta",
-        "BRAKES": "Bromsskivor fram är slitna, behöver bytas inom 6 månader",
-        "EXTERIOR": "Flertal bucklor och lackskador. Fåtal rostangrepp. Dekorlist vänster fram och höger bak skadade. Plastkåpa under bil sitter löst. Vänster bakdörr vågig i lacken",
-        "INTERIOR": "Invändigt flertal repor, fläckar och märken. Klädsel smutsig. Ratten är sliten. Insynsskydd medföljer ej",
-        "ENGINE_AND_GEARBOX": "Oljeläckage. Resultatet på besiktningen: 2 Underkänd med föreläggande att ombesiktning krävs.\rBrister:\r2 VINDRUTA (3.2) SKADAD-SPRICKA\r2 SKYLTLYKTA (4.7) UR FUNKTION",
-        "TECHNOLOGY_AND_EQUIPMENT": "Däcktrycksövervakningslampa lyser. Spricka i vindruta"
-      },
-      "width": 1795,
-      "body": "SUV",
-      "exteriorColor": "Dark Grey",
-      "remarks": {
-        "TIRES": [
-          {
-            "category": "TIRES",
-            "id": "0",
-            "key": "Däck snedslitna"
-          },
-          {
-            "category": "TIRES",
-            "id": "1",
-            "key": "Fälgar på bilen kantstötta"
-          }
-        ],
-        "BRAKES": [
-          {
-            "category": "BRAKES",
-            "id": "0",
-            "key": "Bromsskivor fram är slitna, behöver bytas inom 6 månader"
-          }
-        ],
-        "TECHNOLOGY_AND_EQUIPMENT": [
-          {
-            "category": "TECHNOLOGY_AND_EQUIPMENT",
-            "id": "0",
-            "key": "Däcktrycksövervakningslampa lyser"
-          },
-          {
-            "category": "TECHNOLOGY_AND_EQUIPMENT",
-            "id": "1",
-            "key": "Spricka i vindruta"
-          }
-        ],
-        "ENGINE_AND_GEARBOX": [
-          {
-            "category": "ENGINE_AND_GEARBOX",
-            "id": "0",
-            "key": "Oljeläckage"
-          },
-          {
-            "category": "ENGINE_AND_GEARBOX",
-            "id": "1",
-            "key": "Resultatet på besiktningen: 2 Underkänd med föreläggande att ombesiktning krävs.\rBrister:\r2 VINDRUTA (3.2) SKADAD-SPRICKA\r2 SKYLTLYKTA (4.7) UR FUNKTION"
-          }
-        ],
-        "INTERIOR": [
-          {
-            "category": "INTERIOR",
-            "id": "0",
-            "key": "Invändigt flertal repor, fläckar och märken"
-          },
-          {
-            "category": "INTERIOR",
-            "id": "1",
-            "key": "Klädsel smutsig"
-          },
-          {
-            "category": "INTERIOR",
-            "id": "2",
-            "key": "Ratten är sliten"
-          },
-          {
-            "category": "INTERIOR",
-            "id": "3",
-            "key": "Insynsskydd medföljer ej"
-          }
-        ],
-        "EXTERIOR": [
-          {
-            "category": "EXTERIOR",
-            "id": "0",
-            "key": "Flertal bucklor och lackskador"
-          },
-          {
-            "category": "EXTERIOR",
-            "id": "1",
-            "key": "Fåtal rostangrepp"
-          },
-          {
-            "category": "EXTERIOR",
-            "id": "2",
-            "key": "Dekorlist vänster fram och höger bak skadade"
-          },
-          {
-            "category": "EXTERIOR",
-            "id": "3",
-            "key": "Plastkåpa under bil sitter löst"
-          },
-          {
-            "category": "EXTERIOR",
-            "id": "4",
-            "key": "Vänster bakdörr vågig i lacken"
-          }
-        ]
-      },
-      "numberOfPreviousOwners": 3,
-      "adHeader": "C-HR 1.8 HSD (122hk) Backkamera",
-      "fuels": [
-        {
-          "fuelCode": "Petrol",
-          "co2": 86,
-          "consumption": 3.8,
-          "enginePower": 98
-        },
-        {
-          "fuelCode": "Electric"
-        }
-      ],
-      "textile": "Textil",
-      "maxTrailerWeight": 725,
-      "maxPayload": 358,
-      "inspectionPeriod": "2025-09-25 - 2026-09-30",
-      "inspectionValidToDate": "2026-09-30",
-      "saleLimitedToCorporate": false,
-      "package": "Backkamera",
-      "hasUnpaidLoan": false,
-      "heavyEquipment": false,
-      "residualLoanValue": 0,
-      "brand": "Toyota",
-      "gearbox": "Automatic",
-      "height": 1555,
-      "maxPullWeightB": 1640,
-      "length": 4390,
-      "environmentalClassEuro": "6",
-      "curbWeight": 1502,
-      "drivingBan": false,
-      "initialTrafficDate": "2020-08-05",
-      "chassisNumber": "NMTK33BX90R047664",
-      "familyName": "C-HR",
-      "finishType": "Metallic",
-      "importedForPersonalUse": false,
-      "isRepairObject": false,
-      "title": "Toyota C-HR 1.8 HSD (122hk)",
-      "odometerReading": 131870,
       "modelName": "C-HR 1.8 HSD (122hk)",
-      "modelYear": 2020,
-      "numberOfSeats": 5,
-      "registrationPlateCountry": "se",
-      "registrationCountry": "se",
-      "taxFee": 360,
+      "finishType": "Metallic",
+      "exteriorColor": "Dark Grey",
       "heading1": "Toyota C-HR",
       "heading2": "1.8 HSD",
       "heading3": "Backkamera"
     },
+    "car360Spin": null,
+    "testDriveAllowed": true,
+    "certified": false,
+    "objectType": "CAR",
+    "statisticalValuation": null,
+    "buyNowAmount": null,
+    "sellMethod": "BIDDING",
     "orderableAdditionalServices": {
       "tradein": false,
       "transport": true,
@@ -587,16 +402,201 @@
       "warranty": true,
       "extraTires": false
     },
-    "offsiteSalesContact": null,
+    "isFixedPrice": false,
+    "vehicleType": "CAR",
     "leaseReturnProperties": {},
-    "id": "7291723",
-    "displayCar360Spin": true,
-    "certified": false,
-    "sellMethod": "BIDDING",
+    "baseObjectId": "521878",
+    "initialBuyNowAmount": null,
     "isReleasable": false,
-    "car360Spin": null,
-    "statisticalValuation": null,
+    "id": "7291723",
+    "offsiteSalesContact": null,
+    "presentationApproved": false,
     "createdAt": "2026-10-11 06:53:31.581295+00:00",
+    "state": "AUCTION_RESOLUTION",
+    "reducedPrice": false,
+    "baseObject": {
+      "body": "SUV",
+      "modelId": null,
+      "exteriorColor": "Dark Grey",
+      "baseObjectType": "CAR",
+      "registrationCountry": "se",
+      "odometerUnit": "km",
+      "familyName": "C-HR",
+      "odometerReading": null,
+      "earliestAvailableAt": null,
+      "brand": "Toyota",
+      "registrationPlate": "NFT14B",
+      "fuels": [
+        {
+          "fuelCode": "Petrol",
+          "powerUnit": "EG",
+          "enginePower": 72,
+          "enginePowerHp": 98,
+          "fuelTankVolume": ""
+        }
+      ],
+      "id": "521878",
+      "authorityRegisterInformation": {
+        "generalTechSpecification": {
+          "eeg": "e6*2007/46*0338*02",
+          "fuels": [
+            {
+              "fuelCode": "Petrol",
+              "powerUnit": "EG",
+              "enginePower": 72,
+              "enginePowerHp": 98,
+              "fuelTankVolume": ""
+            }
+          ],
+          "width": 1795,
+          "height": 1555,
+          "length": 4390,
+          "gearbox": "Automatic",
+          "variant": "ZYX11(H)",
+          "version": "ZYX11L-AHXNBW(1E)",
+          "taxWeight": 1500,
+          "curbWeight": 1502,
+          "maxPayload": 358,
+          "totalWeight": 1860,
+          "chassisCode1": null,
+          "chassisCode2": null,
+          "cubicCapacity": "1798",
+          "numPassengers": "4",
+          "numberOfSeats": 5,
+          "fourWheelDrive": false,
+          "maxPullWeightB": 1640,
+          "clutchMechanism1": null,
+          "clutchMechanism2": null,
+          "maxTrailerWeight": 725,
+          "chassisCodeSupplement": null,
+          "maxPullWieghtNoBreaks": null,
+          "maxPullWeightBExtended": null,
+          "maxSingle Axle TrailerWeight": null
+        },
+        "vehicleOrigin": {
+          "originCode": "INFÖRT",
+          "originCodeReason": null,
+          "importerIdentifier": null,
+          "preRegistrationDate": null,
+          "importRegistrationDate": null,
+          "importedForPersonalUse": false,
+          "importedPreviouslyRegistered": false
+        },
+        "vehicleInspectionInformation": {
+          "inspections": [
+            {
+              "inspectionType": "5",
+              "odometerReading": 129592,
+              "dateOfInspection": "2026-09-23"
+            },
+            {
+              "inspectionType": "5",
+              "odometerReading": 116493,
+              "dateOfInspection": "2025-09-25"
+            }
+          ],
+          "inspectionGroup": "12/12/12",
+          "odometerReading": 129592,
+          "inspectionPeriod": "2025-09-25 - 2026-09-30",
+          "dateOfInspection": "2025-09-25",
+          "inspectionValidToDate": "2026-09-30",
+          "inspectionExemptionGroup": null
+        },
+        "environmentalClassification": {
+          "fuels": [
+            {
+              "co2": 86,
+              "nox": "",
+              "nox4": null,
+              "fuelCode": "Petrol",
+              "hcThcNox": "",
+              "consumption": 3.8,
+              "noiseLevel": 67,
+              "emissionUnit": "g/km",
+              "innovationCo2": null,
+              "particleValue": "",
+              "particleMass4": null,
+              "consumptionUnit": "3,8",
+              "rangeNedcDrive": null,
+              "rangeWltpDrive": null,
+              "consumptionUrban": 3.2,
+              "rangeCityWltpDrive": null,
+              "consumptionExtraUrban": 4.2,
+              "electricEnergyConsumption": null,
+              "energyConsumptionWltpDrive": null
+            }
+          ],
+          "ecoFriendly": false,
+          "emissionClass": "ELHYBRID",
+          "innovationCode": null,
+          "environmentalClass": null,
+          "environmentalClassEuro": "6"
+        },
+        "additionalTechSpecification": {
+          "raceCar": null,
+          "wheelbase1": 2640,
+          "wheelbase2": null,
+          "wheelbase3": null,
+          "wheelbase4": null,
+          "equipment1": null,
+          "equipment2": null,
+          "equipment3": null,
+          "maximumSpeed": 170,
+          "numAxleShafts": 2,
+          "passengerAirBag": true,
+          "tyreDimensionRear": "215/60R17",
+          "tyreDimensionFront": "215/60R17",
+          "dualSteeringControl": null
+        },
+        "vehicleStatus": {
+          "tax": 360
+        },
+        "vehicleInformation": {
+          "vin": "NMTK33BX90R047664",
+          "body": "AB",
+          "type": "CAR",
+          "year": "2020",
+          "model": "TOYOTA C-HR",
+          "rawType": "PB",
+          "modelYear": null,
+          "categoryEu": "e6*2007/46*0338*02",
+          "groupNumber": "TO 273523",
+          "modelNumber": "TO 000000",
+          "chassisNumber": "NMTK33BX90R047664",
+          "exteriorColor": "Dark Grey",
+          "fabricAndMake": "TOYOTA",
+          "baseObjectType": "CAR",
+          "manufactureCode": null,
+          "manufactureMonth": "202003",
+          "registrationDate": "2020-06-05",
+          "initialTrafficDate": "2020-08-05",
+          "registrationPlateReused": null
+        },
+        "registrationInformation": {
+          "registrationPlate": "NFT14B",
+          "deregistrationDate": null,
+          "deregistrationText": null,
+          "deregistrationReason": null
+        }
+      },
+      "modelName": "C-HR 1.8 HSD (122hk)",
+      "createdAt": "2026-10-11T06:53:31.291748+00:00",
+      "state": "MANUAL_VALUATION_PENDING",
+      "gearbox": "Automatic",
+      "salesFlow": "CORPORATE_CARS",
+      "year": "2020",
+      "fabricAndMake": "TOYOTA",
+      "technicalSpecification": {
+        "modelId": null,
+        "vehicle": {
+          "brand": "Toyota",
+          "body": "SUV",
+          "modelName": "C-HR 1.8 HSD (122hk)",
+          "familyName": "C-HR"
+        },
+        "year": "2020"
+      }
+    },
     "exportable": true,
     "deductibleVat": true,
     "collisionWarranty": null,
@@ -2429,6 +2429,6 @@
     "closedAt": "2026-10-30T09:41:51.742497+00:00",
     "updatedAt": "2026-10-30T12:19:37.841447+00:00"
   },
-  "_scraped_at": "2026-10-30T14:09:38.307473+00:00",
+  "_scraped_at": "2026-10-30T16:17:00.897023+00:00",
   "_url": "https://www.kvd.se/auktioner/toyota-c-hr-1-8-hsd-122hk-309065"
 }

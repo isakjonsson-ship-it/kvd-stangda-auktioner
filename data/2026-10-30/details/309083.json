@@ -54,80 +54,270 @@
     "evaluationType": "BROKERING"
   },
   "processObject": {
-    "orderableAdditionalServices": {
-      "tradein": false,
-      "transport": true,
-      "insurance": true,
-      "finance": true,
-      "warranty": true,
-      "extraTires": false
-    },
-    "car360Spin": null,
-    "proactiveBrokering": null,
-    "displayCar360Spin": true,
-    "offsiteSalesContact": null,
-    "sellMethod": "BIDDING",
+    "objectType": "CAR",
+    "buyNowAmount": 244900,
     "reducedPrice": false,
-    "conditionClassification": "TESTED",
-    "properties": {
-      "adHeader": "Q3 45 TFSI e (245hk) Proline",
-      "exteriorColor": "Black",
-      "brand": "Audi",
-      "mediation": true,
-      "curbWeight": 1844,
-      "maxPayload": 476,
-      "equipment": [
-        "Antispinn",
-        "Autobroms",
-        "Bluetooth",
-        "Elspeglar",
-        "Farthållare",
-        "Fjärrlås",
-        "Radio",
-        "Regnsensor",
-        "Stolsvärme fram",
-        "Antisladdsystem",
-        "Assistanssystem",
-        "Eldriven baklucka",
-        "Elhiss bak",
-        "Elhiss fram",
-        "Filbytesvarnare",
-        "Isofix bak",
-        "Klimatanläggning",
-        "LED-strålkastare",
-        "Parkeringssensorer bak",
-        "Parkeringssensorer fram",
-        "Parkeringsvärmare med tidur",
-        "Smartphone integration",
-        "Urkopplingsbar passagerarairbag",
-        "USB-ingång",
-        "Front assist",
-        "Filhållningsassistent",
-        "Sport-komfortsäten fram",
-        "Proline"
-      ],
-      "inspectionValidToDate": "2027-03-31",
-      "odometerUnit": "km",
-      "length": 4484,
-      "electricType": "Plug-in hybrid",
-      "finishType": "Metallic",
-      "textile": "Textil",
-      "saleLimitedToCorporate": false,
-      "chassisNumber": "WAUZZZF3XM1092413",
-      "title": "Audi Q3 45 TFSI e (245hk)",
-      "battstatResult": {
-        "rankingRangeMin": 0,
-        "ranking": null,
-        "sohPercent": null,
-        "rankingRangeMax": 0
+    "testDriveAllowed": true,
+    "isFixedPrice": false,
+    "baseObject": {
+      "gearbox": "Automatic",
+      "baseObjectType": "CAR",
+      "odometerReading": 100076,
+      "authorityRegisterInformation": {
+        "vehicleOrigin": {
+          "originCode": "INFÖRT",
+          "originCodeReason": null,
+          "importerIdentifier": null,
+          "preRegistrationDate": null,
+          "importRegistrationDate": null,
+          "importedForPersonalUse": false,
+          "importedPreviouslyRegistered": false
+        },
+        "generalTechSpecification": {
+          "eeg": "e1*2007/46*1900*17",
+          "fuels": [
+            {
+              "fuelCode": "Petrol",
+              "powerUnit": "EG",
+              "enginePower": 110,
+              "enginePowerHp": 150,
+              "fuelTankVolume": ""
+            },
+            {
+              "fuelCode": "Electric",
+              "powerUnit": "",
+              "enginePower": 86,
+              "enginePowerHp": 117,
+              "fuelTankVolume": ""
+            }
+          ],
+          "width": 1849,
+          "height": 1565,
+          "length": 4484,
+          "gearbox": "Automatic",
+          "variant": "XDGEAF1",
+          "version": "FD6FD6DD002RT21A184BIAHA7EM90B3",
+          "taxWeight": 1840,
+          "curbWeight": 1844,
+          "maxPayload": 476,
+          "totalWeight": 2320,
+          "chassisCode1": null,
+          "chassisCode2": null,
+          "cubicCapacity": "1395",
+          "numPassengers": "4",
+          "numberOfSeats": 5,
+          "fourWheelDrive": false,
+          "maxPullWeightB": 1180,
+          "clutchMechanism1": null,
+          "clutchMechanism2": null,
+          "maxTrailerWeight": 1400,
+          "chassisCodeSupplement": null,
+          "maxPullWieghtNoBreaks": null,
+          "maxPullWeightBExtended": null,
+          "maxSingle Axle TrailerWeight": null
+        },
+        "environmentalClassification": {
+          "fuels": [
+            {
+              "co2": "",
+              "nox": "",
+              "nox4": null,
+              "fuelCode": "Petrol",
+              "hcThcNox": "",
+              "consumption": "",
+              "noiseLevel": 67,
+              "emissionUnit": "g/km",
+              "innovationCo2": null,
+              "particleValue": "",
+              "particleMass4": null,
+              "consumptionUnit": "",
+              "rangeNedcDrive": null,
+              "rangeWltpDrive": null,
+              "consumptionUrban": "",
+              "rangeCityWltpDrive": null,
+              "consumptionExtraUrban": "",
+              "electricEnergyConsumption": null,
+              "energyConsumptionWltpDrive": null
+            },
+            {
+              "co2": 0,
+              "nox": "",
+              "nox4": null,
+              "fuelCode": "Electric",
+              "hcThcNox": "",
+              "consumption": "",
+              "noiseLevel": 67,
+              "emissionUnit": "g/km",
+              "innovationCo2": null,
+              "particleValue": "",
+              "particleMass4": null,
+              "consumptionUnit": "",
+              "rangeNedcDrive": null,
+              "rangeWltpDrive": "50",
+              "consumptionUrban": "",
+              "rangeCityWltpDrive": "58",
+              "consumptionExtraUrban": "",
+              "electricEnergyConsumption": null,
+              "energyConsumptionWltpDrive": null
+            }
+          ],
+          "ecoFriendly": true,
+          "emissionClass": "LADDHYBRID",
+          "innovationCode": null,
+          "environmentalClass": "HYBRID",
+          "environmentalClassEuro": "6"
+        },
+        "vehicleStatus": {
+          "tax": 360
+        },
+        "vehicleInspectionInformation": {
+          "inspections": [
+            {
+              "inspectionType": "5",
+              "odometerReading": 57974,
+              "dateOfInspection": "2024-02-27"
+            },
+            {
+              "inspectionType": "13",
+              "odometerReading": null,
+              "dateOfInspection": "2021-02-22"
+            }
+          ],
+          "inspectionGroup": "36/24/14",
+          "odometerReading": 100076,
+          "inspectionPeriod": "2026-01-23 - 2027-03-31",
+          "dateOfInspection": "2026-01-23",
+          "inspectionValidToDate": "2027-03-31",
+          "inspectionExemptionGroup": null
+        },
+        "registrationInformation": {
+          "registrationPlate": "YXN01R",
+          "deregistrationDate": null,
+          "deregistrationText": null,
+          "deregistrationReason": null
+        },
+        "vehicleInformation": {
+          "vin": "WAUZZZF3XM1092413",
+          "body": "AC",
+          "type": "CAR",
+          "year": "2021",
+          "model": "Q3 E-TRON",
+          "rawType": "PB",
+          "modelYear": null,
+          "categoryEu": "e1*2007/46*1900*17",
+          "groupNumber": "AU 386024",
+          "modelNumber": "AU 000000",
+          "chassisNumber": "WAUZZZF3XM1092413",
+          "exteriorColor": "Black",
+          "fabricAndMake": "AUDI",
+          "baseObjectType": "CAR",
+          "manufactureCode": null,
+          "manufactureMonth": "202102",
+          "registrationDate": "2021-02-17",
+          "initialTrafficDate": "2021-03-23",
+          "registrationPlateReused": null
+        },
+        "additionalTechSpecification": {
+          "raceCar": null,
+          "wheelbase1": 2677,
+          "wheelbase2": null,
+          "wheelbase3": null,
+          "wheelbase4": null,
+          "equipment1": null,
+          "equipment2": null,
+          "equipment3": null,
+          "maximumSpeed": 210,
+          "numAxleShafts": 2,
+          "passengerAirBag": false,
+          "tyreDimensionRear": "235/55 R18 100V",
+          "tyreDimensionFront": "235/55 R18 100V",
+          "dualSteeringControl": null
+        }
       },
-      "dateOfInspection": "2026-01-23",
-      "inspectionPeriod": "2026-01-23 - 2027-03-31",
-      "totalWeight": 2320,
-      "registrationPlateCountry": "se",
-      "exportable": true,
-      "residualLoanValue": 0,
-      "taxFee": 360,
+      "fuels": [
+        {
+          "fuelCode": "Petrol",
+          "powerUnit": "EG",
+          "enginePower": 110,
+          "enginePowerHp": 150,
+          "fuelTankVolume": ""
+        },
+        {
+          "fuelCode": "Electric",
+          "powerUnit": "",
+          "enginePower": 86,
+          "enginePowerHp": 117,
+          "fuelTankVolume": ""
+        }
+      ],
+      "earliestAvailableAt": null,
+      "modelName": "Q3 45 TFSI e (245hk)",
+      "salesFlow": "CONSUMER_CARS",
+      "registrationPlate": "YXN01R",
+      "state": "PREPARING_SALES_AGREEMENT",
+      "odometerUnit": "km",
+      "fabricAndMake": "AUDI",
+      "registrationCountry": "se",
+      "id": "474521",
+      "familyName": "Q3",
+      "modelId": null,
+      "year": "2021",
+      "createdAt": "2026-01-28T06:45:22.701986+00:00",
+      "brand": "Audi",
+      "body": "SUV",
+      "exteriorColor": "Black",
+      "technicalSpecification": {
+        "modelId": null,
+        "vehicle": {
+          "brand": "Audi",
+          "body": "SUV",
+          "modelName": "Q3 45 TFSI e (245hk)",
+          "familyName": "Q3"
+        },
+        "year": "2021"
+      }
+    },
+    "vehicleType": "CAR",
+    "initialBuyNowAmount": 244900,
+    "baseObjectId": "474521",
+    "conditionClassification": "TESTED",
+    "proactiveBrokering": null,
+    "presentationApproved": false,
+    "state": "AUCTION_RESOLUTION",
+    "properties": {
+      "grades": {
+        "BRAKES": {
+          "max": 3,
+          "value": 3,
+          "min": 1
+        },
+        "TOTAL": {
+          "max": 5,
+          "value": 3,
+          "min": 1
+        },
+        "TECHNOLOGY_AND_EQUIPMENT": {
+          "max": 3,
+          "value": 2,
+          "min": 1
+        },
+        "ENGINE_AND_GEARBOX": {
+          "max": 3,
+          "value": 3,
+          "min": 1
+        },
+        "INTERIOR": {
+          "max": 5,
+          "value": 3,
+          "min": 1
+        },
+        "EXTERIOR": {
+          "max": 5,
+          "value": 3,
+          "min": 1
+        }
+      },
+      "numberOfKeys": 2,
       "formattedEquipment": [
         {
           "key": "ANTISPINN",
@@ -298,112 +488,48 @@
           "priority": 27
         }
       ],
-      "familyName": "Q3",
-      "environmentalClassEuro": "6",
-      "towbar": false,
-      "isRepairObject": false,
-      "body": "SUV",
-      "numberOfSeats": 5,
-      "maxPullWeightB": 1180,
-      "fuels": [
-        {
-          "enginePower": 150,
-          "fuelCode": "Petrol"
-        },
-        {
-          "enginePower": 117,
-          "rangeWltpDrive": 50,
-          "fuelCode": "Electric",
-          "rangeCityWltpDrive": 58
-        }
-      ],
-      "grades": {
-        "INTERIOR": {
-          "value": 3,
-          "min": 1,
-          "max": 5
-        },
-        "TOTAL": {
-          "value": 3,
-          "min": 1,
-          "max": 5
-        },
-        "ENGINE_AND_GEARBOX": {
-          "value": 3,
-          "min": 1,
-          "max": 3
-        },
-        "EXTERIOR": {
-          "value": 3,
-          "min": 1,
-          "max": 5
-        },
-        "BRAKES": {
-          "value": 3,
-          "min": 1,
-          "max": 3
-        },
-        "TECHNOLOGY_AND_EQUIPMENT": {
-          "value": 2,
-          "min": 1,
-          "max": 3
-        }
-      },
-      "maxTrailerWeight": 1400,
-      "odometerReading": 109530,
-      "package": "Proline",
-      "initialTrafficDate": "2021-03-23",
+      "exportable": true,
       "mustExport": false,
-      "manufactureMonth": "202102",
-      "ecoFriendly": true,
       "deductibleVat": false,
-      "numberOfKeys": 2,
+      "manufactureMonth": "202102",
+      "totalWeight": 2320,
+      "dateOfInspection": "2026-01-23",
       "registrationPlate": "YXN01R",
-      "numberOfPreviousOwners": 1,
-      "heavyEquipment": false,
-      "modelYear": 2021,
-      "height": 1565,
-      "gearbox": "Automatic",
-      "modelName": "Q3 45 TFSI e (245hk)",
+      "equipment": [
+        "Antispinn",
+        "Autobroms",
+        "Bluetooth",
+        "Elspeglar",
+        "Farthållare",
+        "Fjärrlås",
+        "Radio",
+        "Regnsensor",
+        "Stolsvärme fram",
+        "Antisladdsystem",
+        "Assistanssystem",
+        "Eldriven baklucka",
+        "Elhiss bak",
+        "Elhiss fram",
+        "Filbytesvarnare",
+        "Isofix bak",
+        "Klimatanläggning",
+        "LED-strålkastare",
+        "Parkeringssensorer bak",
+        "Parkeringssensorer fram",
+        "Parkeringsvärmare med tidur",
+        "Smartphone integration",
+        "Urkopplingsbar passagerarairbag",
+        "USB-ingång",
+        "Front assist",
+        "Filhållningsassistent",
+        "Sport-komfortsäten fram",
+        "Proline"
+      ],
       "taxWeight": 1840,
-      "width": 1849,
-      "remarks": {
-        "INTERIOR": [
-          {
-            "key": "Invändigt några repor, fläckar och märken",
-            "id": "0",
-            "category": "INTERIOR"
-          }
-        ],
-        "ENGINE_AND_GEARBOX": [],
-        "EXTERIOR": [
-          {
-            "key": "Stenskott i vindruta",
-            "id": "0",
-            "category": "EXTERIOR"
-          },
-          {
-            "key": "Bilen är delvis omlackerad",
-            "id": "1",
-            "category": "EXTERIOR"
-          }
-        ],
-        "BRAKES": [],
-        "TECHNOLOGY_AND_EQUIPMENT": [
-          {
-            "key": "Service inom kort",
-            "id": "0",
-            "category": "TECHNOLOGY_AND_EQUIPMENT"
-          },
-          {
-            "key": "Kupéfläkt, missljud",
-            "id": "1",
-            "category": "TECHNOLOGY_AND_EQUIPMENT"
-          }
-        ],
-        "TIRES": []
-      },
-      "drivingBan": false,
+      "odometerUnit": "km",
+      "mediation": true,
+      "ecoFriendly": true,
+      "towbar": false,
       "remarksLocalized": {
         "TIRES": null,
         "BRAKES": null,
@@ -412,250 +538,124 @@
         "ENGINE_AND_GEARBOX": null,
         "TECHNOLOGY_AND_EQUIPMENT": "Service inom kort. Kupéfläkt, missljud"
       },
+      "width": 1849,
+      "battstatResult": {
+        "ranking": null,
+        "sohPercent": null,
+        "rankingRangeMin": 0,
+        "rankingRangeMax": 0
+      },
+      "body": "SUV",
+      "exteriorColor": "Black",
+      "remarks": {
+        "TIRES": [],
+        "BRAKES": [],
+        "TECHNOLOGY_AND_EQUIPMENT": [
+          {
+            "category": "TECHNOLOGY_AND_EQUIPMENT",
+            "id": "0",
+            "key": "Service inom kort"
+          },
+          {
+            "category": "TECHNOLOGY_AND_EQUIPMENT",
+            "id": "1",
+            "key": "Kupéfläkt, missljud"
+          }
+        ],
+        "ENGINE_AND_GEARBOX": [],
+        "INTERIOR": [
+          {
+            "category": "INTERIOR",
+            "id": "0",
+            "key": "Invändigt några repor, fläckar och märken"
+          }
+        ],
+        "EXTERIOR": [
+          {
+            "category": "EXTERIOR",
+            "id": "0",
+            "key": "Stenskott i vindruta"
+          },
+          {
+            "category": "EXTERIOR",
+            "id": "1",
+            "key": "Bilen är delvis omlackerad"
+          }
+        ]
+      },
+      "numberOfPreviousOwners": 1,
+      "adHeader": "Q3 45 TFSI e (245hk) Proline",
+      "fuels": [
+        {
+          "fuelCode": "Petrol",
+          "enginePower": 150
+        },
+        {
+          "fuelCode": "Electric",
+          "rangeCityWltpDrive": 58,
+          "rangeWltpDrive": 50,
+          "enginePower": 117
+        }
+      ],
+      "textile": "Textil",
+      "maxTrailerWeight": 1400,
+      "maxPayload": 476,
+      "inspectionPeriod": "2026-01-23 - 2027-03-31",
+      "inspectionValidToDate": "2027-03-31",
+      "saleLimitedToCorporate": false,
+      "package": "Proline",
       "hasUnpaidLoan": false,
-      "registrationCountry": "se",
+      "heavyEquipment": false,
+      "residualLoanValue": 0,
+      "brand": "Audi",
+      "gearbox": "Automatic",
+      "height": 1565,
+      "maxPullWeightB": 1180,
+      "length": 4484,
+      "electricType": "Plug-in hybrid",
+      "environmentalClassEuro": "6",
+      "curbWeight": 1844,
+      "drivingBan": false,
+      "initialTrafficDate": "2021-03-23",
+      "chassisNumber": "WAUZZZF3XM1092413",
+      "familyName": "Q3",
+      "finishType": "Metallic",
       "importedForPersonalUse": false,
+      "isRepairObject": false,
+      "title": "Audi Q3 45 TFSI e (245hk)",
+      "odometerReading": 109530,
+      "modelName": "Q3 45 TFSI e (245hk)",
+      "modelYear": 2021,
+      "numberOfSeats": 5,
+      "registrationPlateCountry": "se",
+      "registrationCountry": "se",
+      "taxFee": 360,
       "heading1": "Audi Q3",
       "heading2": "45 TFSI e",
       "heading3": "Proline"
     },
-    "baseObject": {
-      "exteriorColor": "Black",
-      "registrationPlate": "YXN01R",
-      "year": "2021",
-      "body": "SUV",
-      "authorityRegisterInformation": {
-        "additionalTechSpecification": {
-          "raceCar": null,
-          "wheelbase1": 2677,
-          "wheelbase2": null,
-          "wheelbase3": null,
-          "wheelbase4": null,
-          "equipment1": null,
-          "equipment2": null,
-          "equipment3": null,
-          "maximumSpeed": 210,
-          "numAxleShafts": 2,
-          "passengerAirBag": false,
-          "tyreDimensionRear": "235/55 R18 100V",
-          "tyreDimensionFront": "235/55 R18 100V",
-          "dualSteeringControl": null
-        },
-        "environmentalClassification": {
-          "fuels": [
-            {
-              "co2": "",
-              "nox": "",
-              "nox4": null,
-              "fuelCode": "Petrol",
-              "hcThcNox": "",
-              "consumption": "",
-              "noiseLevel": 67,
-              "emissionUnit": "g/km",
-              "innovationCo2": null,
-              "particleValue": "",
-              "particleMass4": null,
-              "consumptionUnit": "",
-              "rangeNedcDrive": null,
-              "rangeWltpDrive": null,
-              "consumptionUrban": "",
-              "rangeCityWltpDrive": null,
-              "consumptionExtraUrban": "",
-              "electricEnergyConsumption": null,
-              "energyConsumptionWltpDrive": null
-            },
-            {
-              "co2": 0,
-              "nox": "",
-              "nox4": null,
-              "fuelCode": "Electric",
-              "hcThcNox": "",
-              "consumption": "",
-              "noiseLevel": 67,
-              "emissionUnit": "g/km",
-              "innovationCo2": null,
-              "particleValue": "",
-              "particleMass4": null,
-              "consumptionUnit": "",
-              "rangeNedcDrive": null,
-              "rangeWltpDrive": "50",
-              "consumptionUrban": "",
-              "rangeCityWltpDrive": "58",
-              "consumptionExtraUrban": "",
-              "electricEnergyConsumption": null,
-              "energyConsumptionWltpDrive": null
-            }
-          ],
-          "ecoFriendly": true,
-          "emissionClass": "LADDHYBRID",
-          "innovationCode": null,
-          "environmentalClass": "HYBRID",
-          "environmentalClassEuro": "6"
-        },
-        "vehicleStatus": {
-          "tax": 360
-        },
-        "registrationInformation": {
-          "registrationPlate": "YXN01R",
-          "deregistrationDate": null,
-          "deregistrationText": null,
-          "deregistrationReason": null
-        },
-        "generalTechSpecification": {
-          "eeg": "e1*2007/46*1900*17",
-          "fuels": [
-            {
-              "fuelCode": "Petrol",
-              "powerUnit": "EG",
-              "enginePower": 110,
-              "enginePowerHp": 150,
-              "fuelTankVolume": ""
-            },
-            {
-              "fuelCode": "Electric",
-              "powerUnit": "",
-              "enginePower": 86,
-              "enginePowerHp": 117,
-              "fuelTankVolume": ""
-            }
-          ],
-          "width": 1849,
-          "height": 1565,
-          "length": 4484,
-          "gearbox": "Automatic",
-          "variant": "XDGEAF1",
-          "version": "FD6FD6DD002RT21A184BIAHA7EM90B3",
-          "taxWeight": 1840,
-          "curbWeight": 1844,
-          "maxPayload": 476,
-          "totalWeight": 2320,
-          "chassisCode1": null,
-          "chassisCode2": null,
-          "cubicCapacity": "1395",
-          "numPassengers": "4",
-          "numberOfSeats": 5,
-          "fourWheelDrive": false,
-          "maxPullWeightB": 1180,
-          "clutchMechanism1": null,
-          "clutchMechanism2": null,
-          "maxTrailerWeight": 1400,
-          "chassisCodeSupplement": null,
-          "maxPullWieghtNoBreaks": null,
-          "maxPullWeightBExtended": null,
-          "maxSingle Axle TrailerWeight": null
-        },
-        "vehicleOrigin": {
-          "originCode": "INFÖRT",
-          "originCodeReason": null,
-          "importerIdentifier": null,
-          "preRegistrationDate": null,
-          "importRegistrationDate": null,
-          "importedForPersonalUse": false,
-          "importedPreviouslyRegistered": false
-        },
-        "vehicleInspectionInformation": {
-          "inspections": [
-            {
-              "inspectionType": "5",
-              "odometerReading": 57974,
-              "dateOfInspection": "2024-02-27"
-            },
-            {
-              "inspectionType": "13",
-              "odometerReading": null,
-              "dateOfInspection": "2021-02-22"
-            }
-          ],
-          "inspectionGroup": "36/24/14",
-          "odometerReading": 100076,
-          "inspectionPeriod": "2026-01-23 - 2027-03-31",
-          "dateOfInspection": "2026-01-23",
-          "inspectionValidToDate": "2027-03-31",
-          "inspectionExemptionGroup": null
-        },
-        "vehicleInformation": {
-          "vin": "WAUZZZF3XM1092413",
-          "body": "AC",
-          "type": "CAR",
-          "year": "2021",
-          "model": "Q3 E-TRON",
-          "rawType": "PB",
-          "modelYear": null,
-          "categoryEu": "e1*2007/46*1900*17",
-          "groupNumber": "AU 386024",
-          "modelNumber": "AU 000000",
-          "chassisNumber": "WAUZZZF3XM1092413",
-          "exteriorColor": "Black",
-          "fabricAndMake": "AUDI",
-          "baseObjectType": "CAR",
-          "manufactureCode": null,
-          "manufactureMonth": "202102",
-          "registrationDate": "2021-02-17",
-          "initialTrafficDate": "2021-03-23",
-          "registrationPlateReused": null
-        }
-      },
-      "brand": "Audi",
-      "id": "474521",
-      "fuels": [
-        {
-          "fuelCode": "Petrol",
-          "powerUnit": "EG",
-          "enginePower": 110,
-          "enginePowerHp": 150,
-          "fuelTankVolume": ""
-        },
-        {
-          "fuelCode": "Electric",
-          "powerUnit": "",
-          "enginePower": 86,
-          "enginePowerHp": 117,
-          "fuelTankVolume": ""
-        }
-      ],
-      "gearbox": "Automatic",
-      "fabricAndMake": "AUDI",
-      "baseObjectType": "CAR",
-      "modelId": null,
-      "odometerReading": 100076,
-      "modelName": "Q3 45 TFSI e (245hk)",
-      "salesFlow": "CONSUMER_CARS",
-      "state": "PREPARING_SALES_AGREEMENT",
-      "odometerUnit": "km",
-      "earliestAvailableAt": null,
-      "registrationCountry": "se",
-      "createdAt": "2026-01-28T06:45:22.701986+00:00",
-      "familyName": "Q3",
-      "technicalSpecification": {
-        "modelId": null,
-        "vehicle": {
-          "brand": "Audi",
-          "body": "SUV",
-          "modelName": "Q3 45 TFSI e (245hk)",
-          "familyName": "Q3"
-        },
-        "year": "2021"
-      }
+    "orderableAdditionalServices": {
+      "tradein": false,
+      "transport": true,
+      "insurance": true,
+      "finance": true,
+      "warranty": true,
+      "extraTires": false
     },
-    "id": "7272546",
+    "offsiteSalesContact": null,
     "leaseReturnProperties": {},
-    "vehicleType": "CAR",
-    "presentationApproved": false,
-    "baseObjectId": "474521",
-    "isFixedPrice": false,
+    "id": "7272546",
+    "displayCar360Spin": true,
     "certified": false,
-    "objectType": "CAR",
-    "state": "AUCTION_RESOLUTION",
-    "initialBuyNowAmount": 244900,
+    "sellMethod": "BIDDING",
+    "isReleasable": false,
+    "car360Spin": null,
     "statisticalValuation": {
+      "bpGreen": null,
       "bpWhite": 295492,
       "marketPrice": 295492,
-      "bpGreen": null,
       "bpOrange": 295492
     },
-    "testDriveAllowed": true,
-    "buyNowAmount": 244900,
-    "isReleasable": false,
     "createdAt": "2026-03-13 12:41:25.170282+00:00",
     "exportable": true,
     "deductibleVat": false,
@@ -2448,6 +2448,6 @@
     "closedAt": "2026-10-29T11:21:25.814897+00:00",
     "updatedAt": "2026-10-29T15:08:42.971330+00:00"
   },
-  "_scraped_at": "2026-10-30T14:09:13.083613+00:00",
+  "_scraped_at": "2026-10-30T16:16:35.219044+00:00",
   "_url": "https://www.kvd.se/auktioner/audi-q3-45-tfsi-e-245hk-309083"
 }

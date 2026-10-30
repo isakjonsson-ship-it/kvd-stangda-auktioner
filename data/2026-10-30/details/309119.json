@@ -44,223 +44,22 @@
   "eurBuyNowAmount": null,
   "winningBid": null,
   "processObject": {
-    "objectType": "CAR",
-    "buyNowAmount": null,
-    "reducedPrice": false,
-    "testDriveAllowed": true,
-    "isFixedPrice": false,
-    "baseObject": {
-      "gearbox": "Automatic",
-      "baseObjectType": "CAR",
-      "odometerReading": null,
-      "authorityRegisterInformation": {
-        "vehicleOrigin": {
-          "originCode": "INFÖRT",
-          "originCodeReason": null,
-          "importerIdentifier": null,
-          "preRegistrationDate": null,
-          "importRegistrationDate": null,
-          "importedForPersonalUse": false,
-          "importedPreviouslyRegistered": false
-        },
-        "generalTechSpecification": {
-          "eeg": "e1*2007/46*1909*27",
-          "fuels": [
-            {
-              "fuelCode": "Diesel",
-              "powerUnit": "EG",
-              "enginePower": 140,
-              "enginePowerHp": 190,
-              "fuelTankVolume": ""
-            }
-          ],
-          "width": 1845,
-          "height": 1700,
-          "length": 4651,
-          "gearbox": "Automatic",
-          "variant": "OX1ET1",
-          "version": "JZAA157A",
-          "taxWeight": 1870,
-          "curbWeight": 1879,
-          "maxPayload": 411,
-          "totalWeight": 2290,
-          "chassisCode1": null,
-          "chassisCode2": null,
-          "cubicCapacity": "1950",
-          "numPassengers": "4",
-          "numberOfSeats": 5,
-          "fourWheelDrive": true,
-          "maxPullWeightB": 1210,
-          "clutchMechanism1": null,
-          "clutchMechanism2": null,
-          "maxTrailerWeight": null,
-          "chassisCodeSupplement": null,
-          "maxPullWieghtNoBreaks": null,
-          "maxPullWeightBExtended": null,
-          "maxSingle Axle TrailerWeight": null
-        },
-        "environmentalClassification": {
-          "fuels": [
-            {
-              "co2": "",
-              "nox": "",
-              "nox4": null,
-              "fuelCode": "Diesel",
-              "hcThcNox": "",
-              "consumption": "",
-              "noiseLevel": 69,
-              "emissionUnit": "g/km",
-              "innovationCo2": null,
-              "particleValue": "",
-              "particleMass4": null,
-              "consumptionUnit": "",
-              "rangeNedcDrive": null,
-              "rangeWltpDrive": null,
-              "consumptionUrban": "",
-              "rangeCityWltpDrive": null,
-              "consumptionExtraUrban": "",
-              "electricEnergyConsumption": null,
-              "energyConsumptionWltpDrive": null
-            }
-          ],
-          "ecoFriendly": false,
-          "emissionClass": "EURO 6",
-          "innovationCode": null,
-          "environmentalClass": null,
-          "environmentalClassEuro": "6"
-        },
-        "vehicleStatus": {
-          "tax": 12306
-        },
-        "vehicleInspectionInformation": {
-          "inspections": [
-            {
-              "inspectionType": "13",
-              "odometerReading": null,
-              "dateOfInspection": "2025-04-03"
-            },
-            {
-              "inspectionType": null,
-              "odometerReading": null,
-              "dateOfInspection": null
-            }
-          ],
-          "inspectionGroup": "36/24/14",
-          "odometerReading": "",
-          "inspectionPeriod": "2025-04-03 - 2028-07-31",
-          "dateOfInspection": "2025-04-03",
-          "inspectionValidToDate": "2028-07-31",
-          "inspectionExemptionGroup": null
-        },
-        "registrationInformation": {
-          "registrationPlate": "JBH01K",
-          "deregistrationDate": null,
-          "deregistrationText": null,
-          "deregistrationReason": null
-        },
-        "vehicleInformation": {
-          "vin": "W1N4M1FB5SW410418",
-          "body": "AC",
-          "type": "CAR",
-          "year": "2024",
-          "model": "GLB 220 D 4MATIC",
-          "rawType": "PB",
-          "modelYear": null,
-          "categoryEu": "e1*2007/46*1909*27",
-          "groupNumber": "MB 516151",
-          "modelNumber": "MB 000000",
-          "chassisNumber": "W1N4M1FB5SW410418",
-          "exteriorColor": "Black",
-          "fabricAndMake": "MERCEDES-BENZ",
-          "baseObjectType": "CAR",
-          "manufactureCode": null,
-          "manufactureMonth": "202411",
-          "registrationDate": "2024-11-05",
-          "initialTrafficDate": "2025-07-18",
-          "registrationPlateReused": null
-        },
-        "additionalTechSpecification": {
-          "raceCar": null,
-          "wheelbase1": 2829,
-          "wheelbase2": null,
-          "wheelbase3": null,
-          "wheelbase4": null,
-          "equipment1": null,
-          "equipment2": null,
-          "equipment3": null,
-          "maximumSpeed": 217,
-          "numAxleShafts": 2,
-          "passengerAirBag": false,
-          "tyreDimensionRear": "235/50 R19  099 W",
-          "tyreDimensionFront": "235/50 R19  099 W",
-          "dualSteeringControl": null
-        }
-      },
-      "fuels": [
-        {
-          "fuelCode": "Diesel",
-          "powerUnit": "EG",
-          "enginePower": 140,
-          "enginePowerHp": 190,
-          "fuelTankVolume": ""
-        }
-      ],
-      "earliestAvailableAt": null,
-      "modelName": null,
-      "salesFlow": "CORPORATE_CARS_SMALL",
-      "registrationPlate": "JBH01K",
-      "state": "MANUAL_VALUATION_PENDING",
-      "odometerUnit": "km",
-      "fabricAndMake": "MERCEDES-BENZ",
-      "registrationCountry": "se",
-      "id": "502806",
-      "familyName": null,
-      "modelId": null,
-      "year": null,
-      "createdAt": "2026-06-30T09:09:08.857990+00:00",
-      "brand": null,
-      "body": null,
-      "exteriorColor": "Black",
-      "technicalSpecification": {
-        "modelId": null,
-        "vehicle": {
-          "brand": null,
-          "body": null,
-          "modelName": null,
-          "familyName": null
-        },
-        "year": null
-      }
-    },
-    "vehicleType": "CAR",
-    "initialBuyNowAmount": null,
-    "baseObjectId": "502806",
+    "displayCar360Spin": true,
     "conditionClassification": "TESTED",
     "proactiveBrokering": null,
-    "presentationApproved": false,
-    "state": "AUCTION_RESOLUTION",
     "properties": {
+      "length": 4651,
+      "mustExport": false,
+      "odometerUnit": "km",
+      "familyName": "GLB",
+      "drivingBan": false,
+      "taxWeight": 1870,
+      "manufacturerWarranty": {
+        "odometerReadingLimit": 0,
+        "expirationDate": "2027-07-17"
+      },
+      "odometerReading": 18600,
       "grades": {
-        "BRAKES": {
-          "max": 3,
-          "value": 2,
-          "min": 1
-        },
-        "TOTAL": {
-          "max": 5,
-          "value": 3,
-          "min": 1
-        },
-        "TECHNOLOGY_AND_EQUIPMENT": {
-          "max": 3,
-          "value": 2,
-          "min": 1
-        },
-        "ENGINE_AND_GEARBOX": {
-          "max": 3,
-          "value": 3,
-          "min": 1
-        },
         "INTERIOR": {
           "max": 5,
           "value": 3,
@@ -270,9 +69,158 @@
           "max": 5,
           "value": 3,
           "min": 1
+        },
+        "TOTAL": {
+          "max": 5,
+          "value": 3,
+          "min": 1
+        },
+        "ENGINE_AND_GEARBOX": {
+          "max": 3,
+          "value": 3,
+          "min": 1
+        },
+        "TECHNOLOGY_AND_EQUIPMENT": {
+          "max": 3,
+          "value": 2,
+          "min": 1
+        },
+        "BRAKES": {
+          "max": 3,
+          "value": 2,
+          "min": 1
         }
       },
+      "fuels": [
+        {
+          "enginePower": 190,
+          "fuelCode": "Diesel"
+        }
+      ],
+      "curbWeight": 1879,
+      "remarks": {
+        "TIRES": [],
+        "INTERIOR": [
+          {
+            "category": "INTERIOR",
+            "key": "Panel insida baklucka, repor",
+            "id": "0"
+          }
+        ],
+        "EXTERIOR": [
+          {
+            "category": "EXTERIOR",
+            "key": "Fåtal stenskott, dörruppslag och repor",
+            "id": "0"
+          }
+        ],
+        "ENGINE_AND_GEARBOX": [],
+        "TECHNOLOGY_AND_EQUIPMENT": [
+          {
+            "category": "TECHNOLOGY_AND_EQUIPMENT",
+            "key": "Servicelampa lyser",
+            "id": "0"
+          }
+        ],
+        "BRAKES": [
+          {
+            "category": "BRAKES",
+            "key": "Vibrerar vid inbromsning",
+            "id": "0"
+          }
+        ]
+      },
+      "collisionWarranty": "2028-07-17",
+      "width": 1845,
+      "numberOfSeats": 5,
+      "body": "SUV",
+      "maxPullWeightB": 1210,
+      "textile": "Läder/Alcantara",
+      "ecoFriendly": false,
+      "maxPayload": 411,
+      "exportable": true,
+      "inspectionValidToDate": "2028-07-31",
+      "taxFee": 12306,
+      "modelYear": 2025,
+      "inspectionPeriod": "2025-04-03 - 2028-07-31",
+      "dateOfInspection": "2025-04-03",
+      "registrationPlate": "JBH01K",
+      "totalWeight": 2290,
+      "adHeader": "GLB 220 d 4MATIC X247 (190hk) AMG Line Premium",
       "numberOfKeys": 1,
+      "towbar": false,
+      "hasUnpaidLoan": false,
+      "equipment": [
+        "4WD",
+        "Antispinn",
+        "Autobroms",
+        "Backkamera",
+        "Bluetooth",
+        "Elspeglar",
+        "Fjärrlås",
+        "GPS",
+        "Radio",
+        "Regnsensor",
+        "Stolsvärme fram",
+        "Adaptiv farthållare",
+        "Aktiv parkeringshjälp",
+        "Antisladdsystem",
+        "Assistanssystem",
+        "Auto hold",
+        "Dödavinkelvarnare",
+        "Eldriven baklucka",
+        "Elhiss bak",
+        "Elhiss fram",
+        "Elinfällbara speglar",
+        "Filbytesvarnare",
+        "Infällbar dragkrok",
+        "Isofix bak",
+        "Klimatanläggning",
+        "LED-strålkastare",
+        "Nyckellöst startsystem",
+        "Parkeringssensorer bak",
+        "Parkeringssensorer fram",
+        "Parkeringsvärmare med tidur",
+        "Rattvärme",
+        "USB-ingång",
+        "Öppningsbart panoramatak",
+        "AMG Line",
+        "Premium",
+        "Åkkomfortpaket",
+        "Ljus- och siktpaket",
+        "Keyless-go-paket",
+        "Parkeringspaket",
+        "Spegelpaket",
+        "Night-paket",
+        "Vinterpaket"
+      ],
+      "isRepairObject": false,
+      "mediation": true,
+      "residualLoanValue": 0,
+      "numberOfPreviousOwners": 3,
+      "package": "AMG Line Premium",
+      "remarksLocalized": {
+        "TIRES": null,
+        "BRAKES": "Vibrerar vid inbromsning",
+        "EXTERIOR": "Fåtal stenskott, dörruppslag och repor",
+        "INTERIOR": "Panel insida baklucka, repor",
+        "ENGINE_AND_GEARBOX": null,
+        "TECHNOLOGY_AND_EQUIPMENT": "Servicelampa lyser"
+      },
+      "importedForPersonalUse": false,
+      "gearbox": "Automatic",
+      "title": "Mercedes GLB 220 d 4MATIC X247 (190hk)",
+      "chassisNumber": "W1N4M1FB5SW410418",
+      "deductibleVat": true,
+      "saleLimitedToCorporate": false,
+      "heavyEquipment": false,
+      "manufactureMonth": "202411",
+      "height": 1700,
+      "initialTrafficDate": "2025-07-18",
+      "registrationCountry": "se",
+      "environmentalClassEuro": "6",
+      "registrationPlateCountry": "se",
+      "brand": "Mercedes",
       "formattedEquipment": [
         {
           "key": "4WD",
@@ -527,153 +475,20 @@
           "priority": 41
         }
       ],
-      "exportable": true,
-      "mustExport": false,
-      "deductibleVat": true,
-      "manufactureMonth": "202411",
-      "totalWeight": 2290,
-      "dateOfInspection": "2025-04-03",
-      "registrationPlate": "JBH01K",
-      "equipment": [
-        "4WD",
-        "Antispinn",
-        "Autobroms",
-        "Backkamera",
-        "Bluetooth",
-        "Elspeglar",
-        "Fjärrlås",
-        "GPS",
-        "Radio",
-        "Regnsensor",
-        "Stolsvärme fram",
-        "Adaptiv farthållare",
-        "Aktiv parkeringshjälp",
-        "Antisladdsystem",
-        "Assistanssystem",
-        "Auto hold",
-        "Dödavinkelvarnare",
-        "Eldriven baklucka",
-        "Elhiss bak",
-        "Elhiss fram",
-        "Elinfällbara speglar",
-        "Filbytesvarnare",
-        "Infällbar dragkrok",
-        "Isofix bak",
-        "Klimatanläggning",
-        "LED-strålkastare",
-        "Nyckellöst startsystem",
-        "Parkeringssensorer bak",
-        "Parkeringssensorer fram",
-        "Parkeringsvärmare med tidur",
-        "Rattvärme",
-        "USB-ingång",
-        "Öppningsbart panoramatak",
-        "AMG Line",
-        "Premium",
-        "Åkkomfortpaket",
-        "Ljus- och siktpaket",
-        "Keyless-go-paket",
-        "Parkeringspaket",
-        "Spegelpaket",
-        "Night-paket",
-        "Vinterpaket"
-      ],
-      "taxWeight": 1870,
-      "odometerUnit": "km",
-      "mediation": true,
-      "ecoFriendly": false,
-      "towbar": false,
-      "remarksLocalized": {
-        "TIRES": null,
-        "BRAKES": "Vibrerar vid inbromsning",
-        "EXTERIOR": "Fåtal stenskott, dörruppslag och repor",
-        "INTERIOR": "Panel insida baklucka, repor",
-        "ENGINE_AND_GEARBOX": null,
-        "TECHNOLOGY_AND_EQUIPMENT": "Servicelampa lyser"
-      },
-      "width": 1845,
-      "body": "SUV",
-      "exteriorColor": "Black",
-      "remarks": {
-        "TIRES": [],
-        "BRAKES": [
-          {
-            "category": "BRAKES",
-            "id": "0",
-            "key": "Vibrerar vid inbromsning"
-          }
-        ],
-        "TECHNOLOGY_AND_EQUIPMENT": [
-          {
-            "category": "TECHNOLOGY_AND_EQUIPMENT",
-            "id": "0",
-            "key": "Servicelampa lyser"
-          }
-        ],
-        "ENGINE_AND_GEARBOX": [],
-        "INTERIOR": [
-          {
-            "category": "INTERIOR",
-            "id": "0",
-            "key": "Panel insida baklucka, repor"
-          }
-        ],
-        "EXTERIOR": [
-          {
-            "category": "EXTERIOR",
-            "id": "0",
-            "key": "Fåtal stenskott, dörruppslag och repor"
-          }
-        ]
-      },
-      "numberOfPreviousOwners": 3,
-      "adHeader": "GLB 220 d 4MATIC X247 (190hk) AMG Line Premium",
-      "fuels": [
-        {
-          "fuelCode": "Diesel",
-          "enginePower": 190
-        }
-      ],
-      "textile": "Läder/Alcantara",
-      "collisionWarranty": "2028-07-17",
-      "maxPayload": 411,
-      "inspectionPeriod": "2025-04-03 - 2028-07-31",
-      "inspectionValidToDate": "2028-07-31",
-      "saleLimitedToCorporate": false,
-      "manufacturerWarranty": {
-        "odometerReadingLimit": 0,
-        "expirationDate": "2027-07-17"
-      },
-      "package": "AMG Line Premium",
-      "hasUnpaidLoan": false,
-      "heavyEquipment": false,
-      "residualLoanValue": 0,
-      "brand": "Mercedes",
-      "gearbox": "Automatic",
-      "height": 1700,
-      "maxPullWeightB": 1210,
-      "length": 4651,
-      "environmentalClassEuro": "6",
-      "curbWeight": 1879,
-      "drivingBan": false,
-      "initialTrafficDate": "2025-07-18",
-      "chassisNumber": "W1N4M1FB5SW410418",
-      "familyName": "GLB",
-      "finishType": "Metallic",
-      "importedForPersonalUse": false,
-      "isRepairObject": false,
-      "title": "Mercedes GLB 220 d 4MATIC X247 (190hk)",
-      "odometerReading": 18600,
       "modelName": "GLB 220 d 4MATIC X247 (190hk)",
-      "modelYear": 2025,
-      "numberOfSeats": 5,
-      "registrationPlateCountry": "se",
-      "registrationCountry": "se",
-      "taxFee": 12306,
+      "finishType": "Metallic",
+      "exteriorColor": "Black",
       "heading1": "Mercedes GLB",
       "heading2": "220 d 4MATIC X247",
       "heading3": "AMG Line Premium"
     },
+    "car360Spin": null,
+    "testDriveAllowed": true,
+    "certified": false,
+    "objectType": "CAR",
+    "statisticalValuation": null,
+    "buyNowAmount": null,
+    "sellMethod": "BIDDING",
     "orderableAdditionalServices": {
       "tradein": false,
       "transport": true,
@@ -682,16 +497,201 @@
       "warranty": true,
       "extraTires": false
     },
-    "offsiteSalesContact": null,
+    "isFixedPrice": false,
+    "vehicleType": "CAR",
     "leaseReturnProperties": {},
-    "id": "7282609",
-    "displayCar360Spin": true,
-    "certified": false,
-    "sellMethod": "BIDDING",
+    "baseObjectId": "502806",
+    "initialBuyNowAmount": null,
     "isReleasable": false,
-    "car360Spin": null,
-    "statisticalValuation": null,
+    "id": "7282609",
+    "offsiteSalesContact": null,
+    "presentationApproved": false,
     "createdAt": "2026-06-30 09:09:09.210427+00:00",
+    "state": "AUCTION_RESOLUTION",
+    "reducedPrice": false,
+    "baseObject": {
+      "body": null,
+      "modelId": null,
+      "exteriorColor": "Black",
+      "baseObjectType": "CAR",
+      "registrationCountry": "se",
+      "odometerUnit": "km",
+      "familyName": null,
+      "odometerReading": null,
+      "earliestAvailableAt": null,
+      "brand": null,
+      "registrationPlate": "JBH01K",
+      "fuels": [
+        {
+          "fuelCode": "Diesel",
+          "powerUnit": "EG",
+          "enginePower": 140,
+          "enginePowerHp": 190,
+          "fuelTankVolume": ""
+        }
+      ],
+      "id": "502806",
+      "authorityRegisterInformation": {
+        "generalTechSpecification": {
+          "eeg": "e1*2007/46*1909*27",
+          "fuels": [
+            {
+              "fuelCode": "Diesel",
+              "powerUnit": "EG",
+              "enginePower": 140,
+              "enginePowerHp": 190,
+              "fuelTankVolume": ""
+            }
+          ],
+          "width": 1845,
+          "height": 1700,
+          "length": 4651,
+          "gearbox": "Automatic",
+          "variant": "OX1ET1",
+          "version": "JZAA157A",
+          "taxWeight": 1870,
+          "curbWeight": 1879,
+          "maxPayload": 411,
+          "totalWeight": 2290,
+          "chassisCode1": null,
+          "chassisCode2": null,
+          "cubicCapacity": "1950",
+          "numPassengers": "4",
+          "numberOfSeats": 5,
+          "fourWheelDrive": true,
+          "maxPullWeightB": 1210,
+          "clutchMechanism1": null,
+          "clutchMechanism2": null,
+          "maxTrailerWeight": null,
+          "chassisCodeSupplement": null,
+          "maxPullWieghtNoBreaks": null,
+          "maxPullWeightBExtended": null,
+          "maxSingle Axle TrailerWeight": null
+        },
+        "vehicleOrigin": {
+          "originCode": "INFÖRT",
+          "originCodeReason": null,
+          "importerIdentifier": null,
+          "preRegistrationDate": null,
+          "importRegistrationDate": null,
+          "importedForPersonalUse": false,
+          "importedPreviouslyRegistered": false
+        },
+        "vehicleInspectionInformation": {
+          "inspections": [
+            {
+              "inspectionType": "13",
+              "odometerReading": null,
+              "dateOfInspection": "2025-04-03"
+            },
+            {
+              "inspectionType": null,
+              "odometerReading": null,
+              "dateOfInspection": null
+            }
+          ],
+          "inspectionGroup": "36/24/14",
+          "odometerReading": "",
+          "inspectionPeriod": "2025-04-03 - 2028-07-31",
+          "dateOfInspection": "2025-04-03",
+          "inspectionValidToDate": "2028-07-31",
+          "inspectionExemptionGroup": null
+        },
+        "environmentalClassification": {
+          "fuels": [
+            {
+              "co2": "",
+              "nox": "",
+              "nox4": null,
+              "fuelCode": "Diesel",
+              "hcThcNox": "",
+              "consumption": "",
+              "noiseLevel": 69,
+              "emissionUnit": "g/km",
+              "innovationCo2": null,
+              "particleValue": "",
+              "particleMass4": null,
+              "consumptionUnit": "",
+              "rangeNedcDrive": null,
+              "rangeWltpDrive": null,
+              "consumptionUrban": "",
+              "rangeCityWltpDrive": null,
+              "consumptionExtraUrban": "",
+              "electricEnergyConsumption": null,
+              "energyConsumptionWltpDrive": null
+            }
+          ],
+          "ecoFriendly": false,
+          "emissionClass": "EURO 6",
+          "innovationCode": null,
+          "environmentalClass": null,
+          "environmentalClassEuro": "6"
+        },
+        "additionalTechSpecification": {
+          "raceCar": null,
+          "wheelbase1": 2829,
+          "wheelbase2": null,
+          "wheelbase3": null,
+          "wheelbase4": null,
+          "equipment1": null,
+          "equipment2": null,
+          "equipment3": null,
+          "maximumSpeed": 217,
+          "numAxleShafts": 2,
+          "passengerAirBag": false,
+          "tyreDimensionRear": "235/50 R19  099 W",
+          "tyreDimensionFront": "235/50 R19  099 W",
+          "dualSteeringControl": null
+        },
+        "vehicleStatus": {
+          "tax": 12306
+        },
+        "vehicleInformation": {
+          "vin": "W1N4M1FB5SW410418",
+          "body": "AC",
+          "type": "CAR",
+          "year": "2024",
+          "model": "GLB 220 D 4MATIC",
+          "rawType": "PB",
+          "modelYear": null,
+          "categoryEu": "e1*2007/46*1909*27",
+          "groupNumber": "MB 516151",
+          "modelNumber": "MB 000000",
+          "chassisNumber": "W1N4M1FB5SW410418",
+          "exteriorColor": "Black",
+          "fabricAndMake": "MERCEDES-BENZ",
+          "baseObjectType": "CAR",
+          "manufactureCode": null,
+          "manufactureMonth": "202411",
+          "registrationDate": "2024-11-05",
+          "initialTrafficDate": "2025-07-18",
+          "registrationPlateReused": null
+        },
+        "registrationInformation": {
+          "registrationPlate": "JBH01K",
+          "deregistrationDate": null,
+          "deregistrationText": null,
+          "deregistrationReason": null
+        }
+      },
+      "modelName": null,
+      "createdAt": "2026-06-30T09:09:08.857990+00:00",
+      "state": "MANUAL_VALUATION_PENDING",
+      "gearbox": "Automatic",
+      "salesFlow": "CORPORATE_CARS_SMALL",
+      "year": null,
+      "fabricAndMake": "MERCEDES-BENZ",
+      "technicalSpecification": {
+        "modelId": null,
+        "vehicle": {
+          "brand": null,
+          "body": null,
+          "modelName": null,
+          "familyName": null
+        },
+        "year": null
+      }
+    },
     "exportable": true,
     "deductibleVat": true,
     "collisionWarranty": "2028-07-17",
@@ -2568,6 +2568,6 @@
     "closedAt": "2026-10-30T10:41:14.951749+00:00",
     "updatedAt": "2026-10-30T10:41:15.057167+00:00"
   },
-  "_scraped_at": "2026-10-30T14:09:06.240958+00:00",
+  "_scraped_at": "2026-10-30T16:16:27.836916+00:00",
   "_url": "https://www.kvd.se/auktioner/mercedes-glb-220-d-4matic-x247-190hk-309119"
 }

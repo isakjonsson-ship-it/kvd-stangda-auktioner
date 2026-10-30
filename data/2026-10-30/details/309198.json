@@ -54,28 +54,135 @@
     "evaluationType": "BROKERING"
   },
   "processObject": {
-    "orderableAdditionalServices": {
-      "tradein": false,
-      "transport": true,
-      "insurance": true,
-      "finance": true,
-      "warranty": true,
-      "extraTires": false
-    },
-    "car360Spin": null,
-    "proactiveBrokering": null,
     "displayCar360Spin": true,
-    "offsiteSalesContact": null,
-    "sellMethod": "BIDDING",
-    "reducedPrice": false,
     "conditionClassification": "TESTED",
+    "proactiveBrokering": null,
     "properties": {
-      "adHeader": "V90 T5 254hk Inscription Panorama Ljus Läder, Drag",
-      "exteriorColor": "Black",
-      "brand": "Volvo",
-      "mediation": true,
+      "length": 4936,
+      "mustExport": false,
+      "odometerUnit": "km",
+      "familyName": "V90",
+      "drivingBan": false,
+      "taxWeight": 1830,
+      "odometerReading": 189970,
+      "grades": {
+        "INTERIOR": {
+          "max": 5,
+          "value": 3,
+          "min": 1
+        },
+        "EXTERIOR": {
+          "max": 5,
+          "value": 2,
+          "min": 1
+        },
+        "TOTAL": {
+          "max": 5,
+          "value": 3,
+          "min": 1
+        },
+        "ENGINE_AND_GEARBOX": {
+          "max": 3,
+          "value": 3,
+          "min": 1
+        },
+        "TECHNOLOGY_AND_EQUIPMENT": {
+          "max": 3,
+          "value": 2,
+          "min": 1
+        },
+        "BRAKES": {
+          "max": 3,
+          "value": 2,
+          "min": 1
+        }
+      },
+      "fuels": [
+        {
+          "enginePower": 254,
+          "fuelCode": "Petrol",
+          "co2": 154,
+          "consumption": 6.8
+        }
+      ],
       "curbWeight": 1833,
+      "remarks": {
+        "TIRES": [
+          {
+            "category": "TIRES",
+            "key": "Fälgar på bilen kantstötta",
+            "id": "0"
+          },
+          {
+            "category": "TIRES",
+            "key": "Skrapade fälgar till extradäck",
+            "id": "1"
+          }
+        ],
+        "INTERIOR": [
+          {
+            "category": "INTERIOR",
+            "key": "Invändigt några repor, fläckar och märken",
+            "id": "0"
+          }
+        ],
+        "EXTERIOR": [
+          {
+            "category": "EXTERIOR",
+            "key": "Vindruta sliten",
+            "id": "0"
+          },
+          {
+            "category": "EXTERIOR",
+            "key": "Bilen är matt i lacken, Flertal stenskott, dörruppslag och repor",
+            "id": "1"
+          },
+          {
+            "category": "EXTERIOR",
+            "key": "Fåtal rostangrepp",
+            "id": "2"
+          }
+        ],
+        "ENGINE_AND_GEARBOX": [],
+        "TECHNOLOGY_AND_EQUIPMENT": [
+          {
+            "category": "TECHNOLOGY_AND_EQUIPMENT",
+            "key": "Drivknutsdamask höger fram skadad",
+            "id": "0"
+          },
+          {
+            "category": "TECHNOLOGY_AND_EQUIPMENT",
+            "key": "Positionsljus höger bak ur funktion",
+            "id": "1"
+          }
+        ],
+        "BRAKES": [
+          {
+            "category": "BRAKES",
+            "key": "Bromsbelägg fram och bak bör bytas inom 6 månader",
+            "id": "0"
+          }
+        ]
+      },
+      "width": 1890,
+      "numberOfSeats": 5,
+      "body": "Wagon",
+      "maxPullWeightB": 1200,
+      "textile": "Helläder",
+      "ecoFriendly": false,
       "maxPayload": 467,
+      "exportable": true,
+      "inspectionValidToDate": "2027-07-31",
+      "taxFee": 1306,
+      "modelYear": 2017,
+      "inspectionPeriod": "2026-05-28 - 2027-07-31",
+      "dateOfInspection": "2026-05-28",
+      "registrationPlate": "MFO704",
+      "totalWeight": 2300,
+      "adHeader": "V90 T5 254hk Inscription Panorama Ljus Läder, Drag",
+      "numberOfKeys": 2,
+      "towbar": false,
+      "hasUnpaidLoan": false,
       "equipment": [
         "Antispinn",
         "Autobroms",
@@ -120,21 +227,34 @@
         "Solgardin bakre sidodörrar",
         "Akustik rutor"
       ],
-      "inspectionValidToDate": "2027-07-31",
-      "odometerUnit": "km",
-      "length": 4936,
-      "finishType": "Solid",
-      "textile": "Helläder",
-      "saleLimitedToCorporate": false,
-      "chassisNumber": "YV1PW10BDH1003998",
-      "title": "Volvo V90 T5 (254hk)",
-      "dateOfInspection": "2026-05-28",
-      "inspectionPeriod": "2026-05-28 - 2027-07-31",
-      "totalWeight": 2300,
-      "registrationPlateCountry": "se",
-      "exportable": true,
+      "isRepairObject": false,
+      "mediation": true,
       "residualLoanValue": 0,
-      "taxFee": 1306,
+      "numberOfPreviousOwners": 7,
+      "package": "Inscription Panorama Ljus Läder, Drag",
+      "remarksLocalized": {
+        "TIRES": "Fälgar på bilen kantstötta. Skrapade fälgar till extradäck",
+        "BRAKES": "Bromsbelägg fram och bak bör bytas inom 6 månader",
+        "EXTERIOR": "Vindruta sliten. Bilen är matt i lacken, Flertal stenskott, dörruppslag och repor. Fåtal rostangrepp",
+        "INTERIOR": "Invändigt några repor, fläckar och märken",
+        "ENGINE_AND_GEARBOX": null,
+        "TECHNOLOGY_AND_EQUIPMENT": "Drivknutsdamask höger fram skadad. Positionsljus höger bak ur funktion"
+      },
+      "importedForPersonalUse": false,
+      "gearbox": "Automatic",
+      "title": "Volvo V90 T5 (254hk)",
+      "chassisNumber": "YV1PW10BDH1003998",
+      "deductibleVat": false,
+      "saleLimitedToCorporate": false,
+      "heavyEquipment": false,
+      "manufactureMonth": "201609",
+      "height": 1442,
+      "initialTrafficDate": "2016-10-07",
+      "registrationCountry": "se",
+      "environmentalClassEuro": "6",
+      "registrationPlateCountry": "se",
+      "maxTrailerWeight": 1800,
+      "brand": "Volvo",
       "formattedEquipment": [
         {
           "key": "ANTISPINN",
@@ -389,206 +509,68 @@
           "priority": 41
         }
       ],
-      "familyName": "V90",
-      "environmentalClassEuro": "6",
-      "towbar": false,
-      "isRepairObject": false,
-      "body": "Wagon",
-      "numberOfSeats": 5,
-      "maxPullWeightB": 1200,
-      "fuels": [
-        {
-          "enginePower": 254,
-          "consumption": 6.8,
-          "co2": 154,
-          "fuelCode": "Petrol"
-        }
-      ],
-      "grades": {
-        "INTERIOR": {
-          "value": 3,
-          "min": 1,
-          "max": 5
-        },
-        "TOTAL": {
-          "value": 3,
-          "min": 1,
-          "max": 5
-        },
-        "ENGINE_AND_GEARBOX": {
-          "value": 3,
-          "min": 1,
-          "max": 3
-        },
-        "EXTERIOR": {
-          "value": 2,
-          "min": 1,
-          "max": 5
-        },
-        "BRAKES": {
-          "value": 2,
-          "min": 1,
-          "max": 3
-        },
-        "TECHNOLOGY_AND_EQUIPMENT": {
-          "value": 2,
-          "min": 1,
-          "max": 3
-        }
-      },
-      "maxTrailerWeight": 1800,
-      "odometerReading": 189970,
-      "package": "Inscription Panorama Ljus Läder, Drag",
-      "initialTrafficDate": "2016-10-07",
-      "mustExport": false,
-      "manufactureMonth": "201609",
-      "ecoFriendly": false,
-      "deductibleVat": false,
-      "numberOfKeys": 2,
-      "registrationPlate": "MFO704",
-      "numberOfPreviousOwners": 7,
-      "heavyEquipment": false,
-      "modelYear": 2017,
-      "height": 1442,
-      "gearbox": "Automatic",
       "modelName": "V90 T5 (254hk)",
-      "taxWeight": 1830,
-      "width": 1890,
-      "remarks": {
-        "INTERIOR": [
-          {
-            "key": "Invändigt några repor, fläckar och märken",
-            "id": "0",
-            "category": "INTERIOR"
-          }
-        ],
-        "ENGINE_AND_GEARBOX": [],
-        "EXTERIOR": [
-          {
-            "key": "Vindruta sliten",
-            "id": "0",
-            "category": "EXTERIOR"
-          },
-          {
-            "key": "Bilen är matt i lacken, Flertal stenskott, dörruppslag och repor",
-            "id": "1",
-            "category": "EXTERIOR"
-          },
-          {
-            "key": "Fåtal rostangrepp",
-            "id": "2",
-            "category": "EXTERIOR"
-          }
-        ],
-        "BRAKES": [
-          {
-            "key": "Bromsbelägg fram och bak bör bytas inom 6 månader",
-            "id": "0",
-            "category": "BRAKES"
-          }
-        ],
-        "TECHNOLOGY_AND_EQUIPMENT": [
-          {
-            "key": "Drivknutsdamask höger fram skadad",
-            "id": "0",
-            "category": "TECHNOLOGY_AND_EQUIPMENT"
-          },
-          {
-            "key": "Positionsljus höger bak ur funktion",
-            "id": "1",
-            "category": "TECHNOLOGY_AND_EQUIPMENT"
-          }
-        ],
-        "TIRES": [
-          {
-            "key": "Fälgar på bilen kantstötta",
-            "id": "0",
-            "category": "TIRES"
-          },
-          {
-            "key": "Skrapade fälgar till extradäck",
-            "id": "1",
-            "category": "TIRES"
-          }
-        ]
-      },
-      "drivingBan": false,
-      "remarksLocalized": {
-        "TIRES": "Fälgar på bilen kantstötta. Skrapade fälgar till extradäck",
-        "BRAKES": "Bromsbelägg fram och bak bör bytas inom 6 månader",
-        "EXTERIOR": "Vindruta sliten. Bilen är matt i lacken, Flertal stenskott, dörruppslag och repor. Fåtal rostangrepp",
-        "INTERIOR": "Invändigt några repor, fläckar och märken",
-        "ENGINE_AND_GEARBOX": null,
-        "TECHNOLOGY_AND_EQUIPMENT": "Drivknutsdamask höger fram skadad. Positionsljus höger bak ur funktion"
-      },
-      "hasUnpaidLoan": false,
-      "registrationCountry": "se",
-      "importedForPersonalUse": false,
+      "finishType": "Solid",
+      "exteriorColor": "Black",
       "heading1": "Volvo V90",
       "heading2": "T5",
       "heading3": "Inscription Panorama Ljus Läder, Drag"
     },
+    "car360Spin": null,
+    "testDriveAllowed": true,
+    "certified": false,
+    "objectType": "CAR",
+    "statisticalValuation": {
+      "bpGreen": null,
+      "bpOrange": 204886,
+      "bpWhite": 204886,
+      "marketPrice": 204886
+    },
+    "buyNowAmount": null,
+    "sellMethod": "BIDDING",
+    "orderableAdditionalServices": {
+      "tradein": false,
+      "transport": true,
+      "insurance": true,
+      "finance": true,
+      "warranty": true,
+      "extraTires": false
+    },
+    "isFixedPrice": false,
+    "vehicleType": "CAR",
+    "leaseReturnProperties": {},
+    "baseObjectId": "513314",
+    "initialBuyNowAmount": null,
+    "isReleasable": false,
+    "id": "7291762",
+    "offsiteSalesContact": null,
+    "presentationApproved": false,
+    "createdAt": "2026-10-12 07:10:46.423244+00:00",
+    "state": "AUCTION_RESOLUTION",
+    "reducedPrice": false,
     "baseObject": {
-      "exteriorColor": "Black",
-      "registrationPlate": "MFO704",
-      "year": "2017",
       "body": "Wagon",
+      "modelId": null,
+      "exteriorColor": "Black",
+      "baseObjectType": "CAR",
+      "registrationCountry": "se",
+      "odometerUnit": "km",
+      "familyName": "V90",
+      "odometerReading": 188600,
+      "earliestAvailableAt": null,
+      "brand": "Volvo",
+      "registrationPlate": "MFO704",
+      "fuels": [
+        {
+          "fuelCode": "Petrol",
+          "powerUnit": "EG",
+          "enginePower": 187,
+          "enginePowerHp": 254,
+          "fuelTankVolume": ""
+        }
+      ],
+      "id": "513314",
       "authorityRegisterInformation": {
-        "additionalTechSpecification": {
-          "raceCar": null,
-          "wheelbase1": 2941,
-          "wheelbase2": null,
-          "wheelbase3": null,
-          "wheelbase4": null,
-          "equipment1": null,
-          "equipment2": null,
-          "equipment3": null,
-          "maximumSpeed": 230,
-          "numAxleShafts": "",
-          "passengerAirBag": true,
-          "tyreDimensionRear": "255/40R19 100W",
-          "tyreDimensionFront": "255/40R19 100W",
-          "dualSteeringControl": null
-        },
-        "environmentalClassification": {
-          "fuels": [
-            {
-              "co2": 154,
-              "nox": "",
-              "nox4": null,
-              "fuelCode": "Petrol",
-              "hcThcNox": "",
-              "consumption": 6.8,
-              "noiseLevel": 69,
-              "emissionUnit": "g/km",
-              "innovationCo2": null,
-              "particleValue": "",
-              "particleMass4": null,
-              "consumptionUnit": "6,8",
-              "rangeNedcDrive": null,
-              "rangeWltpDrive": null,
-              "consumptionUrban": 9,
-              "rangeCityWltpDrive": null,
-              "consumptionExtraUrban": 5.6,
-              "electricEnergyConsumption": null,
-              "energyConsumptionWltpDrive": null
-            }
-          ],
-          "ecoFriendly": false,
-          "emissionClass": "EURO 6",
-          "innovationCode": null,
-          "environmentalClass": null,
-          "environmentalClassEuro": "6"
-        },
-        "vehicleStatus": {
-          "tax": 1306
-        },
-        "registrationInformation": {
-          "registrationPlate": "MFO704",
-          "deregistrationDate": null,
-          "deregistrationText": null,
-          "deregistrationReason": null
-        },
         "generalTechSpecification": {
           "eeg": "e4*2007/46*1067*00",
           "fuels": [
@@ -654,6 +636,55 @@
           "inspectionValidToDate": "2027-07-31",
           "inspectionExemptionGroup": null
         },
+        "environmentalClassification": {
+          "fuels": [
+            {
+              "co2": 154,
+              "nox": "",
+              "nox4": null,
+              "fuelCode": "Petrol",
+              "hcThcNox": "",
+              "consumption": 6.8,
+              "noiseLevel": 69,
+              "emissionUnit": "g/km",
+              "innovationCo2": null,
+              "particleValue": "",
+              "particleMass4": null,
+              "consumptionUnit": "6,8",
+              "rangeNedcDrive": null,
+              "rangeWltpDrive": null,
+              "consumptionUrban": 9,
+              "rangeCityWltpDrive": null,
+              "consumptionExtraUrban": 5.6,
+              "electricEnergyConsumption": null,
+              "energyConsumptionWltpDrive": null
+            }
+          ],
+          "ecoFriendly": false,
+          "emissionClass": "EURO 6",
+          "innovationCode": null,
+          "environmentalClass": null,
+          "environmentalClassEuro": "6"
+        },
+        "additionalTechSpecification": {
+          "raceCar": null,
+          "wheelbase1": 2941,
+          "wheelbase2": null,
+          "wheelbase3": null,
+          "wheelbase4": null,
+          "equipment1": null,
+          "equipment2": null,
+          "equipment3": null,
+          "maximumSpeed": 230,
+          "numAxleShafts": "",
+          "passengerAirBag": true,
+          "tyreDimensionRear": "255/40R19 100W",
+          "tyreDimensionFront": "255/40R19 100W",
+          "dualSteeringControl": null
+        },
+        "vehicleStatus": {
+          "tax": 1306
+        },
         "vehicleInformation": {
           "vin": "YV1PW10BDH1003998",
           "body": "AC",
@@ -674,32 +705,21 @@
           "registrationDate": "2016-09-26",
           "initialTrafficDate": "2016-10-07",
           "registrationPlateReused": null
+        },
+        "registrationInformation": {
+          "registrationPlate": "MFO704",
+          "deregistrationDate": null,
+          "deregistrationText": null,
+          "deregistrationReason": null
         }
       },
-      "brand": "Volvo",
-      "id": "513314",
-      "fuels": [
-        {
-          "fuelCode": "Petrol",
-          "powerUnit": "EG",
-          "enginePower": 187,
-          "enginePowerHp": 254,
-          "fuelTankVolume": ""
-        }
-      ],
-      "gearbox": "Automatic",
-      "fabricAndMake": "VOLVO",
-      "baseObjectType": "CAR",
-      "modelId": null,
-      "odometerReading": 188600,
       "modelName": "V90 T5 (254hk)",
-      "salesFlow": "CONSUMER_CARS",
-      "state": "PREPARING_SALES_AGREEMENT",
-      "odometerUnit": "km",
-      "earliestAvailableAt": null,
-      "registrationCountry": "se",
       "createdAt": "2026-09-01T16:42:19.823903+00:00",
-      "familyName": "V90",
+      "state": "PREPARING_SALES_AGREEMENT",
+      "gearbox": "Automatic",
+      "salesFlow": "CONSUMER_CARS",
+      "year": "2017",
+      "fabricAndMake": "VOLVO",
       "technicalSpecification": {
         "modelId": null,
         "vehicle": {
@@ -711,26 +731,6 @@
         "year": "2017"
       }
     },
-    "id": "7291762",
-    "leaseReturnProperties": {},
-    "vehicleType": "CAR",
-    "presentationApproved": false,
-    "baseObjectId": "513314",
-    "isFixedPrice": false,
-    "certified": false,
-    "objectType": "CAR",
-    "state": "AUCTION_RESOLUTION",
-    "initialBuyNowAmount": null,
-    "statisticalValuation": {
-      "bpWhite": 204886,
-      "marketPrice": 204886,
-      "bpGreen": null,
-      "bpOrange": 204886
-    },
-    "testDriveAllowed": true,
-    "buyNowAmount": null,
-    "isReleasable": false,
-    "createdAt": "2026-10-12 07:10:46.423244+00:00",
     "exportable": true,
     "deductibleVat": false,
     "collisionWarranty": null,
@@ -2981,6 +2981,6 @@
     "closedAt": "2026-10-30T10:31:50.168278+00:00",
     "updatedAt": "2026-10-30T14:08:20.689056+00:00"
   },
-  "_scraped_at": "2026-10-30T14:08:54.426016+00:00",
+  "_scraped_at": "2026-10-30T16:16:15.170901+00:00",
   "_url": "https://www.kvd.se/auktioner/volvo-v90-t5-254hk-309198"
 }

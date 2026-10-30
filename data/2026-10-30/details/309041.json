@@ -44,235 +44,69 @@
   "eurBuyNowAmount": null,
   "winningBid": null,
   "processObject": {
-    "objectType": "CAR",
-    "buyNowAmount": null,
-    "reducedPrice": false,
-    "testDriveAllowed": true,
-    "isFixedPrice": false,
-    "baseObject": {
-      "gearbox": null,
-      "baseObjectType": "CAR",
-      "odometerReading": 155000,
-      "authorityRegisterInformation": {
-        "vehicleOrigin": {
-          "originCode": "INFÖRT",
-          "originCodeReason": null,
-          "importerIdentifier": null,
-          "preRegistrationDate": null,
-          "importRegistrationDate": null,
-          "importedForPersonalUse": false,
-          "importedPreviouslyRegistered": false
-        },
-        "generalTechSpecification": {
-          "eeg": "e1*2001/116*0470*19",
-          "fuels": [
-            {
-              "fuelCode": "Diesel",
-              "powerUnit": "EG",
-              "enginePower": 80,
-              "enginePowerHp": 109,
-              "fuelTankVolume": ""
-            }
-          ],
-          "width": 1812,
-          "height": 1572,
-          "length": 4439,
-          "gearbox": null,
-          "variant": "M212P2",
-          "version": "MZBA1502",
-          "taxWeight": 1490,
-          "curbWeight": 1490,
-          "maxPayload": 495,
-          "totalWeight": 1985,
-          "chassisCode1": null,
-          "chassisCode2": null,
-          "cubicCapacity": "1461",
-          "numPassengers": "4",
-          "numberOfSeats": 5,
-          "fourWheelDrive": false,
-          "maxPullWeightB": 1515,
-          "clutchMechanism1": null,
-          "clutchMechanism2": null,
-          "maxTrailerWeight": null,
-          "chassisCodeSupplement": null,
-          "maxPullWieghtNoBreaks": null,
-          "maxPullWeightBExtended": null,
-          "maxSingle Axle TrailerWeight": null
-        },
-        "environmentalClassification": {
-          "fuels": [
-            {
-              "co2": 107,
-              "nox": "",
-              "nox4": null,
-              "fuelCode": "Diesel",
-              "hcThcNox": "",
-              "consumption": 4.1,
-              "noiseLevel": 69,
-              "emissionUnit": "g/km",
-              "innovationCo2": null,
-              "particleValue": "",
-              "particleMass4": null,
-              "consumptionUnit": "4,1",
-              "rangeNedcDrive": null,
-              "rangeWltpDrive": null,
-              "consumptionUrban": 4.4,
-              "rangeCityWltpDrive": null,
-              "consumptionExtraUrban": 3.9,
-              "electricEnergyConsumption": null,
-              "energyConsumptionWltpDrive": null
-            }
-          ],
-          "ecoFriendly": false,
-          "emissionClass": "EURO 6",
-          "innovationCode": null,
-          "environmentalClass": null,
-          "environmentalClassEuro": "6"
-        },
-        "vehicleStatus": {
-          "tax": 2056
-        },
-        "vehicleInspectionInformation": {
-          "inspections": [
-            {
-              "inspectionType": "6",
-              "odometerReading": 151035,
-              "dateOfInspection": "2026-03-13"
-            },
-            {
-              "inspectionType": "5",
-              "odometerReading": 150993,
-              "dateOfInspection": "2026-03-06"
-            }
-          ],
-          "inspectionGroup": "36/24/14",
-          "odometerReading": 151035,
-          "inspectionPeriod": "2026-03-13 - 2027-05-31",
-          "dateOfInspection": "2026-03-13",
-          "inspectionValidToDate": "2027-05-31",
-          "inspectionExemptionGroup": null
-        },
-        "registrationInformation": {
-          "registrationPlate": "LMT546",
-          "deregistrationDate": null,
-          "deregistrationText": null,
-          "deregistrationReason": null
-        },
-        "vehicleInformation": {
-          "vin": "WDD2462121N243402",
-          "body": "AC",
-          "type": "CAR",
-          "year": "2018",
-          "model": "B 180 D",
-          "rawType": "PB",
-          "modelYear": null,
-          "categoryEu": "e1*2001/116*0470*19",
-          "groupNumber": "MB 512123",
-          "modelNumber": "MB 000000",
-          "chassisNumber": "WDD2462121N243402",
-          "exteriorColor": "White",
-          "fabricAndMake": "MERCEDES-BENZ",
-          "baseObjectType": "CAR",
-          "manufactureCode": null,
-          "manufactureMonth": "201801",
-          "registrationDate": "2018-01-23",
-          "initialTrafficDate": "2018-12-21",
-          "registrationPlateReused": null
-        },
-        "additionalTechSpecification": {
-          "raceCar": null,
-          "wheelbase1": 2699,
-          "wheelbase2": null,
-          "wheelbase3": null,
-          "wheelbase4": null,
-          "equipment1": null,
-          "equipment2": null,
-          "equipment3": null,
-          "maximumSpeed": 190,
-          "numAxleShafts": "",
-          "passengerAirBag": false,
-          "tyreDimensionRear": "195/65 R15 91T",
-          "tyreDimensionFront": "195/65 R15 91T",
-          "dualSteeringControl": null
-        }
-      },
-      "fuels": [
-        {
-          "fuelCode": "Diesel",
-          "powerUnit": "EG",
-          "enginePower": 80,
-          "enginePowerHp": 109,
-          "fuelTankVolume": ""
-        }
-      ],
-      "earliestAvailableAt": null,
-      "modelName": "B 180 d W246 (109hk)",
-      "salesFlow": "CONSUMER_CARS",
-      "registrationPlate": "LMT546",
-      "state": "PREPARING_SALES_AGREEMENT",
-      "odometerUnit": "km",
-      "fabricAndMake": "MERCEDES-BENZ",
-      "registrationCountry": "se",
-      "id": "521901",
-      "familyName": "B-Klass",
-      "modelId": null,
-      "year": "2018",
-      "createdAt": "2026-10-11T11:19:07.831702+00:00",
-      "brand": "Mercedes-Benz",
-      "body": "MPV",
-      "exteriorColor": "White",
-      "technicalSpecification": {
-        "modelId": null,
-        "vehicle": {
-          "brand": "Mercedes-Benz",
-          "body": "MPV",
-          "modelName": "B 180 d W246 (109hk)",
-          "familyName": "B-Klass"
-        },
-        "year": "2018"
-      }
+    "orderableAdditionalServices": {
+      "tradein": false,
+      "transport": true,
+      "insurance": true,
+      "finance": true,
+      "warranty": true,
+      "extraTires": false
     },
-    "vehicleType": "CAR",
-    "initialBuyNowAmount": null,
-    "baseObjectId": "521901",
-    "conditionClassification": "TESTED",
+    "car360Spin": null,
     "proactiveBrokering": null,
-    "presentationApproved": false,
-    "state": "AUCTION_RESOLUTION",
+    "displayCar360Spin": true,
+    "offsiteSalesContact": null,
+    "sellMethod": "BIDDING",
+    "reducedPrice": false,
+    "conditionClassification": "TESTED",
     "properties": {
-      "grades": {
-        "BRAKES": {
-          "max": 3,
-          "value": 2,
-          "min": 1
-        },
-        "TOTAL": {
-          "max": 5,
-          "value": 3,
-          "min": 1
-        },
-        "TECHNOLOGY_AND_EQUIPMENT": {
-          "max": 3,
-          "value": 2,
-          "min": 1
-        },
-        "ENGINE_AND_GEARBOX": {
-          "max": 3,
-          "value": 2,
-          "min": 1
-        },
-        "INTERIOR": {
-          "max": 5,
-          "value": 3,
-          "min": 1
-        },
-        "EXTERIOR": {
-          "max": 5,
-          "value": 3,
-          "min": 1
-        }
-      },
-      "numberOfKeys": 2,
+      "exteriorColor": "White",
+      "brand": "Mercedes",
+      "mediation": true,
+      "curbWeight": 1490,
+      "maxPayload": 495,
+      "equipment": [
+        "Antisladdsystem",
+        "Antispinn",
+        "Autobroms",
+        "Avtagbar dragkrok",
+        "Backkamera",
+        "Bluetooth",
+        "CD-Stereo",
+        "Elhiss bak",
+        "Elhiss fram",
+        "Elspeglar",
+        "Farthållare",
+        "Fjärrlås",
+        "Isofix bak",
+        "Klimatanläggning",
+        "LED-strålkastare",
+        "Nyckellöst startsystem",
+        "Parkeringssensorer bak",
+        "Parkeringssensorer fram",
+        "Radio",
+        "Regnsensor",
+        "Smartphone integration",
+        "Start/Stop-funktion",
+        "Stolsvärme fram",
+        "Urkopplingsbar passagerarairbag",
+        "USB-ingång"
+      ],
+      "inspectionValidToDate": "2027-05-31",
+      "odometerUnit": "km",
+      "length": 4439,
+      "finishType": "Solid",
+      "textile": "Delläder",
+      "saleLimitedToCorporate": false,
+      "chassisNumber": "WDD2462121N243402",
+      "title": "Mercedes B 180 d W246 (109hk)",
+      "dateOfInspection": "2026-03-13",
+      "inspectionPeriod": "2026-03-13 - 2027-05-31",
+      "totalWeight": 1985,
+      "registrationPlateCountry": "se",
+      "exportable": true,
+      "residualLoanValue": 0,
+      "taxFee": 2056,
       "formattedEquipment": [
         {
           "key": "ANTISLADDSYSTEM",
@@ -425,45 +259,123 @@
           "priority": 24
         }
       ],
-      "exportable": true,
-      "mustExport": false,
-      "deductibleVat": false,
-      "manufactureMonth": "201801",
-      "totalWeight": 1985,
-      "dateOfInspection": "2026-03-13",
-      "registrationPlate": "LMT546",
-      "equipment": [
-        "Antisladdsystem",
-        "Antispinn",
-        "Autobroms",
-        "Avtagbar dragkrok",
-        "Backkamera",
-        "Bluetooth",
-        "CD-Stereo",
-        "Elhiss bak",
-        "Elhiss fram",
-        "Elspeglar",
-        "Farthållare",
-        "Fjärrlås",
-        "Isofix bak",
-        "Klimatanläggning",
-        "LED-strålkastare",
-        "Nyckellöst startsystem",
-        "Parkeringssensorer bak",
-        "Parkeringssensorer fram",
-        "Radio",
-        "Regnsensor",
-        "Smartphone integration",
-        "Start/Stop-funktion",
-        "Stolsvärme fram",
-        "Urkopplingsbar passagerarairbag",
-        "USB-ingång"
-      ],
-      "taxWeight": 1490,
-      "odometerUnit": "km",
-      "mediation": true,
-      "ecoFriendly": false,
+      "familyName": "B-Klass",
+      "environmentalClassEuro": "6",
       "towbar": false,
+      "isRepairObject": false,
+      "body": "MPV",
+      "numberOfSeats": 5,
+      "maxPullWeightB": 1515,
+      "fuels": [
+        {
+          "enginePower": 109,
+          "consumption": 4.1,
+          "co2": 107,
+          "fuelCode": "Diesel"
+        }
+      ],
+      "grades": {
+        "INTERIOR": {
+          "value": 3,
+          "min": 1,
+          "max": 5
+        },
+        "TOTAL": {
+          "value": 3,
+          "min": 1,
+          "max": 5
+        },
+        "ENGINE_AND_GEARBOX": {
+          "value": 2,
+          "min": 1,
+          "max": 3
+        },
+        "EXTERIOR": {
+          "value": 3,
+          "min": 1,
+          "max": 5
+        },
+        "BRAKES": {
+          "value": 2,
+          "min": 1,
+          "max": 3
+        },
+        "TECHNOLOGY_AND_EQUIPMENT": {
+          "value": 2,
+          "min": 1,
+          "max": 3
+        }
+      },
+      "odometerReading": 154390,
+      "initialTrafficDate": "2018-12-21",
+      "mustExport": false,
+      "manufactureMonth": "201801",
+      "ecoFriendly": false,
+      "deductibleVat": false,
+      "numberOfKeys": 2,
+      "registrationPlate": "LMT546",
+      "numberOfPreviousOwners": 2,
+      "heavyEquipment": false,
+      "modelYear": 2018,
+      "height": 1572,
+      "gearbox": "Automatic",
+      "modelName": "B 180 d W246 (109hk)",
+      "taxWeight": 1490,
+      "width": 1812,
+      "remarks": {
+        "INTERIOR": [],
+        "ENGINE_AND_GEARBOX": [
+          {
+            "key": "Oljeläckage, ej lokaliserat",
+            "id": "0",
+            "category": "ENGINE_AND_GEARBOX"
+          },
+          {
+            "key": "Plastkåpa över motor, bristfällig fastsättning",
+            "id": "1",
+            "category": "ENGINE_AND_GEARBOX"
+          }
+        ],
+        "EXTERIOR": [
+          {
+            "key": "Stenskott i vindruta",
+            "id": "0",
+            "category": "EXTERIOR"
+          },
+          {
+            "key": "Dålig linjepassning på stötfångare bak",
+            "id": "1",
+            "category": "EXTERIOR"
+          },
+          {
+            "key": "Bilen är delvis omlackerad",
+            "id": "2",
+            "category": "EXTERIOR"
+          }
+        ],
+        "BRAKES": [
+          {
+            "key": "Bromsskivor fram är slitna, behöver bytas inom 6 månader",
+            "id": "0",
+            "category": "BRAKES"
+          }
+        ],
+        "TECHNOLOGY_AND_EQUIPMENT": [
+          {
+            "key": "Styrled höger yttre, glapp",
+            "id": "0",
+            "category": "TECHNOLOGY_AND_EQUIPMENT"
+          }
+        ],
+        "TIRES": [
+          {
+            "key": "Olika fabrikat på extradäck",
+            "id": "0",
+            "category": "TIRES"
+          }
+        ]
+      },
+      "drivingBan": false,
       "remarksLocalized": {
         "TIRES": "Olika fabrikat på extradäck",
         "BRAKES": "Bromsskivor fram är slitna, behöver bytas inom 6 månader",
@@ -472,127 +384,215 @@
         "ENGINE_AND_GEARBOX": "Oljeläckage, ej lokaliserat. Plastkåpa över motor, bristfällig fastsättning",
         "TECHNOLOGY_AND_EQUIPMENT": "Styrled höger yttre, glapp"
       },
-      "width": 1812,
-      "body": "MPV",
-      "exteriorColor": "White",
-      "remarks": {
-        "TIRES": [
-          {
-            "category": "TIRES",
-            "id": "0",
-            "key": "Olika fabrikat på extradäck"
-          }
-        ],
-        "BRAKES": [
-          {
-            "category": "BRAKES",
-            "id": "0",
-            "key": "Bromsskivor fram är slitna, behöver bytas inom 6 månader"
-          }
-        ],
-        "TECHNOLOGY_AND_EQUIPMENT": [
-          {
-            "category": "TECHNOLOGY_AND_EQUIPMENT",
-            "id": "0",
-            "key": "Styrled höger yttre, glapp"
-          }
-        ],
-        "ENGINE_AND_GEARBOX": [
-          {
-            "category": "ENGINE_AND_GEARBOX",
-            "id": "0",
-            "key": "Oljeläckage, ej lokaliserat"
-          },
-          {
-            "category": "ENGINE_AND_GEARBOX",
-            "id": "1",
-            "key": "Plastkåpa över motor, bristfällig fastsättning"
-          }
-        ],
-        "INTERIOR": [],
-        "EXTERIOR": [
-          {
-            "category": "EXTERIOR",
-            "id": "0",
-            "key": "Stenskott i vindruta"
-          },
-          {
-            "category": "EXTERIOR",
-            "id": "1",
-            "key": "Dålig linjepassning på stötfångare bak"
-          },
-          {
-            "category": "EXTERIOR",
-            "id": "2",
-            "key": "Bilen är delvis omlackerad"
-          }
-        ]
-      },
-      "numberOfPreviousOwners": 2,
-      "fuels": [
-        {
-          "fuelCode": "Diesel",
-          "co2": 107,
-          "consumption": 4.1,
-          "enginePower": 109
-        }
-      ],
-      "textile": "Delläder",
-      "maxPayload": 495,
-      "inspectionPeriod": "2026-03-13 - 2027-05-31",
-      "inspectionValidToDate": "2027-05-31",
-      "saleLimitedToCorporate": false,
       "hasUnpaidLoan": false,
-      "heavyEquipment": false,
-      "residualLoanValue": 0,
-      "brand": "Mercedes",
-      "gearbox": "Automatic",
-      "height": 1572,
-      "maxPullWeightB": 1515,
-      "length": 4439,
-      "environmentalClassEuro": "6",
-      "curbWeight": 1490,
-      "drivingBan": false,
-      "initialTrafficDate": "2018-12-21",
-      "chassisNumber": "WDD2462121N243402",
-      "familyName": "B-Klass",
-      "finishType": "Solid",
-      "importedForPersonalUse": false,
-      "isRepairObject": false,
-      "title": "Mercedes B 180 d W246 (109hk)",
-      "odometerReading": 154390,
-      "modelName": "B 180 d W246 (109hk)",
-      "modelYear": 2018,
-      "numberOfSeats": 5,
-      "registrationPlateCountry": "se",
       "registrationCountry": "se",
-      "taxFee": 2056,
+      "importedForPersonalUse": false,
       "heading1": "Mercedes B-Klass",
       "heading2": "B 180 d W246",
       "heading3": null
     },
-    "orderableAdditionalServices": {
-      "tradein": false,
-      "transport": true,
-      "insurance": true,
-      "finance": true,
-      "warranty": true,
-      "extraTires": false
+    "baseObject": {
+      "exteriorColor": "White",
+      "registrationPlate": "LMT546",
+      "year": "2018",
+      "body": "MPV",
+      "authorityRegisterInformation": {
+        "additionalTechSpecification": {
+          "raceCar": null,
+          "wheelbase1": 2699,
+          "wheelbase2": null,
+          "wheelbase3": null,
+          "wheelbase4": null,
+          "equipment1": null,
+          "equipment2": null,
+          "equipment3": null,
+          "maximumSpeed": 190,
+          "numAxleShafts": "",
+          "passengerAirBag": false,
+          "tyreDimensionRear": "195/65 R15 91T",
+          "tyreDimensionFront": "195/65 R15 91T",
+          "dualSteeringControl": null
+        },
+        "environmentalClassification": {
+          "fuels": [
+            {
+              "co2": 107,
+              "nox": "",
+              "nox4": null,
+              "fuelCode": "Diesel",
+              "hcThcNox": "",
+              "consumption": 4.1,
+              "noiseLevel": 69,
+              "emissionUnit": "g/km",
+              "innovationCo2": null,
+              "particleValue": "",
+              "particleMass4": null,
+              "consumptionUnit": "4,1",
+              "rangeNedcDrive": null,
+              "rangeWltpDrive": null,
+              "consumptionUrban": 4.4,
+              "rangeCityWltpDrive": null,
+              "consumptionExtraUrban": 3.9,
+              "electricEnergyConsumption": null,
+              "energyConsumptionWltpDrive": null
+            }
+          ],
+          "ecoFriendly": false,
+          "emissionClass": "EURO 6",
+          "innovationCode": null,
+          "environmentalClass": null,
+          "environmentalClassEuro": "6"
+        },
+        "vehicleStatus": {
+          "tax": 2056
+        },
+        "registrationInformation": {
+          "registrationPlate": "LMT546",
+          "deregistrationDate": null,
+          "deregistrationText": null,
+          "deregistrationReason": null
+        },
+        "generalTechSpecification": {
+          "eeg": "e1*2001/116*0470*19",
+          "fuels": [
+            {
+              "fuelCode": "Diesel",
+              "powerUnit": "EG",
+              "enginePower": 80,
+              "enginePowerHp": 109,
+              "fuelTankVolume": ""
+            }
+          ],
+          "width": 1812,
+          "height": 1572,
+          "length": 4439,
+          "gearbox": null,
+          "variant": "M212P2",
+          "version": "MZBA1502",
+          "taxWeight": 1490,
+          "curbWeight": 1490,
+          "maxPayload": 495,
+          "totalWeight": 1985,
+          "chassisCode1": null,
+          "chassisCode2": null,
+          "cubicCapacity": "1461",
+          "numPassengers": "4",
+          "numberOfSeats": 5,
+          "fourWheelDrive": false,
+          "maxPullWeightB": 1515,
+          "clutchMechanism1": null,
+          "clutchMechanism2": null,
+          "maxTrailerWeight": null,
+          "chassisCodeSupplement": null,
+          "maxPullWieghtNoBreaks": null,
+          "maxPullWeightBExtended": null,
+          "maxSingle Axle TrailerWeight": null
+        },
+        "vehicleOrigin": {
+          "originCode": "INFÖRT",
+          "originCodeReason": null,
+          "importerIdentifier": null,
+          "preRegistrationDate": null,
+          "importRegistrationDate": null,
+          "importedForPersonalUse": false,
+          "importedPreviouslyRegistered": false
+        },
+        "vehicleInspectionInformation": {
+          "inspections": [
+            {
+              "inspectionType": "6",
+              "odometerReading": 151035,
+              "dateOfInspection": "2026-03-13"
+            },
+            {
+              "inspectionType": "5",
+              "odometerReading": 150993,
+              "dateOfInspection": "2026-03-06"
+            }
+          ],
+          "inspectionGroup": "36/24/14",
+          "odometerReading": 151035,
+          "inspectionPeriod": "2026-03-13 - 2027-05-31",
+          "dateOfInspection": "2026-03-13",
+          "inspectionValidToDate": "2027-05-31",
+          "inspectionExemptionGroup": null
+        },
+        "vehicleInformation": {
+          "vin": "WDD2462121N243402",
+          "body": "AC",
+          "type": "CAR",
+          "year": "2018",
+          "model": "B 180 D",
+          "rawType": "PB",
+          "modelYear": null,
+          "categoryEu": "e1*2001/116*0470*19",
+          "groupNumber": "MB 512123",
+          "modelNumber": "MB 000000",
+          "chassisNumber": "WDD2462121N243402",
+          "exteriorColor": "White",
+          "fabricAndMake": "MERCEDES-BENZ",
+          "baseObjectType": "CAR",
+          "manufactureCode": null,
+          "manufactureMonth": "201801",
+          "registrationDate": "2018-01-23",
+          "initialTrafficDate": "2018-12-21",
+          "registrationPlateReused": null
+        }
+      },
+      "brand": "Mercedes-Benz",
+      "id": "521901",
+      "fuels": [
+        {
+          "fuelCode": "Diesel",
+          "powerUnit": "EG",
+          "enginePower": 80,
+          "enginePowerHp": 109,
+          "fuelTankVolume": ""
+        }
+      ],
+      "gearbox": null,
+      "fabricAndMake": "MERCEDES-BENZ",
+      "baseObjectType": "CAR",
+      "modelId": null,
+      "odometerReading": 155000,
+      "modelName": "B 180 d W246 (109hk)",
+      "salesFlow": "CONSUMER_CARS",
+      "state": "PREPARING_SALES_AGREEMENT",
+      "odometerUnit": "km",
+      "earliestAvailableAt": null,
+      "registrationCountry": "se",
+      "createdAt": "2026-10-11T11:19:07.831702+00:00",
+      "familyName": "B-Klass",
+      "technicalSpecification": {
+        "modelId": null,
+        "vehicle": {
+          "brand": "Mercedes-Benz",
+          "body": "MPV",
+          "modelName": "B 180 d W246 (109hk)",
+          "familyName": "B-Klass"
+        },
+        "year": "2018"
+      }
     },
-    "offsiteSalesContact": null,
-    "leaseReturnProperties": {},
     "id": "7291858",
-    "displayCar360Spin": true,
+    "leaseReturnProperties": {},
+    "vehicleType": "CAR",
+    "presentationApproved": false,
+    "baseObjectId": "521901",
+    "isFixedPrice": false,
     "certified": false,
-    "sellMethod": "BIDDING",
-    "isReleasable": false,
-    "car360Spin": null,
+    "objectType": "CAR",
+    "state": "AUCTION_RESOLUTION",
+    "initialBuyNowAmount": null,
     "statisticalValuation": {
-      "bpGreen": null,
       "bpWhite": 112077,
       "marketPrice": 112077,
+      "bpGreen": null,
       "bpOrange": 112077
     },
+    "testDriveAllowed": true,
+    "buyNowAmount": null,
+    "isReleasable": false,
     "createdAt": "2026-10-12 11:06:09.420680+00:00",
     "exportable": true,
     "deductibleVat": false,
@@ -2093,6 +2093,6 @@
     "closedAt": "2026-10-29T17:18:17.669792+00:00",
     "updatedAt": "2026-10-29T17:18:17.743368+00:00"
   },
-  "_scraped_at": "2026-10-30T14:09:53.914228+00:00",
+  "_scraped_at": "2026-10-30T16:17:18.705166+00:00",
   "_url": "https://www.kvd.se/auktioner/mercedes-b-180-d-w246-109hk-309041"
 }

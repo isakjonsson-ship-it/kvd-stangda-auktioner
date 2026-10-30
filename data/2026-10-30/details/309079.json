@@ -54,106 +54,235 @@
     "evaluationType": "BROKERING"
   },
   "processObject": {
-    "orderableAdditionalServices": {
-      "tradein": false,
-      "transport": true,
-      "insurance": true,
-      "finance": true,
-      "warranty": true,
-      "extraTires": false
-    },
-    "car360Spin": null,
-    "proactiveBrokering": null,
-    "displayCar360Spin": true,
-    "offsiteSalesContact": null,
-    "sellMethod": "BIDDING",
+    "objectType": "CAR",
+    "buyNowAmount": null,
     "reducedPrice": false,
-    "conditionClassification": "TESTED",
-    "properties": {
-      "adHeader": "Touareg V6 TDI 4Motion (286hk) R-Line, Executive",
-      "exteriorColor": "White",
-      "brand": "Volkswagen",
-      "mediation": true,
-      "curbWeight": 2355,
-      "maxPayload": 495,
-      "equipment": [
-        "4WD",
-        "Antispinn",
-        "Autobroms",
-        "Backkamera",
-        "Bluetooth",
-        "Elspeglar",
-        "Fjärrlås",
-        "GPS",
-        "Radio",
-        "Regnsensor",
-        "Stolsvärme fram",
-        "Sätesvärme bak",
-        "360-kamera",
-        "Adaptiv farthållare",
-        "Aktiv parkeringshjälp",
-        "Antisladdsystem",
-        "Assistanssystem",
-        "Auto hold",
-        "Dödavinkelvarnare",
-        "Eldriven baklucka",
-        "Elhiss bak",
-        "Elhiss fram",
-        "Elinfällbara speglar",
-        "Elstol med minnesfunktion förarplats",
-        "Elstol passagerarplats",
-        "Filbytesvarnare",
-        "Head-up display",
-        "Infällbar dragkrok",
-        "Isofix bak",
-        "Klimatanläggning",
-        "Kurvljus",
-        "Lastskydd/lastnät",
-        "IQ Light LED-strålkastare",
-        "Luftfjädring (justerbar)",
-        "Nyckellöst startsystem",
-        "Parkeringssensorer bak",
-        "Parkeringssensorer fram",
-        "Parkeringsvärmare med tidur",
-        "Rattvärme",
-        "Smartphone integration",
-        "Start/Stop-funktion",
-        "Urkopplingsbar passagerarairbag",
-        "USB-ingång",
-        "Öppningsbart panoramatak",
-        "Akustikpaket Extra",
-        "Komfortöppning baklucka",
-        "Filhållningsassistent plus Emergency Assist och köassistent",
-        "Navigationsenhet-premium",
-        "Parkeringsassistent",
-        "Filbytesassistent",
-        "Mirror Link",
-        "R-Line Black exteriörpaket",
-        "Ambientebelysning Plus",
-        "Intelligent Park Assist & Area view",
-        "Bagegelucka med easy open och easy close",
-        "Komfortsäten fram",
-        "Designpaket R-line",
-        "Dragpaket Easy park",
-        "Executivepaket",
-        "Innovationspaket",
-        "Innovision Cockpit"
+    "testDriveAllowed": true,
+    "isFixedPrice": false,
+    "baseObject": {
+      "gearbox": "Automatic",
+      "baseObjectType": "CAR",
+      "odometerReading": 145000,
+      "authorityRegisterInformation": {
+        "vehicleOrigin": {
+          "originCode": "INFÖRT",
+          "originCodeReason": null,
+          "importerIdentifier": null,
+          "preRegistrationDate": null,
+          "importRegistrationDate": null,
+          "importedForPersonalUse": false,
+          "importedPreviouslyRegistered": false
+        },
+        "generalTechSpecification": {
+          "eeg": "e1*2007/46*1827*09",
+          "fuels": [
+            {
+              "fuelCode": "Diesel",
+              "powerUnit": "EG",
+              "enginePower": 210,
+              "enginePowerHp": 286,
+              "fuelTankVolume": ""
+            }
+          ],
+          "width": 1984,
+          "height": 1646,
+          "length": 4878,
+          "gearbox": "Automatic",
+          "variant": "ACDENA1",
+          "version": "QA8QA8D5019G1BKVR64BFB1B",
+          "taxWeight": 2350,
+          "curbWeight": 2355,
+          "maxPayload": 495,
+          "totalWeight": 2850,
+          "chassisCode1": null,
+          "chassisCode2": null,
+          "cubicCapacity": "2967",
+          "numPassengers": "4",
+          "numberOfSeats": 5,
+          "fourWheelDrive": true,
+          "maxPullWeightB": 750,
+          "clutchMechanism1": null,
+          "clutchMechanism2": null,
+          "maxTrailerWeight": 3500,
+          "chassisCodeSupplement": null,
+          "maxPullWieghtNoBreaks": null,
+          "maxPullWeightBExtended": null,
+          "maxSingle Axle TrailerWeight": null
+        },
+        "environmentalClassification": {
+          "fuels": [
+            {
+              "co2": 173,
+              "nox": "",
+              "nox4": null,
+              "fuelCode": "Diesel",
+              "hcThcNox": "",
+              "consumption": 6.6,
+              "noiseLevel": 68,
+              "emissionUnit": "g/km",
+              "innovationCo2": null,
+              "particleValue": "",
+              "particleMass4": null,
+              "consumptionUnit": "6,6",
+              "rangeNedcDrive": null,
+              "rangeWltpDrive": null,
+              "consumptionUrban": 7.7,
+              "rangeCityWltpDrive": null,
+              "consumptionExtraUrban": 5.9,
+              "electricEnergyConsumption": null,
+              "energyConsumptionWltpDrive": null
+            }
+          ],
+          "ecoFriendly": false,
+          "emissionClass": "EURO 6",
+          "innovationCode": null,
+          "environmentalClass": null,
+          "environmentalClassEuro": "6"
+        },
+        "vehicleStatus": {
+          "tax": 6124
+        },
+        "vehicleInspectionInformation": {
+          "inspections": [
+            {
+              "inspectionType": "5",
+              "odometerReading": 135741,
+              "dateOfInspection": "2026-04-13"
+            },
+            {
+              "inspectionType": "5",
+              "odometerReading": 105448,
+              "dateOfInspection": "2025-02-06"
+            }
+          ],
+          "inspectionGroup": "36/24/14",
+          "odometerReading": 135741,
+          "inspectionPeriod": "2026-04-13 - 2027-06-30",
+          "dateOfInspection": "2026-04-13",
+          "inspectionValidToDate": "2027-06-30",
+          "inspectionExemptionGroup": null
+        },
+        "registrationInformation": {
+          "registrationPlate": "SJG26A",
+          "deregistrationDate": null,
+          "deregistrationText": null,
+          "deregistrationReason": null
+        },
+        "vehicleInformation": {
+          "vin": "WVGZZZCRZLD030906",
+          "body": "AC",
+          "type": "CAR",
+          "year": "2020",
+          "model": "TOUAREG",
+          "rawType": "PB",
+          "modelYear": null,
+          "categoryEu": "e1*2007/46*1827*09",
+          "groupNumber": "VW 865006",
+          "modelNumber": "VW 000000",
+          "chassisNumber": "WVGZZZCRZLD030906",
+          "exteriorColor": "White",
+          "fabricAndMake": "VOLKSWAGEN, VW",
+          "baseObjectType": "CAR",
+          "manufactureCode": null,
+          "manufactureMonth": "202003",
+          "registrationDate": "2020-03-10",
+          "initialTrafficDate": "2020-06-17",
+          "registrationPlateReused": null
+        },
+        "additionalTechSpecification": {
+          "raceCar": null,
+          "wheelbase1": 2899,
+          "wheelbase2": null,
+          "wheelbase3": null,
+          "wheelbase4": null,
+          "equipment1": null,
+          "equipment2": null,
+          "equipment3": null,
+          "maximumSpeed": 238,
+          "numAxleShafts": 2,
+          "passengerAirBag": false,
+          "tyreDimensionRear": "285/40 R21 109Y XL",
+          "tyreDimensionFront": "285/40 R21 109Y XL",
+          "dualSteeringControl": null
+        }
+      },
+      "fuels": [
+        {
+          "fuelCode": "Diesel",
+          "powerUnit": "EG",
+          "enginePower": 210,
+          "enginePowerHp": 286,
+          "fuelTankVolume": ""
+        }
       ],
-      "inspectionValidToDate": "2027-06-30",
+      "earliestAvailableAt": null,
+      "modelName": "Touareg V6 TDI 4Motion (286hk)",
+      "salesFlow": "CONSUMER_CARS",
+      "registrationPlate": "SJG26A",
+      "state": "PREPARING_SALES_AGREEMENT",
       "odometerUnit": "km",
-      "length": 4878,
-      "finishType": "Solid",
-      "textile": "Helläder",
-      "saleLimitedToCorporate": false,
-      "chassisNumber": "WVGZZZCRZLD030906",
-      "title": "VW Touareg V6 TDI 4Motion (286hk)",
-      "dateOfInspection": "2026-04-13",
-      "inspectionPeriod": "2026-04-13 - 2027-06-30",
-      "totalWeight": 2850,
-      "registrationPlateCountry": "se",
-      "exportable": true,
-      "residualLoanValue": 0,
-      "taxFee": 6124,
+      "fabricAndMake": "VOLKSWAGEN, VW",
+      "registrationCountry": "se",
+      "id": "514062",
+      "familyName": "Touareg",
+      "modelId": null,
+      "year": "2020",
+      "createdAt": "2026-09-04T10:40:28.419328+00:00",
+      "brand": "Volkswagen",
+      "body": "SUV",
+      "exteriorColor": "White",
+      "technicalSpecification": {
+        "modelId": null,
+        "vehicle": {
+          "brand": "Volkswagen",
+          "body": "SUV",
+          "modelName": "Touareg V6 TDI 4Motion (286hk)",
+          "familyName": "Touareg"
+        },
+        "year": "2020"
+      }
+    },
+    "vehicleType": "CAR",
+    "initialBuyNowAmount": null,
+    "baseObjectId": "514062",
+    "conditionClassification": "TESTED",
+    "proactiveBrokering": null,
+    "presentationApproved": false,
+    "state": "AUCTION_RESOLUTION",
+    "properties": {
+      "grades": {
+        "BRAKES": {
+          "max": 3,
+          "value": 3,
+          "min": 1
+        },
+        "TOTAL": {
+          "max": 5,
+          "value": 3,
+          "min": 1
+        },
+        "TECHNOLOGY_AND_EQUIPMENT": {
+          "max": 3,
+          "value": 2,
+          "min": 1
+        },
+        "ENGINE_AND_GEARBOX": {
+          "max": 3,
+          "value": 3,
+          "min": 1
+        },
+        "INTERIOR": {
+          "max": 5,
+          "value": 3,
+          "min": 1
+        },
+        "EXTERIOR": {
+          "max": 5,
+          "value": 3,
+          "min": 1
+        }
+      },
+      "numberOfKeys": 2,
       "formattedEquipment": [
         {
           "key": "4WD",
@@ -522,97 +651,81 @@
           "priority": 60
         }
       ],
-      "familyName": "Touareg",
-      "environmentalClassEuro": "6",
-      "towbar": false,
-      "isRepairObject": false,
-      "body": "SUV",
-      "numberOfSeats": 5,
-      "maxPullWeightB": 750,
-      "fuels": [
-        {
-          "enginePower": 286,
-          "consumption": 6.6,
-          "co2": 173,
-          "fuelCode": "Diesel"
-        }
-      ],
-      "grades": {
-        "INTERIOR": {
-          "value": 3,
-          "min": 1,
-          "max": 5
-        },
-        "TOTAL": {
-          "value": 3,
-          "min": 1,
-          "max": 5
-        },
-        "ENGINE_AND_GEARBOX": {
-          "value": 3,
-          "min": 1,
-          "max": 3
-        },
-        "EXTERIOR": {
-          "value": 3,
-          "min": 1,
-          "max": 5
-        },
-        "BRAKES": {
-          "value": 3,
-          "min": 1,
-          "max": 3
-        },
-        "TECHNOLOGY_AND_EQUIPMENT": {
-          "value": 2,
-          "min": 1,
-          "max": 3
-        }
-      },
-      "maxTrailerWeight": 3500,
-      "odometerReading": 148790,
-      "package": "R-Line, Executive",
-      "initialTrafficDate": "2020-06-17",
+      "exportable": true,
       "mustExport": false,
-      "manufactureMonth": "202003",
-      "ecoFriendly": false,
       "deductibleVat": false,
-      "numberOfKeys": 2,
+      "manufactureMonth": "202003",
+      "totalWeight": 2850,
+      "dateOfInspection": "2026-04-13",
       "registrationPlate": "SJG26A",
-      "numberOfPreviousOwners": 2,
-      "heavyEquipment": false,
-      "modelYear": 2020,
-      "height": 1646,
-      "gearbox": "Automatic",
-      "modelName": "Touareg V6 TDI 4Motion (286hk)",
+      "equipment": [
+        "4WD",
+        "Antispinn",
+        "Autobroms",
+        "Backkamera",
+        "Bluetooth",
+        "Elspeglar",
+        "Fjärrlås",
+        "GPS",
+        "Radio",
+        "Regnsensor",
+        "Stolsvärme fram",
+        "Sätesvärme bak",
+        "360-kamera",
+        "Adaptiv farthållare",
+        "Aktiv parkeringshjälp",
+        "Antisladdsystem",
+        "Assistanssystem",
+        "Auto hold",
+        "Dödavinkelvarnare",
+        "Eldriven baklucka",
+        "Elhiss bak",
+        "Elhiss fram",
+        "Elinfällbara speglar",
+        "Elstol med minnesfunktion förarplats",
+        "Elstol passagerarplats",
+        "Filbytesvarnare",
+        "Head-up display",
+        "Infällbar dragkrok",
+        "Isofix bak",
+        "Klimatanläggning",
+        "Kurvljus",
+        "Lastskydd/lastnät",
+        "IQ Light LED-strålkastare",
+        "Luftfjädring (justerbar)",
+        "Nyckellöst startsystem",
+        "Parkeringssensorer bak",
+        "Parkeringssensorer fram",
+        "Parkeringsvärmare med tidur",
+        "Rattvärme",
+        "Smartphone integration",
+        "Start/Stop-funktion",
+        "Urkopplingsbar passagerarairbag",
+        "USB-ingång",
+        "Öppningsbart panoramatak",
+        "Akustikpaket Extra",
+        "Komfortöppning baklucka",
+        "Filhållningsassistent plus Emergency Assist och köassistent",
+        "Navigationsenhet-premium",
+        "Parkeringsassistent",
+        "Filbytesassistent",
+        "Mirror Link",
+        "R-Line Black exteriörpaket",
+        "Ambientebelysning Plus",
+        "Intelligent Park Assist & Area view",
+        "Bagegelucka med easy open och easy close",
+        "Komfortsäten fram",
+        "Designpaket R-line",
+        "Dragpaket Easy park",
+        "Executivepaket",
+        "Innovationspaket",
+        "Innovision Cockpit"
+      ],
       "taxWeight": 2350,
-      "width": 1984,
-      "remarks": {
-        "INTERIOR": [],
-        "ENGINE_AND_GEARBOX": [],
-        "EXTERIOR": [
-          {
-            "key": "Flertal lackskador",
-            "id": "0",
-            "category": "EXTERIOR"
-          }
-        ],
-        "BRAKES": [],
-        "TECHNOLOGY_AND_EQUIPMENT": [
-          {
-            "key": "Missljud från baklucka öppning/stängning",
-            "id": "0",
-            "category": "TECHNOLOGY_AND_EQUIPMENT"
-          },
-          {
-            "key": "Assistanssystemlampan lyser",
-            "id": "1",
-            "category": "TECHNOLOGY_AND_EQUIPMENT"
-          }
-        ],
-        "TIRES": []
-      },
-      "drivingBan": false,
+      "odometerUnit": "km",
+      "mediation": true,
+      "ecoFriendly": false,
+      "towbar": false,
       "remarksLocalized": {
         "TIRES": null,
         "BRAKES": null,
@@ -621,215 +734,102 @@
         "ENGINE_AND_GEARBOX": null,
         "TECHNOLOGY_AND_EQUIPMENT": "Missljud från baklucka öppning/stängning. Assistanssystemlampan lyser"
       },
+      "width": 1984,
+      "body": "SUV",
+      "exteriorColor": "White",
+      "remarks": {
+        "TIRES": [],
+        "BRAKES": [],
+        "TECHNOLOGY_AND_EQUIPMENT": [
+          {
+            "category": "TECHNOLOGY_AND_EQUIPMENT",
+            "id": "0",
+            "key": "Missljud från baklucka öppning/stängning"
+          },
+          {
+            "category": "TECHNOLOGY_AND_EQUIPMENT",
+            "id": "1",
+            "key": "Assistanssystemlampan lyser"
+          }
+        ],
+        "ENGINE_AND_GEARBOX": [],
+        "INTERIOR": [],
+        "EXTERIOR": [
+          {
+            "category": "EXTERIOR",
+            "id": "0",
+            "key": "Flertal lackskador"
+          }
+        ]
+      },
+      "numberOfPreviousOwners": 2,
+      "adHeader": "Touareg V6 TDI 4Motion (286hk) R-Line, Executive",
+      "fuels": [
+        {
+          "fuelCode": "Diesel",
+          "co2": 173,
+          "consumption": 6.6,
+          "enginePower": 286
+        }
+      ],
+      "textile": "Helläder",
+      "maxTrailerWeight": 3500,
+      "maxPayload": 495,
+      "inspectionPeriod": "2026-04-13 - 2027-06-30",
+      "inspectionValidToDate": "2027-06-30",
+      "saleLimitedToCorporate": false,
+      "package": "R-Line, Executive",
       "hasUnpaidLoan": false,
-      "registrationCountry": "se",
+      "heavyEquipment": false,
+      "residualLoanValue": 0,
+      "brand": "Volkswagen",
+      "gearbox": "Automatic",
+      "height": 1646,
+      "maxPullWeightB": 750,
+      "length": 4878,
+      "environmentalClassEuro": "6",
+      "curbWeight": 2355,
+      "drivingBan": false,
+      "initialTrafficDate": "2020-06-17",
+      "chassisNumber": "WVGZZZCRZLD030906",
+      "familyName": "Touareg",
+      "finishType": "Solid",
       "importedForPersonalUse": false,
+      "isRepairObject": false,
+      "title": "VW Touareg V6 TDI 4Motion (286hk)",
+      "odometerReading": 148790,
+      "modelName": "Touareg V6 TDI 4Motion (286hk)",
+      "modelYear": 2020,
+      "numberOfSeats": 5,
+      "registrationPlateCountry": "se",
+      "registrationCountry": "se",
+      "taxFee": 6124,
       "heading1": "Volkswagen Touareg",
       "heading2": "V6 TDI 4Motion",
       "heading3": "R-Line, Executive"
     },
-    "baseObject": {
-      "exteriorColor": "White",
-      "registrationPlate": "SJG26A",
-      "year": "2020",
-      "body": "SUV",
-      "authorityRegisterInformation": {
-        "additionalTechSpecification": {
-          "raceCar": null,
-          "wheelbase1": 2899,
-          "wheelbase2": null,
-          "wheelbase3": null,
-          "wheelbase4": null,
-          "equipment1": null,
-          "equipment2": null,
-          "equipment3": null,
-          "maximumSpeed": 238,
-          "numAxleShafts": 2,
-          "passengerAirBag": false,
-          "tyreDimensionRear": "285/40 R21 109Y XL",
-          "tyreDimensionFront": "285/40 R21 109Y XL",
-          "dualSteeringControl": null
-        },
-        "environmentalClassification": {
-          "fuels": [
-            {
-              "co2": 173,
-              "nox": "",
-              "nox4": null,
-              "fuelCode": "Diesel",
-              "hcThcNox": "",
-              "consumption": 6.6,
-              "noiseLevel": 68,
-              "emissionUnit": "g/km",
-              "innovationCo2": null,
-              "particleValue": "",
-              "particleMass4": null,
-              "consumptionUnit": "6,6",
-              "rangeNedcDrive": null,
-              "rangeWltpDrive": null,
-              "consumptionUrban": 7.7,
-              "rangeCityWltpDrive": null,
-              "consumptionExtraUrban": 5.9,
-              "electricEnergyConsumption": null,
-              "energyConsumptionWltpDrive": null
-            }
-          ],
-          "ecoFriendly": false,
-          "emissionClass": "EURO 6",
-          "innovationCode": null,
-          "environmentalClass": null,
-          "environmentalClassEuro": "6"
-        },
-        "vehicleStatus": {
-          "tax": 6124
-        },
-        "registrationInformation": {
-          "registrationPlate": "SJG26A",
-          "deregistrationDate": null,
-          "deregistrationText": null,
-          "deregistrationReason": null
-        },
-        "generalTechSpecification": {
-          "eeg": "e1*2007/46*1827*09",
-          "fuels": [
-            {
-              "fuelCode": "Diesel",
-              "powerUnit": "EG",
-              "enginePower": 210,
-              "enginePowerHp": 286,
-              "fuelTankVolume": ""
-            }
-          ],
-          "width": 1984,
-          "height": 1646,
-          "length": 4878,
-          "gearbox": "Automatic",
-          "variant": "ACDENA1",
-          "version": "QA8QA8D5019G1BKVR64BFB1B",
-          "taxWeight": 2350,
-          "curbWeight": 2355,
-          "maxPayload": 495,
-          "totalWeight": 2850,
-          "chassisCode1": null,
-          "chassisCode2": null,
-          "cubicCapacity": "2967",
-          "numPassengers": "4",
-          "numberOfSeats": 5,
-          "fourWheelDrive": true,
-          "maxPullWeightB": 750,
-          "clutchMechanism1": null,
-          "clutchMechanism2": null,
-          "maxTrailerWeight": 3500,
-          "chassisCodeSupplement": null,
-          "maxPullWieghtNoBreaks": null,
-          "maxPullWeightBExtended": null,
-          "maxSingle Axle TrailerWeight": null
-        },
-        "vehicleOrigin": {
-          "originCode": "INFÖRT",
-          "originCodeReason": null,
-          "importerIdentifier": null,
-          "preRegistrationDate": null,
-          "importRegistrationDate": null,
-          "importedForPersonalUse": false,
-          "importedPreviouslyRegistered": false
-        },
-        "vehicleInspectionInformation": {
-          "inspections": [
-            {
-              "inspectionType": "5",
-              "odometerReading": 135741,
-              "dateOfInspection": "2026-04-13"
-            },
-            {
-              "inspectionType": "5",
-              "odometerReading": 105448,
-              "dateOfInspection": "2025-02-06"
-            }
-          ],
-          "inspectionGroup": "36/24/14",
-          "odometerReading": 135741,
-          "inspectionPeriod": "2026-04-13 - 2027-06-30",
-          "dateOfInspection": "2026-04-13",
-          "inspectionValidToDate": "2027-06-30",
-          "inspectionExemptionGroup": null
-        },
-        "vehicleInformation": {
-          "vin": "WVGZZZCRZLD030906",
-          "body": "AC",
-          "type": "CAR",
-          "year": "2020",
-          "model": "TOUAREG",
-          "rawType": "PB",
-          "modelYear": null,
-          "categoryEu": "e1*2007/46*1827*09",
-          "groupNumber": "VW 865006",
-          "modelNumber": "VW 000000",
-          "chassisNumber": "WVGZZZCRZLD030906",
-          "exteriorColor": "White",
-          "fabricAndMake": "VOLKSWAGEN, VW",
-          "baseObjectType": "CAR",
-          "manufactureCode": null,
-          "manufactureMonth": "202003",
-          "registrationDate": "2020-03-10",
-          "initialTrafficDate": "2020-06-17",
-          "registrationPlateReused": null
-        }
-      },
-      "brand": "Volkswagen",
-      "id": "514062",
-      "fuels": [
-        {
-          "fuelCode": "Diesel",
-          "powerUnit": "EG",
-          "enginePower": 210,
-          "enginePowerHp": 286,
-          "fuelTankVolume": ""
-        }
-      ],
-      "gearbox": "Automatic",
-      "fabricAndMake": "VOLKSWAGEN, VW",
-      "baseObjectType": "CAR",
-      "modelId": null,
-      "odometerReading": 145000,
-      "modelName": "Touareg V6 TDI 4Motion (286hk)",
-      "salesFlow": "CONSUMER_CARS",
-      "state": "PREPARING_SALES_AGREEMENT",
-      "odometerUnit": "km",
-      "earliestAvailableAt": null,
-      "registrationCountry": "se",
-      "createdAt": "2026-09-04T10:40:28.419328+00:00",
-      "familyName": "Touareg",
-      "technicalSpecification": {
-        "modelId": null,
-        "vehicle": {
-          "brand": "Volkswagen",
-          "body": "SUV",
-          "modelName": "Touareg V6 TDI 4Motion (286hk)",
-          "familyName": "Touareg"
-        },
-        "year": "2020"
-      }
+    "orderableAdditionalServices": {
+      "tradein": false,
+      "transport": true,
+      "insurance": true,
+      "finance": true,
+      "warranty": true,
+      "extraTires": false
     },
-    "id": "7291871",
+    "offsiteSalesContact": null,
     "leaseReturnProperties": {},
-    "vehicleType": "CAR",
-    "presentationApproved": false,
-    "baseObjectId": "514062",
-    "isFixedPrice": false,
+    "id": "7291871",
+    "displayCar360Spin": true,
     "certified": false,
-    "objectType": "CAR",
-    "state": "AUCTION_RESOLUTION",
-    "initialBuyNowAmount": null,
+    "sellMethod": "BIDDING",
+    "isReleasable": false,
+    "car360Spin": null,
     "statisticalValuation": {
+      "bpGreen": null,
       "bpWhite": 436162,
       "marketPrice": 436162,
-      "bpGreen": null,
       "bpOrange": 436162
     },
-    "testDriveAllowed": true,
-    "buyNowAmount": null,
-    "isReleasable": false,
     "createdAt": "2026-10-12 11:21:30.770631+00:00",
     "exportable": true,
     "deductibleVat": false,
@@ -2638,6 +2638,6 @@
     "closedAt": "2026-10-29T12:00:00.009938+00:00",
     "updatedAt": "2026-10-29T13:59:35.733054+00:00"
   },
-  "_scraped_at": "2026-10-30T14:09:18.520306+00:00",
+  "_scraped_at": "2026-10-30T16:16:40.944225+00:00",
   "_url": "https://www.kvd.se/auktioner/vw-touareg-v6-tdi-4motion-286hk-309079"
 }

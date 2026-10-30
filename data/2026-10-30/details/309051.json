@@ -44,101 +44,28 @@
   "eurBuyNowAmount": 20440,
   "winningBid": null,
   "processObject": {
-    "displayCar360Spin": true,
-    "conditionClassification": "TESTED",
+    "orderableAdditionalServices": {
+      "tradein": false,
+      "transport": true,
+      "insurance": true,
+      "finance": true,
+      "warranty": true,
+      "extraTires": true
+    },
+    "car360Spin": null,
     "proactiveBrokering": null,
+    "displayCar360Spin": true,
+    "offsiteSalesContact": null,
+    "sellMethod": "BUY_NOW",
+    "reducedPrice": true,
+    "conditionClassification": "TESTED",
     "properties": {
-      "length": 4682,
-      "mustExport": false,
-      "odometerUnit": "km",
-      "familyName": "Q5",
-      "drivingBan": false,
-      "taxWeight": 2220,
-      "odometerReading": 170680,
-      "grades": {
-        "INTERIOR": {
-          "max": 5,
-          "value": 3,
-          "min": 1
-        },
-        "EXTERIOR": {
-          "max": 5,
-          "value": 3,
-          "min": 1
-        },
-        "TOTAL": {
-          "max": 5,
-          "value": 3,
-          "min": 1
-        },
-        "ENGINE_AND_GEARBOX": {
-          "max": 3,
-          "value": 3,
-          "min": 1
-        },
-        "TECHNOLOGY_AND_EQUIPMENT": {
-          "max": 3,
-          "value": 3,
-          "min": 1
-        },
-        "BRAKES": {
-          "max": 3,
-          "value": 3,
-          "min": 1
-        }
-      },
-      "fuels": [
-        {
-          "enginePower": 265,
-          "fuelCode": "Petrol"
-        },
-        {
-          "enginePower": 143,
-          "fuelCode": "Electric",
-          "rangeCityWltpDrive": 62,
-          "rangeWltpDrive": 58
-        }
-      ],
-      "curbWeight": 2221,
-      "remarks": {
-        "TIRES": [],
-        "INTERIOR": [
-          {
-            "category": "INTERIOR",
-            "key": "Ratten är sliten",
-            "id": "0"
-          }
-        ],
-        "EXTERIOR": [],
-        "ENGINE_AND_GEARBOX": [],
-        "TECHNOLOGY_AND_EQUIPMENT": [],
-        "BRAKES": []
-      },
-      "width": 1893,
-      "numberOfSeats": 5,
-      "body": "SUV",
-      "maxPullWeightB": 840,
-      "textile": "Delläder",
-      "ecoFriendly": true,
-      "maxPayload": 439,
-      "exportable": true,
-      "inspectionValidToDate": "2027-05-31",
-      "taxFee": 360,
-      "modelYear": 2021,
-      "inspectionPeriod": "2026-03-24 - 2027-05-31",
-      "dateOfInspection": "2026-03-24",
-      "registrationPlate": "ZEJ10R",
-      "totalWeight": 2660,
       "adHeader": "Q5 55 TFSI e quattro 367hk S-Line Cockpit 360°",
-      "battstatResult": {
-        "rankingRangeMax": 3,
-        "sohPercent": 90,
-        "rankingRangeMin": 1,
-        "ranking": 3
-      },
-      "numberOfKeys": 3,
-      "towbar": false,
-      "hasUnpaidLoan": false,
+      "exteriorColor": "Black",
+      "brand": "Audi",
+      "mediation": false,
+      "curbWeight": 2221,
+      "maxPayload": 439,
       "equipment": [
         "360 kamera",
         "360-kamera",
@@ -178,34 +105,28 @@
         "Urkopplingsbar passagerarairbag",
         "USB-ingång"
       ],
-      "isRepairObject": false,
-      "mediation": false,
-      "residualLoanValue": 0,
-      "numberOfPreviousOwners": 3,
-      "package": "S-Line Cockpit 360°",
-      "remarksLocalized": {
-        "TIRES": null,
-        "BRAKES": null,
-        "EXTERIOR": null,
-        "INTERIOR": "Ratten är sliten",
-        "ENGINE_AND_GEARBOX": null,
-        "TECHNOLOGY_AND_EQUIPMENT": null
-      },
-      "importedForPersonalUse": false,
-      "gearbox": "Automatic",
-      "title": "Audi Q5 55 TFSI e quattro (367hk)",
-      "chassisNumber": "WAUZZZFYXM2080963",
-      "deductibleVat": false,
+      "inspectionValidToDate": "2027-05-31",
+      "odometerUnit": "km",
+      "length": 4682,
+      "electricType": "Plug-in hybrid",
+      "finishType": "Metallic",
+      "textile": "Delläder",
       "saleLimitedToCorporate": false,
-      "heavyEquipment": false,
-      "manufactureMonth": "202103",
-      "height": 1617,
-      "initialTrafficDate": "2021-05-25",
-      "registrationCountry": "se",
-      "environmentalClassEuro": "6",
+      "chassisNumber": "WAUZZZFYXM2080963",
+      "title": "Audi Q5 55 TFSI e quattro (367hk)",
+      "battstatResult": {
+        "rankingRangeMin": 1,
+        "ranking": 3,
+        "sohPercent": 90,
+        "rankingRangeMax": 3
+      },
+      "dateOfInspection": "2026-03-24",
+      "inspectionPeriod": "2026-03-24 - 2027-05-31",
+      "totalWeight": 2660,
       "registrationPlateCountry": "se",
-      "maxTrailerWeight": 2000,
-      "brand": "Audi",
+      "exportable": true,
+      "residualLoanValue": 0,
+      "taxFee": 360,
       "formattedEquipment": [
         {
           "key": "360_KAMERA",
@@ -430,71 +351,187 @@
           "priority": 36
         }
       ],
+      "familyName": "Q5",
+      "environmentalClassEuro": "6",
+      "towbar": false,
+      "isRepairObject": false,
+      "body": "SUV",
+      "numberOfSeats": 5,
+      "maxPullWeightB": 840,
+      "fuels": [
+        {
+          "enginePower": 265,
+          "fuelCode": "Petrol"
+        },
+        {
+          "enginePower": 143,
+          "rangeWltpDrive": 58,
+          "fuelCode": "Electric",
+          "rangeCityWltpDrive": 62
+        }
+      ],
+      "grades": {
+        "INTERIOR": {
+          "value": 3,
+          "min": 1,
+          "max": 5
+        },
+        "TOTAL": {
+          "value": 3,
+          "min": 1,
+          "max": 5
+        },
+        "ENGINE_AND_GEARBOX": {
+          "value": 3,
+          "min": 1,
+          "max": 3
+        },
+        "EXTERIOR": {
+          "value": 3,
+          "min": 1,
+          "max": 5
+        },
+        "BRAKES": {
+          "value": 3,
+          "min": 1,
+          "max": 3
+        },
+        "TECHNOLOGY_AND_EQUIPMENT": {
+          "value": 3,
+          "min": 1,
+          "max": 3
+        }
+      },
+      "maxTrailerWeight": 2000,
+      "odometerReading": 170680,
+      "package": "S-Line Cockpit 360°",
+      "initialTrafficDate": "2021-05-25",
+      "mustExport": false,
+      "manufactureMonth": "202103",
+      "ecoFriendly": true,
+      "deductibleVat": false,
+      "numberOfKeys": 3,
+      "registrationPlate": "ZEJ10R",
+      "numberOfPreviousOwners": 3,
+      "heavyEquipment": false,
+      "modelYear": 2021,
+      "height": 1617,
+      "gearbox": "Automatic",
       "modelName": "Q5 55 TFSI e quattro (367hk)",
-      "finishType": "Metallic",
-      "electricType": "Plug-in hybrid",
-      "exteriorColor": "Black",
+      "taxWeight": 2220,
+      "width": 1893,
+      "remarks": {
+        "INTERIOR": [
+          {
+            "key": "Ratten är sliten",
+            "id": "0",
+            "category": "INTERIOR"
+          }
+        ],
+        "ENGINE_AND_GEARBOX": [],
+        "EXTERIOR": [],
+        "BRAKES": [],
+        "TECHNOLOGY_AND_EQUIPMENT": [],
+        "TIRES": []
+      },
+      "drivingBan": false,
+      "remarksLocalized": {
+        "TIRES": null,
+        "BRAKES": null,
+        "EXTERIOR": null,
+        "INTERIOR": "Ratten är sliten",
+        "ENGINE_AND_GEARBOX": null,
+        "TECHNOLOGY_AND_EQUIPMENT": null
+      },
+      "hasUnpaidLoan": false,
+      "registrationCountry": "se",
+      "importedForPersonalUse": false,
       "heading1": "Audi Q5",
       "heading2": "55 TFSI e quattro",
       "heading3": "S-Line Cockpit 360°"
     },
-    "car360Spin": null,
-    "testDriveAllowed": true,
-    "certified": false,
-    "objectType": "CAR",
-    "statisticalValuation": null,
-    "buyNowAmount": 224800,
-    "sellMethod": "BUY_NOW",
-    "orderableAdditionalServices": {
-      "tradein": false,
-      "transport": true,
-      "insurance": true,
-      "finance": true,
-      "warranty": true,
-      "extraTires": true
-    },
-    "isFixedPrice": false,
-    "vehicleType": "CAR",
-    "leaseReturnProperties": {},
-    "baseObjectId": "518097",
-    "initialBuyNowAmount": 249800,
-    "isReleasable": false,
-    "id": "7289742",
-    "offsiteSalesContact": null,
-    "presentationApproved": false,
-    "createdAt": "2026-09-23 09:30:12.788034+00:00",
-    "state": "AUCTION_RESOLUTION",
-    "reducedPrice": true,
     "baseObject": {
-      "body": null,
-      "modelId": null,
       "exteriorColor": "Black",
-      "baseObjectType": "CAR",
-      "registrationCountry": "se",
-      "odometerUnit": "km",
-      "familyName": null,
-      "odometerReading": null,
-      "earliestAvailableAt": null,
-      "brand": null,
       "registrationPlate": "ZEJ10R",
-      "fuels": [
-        {
-          "fuelCode": "Petrol",
-          "powerUnit": "EG",
-          "enginePower": 195,
-          "enginePowerHp": 265,
-          "fuelTankVolume": ""
-        },
-        {
-          "fuelCode": "Electric",
-          "powerUnit": "",
-          "enginePower": 105,
-          "enginePowerHp": 143,
-          "fuelTankVolume": ""
-        }
-      ],
-      "id": "518097",
+      "year": null,
+      "body": null,
       "authorityRegisterInformation": {
+        "additionalTechSpecification": {
+          "raceCar": null,
+          "wheelbase1": 2826,
+          "wheelbase2": null,
+          "wheelbase3": null,
+          "wheelbase4": null,
+          "equipment1": null,
+          "equipment2": null,
+          "equipment3": null,
+          "maximumSpeed": 239,
+          "numAxleShafts": 2,
+          "passengerAirBag": false,
+          "tyreDimensionRear": "255/45 R20 101W",
+          "tyreDimensionFront": "255/45 R20 101W",
+          "dualSteeringControl": null
+        },
+        "environmentalClassification": {
+          "fuels": [
+            {
+              "co2": "",
+              "nox": "",
+              "nox4": null,
+              "fuelCode": "Petrol",
+              "hcThcNox": "",
+              "consumption": "",
+              "noiseLevel": 67,
+              "emissionUnit": "g/km",
+              "innovationCo2": null,
+              "particleValue": "",
+              "particleMass4": null,
+              "consumptionUnit": "",
+              "rangeNedcDrive": null,
+              "rangeWltpDrive": null,
+              "consumptionUrban": "",
+              "rangeCityWltpDrive": null,
+              "consumptionExtraUrban": "",
+              "electricEnergyConsumption": null,
+              "energyConsumptionWltpDrive": null
+            },
+            {
+              "co2": 0,
+              "nox": "",
+              "nox4": null,
+              "fuelCode": "Electric",
+              "hcThcNox": "",
+              "consumption": "",
+              "noiseLevel": 67,
+              "emissionUnit": "g/km",
+              "innovationCo2": null,
+              "particleValue": "",
+              "particleMass4": null,
+              "consumptionUnit": "",
+              "rangeNedcDrive": null,
+              "rangeWltpDrive": "58",
+              "consumptionUrban": "",
+              "rangeCityWltpDrive": "62",
+              "consumptionExtraUrban": "",
+              "electricEnergyConsumption": null,
+              "energyConsumptionWltpDrive": null
+            }
+          ],
+          "ecoFriendly": true,
+          "emissionClass": "LADDHYBRID",
+          "innovationCode": null,
+          "environmentalClass": "HYBRID",
+          "environmentalClassEuro": "6"
+        },
+        "vehicleStatus": {
+          "tax": 360
+        },
+        "registrationInformation": {
+          "registrationPlate": "ZEJ10R",
+          "deregistrationDate": null,
+          "deregistrationText": null,
+          "deregistrationReason": null
+        },
         "generalTechSpecification": {
           "eeg": "e1*2007/46*1550*27",
           "fuels": [
@@ -567,76 +604,6 @@
           "inspectionValidToDate": "2027-05-31",
           "inspectionExemptionGroup": null
         },
-        "environmentalClassification": {
-          "fuels": [
-            {
-              "co2": "",
-              "nox": "",
-              "nox4": null,
-              "fuelCode": "Petrol",
-              "hcThcNox": "",
-              "consumption": "",
-              "noiseLevel": 67,
-              "emissionUnit": "g/km",
-              "innovationCo2": null,
-              "particleValue": "",
-              "particleMass4": null,
-              "consumptionUnit": "",
-              "rangeNedcDrive": null,
-              "rangeWltpDrive": null,
-              "consumptionUrban": "",
-              "rangeCityWltpDrive": null,
-              "consumptionExtraUrban": "",
-              "electricEnergyConsumption": null,
-              "energyConsumptionWltpDrive": null
-            },
-            {
-              "co2": 0,
-              "nox": "",
-              "nox4": null,
-              "fuelCode": "Electric",
-              "hcThcNox": "",
-              "consumption": "",
-              "noiseLevel": 67,
-              "emissionUnit": "g/km",
-              "innovationCo2": null,
-              "particleValue": "",
-              "particleMass4": null,
-              "consumptionUnit": "",
-              "rangeNedcDrive": null,
-              "rangeWltpDrive": "58",
-              "consumptionUrban": "",
-              "rangeCityWltpDrive": "62",
-              "consumptionExtraUrban": "",
-              "electricEnergyConsumption": null,
-              "energyConsumptionWltpDrive": null
-            }
-          ],
-          "ecoFriendly": true,
-          "emissionClass": "LADDHYBRID",
-          "innovationCode": null,
-          "environmentalClass": "HYBRID",
-          "environmentalClassEuro": "6"
-        },
-        "additionalTechSpecification": {
-          "raceCar": null,
-          "wheelbase1": 2826,
-          "wheelbase2": null,
-          "wheelbase3": null,
-          "wheelbase4": null,
-          "equipment1": null,
-          "equipment2": null,
-          "equipment3": null,
-          "maximumSpeed": 239,
-          "numAxleShafts": 2,
-          "passengerAirBag": false,
-          "tyreDimensionRear": "255/45 R20 101W",
-          "tyreDimensionFront": "255/45 R20 101W",
-          "dualSteeringControl": null
-        },
-        "vehicleStatus": {
-          "tax": 360
-        },
         "vehicleInformation": {
           "vin": "WAUZZZFYXM2080963",
           "body": "AC",
@@ -657,21 +624,39 @@
           "registrationDate": "2021-03-30",
           "initialTrafficDate": "2021-05-25",
           "registrationPlateReused": null
-        },
-        "registrationInformation": {
-          "registrationPlate": "ZEJ10R",
-          "deregistrationDate": null,
-          "deregistrationText": null,
-          "deregistrationReason": null
         }
       },
-      "modelName": null,
-      "createdAt": "2026-09-23T09:30:12.377494+00:00",
-      "state": "MANUAL_VALUATION_PENDING",
+      "brand": null,
+      "id": "518097",
+      "fuels": [
+        {
+          "fuelCode": "Petrol",
+          "powerUnit": "EG",
+          "enginePower": 195,
+          "enginePowerHp": 265,
+          "fuelTankVolume": ""
+        },
+        {
+          "fuelCode": "Electric",
+          "powerUnit": "",
+          "enginePower": 105,
+          "enginePowerHp": 143,
+          "fuelTankVolume": ""
+        }
+      ],
       "gearbox": "Automatic",
-      "salesFlow": "CORPORATE_CARS",
-      "year": null,
       "fabricAndMake": "AUDI",
+      "baseObjectType": "CAR",
+      "modelId": null,
+      "odometerReading": null,
+      "modelName": null,
+      "salesFlow": "CORPORATE_CARS",
+      "state": "MANUAL_VALUATION_PENDING",
+      "odometerUnit": "km",
+      "earliestAvailableAt": null,
+      "registrationCountry": "se",
+      "createdAt": "2026-09-23T09:30:12.377494+00:00",
+      "familyName": null,
       "technicalSpecification": {
         "modelId": null,
         "vehicle": {
@@ -683,6 +668,21 @@
         "year": null
       }
     },
+    "id": "7289742",
+    "leaseReturnProperties": {},
+    "vehicleType": "CAR",
+    "presentationApproved": false,
+    "baseObjectId": "518097",
+    "isFixedPrice": false,
+    "certified": false,
+    "objectType": "CAR",
+    "state": "COMPLETED",
+    "initialBuyNowAmount": 249800,
+    "statisticalValuation": null,
+    "testDriveAllowed": true,
+    "buyNowAmount": 224800,
+    "isReleasable": false,
+    "createdAt": "2026-09-23 09:30:12.788034+00:00",
     "exportable": true,
     "deductibleVat": false,
     "collisionWarranty": null,
@@ -906,7 +906,7 @@
       "parkingZone": "A",
       "parkingNumber": null,
       "outgoingTime": "2026-10-30T15:30:00+00:00",
-      "leftAt": null,
+      "leftAt": "2026-10-30T14:29:53.104656+00:00",
       "outgoingType": "BOOKING",
       "publicFacilityId": "0694f332-7098-4f61-860f-2fec39974ada",
       "facility": {
@@ -1572,6 +1572,6 @@
     "closedAt": "2026-10-29T10:40:36.445948+00:00",
     "updatedAt": "2026-10-29T10:40:36.446396+00:00"
   },
-  "_scraped_at": "2026-10-30T14:09:50.134627+00:00",
+  "_scraped_at": "2026-10-30T16:17:14.208712+00:00",
   "_url": "https://www.kvd.se/auktioner/audi-q5-55-tfsi-e-quattro-367hk-309051"
 }

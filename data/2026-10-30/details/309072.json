@@ -54,270 +54,95 @@
     "evaluationType": "BROKERING"
   },
   "processObject": {
-    "objectType": "CAR",
-    "buyNowAmount": null,
-    "reducedPrice": false,
-    "testDriveAllowed": true,
-    "isFixedPrice": false,
-    "baseObject": {
-      "gearbox": "Automatic",
-      "baseObjectType": "CAR",
-      "odometerReading": null,
-      "authorityRegisterInformation": {
-        "vehicleOrigin": {
-          "originCode": "YTILLV",
-          "originCodeReason": null,
-          "importerIdentifier": null,
-          "preRegistrationDate": null,
-          "importRegistrationDate": null,
-          "importedForPersonalUse": false,
-          "importedPreviouslyRegistered": false
-        },
-        "generalTechSpecification": {
-          "eeg": "e4*2007/46*1220*17",
-          "fuels": [
-            {
-              "fuelCode": "Petrol",
-              "powerUnit": "EG",
-              "enginePower": 186,
-              "enginePowerHp": 253,
-              "fuelTankVolume": ""
-            },
-            {
-              "fuelCode": "Electric",
-              "powerUnit": "",
-              "enginePower": 107,
-              "enginePowerHp": 145,
-              "fuelTankVolume": ""
-            }
-          ],
-          "width": 1902,
-          "height": 1639,
-          "length": 4708,
-          "gearbox": "Automatic",
-          "variant": "UZH1",
-          "version": "UZH1VD0?",
-          "taxWeight": 2220,
-          "curbWeight": 2220,
-          "maxPayload": 440,
-          "totalWeight": 2660,
-          "chassisCode1": null,
-          "chassisCode2": null,
-          "cubicCapacity": "1969",
-          "numPassengers": "4",
-          "numberOfSeats": 5,
-          "fourWheelDrive": true,
-          "maxPullWeightB": 840,
-          "clutchMechanism1": null,
-          "clutchMechanism2": null,
-          "maxTrailerWeight": 2250,
-          "chassisCodeSupplement": null,
-          "maxPullWieghtNoBreaks": null,
-          "maxPullWeightBExtended": null,
-          "maxSingle Axle TrailerWeight": null
-        },
-        "environmentalClassification": {
-          "fuels": [
-            {
-              "co2": "",
-              "nox": "",
-              "nox4": null,
-              "fuelCode": "Petrol",
-              "hcThcNox": "",
-              "consumption": "",
-              "noiseLevel": 68,
-              "emissionUnit": "g/km",
-              "innovationCo2": null,
-              "particleValue": "",
-              "particleMass4": null,
-              "consumptionUnit": "",
-              "rangeNedcDrive": null,
-              "rangeWltpDrive": null,
-              "consumptionUrban": "",
-              "rangeCityWltpDrive": null,
-              "consumptionExtraUrban": "",
-              "electricEnergyConsumption": null,
-              "energyConsumptionWltpDrive": null
-            },
-            {
-              "co2": 0,
-              "nox": "",
-              "nox4": null,
-              "fuelCode": "Electric",
-              "hcThcNox": "",
-              "consumption": "",
-              "noiseLevel": "",
-              "emissionUnit": "g/km",
-              "innovationCo2": null,
-              "particleValue": "",
-              "particleMass4": null,
-              "consumptionUnit": "",
-              "rangeNedcDrive": null,
-              "rangeWltpDrive": "77",
-              "consumptionUrban": "",
-              "rangeCityWltpDrive": "93",
-              "consumptionExtraUrban": "",
-              "electricEnergyConsumption": null,
-              "energyConsumptionWltpDrive": null
-            }
-          ],
-          "ecoFriendly": true,
-          "emissionClass": "LADDHYBRID",
-          "innovationCode": null,
-          "environmentalClass": "HYBRID",
-          "environmentalClassEuro": "6"
-        },
-        "vehicleStatus": {
-          "tax": 360
-        },
-        "vehicleInspectionInformation": {
-          "inspections": [
-            {
-              "inspectionType": "5",
-              "odometerReading": 119280,
-              "dateOfInspection": "2025-10-06"
-            },
-            {
-              "inspectionType": "13",
-              "odometerReading": null,
-              "dateOfInspection": "2022-10-04"
-            }
-          ],
-          "inspectionGroup": "36/24/14",
-          "odometerReading": 119280,
-          "inspectionPeriod": "2025-10-06 - 2027-10-31",
-          "dateOfInspection": "2025-10-06",
-          "inspectionValidToDate": "2027-10-31",
-          "inspectionExemptionGroup": null
-        },
-        "registrationInformation": {
-          "registrationPlate": "PBS613",
-          "deregistrationDate": null,
-          "deregistrationText": null,
-          "deregistrationReason": null
-        },
-        "vehicleInformation": {
-          "vin": "YV1UZH1V3P1265185",
-          "body": "AC",
-          "type": "CAR",
-          "year": "2022",
-          "model": "XC60",
-          "rawType": "PB",
-          "modelYear": null,
-          "categoryEu": "e4*2007/46*1220*17",
-          "groupNumber": "VO 023901",
-          "modelNumber": "VO 000000",
-          "chassisNumber": "YV1UZH1V3P1265185",
-          "exteriorColor": "Grey",
-          "fabricAndMake": "VOLVO",
-          "baseObjectType": "CAR",
-          "manufactureCode": null,
-          "manufactureMonth": "202210",
-          "registrationDate": "2022-10-03",
-          "initialTrafficDate": "2022-10-19",
-          "registrationPlateReused": null
-        },
-        "additionalTechSpecification": {
-          "raceCar": null,
-          "wheelbase1": 2865,
-          "wheelbase2": null,
-          "wheelbase3": null,
-          "wheelbase4": null,
-          "equipment1": null,
-          "equipment2": null,
-          "equipment3": null,
-          "maximumSpeed": 180,
-          "numAxleShafts": 2,
-          "passengerAirBag": true,
-          "tyreDimensionRear": "255/45R20 105V",
-          "tyreDimensionFront": "255/45R20 105V",
-          "dualSteeringControl": null
-        }
-      },
-      "fuels": [
-        {
-          "fuelCode": "Petrol",
-          "powerUnit": "EG",
-          "enginePower": 186,
-          "enginePowerHp": 253,
-          "fuelTankVolume": ""
-        },
-        {
-          "fuelCode": "Electric",
-          "powerUnit": "",
-          "enginePower": 107,
-          "enginePowerHp": 145,
-          "fuelTankVolume": ""
-        }
-      ],
-      "earliestAvailableAt": null,
-      "modelName": "XC60 T6 AWD Recharge (350hk)",
-      "salesFlow": "CORPORATE_CARS",
-      "registrationPlate": "PBS613",
-      "state": "MANUAL_VALUATION_PENDING",
-      "odometerUnit": "km",
-      "fabricAndMake": "VOLVO",
-      "registrationCountry": "se",
-      "id": "522870",
-      "familyName": "XC60",
-      "modelId": null,
-      "year": "2023",
-      "createdAt": "2026-10-14T10:06:30.844268+00:00",
-      "brand": "Volvo",
-      "body": "SUV",
-      "exteriorColor": "Grey",
-      "technicalSpecification": {
-        "modelId": null,
-        "vehicle": {
-          "brand": "Volvo",
-          "body": "SUV",
-          "modelName": "XC60 T6 AWD Recharge (350hk)",
-          "familyName": "XC60"
-        },
-        "year": "2023"
-      }
+    "orderableAdditionalServices": {
+      "tradein": false,
+      "transport": true,
+      "insurance": true,
+      "finance": true,
+      "warranty": true,
+      "extraTires": false
     },
-    "vehicleType": "CAR",
-    "initialBuyNowAmount": null,
-    "baseObjectId": "522870",
-    "conditionClassification": "TESTED",
+    "car360Spin": null,
     "proactiveBrokering": null,
-    "presentationApproved": false,
-    "state": "AUCTION_RESOLUTION",
+    "displayCar360Spin": true,
+    "offsiteSalesContact": null,
+    "sellMethod": "BIDDING",
+    "reducedPrice": false,
+    "conditionClassification": "TESTED",
     "properties": {
-      "grades": {
-        "BRAKES": {
-          "max": 3,
-          "value": 3,
-          "min": 1
-        },
-        "TOTAL": {
-          "max": 5,
-          "value": 3,
-          "min": 1
-        },
-        "TECHNOLOGY_AND_EQUIPMENT": {
-          "max": 3,
-          "value": 2,
-          "min": 1
-        },
-        "ENGINE_AND_GEARBOX": {
-          "max": 3,
-          "value": 3,
-          "min": 1
-        },
-        "INTERIOR": {
-          "max": 5,
-          "value": 3,
-          "min": 1
-        },
-        "EXTERIOR": {
-          "max": 5,
-          "value": 3,
-          "min": 1
-        }
+      "adHeader": "XC60 T6 AWD Recharge 350hk Plus Dark Pano Helläder",
+      "exteriorColor": "Grey",
+      "brand": "Volvo",
+      "mediation": true,
+      "curbWeight": 2220,
+      "maxPayload": 440,
+      "equipment": [
+        "360-kamera",
+        "4WD",
+        "Adaptiv farthållare",
+        "Antisladdsystem",
+        "Antispinn",
+        "Assistanssystem",
+        "Auto hold",
+        "Autobroms",
+        "Backkamera",
+        "Bluetooth",
+        "Dödavinkelvarnare",
+        "Eldriven baklucka",
+        "Elhiss bak",
+        "Elhiss fram",
+        "Elinfällbara speglar",
+        "Elspeglar",
+        "Elstol förarplats",
+        "Elstol med minnesfunktion förarplats",
+        "Elstol minnesfunktion passagerarplats",
+        "Elstol passagerarplats",
+        "Farthållare",
+        "Filbytesvarnare",
+        "Fjärrlås",
+        "GPS",
+        "Infällbar dragkrok",
+        "Isofix bak",
+        "Klimatanläggning",
+        "Lastskydd/lastnät",
+        "LED-strålkastare",
+        "Nyckellöst startsystem",
+        "Parkeringssensorer bak",
+        "Parkeringssensorer fram",
+        "Parkeringsvärmare med tidur",
+        "Radio",
+        "Rattvärme",
+        "Regnsensor",
+        "Smartphone integration",
+        "Stolsvärme fram",
+        "Sätesvärme bak",
+        "Urkopplingsbar passagerarairbag",
+        "USB-ingång",
+        "Volvo On Call",
+        "Öppningsbart panoramatak"
+      ],
+      "inspectionValidToDate": "2027-10-31",
+      "odometerUnit": "km",
+      "length": 4708,
+      "electricType": "Plug-in hybrid",
+      "finishType": "Metallic",
+      "textile": "Helläder",
+      "saleLimitedToCorporate": false,
+      "chassisNumber": "YV1UZH1V3P1265185",
+      "title": "Volvo XC60 T6 AWD Recharge (350hk)",
+      "battstatResult": {
+        "rankingRangeMin": 1,
+        "ranking": 3,
+        "sohPercent": 98,
+        "rankingRangeMax": 3
       },
-      "numberOfKeys": 2,
+      "dateOfInspection": "2025-10-06",
+      "inspectionPeriod": "2025-10-06 - 2027-10-31",
+      "totalWeight": 2660,
+      "registrationPlateCountry": "se",
+      "exportable": true,
+      "residualLoanValue": 289488,
+      "taxFee": 360,
       "formattedEquipment": [
         {
           "key": "360_KAMERA",
@@ -578,63 +403,115 @@
           "priority": 42
         }
       ],
-      "exportable": true,
-      "mustExport": false,
-      "deductibleVat": true,
-      "manufactureMonth": "202210",
-      "totalWeight": 2660,
-      "dateOfInspection": "2025-10-06",
-      "registrationPlate": "PBS613",
-      "equipment": [
-        "360-kamera",
-        "4WD",
-        "Adaptiv farthållare",
-        "Antisladdsystem",
-        "Antispinn",
-        "Assistanssystem",
-        "Auto hold",
-        "Autobroms",
-        "Backkamera",
-        "Bluetooth",
-        "Dödavinkelvarnare",
-        "Eldriven baklucka",
-        "Elhiss bak",
-        "Elhiss fram",
-        "Elinfällbara speglar",
-        "Elspeglar",
-        "Elstol förarplats",
-        "Elstol med minnesfunktion förarplats",
-        "Elstol minnesfunktion passagerarplats",
-        "Elstol passagerarplats",
-        "Farthållare",
-        "Filbytesvarnare",
-        "Fjärrlås",
-        "GPS",
-        "Infällbar dragkrok",
-        "Isofix bak",
-        "Klimatanläggning",
-        "Lastskydd/lastnät",
-        "LED-strålkastare",
-        "Nyckellöst startsystem",
-        "Parkeringssensorer bak",
-        "Parkeringssensorer fram",
-        "Parkeringsvärmare med tidur",
-        "Radio",
-        "Rattvärme",
-        "Regnsensor",
-        "Smartphone integration",
-        "Stolsvärme fram",
-        "Sätesvärme bak",
-        "Urkopplingsbar passagerarairbag",
-        "USB-ingång",
-        "Volvo On Call",
-        "Öppningsbart panoramatak"
-      ],
-      "taxWeight": 2220,
-      "odometerUnit": "km",
-      "mediation": true,
-      "ecoFriendly": true,
+      "familyName": "XC60",
+      "environmentalClassEuro": "6",
       "towbar": false,
+      "isRepairObject": false,
+      "batterySizeNominal": 18.8,
+      "body": "SUV",
+      "numberOfSeats": 5,
+      "maxPullWeightB": 840,
+      "fuels": [
+        {
+          "enginePower": 253,
+          "fuelCode": "Petrol"
+        },
+        {
+          "enginePower": 146,
+          "rangeWltpDrive": 77,
+          "fuelCode": "Electric",
+          "rangeCityWltpDrive": 93
+        }
+      ],
+      "grades": {
+        "INTERIOR": {
+          "value": 3,
+          "min": 1,
+          "max": 5
+        },
+        "TOTAL": {
+          "value": 3,
+          "min": 1,
+          "max": 5
+        },
+        "ENGINE_AND_GEARBOX": {
+          "value": 3,
+          "min": 1,
+          "max": 3
+        },
+        "EXTERIOR": {
+          "value": 3,
+          "min": 1,
+          "max": 5
+        },
+        "BRAKES": {
+          "value": 3,
+          "min": 1,
+          "max": 3
+        },
+        "TECHNOLOGY_AND_EQUIPMENT": {
+          "value": 2,
+          "min": 1,
+          "max": 3
+        }
+      },
+      "maxTrailerWeight": 2250,
+      "odometerReading": 156940,
+      "package": "Plus Dark Panorama Helläder",
+      "initialTrafficDate": "2022-10-19",
+      "mustExport": false,
+      "manufactureMonth": "202210",
+      "ecoFriendly": true,
+      "deductibleVat": true,
+      "numberOfKeys": 2,
+      "registrationPlate": "PBS613",
+      "heatPump": "Ja",
+      "numberOfPreviousOwners": 1,
+      "heavyEquipment": false,
+      "modelYear": 2023,
+      "height": 1639,
+      "gearbox": "Automatic",
+      "modelName": "XC60 T6 AWD Recharge (350hk)",
+      "taxWeight": 2220,
+      "width": 1902,
+      "remarks": {
+        "INTERIOR": [],
+        "ENGINE_AND_GEARBOX": [],
+        "EXTERIOR": [
+          {
+            "key": "Stenskott i vindruta",
+            "id": "0",
+            "category": "EXTERIOR"
+          },
+          {
+            "key": "Flertal stenskott, Några lackskador",
+            "id": "1",
+            "category": "EXTERIOR"
+          }
+        ],
+        "BRAKES": [],
+        "TECHNOLOGY_AND_EQUIPMENT": [
+          {
+            "key": "Laddlucka svår att öppna",
+            "id": "0",
+            "category": "TECHNOLOGY_AND_EQUIPMENT"
+          }
+        ],
+        "TIRES": [
+          {
+            "key": "Fälgar på bilen kantstötta",
+            "id": "0",
+            "category": "TIRES"
+          },
+          {
+            "key": "Däck snedslitna",
+            "id": "1",
+            "category": "TIRES"
+          }
+        ]
+      },
+      "batterySizeUsable": 14.6,
+      "drivingBan": false,
       "remarksLocalized": {
         "TIRES": "Fälgar på bilen kantstötta. Däck snedslitna",
         "BRAKES": null,
@@ -643,122 +520,245 @@
         "ENGINE_AND_GEARBOX": null,
         "TECHNOLOGY_AND_EQUIPMENT": "Laddlucka svår att öppna"
       },
-      "width": 1902,
-      "battstatResult": {
-        "ranking": 3,
-        "sohPercent": 98,
-        "rankingRangeMin": 1,
-        "rankingRangeMax": 3
-      },
-      "body": "SUV",
-      "exteriorColor": "Grey",
-      "remarks": {
-        "TIRES": [
-          {
-            "category": "TIRES",
-            "id": "0",
-            "key": "Fälgar på bilen kantstötta"
-          },
-          {
-            "category": "TIRES",
-            "id": "1",
-            "key": "Däck snedslitna"
-          }
-        ],
-        "BRAKES": [],
-        "TECHNOLOGY_AND_EQUIPMENT": [
-          {
-            "category": "TECHNOLOGY_AND_EQUIPMENT",
-            "id": "0",
-            "key": "Laddlucka svår att öppna"
-          }
-        ],
-        "ENGINE_AND_GEARBOX": [],
-        "INTERIOR": [],
-        "EXTERIOR": [
-          {
-            "category": "EXTERIOR",
-            "id": "0",
-            "key": "Stenskott i vindruta"
-          },
-          {
-            "category": "EXTERIOR",
-            "id": "1",
-            "key": "Flertal stenskott, Några lackskador"
-          }
-        ]
-      },
-      "numberOfPreviousOwners": 1,
-      "adHeader": "XC60 T6 AWD Recharge 350hk Plus Dark Pano Helläder",
-      "fuels": [
-        {
-          "fuelCode": "Petrol",
-          "enginePower": 253
-        },
-        {
-          "fuelCode": "Electric",
-          "rangeCityWltpDrive": 93,
-          "rangeWltpDrive": 77,
-          "enginePower": 146
-        }
-      ],
-      "textile": "Helläder",
-      "maxTrailerWeight": 2250,
-      "maxPayload": 440,
-      "inspectionPeriod": "2025-10-06 - 2027-10-31",
-      "inspectionValidToDate": "2027-10-31",
-      "saleLimitedToCorporate": false,
-      "package": "Plus Dark Panorama Helläder",
       "hasUnpaidLoan": true,
-      "heavyEquipment": false,
-      "residualLoanValue": 289488,
-      "brand": "Volvo",
-      "gearbox": "Automatic",
-      "height": 1639,
-      "maxPullWeightB": 840,
-      "length": 4708,
-      "electricType": "Plug-in hybrid",
-      "environmentalClassEuro": "6",
-      "batterySizeNominal": 18.8,
-      "curbWeight": 2220,
-      "drivingBan": false,
-      "initialTrafficDate": "2022-10-19",
-      "chassisNumber": "YV1UZH1V3P1265185",
-      "familyName": "XC60",
-      "finishType": "Metallic",
-      "heatPump": "Ja",
-      "importedForPersonalUse": false,
-      "isRepairObject": false,
-      "title": "Volvo XC60 T6 AWD Recharge (350hk)",
-      "odometerReading": 156940,
-      "modelName": "XC60 T6 AWD Recharge (350hk)",
-      "modelYear": 2023,
-      "numberOfSeats": 5,
-      "registrationPlateCountry": "se",
-      "batterySizeUsable": 14.6,
       "registrationCountry": "se",
-      "taxFee": 360,
+      "importedForPersonalUse": false,
       "heading1": "Volvo XC60",
       "heading2": "T6 AWD Recharge",
       "heading3": "Plus Dark Panorama Helläder"
     },
-    "orderableAdditionalServices": {
-      "tradein": false,
-      "transport": true,
-      "insurance": true,
-      "finance": true,
-      "warranty": true,
-      "extraTires": false
+    "baseObject": {
+      "exteriorColor": "Grey",
+      "registrationPlate": "PBS613",
+      "year": "2023",
+      "body": "SUV",
+      "authorityRegisterInformation": {
+        "additionalTechSpecification": {
+          "raceCar": null,
+          "wheelbase1": 2865,
+          "wheelbase2": null,
+          "wheelbase3": null,
+          "wheelbase4": null,
+          "equipment1": null,
+          "equipment2": null,
+          "equipment3": null,
+          "maximumSpeed": 180,
+          "numAxleShafts": 2,
+          "passengerAirBag": true,
+          "tyreDimensionRear": "255/45R20 105V",
+          "tyreDimensionFront": "255/45R20 105V",
+          "dualSteeringControl": null
+        },
+        "environmentalClassification": {
+          "fuels": [
+            {
+              "co2": "",
+              "nox": "",
+              "nox4": null,
+              "fuelCode": "Petrol",
+              "hcThcNox": "",
+              "consumption": "",
+              "noiseLevel": 68,
+              "emissionUnit": "g/km",
+              "innovationCo2": null,
+              "particleValue": "",
+              "particleMass4": null,
+              "consumptionUnit": "",
+              "rangeNedcDrive": null,
+              "rangeWltpDrive": null,
+              "consumptionUrban": "",
+              "rangeCityWltpDrive": null,
+              "consumptionExtraUrban": "",
+              "electricEnergyConsumption": null,
+              "energyConsumptionWltpDrive": null
+            },
+            {
+              "co2": 0,
+              "nox": "",
+              "nox4": null,
+              "fuelCode": "Electric",
+              "hcThcNox": "",
+              "consumption": "",
+              "noiseLevel": "",
+              "emissionUnit": "g/km",
+              "innovationCo2": null,
+              "particleValue": "",
+              "particleMass4": null,
+              "consumptionUnit": "",
+              "rangeNedcDrive": null,
+              "rangeWltpDrive": "77",
+              "consumptionUrban": "",
+              "rangeCityWltpDrive": "93",
+              "consumptionExtraUrban": "",
+              "electricEnergyConsumption": null,
+              "energyConsumptionWltpDrive": null
+            }
+          ],
+          "ecoFriendly": true,
+          "emissionClass": "LADDHYBRID",
+          "innovationCode": null,
+          "environmentalClass": "HYBRID",
+          "environmentalClassEuro": "6"
+        },
+        "vehicleStatus": {
+          "tax": 360
+        },
+        "registrationInformation": {
+          "registrationPlate": "PBS613",
+          "deregistrationDate": null,
+          "deregistrationText": null,
+          "deregistrationReason": null
+        },
+        "generalTechSpecification": {
+          "eeg": "e4*2007/46*1220*17",
+          "fuels": [
+            {
+              "fuelCode": "Petrol",
+              "powerUnit": "EG",
+              "enginePower": 186,
+              "enginePowerHp": 253,
+              "fuelTankVolume": ""
+            },
+            {
+              "fuelCode": "Electric",
+              "powerUnit": "",
+              "enginePower": 107,
+              "enginePowerHp": 145,
+              "fuelTankVolume": ""
+            }
+          ],
+          "width": 1902,
+          "height": 1639,
+          "length": 4708,
+          "gearbox": "Automatic",
+          "variant": "UZH1",
+          "version": "UZH1VD0?",
+          "taxWeight": 2220,
+          "curbWeight": 2220,
+          "maxPayload": 440,
+          "totalWeight": 2660,
+          "chassisCode1": null,
+          "chassisCode2": null,
+          "cubicCapacity": "1969",
+          "numPassengers": "4",
+          "numberOfSeats": 5,
+          "fourWheelDrive": true,
+          "maxPullWeightB": 840,
+          "clutchMechanism1": null,
+          "clutchMechanism2": null,
+          "maxTrailerWeight": 2250,
+          "chassisCodeSupplement": null,
+          "maxPullWieghtNoBreaks": null,
+          "maxPullWeightBExtended": null,
+          "maxSingle Axle TrailerWeight": null
+        },
+        "vehicleOrigin": {
+          "originCode": "YTILLV",
+          "originCodeReason": null,
+          "importerIdentifier": null,
+          "preRegistrationDate": null,
+          "importRegistrationDate": null,
+          "importedForPersonalUse": false,
+          "importedPreviouslyRegistered": false
+        },
+        "vehicleInspectionInformation": {
+          "inspections": [
+            {
+              "inspectionType": "5",
+              "odometerReading": 119280,
+              "dateOfInspection": "2025-10-06"
+            },
+            {
+              "inspectionType": "13",
+              "odometerReading": null,
+              "dateOfInspection": "2022-10-04"
+            }
+          ],
+          "inspectionGroup": "36/24/14",
+          "odometerReading": 119280,
+          "inspectionPeriod": "2025-10-06 - 2027-10-31",
+          "dateOfInspection": "2025-10-06",
+          "inspectionValidToDate": "2027-10-31",
+          "inspectionExemptionGroup": null
+        },
+        "vehicleInformation": {
+          "vin": "YV1UZH1V3P1265185",
+          "body": "AC",
+          "type": "CAR",
+          "year": "2022",
+          "model": "XC60",
+          "rawType": "PB",
+          "modelYear": null,
+          "categoryEu": "e4*2007/46*1220*17",
+          "groupNumber": "VO 023901",
+          "modelNumber": "VO 000000",
+          "chassisNumber": "YV1UZH1V3P1265185",
+          "exteriorColor": "Grey",
+          "fabricAndMake": "VOLVO",
+          "baseObjectType": "CAR",
+          "manufactureCode": null,
+          "manufactureMonth": "202210",
+          "registrationDate": "2022-10-03",
+          "initialTrafficDate": "2022-10-19",
+          "registrationPlateReused": null
+        }
+      },
+      "brand": "Volvo",
+      "id": "522870",
+      "fuels": [
+        {
+          "fuelCode": "Petrol",
+          "powerUnit": "EG",
+          "enginePower": 186,
+          "enginePowerHp": 253,
+          "fuelTankVolume": ""
+        },
+        {
+          "fuelCode": "Electric",
+          "powerUnit": "",
+          "enginePower": 107,
+          "enginePowerHp": 145,
+          "fuelTankVolume": ""
+        }
+      ],
+      "gearbox": "Automatic",
+      "fabricAndMake": "VOLVO",
+      "baseObjectType": "CAR",
+      "modelId": null,
+      "odometerReading": null,
+      "modelName": "XC60 T6 AWD Recharge (350hk)",
+      "salesFlow": "CORPORATE_CARS",
+      "state": "MANUAL_VALUATION_PENDING",
+      "odometerUnit": "km",
+      "earliestAvailableAt": null,
+      "registrationCountry": "se",
+      "createdAt": "2026-10-14T10:06:30.844268+00:00",
+      "familyName": "XC60",
+      "technicalSpecification": {
+        "modelId": null,
+        "vehicle": {
+          "brand": "Volvo",
+          "body": "SUV",
+          "modelName": "XC60 T6 AWD Recharge (350hk)",
+          "familyName": "XC60"
+        },
+        "year": "2023"
+      }
     },
-    "offsiteSalesContact": null,
-    "leaseReturnProperties": {},
     "id": "7292280",
-    "displayCar360Spin": true,
+    "leaseReturnProperties": {},
+    "vehicleType": "CAR",
+    "presentationApproved": false,
+    "baseObjectId": "522870",
+    "isFixedPrice": false,
     "certified": false,
-    "sellMethod": "BIDDING",
-    "isReleasable": false,
-    "car360Spin": null,
+    "objectType": "CAR",
+    "state": "AUCTION_RESOLUTION",
+    "initialBuyNowAmount": null,
     "statisticalValuation": null,
+    "testDriveAllowed": true,
+    "buyNowAmount": null,
+    "isReleasable": false,
     "createdAt": "2026-10-14 10:06:31.269488+00:00",
     "exportable": true,
     "deductibleVat": true,
@@ -2213,6 +2213,6 @@
     "closedAt": "2026-10-30T10:31:42.668486+00:00",
     "updatedAt": "2026-10-30T10:43:50.464921+00:00"
   },
-  "_scraped_at": "2026-10-30T14:09:28.547656+00:00",
+  "_scraped_at": "2026-10-30T16:16:51.197071+00:00",
   "_url": "https://www.kvd.se/auktioner/volvo-xc60-t6-awd-recharge-350hk-309072"
 }

@@ -54,18 +54,223 @@
     "evaluationType": "BROKERING"
   },
   "processObject": {
-    "displayCar360Spin": true,
+    "objectType": "CAR",
+    "buyNowAmount": null,
+    "reducedPrice": false,
+    "testDriveAllowed": true,
+    "isFixedPrice": false,
+    "baseObject": {
+      "gearbox": "Automatic",
+      "baseObjectType": "CAR",
+      "odometerReading": 141500,
+      "authorityRegisterInformation": {
+        "vehicleOrigin": {
+          "originCode": "INFÖRT",
+          "originCodeReason": null,
+          "importerIdentifier": null,
+          "preRegistrationDate": null,
+          "importRegistrationDate": null,
+          "importedForPersonalUse": false,
+          "importedPreviouslyRegistered": false
+        },
+        "generalTechSpecification": {
+          "eeg": "e1*2001/116*0450*30",
+          "fuels": [
+            {
+              "fuelCode": "Diesel",
+              "powerUnit": "EG",
+              "enginePower": 140,
+              "enginePowerHp": 190,
+              "fuelTankVolume": ""
+            }
+          ],
+          "width": 1839,
+          "height": 1644,
+          "length": 4486,
+          "gearbox": "Automatic",
+          "variant": "ACDFHAX1",
+          "version": "NAD7AD7DL003GN5NVR27MM61",
+          "taxWeight": 1820,
+          "curbWeight": 1824,
+          "maxPayload": 496,
+          "totalWeight": 2320,
+          "chassisCode1": null,
+          "chassisCode2": null,
+          "cubicCapacity": "1968",
+          "numPassengers": "4",
+          "numberOfSeats": 5,
+          "fourWheelDrive": true,
+          "maxPullWeightB": 1180,
+          "clutchMechanism1": null,
+          "clutchMechanism2": null,
+          "maxTrailerWeight": 2500,
+          "chassisCodeSupplement": null,
+          "maxPullWieghtNoBreaks": null,
+          "maxPullWeightBExtended": null,
+          "maxSingle Axle TrailerWeight": null
+        },
+        "environmentalClassification": {
+          "fuels": [
+            {
+              "co2": 149,
+              "nox": "",
+              "nox4": null,
+              "fuelCode": "Diesel",
+              "hcThcNox": "",
+              "consumption": 5.7,
+              "noiseLevel": 70,
+              "emissionUnit": "g/km",
+              "innovationCo2": null,
+              "particleValue": "",
+              "particleMass4": null,
+              "consumptionUnit": "5,7",
+              "rangeNedcDrive": null,
+              "rangeWltpDrive": null,
+              "consumptionUrban": 6.5,
+              "rangeCityWltpDrive": null,
+              "consumptionExtraUrban": 5.2,
+              "electricEnergyConsumption": null,
+              "energyConsumptionWltpDrive": null
+            }
+          ],
+          "ecoFriendly": false,
+          "emissionClass": "EURO 6",
+          "innovationCode": null,
+          "environmentalClass": null,
+          "environmentalClassEuro": "6"
+        },
+        "vehicleStatus": {
+          "tax": 3084
+        },
+        "vehicleInspectionInformation": {
+          "inspections": [
+            {
+              "inspectionType": "5",
+              "odometerReading": 140957,
+              "dateOfInspection": "2026-09-04"
+            },
+            {
+              "inspectionType": "5",
+              "odometerReading": 122831,
+              "dateOfInspection": "2025-06-09"
+            }
+          ],
+          "inspectionGroup": "36/24/14",
+          "odometerReading": 140957,
+          "inspectionPeriod": "2026-09-04 - 2027-11-30",
+          "dateOfInspection": "2026-09-04",
+          "inspectionValidToDate": "2027-11-30",
+          "inspectionExemptionGroup": null
+        },
+        "registrationInformation": {
+          "registrationPlate": "YKN452",
+          "deregistrationDate": null,
+          "deregistrationText": null,
+          "deregistrationReason": null
+        },
+        "vehicleInformation": {
+          "vin": "WVGZZZ5NZHW407377",
+          "body": "AC",
+          "type": "CAR",
+          "year": "2017",
+          "model": "TIGUAN",
+          "rawType": "PB",
+          "modelYear": null,
+          "categoryEu": "e1*2001/116*0450*30",
+          "groupNumber": "VW 845007",
+          "modelNumber": "VW 000000",
+          "chassisNumber": "WVGZZZ5NZHW407377",
+          "exteriorColor": "White",
+          "fabricAndMake": "VOLKSWAGEN, VW",
+          "baseObjectType": "CAR",
+          "manufactureCode": null,
+          "manufactureMonth": "201702",
+          "registrationDate": "2017-02-24",
+          "initialTrafficDate": "2017-03-29",
+          "registrationPlateReused": null
+        },
+        "additionalTechSpecification": {
+          "raceCar": null,
+          "wheelbase1": 2677,
+          "wheelbase2": null,
+          "wheelbase3": null,
+          "wheelbase4": null,
+          "equipment1": null,
+          "equipment2": null,
+          "equipment3": null,
+          "maximumSpeed": 212,
+          "numAxleShafts": "",
+          "passengerAirBag": true,
+          "tyreDimensionRear": "215/65 R17 99V",
+          "tyreDimensionFront": "215/65 R17 99V",
+          "dualSteeringControl": null
+        }
+      },
+      "fuels": [
+        {
+          "fuelCode": "Diesel",
+          "powerUnit": "EG",
+          "enginePower": 140,
+          "enginePowerHp": 190,
+          "fuelTankVolume": ""
+        }
+      ],
+      "earliestAvailableAt": null,
+      "modelName": "Tiguan 2.0 TDI 4MOTION (190hk)",
+      "salesFlow": "CONSUMER_CARS",
+      "registrationPlate": "YKN452",
+      "state": "PREPARING_SALES_AGREEMENT",
+      "odometerUnit": "km",
+      "fabricAndMake": "VOLKSWAGEN, VW",
+      "registrationCountry": "se",
+      "id": "522504",
+      "familyName": "Tiguan",
+      "modelId": null,
+      "year": "2017",
+      "createdAt": "2026-10-13T10:47:49.298869+00:00",
+      "brand": "Volkswagen",
+      "body": "SUV",
+      "exteriorColor": "White",
+      "technicalSpecification": {
+        "modelId": null,
+        "vehicle": {
+          "brand": "Volkswagen",
+          "body": "SUV",
+          "modelName": "Tiguan 2.0 TDI 4MOTION (190hk)",
+          "familyName": "Tiguan"
+        },
+        "year": "2017"
+      }
+    },
+    "vehicleType": "CAR",
+    "initialBuyNowAmount": null,
+    "baseObjectId": "522504",
     "conditionClassification": "TESTED",
     "proactiveBrokering": null,
+    "presentationApproved": false,
+    "state": "AUCTION_RESOLUTION",
     "properties": {
-      "length": 4486,
-      "mustExport": false,
-      "odometerUnit": "km",
-      "familyName": "Tiguan",
-      "drivingBan": false,
-      "taxWeight": 1820,
-      "odometerReading": 141340,
       "grades": {
+        "BRAKES": {
+          "max": 3,
+          "value": 3,
+          "min": 1
+        },
+        "TOTAL": {
+          "max": 5,
+          "value": 3,
+          "min": 1
+        },
+        "TECHNOLOGY_AND_EQUIPMENT": {
+          "max": 3,
+          "value": 2,
+          "min": 1
+        },
+        "ENGINE_AND_GEARBOX": {
+          "max": 3,
+          "value": 3,
+          "min": 1
+        },
         "INTERIOR": {
           "max": 5,
           "value": 3,
@@ -75,152 +280,9 @@
           "max": 5,
           "value": 3,
           "min": 1
-        },
-        "TOTAL": {
-          "max": 5,
-          "value": 3,
-          "min": 1
-        },
-        "ENGINE_AND_GEARBOX": {
-          "max": 3,
-          "value": 3,
-          "min": 1
-        },
-        "TECHNOLOGY_AND_EQUIPMENT": {
-          "max": 3,
-          "value": 2,
-          "min": 1
-        },
-        "BRAKES": {
-          "max": 3,
-          "value": 3,
-          "min": 1
         }
       },
-      "fuels": [
-        {
-          "enginePower": 190,
-          "fuelCode": "Diesel",
-          "co2": 149,
-          "consumption": 5.7
-        }
-      ],
-      "curbWeight": 1824,
-      "remarks": {
-        "TIRES": [
-          {
-            "category": "TIRES",
-            "key": "Torrsprickor i 2 däck, Fälgar på bilen kantstötta",
-            "id": "0"
-          }
-        ],
-        "INTERIOR": [
-          {
-            "category": "INTERIOR",
-            "key": "Insynsskydd medföljer ej",
-            "id": "0"
-          }
-        ],
-        "EXTERIOR": [
-          {
-            "category": "EXTERIOR",
-            "key": "Plastkåpa under motor skadad",
-            "id": "0"
-          }
-        ],
-        "ENGINE_AND_GEARBOX": [],
-        "TECHNOLOGY_AND_EQUIPMENT": [
-          {
-            "category": "TECHNOLOGY_AND_EQUIPMENT",
-            "key": "Spricka i vindruta",
-            "id": "0"
-          }
-        ],
-        "BRAKES": []
-      },
-      "width": 1839,
-      "numberOfSeats": 5,
-      "body": "SUV",
-      "maxPullWeightB": 1180,
-      "textile": "Textil",
-      "ecoFriendly": false,
-      "maxPayload": 496,
-      "exportable": true,
-      "inspectionValidToDate": "2027-11-30",
-      "taxFee": 3084,
-      "modelYear": 2017,
-      "inspectionPeriod": "2026-09-04 - 2027-11-30",
-      "dateOfInspection": "2026-09-04",
-      "registrationPlate": "YKN452",
-      "totalWeight": 2320,
-      "adHeader": "Tiguan 2.0 TDI 4MOTION (190hk) GT Drag B-Kam",
       "numberOfKeys": 2,
-      "towbar": false,
-      "hasUnpaidLoan": true,
-      "equipment": [
-        "4WD",
-        "Adaptiv farthållare",
-        "Aktiv parkeringshjälp",
-        "Antisladdsystem",
-        "Antispinn",
-        "Auto hold",
-        "Autobroms",
-        "AUX-ingång",
-        "Bluetooth",
-        "CD-Stereo",
-        "Eldriven baklucka",
-        "Elhiss bak",
-        "Elhiss fram",
-        "Elspeglar",
-        "Filbytesvarnare",
-        "Fjärrlås",
-        "Infällbar dragkrok",
-        "Isofix bak",
-        "Klimatanläggning",
-        "Kurvljus",
-        "Lastskydd/lastnät",
-        "LED-strålkastare",
-        "Nyckellöst startsystem",
-        "Parkeringssensorer bak",
-        "Parkeringssensorer fram",
-        "Parkeringsvärmare med fjärrstyrning",
-        "Parkeringsvärmare med tidur",
-        "Radio",
-        "Regnsensor",
-        "Smartphone integration",
-        "Start/Stop-funktion",
-        "Stolsvärme fram",
-        "Urkopplingsbar passagerarairbag",
-        "USB-ingång"
-      ],
-      "isRepairObject": false,
-      "mediation": true,
-      "residualLoanValue": 68856,
-      "numberOfPreviousOwners": 4,
-      "package": "GT Drag B-Kam",
-      "remarksLocalized": {
-        "TIRES": "Torrsprickor i 2 däck, Fälgar på bilen kantstötta",
-        "BRAKES": null,
-        "EXTERIOR": "Plastkåpa under motor skadad",
-        "INTERIOR": "Insynsskydd medföljer ej",
-        "ENGINE_AND_GEARBOX": null,
-        "TECHNOLOGY_AND_EQUIPMENT": "Spricka i vindruta"
-      },
-      "importedForPersonalUse": false,
-      "gearbox": "Automatic",
-      "title": "VW Tiguan 2.0 TDI 4MOTION (190hk)",
-      "chassisNumber": "WVGZZZ5NZHW407377",
-      "deductibleVat": false,
-      "saleLimitedToCorporate": false,
-      "heavyEquipment": false,
-      "manufactureMonth": "201702",
-      "height": 1644,
-      "initialTrafficDate": "2017-03-29",
-      "registrationCountry": "se",
-      "environmentalClassEuro": "6",
-      "registrationPlateCountry": "se",
-      "maxTrailerWeight": 2500,
-      "brand": "Volkswagen",
       "formattedEquipment": [
         {
           "key": "4WD",
@@ -427,25 +489,143 @@
           "priority": 33
         }
       ],
-      "modelName": "Tiguan 2.0 TDI 4MOTION (190hk)",
-      "finishType": "Solid",
+      "exportable": true,
+      "mustExport": false,
+      "deductibleVat": false,
+      "manufactureMonth": "201702",
+      "totalWeight": 2320,
+      "dateOfInspection": "2026-09-04",
+      "registrationPlate": "YKN452",
+      "equipment": [
+        "4WD",
+        "Adaptiv farthållare",
+        "Aktiv parkeringshjälp",
+        "Antisladdsystem",
+        "Antispinn",
+        "Auto hold",
+        "Autobroms",
+        "AUX-ingång",
+        "Bluetooth",
+        "CD-Stereo",
+        "Eldriven baklucka",
+        "Elhiss bak",
+        "Elhiss fram",
+        "Elspeglar",
+        "Filbytesvarnare",
+        "Fjärrlås",
+        "Infällbar dragkrok",
+        "Isofix bak",
+        "Klimatanläggning",
+        "Kurvljus",
+        "Lastskydd/lastnät",
+        "LED-strålkastare",
+        "Nyckellöst startsystem",
+        "Parkeringssensorer bak",
+        "Parkeringssensorer fram",
+        "Parkeringsvärmare med fjärrstyrning",
+        "Parkeringsvärmare med tidur",
+        "Radio",
+        "Regnsensor",
+        "Smartphone integration",
+        "Start/Stop-funktion",
+        "Stolsvärme fram",
+        "Urkopplingsbar passagerarairbag",
+        "USB-ingång"
+      ],
+      "taxWeight": 1820,
+      "odometerUnit": "km",
+      "mediation": true,
+      "ecoFriendly": false,
+      "towbar": false,
+      "remarksLocalized": {
+        "TIRES": "Torrsprickor i 2 däck, Fälgar på bilen kantstötta",
+        "BRAKES": null,
+        "EXTERIOR": "Plastkåpa under motor skadad",
+        "INTERIOR": "Insynsskydd medföljer ej",
+        "ENGINE_AND_GEARBOX": null,
+        "TECHNOLOGY_AND_EQUIPMENT": "Spricka i vindruta"
+      },
+      "width": 1839,
+      "body": "SUV",
       "exteriorColor": "White",
+      "remarks": {
+        "TIRES": [
+          {
+            "category": "TIRES",
+            "id": "0",
+            "key": "Torrsprickor i 2 däck, Fälgar på bilen kantstötta"
+          }
+        ],
+        "BRAKES": [],
+        "TECHNOLOGY_AND_EQUIPMENT": [
+          {
+            "category": "TECHNOLOGY_AND_EQUIPMENT",
+            "id": "0",
+            "key": "Spricka i vindruta"
+          }
+        ],
+        "ENGINE_AND_GEARBOX": [],
+        "INTERIOR": [
+          {
+            "category": "INTERIOR",
+            "id": "0",
+            "key": "Insynsskydd medföljer ej"
+          }
+        ],
+        "EXTERIOR": [
+          {
+            "category": "EXTERIOR",
+            "id": "0",
+            "key": "Plastkåpa under motor skadad"
+          }
+        ]
+      },
+      "numberOfPreviousOwners": 4,
+      "adHeader": "Tiguan 2.0 TDI 4MOTION (190hk) GT Drag B-Kam",
+      "fuels": [
+        {
+          "fuelCode": "Diesel",
+          "co2": 149,
+          "consumption": 5.7,
+          "enginePower": 190
+        }
+      ],
+      "textile": "Textil",
+      "maxTrailerWeight": 2500,
+      "maxPayload": 496,
+      "inspectionPeriod": "2026-09-04 - 2027-11-30",
+      "inspectionValidToDate": "2027-11-30",
+      "saleLimitedToCorporate": false,
+      "package": "GT Drag B-Kam",
+      "hasUnpaidLoan": true,
+      "heavyEquipment": false,
+      "residualLoanValue": 68856,
+      "brand": "Volkswagen",
+      "gearbox": "Automatic",
+      "height": 1644,
+      "maxPullWeightB": 1180,
+      "length": 4486,
+      "environmentalClassEuro": "6",
+      "curbWeight": 1824,
+      "drivingBan": false,
+      "initialTrafficDate": "2017-03-29",
+      "chassisNumber": "WVGZZZ5NZHW407377",
+      "familyName": "Tiguan",
+      "finishType": "Solid",
+      "importedForPersonalUse": false,
+      "isRepairObject": false,
+      "title": "VW Tiguan 2.0 TDI 4MOTION (190hk)",
+      "odometerReading": 141340,
+      "modelName": "Tiguan 2.0 TDI 4MOTION (190hk)",
+      "modelYear": 2017,
+      "numberOfSeats": 5,
+      "registrationPlateCountry": "se",
+      "registrationCountry": "se",
+      "taxFee": 3084,
       "heading1": "Volkswagen Tiguan",
       "heading2": "2.0 TDI 4MOTION",
       "heading3": "GT Drag B-Kam"
     },
-    "car360Spin": null,
-    "testDriveAllowed": true,
-    "certified": false,
-    "objectType": "CAR",
-    "statisticalValuation": {
-      "bpGreen": null,
-      "bpOrange": 208200,
-      "bpWhite": 208200,
-      "marketPrice": 208200
-    },
-    "buyNowAmount": null,
-    "sellMethod": "BIDDING",
     "orderableAdditionalServices": {
       "tradein": false,
       "transport": true,
@@ -454,201 +634,21 @@
       "warranty": true,
       "extraTires": false
     },
-    "isFixedPrice": false,
-    "vehicleType": "CAR",
-    "leaseReturnProperties": {},
-    "baseObjectId": "522504",
-    "initialBuyNowAmount": null,
-    "isReleasable": false,
-    "id": "7292107",
     "offsiteSalesContact": null,
-    "presentationApproved": false,
-    "createdAt": "2026-10-13 13:34:38.656635+00:00",
-    "state": "AUCTION_RESOLUTION",
-    "reducedPrice": false,
-    "baseObject": {
-      "body": "SUV",
-      "modelId": null,
-      "exteriorColor": "White",
-      "baseObjectType": "CAR",
-      "registrationCountry": "se",
-      "odometerUnit": "km",
-      "familyName": "Tiguan",
-      "odometerReading": 141500,
-      "earliestAvailableAt": null,
-      "brand": "Volkswagen",
-      "registrationPlate": "YKN452",
-      "fuels": [
-        {
-          "fuelCode": "Diesel",
-          "powerUnit": "EG",
-          "enginePower": 140,
-          "enginePowerHp": 190,
-          "fuelTankVolume": ""
-        }
-      ],
-      "id": "522504",
-      "authorityRegisterInformation": {
-        "generalTechSpecification": {
-          "eeg": "e1*2001/116*0450*30",
-          "fuels": [
-            {
-              "fuelCode": "Diesel",
-              "powerUnit": "EG",
-              "enginePower": 140,
-              "enginePowerHp": 190,
-              "fuelTankVolume": ""
-            }
-          ],
-          "width": 1839,
-          "height": 1644,
-          "length": 4486,
-          "gearbox": "Automatic",
-          "variant": "ACDFHAX1",
-          "version": "NAD7AD7DL003GN5NVR27MM61",
-          "taxWeight": 1820,
-          "curbWeight": 1824,
-          "maxPayload": 496,
-          "totalWeight": 2320,
-          "chassisCode1": null,
-          "chassisCode2": null,
-          "cubicCapacity": "1968",
-          "numPassengers": "4",
-          "numberOfSeats": 5,
-          "fourWheelDrive": true,
-          "maxPullWeightB": 1180,
-          "clutchMechanism1": null,
-          "clutchMechanism2": null,
-          "maxTrailerWeight": 2500,
-          "chassisCodeSupplement": null,
-          "maxPullWieghtNoBreaks": null,
-          "maxPullWeightBExtended": null,
-          "maxSingle Axle TrailerWeight": null
-        },
-        "vehicleOrigin": {
-          "originCode": "INFÖRT",
-          "originCodeReason": null,
-          "importerIdentifier": null,
-          "preRegistrationDate": null,
-          "importRegistrationDate": null,
-          "importedForPersonalUse": false,
-          "importedPreviouslyRegistered": false
-        },
-        "vehicleInspectionInformation": {
-          "inspections": [
-            {
-              "inspectionType": "5",
-              "odometerReading": 140957,
-              "dateOfInspection": "2026-09-04"
-            },
-            {
-              "inspectionType": "5",
-              "odometerReading": 122831,
-              "dateOfInspection": "2025-06-09"
-            }
-          ],
-          "inspectionGroup": "36/24/14",
-          "odometerReading": 140957,
-          "inspectionPeriod": "2026-09-04 - 2027-11-30",
-          "dateOfInspection": "2026-09-04",
-          "inspectionValidToDate": "2027-11-30",
-          "inspectionExemptionGroup": null
-        },
-        "environmentalClassification": {
-          "fuels": [
-            {
-              "co2": 149,
-              "nox": "",
-              "nox4": null,
-              "fuelCode": "Diesel",
-              "hcThcNox": "",
-              "consumption": 5.7,
-              "noiseLevel": 70,
-              "emissionUnit": "g/km",
-              "innovationCo2": null,
-              "particleValue": "",
-              "particleMass4": null,
-              "consumptionUnit": "5,7",
-              "rangeNedcDrive": null,
-              "rangeWltpDrive": null,
-              "consumptionUrban": 6.5,
-              "rangeCityWltpDrive": null,
-              "consumptionExtraUrban": 5.2,
-              "electricEnergyConsumption": null,
-              "energyConsumptionWltpDrive": null
-            }
-          ],
-          "ecoFriendly": false,
-          "emissionClass": "EURO 6",
-          "innovationCode": null,
-          "environmentalClass": null,
-          "environmentalClassEuro": "6"
-        },
-        "additionalTechSpecification": {
-          "raceCar": null,
-          "wheelbase1": 2677,
-          "wheelbase2": null,
-          "wheelbase3": null,
-          "wheelbase4": null,
-          "equipment1": null,
-          "equipment2": null,
-          "equipment3": null,
-          "maximumSpeed": 212,
-          "numAxleShafts": "",
-          "passengerAirBag": true,
-          "tyreDimensionRear": "215/65 R17 99V",
-          "tyreDimensionFront": "215/65 R17 99V",
-          "dualSteeringControl": null
-        },
-        "vehicleStatus": {
-          "tax": 3084
-        },
-        "vehicleInformation": {
-          "vin": "WVGZZZ5NZHW407377",
-          "body": "AC",
-          "type": "CAR",
-          "year": "2017",
-          "model": "TIGUAN",
-          "rawType": "PB",
-          "modelYear": null,
-          "categoryEu": "e1*2001/116*0450*30",
-          "groupNumber": "VW 845007",
-          "modelNumber": "VW 000000",
-          "chassisNumber": "WVGZZZ5NZHW407377",
-          "exteriorColor": "White",
-          "fabricAndMake": "VOLKSWAGEN, VW",
-          "baseObjectType": "CAR",
-          "manufactureCode": null,
-          "manufactureMonth": "201702",
-          "registrationDate": "2017-02-24",
-          "initialTrafficDate": "2017-03-29",
-          "registrationPlateReused": null
-        },
-        "registrationInformation": {
-          "registrationPlate": "YKN452",
-          "deregistrationDate": null,
-          "deregistrationText": null,
-          "deregistrationReason": null
-        }
-      },
-      "modelName": "Tiguan 2.0 TDI 4MOTION (190hk)",
-      "createdAt": "2026-10-13T10:47:49.298869+00:00",
-      "state": "PREPARING_SALES_AGREEMENT",
-      "gearbox": "Automatic",
-      "salesFlow": "CONSUMER_CARS",
-      "year": "2017",
-      "fabricAndMake": "VOLKSWAGEN, VW",
-      "technicalSpecification": {
-        "modelId": null,
-        "vehicle": {
-          "brand": "Volkswagen",
-          "body": "SUV",
-          "modelName": "Tiguan 2.0 TDI 4MOTION (190hk)",
-          "familyName": "Tiguan"
-        },
-        "year": "2017"
-      }
+    "leaseReturnProperties": {},
+    "id": "7292107",
+    "displayCar360Spin": true,
+    "certified": false,
+    "sellMethod": "BIDDING",
+    "isReleasable": false,
+    "car360Spin": null,
+    "statisticalValuation": {
+      "bpGreen": null,
+      "bpWhite": 208200,
+      "marketPrice": 208200,
+      "bpOrange": 208200
     },
+    "createdAt": "2026-10-13 13:34:38.656635+00:00",
     "exportable": true,
     "deductibleVat": false,
     "collisionWarranty": null,
@@ -1647,54 +1647,15 @@
         "isHighestBidLowerThanResidualLoanValue": true
       },
       "processObject": {
-        "car360Spin": null,
-        "proactiveBrokering": null,
-        "displayCar360Spin": true,
-        "offsiteSalesContact": null,
-        "sellMethod": "BIDDING",
+        "objectType": "CAR",
+        "buyNowAmount": null,
         "reducedPrice": false,
-        "conditionClassification": "TESTED",
-        "properties": {
-          "adHeader": "Tiguan 2.0 TDI 4MOTION (190hk) GT, Värmare",
-          "saleLimitedToCorporate": false,
-          "ecoFriendly": false,
-          "deductibleVat": false,
-          "exteriorColor": "Black",
-          "registrationPlate": "WLH29E",
-          "title": "VW Tiguan 2.0 TDI 4MOTION (190hk)",
-          "body": "SUV",
-          "numberOfPreviousOwners": 4,
-          "brand": "Volkswagen",
-          "heavyEquipment": false,
-          "modelYear": 2020,
-          "fuels": [
-            {
-              "enginePower": 190,
-              "consumption": 5.4,
-              "co2": 141,
-              "fuelCode": "Diesel"
-            }
-          ],
-          "gearbox": "Automatic",
-          "odometerReading": 209740,
-          "package": "GT, Värmare",
-          "modelName": "Tiguan 2.0 TDI 4MOTION (190hk)",
-          "mustExport": false,
-          "odometerUnit": "km",
-          "exportable": true,
-          "hasUnpaidLoan": true,
-          "familyName": "Tiguan",
-          "heading1": "Volkswagen Tiguan",
-          "heading2": "2.0 TDI 4MOTION",
-          "heading3": "GT, Värmare"
-        },
+        "testDriveAllowed": true,
+        "isFixedPrice": false,
         "baseObject": {
-          "exteriorColor": "Black",
-          "registrationPlate": "WLH29E",
-          "year": "2020",
-          "body": "SUV",
-          "brand": "Volkswagen",
-          "id": "521447",
+          "gearbox": "Automatic",
+          "baseObjectType": "CAR",
+          "odometerReading": 207880,
           "fuels": [
             {
               "fuelCode": "Diesel",
@@ -1704,19 +1665,22 @@
               "fuelTankVolume": ""
             }
           ],
-          "gearbox": "Automatic",
-          "fabricAndMake": "VOLKSWAGEN, VW",
-          "baseObjectType": "CAR",
-          "modelId": null,
-          "odometerReading": 207880,
+          "earliestAvailableAt": null,
           "modelName": "Tiguan 2.0 TDI 4MOTION (190hk)",
           "salesFlow": "CONSUMER_CARS",
+          "registrationPlate": "WLH29E",
           "state": "WAITING_FOR_OWNER_SIGNATURE",
           "odometerUnit": "km",
-          "earliestAvailableAt": null,
+          "fabricAndMake": "VOLKSWAGEN, VW",
           "registrationCountry": "se",
-          "createdAt": "2026-10-08T12:21:31.409982+00:00",
+          "id": "521447",
           "familyName": "Tiguan",
+          "modelId": null,
+          "year": "2020",
+          "createdAt": "2026-10-08T12:21:31.409982+00:00",
+          "brand": "Volkswagen",
+          "body": "SUV",
+          "exteriorColor": "Black",
           "technicalSpecification": {
             "modelId": null,
             "vehicle": {
@@ -1728,25 +1692,61 @@
             "year": "2020"
           }
         },
-        "id": "7291580",
-        "leaseReturnProperties": {},
         "vehicleType": "CAR",
-        "presentationApproved": false,
-        "baseObjectId": "521447",
-        "isFixedPrice": false,
-        "certified": false,
-        "objectType": "CAR",
-        "state": "AUCTION",
         "initialBuyNowAmount": null,
+        "baseObjectId": "521447",
+        "conditionClassification": "TESTED",
+        "proactiveBrokering": null,
+        "presentationApproved": false,
+        "state": "AUCTION",
+        "properties": {
+          "gearbox": "Automatic",
+          "numberOfPreviousOwners": 4,
+          "title": "VW Tiguan 2.0 TDI 4MOTION (190hk)",
+          "odometerReading": 209740,
+          "adHeader": "Tiguan 2.0 TDI 4MOTION (190hk) GT, Värmare",
+          "fuels": [
+            {
+              "fuelCode": "Diesel",
+              "co2": 141,
+              "consumption": 5.4,
+              "enginePower": 190
+            }
+          ],
+          "exportable": true,
+          "mustExport": false,
+          "deductibleVat": false,
+          "modelName": "Tiguan 2.0 TDI 4MOTION (190hk)",
+          "modelYear": 2020,
+          "registrationPlate": "WLH29E",
+          "saleLimitedToCorporate": false,
+          "package": "GT, Värmare",
+          "odometerUnit": "km",
+          "ecoFriendly": false,
+          "hasUnpaidLoan": true,
+          "familyName": "Tiguan",
+          "heavyEquipment": false,
+          "brand": "Volkswagen",
+          "body": "SUV",
+          "exteriorColor": "Black",
+          "heading1": "Volkswagen Tiguan",
+          "heading2": "2.0 TDI 4MOTION",
+          "heading3": "GT, Värmare"
+        },
+        "offsiteSalesContact": null,
+        "leaseReturnProperties": {},
+        "id": "7291580",
+        "displayCar360Spin": true,
+        "certified": false,
+        "sellMethod": "BIDDING",
+        "isReleasable": false,
+        "car360Spin": null,
         "statisticalValuation": {
+          "bpGreen": null,
           "bpWhite": 197823,
           "marketPrice": 197823,
-          "bpGreen": null,
           "bpOrange": 197823
         },
-        "testDriveAllowed": true,
-        "buyNowAmount": null,
-        "isReleasable": false,
         "createdAt": "2026-10-08 12:28:35.935741+00:00",
         "exportable": true,
         "deductibleVat": false,
@@ -2446,6 +2446,6 @@
     "closedAt": "2026-10-30T09:48:28.283697+00:00",
     "updatedAt": "2026-10-30T12:48:55.602381+00:00"
   },
-  "_scraped_at": "2026-10-30T14:08:49.130739+00:00",
+  "_scraped_at": "2026-10-30T16:16:09.464280+00:00",
   "_url": "https://www.kvd.se/auktioner/vw-tiguan-2-0-tdi-4motion-190hk-309214"
 }
