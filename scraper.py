@@ -2,6 +2,7 @@
 """
 KVD stängda auktioner-scraper.
 Hämtar listan + detaljer och sparar full JSON + aggregerad sammanställning.
+Hoppar över redan skrapade ID:n och lägger till max 50 nya per körning.
 """
 
 import json
@@ -23,6 +24,21 @@ SESSION.headers.update(HEADERS)
 
 DATA_DIR = Path("data")
 DELAY_BETWEEN_REQUESTS = 0.8
+
+
+def get_already_scraped_ids() -> set:
+    """Hittar alla redan skrapade auktions-ID:n genom att titta i alla details-mappar."""
+    scraped = set()
+    if not DATA_DIR.exists():
+        return scraped
+    for day_dir in DATA_DIR.iterdir():
+        if not day_dir.is_dir():
+            continue
+        details_dir = day_dir / "details"
+        if details_dir.exists():
+            for f in details_dir.glob("*.json"):
+                scraped.add(f.stem)  # filnamnet är auktions-ID
+    return scraped
 
 
 def fetch_closed_list():
@@ -73,7 +89,7 @@ def scrape_detail(auction: dict) -> dict:
 
 def extract_fuel_info(props: dict) -> dict:
     """Extraherar bränsletyp, EV-flagga och hybrid-info."""
-    electric_type = props.get("electricType")  # t.ex. "Plug-in hybrid", "Electric" etc.
+    electric_type = props.get("electricType")
     fuels = props.get("fuels") or []
     fuel_codes = [f.get("fuelCode") for f in fuels if f.get("fuelCode")]
 
@@ -81,7 +97,6 @@ def extract_fuel_info(props: dict) -> dict:
     is_hybrid = electric_type and "hybrid" in electric_type.lower()
     is_phev = is_hybrid and is_electric
 
-    # Primärt bränsle för visning
     if is_electric and not is_hybrid:
         fuel_display = "El"
     elif is_phev:
@@ -160,25 +175,62 @@ def flatten_for_aggregate(full: dict) -> dict:
     }
 
 
+def rebuild_aggregated(day_dir: Path):
+    """Bygger om aggregated.json/csv från alla details i dagens mapp."""
+    details_dir = day_dir / "details"
+    aggregated = []
+    for detail_file in sorted(details_dir.glob("*.json")):
+        try:
+            full = json.loads(detail_file.read_text(encoding="utf-8"))
+            aggregated.append(flatten_for_aggregate(full))
+        except Exception as e:
+            print(f"Kunde inte läsa {detail_file}: {e}")
+
+    if not aggregated:
+        return
+
+    agg_json = day_dir / "aggregated.json"
+    agg_json.write_text(json.dumps(aggregated, ensure_ascii=False, indent=2), encoding="utf-8")
+
+    import csv
+    agg_csv = day_dir / "aggregated.csv"
+    fieldnames = list(aggregated[0].keys())
+    with agg_csv.open("w", newline="", encoding="utf-8") as f:
+        writer = csv.DictWriter(f, fieldnames=fieldnames)
+        writer.writeheader()
+        writer.writerows(aggregated)
+
+    print(f"Aggregerat uppdaterat: {len(aggregated)} rader")
+
+
 def main(max_details: int | None = None):
-    """max_details=None = alla. Sätt t.ex. 50 för test."""
+    """max_details = max antal NYA auktioner att skrapa den här körningen."""
     today = datetime.now().strftime("%Y-%m-%d")
     day_dir = DATA_DIR / today
     details_dir = day_dir / "details"
     details_dir.mkdir(parents=True, exist_ok=True)
 
-    print(f"Hämtar lista över stängda auktioner...")
+    print("Hämtar lista över stängda auktioner...")
     auctions = fetch_closed_list()
-    print(f"Hittade {len(auctions)} auktioner")
+    print(f"Hittade {len(auctions)} auktioner i listan")
 
     list_path = day_dir / "closed_auctions_list.json"
     list_path.write_text(json.dumps(auctions, ensure_ascii=False, indent=2), encoding="utf-8")
 
-    to_scrape = auctions
-    if max_details:
-        to_scrape = auctions[:max_details]
+    already = get_already_scraped_ids()
+    print(f"Redan skrapade ID:n: {len(already)}")
 
-    aggregated = []
+    # Filtrera till bara nya
+    new_auctions = [a for a in auctions if str(a["id"]) not in already]
+    print(f"Nya auktioner: {len(new_auctions)}")
+
+    if max_details:
+        to_scrape = new_auctions[:max_details]
+    else:
+        to_scrape = new_auctions
+
+    print(f"Skrapar {len(to_scrape)} nya auktioner den här körningen")
+
     for i, auction in enumerate(to_scrape, 1):
         aid = auction["id"]
         detail_path = details_dir / f"{aid}.json"
@@ -186,21 +238,10 @@ def main(max_details: int | None = None):
 
         full = scrape_detail(auction)
         detail_path.write_text(json.dumps(full, ensure_ascii=False, indent=2), encoding="utf-8")
-
-        aggregated.append(flatten_for_aggregate(full))
         time.sleep(DELAY_BETWEEN_REQUESTS)
 
-    agg_json = day_dir / "aggregated.json"
-    agg_json.write_text(json.dumps(aggregated, ensure_ascii=False, indent=2), encoding="utf-8")
-
-    if aggregated:
-        import csv
-        agg_csv = day_dir / "aggregated.csv"
-        fieldnames = list(aggregated[0].keys())
-        with agg_csv.open("w", newline="", encoding="utf-8") as f:
-            writer = csv.DictWriter(f, fieldnames=fieldnames)
-            writer.writeheader()
-            writer.writerows(aggregated)
+    # Bygg om aggregerad fil för dagen (inkluderar alla details i dagens mapp)
+    rebuild_aggregated(day_dir)
 
     print(f"\nKlart. Data sparad i {day_dir}/")
     print(f"- Lista: {list_path}")
@@ -211,6 +252,6 @@ def main(max_details: int | None = None):
 if __name__ == "__main__":
     import argparse
     parser = argparse.ArgumentParser()
-    parser.add_argument("--max", type=int, default=None, help="Max antal detaljsidor att skrapa (för test)")
+    parser.add_argument("--max", type=int, default=None, help="Max antal NYA detaljsidor att skrapa den här körningen")
     args = parser.parse_args()
     main(max_details=args.max)
