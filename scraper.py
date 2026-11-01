@@ -25,6 +25,16 @@ SESSION.headers.update(HEADERS)
 DATA_DIR = Path("data")
 DELAY_BETWEEN_REQUESTS = 0.8
 
+# Alla fält som alltid ska finnas i aggregerade rader
+AGG_FIELDS = [
+    "id", "slug", "url", "brand", "model", "model_name", "model_year",
+    "odometer_km", "fuel", "fuel_codes", "electric_type", "is_ev",
+    "is_hybrid", "is_phev", "gearbox", "closed_at", "start_bid",
+    "winning_bid", "sold_for", "price", "status", "state",
+    "auction_type", "is_reserved", "preliminary_price", "scraped_at",
+    "error",
+]
+
 
 def get_already_scraped_ids() -> set:
     """Hittar alla redan skrapade auktions-ID:n genom att titta i alla details-mappar."""
@@ -37,7 +47,7 @@ def get_already_scraped_ids() -> set:
         details_dir = day_dir / "details"
         if details_dir.exists():
             for f in details_dir.glob("*.json"):
-                scraped.add(f.stem)  # filnamnet är auktions-ID
+                scraped.add(f.stem)
     return scraped
 
 
@@ -119,13 +129,15 @@ def extract_fuel_info(props: dict) -> dict:
 
 
 def flatten_for_aggregate(full: dict) -> dict:
-    """Tar ut de intressanta fälten till den aggregerade filen."""
+    """Tar ut de intressanta fälten till den aggregerade filen. Alla rader har samma nycklar."""
+    base = {field: None for field in AGG_FIELDS}
+
     if "error" in full:
-        return {
-            "id": full.get("id"),
-            "error": full["error"],
-            "url": full.get("url"),
-        }
+        base["id"] = full.get("id")
+        base["error"] = full["error"]
+        base["url"] = full.get("url")
+        base["status"] = "fel vid skrapning"
+        return base
 
     po = full.get("processObject") or {}
     props = po.get("properties") or {}
@@ -145,7 +157,7 @@ def flatten_for_aggregate(full: dict) -> dict:
 
     fuel_info = extract_fuel_info(props)
 
-    return {
+    base.update({
         "id": full.get("id"),
         "slug": full.get("slug"),
         "url": full.get("_url"),
@@ -172,7 +184,9 @@ def flatten_for_aggregate(full: dict) -> dict:
         "is_reserved": full.get("isReserved"),
         "preliminary_price": full.get("preliminaryPrice"),
         "scraped_at": full.get("_scraped_at"),
-    }
+        "error": None,
+    })
+    return base
 
 
 def rebuild_aggregated(day_dir: Path):
@@ -194,9 +208,8 @@ def rebuild_aggregated(day_dir: Path):
 
     import csv
     agg_csv = day_dir / "aggregated.csv"
-    fieldnames = list(aggregated[0].keys())
     with agg_csv.open("w", newline="", encoding="utf-8") as f:
-        writer = csv.DictWriter(f, fieldnames=fieldnames)
+        writer = csv.DictWriter(f, fieldnames=AGG_FIELDS, extrasaction="ignore")
         writer.writeheader()
         writer.writerows(aggregated)
 
@@ -220,7 +233,6 @@ def main(max_details: int | None = None):
     already = get_already_scraped_ids()
     print(f"Redan skrapade ID:n: {len(already)}")
 
-    # Filtrera till bara nya
     new_auctions = [a for a in auctions if str(a["id"]) not in already]
     print(f"Nya auktioner: {len(new_auctions)}")
 
@@ -240,7 +252,6 @@ def main(max_details: int | None = None):
         detail_path.write_text(json.dumps(full, ensure_ascii=False, indent=2), encoding="utf-8")
         time.sleep(DELAY_BETWEEN_REQUESTS)
 
-    # Bygg om aggregerad fil för dagen (inkluderar alla details i dagens mapp)
     rebuild_aggregated(day_dir)
 
     print(f"\nKlart. Data sparad i {day_dir}/")
