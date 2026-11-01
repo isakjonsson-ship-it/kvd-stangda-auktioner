@@ -1,0 +1,2091 @@
+{
+  "id": "308701",
+  "auctionType": "BIDDING",
+  "biddingFee": "5238.00",
+  "biddingFeeCorporate": "6663.00",
+  "mediationFee": 0,
+  "mediationFeeCorporate": 0,
+  "buyNow": false,
+  "closedAt": "2026-10-28T17:45:10.937792+00:00",
+  "publishedAt": "2026-10-23T13:37:07.780360+00:00",
+  "countdownDuration": 210,
+  "countdownStartAt": "2026-10-28T17:38:30+00:00",
+  "createdAt": "2026-10-23T10:58:21.521333+00:00",
+  "readyForAuctionAt": "2026-10-25",
+  "currency": "SEK",
+  "maxBidRaise": 100000,
+  "minBidRaise": 500,
+  "startBid": 80000,
+  "openedAt": "2026-10-23T13:37:07.766707+00:00",
+  "processObjectId": "7288185",
+  "readyForCheckout": true,
+  "soldFor": 106000,
+  "sellMethod": "BIDDING",
+  "slug": "bmw-520d-sedan-g30-190hk",
+  "auctionUrl": "https://www.kvd.se/auktioner/bmw-520d-sedan-g30-190hk-308701",
+  "state": "PAYMENT_SEQUENCE_PENDING",
+  "targetedAuctionGroupId": null,
+  "updatedAt": "2026-10-30T12:07:37.010575+00:00",
+  "releasing": null,
+  "loan": {
+    "loanCost": 903,
+    "loanCostBuyNow": null
+  },
+  "buyNowAmount": null,
+  "buyNowAvailable": false,
+  "buyNowUntil": null,
+  "eligibleForAdditionalServices": true,
+  "comingSoon": false,
+  "preliminaryPrice": 180000,
+  "maxAllowedBid": 270000,
+  "isReserved": false,
+  "isSoldByBuyNow": false,
+  "favouriteCount": 22,
+  "eurBuyNowAmount": null,
+  "winningBid": {
+    "id": "121885",
+    "type": "BIDDER",
+    "state": "ACTIVE",
+    "amount": 106000,
+    "brokerId": "microservice",
+    "auctionId": "308701",
+    "createdAt": "2026-10-29T10:50:55.800075+00:00",
+    "updatedAt": "2026-10-29T10:50:55.995592+00:00",
+    "evaluationType": "BROKERING"
+  },
+  "processObject": {
+    "orderableAdditionalServices": {
+      "tradein": false,
+      "transport": true,
+      "insurance": true,
+      "finance": true,
+      "warranty": true,
+      "extraTires": false
+    },
+    "car360Spin": null,
+    "proactiveBrokering": null,
+    "displayCar360Spin": true,
+    "offsiteSalesContact": null,
+    "sellMethod": "BIDDING",
+    "reducedPrice": false,
+    "conditionClassification": "TESTED",
+    "properties": {
+      "adHeader": "520 d Sedan, G30 (190hk) Sport line",
+      "exteriorColor": "Black",
+      "brand": "BMW",
+      "mediation": true,
+      "curbWeight": 1732,
+      "maxPayload": 513,
+      "equipment": [
+        "Antisladdsystem",
+        "Antispinn",
+        "Assistanssystem",
+        "Auto hold",
+        "Autobroms",
+        "Backkamera",
+        "Bluetooth",
+        "CD-Stereo",
+        "Elhiss bak",
+        "Elhiss fram",
+        "Elinfällbara speglar",
+        "Elspeglar",
+        "Farthållare",
+        "Fjärrlås",
+        "GPS",
+        "Infällbar dragkrok",
+        "Isofix bak",
+        "Klimatanläggning",
+        "LED-strålkastare",
+        "Nyckellöst startsystem",
+        "Parkeringssensorer bak",
+        "Parkeringssensorer fram",
+        "Radio",
+        "Rattvärme",
+        "Regnsensor",
+        "Start/Stop-funktion",
+        "Stolsvärme fram",
+        "Urkopplingsbar passagerarairbag",
+        "USB-ingång"
+      ],
+      "inspectionValidToDate": "2024-07-31",
+      "odometerUnit": "km",
+      "length": 4936,
+      "finishType": "Solid",
+      "textile": "Delläder",
+      "saleLimitedToCorporate": false,
+      "chassisNumber": "WBAJC3101JWA80418",
+      "title": "BMW 520d Sedan, G30 (190hk)",
+      "dateOfInspection": "2023-05-29",
+      "inspectionPeriod": "2023-05-29 - 2024-07-31",
+      "totalWeight": 2245,
+      "registrationPlateCountry": "se",
+      "exportable": true,
+      "residualLoanValue": 0,
+      "taxFee": 1728,
+      "formattedEquipment": [
+        {
+          "key": "ANTISLADDSYSTEM",
+          "title": "Antisladdsystem",
+          "description": "Ett system som känner av om bilen håller på att sladda. Genom att bromsa enskilda hjul stabiliseras bilen och sladden förhindras, även kallat ESP.",
+          "priority": 0
+        },
+        {
+          "key": "ANTISPINN",
+          "title": "Antispinn",
+          "description": "Hjälpsystem som förhindrar att hjulen spinner",
+          "priority": 1
+        },
+        {
+          "key": "ASSISTANSSYSTEM",
+          "title": "Assistanssystem",
+          "description": "Uppkopplad tjänst för att exempelvis kunna kontrollera din bil på distans med hjälp av en mobilapp. Funktioner som bygger på 2G eller 3G-uppkoppling kan sluta fungera i samband med att dessa nätverk stängs ner av operatörerna.",
+          "priority": 2
+        },
+        {
+          "key": "AUTO_HOLD",
+          "title": "Auto hold",
+          "description": "Hindrar bilen tillfälligt från att rulla bakåt när du startar i motlut",
+          "priority": 3
+        },
+        {
+          "key": "AUTOBROMS",
+          "title": "Autobroms",
+          "description": "Automatisk inbromsning vid lägre hastigheter för mötande fordon och hinder framför bilen (City Safety)",
+          "priority": 4
+        },
+        {
+          "key": "BACKKAMERA",
+          "title": "Backkamera",
+          "description": "Kamera som underlättar vid backning",
+          "priority": 5
+        },
+        {
+          "key": "BLUETOOTH",
+          "title": "Bluetooth",
+          "description": "Trådlös uppkoppling mot mobila enheter",
+          "priority": 6
+        },
+        {
+          "key": "CD_STEREO",
+          "title": "CD-Stereo",
+          "description": "Spelare för CD-skivor",
+          "priority": 7
+        },
+        {
+          "key": "ELHISS_BAK",
+          "title": "Elhiss bak",
+          "description": "Elektroniska fönsterhissar bak",
+          "priority": 8
+        },
+        {
+          "key": "ELHISS_FRAM",
+          "title": "Elhiss fram",
+          "description": "Elektronisk fönsterhiss fram",
+          "priority": 9
+        },
+        {
+          "key": "ELINFALLBARA_SPEGLAR",
+          "title": "Elinfällbara backspeglar",
+          "description": "Speglar som fälls in automatiskt när bilen låses eller manuellt via knapp",
+          "priority": 10
+        },
+        {
+          "key": "ELSPEGLAR",
+          "title": "Elspeglar",
+          "description": "Elektroniskt ställbara sidospeglar",
+          "priority": 11
+        },
+        {
+          "key": "FARTHALLARE",
+          "title": "Farthållare",
+          "description": "Elektroniskt system som håller inprogrammerad hastighet",
+          "priority": 12
+        },
+        {
+          "key": "FJARRLAS",
+          "title": "Fjärrlås",
+          "description": "Möjliggör att du på distans kan låsa och låsa upp bilen",
+          "priority": 13
+        },
+        {
+          "key": "GPS",
+          "title": "GPS",
+          "description": "Navigationssystem med vägbeskrivning",
+          "priority": 14
+        },
+        {
+          "key": "INFALLBAR_DRAGKROK",
+          "title": "Infällbar dragkrok",
+          "description": " Anordning för att dra exempelvis personbilssläp, båttrailer mm. Kan fällas in/ut.",
+          "priority": 15
+        },
+        {
+          "key": "ISOFIX_BAK",
+          "title": "Isofix bak",
+          "description": "  Fästsystem för bilbarnstolar enligt internationell standard, även kallat Isofix",
+          "priority": 16
+        },
+        {
+          "key": "KLIMATANLAGGNING",
+          "title": "Klimatanläggning",
+          "description": "Luftkonditionering med möjlighet till automatisk temperaturinställning",
+          "priority": 17
+        },
+        {
+          "key": "LED_STRALKASTARE",
+          "title": "LED-strålkastare",
+          "description": "Strålkastare med LED-ljus har ett konstant vitt ljus och har samma ljusstyrka från star",
+          "priority": 18
+        },
+        {
+          "key": "NYCKELLOST_STARTSYSTEM",
+          "title": "Nyckellöst startsystem",
+          "description": "Startknapp i bilen utan tändningslås. Även kallat Keyless-go",
+          "priority": 19
+        },
+        {
+          "key": "PARKERINGSSENSORER_BAK",
+          "title": "Parkeringssensorer bak",
+          "description": "Sensorer på stötfångare baktill som varnar för hinder bakom bilen",
+          "priority": 20
+        },
+        {
+          "key": "PARKERINGSSENSORER_FRAM",
+          "title": "Parkeringssensorer fram",
+          "description": "Sensorer på stötfångare som varnar för hinder framför bilen",
+          "priority": 21
+        },
+        {
+          "key": "RADIO",
+          "title": "Radio",
+          "description": "Radiospelare",
+          "priority": 22
+        },
+        {
+          "key": "RATTVARME",
+          "title": "Rattvärme",
+          "description": "Eluppvärmd ratt",
+          "priority": 23
+        },
+        {
+          "key": "REGNSENSOR",
+          "title": "Regnsensor",
+          "description": "Automatiska vindrutetorkare, sensorer som reagerar på vatten",
+          "priority": 24
+        },
+        {
+          "key": "START_STOP_FUNKTION",
+          "title": "Start/Stopp-funktion",
+          "description": "Automatisk på och avstängning av motor vid exempelvis trafikljus",
+          "priority": 25
+        },
+        {
+          "key": "STOLSVARME_FRAM",
+          "title": "Stolsvärme fram",
+          "description": "Olika nivåer av värme i stolarna fram som ställs in via en knapp",
+          "priority": 26
+        },
+        {
+          "key": "URKOPPLINGSBAR_PASSAGERARAIRBAG",
+          "title": "Urkopplingsbar passagerarairbag",
+          "description": "Möjlighet att koppla till och från airbagen på passagerarsidan",
+          "priority": 27
+        },
+        {
+          "key": "USB_INGANG",
+          "title": "USB-ingång",
+          "description": "Inkoppling av mobil enhet via USB-kontakt",
+          "priority": 28
+        }
+      ],
+      "familyName": "5-serien",
+      "environmentalClassEuro": "6",
+      "towbar": false,
+      "isRepairObject": false,
+      "body": "Sedan",
+      "numberOfSeats": 5,
+      "maxPullWeightB": 1255,
+      "fuels": [
+        {
+          "enginePower": 190,
+          "consumption": 4.7,
+          "co2": 123,
+          "fuelCode": "Diesel"
+        }
+      ],
+      "grades": {
+        "INTERIOR": {
+          "value": 3,
+          "min": 1,
+          "max": 5
+        },
+        "TOTAL": {
+          "value": 3,
+          "min": 1,
+          "max": 5
+        },
+        "ENGINE_AND_GEARBOX": {
+          "value": 2,
+          "min": 1,
+          "max": 3
+        },
+        "EXTERIOR": {
+          "value": 3,
+          "min": 1,
+          "max": 5
+        },
+        "BRAKES": {
+          "value": 3,
+          "min": 1,
+          "max": 3
+        },
+        "TECHNOLOGY_AND_EQUIPMENT": {
+          "value": 2,
+          "min": 1,
+          "max": 3
+        }
+      },
+      "maxTrailerWeight": 2000,
+      "odometerReading": 241420,
+      "package": "Sport line",
+      "initialTrafficDate": "2018-06-29",
+      "mustExport": false,
+      "manufactureMonth": "201805",
+      "ecoFriendly": false,
+      "deductibleVat": false,
+      "numberOfKeys": 1,
+      "registrationPlate": "PKX261",
+      "numberOfPreviousOwners": 6,
+      "heavyEquipment": false,
+      "modelYear": 2018,
+      "height": 1479,
+      "gearbox": "Automatic",
+      "modelName": "520d Sedan, G30 (190hk)",
+      "taxWeight": 1730,
+      "width": 1868,
+      "remarks": {
+        "INTERIOR": [
+          {
+            "key": "Lukt från rök",
+            "id": "0",
+            "category": "INTERIOR"
+          },
+          {
+            "key": "Klädsel smutsig",
+            "id": "1",
+            "category": "INTERIOR"
+          },
+          {
+            "key": "Ratten är sliten",
+            "id": "2",
+            "category": "INTERIOR"
+          },
+          {
+            "key": "Varningstriangel saknas",
+            "id": "3",
+            "category": "INTERIOR"
+          }
+        ],
+        "ENGINE_AND_GEARBOX": [
+          {
+            "key": "Motorlampa lyser",
+            "id": "0",
+            "category": "ENGINE_AND_GEARBOX"
+          },
+          {
+            "key": "Resultatet på besiktningen: 2 Underkänd med föreläggande att ombesiktning krävs 2026-10-15\rBrister:\r2 FELINDIKATOR MOTORELEKTRONIK (8.2.1.1) VAR",
+            "id": "1",
+            "category": "ENGINE_AND_GEARBOX"
+          }
+        ],
+        "EXTERIOR": [
+          {
+            "key": "Stenskott i vindruta",
+            "id": "0",
+            "category": "EXTERIOR"
+          },
+          {
+            "key": "Flertal lackskador, Plastkåpa under bil skadad",
+            "id": "1",
+            "category": "EXTERIOR"
+          },
+          {
+            "key": "Obs! Framdäck vänster är ett sommardäck övriga odubbade.\rVänster tröskellåda, plast karosskadad",
+            "id": "2",
+            "category": "EXTERIOR"
+          }
+        ],
+        "BRAKES": [],
+        "TECHNOLOGY_AND_EQUIPMENT": [
+          {
+            "key": "Servicelampa lyser",
+            "id": "0",
+            "category": "TECHNOLOGY_AND_EQUIPMENT"
+          },
+          {
+            "key": "Avgassystem, flexrör skadat/fransar",
+            "id": "1",
+            "category": "TECHNOLOGY_AND_EQUIPMENT"
+          },
+          {
+            "key": "Varnar för fotgängarskydd ur funktion",
+            "id": "2",
+            "category": "TECHNOLOGY_AND_EQUIPMENT"
+          },
+          {
+            "key": "Nödsamtal ur funktion",
+            "id": "3",
+            "category": "TECHNOLOGY_AND_EQUIPMENT"
+          }
+        ],
+        "TIRES": [
+          {
+            "key": "Fälgar på bilen kantstötta",
+            "id": "0",
+            "category": "TIRES"
+          }
+        ]
+      },
+      "drivingBan": false,
+      "remarksLocalized": {
+        "TIRES": "Fälgar på bilen kantstötta",
+        "BRAKES": null,
+        "EXTERIOR": "Stenskott i vindruta. Flertal lackskador, Plastkåpa under bil skadad. Obs! Framdäck vänster är ett sommardäck övriga odubbade.\rVänster tröskellåda, plast karosskadad",
+        "INTERIOR": "Lukt från rök. Klädsel smutsig. Ratten är sliten. Varningstriangel saknas",
+        "ENGINE_AND_GEARBOX": "Motorlampa lyser. Resultatet på besiktningen: 2 Underkänd med föreläggande att ombesiktning krävs 2026-10-15\rBrister:\r2 FELINDIKATOR MOTORELEKTRONIK (8.2.1.1) VAR",
+        "TECHNOLOGY_AND_EQUIPMENT": "Servicelampa lyser. Avgassystem, flexrör skadat/fransar. Varnar för fotgängarskydd ur funktion. Nödsamtal ur funktion"
+      },
+      "hasUnpaidLoan": false,
+      "registrationCountry": "se",
+      "importedForPersonalUse": false,
+      "heading1": "BMW 5-serien",
+      "heading2": "520d Sedan, G30",
+      "heading3": "Sport line"
+    },
+    "baseObject": {
+      "exteriorColor": "Black",
+      "registrationPlate": "PKX261",
+      "year": "2018",
+      "body": "Sedan",
+      "authorityRegisterInformation": {
+        "additionalTechSpecification": {
+          "raceCar": null,
+          "wheelbase1": 2975,
+          "wheelbase2": null,
+          "wheelbase3": null,
+          "wheelbase4": null,
+          "equipment1": null,
+          "equipment2": null,
+          "equipment3": null,
+          "maximumSpeed": 235,
+          "numAxleShafts": "",
+          "passengerAirBag": true,
+          "tyreDimensionRear": "245/45 R18 100 Y",
+          "tyreDimensionFront": "245/45 R18 100 Y",
+          "dualSteeringControl": null
+        },
+        "environmentalClassification": {
+          "fuels": [
+            {
+              "co2": 123,
+              "nox": "",
+              "nox4": null,
+              "fuelCode": "Diesel",
+              "hcThcNox": "",
+              "consumption": 4.7,
+              "noiseLevel": 67,
+              "emissionUnit": "g/km",
+              "innovationCo2": null,
+              "particleValue": "",
+              "particleMass4": null,
+              "consumptionUnit": "4,7",
+              "rangeNedcDrive": null,
+              "rangeWltpDrive": null,
+              "consumptionUrban": 5.3,
+              "rangeCityWltpDrive": null,
+              "consumptionExtraUrban": 4.3,
+              "electricEnergyConsumption": null,
+              "energyConsumptionWltpDrive": null
+            }
+          ],
+          "ecoFriendly": false,
+          "emissionClass": "EURO 6",
+          "innovationCode": null,
+          "environmentalClass": null,
+          "environmentalClassEuro": "6"
+        },
+        "vehicleStatus": {
+          "tax": 1728
+        },
+        "registrationInformation": {
+          "registrationPlate": "PKX261",
+          "deregistrationDate": null,
+          "deregistrationText": null,
+          "deregistrationReason": null
+        },
+        "generalTechSpecification": {
+          "eeg": "e1*2007/46*1688*04",
+          "fuels": [
+            {
+              "fuelCode": "Diesel",
+              "powerUnit": "EG",
+              "enginePower": 140,
+              "enginePowerHp": 190,
+              "fuelTankVolume": ""
+            }
+          ],
+          "width": 1868,
+          "height": 1479,
+          "length": 4936,
+          "gearbox": "Automatic",
+          "variant": "JC31",
+          "version": "CAW500L0",
+          "taxWeight": 1730,
+          "curbWeight": 1732,
+          "maxPayload": 513,
+          "totalWeight": 2245,
+          "chassisCode1": null,
+          "chassisCode2": null,
+          "cubicCapacity": "1995",
+          "numPassengers": "4",
+          "numberOfSeats": 5,
+          "fourWheelDrive": false,
+          "maxPullWeightB": 1255,
+          "clutchMechanism1": null,
+          "clutchMechanism2": null,
+          "maxTrailerWeight": 2000,
+          "chassisCodeSupplement": null,
+          "maxPullWieghtNoBreaks": null,
+          "maxPullWeightBExtended": null,
+          "maxSingle Axle TrailerWeight": null
+        },
+        "vehicleOrigin": {
+          "originCode": "INFÖRT",
+          "originCodeReason": null,
+          "importerIdentifier": null,
+          "preRegistrationDate": null,
+          "importRegistrationDate": null,
+          "importedForPersonalUse": false,
+          "importedPreviouslyRegistered": false
+        },
+        "vehicleInspectionInformation": {
+          "inspections": [
+            {
+              "inspectionType": "5",
+              "odometerReading": 155532,
+              "dateOfInspection": "2023-05-29"
+            },
+            {
+              "inspectionType": "5",
+              "odometerReading": 101945,
+              "dateOfInspection": "2021-06-16"
+            }
+          ],
+          "inspectionGroup": "36/24/14",
+          "odometerReading": 155532,
+          "inspectionPeriod": "2023-05-29 - 2024-07-31",
+          "dateOfInspection": "2023-05-29",
+          "inspectionValidToDate": "2024-07-31",
+          "inspectionExemptionGroup": null
+        },
+        "vehicleInformation": {
+          "vin": "WBAJC3101JWA80418",
+          "body": "AA",
+          "type": "CAR",
+          "year": "2018",
+          "model": "520D",
+          "rawType": "PB",
+          "modelYear": null,
+          "categoryEu": "e1*2007/46*1688*04",
+          "groupNumber": "BW 250139",
+          "modelNumber": "BW 000000",
+          "chassisNumber": "WBAJC3101JWA80418",
+          "exteriorColor": "Black",
+          "fabricAndMake": "BMW",
+          "baseObjectType": "CAR",
+          "manufactureCode": null,
+          "manufactureMonth": "201805",
+          "registrationDate": "2018-05-29",
+          "initialTrafficDate": "2018-06-29",
+          "registrationPlateReused": null
+        }
+      },
+      "brand": "BMW",
+      "id": "514924",
+      "fuels": [
+        {
+          "fuelCode": "Diesel",
+          "powerUnit": "EG",
+          "enginePower": 140,
+          "enginePowerHp": 190,
+          "fuelTankVolume": ""
+        }
+      ],
+      "gearbox": "Automatic",
+      "fabricAndMake": "BMW",
+      "baseObjectType": "CAR",
+      "modelId": null,
+      "odometerReading": null,
+      "modelName": "520d Sedan, G30 (190hk)",
+      "salesFlow": "CONSUMER_CARS",
+      "state": "MANUAL_VALUATION_PENDING",
+      "odometerUnit": "km",
+      "earliestAvailableAt": null,
+      "registrationCountry": "se",
+      "createdAt": "2026-09-08T13:57:11.002148+00:00",
+      "familyName": "5-serien",
+      "technicalSpecification": {
+        "modelId": null,
+        "vehicle": {
+          "brand": "BMW",
+          "body": "Sedan",
+          "modelName": "520d Sedan, G30 (190hk)",
+          "familyName": "5-serien"
+        },
+        "year": "2018"
+      }
+    },
+    "id": "7288185",
+    "leaseReturnProperties": {},
+    "vehicleType": "CAR",
+    "presentationApproved": false,
+    "baseObjectId": "514924",
+    "isFixedPrice": false,
+    "certified": false,
+    "objectType": "CAR",
+    "state": "AUCTION_RESOLUTION",
+    "initialBuyNowAmount": null,
+    "statisticalValuation": null,
+    "testDriveAllowed": true,
+    "buyNowAmount": null,
+    "isReleasable": false,
+    "createdAt": "2026-09-08 13:57:11.327601+00:00",
+    "exportable": true,
+    "deductibleVat": false,
+    "collisionWarranty": null,
+    "title": "BMW 520d Sedan, G30 (190hk)",
+    "brand": "BMW",
+    "familyName": "5-serien",
+    "modelName": "520d Sedan, G30 (190hk)",
+    "package": "Sport line",
+    "heading1": "BMW 5-serien",
+    "heading2": "520d Sedan, G30",
+    "heading3": "Sport line",
+    "media": [
+      {
+        "processObjectId": "7288185",
+        "uri": "https://kvdbil-images.imgix.net/7288185/fc29f1e3.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7288185/fc29f1e3.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 1
+      },
+      {
+        "processObjectId": "7288185",
+        "uri": "https://kvdbil-images.imgix.net/7288185/66dd121a.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7288185/66dd121a.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 1
+      },
+      {
+        "processObjectId": "7288185",
+        "uri": "https://kvdbil-images.imgix.net/7288185/1fe3c1d7.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7288185/1fe3c1d7.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 2
+      },
+      {
+        "processObjectId": "7288185",
+        "uri": "https://kvdbil-images.imgix.net/7288185/b7c11748.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7288185/b7c11748.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 2
+      },
+      {
+        "processObjectId": "7288185",
+        "uri": "https://kvdbil-images.imgix.net/7288185/7282e567.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7288185/7282e567.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 3
+      },
+      {
+        "processObjectId": "7288185",
+        "uri": "https://kvdbil-images.imgix.net/7288185/e7cc901d.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7288185/e7cc901d.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 3
+      },
+      {
+        "processObjectId": "7288185",
+        "uri": "https://kvdbil-images.imgix.net/7288185/027e5094.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7288185/027e5094.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 4
+      },
+      {
+        "processObjectId": "7288185",
+        "uri": "https://kvdbil-images.imgix.net/7288185/f80cf630.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7288185/f80cf630.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 4
+      },
+      {
+        "processObjectId": "7288185",
+        "uri": "https://kvdbil-images.imgix.net/7288185/8d1c3123.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7288185/8d1c3123.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 5
+      },
+      {
+        "processObjectId": "7288185",
+        "uri": "https://kvdbil-images.imgix.net/7288185/af348b0c.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7288185/af348b0c.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 5
+      },
+      {
+        "processObjectId": "7288185",
+        "uri": "https://kvdbil-images.imgix.net/7288185/458195d5.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7288185/458195d5.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 6
+      },
+      {
+        "processObjectId": "7288185",
+        "uri": "https://kvdbil-images.imgix.net/7288185/f93204ac.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7288185/f93204ac.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 6
+      },
+      {
+        "processObjectId": "7288185",
+        "uri": "https://kvdbil-images.imgix.net/7288185/9ec13413.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7288185/9ec13413.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 7
+      },
+      {
+        "processObjectId": "7288185",
+        "uri": "https://kvdbil-images.imgix.net/7288185/1b72eee6.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7288185/1b72eee6.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 7
+      },
+      {
+        "processObjectId": "7288185",
+        "uri": "https://kvdbil-images.imgix.net/7288185/e0a7e427.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7288185/e0a7e427.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 8
+      },
+      {
+        "processObjectId": "7288185",
+        "uri": "https://kvdbil-images.imgix.net/7288185/81dc7254.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7288185/81dc7254.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 8
+      },
+      {
+        "processObjectId": "7288185",
+        "uri": "https://kvdbil-images.imgix.net/7288185/39ede9e3.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7288185/39ede9e3.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 9
+      },
+      {
+        "processObjectId": "7288185",
+        "uri": "https://kvdbil-images.imgix.net/7288185/20c6c639.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7288185/20c6c639.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 10
+      },
+      {
+        "processObjectId": "7288185",
+        "uri": "https://kvdbil-images.imgix.net/7288185/1dda1ed4.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7288185/1dda1ed4.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 10
+      },
+      {
+        "processObjectId": "7288185",
+        "uri": "https://kvdbil-images.imgix.net/7288185/6c0d07a4.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7288185/6c0d07a4.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 11
+      },
+      {
+        "processObjectId": "7288185",
+        "uri": "https://kvdbil-images.imgix.net/7288185/02066a91.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7288185/02066a91.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 11
+      },
+      {
+        "processObjectId": "7288185",
+        "uri": "https://kvdbil-images.imgix.net/7288185/49894981.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7288185/49894981.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 12
+      },
+      {
+        "processObjectId": "7288185",
+        "uri": "https://kvdbil-images.imgix.net/7288185/d231bfdf.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7288185/d231bfdf.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 13
+      },
+      {
+        "processObjectId": "7288185",
+        "uri": "https://kvdbil-images.imgix.net/7288185/0d7c0efc.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7288185/0d7c0efc.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 13
+      },
+      {
+        "processObjectId": "7288185",
+        "uri": "https://kvdbil-images.imgix.net/7288185/7a748e48.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7288185/7a748e48.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 14
+      },
+      {
+        "processObjectId": "7288185",
+        "uri": "https://kvdbil-images.imgix.net/7288185/1a4d8426.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7288185/1a4d8426.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 14
+      },
+      {
+        "processObjectId": "7288185",
+        "uri": "https://kvdbil-images.imgix.net/7288185/2b6e083d.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7288185/2b6e083d.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 15
+      },
+      {
+        "processObjectId": "7288185",
+        "uri": "https://kvdbil-images.imgix.net/7288185/9f35642a.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7288185/9f35642a.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 16
+      },
+      {
+        "processObjectId": "7288185",
+        "uri": "https://kvdbil-images.imgix.net/7288185/4dee6ecc.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7288185/4dee6ecc.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 17
+      },
+      {
+        "processObjectId": "7288185",
+        "uri": "https://kvdbil-images.imgix.net/7288185/5238f532.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7288185/5238f532.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 18
+      },
+      {
+        "processObjectId": "7288185",
+        "uri": "https://kvdbil-images.imgix.net/7288185/16bb698e.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7288185/16bb698e.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 19
+      },
+      {
+        "processObjectId": "7288185",
+        "uri": "https://kvdbil-images.imgix.net/7288185/03e6b70b.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7288185/03e6b70b.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 20
+      },
+      {
+        "processObjectId": "7288185",
+        "uri": "https://kvdbil-images.imgix.net/7288185/f9967d15.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7288185/f9967d15.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 21
+      },
+      {
+        "processObjectId": "7288185",
+        "uri": "https://kvdbil-images.imgix.net/7288185/65af5ea6.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7288185/65af5ea6.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 22
+      },
+      {
+        "processObjectId": "7288185",
+        "uri": "https://kvdbil-images.imgix.net/7288185/d889fc00.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7288185/d889fc00.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 23
+      },
+      {
+        "processObjectId": "7288185",
+        "uri": "https://kvdbil-images.imgix.net/7288185/685dc5a7.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7288185/685dc5a7.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 24
+      },
+      {
+        "processObjectId": "7288185",
+        "uri": "https://kvdbil-images.imgix.net/7288185/f932760a.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7288185/f932760a.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 26
+      },
+      {
+        "processObjectId": "7288185",
+        "uri": "https://kvdbil-images.imgix.net/7288185/036c01af.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7288185/036c01af.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 27
+      }
+    ],
+    "locationInfo": {
+      "id": "546936",
+      "processObjectId": "7288185",
+      "locationType": "FACILITY",
+      "createdAt": "2026-09-10T13:57:07.201233+00:00",
+      "updatedAt": "2026-09-10T13:57:07.201235+00:00",
+      "facilityId": "00000005-0005-0005-0005-000000000005",
+      "parkingZone": "A",
+      "parkingNumber": null,
+      "outgoingTime": "2026-11-02T15:30:00+00:00",
+      "leftAt": null,
+      "outgoingType": "BOOKING",
+      "publicFacilityId": "00000005-0005-0005-0005-000000000005",
+      "facility": {
+        "id": "00000005-0005-0005-0005-000000000005",
+        "name": "Svedala",
+        "operator": "KVD",
+        "legacyIdentifiers": [
+          "Malmö",
+          "Svedala"
+        ],
+        "objectTypes": [
+          "CAR",
+          "LIGHT_TRANSPORT"
+        ],
+        "createdAt": "2018-03-04T13:18:23.295898+00:00",
+        "calendarOrganisationalUnitId": "7",
+        "parkingAreas": [
+          {
+            "id": 9,
+            "name": "A1",
+            "createdAt": "2018-03-04T13:18:23.295898+00:00"
+          },
+          {
+            "id": 10,
+            "name": "B1",
+            "createdAt": "2018-03-04T13:18:23.295898+00:00"
+          }
+        ],
+        "active": true,
+        "latitude": 55.5112433,
+        "longitude": 13.251069,
+        "distance": null,
+        "address": "Svetsaregatan 2",
+        "postCode": "23351",
+        "city": "Svedala",
+        "facilityType": "MAXI",
+        "facilityMapUrl": "https://www.google.com/maps/dir/55.5112433,13.251069/@55.5112433,13.251069,z13",
+        "contactPhone": "+46101673045",
+        "contactEmail": "leverans.svedala@kvdbil.se",
+        "allowIncomingTransport": true,
+        "allowLeaseReturns": true,
+        "allowUnplannedDropOffFleetManager": true,
+        "parentFacilityId": null,
+        "publicFacilityId": "00000005-0005-0005-0005-000000000005"
+      }
+    },
+    "valuation": {
+      "id": 235992,
+      "processObjectId": "7288185",
+      "valuatorComment": {
+        "da": "Nu bliver efteråret lidt ekstra sprudlende med BMW 5-serien, som her kombinerer automatgear med køreglæde i en harmonisk helhed. Delvist læderindtræk giver en behagelig og hyggelig følelse under hver rejse. Bakkamera, LED-forlygter, hjælpesystemer og nøglefri startsystem gør hverdagen både nemmere og mere sikker. Bilen er dumpet til syn.",
+        "de": "Jetzt wird der Herbst mit der BMW 5er-Reihe ein wenig extra strahlend, die hier Automatik mit Fahrfreude zu einer harmonischen Einheit kombiniert. Teillederausstattung sorgt bei jeder Fahrt für ein bequemes und behagliches Gefühl. Rückfahrkamera, LED-Scheinwerfer, Assistenzsysteme und schlüsselloses Startsystem machen den Alltag sowohl reibungsloser als auch sicherer. Das Fahrzeug ist bei der Hauptuntersuchung durchgefallen.",
+        "en": "Now autumn becomes a little extra sparkling with the BMW 5 series, which here combines automatic with driving pleasure in a harmonious whole. Partial leather upholstery provides a comfortable and cozy feeling during every journey. Rearview camera, LED headlights, assistance systems, and keyless start system make everyday life both smoother and safer. The car has failed inspection.",
+        "et": "Nüüd muutub sügis veidi erksamaks BMW 5-seeriaga, mis siin ühendab automaadi sõidurõõmuga harmooniliseks tervikuks. Osaline nahkpolster annab igal reisil mugava ja hubase tunde. Tagurduskaamera, LED-esituled, abisüsteemid ja võtmeta käivitussüsteem muudavad igapäevaelu sujuvamaks ja turvalisemaks. Auto on ülevaatusest läbi kukkunud.",
+        "fi": "Nyt syksystä tulee hieman erityisen loistokas BMW 5-sarjan myötä, joka täällä yhdistää automaattivaihteiston ja ajamisen ilon harmoniseksi kokonaisuudeksi. Osittainen nahkasisustus tarjoaa mukavan ja kodikkaan tunteen jokaisella matkalla. Peruutuskamera, LED-ajovalot, avustusjärjestelmät ja avaimeton käynnistysjärjestelmä tekevät arjesta sekä sujuvampaa että turvallisempaa. Auto on hylätty katsastuksessa.",
+        "pl": "Jesień staje się teraz trochę bardziej błyszcząca z BMW serii 5, które tutaj łączy automat z radością z jazdy w harmonijną całość. Częściowe tapicerka skórzana zapewnia wygodne i przytulne uczucie podczas każdej podróży. Kamera cofania, reflektory LED, systemy wsparcia i bezkluczykowy system startu sprawiają, że codzienność jest zarówno płynniejsza, jak i bezpieczniejsza. Samochód został oblanie na przeglądzie.",
+        "sv": "Nu blir hösten lite extra sprakande med BMW 5-serien som här kombinerar automat med körglädje i en harmonisk helhet. Delläderinredning ger en bekväm och ombonad känsla under varje resa. Backkamera, LED-strålkastare, assistanssystem och nyckellöst startsystem gör vardagen både smidigare och säkrare. Bilen är underkänd på besiktning."
+      },
+      "generatedValuatorComment": {
+        "en": "",
+        "sv": "Nu blir hösten lite extra sprakande med BMW 5-serien som här kombinerar automat med körglädje i en harmonisk helhet. Delläderinredning ger en bekväm och ombonad känsla under varje resa. Backkamera, LED-strålkastare, assistanssystem och nyckellöst startsystem gör vardagen både smidigare och säkrare."
+      },
+      "carDealerPrice": 180000,
+      "endUserTestProtocol": {
+        "tires": {
+          "mountedTires": {
+            "other": {
+              "rimSize": "17",
+              "rimType": "Alu.fälg",
+              "tireType": "Odubbade vinterdäck",
+              "otherInfo": "Behövs ej",
+              "tireTypeKey": "UNSTUDDED_WINTER_TIRES"
+            },
+            "grades": {
+              "rearLeft": 1,
+              "frontLeft": 3,
+              "rearRight": 2,
+              "frontRight": 3
+            },
+            "treadDepths": {
+              "rearLeft": 2,
+              "frontLeft": 6,
+              "rearRight": 4,
+              "frontRight": 6
+            }
+          }
+        },
+        "grades": {
+          "TOTAL": {
+            "max": 5,
+            "min": 1,
+            "value": 3
+          },
+          "BRAKES": {
+            "max": 3,
+            "min": 1,
+            "value": 3
+          },
+          "EXTERIOR": {
+            "max": 5,
+            "min": 1,
+            "value": 3
+          },
+          "INTERIOR": {
+            "max": 5,
+            "min": 1,
+            "value": 3
+          },
+          "ENGINE_AND_GEARBOX": {
+            "max": 3,
+            "min": 1,
+            "value": 2
+          },
+          "TECHNOLOGY_AND_EQUIPMENT": {
+            "max": 3,
+            "min": 1,
+            "value": 2
+          }
+        },
+        "towbar": false,
+        "remarks": {
+          "BRAKES": [],
+          "EXTERIOR": [
+            {
+              "id": "72881852",
+              "key": "Stenskott i vindruta. Flertal lackskador, Plastkåpa under bil skadad. Obs! Framdäck vänster är ett sommardäck övriga odubbade.\rVänster tröskellåda, plast karosskadad.",
+              "other": null,
+              "point": 0,
+              "category": "EXTERIOR",
+              "text": "Stenskott i vindruta. Flertal lackskador, Plastkåpa under bil skadad. Obs! Framdäck vänster är ett sommardäck övriga odubbade.\rVänster tröskellåda, plast karosskadad."
+            }
+          ],
+          "INTERIOR": [
+            {
+              "id": "72881851",
+              "key": "Lukt från rök. Klädsel smutsig. Ratten är sliten.",
+              "other": null,
+              "point": 0,
+              "category": "INTERIOR",
+              "text": "Lukt från rök. Klädsel smutsig. Ratten är sliten."
+            }
+          ],
+          "ENGINE_AND_GEARBOX": [
+            {
+              "id": "72881855",
+              "key": "Motorlampa lyser. Resultatet på besiktningen: 2 Underkänd med föreläggande att ombesiktning krävs 2026-10-15\rBrister:\r2 FELINDIKATOR MOTORELEKTRONIK (8.2.1.1) VAR",
+              "other": null,
+              "point": 0,
+              "category": "ENGINE_AND_GEARBOX",
+              "text": "Motorlampa lyser. Resultatet på besiktningen: 2 Underkänd med föreläggande att ombesiktning krävs 2026-10-15\rBrister:\r2 FELINDIKATOR MOTORELEKTRONIK (8.2.1.1) VAR"
+            }
+          ],
+          "TECHNOLOGY_AND_EQUIPMENT": [
+            {
+              "id": "72881854",
+              "key": "Servicelampa lyser. Avgassystem, flexrör skadat/fransar.Varnar för fotgängarskydd ur funktion.",
+              "other": null,
+              "point": 0,
+              "category": "TECHNOLOGY_AND_EQUIPMENT",
+              "text": "Servicelampa lyser. Avgassystem, flexrör skadat/fransar.Varnar för fotgängarskydd ur funktion."
+            }
+          ]
+        },
+        "textile": "Delläder",
+        "boatType": null,
+        "equipment": [
+          "Backkamera",
+          "GPS",
+          "Assistanssystem",
+          "Infällbar dragkrok",
+          "Nyckellöst startsystem",
+          "Autobroms",
+          "Bluetooth",
+          "Farthållare",
+          "Klimatanläggning",
+          "LED-strålkastare",
+          "Rattvärme",
+          "Start/Stop-funktion",
+          "USB-ingång",
+          "Antisladdsystem",
+          "Antispinn",
+          "Auto hold",
+          "CD-Stereo",
+          "Elhiss bak",
+          "Elhiss fram",
+          "Elinfällbara speglar",
+          "Elspeglar",
+          "Fjärrlås",
+          "Isofix bak",
+          "Parkeringssensorer bak",
+          "Parkeringssensorer fram",
+          "Radio",
+          "Regnsensor",
+          "Stolsvärme fram",
+          "Urkopplingsbar passagerarairbag"
+        ],
+        "boatWidth": null,
+        "createdAt": "2026-09-28T11:46:45",
+        "boatEngine": null,
+        "boatLength": null,
+        "boatWeight": null,
+        "finishType": "Solid",
+        "protocolId": "257912",
+        "stoveFlames": null,
+        "heatingSystem": null,
+        "numberOfKeys": 1,
+        "boatCeBranded": false,
+        "boatGearModel": null,
+        "numberOfBunks": null,
+        "numberOfSeats": 5,
+        "boatEngineFuel": null,
+        "boatSepticTank": false,
+        "isRepairObject": false,
+        "boatEnginePower": null,
+        "serviceBookType": "ELECTRONIC",
+        "boatExteriorColor": null,
+        "serviceBookStatus": "Service utförd vid följande mil: 3353, 6645, 10036, 12304 mil, senast 2022-08-06",
+        "boatEngineSerialNumber": null,
+        "odometerReadingAfterTest": {
+          "unit": "Mil",
+          "value": 24142
+        },
+        "odometerReadingAfterTestInKm": 241420
+      },
+      "auctionPriceValuation": {
+        "currency": "SEK"
+      },
+      "finalised": true,
+      "includedImageIds": null,
+      "createdAt": "2026-09-28T09:48:10.934198+00:00",
+      "updatedAt": "2026-10-23T10:58:21.173359+00:00",
+      "generatingInProgress": false,
+      "valuatorCommentLocalized": "Nu blir hösten lite extra sprakande med BMW 5-serien som här kombinerar automat med körglädje i en harmonisk helhet. Delläderinredning ger en bekväm och ombonad känsla under varje resa. Backkamera, LED-strålkastare, assistanssystem och nyckellöst startsystem gör vardagen både smidigare och säkrare. Bilen är underkänd på besiktning."
+    },
+    "facts": {
+      "default": [
+        {
+          "key": "NUMBER_OF_PREVIOUS_OWNERS",
+          "text": "Antal tidigare ägare",
+          "value": 6,
+          "type": "string"
+        },
+        {
+          "key": "REGISTRATION_PLATE",
+          "text": "Registreringsnummer",
+          "value": "PKX261",
+          "type": "string"
+        },
+        {
+          "key": "MODEL_YEAR",
+          "text": "Modellår",
+          "value": 2018,
+          "type": "string"
+        },
+        {
+          "key": "MANUFACTURE_MONTH",
+          "text": "Tillverkningsmånad",
+          "value": "201805",
+          "type": "manufacture_month"
+        },
+        {
+          "key": "ODOMETER_READING",
+          "text": "Mätarställning",
+          "value": 241420,
+          "type": "distance"
+        },
+        {
+          "key": "INITIAL_TRAFFIC_DATE",
+          "text": "Första datum i trafik i Sverige",
+          "value": "2018-06-29",
+          "type": "date"
+        },
+        {
+          "key": "SERVICE_BOOK",
+          "text": "Servicehistorik",
+          "value": "Service utförd vid följande mil: 3353, 6645, 10036, 12304 mil, senast 2022-08-06",
+          "type": "string"
+        },
+        {
+          "key": "SERVICE_BOOK_TYPE",
+          "text": "Servicebok",
+          "value": "Elektronisk",
+          "type": "string"
+        },
+        {
+          "key": "GEARBOX",
+          "text": "Växellåda",
+          "value": "Automat",
+          "type": "string"
+        },
+        {
+          "key": "NUMBER_OF_SEATS",
+          "text": "Antal säten",
+          "value": 5,
+          "type": "string"
+        },
+        {
+          "key": "NUMBER_OF_KEYS",
+          "text": "Antal nycklar",
+          "value": 1,
+          "type": "string"
+        },
+        {
+          "key": "EXTERIOR_COLOR",
+          "text": "Färg",
+          "value": "Svart",
+          "type": "string"
+        },
+        {
+          "key": "FINISH_TYPE",
+          "text": "Lack",
+          "value": "Solid",
+          "type": "string"
+        },
+        {
+          "key": "TEXTILE",
+          "text": "Klädsel",
+          "value": "Delläder",
+          "type": "string"
+        },
+        {
+          "key": "MANUFACTURER_WARRANTY",
+          "text": "Nybilsgaranti",
+          "value": "Inte undersökt",
+          "type": "string"
+        },
+        {
+          "key": "COLLISION_WARRANTY",
+          "text": "Vagnskadegaranti",
+          "value": "Inte undersökt",
+          "type": "string"
+        },
+        {
+          "key": "TAX_FEE",
+          "text": "Skatt årsavgift",
+          "value": "1728 SEK",
+          "type": "string"
+        }
+      ],
+      "additional": [
+        {
+          "key": "CHASSIS_NUMBER",
+          "text": "Chassinummer",
+          "value": "WBAJC3101JWA80418",
+          "type": "string"
+        },
+        {
+          "key": "ENGINE_EFFECT_DIESEL",
+          "text": "Motoreffekt (diesel)",
+          "value": 190,
+          "type": "engine_power"
+        },
+        {
+          "key": "TOWBAR",
+          "text": "Dragkrok",
+          "value": "Nej",
+          "type": "string"
+        },
+        {
+          "key": "MAX_PAYLOAD",
+          "text": "Maxlastvikt",
+          "value": 513,
+          "type": "weight"
+        },
+        {
+          "key": "CONSUMPTION_DIESEL",
+          "text": "Bränsleförbr. blandad körning (diesel)",
+          "value": 4.7,
+          "type": "consumption"
+        },
+        {
+          "key": "CO2_DIESEL",
+          "text": "CO2-utsläpp (diesel)",
+          "value": 123,
+          "type": "emission"
+        },
+        {
+          "key": "INSPECTION_VALID_TO_DATE",
+          "text": "Nästa besiktning senast",
+          "value": "2024-07-31",
+          "type": "string"
+        },
+        {
+          "key": "CURB_WEIGHT",
+          "text": "Tjänstevikt",
+          "value": 1732,
+          "type": "weight"
+        },
+        {
+          "key": "TAX_WEIGHT",
+          "text": "Skattevikt",
+          "value": 1730,
+          "type": "weight"
+        },
+        {
+          "key": "MAX_TRAILER_WEIGHT",
+          "text": "Maximal släpvagnsvikt",
+          "value": 2000,
+          "type": "weight"
+        },
+        {
+          "key": "TOTAL_WEIGHT",
+          "text": "Fordonets totalvikt",
+          "value": 2245,
+          "type": "weight"
+        },
+        {
+          "key": "LENGTH",
+          "text": "Längd",
+          "value": 4936,
+          "type": "length"
+        },
+        {
+          "key": "WIDTH",
+          "text": "Bredd",
+          "value": 1868,
+          "type": "length"
+        },
+        {
+          "key": "HEIGHT",
+          "text": "Höjd",
+          "value": 1479,
+          "type": "length"
+        }
+      ],
+      "other": [
+        {
+          "key": "SOLD_IN_SWEDEN",
+          "text": "Svensksåld",
+          "value": "Ja",
+          "type": "string"
+        },
+        {
+          "key": "EXPORTABLE",
+          "text": "Kan exporteras",
+          "value": "Ja",
+          "type": "string"
+        },
+        {
+          "key": "DEDUCTIBLE_VAT",
+          "text": "Avlyftbar moms",
+          "value": "Nej",
+          "type": "string"
+        }
+      ]
+    },
+    "majorFeature": [
+      {
+        "key": "INFALLBAR_DRAGKROK",
+        "title": "Infällbar dragkrok",
+        "value": null,
+        "equipment": "Utrustning",
+        "description": " Anordning för att dra exempelvis personbilssläp, båttrailer mm. Kan fällas in/ut."
+      },
+      {
+        "key": "BACKKAMERA",
+        "title": "Backkamera",
+        "value": null,
+        "equipment": "Utrustning",
+        "description": "Kamera som underlättar vid backning"
+      },
+      {
+        "key": "LED_STRALKASTARE",
+        "title": "LED-strålkastare",
+        "value": null,
+        "equipment": "Utrustning",
+        "description": "Strålkastare med LED-ljus har ett konstant vitt ljus och har samma ljusstyrka från star"
+      },
+      {
+        "key": "GPS",
+        "title": "GPS",
+        "value": null,
+        "equipment": "Utrustning",
+        "description": "Navigationssystem med vägbeskrivning"
+      }
+    ],
+    "batteryTestCertificateAvailable": false
+  },
+  "previewImages": [
+    {
+      "processObjectId": "7288185",
+      "uri": "https://kvdbil-images.imgix.net/7288185/fc29f1e3.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7288185/fc29f1e3.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 1
+    },
+    {
+      "processObjectId": "7288185",
+      "uri": "https://kvdbil-images.imgix.net/7288185/66dd121a.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7288185/66dd121a.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 1
+    },
+    {
+      "processObjectId": "7288185",
+      "uri": "https://kvdbil-images.imgix.net/7288185/1fe3c1d7.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7288185/1fe3c1d7.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 2
+    },
+    {
+      "processObjectId": "7288185",
+      "uri": "https://kvdbil-images.imgix.net/7288185/b7c11748.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7288185/b7c11748.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 2
+    },
+    {
+      "processObjectId": "7288185",
+      "uri": "https://kvdbil-images.imgix.net/7288185/7282e567.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7288185/7282e567.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 3
+    },
+    {
+      "processObjectId": "7288185",
+      "uri": "https://kvdbil-images.imgix.net/7288185/e7cc901d.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7288185/e7cc901d.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 3
+    },
+    {
+      "processObjectId": "7288185",
+      "uri": "https://kvdbil-images.imgix.net/7288185/027e5094.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7288185/027e5094.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 4
+    },
+    {
+      "processObjectId": "7288185",
+      "uri": "https://kvdbil-images.imgix.net/7288185/f80cf630.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7288185/f80cf630.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 4
+    },
+    {
+      "processObjectId": "7288185",
+      "uri": "https://kvdbil-images.imgix.net/7288185/8d1c3123.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7288185/8d1c3123.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 5
+    },
+    {
+      "processObjectId": "7288185",
+      "uri": "https://kvdbil-images.imgix.net/7288185/af348b0c.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7288185/af348b0c.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 5
+    },
+    {
+      "processObjectId": "7288185",
+      "uri": "https://kvdbil-images.imgix.net/7288185/458195d5.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7288185/458195d5.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 6
+    },
+    {
+      "processObjectId": "7288185",
+      "uri": "https://kvdbil-images.imgix.net/7288185/f93204ac.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7288185/f93204ac.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 6
+    },
+    {
+      "processObjectId": "7288185",
+      "uri": "https://kvdbil-images.imgix.net/7288185/9ec13413.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7288185/9ec13413.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 7
+    },
+    {
+      "processObjectId": "7288185",
+      "uri": "https://kvdbil-images.imgix.net/7288185/1b72eee6.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7288185/1b72eee6.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 7
+    },
+    {
+      "processObjectId": "7288185",
+      "uri": "https://kvdbil-images.imgix.net/7288185/e0a7e427.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7288185/e0a7e427.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 8
+    },
+    {
+      "processObjectId": "7288185",
+      "uri": "https://kvdbil-images.imgix.net/7288185/81dc7254.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7288185/81dc7254.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 8
+    },
+    {
+      "processObjectId": "7288185",
+      "uri": "https://kvdbil-images.imgix.net/7288185/39ede9e3.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7288185/39ede9e3.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 9
+    },
+    {
+      "processObjectId": "7288185",
+      "uri": "https://kvdbil-images.imgix.net/7288185/20c6c639.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7288185/20c6c639.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 10
+    },
+    {
+      "processObjectId": "7288185",
+      "uri": "https://kvdbil-images.imgix.net/7288185/1dda1ed4.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7288185/1dda1ed4.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 10
+    },
+    {
+      "processObjectId": "7288185",
+      "uri": "https://kvdbil-images.imgix.net/7288185/6c0d07a4.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7288185/6c0d07a4.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 11
+    },
+    {
+      "processObjectId": "7288185",
+      "uri": "https://kvdbil-images.imgix.net/7288185/02066a91.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7288185/02066a91.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 11
+    },
+    {
+      "processObjectId": "7288185",
+      "uri": "https://kvdbil-images.imgix.net/7288185/49894981.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7288185/49894981.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 12
+    },
+    {
+      "processObjectId": "7288185",
+      "uri": "https://kvdbil-images.imgix.net/7288185/d231bfdf.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7288185/d231bfdf.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 13
+    },
+    {
+      "processObjectId": "7288185",
+      "uri": "https://kvdbil-images.imgix.net/7288185/0d7c0efc.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7288185/0d7c0efc.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 13
+    },
+    {
+      "processObjectId": "7288185",
+      "uri": "https://kvdbil-images.imgix.net/7288185/7a748e48.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7288185/7a748e48.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 14
+    },
+    {
+      "processObjectId": "7288185",
+      "uri": "https://kvdbil-images.imgix.net/7288185/1a4d8426.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7288185/1a4d8426.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 14
+    },
+    {
+      "processObjectId": "7288185",
+      "uri": "https://kvdbil-images.imgix.net/7288185/2b6e083d.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7288185/2b6e083d.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 15
+    },
+    {
+      "processObjectId": "7288185",
+      "uri": "https://kvdbil-images.imgix.net/7288185/9f35642a.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7288185/9f35642a.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 16
+    },
+    {
+      "processObjectId": "7288185",
+      "uri": "https://kvdbil-images.imgix.net/7288185/4dee6ecc.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7288185/4dee6ecc.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 17
+    },
+    {
+      "processObjectId": "7288185",
+      "uri": "https://kvdbil-images.imgix.net/7288185/5238f532.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7288185/5238f532.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 18
+    },
+    {
+      "processObjectId": "7288185",
+      "uri": "https://kvdbil-images.imgix.net/7288185/16bb698e.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7288185/16bb698e.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 19
+    },
+    {
+      "processObjectId": "7288185",
+      "uri": "https://kvdbil-images.imgix.net/7288185/03e6b70b.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7288185/03e6b70b.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 20
+    },
+    {
+      "processObjectId": "7288185",
+      "uri": "https://kvdbil-images.imgix.net/7288185/f9967d15.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7288185/f9967d15.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 21
+    },
+    {
+      "processObjectId": "7288185",
+      "uri": "https://kvdbil-images.imgix.net/7288185/65af5ea6.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7288185/65af5ea6.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 22
+    },
+    {
+      "processObjectId": "7288185",
+      "uri": "https://kvdbil-images.imgix.net/7288185/d889fc00.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7288185/d889fc00.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 23
+    },
+    {
+      "processObjectId": "7288185",
+      "uri": "https://kvdbil-images.imgix.net/7288185/685dc5a7.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7288185/685dc5a7.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 24
+    },
+    {
+      "processObjectId": "7288185",
+      "uri": "https://kvdbil-images.imgix.net/7288185/f932760a.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7288185/f932760a.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 26
+    },
+    {
+      "processObjectId": "7288185",
+      "uri": "https://kvdbil-images.imgix.net/7288185/036c01af.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7288185/036c01af.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 27
+    }
+  ],
+  "similarAuctions": [],
+  "activeAuction": {
+    "auctionId": "308701",
+    "closed": true,
+    "countdownInProgress": true,
+    "preliminaryCloseAt": "2026-10-28T17:45:10.929604+00:00",
+    "createdAt": "2026-10-23T13:37:07.768444+00:00",
+    "updatedAt": "2026-10-28T17:45:10.940648+00:00",
+    "vatExcludedBiddingAllowed": false,
+    "reservationPriceReached": false,
+    "bids": [
+      {
+        "id": 18672870,
+        "auctionId": 308701,
+        "bidderAlias": "8",
+        "amount": 106000,
+        "type": "NORMAL",
+        "maxBidId": 10911639,
+        "triggeredBy": 10911639,
+        "createdAt": "2026-10-28T17:41:40.934917+00:00",
+        "updatedAt": "2026-10-28T17:41:40.934923+00:00"
+      },
+      {
+        "id": 18672540,
+        "auctionId": 308701,
+        "bidderAlias": "7",
+        "amount": 105500,
+        "type": "NORMAL",
+        "maxBidId": 10911449,
+        "triggeredBy": 10911449,
+        "createdAt": "2026-10-28T17:05:04.414028+00:00",
+        "updatedAt": "2026-10-28T17:05:04.414030+00:00"
+      },
+      {
+        "id": 18672539,
+        "auctionId": 308701,
+        "bidderAlias": "2",
+        "amount": 105000,
+        "type": "LIMIT_REACHED",
+        "maxBidId": 10911418,
+        "triggeredBy": 10911449,
+        "createdAt": "2026-10-28T17:05:04.414019+00:00",
+        "updatedAt": "2026-10-28T17:05:04.414025+00:00"
+      },
+      {
+        "id": 18672535,
+        "auctionId": 308701,
+        "bidderAlias": "2",
+        "amount": 102500,
+        "type": "AUTO",
+        "maxBidId": 10911418,
+        "triggeredBy": 10911446,
+        "createdAt": "2026-10-28T17:03:40.626018+00:00",
+        "updatedAt": "2026-10-28T17:03:40.626021+00:00"
+      },
+      {
+        "id": 18672534,
+        "auctionId": 308701,
+        "bidderAlias": "7",
+        "amount": 102000,
+        "type": "NORMAL",
+        "maxBidId": 10911446,
+        "triggeredBy": 10911446,
+        "createdAt": "2026-10-28T17:03:40.626009+00:00",
+        "updatedAt": "2026-10-28T17:03:40.626015+00:00"
+      },
+      {
+        "id": 18672484,
+        "auctionId": 308701,
+        "bidderAlias": "2",
+        "amount": 101000,
+        "type": "NORMAL",
+        "maxBidId": 10911418,
+        "triggeredBy": 10911418,
+        "createdAt": "2026-10-28T16:52:16.205188+00:00",
+        "updatedAt": "2026-10-28T16:52:16.205195+00:00"
+      },
+      {
+        "id": 18670872,
+        "auctionId": 308701,
+        "bidderAlias": "6",
+        "amount": 100500,
+        "type": "NORMAL",
+        "maxBidId": 10910522,
+        "triggeredBy": 10910522,
+        "createdAt": "2026-10-28T10:48:22.342141+00:00",
+        "updatedAt": "2026-10-28T10:48:22.342157+00:00"
+      },
+      {
+        "id": 18670867,
+        "auctionId": 308701,
+        "bidderAlias": "4",
+        "amount": 100000,
+        "type": "AUTO",
+        "maxBidId": 10903206,
+        "triggeredBy": 10910518,
+        "createdAt": "2026-10-28T10:48:14.574311+00:00",
+        "updatedAt": "2026-10-28T10:48:14.574314+00:00"
+      },
+      {
+        "id": 18670866,
+        "auctionId": 308701,
+        "bidderAlias": "6",
+        "amount": 99500,
+        "type": "NORMAL",
+        "maxBidId": 10910518,
+        "triggeredBy": 10910518,
+        "createdAt": "2026-10-28T10:48:14.574297+00:00",
+        "updatedAt": "2026-10-28T10:48:14.574307+00:00"
+      },
+      {
+        "id": 18670861,
+        "auctionId": 308701,
+        "bidderAlias": "4",
+        "amount": 98500,
+        "type": "AUTO",
+        "maxBidId": 10903206,
+        "triggeredBy": 10910515,
+        "createdAt": "2026-10-28T10:48:06.679118+00:00",
+        "updatedAt": "2026-10-28T10:48:06.679121+00:00"
+      },
+      {
+        "id": 18670860,
+        "auctionId": 308701,
+        "bidderAlias": "6",
+        "amount": 98000,
+        "type": "NORMAL",
+        "maxBidId": 10910515,
+        "triggeredBy": 10910515,
+        "createdAt": "2026-10-28T10:48:06.679108+00:00",
+        "updatedAt": "2026-10-28T10:48:06.679115+00:00"
+      },
+      {
+        "id": 18666902,
+        "auctionId": 308701,
+        "bidderAlias": "4",
+        "amount": 97000,
+        "type": "AUTO",
+        "maxBidId": 10903206,
+        "triggeredBy": 10908293,
+        "createdAt": "2026-10-27T18:24:36.124910+00:00",
+        "updatedAt": "2026-10-27T18:24:36.124912+00:00"
+      },
+      {
+        "id": 18666901,
+        "auctionId": 308701,
+        "bidderAlias": "5",
+        "amount": 96500,
+        "type": "NORMAL",
+        "maxBidId": 10908293,
+        "triggeredBy": 10908293,
+        "createdAt": "2026-10-27T18:24:36.124901+00:00",
+        "updatedAt": "2026-10-27T18:24:36.124907+00:00"
+      },
+      {
+        "id": 18658147,
+        "auctionId": 308701,
+        "bidderAlias": "4",
+        "amount": 96000,
+        "type": "NORMAL",
+        "maxBidId": 10903206,
+        "triggeredBy": 10903206,
+        "createdAt": "2026-10-26T01:42:10.280528+00:00",
+        "updatedAt": "2026-10-26T01:42:10.280536+00:00"
+      },
+      {
+        "id": 18658114,
+        "auctionId": 308701,
+        "bidderAlias": "2",
+        "amount": 95500,
+        "type": "AUTO",
+        "maxBidId": 10902547,
+        "triggeredBy": 10903188,
+        "createdAt": "2026-10-26T00:32:10.253984+00:00",
+        "updatedAt": "2026-10-26T00:32:10.253987+00:00"
+      },
+      {
+        "id": 18658113,
+        "auctionId": 308701,
+        "bidderAlias": "3",
+        "amount": 95000,
+        "type": "NORMAL",
+        "maxBidId": 10903188,
+        "triggeredBy": 10903188,
+        "createdAt": "2026-10-26T00:32:10.253971+00:00",
+        "updatedAt": "2026-10-26T00:32:10.253980+00:00"
+      },
+      {
+        "id": 18658112,
+        "auctionId": 308701,
+        "bidderAlias": "2",
+        "amount": 90500,
+        "type": "AUTO",
+        "maxBidId": 10902547,
+        "triggeredBy": 10903187,
+        "createdAt": "2026-10-26T00:32:05.427576+00:00",
+        "updatedAt": "2026-10-26T00:32:05.427578+00:00"
+      },
+      {
+        "id": 18658111,
+        "auctionId": 308701,
+        "bidderAlias": "3",
+        "amount": 90000,
+        "type": "NORMAL",
+        "maxBidId": 10903187,
+        "triggeredBy": 10903187,
+        "createdAt": "2026-10-26T00:32:05.427563+00:00",
+        "updatedAt": "2026-10-26T00:32:05.427572+00:00"
+      },
+      {
+        "id": 18658110,
+        "auctionId": 308701,
+        "bidderAlias": "2",
+        "amount": 86500,
+        "type": "AUTO",
+        "maxBidId": 10902547,
+        "triggeredBy": 10903186,
+        "createdAt": "2026-10-26T00:32:01.110909+00:00",
+        "updatedAt": "2026-10-26T00:32:01.110910+00:00"
+      },
+      {
+        "id": 18658109,
+        "auctionId": 308701,
+        "bidderAlias": "3",
+        "amount": 86000,
+        "type": "NORMAL",
+        "maxBidId": 10903186,
+        "triggeredBy": 10903186,
+        "createdAt": "2026-10-26T00:32:01.110901+00:00",
+        "updatedAt": "2026-10-26T00:32:01.110906+00:00"
+      },
+      {
+        "id": 18658108,
+        "auctionId": 308701,
+        "bidderAlias": "2",
+        "amount": 85500,
+        "type": "AUTO",
+        "maxBidId": 10902547,
+        "triggeredBy": 10903185,
+        "createdAt": "2026-10-26T00:31:54.125036+00:00",
+        "updatedAt": "2026-10-26T00:31:54.125041+00:00"
+      },
+      {
+        "id": 18658107,
+        "auctionId": 308701,
+        "bidderAlias": "3",
+        "amount": 85000,
+        "type": "NORMAL",
+        "maxBidId": 10903185,
+        "triggeredBy": 10903185,
+        "createdAt": "2026-10-26T00:31:54.125017+00:00",
+        "updatedAt": "2026-10-26T00:31:54.125031+00:00"
+      },
+      {
+        "id": 18656991,
+        "auctionId": 308701,
+        "bidderAlias": "2",
+        "amount": 81500,
+        "type": "NORMAL",
+        "maxBidId": 10902547,
+        "triggeredBy": 10902547,
+        "createdAt": "2026-10-25T18:27:17.087381+00:00",
+        "updatedAt": "2026-10-25T18:27:17.087383+00:00"
+      },
+      {
+        "id": 18656990,
+        "auctionId": 308701,
+        "bidderAlias": "1",
+        "amount": 81000,
+        "type": "LIMIT_REACHED",
+        "maxBidId": 10899663,
+        "triggeredBy": 10902547,
+        "createdAt": "2026-10-25T18:27:17.087373+00:00",
+        "updatedAt": "2026-10-25T18:27:17.087378+00:00"
+      },
+      {
+        "id": 18651864,
+        "auctionId": 308701,
+        "bidderAlias": "1",
+        "amount": 80000,
+        "type": "NORMAL",
+        "maxBidId": 10899663,
+        "triggeredBy": 10899663,
+        "createdAt": "2026-10-23T14:47:57.390116+00:00",
+        "updatedAt": "2026-10-23T14:47:57.390124+00:00"
+      }
+    ],
+    "myBidderAlias": null,
+    "myMaxBid": null,
+    "highestBid": {
+      "id": 18672870,
+      "auctionId": 308701,
+      "bidderAlias": null,
+      "amount": 106000,
+      "type": "NORMAL",
+      "maxBidId": 10911639,
+      "triggeredBy": 10911639,
+      "createdAt": "2026-10-28T17:41:40.934917+00:00",
+      "updatedAt": "2026-10-28T17:41:40.934923+00:00",
+      "eurAmount": 9660
+    },
+    "buyNowAvailable": false,
+    "releasing": null,
+    "isHighestBidLowerThanResidualLoanValue": false
+  },
+  "checkoutOrder": null,
+  "previewImage": "https://kvdbil-images.imgix.net/7288185/fc29f1e3.jpg",
+  "_list_meta": {
+    "id": "308701",
+    "slug": "bmw-520d-sedan-g30-190hk",
+    "auctionType": "BIDDING",
+    "closedAt": "2026-10-28T17:45:10.937792+00:00",
+    "updatedAt": "2026-10-30T12:07:37.010575+00:00"
+  },
+  "_scraped_at": "2026-11-01T12:59:55.166473+00:00",
+  "_url": "https://www.kvd.se/auktioner/bmw-520d-sedan-g30-190hk-308701"
+}
