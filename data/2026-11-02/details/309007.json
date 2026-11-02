@@ -1,0 +1,1845 @@
+{
+  "id": "309007",
+  "auctionType": "BIDDING",
+  "biddingFee": "5238.00",
+  "biddingFeeCorporate": "6663.00",
+  "mediationFee": 0,
+  "mediationFeeCorporate": 0,
+  "buyNow": true,
+  "closedAt": "2026-11-02T11:33:59.771138+00:00",
+  "publishedAt": "2026-10-26T17:14:50.061325+00:00",
+  "countdownDuration": 210,
+  "countdownStartAt": "2026-11-02T11:26:30+00:00",
+  "createdAt": "2026-10-26T14:37:57.683719+00:00",
+  "readyForAuctionAt": "2026-10-25",
+  "currency": "SEK",
+  "maxBidRaise": 100000,
+  "minBidRaise": 500,
+  "startBid": 95000,
+  "openedAt": "2026-10-26T17:14:50.046295+00:00",
+  "processObjectId": "7289013",
+  "readyForCheckout": true,
+  "soldFor": 138500,
+  "sellMethod": "BIDDING",
+  "slug": "dacia-sandero-1-0-tce-90hk",
+  "auctionUrl": "https://www.kvd.se/auktioner/dacia-sandero-1-0-tce-90hk-309007",
+  "state": "WINNER_CHECKOUT_PENDING",
+  "targetedAuctionGroupId": null,
+  "updatedAt": "2026-11-02T11:33:59.890547+00:00",
+  "releasing": null,
+  "loan": {
+    "loanCost": 1180,
+    "loanCostBuyNow": null
+  },
+  "buyNowAmount": 149900,
+  "buyNowAvailable": false,
+  "buyNowUntil": "2026-10-31T11:26:30+00:00",
+  "eligibleForAdditionalServices": true,
+  "comingSoon": false,
+  "preliminaryPrice": 170000,
+  "maxAllowedBid": 255000,
+  "isReserved": false,
+  "isSoldByBuyNow": false,
+  "favouriteCount": 18,
+  "eurBuyNowAmount": 13660,
+  "winningBid": {
+    "id": 18694639,
+    "type": "NORMAL",
+    "amount": 138500,
+    "auctionId": 309007,
+    "createdAt": "2026-11-02T11:30:29.768900+00:00",
+    "maxBidId": 10924186,
+    "updatedAt": "2026-11-02T11:30:29.768906+00:00",
+    "bidderAlias": null,
+    "triggeredBy": 10924186,
+    "evaluationType": "AUTOMATIC"
+  },
+  "processObject": {
+    "proactiveBrokering": null,
+    "orderableAdditionalServices": {
+      "tradein": false,
+      "transport": true,
+      "insurance": true,
+      "finance": true,
+      "warranty": true,
+      "extraTires": false
+    },
+    "sellMethod": "BIDDING",
+    "isFixedPrice": false,
+    "buyNowAmount": 149900,
+    "statisticalValuation": null,
+    "state": "AUCTION_RESOLUTION",
+    "baseObjectId": "516602",
+    "properties": {
+      "initialTrafficDate": "2024-12-12",
+      "registrationCountry": "se",
+      "manufactureMonth": "202410",
+      "heavyEquipment": false,
+      "deductibleVat": true,
+      "formattedEquipment": [
+        {
+          "key": "AC",
+          "title": "AC",
+          "description": "Luftkonditionering utan möjlighet till automatisk temperaturinställning",
+          "priority": 0
+        },
+        {
+          "key": "ANTISLADDSYSTEM",
+          "title": "Antisladdsystem",
+          "description": "Ett system som känner av om bilen håller på att sladda. Genom att bromsa enskilda hjul stabiliseras bilen och sladden förhindras, även kallat ESP.",
+          "priority": 1
+        },
+        {
+          "key": "ANTISPINN",
+          "title": "Antispinn",
+          "description": "Hjälpsystem som förhindrar att hjulen spinner",
+          "priority": 2
+        },
+        {
+          "key": "ASSISTANSSYSTEM",
+          "title": "Assistanssystem",
+          "description": "Uppkopplad tjänst för att exempelvis kunna kontrollera din bil på distans med hjälp av en mobilapp. Funktioner som bygger på 2G eller 3G-uppkoppling kan sluta fungera i samband med att dessa nätverk stängs ner av operatörerna.",
+          "priority": 3
+        },
+        {
+          "key": "BACKKAMERA",
+          "title": "Backkamera",
+          "description": "Kamera som underlättar vid backning",
+          "priority": 4
+        },
+        {
+          "key": "BLUETOOTH",
+          "title": "Bluetooth",
+          "description": "Trådlös uppkoppling mot mobila enheter",
+          "priority": 5
+        },
+        {
+          "key": "ELHISS_BAK",
+          "title": "Elhiss bak",
+          "description": "Elektroniska fönsterhissar bak",
+          "priority": 6
+        },
+        {
+          "key": "ELHISS_FRAM",
+          "title": "Elhiss fram",
+          "description": "Elektronisk fönsterhiss fram",
+          "priority": 7
+        },
+        {
+          "key": "ELSPEGLAR",
+          "title": "Elspeglar",
+          "description": "Elektroniskt ställbara sidospeglar",
+          "priority": 8
+        },
+        {
+          "key": "FARTHALLARE",
+          "title": "Farthållare",
+          "description": "Elektroniskt system som håller inprogrammerad hastighet",
+          "priority": 9
+        },
+        {
+          "key": "FILBYTESVARNARE",
+          "title": "Filbytesvarnare",
+          "description": "Elektroniskt säkerhetssystem som varnar vid oplanerade filbyten",
+          "priority": 10
+        },
+        {
+          "key": "FJARRLAS",
+          "title": "Fjärrlås",
+          "description": "Möjliggör att du på distans kan låsa och låsa upp bilen",
+          "priority": 11
+        },
+        {
+          "key": "ISOFIX_BAK",
+          "title": "Isofix bak",
+          "description": "  Fästsystem för bilbarnstolar enligt internationell standard, även kallat Isofix",
+          "priority": 12
+        },
+        {
+          "key": "PARKERINGSSENSORER_BAK",
+          "title": "Parkeringssensorer bak",
+          "description": "Sensorer på stötfångare baktill som varnar för hinder bakom bilen",
+          "priority": 13
+        },
+        {
+          "key": "RADIO",
+          "title": "Radio",
+          "description": "Radiospelare",
+          "priority": 14
+        },
+        {
+          "key": "REGNSENSOR",
+          "title": "Regnsensor",
+          "description": "Automatiska vindrutetorkare, sensorer som reagerar på vatten",
+          "priority": 15
+        },
+        {
+          "key": "SMARTPHONE_INTEGRATION",
+          "title": "Smartphone integration",
+          "description": null,
+          "priority": 16
+        },
+        {
+          "key": "START_STOP_FUNKTION",
+          "title": "Start/Stopp-funktion",
+          "description": "Automatisk på och avstängning av motor vid exempelvis trafikljus",
+          "priority": 17
+        },
+        {
+          "key": "STOLSVARME_FRAM",
+          "title": "Stolsvärme fram",
+          "description": "Olika nivåer av värme i stolarna fram som ställs in via en knapp",
+          "priority": 18
+        },
+        {
+          "key": "URKOPPLINGSBAR_PASSAGERARAIRBAG",
+          "title": "Urkopplingsbar passagerarairbag",
+          "description": "Möjlighet att koppla till och från airbagen på passagerarsidan",
+          "priority": 19
+        },
+        {
+          "key": "USB_INGANG",
+          "title": "USB-ingång",
+          "description": "Inkoppling av mobil enhet via USB-kontakt",
+          "priority": 20
+        }
+      ],
+      "brand": "Dacia",
+      "title": "Dacia Sandero 1.0 TCe (90hk)",
+      "exportable": true,
+      "residualLoanValue": 0,
+      "remarks": {
+        "INTERIOR": [],
+        "ENGINE_AND_GEARBOX": [],
+        "EXTERIOR": [],
+        "BRAKES": [],
+        "TIRES": [],
+        "TECHNOLOGY_AND_EQUIPMENT": []
+      },
+      "curbWeight": 1190,
+      "grades": {
+        "INTERIOR": {
+          "min": 1,
+          "value": 4,
+          "max": 5
+        },
+        "ENGINE_AND_GEARBOX": {
+          "min": 1,
+          "value": 3,
+          "max": 3
+        },
+        "TOTAL": {
+          "min": 1,
+          "value": 4,
+          "max": 5
+        },
+        "EXTERIOR": {
+          "min": 1,
+          "value": 4,
+          "max": 5
+        },
+        "BRAKES": {
+          "min": 1,
+          "value": 3,
+          "max": 3
+        },
+        "TECHNOLOGY_AND_EQUIPMENT": {
+          "min": 1,
+          "value": 3,
+          "max": 3
+        }
+      },
+      "exteriorColor": "Grey",
+      "textile": "Textil",
+      "height": 1490,
+      "collisionWarranty": "2027-12-11",
+      "taxFee": 6238,
+      "familyName": "Sandero",
+      "towbar": false,
+      "modelName": "Sandero 1.0 TCe (90hk)",
+      "equipment": [
+        "AC",
+        "Antisladdsystem",
+        "Antispinn",
+        "Assistanssystem",
+        "Backkamera",
+        "Bluetooth",
+        "Elhiss bak",
+        "Elhiss fram",
+        "Elspeglar",
+        "Farthållare",
+        "Filbytesvarnare",
+        "Fjärrlås",
+        "Isofix bak",
+        "Parkeringssensorer bak",
+        "Radio",
+        "Regnsensor",
+        "Smartphone integration",
+        "Start/Stop-funktion",
+        "Stolsvärme fram",
+        "Urkopplingsbar passagerarairbag",
+        "USB-ingång"
+      ],
+      "remarksLocalized": {
+        "TIRES": null,
+        "BRAKES": null,
+        "EXTERIOR": null,
+        "INTERIOR": null,
+        "ENGINE_AND_GEARBOX": null,
+        "TECHNOLOGY_AND_EQUIPMENT": null
+      },
+      "odometerUnit": "km",
+      "odometerReading": 12150,
+      "finishType": "Metallic",
+      "registrationPlate": "UBR04R",
+      "length": 4088,
+      "manufacturerWarranty": {
+        "odometerReadingLimit": 100000,
+        "expirationDate": "2027-12-11"
+      },
+      "inspectionPeriod": "2024-11-18 - 2027-12-31",
+      "gearbox": "Automatic",
+      "maxPayload": 400,
+      "registrationPlateCountry": "se",
+      "hasUnpaidLoan": false,
+      "totalWeight": 1590,
+      "numberOfKeys": 2,
+      "adHeader": "Sandero 1.0 TCe (90hk) Backkamera Nyservad",
+      "environmentalClassEuro": "6",
+      "body": "Hatchback",
+      "taxWeight": 1190,
+      "isRepairObject": false,
+      "importedForPersonalUse": false,
+      "package": "Backkamera Nyservad",
+      "saleLimitedToCorporate": false,
+      "mediation": true,
+      "ecoFriendly": false,
+      "inspectionValidToDate": "2027-12-31",
+      "mustExport": false,
+      "fuels": [
+        {
+          "fuelCode": "Petrol",
+          "enginePower": 91
+        }
+      ],
+      "dateOfInspection": "2024-11-18",
+      "width": 1758,
+      "modelYear": 2025,
+      "chassisNumber": "UU1DJF00373773781",
+      "drivingBan": false,
+      "numberOfPreviousOwners": 2,
+      "maxPullWeightB": 1910,
+      "numberOfSeats": 5,
+      "heading1": "Dacia Sandero",
+      "heading2": "1.0 TCe",
+      "heading3": "Backkamera Nyservad"
+    },
+    "leaseReturnProperties": {},
+    "vehicleType": "CAR",
+    "id": "7289013",
+    "createdAt": "2026-09-16 10:01:07.531913+00:00",
+    "objectType": "CAR",
+    "displayCar360Spin": true,
+    "testDriveAllowed": true,
+    "baseObject": {
+      "registrationCountry": "se",
+      "gearbox": "Automatic",
+      "salesFlow": "CORPORATE_CARS_SMALL",
+      "familyName": "Sandero",
+      "state": "MANUAL_VALUATION_PENDING",
+      "brand": "Dacia",
+      "earliestAvailableAt": null,
+      "authorityRegisterInformation": {
+        "environmentalClassification": {
+          "fuels": [
+            {
+              "co2": "",
+              "nox": "",
+              "nox4": null,
+              "fuelCode": "Petrol",
+              "hcThcNox": "",
+              "consumption": "",
+              "noiseLevel": 68,
+              "emissionUnit": "g/km",
+              "innovationCo2": null,
+              "particleValue": "",
+              "particleMass4": null,
+              "consumptionUnit": "",
+              "rangeNedcDrive": null,
+              "rangeWltpDrive": null,
+              "consumptionUrban": "",
+              "rangeCityWltpDrive": null,
+              "consumptionExtraUrban": "",
+              "electricEnergyConsumption": null,
+              "energyConsumptionWltpDrive": null
+            }
+          ],
+          "ecoFriendly": false,
+          "emissionClass": "EURO 6",
+          "innovationCode": null,
+          "environmentalClass": null,
+          "environmentalClassEuro": "6"
+        },
+        "vehicleInformation": {
+          "vin": "UU1DJF00373773781",
+          "body": "AB",
+          "type": "CAR",
+          "year": "2024",
+          "model": "SANDERO",
+          "rawType": "PB",
+          "modelYear": null,
+          "categoryEu": "e19*2007/46*0026*25",
+          "groupNumber": "DQ 022056",
+          "modelNumber": "DQ 000000",
+          "chassisNumber": "UU1DJF00373773781",
+          "exteriorColor": "Grey",
+          "fabricAndMake": "DACIA",
+          "baseObjectType": "CAR",
+          "manufactureCode": null,
+          "manufactureMonth": "202410",
+          "registrationDate": "2024-10-31",
+          "initialTrafficDate": "2024-12-12",
+          "registrationPlateReused": null
+        },
+        "vehicleInspectionInformation": {
+          "inspections": [
+            {
+              "inspectionType": "13",
+              "odometerReading": null,
+              "dateOfInspection": "2024-11-18"
+            },
+            {
+              "inspectionType": null,
+              "odometerReading": null,
+              "dateOfInspection": null
+            }
+          ],
+          "inspectionGroup": "36/24/14",
+          "odometerReading": "",
+          "inspectionPeriod": "2024-11-18 - 2027-12-31",
+          "dateOfInspection": "2024-11-18",
+          "inspectionValidToDate": "2027-12-31",
+          "inspectionExemptionGroup": null
+        },
+        "vehicleStatus": {
+          "tax": 6238
+        },
+        "additionalTechSpecification": {
+          "raceCar": null,
+          "wheelbase1": 2604,
+          "wheelbase2": null,
+          "wheelbase3": null,
+          "wheelbase4": null,
+          "equipment1": null,
+          "equipment2": null,
+          "equipment3": null,
+          "maximumSpeed": 169,
+          "numAxleShafts": 2,
+          "passengerAirBag": true,
+          "tyreDimensionRear": "195/55 R16 87 H",
+          "tyreDimensionFront": "195/55 R16 87 H",
+          "dualSteeringControl": null
+        },
+        "registrationInformation": {
+          "registrationPlate": "UBR04R",
+          "deregistrationDate": null,
+          "deregistrationText": null,
+          "deregistrationReason": null
+        },
+        "generalTechSpecification": {
+          "eeg": "e19*2007/46*0026*25",
+          "fuels": [
+            {
+              "fuelCode": "Petrol",
+              "powerUnit": "EG",
+              "enginePower": 67,
+              "enginePowerHp": 91,
+              "fuelTankVolume": ""
+            }
+          ],
+          "width": 1758,
+          "height": 1490,
+          "length": 4088,
+          "gearbox": "Automatic",
+          "variant": "BES",
+          "version": "M6XWA46M520B",
+          "taxWeight": 1190,
+          "curbWeight": 1190,
+          "maxPayload": 400,
+          "totalWeight": 1590,
+          "chassisCode1": null,
+          "chassisCode2": null,
+          "cubicCapacity": "999",
+          "numPassengers": "4",
+          "numberOfSeats": 5,
+          "fourWheelDrive": false,
+          "maxPullWeightB": 1910,
+          "clutchMechanism1": null,
+          "clutchMechanism2": null,
+          "maxTrailerWeight": null,
+          "chassisCodeSupplement": null,
+          "maxPullWieghtNoBreaks": null,
+          "maxPullWeightBExtended": null,
+          "maxSingle Axle TrailerWeight": null
+        },
+        "vehicleOrigin": {
+          "originCode": "INFÖRT",
+          "originCodeReason": null,
+          "importerIdentifier": null,
+          "preRegistrationDate": null,
+          "importRegistrationDate": null,
+          "importedForPersonalUse": false,
+          "importedPreviouslyRegistered": false
+        }
+      },
+      "modelName": "Sandero 1.0 TCe (90hk)",
+      "fuels": [
+        {
+          "fuelCode": "Petrol",
+          "powerUnit": "EG",
+          "enginePower": 67,
+          "enginePowerHp": 91,
+          "fuelTankVolume": ""
+        }
+      ],
+      "modelId": null,
+      "fabricAndMake": "DACIA",
+      "id": "516602",
+      "baseObjectType": "CAR",
+      "createdAt": "2026-09-16T10:01:07.196742+00:00",
+      "exteriorColor": "Grey",
+      "body": "Hatchback",
+      "odometerUnit": "km",
+      "odometerReading": null,
+      "year": "2025",
+      "registrationPlate": "UBR04R",
+      "technicalSpecification": {
+        "modelId": null,
+        "vehicle": {
+          "brand": "Dacia",
+          "body": "Hatchback",
+          "modelName": "Sandero 1.0 TCe (90hk)",
+          "familyName": "Sandero"
+        },
+        "year": "2025"
+      }
+    },
+    "isReleasable": false,
+    "presentationApproved": false,
+    "initialBuyNowAmount": 154900,
+    "car360Spin": null,
+    "certified": true,
+    "offsiteSalesContact": null,
+    "reducedPrice": true,
+    "conditionClassification": "CERTIFIED_PLUS",
+    "exportable": true,
+    "deductibleVat": true,
+    "collisionWarranty": "2027-12-11",
+    "title": "Dacia Sandero 1.0 TCe (90hk)",
+    "brand": "Dacia",
+    "familyName": "Sandero",
+    "modelName": "Sandero 1.0 TCe (90hk)",
+    "package": "Backkamera Nyservad",
+    "heading1": "Dacia Sandero",
+    "heading2": "1.0 TCe",
+    "heading3": "Backkamera Nyservad",
+    "media": [
+      {
+        "processObjectId": "7289013",
+        "uri": "https://kvdbil-images.imgix.net/7289013/f483d5af.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7289013/f483d5af.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 1
+      },
+      {
+        "processObjectId": "7289013",
+        "uri": "https://kvdbil-images.imgix.net/7289013/87be4284.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7289013/87be4284.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 1
+      },
+      {
+        "processObjectId": "7289013",
+        "uri": "https://kvdbil-images.imgix.net/7289013/04a3190d.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7289013/04a3190d.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 2
+      },
+      {
+        "processObjectId": "7289013",
+        "uri": "https://kvdbil-images.imgix.net/7289013/b3e26c57.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7289013/b3e26c57.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 2
+      },
+      {
+        "processObjectId": "7289013",
+        "uri": "https://kvdbil-images.imgix.net/7289013/0fafb265.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7289013/0fafb265.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 3
+      },
+      {
+        "processObjectId": "7289013",
+        "uri": "https://kvdbil-images.imgix.net/7289013/ff31249c.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7289013/ff31249c.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 3
+      },
+      {
+        "processObjectId": "7289013",
+        "uri": "https://kvdbil-images.imgix.net/7289013/9ffb5976.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7289013/9ffb5976.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 4
+      },
+      {
+        "processObjectId": "7289013",
+        "uri": "https://kvdbil-images.imgix.net/7289013/5c46fa7b.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7289013/5c46fa7b.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 5
+      },
+      {
+        "processObjectId": "7289013",
+        "uri": "https://kvdbil-images.imgix.net/7289013/90d29922.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7289013/90d29922.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 6
+      },
+      {
+        "processObjectId": "7289013",
+        "uri": "https://kvdbil-images.imgix.net/7289013/eb78fe7d.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7289013/eb78fe7d.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 7
+      },
+      {
+        "processObjectId": "7289013",
+        "uri": "https://kvdbil-images.imgix.net/7289013/d1f07125.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7289013/d1f07125.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 8
+      },
+      {
+        "processObjectId": "7289013",
+        "uri": "https://kvdbil-images.imgix.net/7289013/37b6f0b5.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7289013/37b6f0b5.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 9
+      },
+      {
+        "processObjectId": "7289013",
+        "uri": "https://kvdbil-images.imgix.net/7289013/1374265b.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7289013/1374265b.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 10
+      },
+      {
+        "processObjectId": "7289013",
+        "uri": "https://kvdbil-images.imgix.net/7289013/89a58018.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7289013/89a58018.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 11
+      },
+      {
+        "processObjectId": "7289013",
+        "uri": "https://kvdbil-images.imgix.net/7289013/ad1a8a4c.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7289013/ad1a8a4c.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 12
+      },
+      {
+        "processObjectId": "7289013",
+        "uri": "https://kvdbil-images.imgix.net/7289013/f76dd2e9.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7289013/f76dd2e9.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 13
+      }
+    ],
+    "locationInfo": {
+      "id": "548104",
+      "processObjectId": "7289013",
+      "locationType": "FACILITY",
+      "createdAt": "2026-09-18T07:10:50.793508+00:00",
+      "updatedAt": "2026-09-18T07:10:50.793512+00:00",
+      "facilityId": "ab735809-3913-42d9-8d51-d2fd9aba1646",
+      "parkingZone": "A",
+      "parkingNumber": null,
+      "outgoingTime": null,
+      "leftAt": null,
+      "outgoingType": null,
+      "publicFacilityId": "ab735809-3913-42d9-8d51-d2fd9aba1646",
+      "facility": {
+        "id": "ab735809-3913-42d9-8d51-d2fd9aba1646",
+        "name": "Nyköping",
+        "operator": "PARTNER",
+        "legacyIdentifiers": [],
+        "objectTypes": [
+          "CAR"
+        ],
+        "createdAt": "2024-10-08T09:33:54.341679+00:00",
+        "calendarOrganisationalUnitId": "44",
+        "parkingAreas": [],
+        "active": true,
+        "latitude": 58.74431,
+        "longitude": 17.0074,
+        "distance": null,
+        "address": "Kung Birgers väg 5",
+        "postCode": "61131",
+        "city": "Nyköping",
+        "facilityType": "MTV_LU",
+        "facilityMapUrl": "https://www.google.com/maps/dir/58.74431,17.0074/@58.74431,17.0074,z13",
+        "contactPhone": "+4615597980",
+        "contactEmail": "nykoping@kvdbil.se",
+        "allowIncomingTransport": true,
+        "allowLeaseReturns": false,
+        "allowUnplannedDropOffFleetManager": true,
+        "parentFacilityId": null,
+        "publicFacilityId": "ab735809-3913-42d9-8d51-d2fd9aba1646"
+      }
+    },
+    "valuation": {
+      "id": 236407,
+      "processObjectId": "7289013",
+      "valuatorComment": {
+        "da": "Forestil dig at køre i en Dacia Sandero med automatisk gear i elegant grå metallic, der gør hver rejse behagelig og let at køre. Bakkamera og smartphoneintegration hjælper dig i hverdagen, mens vognbaneassistent og andre assistsystemer giver ekstra støtte på vejen. Synet til december 2027 og nyserviceret.",
+        "de": "Stellen Sie sich vor, Sie fahren einen Dacia Sandero mit Automatik in elegantem Grau Metallic, der jede Fahrt bequem und leicht fahrbar macht. Rückfahrkamera und Smartphone-Integration helfen Ihnen im Alltag, während Spurwechselwarnung und andere Assistenzsysteme zusätzliche Unterstützung auf der Straße bieten. Abgenommen bis Dezember 2027 und neu gewartet.",
+        "en": "Imagine driving a Dacia Sandero with an automatic in elegant grey metallic that makes every journey comfortable and easy to drive. Rearview camera and smartphone integration help you in everyday life, while lane change warning and other assistance systems provide extra support on the road. Inspected until December 2027 and newly serviced.",
+        "et": "Kujutle endaga, et sõidad Dacia Sandero automaatkäigukastiga elegantse halli metallikvärviga, mis teeb iga sõidu mugavaks ja hõlpsasti juhitavaks. Tagurduskaamera ja nutitelefoni integratsioon aitavad sind igapäevaelus, samas kui sõiduraja vahetamise hoiatus ja muud abisüsteemid pakuvad teel lisatuge. Kontrollitud kuni detsember 2027 ja äsja hooldatud.",
+        "fi": "Kuvittele, että ajat Dacia Sanderolla automaatilla elegantissa harmaassa metallivärissä, joka tekee jokaisesta matkasta mukavan ja helpon ajaa. Peruutuskamera ja älypuhelinintegraatio auttavat arjessa, kun taas kaistanvaihtoavustin ja muut avustusjärjestelmät tarjoavat lisätukea tiellä. Katsastettu joulukuuhun 2027 asti ja vastahuollettu.",
+        "pl": "Wyobraź sobie jazdę Dacią Sandero z automatem w eleganckim szarym metaliku, która sprawia, że każda podróż jest wygodna i łatwa w prowadzeniu. Kamera cofania i integracja ze smartfonem pomagają Ci na co dzień, podczas gdy ostrzegacz zmiany pasa ruchu i inne systemy asystujące zapewniają dodatkowe wsparcie na drodze. Przegląd ważny do grudnia 2027 i niedawno serwisowany.",
+        "sv": "Tänk dig att åka i en Dacia Sandero med automat i elegant grå metallic som gör varje resa bekväm och lättkörd. Backkamera och smartphoneintegration hjälper dig i vardagen, medan filbytesvarnare och andra assistanssystem ger extra stöd på vägen. Besiktigad till december 2027 och nyservad."
+      },
+      "generatedValuatorComment": {
+        "en": "",
+        "sv": "Tänk dig att åka i en Dacia Sandero med automat i elegant grå metallic som gör varje resa bekväm och lättkörd. Backkamera och smartphone­integration hjälper dig i vardagen, medan filbytesvarnare och andra assistanssystem ger extra stöd på vägen. Besiktigad till december 2027."
+      },
+      "carDealerPrice": 170000,
+      "endUserTestProtocol": {
+        "tires": {
+          "mountedTires": {
+            "other": {
+              "rimSize": "16",
+              "rimType": "Alu.fälg",
+              "tireType": "Sommardäck",
+              "otherInfo": "Behövs ej",
+              "tireTypeKey": "SUMMER_TIRES"
+            },
+            "grades": {
+              "rearLeft": 3,
+              "frontLeft": 3,
+              "rearRight": 3,
+              "frontRight": 3
+            },
+            "treadDepths": {
+              "rearLeft": 5,
+              "frontLeft": 5,
+              "rearRight": 5,
+              "frontRight": 5
+            }
+          }
+        },
+        "grades": {
+          "TOTAL": {
+            "max": 5,
+            "min": 1,
+            "value": 4
+          },
+          "BRAKES": {
+            "max": 3,
+            "min": 1,
+            "value": 3
+          },
+          "EXTERIOR": {
+            "max": 5,
+            "min": 1,
+            "value": 4
+          },
+          "INTERIOR": {
+            "max": 5,
+            "min": 1,
+            "value": 4
+          },
+          "ENGINE_AND_GEARBOX": {
+            "max": 3,
+            "min": 1,
+            "value": 3
+          },
+          "TECHNOLOGY_AND_EQUIPMENT": {
+            "max": 3,
+            "min": 1,
+            "value": 3
+          }
+        },
+        "towbar": false,
+        "remarks": {
+          "BRAKES": [],
+          "EXTERIOR": [],
+          "INTERIOR": [],
+          "ENGINE_AND_GEARBOX": [],
+          "TECHNOLOGY_AND_EQUIPMENT": []
+        },
+        "textile": "Textil",
+        "boatType": null,
+        "equipment": [
+          "Backkamera",
+          "Assistanssystem",
+          "AC",
+          "Bluetooth",
+          "Farthållare",
+          "Filbytesvarnare",
+          "Start/Stop-funktion",
+          "USB-ingång",
+          "Antisladdsystem",
+          "Antispinn",
+          "Elhiss bak",
+          "Elhiss fram",
+          "Elspeglar",
+          "Fjärrlås",
+          "Isofix bak",
+          "Parkeringssensorer bak",
+          "Radio",
+          "Regnsensor",
+          "Smartphone integration",
+          "Stolsvärme fram",
+          "Urkopplingsbar passagerarairbag"
+        ],
+        "boatWidth": null,
+        "createdAt": "2026-10-01T15:04:56",
+        "boatEngine": null,
+        "boatLength": null,
+        "boatWeight": null,
+        "finishType": "Metallic",
+        "protocolId": "258425",
+        "stoveFlames": null,
+        "heatingSystem": null,
+        "numberOfKeys": 2,
+        "boatCeBranded": false,
+        "boatGearModel": null,
+        "numberOfBunks": null,
+        "numberOfSeats": 5,
+        "boatEngineFuel": null,
+        "boatSepticTank": false,
+        "isRepairObject": false,
+        "boatEnginePower": null,
+        "serviceBookType": "LOOSE_PAPERS",
+        "boatExteriorColor": null,
+        "serviceBookStatus": "Service utförd vid följande mil: 706 mil, 1214mil senast 2026-10-08",
+        "boatEngineSerialNumber": null,
+        "odometerReadingAfterTest": {
+          "unit": "Mil",
+          "value": 1215
+        },
+        "odometerReadingAfterTestInKm": 12150
+      },
+      "auctionPriceValuation": {
+        "currency": "SEK"
+      },
+      "finalised": true,
+      "includedImageIds": null,
+      "createdAt": "2026-10-01T13:06:05.984120+00:00",
+      "updatedAt": "2026-10-26T14:38:04.312360+00:00",
+      "generatingInProgress": false,
+      "valuatorCommentLocalized": "Tänk dig att åka i en Dacia Sandero med automat i elegant grå metallic som gör varje resa bekväm och lättkörd. Backkamera och smartphoneintegration hjälper dig i vardagen, medan filbytesvarnare och andra assistanssystem ger extra stöd på vägen. Besiktigad till december 2027 och nyservad."
+    },
+    "facts": {
+      "default": [
+        {
+          "key": "NUMBER_OF_PREVIOUS_OWNERS",
+          "text": "Antal tidigare ägare",
+          "value": 2,
+          "type": "string"
+        },
+        {
+          "key": "REGISTRATION_PLATE",
+          "text": "Registreringsnummer",
+          "value": "UBR04R",
+          "type": "string"
+        },
+        {
+          "key": "MODEL_YEAR",
+          "text": "Modellår",
+          "value": 2025,
+          "type": "string"
+        },
+        {
+          "key": "MANUFACTURE_MONTH",
+          "text": "Tillverkningsmånad",
+          "value": "202410",
+          "type": "manufacture_month"
+        },
+        {
+          "key": "ODOMETER_READING",
+          "text": "Mätarställning",
+          "value": 12150,
+          "type": "distance"
+        },
+        {
+          "key": "INITIAL_TRAFFIC_DATE",
+          "text": "Första datum i trafik i Sverige",
+          "value": "2024-12-12",
+          "type": "date"
+        },
+        {
+          "key": "SERVICE_BOOK",
+          "text": "Servicehistorik",
+          "value": "Service utförd vid följande mil: 706 mil, 1214mil senast 2026-10-08",
+          "type": "string"
+        },
+        {
+          "key": "SERVICE_BOOK_TYPE",
+          "text": "Servicebok",
+          "value": "Lösa serviceblad",
+          "type": "string"
+        },
+        {
+          "key": "GEARBOX",
+          "text": "Växellåda",
+          "value": "Automat",
+          "type": "string"
+        },
+        {
+          "key": "NUMBER_OF_SEATS",
+          "text": "Antal säten",
+          "value": 5,
+          "type": "string"
+        },
+        {
+          "key": "NUMBER_OF_KEYS",
+          "text": "Antal nycklar",
+          "value": 2,
+          "type": "string"
+        },
+        {
+          "key": "EXTERIOR_COLOR",
+          "text": "Färg",
+          "value": "Grå",
+          "type": "string"
+        },
+        {
+          "key": "FINISH_TYPE",
+          "text": "Lack",
+          "value": "Metallic",
+          "type": "string"
+        },
+        {
+          "key": "TEXTILE",
+          "text": "Klädsel",
+          "value": "Textil",
+          "type": "string"
+        },
+        {
+          "key": "MANUFACTURER_WARRANTY",
+          "text": "Nybilsgaranti",
+          "value": {
+            "odometerReadingLimit": 100000,
+            "expirationDate": "2027-12-11"
+          },
+          "type": "manufacturer_warranty"
+        },
+        {
+          "key": "COLLISION_WARRANTY",
+          "text": "Vagnskadegaranti",
+          "value": "2027-12-11",
+          "type": "date"
+        },
+        {
+          "key": "TAX_FEE",
+          "text": "Skatt årsavgift",
+          "value": "6238 SEK",
+          "type": "string"
+        }
+      ],
+      "additional": [
+        {
+          "key": "CHASSIS_NUMBER",
+          "text": "Chassinummer",
+          "value": "UU1DJF00373773781",
+          "type": "string"
+        },
+        {
+          "key": "ENGINE_EFFECT_PETROL",
+          "text": "Motoreffekt (bensin)",
+          "value": 91,
+          "type": "engine_power"
+        },
+        {
+          "key": "TOWBAR",
+          "text": "Dragkrok",
+          "value": "Nej",
+          "type": "string"
+        },
+        {
+          "key": "MAX_PAYLOAD",
+          "text": "Maxlastvikt",
+          "value": 400,
+          "type": "weight"
+        },
+        {
+          "key": "INSPECTION_VALID_TO_DATE",
+          "text": "Nästa besiktning senast",
+          "value": "2027-12-31",
+          "type": "string"
+        },
+        {
+          "key": "CURB_WEIGHT",
+          "text": "Tjänstevikt",
+          "value": 1190,
+          "type": "weight"
+        },
+        {
+          "key": "TAX_WEIGHT",
+          "text": "Skattevikt",
+          "value": 1190,
+          "type": "weight"
+        },
+        {
+          "key": "TOTAL_WEIGHT",
+          "text": "Fordonets totalvikt",
+          "value": 1590,
+          "type": "weight"
+        },
+        {
+          "key": "LENGTH",
+          "text": "Längd",
+          "value": 4088,
+          "type": "length"
+        },
+        {
+          "key": "WIDTH",
+          "text": "Bredd",
+          "value": 1758,
+          "type": "length"
+        },
+        {
+          "key": "HEIGHT",
+          "text": "Höjd",
+          "value": 1490,
+          "type": "length"
+        }
+      ],
+      "other": [
+        {
+          "key": "SOLD_IN_SWEDEN",
+          "text": "Svensksåld",
+          "value": "Ja",
+          "type": "string"
+        },
+        {
+          "key": "EXPORTABLE",
+          "text": "Kan exporteras",
+          "value": "Ja",
+          "type": "string"
+        },
+        {
+          "key": "DEDUCTIBLE_VAT",
+          "text": "Avlyftbar moms",
+          "value": "Ja",
+          "type": "string"
+        }
+      ]
+    },
+    "majorFeature": [
+      {
+        "key": "BACKKAMERA",
+        "title": "Backkamera",
+        "value": null,
+        "equipment": "Utrustning",
+        "description": "Kamera som underlättar vid backning"
+      },
+      {
+        "key": "SMARTPHONE_INTEGRATION",
+        "title": "Smartphone integration",
+        "value": null,
+        "equipment": "Utrustning",
+        "description": null
+      },
+      {
+        "key": "FILBYTESVARNARE",
+        "title": "Filbytesvarnare",
+        "value": null,
+        "equipment": "Utrustning",
+        "description": "Elektroniskt säkerhetssystem som varnar vid oplanerade filbyten"
+      },
+      {
+        "key": "ASSISTANSSYSTEM",
+        "title": "Assistanssystem",
+        "value": null,
+        "equipment": "Utrustning",
+        "description": "Uppkopplad tjänst för att exempelvis kunna kontrollera din bil på distans med hjälp av en mobilapp. Funktioner som bygger på 2G eller 3G-uppkoppling kan sluta fungera i samband med att dessa nätverk stängs ner av operatörerna."
+      }
+    ],
+    "batteryTestCertificateAvailable": false
+  },
+  "previewImages": [
+    {
+      "processObjectId": "7289013",
+      "uri": "https://kvdbil-images.imgix.net/7289013/f483d5af.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7289013/f483d5af.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 1
+    },
+    {
+      "processObjectId": "7289013",
+      "uri": "https://kvdbil-images.imgix.net/7289013/87be4284.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7289013/87be4284.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 1
+    },
+    {
+      "processObjectId": "7289013",
+      "uri": "https://kvdbil-images.imgix.net/7289013/04a3190d.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7289013/04a3190d.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 2
+    },
+    {
+      "processObjectId": "7289013",
+      "uri": "https://kvdbil-images.imgix.net/7289013/b3e26c57.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7289013/b3e26c57.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 2
+    },
+    {
+      "processObjectId": "7289013",
+      "uri": "https://kvdbil-images.imgix.net/7289013/0fafb265.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7289013/0fafb265.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 3
+    },
+    {
+      "processObjectId": "7289013",
+      "uri": "https://kvdbil-images.imgix.net/7289013/ff31249c.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7289013/ff31249c.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 3
+    },
+    {
+      "processObjectId": "7289013",
+      "uri": "https://kvdbil-images.imgix.net/7289013/9ffb5976.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7289013/9ffb5976.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 4
+    },
+    {
+      "processObjectId": "7289013",
+      "uri": "https://kvdbil-images.imgix.net/7289013/5c46fa7b.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7289013/5c46fa7b.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 5
+    },
+    {
+      "processObjectId": "7289013",
+      "uri": "https://kvdbil-images.imgix.net/7289013/90d29922.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7289013/90d29922.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 6
+    },
+    {
+      "processObjectId": "7289013",
+      "uri": "https://kvdbil-images.imgix.net/7289013/eb78fe7d.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7289013/eb78fe7d.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 7
+    },
+    {
+      "processObjectId": "7289013",
+      "uri": "https://kvdbil-images.imgix.net/7289013/d1f07125.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7289013/d1f07125.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 8
+    },
+    {
+      "processObjectId": "7289013",
+      "uri": "https://kvdbil-images.imgix.net/7289013/37b6f0b5.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7289013/37b6f0b5.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 9
+    },
+    {
+      "processObjectId": "7289013",
+      "uri": "https://kvdbil-images.imgix.net/7289013/1374265b.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7289013/1374265b.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 10
+    },
+    {
+      "processObjectId": "7289013",
+      "uri": "https://kvdbil-images.imgix.net/7289013/89a58018.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7289013/89a58018.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 11
+    },
+    {
+      "processObjectId": "7289013",
+      "uri": "https://kvdbil-images.imgix.net/7289013/ad1a8a4c.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7289013/ad1a8a4c.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 12
+    },
+    {
+      "processObjectId": "7289013",
+      "uri": "https://kvdbil-images.imgix.net/7289013/f76dd2e9.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7289013/f76dd2e9.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 13
+    }
+  ],
+  "similarAuctions": [],
+  "activeAuction": {
+    "auctionId": "309007",
+    "closed": true,
+    "countdownInProgress": true,
+    "preliminaryCloseAt": "2026-11-02T11:33:59.763241+00:00",
+    "createdAt": "2026-10-26T17:14:50.048072+00:00",
+    "updatedAt": "2026-11-02T11:33:59.775021+00:00",
+    "vatExcludedBiddingAllowed": false,
+    "reservationPriceReached": true,
+    "bids": [
+      {
+        "id": 18694639,
+        "auctionId": 309007,
+        "bidderAlias": "14",
+        "amount": 138500,
+        "type": "NORMAL",
+        "maxBidId": 10924186,
+        "triggeredBy": 10924186,
+        "createdAt": "2026-11-02T11:30:29.768900+00:00",
+        "updatedAt": "2026-11-02T11:30:29.768906+00:00"
+      },
+      {
+        "id": 18694636,
+        "auctionId": 309007,
+        "bidderAlias": "13",
+        "amount": 138000,
+        "type": "NORMAL",
+        "maxBidId": 10924184,
+        "triggeredBy": 10924184,
+        "createdAt": "2026-11-02T11:29:36.634847+00:00",
+        "updatedAt": "2026-11-02T11:29:36.634853+00:00"
+      },
+      {
+        "id": 18694607,
+        "auctionId": 309007,
+        "bidderAlias": "5",
+        "amount": 137500,
+        "type": "NORMAL",
+        "maxBidId": 10924168,
+        "triggeredBy": 10924168,
+        "createdAt": "2026-11-02T11:26:24.335091+00:00",
+        "updatedAt": "2026-11-02T11:26:24.335099+00:00"
+      },
+      {
+        "id": 18694575,
+        "auctionId": 309007,
+        "bidderAlias": "8",
+        "amount": 137000,
+        "type": "NORMAL",
+        "maxBidId": 10924150,
+        "triggeredBy": 10924150,
+        "createdAt": "2026-11-02T11:17:40.339175+00:00",
+        "updatedAt": "2026-11-02T11:17:40.339183+00:00"
+      },
+      {
+        "id": 18694548,
+        "auctionId": 309007,
+        "bidderAlias": "10",
+        "amount": 136500,
+        "type": "NORMAL",
+        "maxBidId": 10924135,
+        "triggeredBy": 10924135,
+        "createdAt": "2026-11-02T11:15:34.069476+00:00",
+        "updatedAt": "2026-11-02T11:15:34.069482+00:00"
+      },
+      {
+        "id": 18694509,
+        "auctionId": 309007,
+        "bidderAlias": "5",
+        "amount": 136000,
+        "type": "NORMAL",
+        "maxBidId": 10924111,
+        "triggeredBy": 10924111,
+        "createdAt": "2026-11-02T11:08:21.871630+00:00",
+        "updatedAt": "2026-11-02T11:08:21.871635+00:00"
+      },
+      {
+        "id": 18694508,
+        "auctionId": 309007,
+        "bidderAlias": "12",
+        "amount": 135500,
+        "type": "LIMIT_REACHED",
+        "maxBidId": 10924060,
+        "triggeredBy": 10924111,
+        "createdAt": "2026-11-02T11:08:21.871610+00:00",
+        "updatedAt": "2026-11-02T11:08:21.871625+00:00"
+      },
+      {
+        "id": 18694492,
+        "auctionId": 309007,
+        "bidderAlias": "12",
+        "amount": 134500,
+        "type": "AUTO",
+        "maxBidId": 10924060,
+        "triggeredBy": 10924102,
+        "createdAt": "2026-11-02T11:06:53.063971+00:00",
+        "updatedAt": "2026-11-02T11:06:53.063973+00:00"
+      },
+      {
+        "id": 18694491,
+        "auctionId": 309007,
+        "bidderAlias": "5",
+        "amount": 134000,
+        "type": "NORMAL",
+        "maxBidId": 10924102,
+        "triggeredBy": 10924102,
+        "createdAt": "2026-11-02T11:06:53.063962+00:00",
+        "updatedAt": "2026-11-02T11:06:53.063968+00:00"
+      },
+      {
+        "id": 18694415,
+        "auctionId": 309007,
+        "bidderAlias": "12",
+        "amount": 133500,
+        "type": "NORMAL",
+        "maxBidId": 10924060,
+        "triggeredBy": 10924060,
+        "createdAt": "2026-11-02T10:53:56.026766+00:00",
+        "updatedAt": "2026-11-02T10:53:56.026781+00:00"
+      },
+      {
+        "id": 18694414,
+        "auctionId": 309007,
+        "bidderAlias": "10",
+        "amount": 133000,
+        "type": "LIMIT_REACHED",
+        "maxBidId": 10923343,
+        "triggeredBy": 10924060,
+        "createdAt": "2026-11-02T10:53:56.026752+00:00",
+        "updatedAt": "2026-11-02T10:53:56.026761+00:00"
+      },
+      {
+        "id": 18694402,
+        "auctionId": 309007,
+        "bidderAlias": "10",
+        "amount": 132500,
+        "type": "AUTO",
+        "maxBidId": 10923343,
+        "triggeredBy": 10924049,
+        "createdAt": "2026-11-02T10:49:01.261590+00:00",
+        "updatedAt": "2026-11-02T10:49:01.261594+00:00"
+      },
+      {
+        "id": 18694401,
+        "auctionId": 309007,
+        "bidderAlias": "11",
+        "amount": 132000,
+        "type": "NORMAL",
+        "maxBidId": 10924049,
+        "triggeredBy": 10924049,
+        "createdAt": "2026-11-02T10:49:01.261576+00:00",
+        "updatedAt": "2026-11-02T10:49:01.261585+00:00"
+      },
+      {
+        "id": 18693908,
+        "auctionId": 309007,
+        "bidderAlias": "10",
+        "amount": 130500,
+        "type": "AUTO",
+        "maxBidId": 10923343,
+        "triggeredBy": 10923750,
+        "createdAt": "2026-11-02T10:09:50.304245+00:00",
+        "updatedAt": "2026-11-02T10:09:50.304249+00:00"
+      },
+      {
+        "id": 18693907,
+        "auctionId": 309007,
+        "bidderAlias": "11",
+        "amount": 130000,
+        "type": "NORMAL",
+        "maxBidId": 10923750,
+        "triggeredBy": 10923750,
+        "createdAt": "2026-11-02T10:09:50.304232+00:00",
+        "updatedAt": "2026-11-02T10:09:50.304240+00:00"
+      },
+      {
+        "id": 18693225,
+        "auctionId": 309007,
+        "bidderAlias": "10",
+        "amount": 129000,
+        "type": "NORMAL",
+        "maxBidId": 10923343,
+        "triggeredBy": 10923343,
+        "createdAt": "2026-11-02T09:41:05.560440+00:00",
+        "updatedAt": "2026-11-02T09:41:05.560442+00:00"
+      },
+      {
+        "id": 18693224,
+        "auctionId": 309007,
+        "bidderAlias": "9",
+        "amount": 128500,
+        "type": "LIMIT_REACHED",
+        "maxBidId": 10922730,
+        "triggeredBy": 10923343,
+        "createdAt": "2026-11-02T09:41:05.560427+00:00",
+        "updatedAt": "2026-11-02T09:41:05.560437+00:00"
+      },
+      {
+        "id": 18692158,
+        "auctionId": 309007,
+        "bidderAlias": "9",
+        "amount": 122500,
+        "type": "NORMAL",
+        "maxBidId": 10922730,
+        "triggeredBy": 10922730,
+        "createdAt": "2026-11-02T08:55:58.119853+00:00",
+        "updatedAt": "2026-11-02T08:55:58.119855+00:00"
+      },
+      {
+        "id": 18692157,
+        "auctionId": 309007,
+        "bidderAlias": "5",
+        "amount": 122000,
+        "type": "LIMIT_REACHED",
+        "maxBidId": 10919024,
+        "triggeredBy": 10922730,
+        "createdAt": "2026-11-02T08:55:58.119844+00:00",
+        "updatedAt": "2026-11-02T08:55:58.119850+00:00"
+      },
+      {
+        "id": 18685669,
+        "auctionId": 309007,
+        "bidderAlias": "5",
+        "amount": 120500,
+        "type": "NORMAL",
+        "maxBidId": 10919024,
+        "triggeredBy": 10919024,
+        "createdAt": "2026-10-30T22:21:52.629134+00:00",
+        "updatedAt": "2026-10-30T22:21:52.629137+00:00"
+      },
+      {
+        "id": 18685668,
+        "auctionId": 309007,
+        "bidderAlias": "8",
+        "amount": 120000,
+        "type": "LIMIT_REACHED",
+        "maxBidId": 10918922,
+        "triggeredBy": 10919024,
+        "createdAt": "2026-10-30T22:21:52.629119+00:00",
+        "updatedAt": "2026-10-30T22:21:52.629130+00:00"
+      },
+      {
+        "id": 18685501,
+        "auctionId": 309007,
+        "bidderAlias": "8",
+        "amount": 118500,
+        "type": "NORMAL",
+        "maxBidId": 10918922,
+        "triggeredBy": 10918922,
+        "createdAt": "2026-10-30T20:45:25.871724+00:00",
+        "updatedAt": "2026-10-30T20:45:25.871728+00:00"
+      },
+      {
+        "id": 18685500,
+        "auctionId": 309007,
+        "bidderAlias": "5",
+        "amount": 118000,
+        "type": "LIMIT_REACHED",
+        "maxBidId": 10918596,
+        "triggeredBy": 10918922,
+        "createdAt": "2026-10-30T20:45:25.871709+00:00",
+        "updatedAt": "2026-10-30T20:45:25.871719+00:00"
+      },
+      {
+        "id": 18684939,
+        "auctionId": 309007,
+        "bidderAlias": "5",
+        "amount": 117500,
+        "type": "NORMAL",
+        "maxBidId": 10918596,
+        "triggeredBy": 10918596,
+        "createdAt": "2026-10-30T16:19:14.931549+00:00",
+        "updatedAt": "2026-10-30T16:19:14.931555+00:00"
+      },
+      {
+        "id": 18684819,
+        "auctionId": 309007,
+        "bidderAlias": "7",
+        "amount": 117000,
+        "type": "NORMAL",
+        "maxBidId": 10918524,
+        "triggeredBy": 10918524,
+        "createdAt": "2026-10-30T14:40:46.254922+00:00",
+        "updatedAt": "2026-10-30T14:40:46.254928+00:00"
+      },
+      {
+        "id": 18681077,
+        "auctionId": 309007,
+        "bidderAlias": "5",
+        "amount": 116500,
+        "type": "NORMAL",
+        "maxBidId": 10916360,
+        "triggeredBy": 10916360,
+        "createdAt": "2026-10-29T20:30:00.321744+00:00",
+        "updatedAt": "2026-10-29T20:30:00.321746+00:00"
+      },
+      {
+        "id": 18681076,
+        "auctionId": 309007,
+        "bidderAlias": "6",
+        "amount": 116000,
+        "type": "LIMIT_REACHED",
+        "maxBidId": 10916322,
+        "triggeredBy": 10916360,
+        "createdAt": "2026-10-29T20:30:00.321735+00:00",
+        "updatedAt": "2026-10-29T20:30:00.321740+00:00"
+      },
+      {
+        "id": 18681071,
+        "auctionId": 309007,
+        "bidderAlias": "6",
+        "amount": 113000,
+        "type": "AUTO",
+        "maxBidId": 10916322,
+        "triggeredBy": 10916357,
+        "createdAt": "2026-10-29T20:28:48.888901+00:00",
+        "updatedAt": "2026-10-29T20:28:48.888904+00:00"
+      },
+      {
+        "id": 18681070,
+        "auctionId": 309007,
+        "bidderAlias": "5",
+        "amount": 112500,
+        "type": "NORMAL",
+        "maxBidId": 10916357,
+        "triggeredBy": 10916357,
+        "createdAt": "2026-10-29T20:28:48.888885+00:00",
+        "updatedAt": "2026-10-29T20:28:48.888895+00:00"
+      },
+      {
+        "id": 18681067,
+        "auctionId": 309007,
+        "bidderAlias": "6",
+        "amount": 112000,
+        "type": "AUTO",
+        "maxBidId": 10916322,
+        "triggeredBy": 10916355,
+        "createdAt": "2026-10-29T20:28:08.955936+00:00",
+        "updatedAt": "2026-10-29T20:28:08.955938+00:00"
+      },
+      {
+        "id": 18681066,
+        "auctionId": 309007,
+        "bidderAlias": "5",
+        "amount": 111500,
+        "type": "NORMAL",
+        "maxBidId": 10916355,
+        "triggeredBy": 10916355,
+        "createdAt": "2026-10-29T20:28:08.955926+00:00",
+        "updatedAt": "2026-10-29T20:28:08.955933+00:00"
+      },
+      {
+        "id": 18681016,
+        "auctionId": 309007,
+        "bidderAlias": "6",
+        "amount": 111000,
+        "type": "NORMAL",
+        "maxBidId": 10916322,
+        "triggeredBy": 10916322,
+        "createdAt": "2026-10-29T20:09:42.620711+00:00",
+        "updatedAt": "2026-10-29T20:09:42.620719+00:00"
+      },
+      {
+        "id": 18671014,
+        "auctionId": 309007,
+        "bidderAlias": "5",
+        "amount": 110500,
+        "type": "NORMAL",
+        "maxBidId": 10910598,
+        "triggeredBy": 10910598,
+        "createdAt": "2026-10-28T10:57:09.153077+00:00",
+        "updatedAt": "2026-10-28T10:57:09.153082+00:00"
+      },
+      {
+        "id": 18671013,
+        "auctionId": 309007,
+        "bidderAlias": "4",
+        "amount": 110000,
+        "type": "LIMIT_REACHED",
+        "maxBidId": 10909079,
+        "triggeredBy": 10910598,
+        "createdAt": "2026-10-28T10:57:09.153056+00:00",
+        "updatedAt": "2026-10-28T10:57:09.153070+00:00"
+      },
+      {
+        "id": 18670974,
+        "auctionId": 309007,
+        "bidderAlias": "4",
+        "amount": 106500,
+        "type": "AUTO",
+        "maxBidId": 10909079,
+        "triggeredBy": 10910575,
+        "createdAt": "2026-10-28T10:55:07.751742+00:00",
+        "updatedAt": "2026-10-28T10:55:07.751745+00:00"
+      },
+      {
+        "id": 18670973,
+        "auctionId": 309007,
+        "bidderAlias": "5",
+        "amount": 106000,
+        "type": "NORMAL",
+        "maxBidId": 10910575,
+        "triggeredBy": 10910575,
+        "createdAt": "2026-10-28T10:55:07.751728+00:00",
+        "updatedAt": "2026-10-28T10:55:07.751737+00:00"
+      },
+      {
+        "id": 18670966,
+        "auctionId": 309007,
+        "bidderAlias": "4",
+        "amount": 104500,
+        "type": "AUTO",
+        "maxBidId": 10909079,
+        "triggeredBy": 10910571,
+        "createdAt": "2026-10-28T10:54:21.252894+00:00",
+        "updatedAt": "2026-10-28T10:54:21.252898+00:00"
+      },
+      {
+        "id": 18670965,
+        "auctionId": 309007,
+        "bidderAlias": "5",
+        "amount": 104000,
+        "type": "NORMAL",
+        "maxBidId": 10910571,
+        "triggeredBy": 10910571,
+        "createdAt": "2026-10-28T10:54:21.252881+00:00",
+        "updatedAt": "2026-10-28T10:54:21.252890+00:00"
+      },
+      {
+        "id": 18668272,
+        "auctionId": 309007,
+        "bidderAlias": "4",
+        "amount": 103500,
+        "type": "NORMAL",
+        "maxBidId": 10909079,
+        "triggeredBy": 10909079,
+        "createdAt": "2026-10-28T01:36:10.261371+00:00",
+        "updatedAt": "2026-10-28T01:36:10.261375+00:00"
+      },
+      {
+        "id": 18668271,
+        "auctionId": 309007,
+        "bidderAlias": "1",
+        "amount": 103000,
+        "type": "LIMIT_REACHED",
+        "maxBidId": 10905027,
+        "triggeredBy": 10909079,
+        "createdAt": "2026-10-28T01:36:10.261357+00:00",
+        "updatedAt": "2026-10-28T01:36:10.261367+00:00"
+      },
+      {
+        "id": 18665127,
+        "auctionId": 309007,
+        "bidderAlias": "1",
+        "amount": 102500,
+        "type": "AUTO",
+        "maxBidId": 10905027,
+        "triggeredBy": 10907253,
+        "createdAt": "2026-10-27T11:58:23.293738+00:00",
+        "updatedAt": "2026-10-27T11:58:23.293741+00:00"
+      },
+      {
+        "id": 18665126,
+        "auctionId": 309007,
+        "bidderAlias": "3",
+        "amount": 102000,
+        "type": "NORMAL",
+        "maxBidId": 10907253,
+        "triggeredBy": 10907253,
+        "createdAt": "2026-10-27T11:58:23.293728+00:00",
+        "updatedAt": "2026-10-27T11:58:23.293736+00:00"
+      },
+      {
+        "id": 18664109,
+        "auctionId": 309007,
+        "bidderAlias": "1",
+        "amount": 101500,
+        "type": "AUTO",
+        "maxBidId": 10905027,
+        "triggeredBy": 10906655,
+        "createdAt": "2026-10-27T10:07:40.022383+00:00",
+        "updatedAt": "2026-10-27T10:07:40.022385+00:00"
+      },
+      {
+        "id": 18664108,
+        "auctionId": 309007,
+        "bidderAlias": "3",
+        "amount": 101000,
+        "type": "NORMAL",
+        "maxBidId": 10906655,
+        "triggeredBy": 10906655,
+        "createdAt": "2026-10-27T10:07:40.022371+00:00",
+        "updatedAt": "2026-10-27T10:07:40.022379+00:00"
+      },
+      {
+        "id": 18661528,
+        "auctionId": 309007,
+        "bidderAlias": "1",
+        "amount": 100000,
+        "type": "AUTO",
+        "maxBidId": 10905027,
+        "triggeredBy": 10905142,
+        "createdAt": "2026-10-26T18:52:22.059188+00:00",
+        "updatedAt": "2026-10-26T18:52:22.059191+00:00"
+      },
+      {
+        "id": 18661527,
+        "auctionId": 309007,
+        "bidderAlias": "2",
+        "amount": 99500,
+        "type": "NORMAL",
+        "maxBidId": 10905142,
+        "triggeredBy": 10905142,
+        "createdAt": "2026-10-26T18:52:22.059174+00:00",
+        "updatedAt": "2026-10-26T18:52:22.059183+00:00"
+      },
+      {
+        "id": 18661525,
+        "auctionId": 309007,
+        "bidderAlias": "1",
+        "amount": 99000,
+        "type": "AUTO",
+        "maxBidId": 10905027,
+        "triggeredBy": 10905140,
+        "createdAt": "2026-10-26T18:52:10.090971+00:00",
+        "updatedAt": "2026-10-26T18:52:10.090973+00:00"
+      },
+      {
+        "id": 18661524,
+        "auctionId": 309007,
+        "bidderAlias": "2",
+        "amount": 98500,
+        "type": "NORMAL",
+        "maxBidId": 10905140,
+        "triggeredBy": 10905140,
+        "createdAt": "2026-10-26T18:52:10.090960+00:00",
+        "updatedAt": "2026-10-26T18:52:10.090968+00:00"
+      },
+      {
+        "id": 18661521,
+        "auctionId": 309007,
+        "bidderAlias": "1",
+        "amount": 97500,
+        "type": "AUTO",
+        "maxBidId": 10905027,
+        "triggeredBy": 10905138,
+        "createdAt": "2026-10-26T18:51:51.687730+00:00",
+        "updatedAt": "2026-10-26T18:51:51.687733+00:00"
+      },
+      {
+        "id": 18661520,
+        "auctionId": 309007,
+        "bidderAlias": "2",
+        "amount": 97000,
+        "type": "NORMAL",
+        "maxBidId": 10905138,
+        "triggeredBy": 10905138,
+        "createdAt": "2026-10-26T18:51:51.687717+00:00",
+        "updatedAt": "2026-10-26T18:51:51.687726+00:00"
+      },
+      {
+        "id": 18661518,
+        "auctionId": 309007,
+        "bidderAlias": "1",
+        "amount": 96000,
+        "type": "AUTO",
+        "maxBidId": 10905027,
+        "triggeredBy": 10905136,
+        "createdAt": "2026-10-26T18:51:42.602825+00:00",
+        "updatedAt": "2026-10-26T18:51:42.602827+00:00"
+      },
+      {
+        "id": 18661517,
+        "auctionId": 309007,
+        "bidderAlias": "2",
+        "amount": 95500,
+        "type": "NORMAL",
+        "maxBidId": 10905136,
+        "triggeredBy": 10905136,
+        "createdAt": "2026-10-26T18:51:42.602814+00:00",
+        "updatedAt": "2026-10-26T18:51:42.602822+00:00"
+      },
+      {
+        "id": 18661345,
+        "auctionId": 309007,
+        "bidderAlias": "1",
+        "amount": 95000,
+        "type": "NORMAL",
+        "maxBidId": 10905027,
+        "triggeredBy": 10905027,
+        "createdAt": "2026-10-26T18:24:52.705809+00:00",
+        "updatedAt": "2026-10-26T18:24:52.705817+00:00"
+      }
+    ],
+    "myBidderAlias": null,
+    "myMaxBid": null,
+    "highestBid": {
+      "id": 18694639,
+      "auctionId": 309007,
+      "bidderAlias": null,
+      "amount": 138500,
+      "type": "NORMAL",
+      "maxBidId": 10924186,
+      "triggeredBy": 10924186,
+      "createdAt": "2026-11-02T11:30:29.768900+00:00",
+      "updatedAt": "2026-11-02T11:30:29.768906+00:00",
+      "eurAmount": 12620
+    },
+    "buyNowAvailable": false,
+    "releasing": null,
+    "isHighestBidLowerThanResidualLoanValue": false
+  },
+  "checkoutOrder": null,
+  "previewImage": "https://kvdbil-images.imgix.net/7289013/f483d5af.jpg",
+  "_list_meta": {
+    "id": "309007",
+    "slug": "dacia-sandero-1-0-tce-90hk",
+    "auctionType": "BIDDING",
+    "closedAt": "2026-11-02T11:33:59.771138+00:00",
+    "updatedAt": "2026-11-02T11:33:59.890547+00:00"
+  },
+  "_scraped_at": "2026-11-02T20:42:45.939099+00:00",
+  "_url": "https://www.kvd.se/auktioner/dacia-sandero-1-0-tce-90hk-309007"
+}

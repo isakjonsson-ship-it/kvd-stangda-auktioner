@@ -1,0 +1,2556 @@
+{
+  "id": "308610",
+  "auctionType": "BIDDING",
+  "biddingFee": "4425.00",
+  "biddingFeeCorporate": "5613.00",
+  "mediationFee": 0,
+  "mediationFeeCorporate": 0,
+  "buyNow": false,
+  "closedAt": "2026-11-02T11:24:32.965057+00:00",
+  "publishedAt": "2026-10-24T07:38:33.525794+00:00",
+  "countdownDuration": 210,
+  "countdownStartAt": "2026-11-02T11:18:30+00:00",
+  "createdAt": "2026-10-23T06:41:09.770538+00:00",
+  "readyForAuctionAt": "2026-10-26",
+  "currency": "SEK",
+  "maxBidRaise": 100000,
+  "minBidRaise": 500,
+  "startBid": 39000,
+  "openedAt": "2026-10-26T17:17:05.311304+00:00",
+  "processObjectId": "7291388",
+  "readyForCheckout": true,
+  "soldFor": 124000,
+  "sellMethod": "BIDDING",
+  "slug": "vw-caddy-cargo-2-0-tdi-skap-75hk",
+  "auctionUrl": "https://www.kvd.se/auktioner/vw-caddy-cargo-2-0-tdi-skap-75hk-308610",
+  "state": "WINNER_CHECKOUT_PENDING",
+  "targetedAuctionGroupId": null,
+  "updatedAt": "2026-11-02T11:24:33.049868+00:00",
+  "releasing": null,
+  "loan": {
+    "loanCost": 1056,
+    "loanCostBuyNow": null
+  },
+  "buyNowAmount": null,
+  "buyNowAvailable": false,
+  "buyNowUntil": null,
+  "eligibleForAdditionalServices": true,
+  "comingSoon": false,
+  "preliminaryPrice": 190000,
+  "maxAllowedBid": 285000,
+  "isReserved": false,
+  "isSoldByBuyNow": false,
+  "favouriteCount": 17,
+  "eurBuyNowAmount": null,
+  "winningBid": {
+    "id": 18694593,
+    "type": "NORMAL",
+    "amount": 124000,
+    "auctionId": 308610,
+    "createdAt": "2026-11-02T11:21:02.965895+00:00",
+    "maxBidId": 10924160,
+    "updatedAt": "2026-11-02T11:21:02.965899+00:00",
+    "bidderAlias": null,
+    "triggeredBy": 10924160,
+    "evaluationType": "AUTOMATIC"
+  },
+  "processObject": {
+    "proactiveBrokering": null,
+    "orderableAdditionalServices": {
+      "tradein": false,
+      "transport": true,
+      "insurance": true,
+      "finance": true,
+      "warranty": true,
+      "extraTires": false
+    },
+    "sellMethod": "BIDDING",
+    "isFixedPrice": false,
+    "buyNowAmount": null,
+    "statisticalValuation": null,
+    "state": "AUCTION_RESOLUTION",
+    "baseObjectId": "521106",
+    "properties": {
+      "initialTrafficDate": "2022-05-17",
+      "registrationCountry": "se",
+      "manufactureMonth": "202203",
+      "heavyEquipment": false,
+      "deductibleVat": true,
+      "formattedEquipment": [
+        {
+          "key": "AC",
+          "title": "AC",
+          "description": "Luftkonditionering utan möjlighet till automatisk temperaturinställning",
+          "priority": 0
+        },
+        {
+          "key": "ANTISLADDSYSTEM",
+          "title": "Antisladdsystem",
+          "description": "Ett system som känner av om bilen håller på att sladda. Genom att bromsa enskilda hjul stabiliseras bilen och sladden förhindras, även kallat ESP.",
+          "priority": 1
+        },
+        {
+          "key": "ANTISPINN",
+          "title": "Antispinn",
+          "description": "Hjälpsystem som förhindrar att hjulen spinner",
+          "priority": 2
+        },
+        {
+          "key": "ASSISTANSSYSTEM",
+          "title": "Assistanssystem",
+          "description": "Uppkopplad tjänst för att exempelvis kunna kontrollera din bil på distans med hjälp av en mobilapp. Funktioner som bygger på 2G eller 3G-uppkoppling kan sluta fungera i samband med att dessa nätverk stängs ner av operatörerna.",
+          "priority": 3
+        },
+        {
+          "key": "AUTO_HOLD",
+          "title": "Auto hold",
+          "description": "Hindrar bilen tillfälligt från att rulla bakåt när du startar i motlut",
+          "priority": 4
+        },
+        {
+          "key": "AUTOBROMS",
+          "title": "Autobroms",
+          "description": "Automatisk inbromsning vid lägre hastigheter för mötande fordon och hinder framför bilen (City Safety)",
+          "priority": 5
+        },
+        {
+          "key": "AVTAGBAR_DRAGKROK",
+          "title": "Avtagbar dragkrok",
+          "description": " Anordning för att dra exempelvis personbilssläp, båttrailer. Kan monteras av.",
+          "priority": 6
+        },
+        {
+          "key": "BACKKAMERA",
+          "title": "Backkamera",
+          "description": "Kamera som underlättar vid backning",
+          "priority": 7
+        },
+        {
+          "key": "BLUETOOTH",
+          "title": "Bluetooth",
+          "description": "Trådlös uppkoppling mot mobila enheter",
+          "priority": 8
+        },
+        {
+          "key": "ELHISS_FRAM",
+          "title": "Elhiss fram",
+          "description": "Elektronisk fönsterhiss fram",
+          "priority": 9
+        },
+        {
+          "key": "ELSPEGLAR",
+          "title": "Elspeglar",
+          "description": "Elektroniskt ställbara sidospeglar",
+          "priority": 10
+        },
+        {
+          "key": "FARTHALLARE",
+          "title": "Farthållare",
+          "description": "Elektroniskt system som håller inprogrammerad hastighet",
+          "priority": 11
+        },
+        {
+          "key": "FJARRLAS",
+          "title": "Fjärrlås",
+          "description": "Möjliggör att du på distans kan låsa och låsa upp bilen",
+          "priority": 12
+        },
+        {
+          "key": "LASTBAGAR",
+          "title": "Lastbågar",
+          "description": null,
+          "priority": 13
+        },
+        {
+          "key": "NYCKELLOST_STARTSYSTEM",
+          "title": "Nyckellöst startsystem",
+          "description": "Startknapp i bilen utan tändningslås. Även kallat Keyless-go",
+          "priority": 14
+        },
+        {
+          "key": "PARKERINGSSENSORER_BAK",
+          "title": "Parkeringssensorer bak",
+          "description": "Sensorer på stötfångare baktill som varnar för hinder bakom bilen",
+          "priority": 15
+        },
+        {
+          "key": "PARKERINGSVARMARE_MED_FJARRSTYRNING",
+          "title": "Parkeringsvärmare med fjärrstyrning",
+          "description": null,
+          "priority": 16
+        },
+        {
+          "key": "PARKERINGSVARMARE_MED_TIDUR",
+          "title": "Parkeringsvärmare med tidur",
+          "description": null,
+          "priority": 17
+        },
+        {
+          "key": "RADIO",
+          "title": "Radio",
+          "description": "Radiospelare",
+          "priority": 18
+        },
+        {
+          "key": "REGNSENSOR",
+          "title": "Regnsensor",
+          "description": "Automatiska vindrutetorkare, sensorer som reagerar på vatten",
+          "priority": 19
+        },
+        {
+          "key": "SMARTPHONE_INTEGRATION",
+          "title": "Smartphone integration",
+          "description": null,
+          "priority": 20
+        },
+        {
+          "key": "START_STOP_FUNKTION",
+          "title": "Start/Stopp-funktion",
+          "description": "Automatisk på och avstängning av motor vid exempelvis trafikljus",
+          "priority": 21
+        },
+        {
+          "key": "STOLSVARME_FRAM",
+          "title": "Stolsvärme fram",
+          "description": "Olika nivåer av värme i stolarna fram som ställs in via en knapp",
+          "priority": 22
+        },
+        {
+          "key": "USB_INGANG",
+          "title": "USB-ingång",
+          "description": "Inkoppling av mobil enhet via USB-kontakt",
+          "priority": 23
+        }
+      ],
+      "brand": "Volkswagen",
+      "title": "VW Caddy Cargo 2.0 TDI Skåp (75hk)",
+      "exportable": true,
+      "residualLoanValue": 49376,
+      "remarks": {
+        "INTERIOR": [
+          {
+            "key": "Fullt med färgstänk och spackelfläckar",
+            "category": "INTERIOR",
+            "id": "0"
+          },
+          {
+            "key": "Ratt sliten",
+            "category": "INTERIOR",
+            "id": "1"
+          },
+          {
+            "key": "Klädsel smutsig och skadad",
+            "category": "INTERIOR",
+            "id": "2"
+          },
+          {
+            "key": "Kraftig odör",
+            "category": "INTERIOR",
+            "id": "3"
+          },
+          {
+            "key": "Invändigt flertal repor, fläckar och märken",
+            "category": "INTERIOR",
+            "id": "4"
+          },
+          {
+            "key": "Invändigt fler visuella anmärkningar",
+            "category": "INTERIOR",
+            "id": "5"
+          },
+          {
+            "key": "Insteg till förarplats repig och skadad lack",
+            "category": "INTERIOR",
+            "id": "6"
+          }
+        ],
+        "ENGINE_AND_GEARBOX": [
+          {
+            "key": "Bilbatteri är dåligt",
+            "category": "ENGINE_AND_GEARBOX",
+            "id": "0"
+          },
+          {
+            "key": "Plastdetalj i motorrum saknas",
+            "category": "ENGINE_AND_GEARBOX",
+            "id": "1"
+          }
+        ],
+        "EXTERIOR": [
+          {
+            "key": "Färgfläckar på kaross, dörrhandtag, trösklar etc",
+            "category": "EXTERIOR",
+            "id": "0"
+          },
+          {
+            "key": "Misstänker att det har varit snedbelastning i skåpet då bilen upplevs stå snett åt vänster i färdriktning",
+            "category": "EXTERIOR",
+            "id": "1"
+          },
+          {
+            "key": "Fåtal rostangrepp",
+            "category": "EXTERIOR",
+            "id": "2"
+          },
+          {
+            "key": "Spår efter tidigare dekor",
+            "category": "EXTERIOR",
+            "id": "3"
+          },
+          {
+            "key": "Höger bakdörr trög öppning/ stängning",
+            "category": "EXTERIOR",
+            "id": "4"
+          },
+          {
+            "key": "Kondens i skyltbelysning",
+            "category": "EXTERIOR",
+            "id": "5"
+          }
+        ],
+        "BRAKES": [
+          {
+            "key": "Bromsbelägg fram behöver bytas, Bromsskivor är slitna, behöver bytas inom 6 månader",
+            "category": "BRAKES",
+            "id": "0"
+          }
+        ],
+        "TIRES": [],
+        "TECHNOLOGY_AND_EQUIPMENT": [
+          {
+            "key": "Nyckel, dosa trasig/ihop tejpad",
+            "category": "TECHNOLOGY_AND_EQUIPMENT",
+            "id": "0"
+          },
+          {
+            "key": "Elhiss vänster fram missljud",
+            "category": "TECHNOLOGY_AND_EQUIPMENT",
+            "id": "1"
+          },
+          {
+            "key": "Spricka i vindruta",
+            "category": "TECHNOLOGY_AND_EQUIPMENT",
+            "id": "2"
+          },
+          {
+            "key": "Torkarblad utslitna",
+            "category": "TECHNOLOGY_AND_EQUIPMENT",
+            "id": "3"
+          },
+          {
+            "key": "Missljud framvagn",
+            "category": "TECHNOLOGY_AND_EQUIPMENT",
+            "id": "4"
+          },
+          {
+            "key": "Färgfläck på mediaskärm",
+            "category": "TECHNOLOGY_AND_EQUIPMENT",
+            "id": "5"
+          },
+          {
+            "key": "Mediaskärm fungerar sporadiskt",
+            "category": "TECHNOLOGY_AND_EQUIPMENT",
+            "id": "6"
+          },
+          {
+            "key": "Knarrar när man vrider på ratten, särskilt märkbart vid stillasittande",
+            "category": "TECHNOLOGY_AND_EQUIPMENT",
+            "id": "7"
+          }
+        ]
+      },
+      "curbWeight": 1584,
+      "grades": {
+        "INTERIOR": {
+          "min": 1,
+          "value": 2,
+          "max": 5
+        },
+        "ENGINE_AND_GEARBOX": {
+          "min": 1,
+          "value": 2,
+          "max": 3
+        },
+        "TOTAL": {
+          "min": 1,
+          "value": 2,
+          "max": 5
+        },
+        "EXTERIOR": {
+          "min": 1,
+          "value": 2,
+          "max": 5
+        },
+        "BRAKES": {
+          "min": 1,
+          "value": 2,
+          "max": 3
+        },
+        "TECHNOLOGY_AND_EQUIPMENT": {
+          "min": 1,
+          "value": 2,
+          "max": 3
+        }
+      },
+      "exteriorColor": "White",
+      "textile": "Textil",
+      "height": 1838,
+      "taxFee": 2750,
+      "familyName": "Caddy",
+      "towbar": false,
+      "modelName": "Caddy Cargo 2.0 TDI Skåp (75hk)",
+      "equipment": [
+        "AC",
+        "Antisladdsystem",
+        "Antispinn",
+        "Assistanssystem",
+        "Auto hold",
+        "Autobroms",
+        "Avtagbar dragkrok",
+        "Backkamera",
+        "Bluetooth",
+        "Elhiss fram",
+        "Elspeglar",
+        "Farthållare",
+        "Fjärrlås",
+        "Lastbågar",
+        "Nyckellöst startsystem",
+        "Parkeringssensorer bak",
+        "Parkeringsvärmare med fjärrstyrning",
+        "Parkeringsvärmare med tidur",
+        "Radio",
+        "Regnsensor",
+        "Smartphone integration",
+        "Start/Stop-funktion",
+        "Stolsvärme fram",
+        "USB-ingång"
+      ],
+      "remarksLocalized": {
+        "TIRES": null,
+        "BRAKES": "Bromsbelägg fram behöver bytas, Bromsskivor är slitna, behöver bytas inom 6 månader",
+        "EXTERIOR": "Färgfläckar på kaross, dörrhandtag, trösklar etc. Misstänker att det har varit snedbelastning i skåpet då bilen upplevs stå snett åt vänster i färdriktning. Fåtal rostangrepp. Spår efter tidigare dekor. Höger bakdörr trög öppning/ stängning. Kondens i skyltbelysning",
+        "INTERIOR": "Fullt med färgstänk och spackelfläckar. Ratt sliten. Klädsel smutsig och skadad. Kraftig odör. Invändigt flertal repor, fläckar och märken. Invändigt fler visuella anmärkningar. Insteg till förarplats repig och skadad lack",
+        "ENGINE_AND_GEARBOX": "Bilbatteri är dåligt. Plastdetalj i motorrum saknas",
+        "TECHNOLOGY_AND_EQUIPMENT": "Nyckel, dosa trasig/ihop tejpad. Elhiss vänster fram missljud. Spricka i vindruta. Torkarblad utslitna. Missljud framvagn. Färgfläck på mediaskärm. Mediaskärm fungerar sporadiskt. Knarrar när man vrider på ratten, särskilt märkbart vid stillasittande"
+      },
+      "odometerUnit": "km",
+      "odometerReading": 42510,
+      "finishType": "Solid",
+      "registrationPlate": "POP35X",
+      "length": 4500,
+      "inspectionPeriod": "2025-05-30 - 2027-05-31",
+      "gearbox": "Manual",
+      "maxPayload": 636,
+      "registrationPlateCountry": "se",
+      "hasUnpaidLoan": true,
+      "totalWeight": 2220,
+      "numberOfKeys": 2,
+      "adHeader": "Caddy Cargo 2.0 TDI Skåp (75hk) Värmare Drag",
+      "environmentalClassEuro": "6",
+      "body": "Van",
+      "taxWeight": 2220,
+      "isRepairObject": false,
+      "importedForPersonalUse": false,
+      "package": "Värmare Drag",
+      "saleLimitedToCorporate": false,
+      "maxTrailerWeight": 1400,
+      "mediation": true,
+      "ecoFriendly": false,
+      "inspectionValidToDate": "2027-05-31",
+      "mustExport": false,
+      "fuels": [
+        {
+          "fuelCode": "Diesel",
+          "enginePower": 75,
+          "co2": 120,
+          "consumption": 4.5
+        }
+      ],
+      "dateOfInspection": "2025-05-30",
+      "width": 1855,
+      "modelYear": 2022,
+      "chassisNumber": "WV1ZZZSKZNX049192",
+      "drivingBan": false,
+      "numberOfPreviousOwners": 1,
+      "maxPullWeightB": 1280,
+      "numberOfSeats": 2,
+      "heading1": "Volkswagen Caddy",
+      "heading2": "Cargo 2.0 TDI Skåp",
+      "heading3": "Värmare Drag"
+    },
+    "leaseReturnProperties": {},
+    "vehicleType": "LIGHT_TRANSPORT",
+    "id": "7291388",
+    "createdAt": "2026-10-07 11:54:19.592280+00:00",
+    "objectType": "LIGHT_TRUCK",
+    "displayCar360Spin": true,
+    "testDriveAllowed": true,
+    "baseObject": {
+      "registrationCountry": "se",
+      "gearbox": "Manual",
+      "salesFlow": "CORPORATE_CARS",
+      "familyName": "Caddy",
+      "state": "MANUAL_VALUATION_PENDING",
+      "brand": "Volkswagen",
+      "earliestAvailableAt": null,
+      "authorityRegisterInformation": {
+        "environmentalClassification": {
+          "fuels": [
+            {
+              "co2": 120,
+              "nox": "",
+              "nox4": null,
+              "fuelCode": "Diesel",
+              "hcThcNox": "",
+              "consumption": 4.5,
+              "noiseLevel": 67,
+              "emissionUnit": "g/km",
+              "innovationCo2": null,
+              "particleValue": "",
+              "particleMass4": null,
+              "consumptionUnit": "4,5",
+              "rangeNedcDrive": null,
+              "rangeWltpDrive": null,
+              "consumptionUrban": 5.8,
+              "rangeCityWltpDrive": null,
+              "consumptionExtraUrban": 3.8,
+              "electricEnergyConsumption": null,
+              "energyConsumptionWltpDrive": null
+            }
+          ],
+          "ecoFriendly": false,
+          "emissionClass": "EURO 6",
+          "innovationCode": null,
+          "environmentalClass": null,
+          "environmentalClassEuro": "6"
+        },
+        "vehicleInformation": {
+          "vin": "WV1ZZZSKZNX049192",
+          "body": "BB",
+          "type": "LIGHT_TRUCK",
+          "year": "2022",
+          "model": "CADDY",
+          "rawType": "LB",
+          "modelYear": null,
+          "categoryEu": "e13*2018/858*00003*07",
+          "groupNumber": "VW 904126",
+          "modelNumber": "VW 000000",
+          "chassisNumber": "WV1ZZZSKZNX049192",
+          "exteriorColor": "White",
+          "fabricAndMake": "VOLKSWAGEN, VW",
+          "baseObjectType": "LIGHT_TRUCK",
+          "manufactureCode": null,
+          "manufactureMonth": "202203",
+          "registrationDate": "2022-03-30",
+          "initialTrafficDate": "2022-05-17",
+          "registrationPlateReused": null
+        },
+        "vehicleInspectionInformation": {
+          "inspections": [
+            {
+              "inspectionType": "5",
+              "odometerReading": 32767,
+              "dateOfInspection": "2025-05-30"
+            },
+            {
+              "inspectionType": "13",
+              "odometerReading": null,
+              "dateOfInspection": "2022-04-04"
+            }
+          ],
+          "inspectionGroup": "36/24/14",
+          "odometerReading": 32767,
+          "inspectionPeriod": "2025-05-30 - 2027-05-31",
+          "dateOfInspection": "2025-05-30",
+          "inspectionValidToDate": "2027-05-31",
+          "inspectionExemptionGroup": null
+        },
+        "vehicleStatus": {
+          "tax": 2750
+        },
+        "additionalTechSpecification": {
+          "raceCar": null,
+          "wheelbase1": 2755,
+          "wheelbase2": null,
+          "wheelbase3": null,
+          "wheelbase4": null,
+          "equipment1": null,
+          "equipment2": null,
+          "equipment3": null,
+          "maximumSpeed": 157,
+          "numAxleShafts": 2,
+          "passengerAirBag": false,
+          "tyreDimensionRear": "205/65 R15 99H",
+          "tyreDimensionFront": "205/65 R15 99H",
+          "dualSteeringControl": null
+        },
+        "registrationInformation": {
+          "registrationPlate": "POP35X",
+          "deregistrationDate": null,
+          "deregistrationText": null,
+          "deregistrationReason": null
+        },
+        "generalTechSpecification": {
+          "eeg": "e13*2018/858*00003*07",
+          "fuels": [
+            {
+              "fuelCode": "Diesel",
+              "powerUnit": "EG",
+              "enginePower": 55,
+              "enginePowerHp": 75,
+              "fuelTankVolume": ""
+            }
+          ],
+          "width": 1855,
+          "height": 1838,
+          "length": 4500,
+          "gearbox": "Manual",
+          "variant": "BBDTRFX0",
+          "version": "N222FM6FM6C9008H1N24BJG21AA20N",
+          "taxWeight": 2220,
+          "curbWeight": 1584,
+          "maxPayload": 636,
+          "totalWeight": 2220,
+          "chassisCode1": null,
+          "chassisCode2": null,
+          "cubicCapacity": "1968",
+          "numPassengers": "1",
+          "numberOfSeats": 2,
+          "fourWheelDrive": false,
+          "maxPullWeightB": 1280,
+          "clutchMechanism1": null,
+          "clutchMechanism2": null,
+          "maxTrailerWeight": 1400,
+          "chassisCodeSupplement": null,
+          "maxPullWieghtNoBreaks": null,
+          "maxPullWeightBExtended": null,
+          "maxSingle Axle TrailerWeight": null
+        },
+        "vehicleOrigin": {
+          "originCode": "INFÖRT",
+          "originCodeReason": null,
+          "importerIdentifier": null,
+          "preRegistrationDate": null,
+          "importRegistrationDate": null,
+          "importedForPersonalUse": false,
+          "importedPreviouslyRegistered": false
+        }
+      },
+      "modelName": "Caddy Cargo 2.0 TDI Skåp (75hk)",
+      "fuels": [
+        {
+          "fuelCode": "Diesel",
+          "powerUnit": "EG",
+          "enginePower": 55,
+          "enginePowerHp": 75,
+          "fuelTankVolume": ""
+        }
+      ],
+      "modelId": null,
+      "fabricAndMake": "VOLKSWAGEN, VW",
+      "id": "521106",
+      "baseObjectType": "LIGHT_TRUCK",
+      "createdAt": "2026-10-07T11:54:19.246334+00:00",
+      "exteriorColor": "White",
+      "body": "Van",
+      "odometerUnit": "km",
+      "odometerReading": null,
+      "year": "2022",
+      "registrationPlate": "POP35X",
+      "technicalSpecification": {
+        "modelId": null,
+        "vehicle": {
+          "brand": "Volkswagen",
+          "body": "Van",
+          "modelName": "Caddy Cargo 2.0 TDI Skåp (75hk)",
+          "familyName": "Caddy"
+        },
+        "year": "2022"
+      }
+    },
+    "isReleasable": false,
+    "presentationApproved": false,
+    "initialBuyNowAmount": null,
+    "car360Spin": null,
+    "certified": false,
+    "offsiteSalesContact": null,
+    "reducedPrice": false,
+    "conditionClassification": "TESTED",
+    "exportable": true,
+    "deductibleVat": true,
+    "collisionWarranty": null,
+    "title": "VW Caddy Cargo 2.0 TDI Skåp (75hk)",
+    "brand": "Volkswagen",
+    "familyName": "Caddy",
+    "modelName": "Caddy Cargo 2.0 TDI Skåp (75hk)",
+    "package": "Värmare Drag",
+    "heading1": "Volkswagen Caddy",
+    "heading2": "Cargo 2.0 TDI Skåp",
+    "heading3": "Värmare Drag",
+    "media": [
+      {
+        "processObjectId": "7291388",
+        "uri": "https://kvdbil-images.imgix.net/7291388/ebc63121.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291388/ebc63121.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 1
+      },
+      {
+        "processObjectId": "7291388",
+        "uri": "https://kvdbil-images.imgix.net/7291388/92ddb77b.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291388/92ddb77b.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 2
+      },
+      {
+        "processObjectId": "7291388",
+        "uri": "https://kvdbil-images.imgix.net/7291388/a20e6efc.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291388/a20e6efc.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 2
+      },
+      {
+        "processObjectId": "7291388",
+        "uri": "https://kvdbil-images.imgix.net/7291388/196906b8.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291388/196906b8.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 3
+      },
+      {
+        "processObjectId": "7291388",
+        "uri": "https://kvdbil-images.imgix.net/7291388/6fb4c2ab.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291388/6fb4c2ab.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 4
+      },
+      {
+        "processObjectId": "7291388",
+        "uri": "https://kvdbil-images.imgix.net/7291388/ba875e2d.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291388/ba875e2d.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 5
+      },
+      {
+        "processObjectId": "7291388",
+        "uri": "https://kvdbil-images.imgix.net/7291388/f163df58.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291388/f163df58.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 5
+      },
+      {
+        "processObjectId": "7291388",
+        "uri": "https://kvdbil-images.imgix.net/7291388/a2624417.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291388/a2624417.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 6
+      },
+      {
+        "processObjectId": "7291388",
+        "uri": "https://kvdbil-images.imgix.net/7291388/2b034622.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291388/2b034622.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 6
+      },
+      {
+        "processObjectId": "7291388",
+        "uri": "https://kvdbil-images.imgix.net/7291388/36cc6338.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291388/36cc6338.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 7
+      },
+      {
+        "processObjectId": "7291388",
+        "uri": "https://kvdbil-images.imgix.net/7291388/a4a3c95e.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291388/a4a3c95e.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 7
+      },
+      {
+        "processObjectId": "7291388",
+        "uri": "https://kvdbil-images.imgix.net/7291388/7d04b978.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291388/7d04b978.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 8
+      },
+      {
+        "processObjectId": "7291388",
+        "uri": "https://kvdbil-images.imgix.net/7291388/7381a686.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291388/7381a686.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 8
+      },
+      {
+        "processObjectId": "7291388",
+        "uri": "https://kvdbil-images.imgix.net/7291388/b7845548.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291388/b7845548.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 9
+      },
+      {
+        "processObjectId": "7291388",
+        "uri": "https://kvdbil-images.imgix.net/7291388/f7776079.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291388/f7776079.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 9
+      },
+      {
+        "processObjectId": "7291388",
+        "uri": "https://kvdbil-images.imgix.net/7291388/81b63ab2.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291388/81b63ab2.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 10
+      },
+      {
+        "processObjectId": "7291388",
+        "uri": "https://kvdbil-images.imgix.net/7291388/b0739b28.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291388/b0739b28.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 10
+      },
+      {
+        "processObjectId": "7291388",
+        "uri": "https://kvdbil-images.imgix.net/7291388/6ca7c116.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291388/6ca7c116.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 11
+      },
+      {
+        "processObjectId": "7291388",
+        "uri": "https://kvdbil-images.imgix.net/7291388/ae2ad7a7.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291388/ae2ad7a7.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 11
+      },
+      {
+        "processObjectId": "7291388",
+        "uri": "https://kvdbil-images.imgix.net/7291388/b5e51b33.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291388/b5e51b33.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 12
+      },
+      {
+        "processObjectId": "7291388",
+        "uri": "https://kvdbil-images.imgix.net/7291388/1c47f466.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291388/1c47f466.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 12
+      },
+      {
+        "processObjectId": "7291388",
+        "uri": "https://kvdbil-images.imgix.net/7291388/a968d42e.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291388/a968d42e.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 13
+      },
+      {
+        "processObjectId": "7291388",
+        "uri": "https://kvdbil-images.imgix.net/7291388/07b0b5e0.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291388/07b0b5e0.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 13
+      },
+      {
+        "processObjectId": "7291388",
+        "uri": "https://kvdbil-images.imgix.net/7291388/738fa6f7.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291388/738fa6f7.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 14
+      },
+      {
+        "processObjectId": "7291388",
+        "uri": "https://kvdbil-images.imgix.net/7291388/2b7b305b.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291388/2b7b305b.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 14
+      },
+      {
+        "processObjectId": "7291388",
+        "uri": "https://kvdbil-images.imgix.net/7291388/394334a5.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291388/394334a5.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 15
+      },
+      {
+        "processObjectId": "7291388",
+        "uri": "https://kvdbil-images.imgix.net/7291388/d72a9b8f.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291388/d72a9b8f.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 15
+      },
+      {
+        "processObjectId": "7291388",
+        "uri": "https://kvdbil-images.imgix.net/7291388/f374038b.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291388/f374038b.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 16
+      },
+      {
+        "processObjectId": "7291388",
+        "uri": "https://kvdbil-images.imgix.net/7291388/1c018ee9.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291388/1c018ee9.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 16
+      },
+      {
+        "processObjectId": "7291388",
+        "uri": "https://kvdbil-images.imgix.net/7291388/7dcd0010.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291388/7dcd0010.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 17
+      },
+      {
+        "processObjectId": "7291388",
+        "uri": "https://kvdbil-images.imgix.net/7291388/4824c946.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291388/4824c946.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 18
+      },
+      {
+        "processObjectId": "7291388",
+        "uri": "https://kvdbil-images.imgix.net/7291388/b773afd0.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291388/b773afd0.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 19
+      },
+      {
+        "processObjectId": "7291388",
+        "uri": "https://kvdbil-images.imgix.net/7291388/db4fa620.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291388/db4fa620.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 20
+      },
+      {
+        "processObjectId": "7291388",
+        "uri": "https://kvdbil-images.imgix.net/7291388/d9f9a19a.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291388/d9f9a19a.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 21
+      },
+      {
+        "processObjectId": "7291388",
+        "uri": "https://kvdbil-images.imgix.net/7291388/8c950e36.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291388/8c950e36.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 22
+      },
+      {
+        "processObjectId": "7291388",
+        "uri": "https://kvdbil-images.imgix.net/7291388/68d227f3.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291388/68d227f3.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 23
+      },
+      {
+        "processObjectId": "7291388",
+        "uri": "https://kvdbil-images.imgix.net/7291388/5d487420.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291388/5d487420.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 24
+      },
+      {
+        "processObjectId": "7291388",
+        "uri": "https://kvdbil-images.imgix.net/7291388/619ac7f3.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291388/619ac7f3.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 25
+      },
+      {
+        "processObjectId": "7291388",
+        "uri": "https://kvdbil-images.imgix.net/7291388/467c6b5b.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291388/467c6b5b.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 27
+      },
+      {
+        "processObjectId": "7291388",
+        "uri": "https://kvdbil-images.imgix.net/7291388/0f502297.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291388/0f502297.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 28
+      },
+      {
+        "processObjectId": "7291388",
+        "uri": "https://kvdbil-images.imgix.net/7291388/584a1743.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291388/584a1743.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 29
+      },
+      {
+        "processObjectId": "7291388",
+        "uri": "https://kvdbil-images.imgix.net/7291388/30fa4d53.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291388/30fa4d53.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 30
+      },
+      {
+        "processObjectId": "7291388",
+        "uri": "https://kvdbil-images.imgix.net/7291388/c67fc7f9.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291388/c67fc7f9.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 31
+      },
+      {
+        "processObjectId": "7291388",
+        "uri": "https://kvdbil-images.imgix.net/7291388/0e69a6c3.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291388/0e69a6c3.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 32
+      },
+      {
+        "processObjectId": "7291388",
+        "uri": "https://kvdbil-images.imgix.net/7291388/fdd3266c.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291388/fdd3266c.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 33
+      },
+      {
+        "processObjectId": "7291388",
+        "uri": "https://kvdbil-images.imgix.net/7291388/1d1fa344.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291388/1d1fa344.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 34
+      }
+    ],
+    "locationInfo": {
+      "id": "551892",
+      "processObjectId": "7291388",
+      "locationType": "FACILITY",
+      "createdAt": "2026-10-12T05:30:15.631311+00:00",
+      "updatedAt": "2026-10-12T05:30:15.631314+00:00",
+      "facilityId": "d1c2f52a-18f0-43b6-83d3-60b2d5bc319f",
+      "parkingZone": "A",
+      "parkingNumber": null,
+      "outgoingTime": null,
+      "leftAt": null,
+      "outgoingType": null,
+      "publicFacilityId": "d1c2f52a-18f0-43b6-83d3-60b2d5bc319f",
+      "facility": {
+        "id": "d1c2f52a-18f0-43b6-83d3-60b2d5bc319f",
+        "name": "Borlänge",
+        "operator": "PARTNER",
+        "legacyIdentifiers": [
+          "Borlänge"
+        ],
+        "objectTypes": [
+          "CAR",
+          "LIGHT_TRANSPORT"
+        ],
+        "createdAt": "2025-02-26T07:21:36.969637+00:00",
+        "calendarOrganisationalUnitId": "46",
+        "parkingAreas": [],
+        "active": true,
+        "latitude": 60.491073,
+        "longitude": 15.478604,
+        "distance": null,
+        "address": "Holgatan 44A",
+        "postCode": "78472",
+        "city": "Borlänge",
+        "facilityType": "MTV_LU",
+        "facilityMapUrl": "https://www.google.com/maps/dir/60.491073,15.478604/@60.491073,15.478604,z13",
+        "contactPhone": "+4624317510",
+        "contactEmail": "borlange@kvdbil.se",
+        "allowIncomingTransport": false,
+        "allowLeaseReturns": false,
+        "allowUnplannedDropOffFleetManager": true,
+        "parentFacilityId": null,
+        "publicFacilityId": "d1c2f52a-18f0-43b6-83d3-60b2d5bc319f"
+      }
+    },
+    "valuation": {
+      "id": 238415,
+      "processObjectId": "7291388",
+      "valuatorComment": {
+        "da": "En Volkswagen Caddy Cargo med dieselmotor og parkeringsvarmer. Smartphone-integration og nøglefri startsystem gør hver rejse lettere og mere forbundet. Bakkamera og smarte assistsystemer hjælper dig i trafikken og gør parkering og manøvrering mere sikker og afslappet. Dette er en meget slidt bil, og vi opfordrer dig til nøje at læse al tekst og skadesbilleder for at få et klart billede af bilens stand.",
+        "de": "Ein Volkswagen Caddy Cargo mit Dieselmotor und Standheizung. Smartphone-Integration und schlüsselloses Startsystem machen jede Fahrt einfacher und vernetzter. Rückfahrkamera und intelligente Assistenzsysteme helfen Ihnen im Verkehr und machen Parken und Manövrieren sicherer und entspannter. Dies ist ein sehr abgenutztes Auto und wir empfehlen Ihnen, alle Texte und Schadensbilder sorgfältig zu lesen, um sich ein klares Bild vom Zustand des Fahrzeugs zu machen.",
+        "en": "A Volkswagen Caddy Cargo with a diesel engine and parking heater. Smartphone integration and keyless start system make every trip easier and more connected. Rear camera and smart assistance systems help you in traffic and make parking and manoeuvring safer and more relaxed. This is a very worn car and we encourage you to carefully read all text and damage photos to get a clear picture of the car's condition.",
+        "et": "Volkswagen Caddy Cargo diiselmootoriga ja parkimisküttekeha. Nutitelefoni integratsioon ja võtmeteta käivitusüsteem muudavad iga sõidu lihtsamaks ja paremini ühendatuks. Tagakaamera ja nutikad abisüsteemid aitavad teil liikluses ning muudavad parkimise ja manööverdamise turvalisemaks ja rahulikumaks. See on väga kulunud auto ning soovitame teil hoolikalt tutvuda kogu tekstiga ja kahjustuspiltidega, et saada selge ülevaade auto seisukorrast.",
+        "fi": "Volkswagen Caddy Cargo dieselmoottorilla ja sisäisellä lisälämmittimellä. Älypuhelinintegraatio ja avaimeton käynnistysjärjestelmä tekevät jokaisesta matkasta helpompaa ja paremmin yhdistetyn. Peruutuskamera ja älykkäät avustinjärjestelmät auttavat sinua liikenteessä ja tekevät pysäköinnistä ja manööveröinnistä turvallisempaa ja rennomampaa. Tämä on erittäin kulunut auto, ja kehotamme sinua tutustumaan tarkasti kaikkiin teksteihin ja vauriokuviiin, jotta saat selkeän kuvan auton kunnosta.",
+        "pl": "Volkswagen Caddy Cargo z silnikiem Diesla i ogrzewaniem postojowym. Integracja ze smartfonem i bezkluczykowy system startu sprawiają, że każda podróż jest prostsza i bardziej połączona. Kamera cofania i inteligentne systemy wspomagające pomagają Ci w ruchu drogowym oraz czynią parkowanie i manewrowanie bezpieczniejszym i bardziej spokojnym. To bardzo zużyty samochód i zachęcamy do dokładnego zapoznania się ze wszystkimi tekstami i zdjęciami uszkodzeń, aby uzyskać jasny obraz stanu pojazdu.",
+        "sv": "En Volkswagen Caddy Cargo med dieselmotor och parkeringsvärmare. Smartphone integration och nyckellöst startsystem gör varje resa enklare och mer uppkopplad. Backkamera och smarta assistanssystem hjälper dig i trafiken och gör parkeringar och manövrering tryggare och mer avslappnade. Detta är en mycket sliten bil och vi uppmanar dig att noga ta del av all text och anmärkningsbilder för att få en klar bild av bilens skick."
+      },
+      "generatedValuatorComment": {
+        "en": "",
+        "sv": "En Volkswagen Caddy bjuder på praktisk vardagskomfort och en smidig körupplevelse. Smartphoneintegration och nyckellöst startsystem gör varje resa enklare och mer uppkopplad. Backkamera och smarta assistanssystem hjälper dig i trafiken och gör parkeringar och manövrering tryggare och mer avslappnade."
+      },
+      "carDealerPrice": 190000,
+      "endUserTestProtocol": {
+        "tires": {
+          "extraTires": {
+            "other": {
+              "rimSize": "15",
+              "rimType": "Plåtfälg",
+              "tireType": "Dubbade vinterdäck",
+              "otherInfo": "Behövs ej",
+              "tireTypeKey": "STUDDED_WINTER_TIRES"
+            },
+            "grades": {
+              "rearLeft": 3,
+              "frontLeft": 3,
+              "rearRight": 3,
+              "frontRight": 3
+            },
+            "treadDepths": {
+              "rearLeft": 7,
+              "frontLeft": 7,
+              "rearRight": 7,
+              "frontRight": 7
+            }
+          },
+          "mountedTires": {
+            "other": {
+              "rimSize": "15",
+              "rimType": "Plåtfälg",
+              "tireType": "Sommardäck",
+              "otherInfo": "Behövs ej",
+              "tireTypeKey": "SUMMER_TIRES"
+            },
+            "grades": {
+              "rearLeft": 2,
+              "frontLeft": 2,
+              "rearRight": 2,
+              "frontRight": 1
+            },
+            "treadDepths": {
+              "rearLeft": 3,
+              "frontLeft": 3,
+              "rearRight": 3,
+              "frontRight": 2
+            }
+          }
+        },
+        "grades": {
+          "TOTAL": {
+            "max": 5,
+            "min": 1,
+            "value": 2
+          },
+          "BRAKES": {
+            "max": 3,
+            "min": 1,
+            "value": 2
+          },
+          "EXTERIOR": {
+            "max": 5,
+            "min": 1,
+            "value": 2
+          },
+          "INTERIOR": {
+            "max": 5,
+            "min": 1,
+            "value": 2
+          },
+          "ENGINE_AND_GEARBOX": {
+            "max": 3,
+            "min": 1,
+            "value": 2
+          },
+          "TECHNOLOGY_AND_EQUIPMENT": {
+            "max": 3,
+            "min": 1,
+            "value": 2
+          }
+        },
+        "towbar": false,
+        "remarks": {
+          "BRAKES": [
+            {
+              "id": "72913883",
+              "key": "Bromsbelägg fram behöver bytas, Bromsskivor är slitna, behöver bytas inom 6 månader.",
+              "other": null,
+              "point": 0,
+              "category": "BRAKES",
+              "text": "Bromsbelägg fram behöver bytas, Bromsskivor är slitna, behöver bytas inom 6 månader."
+            }
+          ],
+          "EXTERIOR": [
+            {
+              "id": "72913882",
+              "key": "Färgfläckar på kaross, dörrhandtag, trösklar etc. Misstänker att det har varit snedbelastning i skåpet då bilen upplevs stå snett åt vänster i färdriktning. Fåtal rostangrepp. Spår efter tidigare dekor. Höger bakdörr trög öppning/ stängning. Kondens i skyltbelysning.",
+              "other": null,
+              "point": 0,
+              "category": "EXTERIOR",
+              "text": "Färgfläckar på kaross, dörrhandtag, trösklar etc. Misstänker att det har varit snedbelastning i skåpet då bilen upplevs stå snett åt vänster i färdriktning. Fåtal rostangrepp. Spår efter tidigare dekor. Höger bakdörr trög öppning/ stängning. Kondens i skyltbelysning."
+            }
+          ],
+          "INTERIOR": [
+            {
+              "id": "72913881",
+              "key": "Fullt med färgstänk och spackelfläckar. Ratt sliten. Klädsel smutsig och skadad. Kraftig odör. Invändigt flertal repor, fläckar och märken. Invändigt fler visuella anmärkningar. Insteg till förarplats repig och skadad lack.",
+              "other": null,
+              "point": 0,
+              "category": "INTERIOR",
+              "text": "Fullt med färgstänk och spackelfläckar. Ratt sliten. Klädsel smutsig och skadad. Kraftig odör. Invändigt flertal repor, fläckar och märken. Invändigt fler visuella anmärkningar. Insteg till förarplats repig och skadad lack."
+            }
+          ],
+          "ENGINE_AND_GEARBOX": [
+            {
+              "id": "72913885",
+              "key": "Bilbatteri är dåligt. Plastdetalj i motorrum saknas.",
+              "other": null,
+              "point": 0,
+              "category": "ENGINE_AND_GEARBOX",
+              "text": "Bilbatteri är dåligt. Plastdetalj i motorrum saknas."
+            }
+          ],
+          "TECHNOLOGY_AND_EQUIPMENT": [
+            {
+              "id": "72913884",
+              "key": "Nyckel, dosa trasig/ihop tejpad. Elhiss vänster fram missljud. Spricka i vindruta. Torkarblad utslitna. Missljud framvagn. Färgfläck på mediaskärm. Mediaskärm fungerar sporadiskt. Knarrar när man vrider på ratten, särskilt märkbart vid stillasittande.",
+              "other": null,
+              "point": 0,
+              "category": "TECHNOLOGY_AND_EQUIPMENT",
+              "text": "Nyckel, dosa trasig/ihop tejpad. Elhiss vänster fram missljud. Spricka i vindruta. Torkarblad utslitna. Missljud framvagn. Färgfläck på mediaskärm. Mediaskärm fungerar sporadiskt. Knarrar när man vrider på ratten, särskilt märkbart vid stillasittande."
+            }
+          ]
+        },
+        "textile": "Textil",
+        "boatType": null,
+        "equipment": [
+          "Backkamera",
+          "Assistanssystem",
+          "Nyckellöst startsystem",
+          "AC",
+          "Autobroms",
+          "Bluetooth",
+          "Farthållare",
+          "Start/Stop-funktion",
+          "USB-ingång",
+          "Antisladdsystem",
+          "Antispinn",
+          "Auto hold",
+          "Avtagbar dragkrok",
+          "Elhiss fram",
+          "Elspeglar",
+          "Fjärrlås",
+          "Lastbågar",
+          "Parkeringssensorer bak",
+          "Parkeringsvärmare med fjärrstyrning",
+          "Parkeringsvärmare med tidur",
+          "Radio",
+          "Regnsensor",
+          "Smartphone integration",
+          "Stolsvärme fram"
+        ],
+        "boatWidth": null,
+        "createdAt": "2026-10-23T08:39:26",
+        "boatEngine": null,
+        "boatLength": null,
+        "boatWeight": null,
+        "finishType": "Solid",
+        "protocolId": "260801",
+        "stoveFlames": null,
+        "heatingSystem": null,
+        "numberOfKeys": 2,
+        "boatCeBranded": false,
+        "boatGearModel": null,
+        "numberOfBunks": null,
+        "numberOfSeats": 2,
+        "boatEngineFuel": null,
+        "boatSepticTank": false,
+        "isRepairObject": false,
+        "boatEnginePower": null,
+        "serviceBookType": "ELECTRONIC",
+        "boatExteriorColor": null,
+        "serviceBookStatus": "Service utförd vid följande mil: 1113, 2528, 2842, 3640 mil, senast 2025-11-24",
+        "boatEngineSerialNumber": null,
+        "odometerReadingAfterTest": {
+          "unit": "Mil",
+          "value": 4251
+        },
+        "odometerReadingAfterTestInKm": 42510
+      },
+      "auctionPriceValuation": {
+        "currency": "SEK"
+      },
+      "finalised": true,
+      "includedImageIds": null,
+      "createdAt": "2026-10-23T06:41:09.803914+00:00",
+      "updatedAt": "2026-10-24T07:38:38.894409+00:00",
+      "generatingInProgress": false,
+      "valuatorCommentLocalized": "En Volkswagen Caddy Cargo med dieselmotor och parkeringsvärmare. Smartphone integration och nyckellöst startsystem gör varje resa enklare och mer uppkopplad. Backkamera och smarta assistanssystem hjälper dig i trafiken och gör parkeringar och manövrering tryggare och mer avslappnade. Detta är en mycket sliten bil och vi uppmanar dig att noga ta del av all text och anmärkningsbilder för att få en klar bild av bilens skick."
+    },
+    "facts": {
+      "default": [
+        {
+          "key": "NUMBER_OF_PREVIOUS_OWNERS",
+          "text": "Antal tidigare ägare",
+          "value": 1,
+          "type": "string"
+        },
+        {
+          "key": "REGISTRATION_PLATE",
+          "text": "Registreringsnummer",
+          "value": "POP35X",
+          "type": "string"
+        },
+        {
+          "key": "MODEL_YEAR",
+          "text": "Modellår",
+          "value": 2022,
+          "type": "string"
+        },
+        {
+          "key": "MANUFACTURE_MONTH",
+          "text": "Tillverkningsmånad",
+          "value": "202203",
+          "type": "manufacture_month"
+        },
+        {
+          "key": "ODOMETER_READING",
+          "text": "Mätarställning",
+          "value": 42510,
+          "type": "distance"
+        },
+        {
+          "key": "INITIAL_TRAFFIC_DATE",
+          "text": "Första datum i trafik i Sverige",
+          "value": "2022-05-17",
+          "type": "date"
+        },
+        {
+          "key": "SERVICE_BOOK",
+          "text": "Servicehistorik",
+          "value": "Service utförd vid följande mil: 1113, 2528, 2842, 3640 mil, senast 2025-11-24",
+          "type": "string"
+        },
+        {
+          "key": "SERVICE_BOOK_TYPE",
+          "text": "Servicebok",
+          "value": "Elektronisk",
+          "type": "string"
+        },
+        {
+          "key": "GEARBOX",
+          "text": "Växellåda",
+          "value": "Manuell",
+          "type": "string"
+        },
+        {
+          "key": "NUMBER_OF_SEATS",
+          "text": "Antal säten",
+          "value": 2,
+          "type": "string"
+        },
+        {
+          "key": "NUMBER_OF_KEYS",
+          "text": "Antal nycklar",
+          "value": 2,
+          "type": "string"
+        },
+        {
+          "key": "EXTERIOR_COLOR",
+          "text": "Färg",
+          "value": "Vit",
+          "type": "string"
+        },
+        {
+          "key": "FINISH_TYPE",
+          "text": "Lack",
+          "value": "Solid",
+          "type": "string"
+        },
+        {
+          "key": "TEXTILE",
+          "text": "Klädsel",
+          "value": "Textil",
+          "type": "string"
+        },
+        {
+          "key": "MANUFACTURER_WARRANTY",
+          "text": "Nybilsgaranti",
+          "value": "Inte undersökt",
+          "type": "string"
+        },
+        {
+          "key": "COLLISION_WARRANTY",
+          "text": "Vagnskadegaranti",
+          "value": "Inte undersökt",
+          "type": "string"
+        },
+        {
+          "key": "TAX_FEE",
+          "text": "Skatt årsavgift",
+          "value": "2750 SEK",
+          "type": "string"
+        }
+      ],
+      "additional": [
+        {
+          "key": "CHASSIS_NUMBER",
+          "text": "Chassinummer",
+          "value": "WV1ZZZSKZNX049192",
+          "type": "string"
+        },
+        {
+          "key": "ENGINE_EFFECT_DIESEL",
+          "text": "Motoreffekt (diesel)",
+          "value": 75,
+          "type": "engine_power"
+        },
+        {
+          "key": "TOWBAR",
+          "text": "Dragkrok",
+          "value": "Nej",
+          "type": "string"
+        },
+        {
+          "key": "MAX_PAYLOAD",
+          "text": "Maxlastvikt",
+          "value": 636,
+          "type": "weight"
+        },
+        {
+          "key": "CONSUMPTION_DIESEL",
+          "text": "Bränsleförbr. blandad körning (diesel)",
+          "value": 4.5,
+          "type": "consumption"
+        },
+        {
+          "key": "CO2_DIESEL",
+          "text": "CO2-utsläpp (diesel)",
+          "value": 120,
+          "type": "emission"
+        },
+        {
+          "key": "INSPECTION_VALID_TO_DATE",
+          "text": "Nästa besiktning senast",
+          "value": "2027-05-31",
+          "type": "string"
+        },
+        {
+          "key": "CURB_WEIGHT",
+          "text": "Tjänstevikt",
+          "value": 1584,
+          "type": "weight"
+        },
+        {
+          "key": "TAX_WEIGHT",
+          "text": "Skattevikt",
+          "value": 2220,
+          "type": "weight"
+        },
+        {
+          "key": "MAX_TRAILER_WEIGHT",
+          "text": "Maximal släpvagnsvikt",
+          "value": 1400,
+          "type": "weight"
+        },
+        {
+          "key": "TOTAL_WEIGHT",
+          "text": "Fordonets totalvikt",
+          "value": 2220,
+          "type": "weight"
+        },
+        {
+          "key": "LENGTH",
+          "text": "Längd",
+          "value": 4500,
+          "type": "length"
+        },
+        {
+          "key": "WIDTH",
+          "text": "Bredd",
+          "value": 1855,
+          "type": "length"
+        },
+        {
+          "key": "HEIGHT",
+          "text": "Höjd",
+          "value": 1838,
+          "type": "length"
+        }
+      ],
+      "other": [
+        {
+          "key": "SOLD_IN_SWEDEN",
+          "text": "Svensksåld",
+          "value": "Ja",
+          "type": "string"
+        },
+        {
+          "key": "EXPORTABLE",
+          "text": "Kan exporteras",
+          "value": "Ja",
+          "type": "string"
+        },
+        {
+          "key": "DEDUCTIBLE_VAT",
+          "text": "Avlyftbar moms",
+          "value": "Ja",
+          "type": "string"
+        }
+      ]
+    },
+    "majorFeature": [
+      {
+        "key": "BACKKAMERA",
+        "title": "Backkamera",
+        "value": null,
+        "equipment": "Utrustning",
+        "description": "Kamera som underlättar vid backning"
+      },
+      {
+        "key": "SMARTPHONE_INTEGRATION",
+        "title": "Smartphone integration",
+        "value": null,
+        "equipment": "Utrustning",
+        "description": null
+      },
+      {
+        "key": "ASSISTANSSYSTEM",
+        "title": "Assistanssystem",
+        "value": null,
+        "equipment": "Utrustning",
+        "description": "Uppkopplad tjänst för att exempelvis kunna kontrollera din bil på distans med hjälp av en mobilapp. Funktioner som bygger på 2G eller 3G-uppkoppling kan sluta fungera i samband med att dessa nätverk stängs ner av operatörerna."
+      },
+      {
+        "key": "NYCKELLOST_STARTSYSTEM",
+        "title": "Nyckellöst startsystem",
+        "value": null,
+        "equipment": "Utrustning",
+        "description": "Startknapp i bilen utan tändningslås. Även kallat Keyless-go"
+      }
+    ],
+    "batteryTestCertificateAvailable": false
+  },
+  "previewImages": [
+    {
+      "processObjectId": "7291388",
+      "uri": "https://kvdbil-images.imgix.net/7291388/ebc63121.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291388/ebc63121.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 1
+    },
+    {
+      "processObjectId": "7291388",
+      "uri": "https://kvdbil-images.imgix.net/7291388/92ddb77b.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291388/92ddb77b.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 2
+    },
+    {
+      "processObjectId": "7291388",
+      "uri": "https://kvdbil-images.imgix.net/7291388/a20e6efc.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291388/a20e6efc.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 2
+    },
+    {
+      "processObjectId": "7291388",
+      "uri": "https://kvdbil-images.imgix.net/7291388/196906b8.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291388/196906b8.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 3
+    },
+    {
+      "processObjectId": "7291388",
+      "uri": "https://kvdbil-images.imgix.net/7291388/6fb4c2ab.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291388/6fb4c2ab.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 4
+    },
+    {
+      "processObjectId": "7291388",
+      "uri": "https://kvdbil-images.imgix.net/7291388/ba875e2d.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291388/ba875e2d.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 5
+    },
+    {
+      "processObjectId": "7291388",
+      "uri": "https://kvdbil-images.imgix.net/7291388/f163df58.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291388/f163df58.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 5
+    },
+    {
+      "processObjectId": "7291388",
+      "uri": "https://kvdbil-images.imgix.net/7291388/a2624417.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291388/a2624417.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 6
+    },
+    {
+      "processObjectId": "7291388",
+      "uri": "https://kvdbil-images.imgix.net/7291388/2b034622.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291388/2b034622.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 6
+    },
+    {
+      "processObjectId": "7291388",
+      "uri": "https://kvdbil-images.imgix.net/7291388/36cc6338.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291388/36cc6338.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 7
+    },
+    {
+      "processObjectId": "7291388",
+      "uri": "https://kvdbil-images.imgix.net/7291388/a4a3c95e.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291388/a4a3c95e.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 7
+    },
+    {
+      "processObjectId": "7291388",
+      "uri": "https://kvdbil-images.imgix.net/7291388/7d04b978.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291388/7d04b978.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 8
+    },
+    {
+      "processObjectId": "7291388",
+      "uri": "https://kvdbil-images.imgix.net/7291388/7381a686.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291388/7381a686.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 8
+    },
+    {
+      "processObjectId": "7291388",
+      "uri": "https://kvdbil-images.imgix.net/7291388/b7845548.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291388/b7845548.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 9
+    },
+    {
+      "processObjectId": "7291388",
+      "uri": "https://kvdbil-images.imgix.net/7291388/f7776079.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291388/f7776079.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 9
+    },
+    {
+      "processObjectId": "7291388",
+      "uri": "https://kvdbil-images.imgix.net/7291388/81b63ab2.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291388/81b63ab2.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 10
+    },
+    {
+      "processObjectId": "7291388",
+      "uri": "https://kvdbil-images.imgix.net/7291388/b0739b28.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291388/b0739b28.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 10
+    },
+    {
+      "processObjectId": "7291388",
+      "uri": "https://kvdbil-images.imgix.net/7291388/6ca7c116.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291388/6ca7c116.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 11
+    },
+    {
+      "processObjectId": "7291388",
+      "uri": "https://kvdbil-images.imgix.net/7291388/ae2ad7a7.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291388/ae2ad7a7.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 11
+    },
+    {
+      "processObjectId": "7291388",
+      "uri": "https://kvdbil-images.imgix.net/7291388/b5e51b33.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291388/b5e51b33.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 12
+    },
+    {
+      "processObjectId": "7291388",
+      "uri": "https://kvdbil-images.imgix.net/7291388/1c47f466.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291388/1c47f466.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 12
+    },
+    {
+      "processObjectId": "7291388",
+      "uri": "https://kvdbil-images.imgix.net/7291388/a968d42e.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291388/a968d42e.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 13
+    },
+    {
+      "processObjectId": "7291388",
+      "uri": "https://kvdbil-images.imgix.net/7291388/07b0b5e0.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291388/07b0b5e0.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 13
+    },
+    {
+      "processObjectId": "7291388",
+      "uri": "https://kvdbil-images.imgix.net/7291388/738fa6f7.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291388/738fa6f7.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 14
+    },
+    {
+      "processObjectId": "7291388",
+      "uri": "https://kvdbil-images.imgix.net/7291388/2b7b305b.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291388/2b7b305b.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 14
+    },
+    {
+      "processObjectId": "7291388",
+      "uri": "https://kvdbil-images.imgix.net/7291388/394334a5.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291388/394334a5.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 15
+    },
+    {
+      "processObjectId": "7291388",
+      "uri": "https://kvdbil-images.imgix.net/7291388/d72a9b8f.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291388/d72a9b8f.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 15
+    },
+    {
+      "processObjectId": "7291388",
+      "uri": "https://kvdbil-images.imgix.net/7291388/f374038b.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291388/f374038b.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 16
+    },
+    {
+      "processObjectId": "7291388",
+      "uri": "https://kvdbil-images.imgix.net/7291388/1c018ee9.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291388/1c018ee9.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 16
+    },
+    {
+      "processObjectId": "7291388",
+      "uri": "https://kvdbil-images.imgix.net/7291388/7dcd0010.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291388/7dcd0010.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 17
+    },
+    {
+      "processObjectId": "7291388",
+      "uri": "https://kvdbil-images.imgix.net/7291388/4824c946.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291388/4824c946.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 18
+    },
+    {
+      "processObjectId": "7291388",
+      "uri": "https://kvdbil-images.imgix.net/7291388/b773afd0.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291388/b773afd0.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 19
+    },
+    {
+      "processObjectId": "7291388",
+      "uri": "https://kvdbil-images.imgix.net/7291388/db4fa620.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291388/db4fa620.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 20
+    },
+    {
+      "processObjectId": "7291388",
+      "uri": "https://kvdbil-images.imgix.net/7291388/d9f9a19a.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291388/d9f9a19a.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 21
+    },
+    {
+      "processObjectId": "7291388",
+      "uri": "https://kvdbil-images.imgix.net/7291388/8c950e36.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291388/8c950e36.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 22
+    },
+    {
+      "processObjectId": "7291388",
+      "uri": "https://kvdbil-images.imgix.net/7291388/68d227f3.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291388/68d227f3.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 23
+    },
+    {
+      "processObjectId": "7291388",
+      "uri": "https://kvdbil-images.imgix.net/7291388/5d487420.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291388/5d487420.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 24
+    },
+    {
+      "processObjectId": "7291388",
+      "uri": "https://kvdbil-images.imgix.net/7291388/619ac7f3.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291388/619ac7f3.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 25
+    },
+    {
+      "processObjectId": "7291388",
+      "uri": "https://kvdbil-images.imgix.net/7291388/467c6b5b.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291388/467c6b5b.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 27
+    },
+    {
+      "processObjectId": "7291388",
+      "uri": "https://kvdbil-images.imgix.net/7291388/0f502297.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291388/0f502297.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 28
+    },
+    {
+      "processObjectId": "7291388",
+      "uri": "https://kvdbil-images.imgix.net/7291388/584a1743.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291388/584a1743.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 29
+    },
+    {
+      "processObjectId": "7291388",
+      "uri": "https://kvdbil-images.imgix.net/7291388/30fa4d53.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291388/30fa4d53.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 30
+    },
+    {
+      "processObjectId": "7291388",
+      "uri": "https://kvdbil-images.imgix.net/7291388/c67fc7f9.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291388/c67fc7f9.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 31
+    },
+    {
+      "processObjectId": "7291388",
+      "uri": "https://kvdbil-images.imgix.net/7291388/0e69a6c3.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291388/0e69a6c3.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 32
+    },
+    {
+      "processObjectId": "7291388",
+      "uri": "https://kvdbil-images.imgix.net/7291388/fdd3266c.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291388/fdd3266c.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 33
+    },
+    {
+      "processObjectId": "7291388",
+      "uri": "https://kvdbil-images.imgix.net/7291388/1d1fa344.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291388/1d1fa344.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 34
+    }
+  ],
+  "similarAuctions": [],
+  "activeAuction": {
+    "auctionId": "308610",
+    "closed": true,
+    "countdownInProgress": true,
+    "preliminaryCloseAt": "2026-11-02T11:24:32.957612+00:00",
+    "createdAt": "2026-10-26T17:17:05.313056+00:00",
+    "updatedAt": "2026-11-02T11:24:32.967582+00:00",
+    "vatExcludedBiddingAllowed": false,
+    "reservationPriceReached": true,
+    "bids": [
+      {
+        "id": 18694593,
+        "auctionId": 308610,
+        "bidderAlias": "8",
+        "amount": 124000,
+        "type": "NORMAL",
+        "maxBidId": 10924160,
+        "triggeredBy": 10924160,
+        "createdAt": "2026-11-02T11:21:02.965895+00:00",
+        "updatedAt": "2026-11-02T11:21:02.965899+00:00"
+      },
+      {
+        "id": 18694592,
+        "auctionId": 308610,
+        "bidderAlias": "6",
+        "amount": 123500,
+        "type": "LIMIT_REACHED",
+        "maxBidId": 10924156,
+        "triggeredBy": 10924160,
+        "createdAt": "2026-11-02T11:21:02.965879+00:00",
+        "updatedAt": "2026-11-02T11:21:02.965890+00:00"
+      },
+      {
+        "id": 18694591,
+        "auctionId": 308610,
+        "bidderAlias": "6",
+        "amount": 123000,
+        "type": "AUTO",
+        "maxBidId": 10924156,
+        "triggeredBy": 10924159,
+        "createdAt": "2026-11-02T11:20:47.967320+00:00",
+        "updatedAt": "2026-11-02T11:20:47.967322+00:00"
+      },
+      {
+        "id": 18694590,
+        "auctionId": 308610,
+        "bidderAlias": "9",
+        "amount": 122500,
+        "type": "NORMAL",
+        "maxBidId": 10924159,
+        "triggeredBy": 10924159,
+        "createdAt": "2026-11-02T11:20:47.967312+00:00",
+        "updatedAt": "2026-11-02T11:20:47.967317+00:00"
+      },
+      {
+        "id": 18694585,
+        "auctionId": 308610,
+        "bidderAlias": "6",
+        "amount": 121000,
+        "type": "NORMAL",
+        "maxBidId": 10924156,
+        "triggeredBy": 10924156,
+        "createdAt": "2026-11-02T11:19:53.699698+00:00",
+        "updatedAt": "2026-11-02T11:19:53.699706+00:00"
+      },
+      {
+        "id": 18694559,
+        "auctionId": 308610,
+        "bidderAlias": "8",
+        "amount": 120500,
+        "type": "NORMAL",
+        "maxBidId": 10924141,
+        "triggeredBy": 10924141,
+        "createdAt": "2026-11-02T11:16:06.775237+00:00",
+        "updatedAt": "2026-11-02T11:16:06.775248+00:00"
+      },
+      {
+        "id": 18694558,
+        "auctionId": 308610,
+        "bidderAlias": "6",
+        "amount": 120000,
+        "type": "AUTO",
+        "maxBidId": 10923888,
+        "triggeredBy": 10924140,
+        "createdAt": "2026-11-02T11:16:02.528211+00:00",
+        "updatedAt": "2026-11-02T11:16:02.528216+00:00"
+      },
+      {
+        "id": 18694557,
+        "auctionId": 308610,
+        "bidderAlias": "8",
+        "amount": 119500,
+        "type": "NORMAL",
+        "maxBidId": 10924140,
+        "triggeredBy": 10924140,
+        "createdAt": "2026-11-02T11:16:02.528195+00:00",
+        "updatedAt": "2026-11-02T11:16:02.528206+00:00"
+      },
+      {
+        "id": 18694554,
+        "auctionId": 308610,
+        "bidderAlias": "6",
+        "amount": 116000,
+        "type": "AUTO",
+        "maxBidId": 10923888,
+        "triggeredBy": 10924138,
+        "createdAt": "2026-11-02T11:15:54.312177+00:00",
+        "updatedAt": "2026-11-02T11:15:54.312179+00:00"
+      },
+      {
+        "id": 18694553,
+        "auctionId": 308610,
+        "bidderAlias": "8",
+        "amount": 115500,
+        "type": "NORMAL",
+        "maxBidId": 10924138,
+        "triggeredBy": 10924138,
+        "createdAt": "2026-11-02T11:15:54.312166+00:00",
+        "updatedAt": "2026-11-02T11:15:54.312174+00:00"
+      },
+      {
+        "id": 18694552,
+        "auctionId": 308610,
+        "bidderAlias": "6",
+        "amount": 112500,
+        "type": "AUTO",
+        "maxBidId": 10923888,
+        "triggeredBy": 10924137,
+        "createdAt": "2026-11-02T11:15:50.842588+00:00",
+        "updatedAt": "2026-11-02T11:15:50.842591+00:00"
+      },
+      {
+        "id": 18694551,
+        "auctionId": 308610,
+        "bidderAlias": "8",
+        "amount": 112000,
+        "type": "NORMAL",
+        "maxBidId": 10924137,
+        "triggeredBy": 10924137,
+        "createdAt": "2026-11-02T11:15:50.842574+00:00",
+        "updatedAt": "2026-11-02T11:15:50.842583+00:00"
+      },
+      {
+        "id": 18694499,
+        "auctionId": 308610,
+        "bidderAlias": "6",
+        "amount": 105500,
+        "type": "AUTO",
+        "maxBidId": 10923888,
+        "triggeredBy": 10924106,
+        "createdAt": "2026-11-02T11:07:42.812669+00:00",
+        "updatedAt": "2026-11-02T11:07:42.812672+00:00"
+      },
+      {
+        "id": 18694498,
+        "auctionId": 308610,
+        "bidderAlias": "2",
+        "amount": 105000,
+        "type": "NORMAL",
+        "maxBidId": 10924106,
+        "triggeredBy": 10924106,
+        "createdAt": "2026-11-02T11:07:42.812659+00:00",
+        "updatedAt": "2026-11-02T11:07:42.812666+00:00"
+      },
+      {
+        "id": 18694398,
+        "auctionId": 308610,
+        "bidderAlias": "6",
+        "amount": 104500,
+        "type": "AUTO",
+        "maxBidId": 10923888,
+        "triggeredBy": 10924047,
+        "createdAt": "2026-11-02T10:48:13.973426+00:00",
+        "updatedAt": "2026-11-02T10:48:13.973430+00:00"
+      },
+      {
+        "id": 18694397,
+        "auctionId": 308610,
+        "bidderAlias": "5",
+        "amount": 104000,
+        "type": "NORMAL",
+        "maxBidId": 10924047,
+        "triggeredBy": 10924047,
+        "createdAt": "2026-11-02T10:48:13.973410+00:00",
+        "updatedAt": "2026-11-02T10:48:13.973421+00:00"
+      },
+      {
+        "id": 18694266,
+        "auctionId": 308610,
+        "bidderAlias": "6",
+        "amount": 102500,
+        "type": "AUTO",
+        "maxBidId": 10923888,
+        "triggeredBy": 10923959,
+        "createdAt": "2026-11-02T10:31:02.815409+00:00",
+        "updatedAt": "2026-11-02T10:31:02.815413+00:00"
+      },
+      {
+        "id": 18694265,
+        "auctionId": 308610,
+        "bidderAlias": "2",
+        "amount": 102000,
+        "type": "NORMAL",
+        "maxBidId": 10923959,
+        "triggeredBy": 10923959,
+        "createdAt": "2026-11-02T10:31:02.815393+00:00",
+        "updatedAt": "2026-11-02T10:31:02.815405+00:00"
+      },
+      {
+        "id": 18694145,
+        "auctionId": 308610,
+        "bidderAlias": "6",
+        "amount": 100500,
+        "type": "NORMAL",
+        "maxBidId": 10923888,
+        "triggeredBy": 10923888,
+        "createdAt": "2026-11-02T10:23:21.563637+00:00",
+        "updatedAt": "2026-11-02T10:23:21.563641+00:00"
+      },
+      {
+        "id": 18694144,
+        "auctionId": 308610,
+        "bidderAlias": "7",
+        "amount": 100000,
+        "type": "LIMIT_REACHED",
+        "maxBidId": 10923859,
+        "triggeredBy": 10923888,
+        "createdAt": "2026-11-02T10:23:21.563623+00:00",
+        "updatedAt": "2026-11-02T10:23:21.563633+00:00"
+      },
+      {
+        "id": 18694106,
+        "auctionId": 308610,
+        "bidderAlias": "7",
+        "amount": 98500,
+        "type": "AUTO",
+        "maxBidId": 10923859,
+        "triggeredBy": 10923864,
+        "createdAt": "2026-11-02T10:20:22.609765+00:00",
+        "updatedAt": "2026-11-02T10:20:22.609770+00:00"
+      },
+      {
+        "id": 18694105,
+        "auctionId": 308610,
+        "bidderAlias": "2",
+        "amount": 98000,
+        "type": "NORMAL",
+        "maxBidId": 10923864,
+        "triggeredBy": 10923864,
+        "createdAt": "2026-11-02T10:20:22.609729+00:00",
+        "updatedAt": "2026-11-02T10:20:22.609760+00:00"
+      },
+      {
+        "id": 18694098,
+        "auctionId": 308610,
+        "bidderAlias": "7",
+        "amount": 96500,
+        "type": "NORMAL",
+        "maxBidId": 10923859,
+        "triggeredBy": 10923859,
+        "createdAt": "2026-11-02T10:19:55.979370+00:00",
+        "updatedAt": "2026-11-02T10:19:55.979373+00:00"
+      },
+      {
+        "id": 18694097,
+        "auctionId": 308610,
+        "bidderAlias": "2",
+        "amount": 96000,
+        "type": "LIMIT_REACHED",
+        "maxBidId": 10923788,
+        "triggeredBy": 10923859,
+        "createdAt": "2026-11-02T10:19:55.979360+00:00",
+        "updatedAt": "2026-11-02T10:19:55.979367+00:00"
+      },
+      {
+        "id": 18693972,
+        "auctionId": 308610,
+        "bidderAlias": "2",
+        "amount": 95500,
+        "type": "NORMAL",
+        "maxBidId": 10923788,
+        "triggeredBy": 10923788,
+        "createdAt": "2026-11-02T10:12:49.002290+00:00",
+        "updatedAt": "2026-11-02T10:12:49.002294+00:00"
+      },
+      {
+        "id": 18693971,
+        "auctionId": 308610,
+        "bidderAlias": "6",
+        "amount": 95000,
+        "type": "LIMIT_REACHED",
+        "maxBidId": 10923474,
+        "triggeredBy": 10923788,
+        "createdAt": "2026-11-02T10:12:49.002275+00:00",
+        "updatedAt": "2026-11-02T10:12:49.002284+00:00"
+      },
+      {
+        "id": 18693953,
+        "auctionId": 308610,
+        "bidderAlias": "6",
+        "amount": 93500,
+        "type": "AUTO",
+        "maxBidId": 10923474,
+        "triggeredBy": 10923777,
+        "createdAt": "2026-11-02T10:12:05.060697+00:00",
+        "updatedAt": "2026-11-02T10:12:05.060700+00:00"
+      },
+      {
+        "id": 18693952,
+        "auctionId": 308610,
+        "bidderAlias": "2",
+        "amount": 93000,
+        "type": "NORMAL",
+        "maxBidId": 10923777,
+        "triggeredBy": 10923777,
+        "createdAt": "2026-11-02T10:12:05.060682+00:00",
+        "updatedAt": "2026-11-02T10:12:05.060693+00:00"
+      },
+      {
+        "id": 18693450,
+        "auctionId": 308610,
+        "bidderAlias": "6",
+        "amount": 91500,
+        "type": "NORMAL",
+        "maxBidId": 10923474,
+        "triggeredBy": 10923474,
+        "createdAt": "2026-11-02T09:47:16.546790+00:00",
+        "updatedAt": "2026-11-02T09:47:16.546792+00:00"
+      },
+      {
+        "id": 18693449,
+        "auctionId": 308610,
+        "bidderAlias": "5",
+        "amount": 91000,
+        "type": "LIMIT_REACHED",
+        "maxBidId": 10922466,
+        "triggeredBy": 10923474,
+        "createdAt": "2026-11-02T09:47:16.546781+00:00",
+        "updatedAt": "2026-11-02T09:47:16.546787+00:00"
+      },
+      {
+        "id": 18691670,
+        "auctionId": 308610,
+        "bidderAlias": "5",
+        "amount": 90500,
+        "type": "NORMAL",
+        "maxBidId": 10922466,
+        "triggeredBy": 10922466,
+        "createdAt": "2026-11-02T07:38:25.690877+00:00",
+        "updatedAt": "2026-11-02T07:38:25.690881+00:00"
+      },
+      {
+        "id": 18691669,
+        "auctionId": 308610,
+        "bidderAlias": "4",
+        "amount": 90000,
+        "type": "LIMIT_REACHED",
+        "maxBidId": 10922345,
+        "triggeredBy": 10922466,
+        "createdAt": "2026-11-02T07:38:25.690862+00:00",
+        "updatedAt": "2026-11-02T07:38:25.690872+00:00"
+      },
+      {
+        "id": 18691448,
+        "auctionId": 308610,
+        "bidderAlias": "4",
+        "amount": 89500,
+        "type": "AUTO",
+        "maxBidId": 10922345,
+        "triggeredBy": 10922347,
+        "createdAt": "2026-11-02T06:20:23.434765+00:00",
+        "updatedAt": "2026-11-02T06:20:23.434767+00:00"
+      },
+      {
+        "id": 18691447,
+        "auctionId": 308610,
+        "bidderAlias": "2",
+        "amount": 89000,
+        "type": "NORMAL",
+        "maxBidId": 10922347,
+        "triggeredBy": 10922347,
+        "createdAt": "2026-11-02T06:20:23.434756+00:00",
+        "updatedAt": "2026-11-02T06:20:23.434762+00:00"
+      },
+      {
+        "id": 18691444,
+        "auctionId": 308610,
+        "bidderAlias": "4",
+        "amount": 87500,
+        "type": "NORMAL",
+        "maxBidId": 10922345,
+        "triggeredBy": 10922345,
+        "createdAt": "2026-11-02T06:18:40.572127+00:00",
+        "updatedAt": "2026-11-02T06:18:40.572131+00:00"
+      },
+      {
+        "id": 18691443,
+        "auctionId": 308610,
+        "bidderAlias": "2",
+        "amount": 87000,
+        "type": "LIMIT_REACHED",
+        "maxBidId": 10921168,
+        "triggeredBy": 10922345,
+        "createdAt": "2026-11-02T06:18:40.572113+00:00",
+        "updatedAt": "2026-11-02T06:18:40.572123+00:00"
+      },
+      {
+        "id": 18689435,
+        "auctionId": 308610,
+        "bidderAlias": "2",
+        "amount": 85500,
+        "type": "NORMAL",
+        "maxBidId": 10921168,
+        "triggeredBy": 10921168,
+        "createdAt": "2026-11-01T17:39:21.230187+00:00",
+        "updatedAt": "2026-11-01T17:39:21.230189+00:00"
+      },
+      {
+        "id": 18689434,
+        "auctionId": 308610,
+        "bidderAlias": "4",
+        "amount": 85000,
+        "type": "LIMIT_REACHED",
+        "maxBidId": 10921116,
+        "triggeredBy": 10921168,
+        "createdAt": "2026-11-01T17:39:21.230178+00:00",
+        "updatedAt": "2026-11-01T17:39:21.230184+00:00"
+      },
+      {
+        "id": 18689370,
+        "auctionId": 308610,
+        "bidderAlias": "4",
+        "amount": 84500,
+        "type": "AUTO",
+        "maxBidId": 10921116,
+        "triggeredBy": 10921128,
+        "createdAt": "2026-11-01T17:30:06.964746+00:00",
+        "updatedAt": "2026-11-01T17:30:06.964748+00:00"
+      },
+      {
+        "id": 18689369,
+        "auctionId": 308610,
+        "bidderAlias": "2",
+        "amount": 84000,
+        "type": "NORMAL",
+        "maxBidId": 10921128,
+        "triggeredBy": 10921128,
+        "createdAt": "2026-11-01T17:30:06.964737+00:00",
+        "updatedAt": "2026-11-01T17:30:06.964743+00:00"
+      },
+      {
+        "id": 18689365,
+        "auctionId": 308610,
+        "bidderAlias": "4",
+        "amount": 81500,
+        "type": "AUTO",
+        "maxBidId": 10921116,
+        "triggeredBy": 10921125,
+        "createdAt": "2026-11-01T17:29:56.065978+00:00",
+        "updatedAt": "2026-11-01T17:29:56.065982+00:00"
+      },
+      {
+        "id": 18689364,
+        "auctionId": 308610,
+        "bidderAlias": "2",
+        "amount": 81000,
+        "type": "NORMAL",
+        "maxBidId": 10921125,
+        "triggeredBy": 10921125,
+        "createdAt": "2026-11-01T17:29:56.065966+00:00",
+        "updatedAt": "2026-11-01T17:29:56.065974+00:00"
+      },
+      {
+        "id": 18689362,
+        "auctionId": 308610,
+        "bidderAlias": "4",
+        "amount": 78500,
+        "type": "AUTO",
+        "maxBidId": 10921116,
+        "triggeredBy": 10921123,
+        "createdAt": "2026-11-01T17:29:45.249844+00:00",
+        "updatedAt": "2026-11-01T17:29:45.249848+00:00"
+      },
+      {
+        "id": 18689361,
+        "auctionId": 308610,
+        "bidderAlias": "2",
+        "amount": 78000,
+        "type": "NORMAL",
+        "maxBidId": 10921123,
+        "triggeredBy": 10921123,
+        "createdAt": "2026-11-01T17:29:45.249829+00:00",
+        "updatedAt": "2026-11-01T17:29:45.249840+00:00"
+      },
+      {
+        "id": 18689351,
+        "auctionId": 308610,
+        "bidderAlias": "4",
+        "amount": 75500,
+        "type": "NORMAL",
+        "maxBidId": 10921116,
+        "triggeredBy": 10921116,
+        "createdAt": "2026-11-01T17:28:45.648780+00:00",
+        "updatedAt": "2026-11-01T17:28:45.648782+00:00"
+      },
+      {
+        "id": 18689350,
+        "auctionId": 308610,
+        "bidderAlias": "2",
+        "amount": 75000,
+        "type": "LIMIT_REACHED",
+        "maxBidId": 10920197,
+        "triggeredBy": 10921116,
+        "createdAt": "2026-11-01T17:28:45.648771+00:00",
+        "updatedAt": "2026-11-01T17:28:45.648777+00:00"
+      },
+      {
+        "id": 18687764,
+        "auctionId": 308610,
+        "bidderAlias": "2",
+        "amount": 73500,
+        "type": "NORMAL",
+        "maxBidId": 10920197,
+        "triggeredBy": 10920197,
+        "createdAt": "2026-11-01T05:52:43.529013+00:00",
+        "updatedAt": "2026-11-01T05:52:43.529015+00:00"
+      },
+      {
+        "id": 18687763,
+        "auctionId": 308610,
+        "bidderAlias": "3",
+        "amount": 73000,
+        "type": "LIMIT_REACHED",
+        "maxBidId": 10920165,
+        "triggeredBy": 10920197,
+        "createdAt": "2026-11-01T05:52:43.529003+00:00",
+        "updatedAt": "2026-11-01T05:52:43.529010+00:00"
+      },
+      {
+        "id": 18687706,
+        "auctionId": 308610,
+        "bidderAlias": "3",
+        "amount": 70500,
+        "type": "NORMAL",
+        "maxBidId": 10920165,
+        "triggeredBy": 10920165,
+        "createdAt": "2026-11-01T01:13:21.644900+00:00",
+        "updatedAt": "2026-11-01T01:13:21.644902+00:00"
+      },
+      {
+        "id": 18687705,
+        "auctionId": 308610,
+        "bidderAlias": "2",
+        "amount": 70000,
+        "type": "LIMIT_REACHED",
+        "maxBidId": 10912063,
+        "triggeredBy": 10920165,
+        "createdAt": "2026-11-01T01:13:21.644892+00:00",
+        "updatedAt": "2026-11-01T01:13:21.644898+00:00"
+      },
+      {
+        "id": 18673582,
+        "auctionId": 308610,
+        "bidderAlias": "2",
+        "amount": 50500,
+        "type": "NORMAL",
+        "maxBidId": 10912063,
+        "triggeredBy": 10912063,
+        "createdAt": "2026-10-28T19:41:01.091583+00:00",
+        "updatedAt": "2026-10-28T19:41:01.091586+00:00"
+      },
+      {
+        "id": 18673581,
+        "auctionId": 308610,
+        "bidderAlias": "1",
+        "amount": 50000,
+        "type": "LIMIT_REACHED",
+        "maxBidId": 10910171,
+        "triggeredBy": 10912063,
+        "createdAt": "2026-10-28T19:41:01.091566+00:00",
+        "updatedAt": "2026-10-28T19:41:01.091578+00:00"
+      },
+      {
+        "id": 18670223,
+        "auctionId": 308610,
+        "bidderAlias": "1",
+        "amount": 39000,
+        "type": "NORMAL",
+        "maxBidId": 10910171,
+        "triggeredBy": 10910171,
+        "createdAt": "2026-10-28T09:55:25.943769+00:00",
+        "updatedAt": "2026-10-28T09:55:25.943776+00:00"
+      }
+    ],
+    "myBidderAlias": null,
+    "myMaxBid": null,
+    "highestBid": {
+      "id": 18694593,
+      "auctionId": 308610,
+      "bidderAlias": null,
+      "amount": 124000,
+      "type": "NORMAL",
+      "maxBidId": 10924160,
+      "triggeredBy": 10924160,
+      "createdAt": "2026-11-02T11:21:02.965895+00:00",
+      "updatedAt": "2026-11-02T11:21:02.965899+00:00",
+      "eurAmount": 11300
+    },
+    "buyNowAvailable": false,
+    "releasing": null,
+    "isHighestBidLowerThanResidualLoanValue": false
+  },
+  "checkoutOrder": null,
+  "previewImage": "https://kvdbil-images.imgix.net/7291388/ebc63121.jpg",
+  "_list_meta": {
+    "id": "308610",
+    "slug": "vw-caddy-cargo-2-0-tdi-skap-75hk",
+    "auctionType": "BIDDING",
+    "closedAt": "2026-11-02T11:24:32.965057+00:00",
+    "updatedAt": "2026-11-02T11:24:33.049868+00:00"
+  },
+  "_scraped_at": "2026-11-02T20:43:03.945244+00:00",
+  "_url": "https://www.kvd.se/auktioner/vw-caddy-cargo-2-0-tdi-skap-75hk-308610"
+}

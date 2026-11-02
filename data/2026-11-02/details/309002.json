@@ -1,0 +1,1762 @@
+{
+  "id": "309002",
+  "auctionType": "BIDDING",
+  "biddingFee": "6900.00",
+  "biddingFeeCorporate": "9875.00",
+  "mediationFee": 0,
+  "mediationFeeCorporate": 0,
+  "buyNow": true,
+  "closedAt": "2026-11-02T11:49:23.852124+00:00",
+  "publishedAt": "2026-10-26T17:14:47.842464+00:00",
+  "countdownDuration": 210,
+  "countdownStartAt": "2026-11-02T11:41:30+00:00",
+  "createdAt": "2026-10-26T14:33:39.856034+00:00",
+  "readyForAuctionAt": "2026-10-25",
+  "currency": "SEK",
+  "maxBidRaise": 100000,
+  "minBidRaise": 500,
+  "startBid": 199000,
+  "openedAt": "2026-10-26T17:14:47.830124+00:00",
+  "processObjectId": "7290497",
+  "readyForCheckout": true,
+  "soldFor": 229000,
+  "sellMethod": "BIDDING",
+  "slug": "peugeot-2008-1-2-hybrid-145hk",
+  "auctionUrl": "https://www.kvd.se/auktioner/peugeot-2008-1-2-hybrid-145hk-309002",
+  "state": "WINNER_CHECKOUT_PENDING",
+  "targetedAuctionGroupId": null,
+  "updatedAt": "2026-11-02T13:55:15.002959+00:00",
+  "releasing": null,
+  "loan": {
+    "loanCost": 1926,
+    "loanCostBuyNow": null
+  },
+  "buyNowAmount": 264900,
+  "buyNowAvailable": false,
+  "buyNowUntil": "2026-10-31T11:41:30+00:00",
+  "eligibleForAdditionalServices": true,
+  "comingSoon": false,
+  "preliminaryPrice": 290000,
+  "maxAllowedBid": 435000,
+  "isReserved": false,
+  "isSoldByBuyNow": false,
+  "favouriteCount": 16,
+  "eurBuyNowAmount": 24140,
+  "winningBid": {
+    "id": "122141",
+    "type": "BIDDER",
+    "state": "ACTIVE",
+    "amount": 229000,
+    "brokerId": "microservice",
+    "auctionId": "309002",
+    "createdAt": "2026-11-02T13:55:14.669555+00:00",
+    "updatedAt": "2026-11-02T13:55:14.976088+00:00",
+    "evaluationType": "BROKERING"
+  },
+  "processObject": {
+    "proactiveBrokering": null,
+    "orderableAdditionalServices": {
+      "tradein": false,
+      "transport": true,
+      "insurance": true,
+      "finance": true,
+      "warranty": true,
+      "extraTires": false
+    },
+    "sellMethod": "BIDDING",
+    "isFixedPrice": false,
+    "buyNowAmount": 264900,
+    "statisticalValuation": null,
+    "state": "AUCTION_RESOLUTION",
+    "baseObjectId": "519563",
+    "properties": {
+      "initialTrafficDate": "2025-09-24",
+      "registrationCountry": "se",
+      "manufactureMonth": "202507",
+      "heavyEquipment": false,
+      "deductibleVat": true,
+      "formattedEquipment": [
+        {
+          "key": "ANTISLADDSYSTEM",
+          "title": "Antisladdsystem",
+          "description": "Ett system som känner av om bilen håller på att sladda. Genom att bromsa enskilda hjul stabiliseras bilen och sladden förhindras, även kallat ESP.",
+          "priority": 0
+        },
+        {
+          "key": "ANTISPINN",
+          "title": "Antispinn",
+          "description": "Hjälpsystem som förhindrar att hjulen spinner",
+          "priority": 1
+        },
+        {
+          "key": "ASSISTANSSYSTEM",
+          "title": "Assistanssystem",
+          "description": "Uppkopplad tjänst för att exempelvis kunna kontrollera din bil på distans med hjälp av en mobilapp. Funktioner som bygger på 2G eller 3G-uppkoppling kan sluta fungera i samband med att dessa nätverk stängs ner av operatörerna.",
+          "priority": 2
+        },
+        {
+          "key": "AUTOBROMS",
+          "title": "Autobroms",
+          "description": "Automatisk inbromsning vid lägre hastigheter för mötande fordon och hinder framför bilen (City Safety)",
+          "priority": 3
+        },
+        {
+          "key": "BACKKAMERA",
+          "title": "Backkamera",
+          "description": "Kamera som underlättar vid backning",
+          "priority": 4
+        },
+        {
+          "key": "BLUETOOTH",
+          "title": "Bluetooth",
+          "description": "Trådlös uppkoppling mot mobila enheter",
+          "priority": 5
+        },
+        {
+          "key": "ELHISS_BAK",
+          "title": "Elhiss bak",
+          "description": "Elektroniska fönsterhissar bak",
+          "priority": 6
+        },
+        {
+          "key": "ELHISS_FRAM",
+          "title": "Elhiss fram",
+          "description": "Elektronisk fönsterhiss fram",
+          "priority": 7
+        },
+        {
+          "key": "ELINFALLBARA_SPEGLAR",
+          "title": "Elinfällbara backspeglar",
+          "description": "Speglar som fälls in automatiskt när bilen låses eller manuellt via knapp",
+          "priority": 8
+        },
+        {
+          "key": "ELSPEGLAR",
+          "title": "Elspeglar",
+          "description": "Elektroniskt ställbara sidospeglar",
+          "priority": 9
+        },
+        {
+          "key": "FARTHALLARE",
+          "title": "Farthållare",
+          "description": "Elektroniskt system som håller inprogrammerad hastighet",
+          "priority": 10
+        },
+        {
+          "key": "FILBYTESVARNARE",
+          "title": "Filbytesvarnare",
+          "description": "Elektroniskt säkerhetssystem som varnar vid oplanerade filbyten",
+          "priority": 11
+        },
+        {
+          "key": "FJARRLAS",
+          "title": "Fjärrlås",
+          "description": "Möjliggör att du på distans kan låsa och låsa upp bilen",
+          "priority": 12
+        },
+        {
+          "key": "GPS",
+          "title": "GPS",
+          "description": "Navigationssystem med vägbeskrivning",
+          "priority": 13
+        },
+        {
+          "key": "ISOFIX_BAK",
+          "title": "Isofix bak",
+          "description": "  Fästsystem för bilbarnstolar enligt internationell standard, även kallat Isofix",
+          "priority": 14
+        },
+        {
+          "key": "KLIMATANLAGGNING",
+          "title": "Klimatanläggning",
+          "description": "Luftkonditionering med möjlighet till automatisk temperaturinställning",
+          "priority": 15
+        },
+        {
+          "key": "LED_STRALKASTARE",
+          "title": "LED-strålkastare",
+          "description": "Strålkastare med LED-ljus har ett konstant vitt ljus och har samma ljusstyrka från star",
+          "priority": 16
+        },
+        {
+          "key": "PARKERINGSSENSORER_BAK",
+          "title": "Parkeringssensorer bak",
+          "description": "Sensorer på stötfångare baktill som varnar för hinder bakom bilen",
+          "priority": 17
+        },
+        {
+          "key": "RADIO",
+          "title": "Radio",
+          "description": "Radiospelare",
+          "priority": 18
+        },
+        {
+          "key": "REGNSENSOR",
+          "title": "Regnsensor",
+          "description": "Automatiska vindrutetorkare, sensorer som reagerar på vatten",
+          "priority": 19
+        },
+        {
+          "key": "SMARTPHONE_INTEGRATION",
+          "title": "Smartphone integration",
+          "description": null,
+          "priority": 20
+        },
+        {
+          "key": "START_STOP_FUNKTION",
+          "title": "Start/Stopp-funktion",
+          "description": "Automatisk på och avstängning av motor vid exempelvis trafikljus",
+          "priority": 21
+        },
+        {
+          "key": "STOLSVARME_FRAM",
+          "title": "Stolsvärme fram",
+          "description": "Olika nivåer av värme i stolarna fram som ställs in via en knapp",
+          "priority": 22
+        },
+        {
+          "key": "URKOPPLINGSBAR_PASSAGERARAIRBAG",
+          "title": "Urkopplingsbar passagerarairbag",
+          "description": "Möjlighet att koppla till och från airbagen på passagerarsidan",
+          "priority": 23
+        },
+        {
+          "key": "USB_INGANG",
+          "title": "USB-ingång",
+          "description": "Inkoppling av mobil enhet via USB-kontakt",
+          "priority": 24
+        }
+      ],
+      "brand": "Peugeot",
+      "title": "Peugeot 2008 1.2 Hybrid (145hk)",
+      "exportable": true,
+      "residualLoanValue": 0,
+      "remarks": {
+        "INTERIOR": [
+          {
+            "key": "Repa på ratt",
+            "category": "INTERIOR",
+            "id": "0"
+          }
+        ],
+        "ENGINE_AND_GEARBOX": [],
+        "EXTERIOR": [
+          {
+            "key": "Stenskott i vindruta",
+            "category": "EXTERIOR",
+            "id": "0"
+          }
+        ],
+        "BRAKES": [],
+        "TIRES": [],
+        "TECHNOLOGY_AND_EQUIPMENT": []
+      },
+      "curbWeight": 1373,
+      "grades": {
+        "INTERIOR": {
+          "min": 1,
+          "value": 4,
+          "max": 5
+        },
+        "ENGINE_AND_GEARBOX": {
+          "min": 1,
+          "value": 3,
+          "max": 3
+        },
+        "TOTAL": {
+          "min": 1,
+          "value": 4,
+          "max": 5
+        },
+        "EXTERIOR": {
+          "min": 1,
+          "value": 4,
+          "max": 5
+        },
+        "BRAKES": {
+          "min": 1,
+          "value": 3,
+          "max": 3
+        },
+        "TECHNOLOGY_AND_EQUIPMENT": {
+          "min": 1,
+          "value": 3,
+          "max": 3
+        }
+      },
+      "exteriorColor": "White",
+      "textile": "Textil",
+      "height": 1550,
+      "collisionWarranty": "2028-09-23",
+      "taxFee": 4105,
+      "familyName": "2008",
+      "towbar": false,
+      "modelName": "2008 1.2 Hybrid (145hk)",
+      "equipment": [
+        "Antisladdsystem",
+        "Antispinn",
+        "Assistanssystem",
+        "Autobroms",
+        "Backkamera",
+        "Bluetooth",
+        "Elhiss bak",
+        "Elhiss fram",
+        "Elinfällbara speglar",
+        "Elspeglar",
+        "Farthållare",
+        "Filbytesvarnare",
+        "Fjärrlås",
+        "GPS",
+        "Isofix bak",
+        "Klimatanläggning",
+        "LED-strålkastare",
+        "Parkeringssensorer bak",
+        "Radio",
+        "Regnsensor",
+        "Smartphone integration",
+        "Start/Stop-funktion",
+        "Stolsvärme fram",
+        "Urkopplingsbar passagerarairbag",
+        "USB-ingång"
+      ],
+      "remarksLocalized": {
+        "TIRES": null,
+        "BRAKES": null,
+        "EXTERIOR": "Stenskott i vindruta",
+        "INTERIOR": "Repa på ratt",
+        "ENGINE_AND_GEARBOX": null,
+        "TECHNOLOGY_AND_EQUIPMENT": null
+      },
+      "odometerUnit": "km",
+      "odometerReading": 9120,
+      "finishType": "Metallic",
+      "registrationPlate": "UAB27M",
+      "length": 4300,
+      "manufacturerWarranty": {
+        "odometerReadingLimit": 100000,
+        "expirationDate": "2028-09-23"
+      },
+      "inspectionPeriod": "2025-07-10 - 2028-09-30",
+      "gearbox": "Automatic",
+      "maxPayload": 417,
+      "registrationPlateCountry": "se",
+      "hasUnpaidLoan": false,
+      "totalWeight": 1790,
+      "numberOfKeys": 2,
+      "adHeader": "2008 1.2 Hybrid (145hk) Backkamera Vinterhjul",
+      "environmentalClassEuro": "6",
+      "body": "SUV",
+      "taxWeight": 1370,
+      "isRepairObject": false,
+      "importedForPersonalUse": false,
+      "package": "Backkamera Vinterhjul medföljer",
+      "saleLimitedToCorporate": false,
+      "mediation": true,
+      "ecoFriendly": false,
+      "inspectionValidToDate": "2028-09-30",
+      "mustExport": false,
+      "fuels": [
+        {
+          "fuelCode": "Petrol",
+          "enginePower": 136
+        }
+      ],
+      "dateOfInspection": "2025-07-10",
+      "width": 1770,
+      "modelYear": 2025,
+      "chassisNumber": "VR3USHPY3SJ780562",
+      "drivingBan": false,
+      "numberOfPreviousOwners": 2,
+      "maxPullWeightB": 1710,
+      "numberOfSeats": 5,
+      "heading1": "Peugeot 2008",
+      "heading2": "1.2 Hybrid",
+      "heading3": "Backkamera Vinterhjul medföljer"
+    },
+    "leaseReturnProperties": {},
+    "vehicleType": "CAR",
+    "id": "7290497",
+    "createdAt": "2026-09-30 09:37:46.529430+00:00",
+    "objectType": "CAR",
+    "displayCar360Spin": true,
+    "testDriveAllowed": true,
+    "baseObject": {
+      "registrationCountry": "se",
+      "gearbox": "Automatic",
+      "salesFlow": "CORPORATE_CARS",
+      "familyName": "2008",
+      "state": "MANUAL_VALUATION_PENDING",
+      "brand": "Peugeot",
+      "earliestAvailableAt": null,
+      "authorityRegisterInformation": {
+        "environmentalClassification": {
+          "fuels": [
+            {
+              "co2": "",
+              "nox": "",
+              "nox4": null,
+              "fuelCode": "Petrol",
+              "hcThcNox": "",
+              "consumption": "",
+              "noiseLevel": 67,
+              "emissionUnit": "g/km",
+              "innovationCo2": null,
+              "particleValue": "",
+              "particleMass4": null,
+              "consumptionUnit": "",
+              "rangeNedcDrive": null,
+              "rangeWltpDrive": null,
+              "consumptionUrban": "",
+              "rangeCityWltpDrive": null,
+              "consumptionExtraUrban": "",
+              "electricEnergyConsumption": null,
+              "energyConsumptionWltpDrive": null
+            }
+          ],
+          "ecoFriendly": false,
+          "emissionClass": "ELHYBRID",
+          "innovationCode": null,
+          "environmentalClass": null,
+          "environmentalClassEuro": "6"
+        },
+        "vehicleInformation": {
+          "vin": "VR3USHPY3SJ780562",
+          "body": "AF",
+          "type": "CAR",
+          "year": "2025",
+          "model": "2008",
+          "rawType": "PB",
+          "modelYear": null,
+          "categoryEu": "e2*2007/46*0639*37",
+          "groupNumber": "PG 010000",
+          "modelNumber": "PG 000000",
+          "chassisNumber": "VR3USHPY3SJ780562",
+          "exteriorColor": "White",
+          "fabricAndMake": "PEUGEOT",
+          "baseObjectType": "CAR",
+          "manufactureCode": null,
+          "manufactureMonth": "202507",
+          "registrationDate": "2025-07-05",
+          "initialTrafficDate": "2025-09-24",
+          "registrationPlateReused": null
+        },
+        "vehicleInspectionInformation": {
+          "inspections": [
+            {
+              "inspectionType": "13",
+              "odometerReading": null,
+              "dateOfInspection": "2025-07-10"
+            },
+            {
+              "inspectionType": null,
+              "odometerReading": null,
+              "dateOfInspection": null
+            }
+          ],
+          "inspectionGroup": "36/24/14",
+          "odometerReading": "",
+          "inspectionPeriod": "2025-07-10 - 2028-09-30",
+          "dateOfInspection": "2025-07-10",
+          "inspectionValidToDate": "2028-09-30",
+          "inspectionExemptionGroup": null
+        },
+        "vehicleStatus": {
+          "tax": 4105
+        },
+        "additionalTechSpecification": {
+          "raceCar": null,
+          "wheelbase1": 2605,
+          "wheelbase2": null,
+          "wheelbase3": null,
+          "wheelbase4": null,
+          "equipment1": null,
+          "equipment2": null,
+          "equipment3": null,
+          "maximumSpeed": 206,
+          "numAxleShafts": 2,
+          "passengerAirBag": true,
+          "tyreDimensionRear": "215/65 R16",
+          "tyreDimensionFront": "215/65 R16",
+          "dualSteeringControl": null
+        },
+        "registrationInformation": {
+          "registrationPlate": "UAB27M",
+          "deregistrationDate": null,
+          "deregistrationText": null,
+          "deregistrationReason": null
+        },
+        "generalTechSpecification": {
+          "eeg": "e2*2007/46*0639*37",
+          "fuels": [
+            {
+              "fuelCode": "Petrol",
+              "powerUnit": "EG",
+              "enginePower": 100,
+              "enginePowerHp": 136,
+              "fuelTankVolume": ""
+            }
+          ],
+          "width": 1770,
+          "height": 1550,
+          "length": 4300,
+          "gearbox": "Automatic",
+          "variant": "S",
+          "version": "HPY5-S1NN00",
+          "taxWeight": 1370,
+          "curbWeight": 1373,
+          "maxPayload": 417,
+          "totalWeight": 1790,
+          "chassisCode1": null,
+          "chassisCode2": null,
+          "cubicCapacity": "1199",
+          "numPassengers": "4",
+          "numberOfSeats": 5,
+          "fourWheelDrive": false,
+          "maxPullWeightB": 1710,
+          "clutchMechanism1": null,
+          "clutchMechanism2": null,
+          "maxTrailerWeight": null,
+          "chassisCodeSupplement": null,
+          "maxPullWieghtNoBreaks": null,
+          "maxPullWeightBExtended": null,
+          "maxSingle Axle TrailerWeight": null
+        },
+        "vehicleOrigin": {
+          "originCode": "INFÖRT",
+          "originCodeReason": null,
+          "importerIdentifier": null,
+          "preRegistrationDate": null,
+          "importRegistrationDate": null,
+          "importedForPersonalUse": false,
+          "importedPreviouslyRegistered": false
+        }
+      },
+      "modelName": "2008 1.2 Hybrid (136hk)",
+      "fuels": [
+        {
+          "fuelCode": "Petrol",
+          "powerUnit": "EG",
+          "enginePower": 100,
+          "enginePowerHp": 136,
+          "fuelTankVolume": ""
+        }
+      ],
+      "modelId": null,
+      "fabricAndMake": "PEUGEOT",
+      "id": "519563",
+      "baseObjectType": "CAR",
+      "createdAt": "2026-09-30T09:37:46.286770+00:00",
+      "exteriorColor": "White",
+      "body": "SUV",
+      "odometerUnit": "km",
+      "odometerReading": null,
+      "year": "2026",
+      "registrationPlate": "UAB27M",
+      "technicalSpecification": {
+        "modelId": null,
+        "vehicle": {
+          "brand": "Peugeot",
+          "body": "SUV",
+          "modelName": "2008 1.2 Hybrid (136hk)",
+          "familyName": "2008"
+        },
+        "year": "2026"
+      }
+    },
+    "isReleasable": false,
+    "presentationApproved": false,
+    "initialBuyNowAmount": 269900,
+    "car360Spin": null,
+    "certified": true,
+    "offsiteSalesContact": null,
+    "reducedPrice": true,
+    "conditionClassification": "CERTIFIED_PLUS",
+    "exportable": true,
+    "deductibleVat": true,
+    "collisionWarranty": "2028-09-23",
+    "title": "Peugeot 2008 1.2 Hybrid (145hk)",
+    "brand": "Peugeot",
+    "familyName": "2008",
+    "modelName": "2008 1.2 Hybrid (145hk)",
+    "package": "Backkamera Vinterhjul medföljer",
+    "heading1": "Peugeot 2008",
+    "heading2": "1.2 Hybrid",
+    "heading3": "Backkamera Vinterhjul medföljer",
+    "media": [
+      {
+        "processObjectId": "7290497",
+        "uri": "https://kvdbil-images.imgix.net/7290497/537505b1.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7290497/537505b1.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 1
+      },
+      {
+        "processObjectId": "7290497",
+        "uri": "https://kvdbil-images.imgix.net/7290497/3bf198c9.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7290497/3bf198c9.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 1
+      },
+      {
+        "processObjectId": "7290497",
+        "uri": "https://kvdbil-images.imgix.net/7290497/16623eab.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7290497/16623eab.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 2
+      },
+      {
+        "processObjectId": "7290497",
+        "uri": "https://kvdbil-images.imgix.net/7290497/6f7e70b6.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7290497/6f7e70b6.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 3
+      },
+      {
+        "processObjectId": "7290497",
+        "uri": "https://kvdbil-images.imgix.net/7290497/f21e04ee.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7290497/f21e04ee.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 4
+      },
+      {
+        "processObjectId": "7290497",
+        "uri": "https://kvdbil-images.imgix.net/7290497/f179b8bd.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7290497/f179b8bd.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 5
+      },
+      {
+        "processObjectId": "7290497",
+        "uri": "https://kvdbil-images.imgix.net/7290497/2df5b3e9.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7290497/2df5b3e9.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 5
+      },
+      {
+        "processObjectId": "7290497",
+        "uri": "https://kvdbil-images.imgix.net/7290497/b042ff86.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7290497/b042ff86.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 6
+      },
+      {
+        "processObjectId": "7290497",
+        "uri": "https://kvdbil-images.imgix.net/7290497/eb482f90.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7290497/eb482f90.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 6
+      },
+      {
+        "processObjectId": "7290497",
+        "uri": "https://kvdbil-images.imgix.net/7290497/49178bf5.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7290497/49178bf5.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 7
+      },
+      {
+        "processObjectId": "7290497",
+        "uri": "https://kvdbil-images.imgix.net/7290497/2a70e735.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7290497/2a70e735.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 8
+      },
+      {
+        "processObjectId": "7290497",
+        "uri": "https://kvdbil-images.imgix.net/7290497/b56db2ca.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7290497/b56db2ca.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 9
+      },
+      {
+        "processObjectId": "7290497",
+        "uri": "https://kvdbil-images.imgix.net/7290497/2a27cf0a.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7290497/2a27cf0a.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 10
+      },
+      {
+        "processObjectId": "7290497",
+        "uri": "https://kvdbil-images.imgix.net/7290497/f29d3ba1.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7290497/f29d3ba1.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 11
+      },
+      {
+        "processObjectId": "7290497",
+        "uri": "https://kvdbil-images.imgix.net/7290497/6dffc300.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7290497/6dffc300.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 12
+      },
+      {
+        "processObjectId": "7290497",
+        "uri": "https://kvdbil-images.imgix.net/7290497/5efe51c7.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7290497/5efe51c7.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 13
+      },
+      {
+        "processObjectId": "7290497",
+        "uri": "https://kvdbil-images.imgix.net/7290497/f1c6bc96.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7290497/f1c6bc96.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 14
+      },
+      {
+        "processObjectId": "7290497",
+        "uri": "https://kvdbil-images.imgix.net/7290497/5d5f2eac.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7290497/5d5f2eac.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 15
+      },
+      {
+        "processObjectId": "7290497",
+        "uri": "https://kvdbil-images.imgix.net/7290497/d7044670.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7290497/d7044670.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 16
+      },
+      {
+        "processObjectId": "7290497",
+        "uri": "https://kvdbil-images.imgix.net/7290497/8fd1dc2d.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7290497/8fd1dc2d.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 17
+      }
+    ],
+    "locationInfo": {
+      "id": "550930",
+      "processObjectId": "7290497",
+      "locationType": "FACILITY",
+      "createdAt": "2026-10-06T09:58:33.737149+00:00",
+      "updatedAt": "2026-10-06T09:58:33.737154+00:00",
+      "facilityId": "00000002-0002-0002-0002-000000000002",
+      "parkingZone": "A",
+      "parkingNumber": null,
+      "outgoingTime": null,
+      "leftAt": null,
+      "outgoingType": null,
+      "publicFacilityId": "00000002-0002-0002-0002-000000000002",
+      "facility": {
+        "id": "00000002-0002-0002-0002-000000000002",
+        "name": "Åkersberga (Runö)",
+        "operator": "KVD",
+        "legacyIdentifiers": [
+          "Åkersberga (Runö)"
+        ],
+        "objectTypes": [
+          "CAR"
+        ],
+        "createdAt": "2018-03-04T13:18:23.295898+00:00",
+        "calendarOrganisationalUnitId": "4",
+        "parkingAreas": [
+          {
+            "id": 3,
+            "name": "A1",
+            "createdAt": "2018-03-04T13:18:23.295898+00:00"
+          },
+          {
+            "id": 4,
+            "name": "B1",
+            "createdAt": "2018-03-04T13:18:23.295898+00:00"
+          }
+        ],
+        "active": true,
+        "latitude": 59.4819664,
+        "longitude": 18.2749312,
+        "distance": null,
+        "address": "Näsvägen 19",
+        "postCode": "18440",
+        "city": "Åkersberga",
+        "facilityType": "MAXI",
+        "facilityMapUrl": "https://www.google.com/maps/dir/59.4819664,18.2749312/@59.4819664,18.2749312,z13",
+        "contactPhone": "+46765518068",
+        "contactEmail": "leverans.akersberga@kvdbil.se",
+        "allowIncomingTransport": true,
+        "allowLeaseReturns": false,
+        "allowUnplannedDropOffFleetManager": true,
+        "parentFacilityId": null,
+        "publicFacilityId": "00000002-0002-0002-0002-000000000002"
+      }
+    },
+    "valuation": {
+      "id": 236941,
+      "processObjectId": "7290497",
+      "valuatorComment": {
+        "da": "Her præsenterer vi en fin Peugeot 2008 med automatgear, som gør hver rejse smidig og afslappet. Bakkamera gør parkeringen nemmere, mens smartphoneintegration holder dig forbundet på en moderne måde. LED-forlygter og vognbaneskiftevarsler giver ekstra tryghed og komfort i hverdagen. For nylig serviceret, synet til september 2028 og vinterhjul medfølger.",
+        "de": "Hier präsentieren wir einen schönen Peugeot 2008 mit Automatik, der jede Fahrt reibungslos und entspannt macht. Rückfahrkamera erleichtert das Einparken, während die Smartphone-Integration Sie auf moderne Weise verbunden hält. LED-Scheinwerfer und Spurwechselwarner sorgen für zusätzliche Sicherheit und Komfort im Alltag. Kürzlich gewartet, geprüft bis September 2028 und Winterräder inklusive.",
+        "en": "Here we present a nice Peugeot 2008 with automatic that makes every journey smooth and relaxed. Rear camera makes parking easier, while smartphone integration keeps you connected in a modern way. LED headlights and lane change warning provide extra safety and comfort in everyday life. Recently serviced, inspected until September 2028, and winter wheels included.",
+        "et": "Siin esitame kena Peugeot 2008 automaatkäigukastiga, mis muudab iga sõidu sujuvaks ja lõõgastavaks. Tagurduskaamera teeb parkimise lihtsamaks, samas kui nutitelefoni integratsioon hoiab sind kaasaegsel moel ühenduses. LED-esituled ja sõiduraja vahetamise hoiatus pakuvad igapäevaelus lisaturvalisust ja mugavust. Hiljuti hooldatud, üle vaadatud kuni septembrini 2028 ning talverattad kaasas.",
+        "fi": "Tässä esittelemme hienon Peugeot 2008:n automaattivaihteistolla, joka tekee jokaisesta matkasta sujuvan ja rentouttavan. Peruutuskamera helpottaa pysäköintiä, ja älypuhelinintegraatio pitää sinut yhteydessä nykyaikaisesti. LED-ajovalot ja kaistanvaihtoavustin lisäävät arjen turvallisuutta ja mukavuutta. Äskettäin huollettu, katsastettu syyskuuhun 2028 asti ja talvirenkaat kuuluvat mukaan.",
+        "pl": "Oto prezentujemy ładnego Peugeota 2008 z automatyczną skrzynią biegów, który sprawia, że każda podróż jest płynna i relaksująca. Kamera cofania ułatwia parkowanie, a integracja ze smartfonem pozwala na nowoczesne połączenie. Reflektory LED i ostrzeganie o zmianie pasa ruchu zapewniają dodatkowe bezpieczeństwo i komfort na co dzień. Niedawno serwisowany, przegląd do września 2028 i dołączone zimowe koła.",
+        "sv": "Här presenterar vi en fin Peugeot 2008 med automat som gör varje resa smidig och avslappnad. Backkamera gör parkeringen enklare, medan smartphone integration håller dig uppkopplad på ett modernt sätt. LED-strålkastare och filbytesvarnare ger extra trygghet och komfort i vardagen. Nyligen servad, besiktigad till september 2028 och vinterhjul medföljer."
+      },
+      "generatedValuatorComment": {
+        "en": "",
+        "sv": "Här presenterar vi en Peugeot 2008 med automat som gör varje resa smidig och avslappnad. Backkamera gör parkeringen enklare, medan smartphone integration håller dig uppkopplad på ett modernt sätt. LED-strålkastare och filbytesvarnare ger extra trygghet och komfort i vardagen. Nyligen servad och besiktigad till september 2028."
+      },
+      "carDealerPrice": 290000,
+      "endUserTestProtocol": {
+        "tires": {
+          "extraTires": {
+            "other": {
+              "rimSize": "16",
+              "rimType": "Plåtfälg",
+              "tireType": "Dubbade vinterdäck",
+              "otherInfo": "Behövs ej",
+              "tireTypeKey": "STUDDED_WINTER_TIRES"
+            },
+            "grades": {
+              "rearLeft": 3,
+              "frontLeft": 3,
+              "rearRight": 3,
+              "frontRight": 3
+            },
+            "treadDepths": {
+              "rearLeft": 8,
+              "frontLeft": 8,
+              "rearRight": 8,
+              "frontRight": 8
+            }
+          },
+          "mountedTires": {
+            "other": {
+              "rimSize": "16",
+              "rimType": "Alu.fälg",
+              "tireType": "Sommardäck",
+              "otherInfo": "Behövs ej",
+              "tireTypeKey": "SUMMER_TIRES"
+            },
+            "grades": {
+              "rearLeft": 3,
+              "frontLeft": 3,
+              "rearRight": 3,
+              "frontRight": 3
+            },
+            "treadDepths": {
+              "rearLeft": 7,
+              "frontLeft": 7,
+              "rearRight": 7,
+              "frontRight": 7
+            }
+          }
+        },
+        "grades": {
+          "TOTAL": {
+            "max": 5,
+            "min": 1,
+            "value": 4
+          },
+          "BRAKES": {
+            "max": 3,
+            "min": 1,
+            "value": 3
+          },
+          "EXTERIOR": {
+            "max": 5,
+            "min": 1,
+            "value": 4
+          },
+          "INTERIOR": {
+            "max": 5,
+            "min": 1,
+            "value": 4
+          },
+          "ENGINE_AND_GEARBOX": {
+            "max": 3,
+            "min": 1,
+            "value": 3
+          },
+          "TECHNOLOGY_AND_EQUIPMENT": {
+            "max": 3,
+            "min": 1,
+            "value": 3
+          }
+        },
+        "towbar": false,
+        "remarks": {
+          "BRAKES": [],
+          "EXTERIOR": [
+            {
+              "id": "72904972",
+              "key": "Stenskott i vindruta.",
+              "other": null,
+              "point": 0,
+              "category": "EXTERIOR",
+              "text": "Stenskott i vindruta."
+            }
+          ],
+          "INTERIOR": [
+            {
+              "id": "72904971",
+              "key": "Repa på ratt",
+              "other": null,
+              "point": 0,
+              "category": "INTERIOR",
+              "text": "Repa på ratt"
+            }
+          ],
+          "ENGINE_AND_GEARBOX": [],
+          "TECHNOLOGY_AND_EQUIPMENT": []
+        },
+        "textile": "Textil",
+        "boatType": null,
+        "equipment": [
+          "Backkamera",
+          "GPS",
+          "Assistanssystem",
+          "Autobroms",
+          "Bluetooth",
+          "Farthållare",
+          "Filbytesvarnare",
+          "Klimatanläggning",
+          "LED-strålkastare",
+          "Start/Stop-funktion",
+          "USB-ingång",
+          "Antisladdsystem",
+          "Antispinn",
+          "Elhiss bak",
+          "Elhiss fram",
+          "Elinfällbara speglar",
+          "Elspeglar",
+          "Fjärrlås",
+          "Isofix bak",
+          "Parkeringssensorer bak",
+          "Radio",
+          "Regnsensor",
+          "Smartphone integration",
+          "Stolsvärme fram",
+          "Urkopplingsbar passagerarairbag"
+        ],
+        "boatWidth": null,
+        "createdAt": "2026-10-07T16:33:07",
+        "boatEngine": null,
+        "boatLength": null,
+        "boatWeight": null,
+        "finishType": "Metallic",
+        "protocolId": "259082",
+        "stoveFlames": null,
+        "heatingSystem": null,
+        "numberOfKeys": 2,
+        "boatCeBranded": false,
+        "boatGearModel": null,
+        "numberOfBunks": null,
+        "numberOfSeats": 5,
+        "boatEngineFuel": null,
+        "boatSepticTank": false,
+        "isRepairObject": false,
+        "boatEnginePower": null,
+        "serviceBookType": "EXISTS",
+        "boatExteriorColor": null,
+        "serviceBookStatus": "Service utförd vid följande mil: 897 mil, senast 2026-09-14",
+        "boatEngineSerialNumber": null,
+        "odometerReadingAfterTest": {
+          "unit": "Mil",
+          "value": 912
+        },
+        "odometerReadingAfterTestInKm": 9120
+      },
+      "auctionPriceValuation": {
+        "currency": "SEK"
+      },
+      "finalised": true,
+      "includedImageIds": null,
+      "createdAt": "2026-10-07T14:35:13.693314+00:00",
+      "updatedAt": "2026-10-26T14:33:39.540489+00:00",
+      "generatingInProgress": false,
+      "valuatorCommentLocalized": "Här presenterar vi en fin Peugeot 2008 med automat som gör varje resa smidig och avslappnad. Backkamera gör parkeringen enklare, medan smartphone integration håller dig uppkopplad på ett modernt sätt. LED-strålkastare och filbytesvarnare ger extra trygghet och komfort i vardagen. Nyligen servad, besiktigad till september 2028 och vinterhjul medföljer."
+    },
+    "facts": {
+      "default": [
+        {
+          "key": "NUMBER_OF_PREVIOUS_OWNERS",
+          "text": "Antal tidigare ägare",
+          "value": 2,
+          "type": "string"
+        },
+        {
+          "key": "REGISTRATION_PLATE",
+          "text": "Registreringsnummer",
+          "value": "UAB27M",
+          "type": "string"
+        },
+        {
+          "key": "MODEL_YEAR",
+          "text": "Modellår",
+          "value": 2025,
+          "type": "string"
+        },
+        {
+          "key": "MANUFACTURE_MONTH",
+          "text": "Tillverkningsmånad",
+          "value": "202507",
+          "type": "manufacture_month"
+        },
+        {
+          "key": "ODOMETER_READING",
+          "text": "Mätarställning",
+          "value": 9120,
+          "type": "distance"
+        },
+        {
+          "key": "INITIAL_TRAFFIC_DATE",
+          "text": "Första datum i trafik i Sverige",
+          "value": "2025-09-24",
+          "type": "date"
+        },
+        {
+          "key": "SERVICE_BOOK",
+          "text": "Servicehistorik",
+          "value": "Service utförd vid följande mil: 897 mil, senast 2026-09-14",
+          "type": "string"
+        },
+        {
+          "key": "SERVICE_BOOK_TYPE",
+          "text": "Servicebok",
+          "value": "Ja",
+          "type": "string"
+        },
+        {
+          "key": "GEARBOX",
+          "text": "Växellåda",
+          "value": "Automat",
+          "type": "string"
+        },
+        {
+          "key": "NUMBER_OF_SEATS",
+          "text": "Antal säten",
+          "value": 5,
+          "type": "string"
+        },
+        {
+          "key": "NUMBER_OF_KEYS",
+          "text": "Antal nycklar",
+          "value": 2,
+          "type": "string"
+        },
+        {
+          "key": "EXTERIOR_COLOR",
+          "text": "Färg",
+          "value": "Vit",
+          "type": "string"
+        },
+        {
+          "key": "FINISH_TYPE",
+          "text": "Lack",
+          "value": "Metallic",
+          "type": "string"
+        },
+        {
+          "key": "TEXTILE",
+          "text": "Klädsel",
+          "value": "Textil",
+          "type": "string"
+        },
+        {
+          "key": "MANUFACTURER_WARRANTY",
+          "text": "Nybilsgaranti",
+          "value": {
+            "odometerReadingLimit": 100000,
+            "expirationDate": "2028-09-23"
+          },
+          "type": "manufacturer_warranty"
+        },
+        {
+          "key": "COLLISION_WARRANTY",
+          "text": "Vagnskadegaranti",
+          "value": "2028-09-23",
+          "type": "date"
+        },
+        {
+          "key": "TAX_FEE",
+          "text": "Skatt årsavgift",
+          "value": "4105 SEK",
+          "type": "string"
+        }
+      ],
+      "additional": [
+        {
+          "key": "CHASSIS_NUMBER",
+          "text": "Chassinummer",
+          "value": "VR3USHPY3SJ780562",
+          "type": "string"
+        },
+        {
+          "key": "ENGINE_EFFECT_PETROL",
+          "text": "Motoreffekt (bensin)",
+          "value": 136,
+          "type": "engine_power"
+        },
+        {
+          "key": "TOWBAR",
+          "text": "Dragkrok",
+          "value": "Nej",
+          "type": "string"
+        },
+        {
+          "key": "MAX_PAYLOAD",
+          "text": "Maxlastvikt",
+          "value": 417,
+          "type": "weight"
+        },
+        {
+          "key": "INSPECTION_VALID_TO_DATE",
+          "text": "Nästa besiktning senast",
+          "value": "2028-09-30",
+          "type": "string"
+        },
+        {
+          "key": "CURB_WEIGHT",
+          "text": "Tjänstevikt",
+          "value": 1373,
+          "type": "weight"
+        },
+        {
+          "key": "TAX_WEIGHT",
+          "text": "Skattevikt",
+          "value": 1370,
+          "type": "weight"
+        },
+        {
+          "key": "TOTAL_WEIGHT",
+          "text": "Fordonets totalvikt",
+          "value": 1790,
+          "type": "weight"
+        },
+        {
+          "key": "LENGTH",
+          "text": "Längd",
+          "value": 4300,
+          "type": "length"
+        },
+        {
+          "key": "WIDTH",
+          "text": "Bredd",
+          "value": 1770,
+          "type": "length"
+        },
+        {
+          "key": "HEIGHT",
+          "text": "Höjd",
+          "value": 1550,
+          "type": "length"
+        }
+      ],
+      "other": [
+        {
+          "key": "SOLD_IN_SWEDEN",
+          "text": "Svensksåld",
+          "value": "Ja",
+          "type": "string"
+        },
+        {
+          "key": "EXPORTABLE",
+          "text": "Kan exporteras",
+          "value": "Ja",
+          "type": "string"
+        },
+        {
+          "key": "DEDUCTIBLE_VAT",
+          "text": "Avlyftbar moms",
+          "value": "Ja",
+          "type": "string"
+        }
+      ]
+    },
+    "majorFeature": [
+      {
+        "key": "BACKKAMERA",
+        "title": "Backkamera",
+        "value": null,
+        "equipment": "Utrustning",
+        "description": "Kamera som underlättar vid backning"
+      },
+      {
+        "key": "SMARTPHONE_INTEGRATION",
+        "title": "Smartphone integration",
+        "value": null,
+        "equipment": "Utrustning",
+        "description": null
+      },
+      {
+        "key": "LED_STRALKASTARE",
+        "title": "LED-strålkastare",
+        "value": null,
+        "equipment": "Utrustning",
+        "description": "Strålkastare med LED-ljus har ett konstant vitt ljus och har samma ljusstyrka från star"
+      },
+      {
+        "key": "GPS",
+        "title": "GPS",
+        "value": null,
+        "equipment": "Utrustning",
+        "description": "Navigationssystem med vägbeskrivning"
+      }
+    ],
+    "batteryTestCertificateAvailable": false
+  },
+  "previewImages": [
+    {
+      "processObjectId": "7290497",
+      "uri": "https://kvdbil-images.imgix.net/7290497/537505b1.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7290497/537505b1.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 1
+    },
+    {
+      "processObjectId": "7290497",
+      "uri": "https://kvdbil-images.imgix.net/7290497/3bf198c9.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7290497/3bf198c9.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 1
+    },
+    {
+      "processObjectId": "7290497",
+      "uri": "https://kvdbil-images.imgix.net/7290497/16623eab.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7290497/16623eab.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 2
+    },
+    {
+      "processObjectId": "7290497",
+      "uri": "https://kvdbil-images.imgix.net/7290497/6f7e70b6.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7290497/6f7e70b6.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 3
+    },
+    {
+      "processObjectId": "7290497",
+      "uri": "https://kvdbil-images.imgix.net/7290497/f21e04ee.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7290497/f21e04ee.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 4
+    },
+    {
+      "processObjectId": "7290497",
+      "uri": "https://kvdbil-images.imgix.net/7290497/f179b8bd.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7290497/f179b8bd.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 5
+    },
+    {
+      "processObjectId": "7290497",
+      "uri": "https://kvdbil-images.imgix.net/7290497/2df5b3e9.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7290497/2df5b3e9.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 5
+    },
+    {
+      "processObjectId": "7290497",
+      "uri": "https://kvdbil-images.imgix.net/7290497/b042ff86.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7290497/b042ff86.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 6
+    },
+    {
+      "processObjectId": "7290497",
+      "uri": "https://kvdbil-images.imgix.net/7290497/eb482f90.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7290497/eb482f90.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 6
+    },
+    {
+      "processObjectId": "7290497",
+      "uri": "https://kvdbil-images.imgix.net/7290497/49178bf5.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7290497/49178bf5.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 7
+    },
+    {
+      "processObjectId": "7290497",
+      "uri": "https://kvdbil-images.imgix.net/7290497/2a70e735.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7290497/2a70e735.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 8
+    },
+    {
+      "processObjectId": "7290497",
+      "uri": "https://kvdbil-images.imgix.net/7290497/b56db2ca.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7290497/b56db2ca.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 9
+    },
+    {
+      "processObjectId": "7290497",
+      "uri": "https://kvdbil-images.imgix.net/7290497/2a27cf0a.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7290497/2a27cf0a.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 10
+    },
+    {
+      "processObjectId": "7290497",
+      "uri": "https://kvdbil-images.imgix.net/7290497/f29d3ba1.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7290497/f29d3ba1.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 11
+    },
+    {
+      "processObjectId": "7290497",
+      "uri": "https://kvdbil-images.imgix.net/7290497/6dffc300.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7290497/6dffc300.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 12
+    },
+    {
+      "processObjectId": "7290497",
+      "uri": "https://kvdbil-images.imgix.net/7290497/5efe51c7.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7290497/5efe51c7.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 13
+    },
+    {
+      "processObjectId": "7290497",
+      "uri": "https://kvdbil-images.imgix.net/7290497/f1c6bc96.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7290497/f1c6bc96.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 14
+    },
+    {
+      "processObjectId": "7290497",
+      "uri": "https://kvdbil-images.imgix.net/7290497/5d5f2eac.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7290497/5d5f2eac.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 15
+    },
+    {
+      "processObjectId": "7290497",
+      "uri": "https://kvdbil-images.imgix.net/7290497/d7044670.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7290497/d7044670.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 16
+    },
+    {
+      "processObjectId": "7290497",
+      "uri": "https://kvdbil-images.imgix.net/7290497/8fd1dc2d.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7290497/8fd1dc2d.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 17
+    }
+  ],
+  "similarAuctions": [],
+  "activeAuction": {
+    "auctionId": "309002",
+    "closed": true,
+    "countdownInProgress": true,
+    "preliminaryCloseAt": "2026-11-02T11:49:23.842804+00:00",
+    "createdAt": "2026-10-26T17:14:47.831793+00:00",
+    "updatedAt": "2026-11-02T11:49:23.855086+00:00",
+    "vatExcludedBiddingAllowed": false,
+    "reservationPriceReached": false,
+    "bids": [
+      {
+        "id": 18694778,
+        "auctionId": 309002,
+        "bidderAlias": "1",
+        "amount": 226000,
+        "type": "NORMAL",
+        "maxBidId": 10924262,
+        "triggeredBy": 10924262,
+        "createdAt": "2026-11-02T11:45:53.846983+00:00",
+        "updatedAt": "2026-11-02T11:45:53.846985+00:00"
+      },
+      {
+        "id": 18694777,
+        "auctionId": 309002,
+        "bidderAlias": "2",
+        "amount": 225500,
+        "type": "LIMIT_REACHED",
+        "maxBidId": 10924248,
+        "triggeredBy": 10924262,
+        "createdAt": "2026-11-02T11:45:53.846974+00:00",
+        "updatedAt": "2026-11-02T11:45:53.846980+00:00"
+      },
+      {
+        "id": 18694774,
+        "auctionId": 309002,
+        "bidderAlias": "2",
+        "amount": 225000,
+        "type": "AUTO",
+        "maxBidId": 10924248,
+        "triggeredBy": 10924260,
+        "createdAt": "2026-11-02T11:45:38.353887+00:00",
+        "updatedAt": "2026-11-02T11:45:38.353892+00:00"
+      },
+      {
+        "id": 18694773,
+        "auctionId": 309002,
+        "bidderAlias": "1",
+        "amount": 224500,
+        "type": "NORMAL",
+        "maxBidId": 10924260,
+        "triggeredBy": 10924260,
+        "createdAt": "2026-11-02T11:45:38.353876+00:00",
+        "updatedAt": "2026-11-02T11:45:38.353883+00:00"
+      },
+      {
+        "id": 18694771,
+        "auctionId": 309002,
+        "bidderAlias": "2",
+        "amount": 224000,
+        "type": "AUTO",
+        "maxBidId": 10924248,
+        "triggeredBy": 10924258,
+        "createdAt": "2026-11-02T11:45:34.219649+00:00",
+        "updatedAt": "2026-11-02T11:45:34.219651+00:00"
+      },
+      {
+        "id": 18694770,
+        "auctionId": 309002,
+        "bidderAlias": "1",
+        "amount": 223500,
+        "type": "NORMAL",
+        "maxBidId": 10924258,
+        "triggeredBy": 10924258,
+        "createdAt": "2026-11-02T11:45:34.219639+00:00",
+        "updatedAt": "2026-11-02T11:45:34.219645+00:00"
+      },
+      {
+        "id": 18694767,
+        "auctionId": 309002,
+        "bidderAlias": "2",
+        "amount": 223000,
+        "type": "AUTO",
+        "maxBidId": 10924248,
+        "triggeredBy": 10924256,
+        "createdAt": "2026-11-02T11:45:27.274618+00:00",
+        "updatedAt": "2026-11-02T11:45:27.274622+00:00"
+      },
+      {
+        "id": 18694766,
+        "auctionId": 309002,
+        "bidderAlias": "1",
+        "amount": 222500,
+        "type": "NORMAL",
+        "maxBidId": 10924256,
+        "triggeredBy": 10924256,
+        "createdAt": "2026-11-02T11:45:27.274605+00:00",
+        "updatedAt": "2026-11-02T11:45:27.274614+00:00"
+      },
+      {
+        "id": 18694763,
+        "auctionId": 309002,
+        "bidderAlias": "2",
+        "amount": 222000,
+        "type": "AUTO",
+        "maxBidId": 10924248,
+        "triggeredBy": 10924254,
+        "createdAt": "2026-11-02T11:45:19.475374+00:00",
+        "updatedAt": "2026-11-02T11:45:19.475377+00:00"
+      },
+      {
+        "id": 18694762,
+        "auctionId": 309002,
+        "bidderAlias": "1",
+        "amount": 221500,
+        "type": "NORMAL",
+        "maxBidId": 10924254,
+        "triggeredBy": 10924254,
+        "createdAt": "2026-11-02T11:45:19.475365+00:00",
+        "updatedAt": "2026-11-02T11:45:19.475371+00:00"
+      },
+      {
+        "id": 18694753,
+        "auctionId": 309002,
+        "bidderAlias": "2",
+        "amount": 221000,
+        "type": "NORMAL",
+        "maxBidId": 10924248,
+        "triggeredBy": 10924248,
+        "createdAt": "2026-11-02T11:44:08.393107+00:00",
+        "updatedAt": "2026-11-02T11:44:08.393116+00:00"
+      },
+      {
+        "id": 18694746,
+        "auctionId": 309002,
+        "bidderAlias": "1",
+        "amount": 220500,
+        "type": "AUTO",
+        "maxBidId": 10924243,
+        "triggeredBy": 10924244,
+        "createdAt": "2026-11-02T11:43:49.541011+00:00",
+        "updatedAt": "2026-11-02T11:43:49.541014+00:00"
+      },
+      {
+        "id": 18694745,
+        "auctionId": 309002,
+        "bidderAlias": "2",
+        "amount": 220000,
+        "type": "NORMAL",
+        "maxBidId": 10924244,
+        "triggeredBy": 10924244,
+        "createdAt": "2026-11-02T11:43:49.541002+00:00",
+        "updatedAt": "2026-11-02T11:43:49.541008+00:00"
+      },
+      {
+        "id": 18694744,
+        "auctionId": 309002,
+        "bidderAlias": "1",
+        "amount": 214500,
+        "type": "NORMAL",
+        "maxBidId": 10924243,
+        "triggeredBy": 10924243,
+        "createdAt": "2026-11-02T11:43:42.922817+00:00",
+        "updatedAt": "2026-11-02T11:43:42.922824+00:00"
+      },
+      {
+        "id": 18694738,
+        "auctionId": 309002,
+        "bidderAlias": "2",
+        "amount": 214000,
+        "type": "NORMAL",
+        "maxBidId": 10924239,
+        "triggeredBy": 10924239,
+        "createdAt": "2026-11-02T11:43:17.420528+00:00",
+        "updatedAt": "2026-11-02T11:43:17.420530+00:00"
+      },
+      {
+        "id": 18694737,
+        "auctionId": 309002,
+        "bidderAlias": "3",
+        "amount": 213500,
+        "type": "LIMIT_REACHED",
+        "maxBidId": 10924234,
+        "triggeredBy": 10924239,
+        "createdAt": "2026-11-02T11:43:17.420518+00:00",
+        "updatedAt": "2026-11-02T11:43:17.420525+00:00"
+      },
+      {
+        "id": 18694734,
+        "auctionId": 309002,
+        "bidderAlias": "3",
+        "amount": 212500,
+        "type": "AUTO",
+        "maxBidId": 10924234,
+        "triggeredBy": 10924237,
+        "createdAt": "2026-11-02T11:43:12.629079+00:00",
+        "updatedAt": "2026-11-02T11:43:12.629082+00:00"
+      },
+      {
+        "id": 18694733,
+        "auctionId": 309002,
+        "bidderAlias": "2",
+        "amount": 212000,
+        "type": "NORMAL",
+        "maxBidId": 10924237,
+        "triggeredBy": 10924237,
+        "createdAt": "2026-11-02T11:43:12.629066+00:00",
+        "updatedAt": "2026-11-02T11:43:12.629074+00:00"
+      },
+      {
+        "id": 18694728,
+        "auctionId": 309002,
+        "bidderAlias": "3",
+        "amount": 211500,
+        "type": "NORMAL",
+        "maxBidId": 10924234,
+        "triggeredBy": 10924234,
+        "createdAt": "2026-11-02T11:42:24.886845+00:00",
+        "updatedAt": "2026-11-02T11:42:24.886854+00:00"
+      },
+      {
+        "id": 18694724,
+        "auctionId": 309002,
+        "bidderAlias": "2",
+        "amount": 211000,
+        "type": "NORMAL",
+        "maxBidId": 10924231,
+        "triggeredBy": 10924231,
+        "createdAt": "2026-11-02T11:41:36.360345+00:00",
+        "updatedAt": "2026-11-02T11:41:36.360350+00:00"
+      },
+      {
+        "id": 18694721,
+        "auctionId": 309002,
+        "bidderAlias": "1",
+        "amount": 210500,
+        "type": "AUTO",
+        "maxBidId": 10923494,
+        "triggeredBy": 10924229,
+        "createdAt": "2026-11-02T11:41:29.985319+00:00",
+        "updatedAt": "2026-11-02T11:41:29.985320+00:00"
+      },
+      {
+        "id": 18694720,
+        "auctionId": 309002,
+        "bidderAlias": "2",
+        "amount": 210000,
+        "type": "NORMAL",
+        "maxBidId": 10924229,
+        "triggeredBy": 10924229,
+        "createdAt": "2026-11-02T11:41:29.985309+00:00",
+        "updatedAt": "2026-11-02T11:41:29.985316+00:00"
+      },
+      {
+        "id": 18694719,
+        "auctionId": 309002,
+        "bidderAlias": "1",
+        "amount": 206500,
+        "type": "AUTO",
+        "maxBidId": 10923494,
+        "triggeredBy": 10924228,
+        "createdAt": "2026-11-02T11:41:26.487486+00:00",
+        "updatedAt": "2026-11-02T11:41:26.487489+00:00"
+      },
+      {
+        "id": 18694718,
+        "auctionId": 309002,
+        "bidderAlias": "2",
+        "amount": 206000,
+        "type": "NORMAL",
+        "maxBidId": 10924228,
+        "triggeredBy": 10924228,
+        "createdAt": "2026-11-02T11:41:26.487476+00:00",
+        "updatedAt": "2026-11-02T11:41:26.487484+00:00"
+      },
+      {
+        "id": 18694680,
+        "auctionId": 309002,
+        "bidderAlias": "1",
+        "amount": 205500,
+        "type": "AUTO",
+        "maxBidId": 10923494,
+        "triggeredBy": 10924208,
+        "createdAt": "2026-11-02T11:36:33.826825+00:00",
+        "updatedAt": "2026-11-02T11:36:33.826830+00:00"
+      },
+      {
+        "id": 18694679,
+        "auctionId": 309002,
+        "bidderAlias": "4",
+        "amount": 205000,
+        "type": "NORMAL",
+        "maxBidId": 10924208,
+        "triggeredBy": 10924208,
+        "createdAt": "2026-11-02T11:36:33.826808+00:00",
+        "updatedAt": "2026-11-02T11:36:33.826820+00:00"
+      },
+      {
+        "id": 18694668,
+        "auctionId": 309002,
+        "bidderAlias": "1",
+        "amount": 204000,
+        "type": "AUTO",
+        "maxBidId": 10923494,
+        "triggeredBy": 10924202,
+        "createdAt": "2026-11-02T11:34:50.087093+00:00",
+        "updatedAt": "2026-11-02T11:34:50.087095+00:00"
+      },
+      {
+        "id": 18694667,
+        "auctionId": 309002,
+        "bidderAlias": "3",
+        "amount": 203500,
+        "type": "NORMAL",
+        "maxBidId": 10924202,
+        "triggeredBy": 10924202,
+        "createdAt": "2026-11-02T11:34:50.087084+00:00",
+        "updatedAt": "2026-11-02T11:34:50.087090+00:00"
+      },
+      {
+        "id": 18694417,
+        "auctionId": 309002,
+        "bidderAlias": "1",
+        "amount": 200500,
+        "type": "AUTO",
+        "maxBidId": 10923494,
+        "triggeredBy": 10924061,
+        "createdAt": "2026-11-02T10:54:28.874801+00:00",
+        "updatedAt": "2026-11-02T10:54:28.874805+00:00"
+      },
+      {
+        "id": 18694416,
+        "auctionId": 309002,
+        "bidderAlias": "2",
+        "amount": 200000,
+        "type": "NORMAL",
+        "maxBidId": 10924061,
+        "triggeredBy": 10924061,
+        "createdAt": "2026-11-02T10:54:28.874788+00:00",
+        "updatedAt": "2026-11-02T10:54:28.874797+00:00"
+      },
+      {
+        "id": 18693488,
+        "auctionId": 309002,
+        "bidderAlias": "1",
+        "amount": 199000,
+        "type": "NORMAL",
+        "maxBidId": 10923494,
+        "triggeredBy": 10923494,
+        "createdAt": "2026-11-02T09:48:01.776827+00:00",
+        "updatedAt": "2026-11-02T09:48:01.776837+00:00"
+      }
+    ],
+    "myBidderAlias": null,
+    "myMaxBid": null,
+    "highestBid": {
+      "id": 18694778,
+      "auctionId": 309002,
+      "bidderAlias": null,
+      "amount": 226000,
+      "type": "NORMAL",
+      "maxBidId": 10924262,
+      "triggeredBy": 10924262,
+      "createdAt": "2026-11-02T11:45:53.846983+00:00",
+      "updatedAt": "2026-11-02T11:45:53.846985+00:00",
+      "eurAmount": 20590
+    },
+    "buyNowAvailable": false,
+    "releasing": null,
+    "isHighestBidLowerThanResidualLoanValue": false
+  },
+  "checkoutOrder": null,
+  "previewImage": "https://kvdbil-images.imgix.net/7290497/537505b1.jpg",
+  "_list_meta": {
+    "id": "309002",
+    "slug": "peugeot-2008-1-2-hybrid-145hk",
+    "auctionType": "BIDDING",
+    "closedAt": "2026-11-02T11:49:23.852124+00:00",
+    "updatedAt": "2026-11-02T13:55:15.002959+00:00"
+  },
+  "_scraped_at": "2026-11-02T20:42:47.289226+00:00",
+  "_url": "https://www.kvd.se/auktioner/peugeot-2008-1-2-hybrid-145hk-309002"
+}
