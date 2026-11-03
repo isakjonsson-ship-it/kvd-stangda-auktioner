@@ -1,0 +1,2123 @@
+{
+  "id": "309215",
+  "auctionType": "BIDDING",
+  "biddingFee": "6900.00",
+  "biddingFeeCorporate": "9875.00",
+  "mediationFee": 0,
+  "mediationFeeCorporate": 0,
+  "buyNow": false,
+  "closedAt": "2026-11-03T11:57:53.531189+00:00",
+  "publishedAt": "2026-10-28T10:22:59.943882+00:00",
+  "countdownDuration": 210,
+  "countdownStartAt": "2026-11-03T11:43:30+00:00",
+  "createdAt": "2026-10-27T12:49:04.243903+00:00",
+  "readyForAuctionAt": "2026-10-26",
+  "currency": "SEK",
+  "maxBidRaise": 100000,
+  "minBidRaise": 500,
+  "startBid": 192000,
+  "openedAt": "2026-10-28T14:50:24.245905+00:00",
+  "processObjectId": "7290271",
+  "readyForCheckout": true,
+  "soldFor": 312500,
+  "sellMethod": "BIDDING",
+  "slug": "iveco-daily-35-2-3-156hk",
+  "auctionUrl": "https://www.kvd.se/auktioner/iveco-daily-35-2-3-156hk-309215",
+  "state": "WINNER_CHECKOUT_PENDING",
+  "targetedAuctionGroupId": null,
+  "updatedAt": "2026-11-03T13:55:27.688175+00:00",
+  "releasing": null,
+  "loan": {
+    "loanCost": 2662,
+    "loanCostBuyNow": null
+  },
+  "buyNowAmount": null,
+  "buyNowAvailable": false,
+  "buyNowUntil": null,
+  "eligibleForAdditionalServices": true,
+  "comingSoon": false,
+  "preliminaryPrice": 385000,
+  "maxAllowedBid": 577500,
+  "isReserved": false,
+  "isSoldByBuyNow": false,
+  "favouriteCount": 13,
+  "eurBuyNowAmount": null,
+  "winningBid": {
+    "id": "122273",
+    "type": "BIDDER",
+    "state": "ACTIVE",
+    "amount": 312500,
+    "brokerId": "microservice",
+    "auctionId": "309215",
+    "createdAt": "2026-11-03T13:55:27.426161+00:00",
+    "updatedAt": "2026-11-03T13:55:27.662693+00:00",
+    "evaluationType": "BROKERING"
+  },
+  "processObject": {
+    "proactiveBrokering": null,
+    "orderableAdditionalServices": {
+      "tradein": false,
+      "transport": true,
+      "insurance": true,
+      "finance": true,
+      "warranty": true,
+      "extraTires": false
+    },
+    "sellMethod": "BIDDING",
+    "isFixedPrice": false,
+    "buyNowAmount": null,
+    "statisticalValuation": null,
+    "state": "AUCTION_RESOLUTION",
+    "baseObjectId": "519147",
+    "properties": {
+      "initialTrafficDate": "2023-06-08",
+      "registrationCountry": "se",
+      "manufactureMonth": "202209",
+      "heavyEquipment": false,
+      "deductibleVat": true,
+      "formattedEquipment": [
+        {
+          "key": "AC",
+          "title": "AC",
+          "description": "Luftkonditionering utan möjlighet till automatisk temperaturinställning",
+          "priority": 0
+        },
+        {
+          "key": "ANTISLADDSYSTEM",
+          "title": "Antisladdsystem",
+          "description": "Ett system som känner av om bilen håller på att sladda. Genom att bromsa enskilda hjul stabiliseras bilen och sladden förhindras, även kallat ESP.",
+          "priority": 1
+        },
+        {
+          "key": "ANTISPINN",
+          "title": "Antispinn",
+          "description": "Hjälpsystem som förhindrar att hjulen spinner",
+          "priority": 2
+        },
+        {
+          "key": "AUTO_HOLD",
+          "title": "Auto hold",
+          "description": "Hindrar bilen tillfälligt från att rulla bakåt när du startar i motlut",
+          "priority": 3
+        },
+        {
+          "key": "AUTOBROMS",
+          "title": "Autobroms",
+          "description": "Automatisk inbromsning vid lägre hastigheter för mötande fordon och hinder framför bilen (City Safety)",
+          "priority": 4
+        },
+        {
+          "key": "AUX_INGANG",
+          "title": "AUX-ingång",
+          "description": "Stereoinkoppling av mobil enhet",
+          "priority": 5
+        },
+        {
+          "key": "BACKKAMERA",
+          "title": "Backkamera",
+          "description": "Kamera som underlättar vid backning",
+          "priority": 6
+        },
+        {
+          "key": "BLUETOOTH",
+          "title": "Bluetooth",
+          "description": "Trådlös uppkoppling mot mobila enheter",
+          "priority": 7
+        },
+        {
+          "key": "ELHISS_FRAM",
+          "title": "Elhiss fram",
+          "description": "Elektronisk fönsterhiss fram",
+          "priority": 8
+        },
+        {
+          "key": "ELSPEGLAR",
+          "title": "Elspeglar",
+          "description": "Elektroniskt ställbara sidospeglar",
+          "priority": 9
+        },
+        {
+          "key": "FARTHALLARE",
+          "title": "Farthållare",
+          "description": "Elektroniskt system som håller inprogrammerad hastighet",
+          "priority": 10
+        },
+        {
+          "key": "FJARRLAS",
+          "title": "Fjärrlås",
+          "description": "Möjliggör att du på distans kan låsa och låsa upp bilen",
+          "priority": 11
+        },
+        {
+          "key": "KLIMATANLAGGNING",
+          "title": "Klimatanläggning",
+          "description": "Luftkonditionering med möjlighet till automatisk temperaturinställning",
+          "priority": 12
+        },
+        {
+          "key": "PARKERINGSVARMARE_MED_TIDUR",
+          "title": "Parkeringsvärmare med tidur",
+          "description": null,
+          "priority": 13
+        },
+        {
+          "key": "RADIO",
+          "title": "Radio",
+          "description": "Radiospelare",
+          "priority": 14
+        },
+        {
+          "key": "REGNSENSOR",
+          "title": "Regnsensor",
+          "description": "Automatiska vindrutetorkare, sensorer som reagerar på vatten",
+          "priority": 15
+        },
+        {
+          "key": "START_STOP_FUNKTION",
+          "title": "Start/Stopp-funktion",
+          "description": "Automatisk på och avstängning av motor vid exempelvis trafikljus",
+          "priority": 16
+        },
+        {
+          "key": "STOLSVARME_FRAM",
+          "title": "Stolsvärme fram",
+          "description": "Olika nivåer av värme i stolarna fram som ställs in via en knapp",
+          "priority": 17
+        },
+        {
+          "key": "USB_INGANG",
+          "title": "USB-ingång",
+          "description": "Inkoppling av mobil enhet via USB-kontakt",
+          "priority": 18
+        },
+        {
+          "key": "XENON_LJUS",
+          "title": "Xenon-ljus",
+          "description": "Xenonljus ändrar färg från blått till vitt då lampan är kall",
+          "priority": 19
+        }
+      ],
+      "brand": "Iveco",
+      "title": "Iveco Daily 35 2.3 Volymskåp (156hk)",
+      "exportable": true,
+      "residualLoanValue": 273938,
+      "remarks": {
+        "INTERIOR": [
+          {
+            "key": "Klädsel smutsig",
+            "category": "INTERIOR",
+            "id": "0"
+          }
+        ],
+        "ENGINE_AND_GEARBOX": [],
+        "EXTERIOR": [
+          {
+            "key": "Spricka i bakljus vänster sida",
+            "category": "EXTERIOR",
+            "id": "0"
+          },
+          {
+            "key": "Skada höger sidospegel,",
+            "category": "EXTERIOR",
+            "id": "1"
+          }
+        ],
+        "BRAKES": [],
+        "TIRES": [],
+        "TECHNOLOGY_AND_EQUIPMENT": [
+          {
+            "key": "AC fungerar men kyler dåligt",
+            "category": "TECHNOLOGY_AND_EQUIPMENT",
+            "id": "0"
+          }
+        ]
+      },
+      "curbWeight": 2600,
+      "grades": {
+        "INTERIOR": {
+          "min": 1,
+          "value": 3,
+          "max": 5
+        },
+        "ENGINE_AND_GEARBOX": {
+          "min": 1,
+          "value": 3,
+          "max": 3
+        },
+        "TOTAL": {
+          "min": 1,
+          "value": 3,
+          "max": 5
+        },
+        "EXTERIOR": {
+          "min": 1,
+          "value": 3,
+          "max": 5
+        },
+        "BRAKES": {
+          "min": 1,
+          "value": 3,
+          "max": 3
+        },
+        "TECHNOLOGY_AND_EQUIPMENT": {
+          "min": 1,
+          "value": 2,
+          "max": 3
+        }
+      },
+      "exteriorColor": "White",
+      "textile": "Textil",
+      "height": 3025,
+      "taxFee": 7185,
+      "familyName": "Daily",
+      "towbar": false,
+      "modelName": "Daily 35 2.3 Volymskåp (156hk)",
+      "equipment": [
+        "AC",
+        "Antisladdsystem",
+        "Antispinn",
+        "Auto hold",
+        "Autobroms",
+        "AUX-ingång",
+        "Backkamera",
+        "Bluetooth",
+        "Elhiss fram",
+        "Elspeglar",
+        "Farthållare",
+        "Fjärrlås",
+        "Klimatanläggning",
+        "Parkeringsvärmare med tidur",
+        "Radio",
+        "Regnsensor",
+        "Start/Stop-funktion",
+        "Stolsvärme fram",
+        "USB-ingång",
+        "Xenon-ljus"
+      ],
+      "remarksLocalized": {
+        "TIRES": null,
+        "BRAKES": null,
+        "EXTERIOR": "Spricka i bakljus vänster sida. Skada höger sidospegel,",
+        "INTERIOR": "Klädsel smutsig",
+        "ENGINE_AND_GEARBOX": null,
+        "TECHNOLOGY_AND_EQUIPMENT": "AC fungerar men kyler dåligt"
+      },
+      "odometerUnit": "km",
+      "odometerReading": 134290,
+      "finishType": "Solid",
+      "registrationPlate": "ODJ00B",
+      "length": 6650,
+      "inspectionPeriod": "2026-06-15 - 2028-06-30",
+      "gearbox": "Automatic",
+      "maxPayload": 900,
+      "registrationPlateCountry": "se",
+      "hasUnpaidLoan": true,
+      "totalWeight": 3500,
+      "numberOfKeys": 2,
+      "environmentalClassEuro": "VI",
+      "body": "Van",
+      "taxWeight": 3500,
+      "isRepairObject": false,
+      "importedForPersonalUse": false,
+      "saleLimitedToCorporate": false,
+      "maxTrailerWeight": 3500,
+      "mediation": true,
+      "ecoFriendly": false,
+      "inspectionValidToDate": "2028-06-30",
+      "mustExport": false,
+      "fuels": [
+        {
+          "fuelCode": "Diesel",
+          "enginePower": 156
+        }
+      ],
+      "dateOfInspection": "2026-06-15",
+      "width": 2180,
+      "modelYear": 2023,
+      "chassisNumber": "ZCFCB35B805513432",
+      "drivingBan": false,
+      "numberOfPreviousOwners": 1,
+      "maxPullWeightB": 750,
+      "numberOfSeats": 3,
+      "heading1": "Iveco Daily",
+      "heading2": "35 2.3 Volymskåp",
+      "heading3": null
+    },
+    "leaseReturnProperties": {},
+    "vehicleType": "LIGHT_TRANSPORT",
+    "id": "7290271",
+    "createdAt": "2026-09-28 14:55:13.363437+00:00",
+    "objectType": "LIGHT_TRUCK",
+    "displayCar360Spin": true,
+    "testDriveAllowed": true,
+    "baseObject": {
+      "registrationCountry": "se",
+      "gearbox": "Automatic",
+      "salesFlow": "CORPORATE_CARS_SMALL",
+      "familyName": null,
+      "state": "CREATED",
+      "brand": null,
+      "earliestAvailableAt": null,
+      "authorityRegisterInformation": {
+        "environmentalClassification": {
+          "fuels": [
+            {
+              "co2": "",
+              "nox": "",
+              "nox4": null,
+              "fuelCode": "Diesel",
+              "hcThcNox": "",
+              "consumption": "",
+              "noiseLevel": 73,
+              "emissionUnit": "g/km",
+              "innovationCo2": null,
+              "particleValue": "",
+              "particleMass4": null,
+              "consumptionUnit": "",
+              "rangeNedcDrive": null,
+              "rangeWltpDrive": null,
+              "consumptionUrban": "",
+              "rangeCityWltpDrive": null,
+              "consumptionExtraUrban": "",
+              "electricEnergyConsumption": null,
+              "energyConsumptionWltpDrive": null
+            }
+          ],
+          "ecoFriendly": false,
+          "emissionClass": "EURO 6",
+          "innovationCode": null,
+          "environmentalClass": null,
+          "environmentalClassEuro": "VI"
+        },
+        "vehicleInformation": {
+          "vin": "ZCFCB35B805513432",
+          "body": "BA",
+          "type": "LIGHT_TRUCK",
+          "year": "2022",
+          "model": null,
+          "rawType": "LB",
+          "modelYear": null,
+          "categoryEu": null,
+          "groupNumber": "IO 010000",
+          "modelNumber": "IO 000000",
+          "chassisNumber": "ZCFCB35B805513432",
+          "exteriorColor": "White",
+          "fabricAndMake": "IVECO",
+          "baseObjectType": "LIGHT_TRUCK",
+          "manufactureCode": null,
+          "manufactureMonth": "202209",
+          "registrationDate": "2023-05-11",
+          "initialTrafficDate": "2023-06-08",
+          "registrationPlateReused": null
+        },
+        "vehicleInspectionInformation": {
+          "inspections": [
+            {
+              "inspectionType": "5",
+              "odometerReading": 120588,
+              "dateOfInspection": "2026-06-15"
+            },
+            {
+              "inspectionType": "19",
+              "odometerReading": null,
+              "dateOfInspection": "2022-10-12"
+            }
+          ],
+          "inspectionGroup": "36/24/14",
+          "odometerReading": 120588,
+          "inspectionPeriod": "2026-06-15 - 2028-06-30",
+          "dateOfInspection": "2026-06-15",
+          "inspectionValidToDate": "2028-06-30",
+          "inspectionExemptionGroup": null
+        },
+        "vehicleStatus": {
+          "tax": 7185
+        },
+        "additionalTechSpecification": {
+          "raceCar": null,
+          "wheelbase1": 3750,
+          "wheelbase2": null,
+          "wheelbase3": null,
+          "wheelbase4": null,
+          "equipment1": "LYFT",
+          "equipment2": null,
+          "equipment3": null,
+          "maximumSpeed": 160,
+          "numAxleShafts": 2,
+          "passengerAirBag": false,
+          "tyreDimensionRear": "225/65R16C",
+          "tyreDimensionFront": "225/65R16C",
+          "dualSteeringControl": null
+        },
+        "registrationInformation": {
+          "registrationPlate": "ODJ00B",
+          "deregistrationDate": null,
+          "deregistrationText": null,
+          "deregistrationReason": null
+        },
+        "generalTechSpecification": {
+          "eeg": null,
+          "fuels": [
+            {
+              "fuelCode": "Diesel",
+              "powerUnit": "EG",
+              "enginePower": 115,
+              "enginePowerHp": 156,
+              "fuelTankVolume": ""
+            }
+          ],
+          "width": 2180,
+          "height": 3025,
+          "length": 6650,
+          "gearbox": "Automatic",
+          "variant": null,
+          "version": null,
+          "taxWeight": 3500,
+          "curbWeight": 2600,
+          "maxPayload": 900,
+          "totalWeight": 3500,
+          "chassisCode1": null,
+          "chassisCode2": null,
+          "cubicCapacity": "2287",
+          "numPassengers": "2",
+          "numberOfSeats": 3,
+          "fourWheelDrive": false,
+          "maxPullWeightB": 750,
+          "clutchMechanism1": null,
+          "clutchMechanism2": null,
+          "maxTrailerWeight": 3500,
+          "chassisCodeSupplement": null,
+          "maxPullWieghtNoBreaks": null,
+          "maxPullWeightBExtended": null,
+          "maxSingle Axle TrailerWeight": null
+        },
+        "vehicleOrigin": {
+          "originCode": "INFÖRT",
+          "originCodeReason": null,
+          "importerIdentifier": null,
+          "preRegistrationDate": null,
+          "importRegistrationDate": null,
+          "importedForPersonalUse": false,
+          "importedPreviouslyRegistered": false
+        }
+      },
+      "modelName": null,
+      "fuels": [
+        {
+          "fuelCode": "Diesel",
+          "powerUnit": "EG",
+          "enginePower": 115,
+          "enginePowerHp": 156,
+          "fuelTankVolume": ""
+        }
+      ],
+      "modelId": null,
+      "fabricAndMake": "IVECO",
+      "id": "519147",
+      "baseObjectType": "LIGHT_TRUCK",
+      "createdAt": "2026-09-28T14:55:01.527811+00:00",
+      "exteriorColor": "White",
+      "body": null,
+      "odometerUnit": "km",
+      "odometerReading": 120588,
+      "year": null,
+      "registrationPlate": "ODJ00B",
+      "technicalSpecification": {
+        "modelId": null,
+        "vehicle": {
+          "brand": null,
+          "body": null,
+          "modelName": null,
+          "familyName": null
+        },
+        "year": null
+      }
+    },
+    "isReleasable": false,
+    "presentationApproved": false,
+    "initialBuyNowAmount": null,
+    "car360Spin": null,
+    "certified": false,
+    "offsiteSalesContact": null,
+    "reducedPrice": false,
+    "conditionClassification": "TESTED",
+    "exportable": true,
+    "deductibleVat": true,
+    "collisionWarranty": null,
+    "title": "Iveco Daily 35 2.3 Volymskåp (156hk)",
+    "brand": "Iveco",
+    "familyName": "Daily",
+    "modelName": "Daily 35 2.3 Volymskåp (156hk)",
+    "package": null,
+    "heading1": "Iveco Daily",
+    "heading2": "35 2.3 Volymskåp",
+    "heading3": null,
+    "media": [
+      {
+        "processObjectId": "7290271",
+        "uri": "https://kvdbil-images.imgix.net/7290271/ae343c43.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7290271/ae343c43.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 1
+      },
+      {
+        "processObjectId": "7290271",
+        "uri": "https://kvdbil-images.imgix.net/7290271/f81df503.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7290271/f81df503.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 1
+      },
+      {
+        "processObjectId": "7290271",
+        "uri": "https://kvdbil-images.imgix.net/7290271/c40d2e47.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7290271/c40d2e47.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 2
+      },
+      {
+        "processObjectId": "7290271",
+        "uri": "https://kvdbil-images.imgix.net/7290271/8748a934.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7290271/8748a934.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 3
+      },
+      {
+        "processObjectId": "7290271",
+        "uri": "https://kvdbil-images.imgix.net/7290271/bacd5d28.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7290271/bacd5d28.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 4
+      },
+      {
+        "processObjectId": "7290271",
+        "uri": "https://kvdbil-images.imgix.net/7290271/c495e2ed.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7290271/c495e2ed.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 4
+      },
+      {
+        "processObjectId": "7290271",
+        "uri": "https://kvdbil-images.imgix.net/7290271/58dd9b37.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7290271/58dd9b37.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 5
+      },
+      {
+        "processObjectId": "7290271",
+        "uri": "https://kvdbil-images.imgix.net/7290271/5a15f4c4.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7290271/5a15f4c4.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 6
+      },
+      {
+        "processObjectId": "7290271",
+        "uri": "https://kvdbil-images.imgix.net/7290271/6c9fe931.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7290271/6c9fe931.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 6
+      },
+      {
+        "processObjectId": "7290271",
+        "uri": "https://kvdbil-images.imgix.net/7290271/2794acd9.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7290271/2794acd9.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 7
+      },
+      {
+        "processObjectId": "7290271",
+        "uri": "https://kvdbil-images.imgix.net/7290271/a47a7164.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7290271/a47a7164.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 8
+      },
+      {
+        "processObjectId": "7290271",
+        "uri": "https://kvdbil-images.imgix.net/7290271/f0fe1c4f.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7290271/f0fe1c4f.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 9
+      },
+      {
+        "processObjectId": "7290271",
+        "uri": "https://kvdbil-images.imgix.net/7290271/31bc0959.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7290271/31bc0959.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 9
+      },
+      {
+        "processObjectId": "7290271",
+        "uri": "https://kvdbil-images.imgix.net/7290271/1b42acf9.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7290271/1b42acf9.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 10
+      },
+      {
+        "processObjectId": "7290271",
+        "uri": "https://kvdbil-images.imgix.net/7290271/ab1ba615.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7290271/ab1ba615.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 11
+      },
+      {
+        "processObjectId": "7290271",
+        "uri": "https://kvdbil-images.imgix.net/7290271/ba41e6c2.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7290271/ba41e6c2.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 11
+      },
+      {
+        "processObjectId": "7290271",
+        "uri": "https://kvdbil-images.imgix.net/7290271/805d5fe2.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7290271/805d5fe2.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 12
+      },
+      {
+        "processObjectId": "7290271",
+        "uri": "https://kvdbil-images.imgix.net/7290271/4a6526fa.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7290271/4a6526fa.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 13
+      },
+      {
+        "processObjectId": "7290271",
+        "uri": "https://kvdbil-images.imgix.net/7290271/f60b359c.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7290271/f60b359c.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 14
+      },
+      {
+        "processObjectId": "7290271",
+        "uri": "https://kvdbil-images.imgix.net/7290271/27bd32fe.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7290271/27bd32fe.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 15
+      },
+      {
+        "processObjectId": "7290271",
+        "uri": "https://kvdbil-images.imgix.net/7290271/ac8199e7.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7290271/ac8199e7.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 15
+      }
+    ],
+    "locationInfo": {
+      "id": "554719",
+      "processObjectId": "7290271",
+      "locationType": "FACILITY",
+      "createdAt": "2026-10-27T12:16:21.599393+00:00",
+      "updatedAt": "2026-10-27T12:16:21.599396+00:00",
+      "facilityId": "45edd5d1-d6a4-4abd-99a8-5335ef7a1968",
+      "parkingZone": "A",
+      "parkingNumber": null,
+      "outgoingTime": null,
+      "leftAt": null,
+      "outgoingType": null,
+      "publicFacilityId": "45edd5d1-d6a4-4abd-99a8-5335ef7a1968",
+      "facility": {
+        "id": "45edd5d1-d6a4-4abd-99a8-5335ef7a1968",
+        "name": "Staffanstorp",
+        "operator": "PARTNER",
+        "legacyIdentifiers": [
+          "Staffanstorp"
+        ],
+        "objectTypes": [
+          "LIGHT_TRANSPORT"
+        ],
+        "createdAt": "2025-06-25T08:34:57.736116+00:00",
+        "calendarOrganisationalUnitId": "48",
+        "parkingAreas": [],
+        "active": true,
+        "latitude": 55.648804667021,
+        "longitude": 13.235487257187277,
+        "distance": null,
+        "address": "Flisvägen 16",
+        "postCode": "24534",
+        "city": "Staffanstorp",
+        "facilityType": "MTV_LU",
+        "facilityMapUrl": "https://www.google.com/maps/dir/55.648804667021,13.235487257187277/@55.648804667021,13.235487257187277,z13",
+        "contactPhone": "+46708392787",
+        "contactEmail": "filial.staffanstorp@kvdbil.se",
+        "allowIncomingTransport": true,
+        "allowLeaseReturns": false,
+        "allowUnplannedDropOffFleetManager": true,
+        "parentFacilityId": null,
+        "publicFacilityId": "45edd5d1-d6a4-4abd-99a8-5335ef7a1968"
+      }
+    },
+    "valuation": {
+      "id": 238775,
+      "processObjectId": "7290271",
+      "valuatorComment": {
+        "da": "Her har vi en Iveco Daily med automatgear, der gør hver arbejdsdag lettere og mere afslappet. AC og bluetooth giver en komfortabel kabine og nem forbindelse under turen, mens automatisk bremsning bidrager til ekstra sikkerhed. Bakkamera hjælper dig ved parkering og trange manøvrer. Synet til juni 2028.",
+        "de": "Hier haben wir einen Iveco Daily mit Automatik, der jeden Arbeitstag reibungsloser und entspannter macht. Klimaanlage und Bluetooth sorgen für eine komfortable Kabine und einfache Verbindung während der Fahrt, während die automatische Bremse zu zusätzlicher Sicherheit beiträgt. Die Rückfahrkamera hilft beim Parken und engen Manövern. Geprüft bis Juni 2028.",
+        "en": "Here we have an Iveco Daily with automatic transmission that makes every workday smoother and more relaxed. AC and bluetooth provide a comfortable cabin and easy connectivity during the trip, while automatic braking contributes to extra safety. Rear camera helps you with parking and tight maneuvers. Inspected until June 2028.",
+        "et": "Siin on Iveco Daily automaatkäigukastiga, mis teeb iga tööpäeva sujuvamaks ja lõdvestunumaks. AC ja bluetooth tagavad mugava kabiini ja lihtsa ühenduvuse sõidu ajal, samal ajal kui automaatpidur aitab lisaturvalisuse tagamisel. Tagurukaamera aitab parkimisel ja kitsastel manöövritel. Kontrollitud kuni juuni 2028.",
+        "fi": "Tässä on Iveco Daily automaattivaihteistolla, joka tekee jokaisesta työpäivästä sujuvamman ja rentouttavamman. Ilmastointi ja bluetooth tarjoavat mukavan ohjaamon ja helpon yhdistettävyyden matkan aikana, kun taas automaattijarrutus lisää lisäturvaa. Peruutuskamera auttaa pysäköinnissä ja ahtaissa maneereissa. Katsastettu kesäkuuhun 2028 saakka.",
+        "pl": "Tutaj mamy Iveco Daily z automatyczną skrzynią biegów, który sprawia, że każdy dzień pracy jest płynniejszy i bardziej relaksujący. Klimatyzacja i bluetooth zapewniają wygodną kabinę i łatwe połączenie podczas podróży, podczas gdy automatyczne hamowanie przyczynia się do większego bezpieczeństwa. Kamera cofania pomaga przy parkowaniu i ciasnych manewrach. Sprawdzony do czerwca 2028.",
+        "sv": "Här har vi en Iveco Daily med automat som gör varje arbetsdag smidigare och mer avkopplad. AC och bluetooth ger en bekväm kupé och enkel uppkoppling under resan, medan autobroms bidrar till extra säkerhet. Backkamera hjälper dig vid parkering och trånga manövrar. Besiktigad till juni 2028."
+      },
+      "generatedValuatorComment": {
+        "en": "",
+        "sv": "Här har vi en Iveco Daily med automat som gör varje arbetsdag smidigare och mer avkopplad. AC och bluetooth ger en bekväm kupé och enkel uppkoppling under resan, medan autobroms bidrar till extra säkerhet. Backkamera hjälper dig vid parkering och trånga manövrar. Besiktigad till juni 2028."
+      },
+      "carDealerPrice": 385000,
+      "endUserTestProtocol": {
+        "tires": {
+          "mountedTires": {
+            "other": {
+              "rimSize": "16",
+              "rimType": "Plåtfälg",
+              "tireType": "Sommardäck",
+              "otherInfo": "Behövs ej",
+              "tireTypeKey": "SUMMER_TIRES"
+            },
+            "grades": {
+              "rearLeft": 3,
+              "frontLeft": 2,
+              "rearRight": 3,
+              "frontRight": 2
+            },
+            "treadDepths": {
+              "rearLeft": 5,
+              "frontLeft": 4,
+              "rearRight": 5,
+              "frontRight": 4
+            }
+          }
+        },
+        "grades": {
+          "TOTAL": {
+            "max": 5,
+            "min": 1,
+            "value": 3
+          },
+          "BRAKES": {
+            "max": 3,
+            "min": 1,
+            "value": 3
+          },
+          "EXTERIOR": {
+            "max": 5,
+            "min": 1,
+            "value": 3
+          },
+          "INTERIOR": {
+            "max": 5,
+            "min": 1,
+            "value": 3
+          },
+          "ENGINE_AND_GEARBOX": {
+            "max": 3,
+            "min": 1,
+            "value": 3
+          },
+          "TECHNOLOGY_AND_EQUIPMENT": {
+            "max": 3,
+            "min": 1,
+            "value": 2
+          }
+        },
+        "towbar": false,
+        "remarks": {
+          "BRAKES": [],
+          "EXTERIOR": [
+            {
+              "id": "72902712",
+              "key": "Spricka i bakljus vänster sida. Skada höger sidospegel,",
+              "other": null,
+              "point": 0,
+              "category": "EXTERIOR",
+              "text": "Spricka i bakljus vänster sida. Skada höger sidospegel,"
+            }
+          ],
+          "INTERIOR": [
+            {
+              "id": "72902711",
+              "key": "Klädsel smutsig",
+              "other": null,
+              "point": 0,
+              "category": "INTERIOR",
+              "text": "Klädsel smutsig"
+            }
+          ],
+          "ENGINE_AND_GEARBOX": [],
+          "TECHNOLOGY_AND_EQUIPMENT": [
+            {
+              "id": "72902714",
+              "key": "AC fungerar men kyler dåligt.",
+              "other": null,
+              "point": 0,
+              "category": "TECHNOLOGY_AND_EQUIPMENT",
+              "text": "AC fungerar men kyler dåligt."
+            }
+          ]
+        },
+        "textile": "Textil",
+        "boatType": null,
+        "equipment": [
+          "Backkamera",
+          "AC",
+          "Autobroms",
+          "Bluetooth",
+          "Farthållare",
+          "Klimatanläggning",
+          "Start/Stop-funktion",
+          "USB-ingång",
+          "Antisladdsystem",
+          "Antispinn",
+          "Auto hold",
+          "AUX-ingång",
+          "Elhiss fram",
+          "Elspeglar",
+          "Fjärrlås",
+          "Parkeringsvärmare med tidur",
+          "Radio",
+          "Regnsensor",
+          "Stolsvärme fram",
+          "Xenon-ljus"
+        ],
+        "boatWidth": null,
+        "createdAt": "2026-10-27T13:47:14",
+        "boatEngine": null,
+        "boatLength": null,
+        "boatWeight": null,
+        "finishType": "Solid",
+        "protocolId": "261215",
+        "stoveFlames": null,
+        "heatingSystem": null,
+        "numberOfKeys": 2,
+        "boatCeBranded": false,
+        "boatGearModel": null,
+        "numberOfBunks": null,
+        "numberOfSeats": 3,
+        "boatEngineFuel": null,
+        "boatSepticTank": false,
+        "isRepairObject": false,
+        "boatEnginePower": null,
+        "serviceBookType": "ELECTRONIC",
+        "boatExteriorColor": null,
+        "serviceBookStatus": "Ej tillgängligt för denna bilmodell, kontakta märkesverkstad för info",
+        "boatEngineSerialNumber": null,
+        "odometerReadingAfterTest": {
+          "unit": "Mil",
+          "value": 13429
+        },
+        "odometerReadingAfterTestInKm": 134290
+      },
+      "auctionPriceValuation": {
+        "currency": "SEK"
+      },
+      "finalised": true,
+      "includedImageIds": null,
+      "createdAt": "2026-10-27T12:49:04.280683+00:00",
+      "updatedAt": "2026-10-28T10:23:05.944747+00:00",
+      "generatingInProgress": false,
+      "valuatorCommentLocalized": "Här har vi en Iveco Daily med automat som gör varje arbetsdag smidigare och mer avkopplad. AC och bluetooth ger en bekväm kupé och enkel uppkoppling under resan, medan autobroms bidrar till extra säkerhet. Backkamera hjälper dig vid parkering och trånga manövrar. Besiktigad till juni 2028."
+    },
+    "facts": {
+      "default": [
+        {
+          "key": "NUMBER_OF_PREVIOUS_OWNERS",
+          "text": "Antal tidigare ägare",
+          "value": 1,
+          "type": "string"
+        },
+        {
+          "key": "REGISTRATION_PLATE",
+          "text": "Registreringsnummer",
+          "value": "ODJ00B",
+          "type": "string"
+        },
+        {
+          "key": "MODEL_YEAR",
+          "text": "Modellår",
+          "value": 2023,
+          "type": "string"
+        },
+        {
+          "key": "MANUFACTURE_MONTH",
+          "text": "Tillverkningsmånad",
+          "value": "202209",
+          "type": "manufacture_month"
+        },
+        {
+          "key": "ODOMETER_READING",
+          "text": "Mätarställning",
+          "value": 134290,
+          "type": "distance"
+        },
+        {
+          "key": "INITIAL_TRAFFIC_DATE",
+          "text": "Första datum i trafik i Sverige",
+          "value": "2023-06-08",
+          "type": "date"
+        },
+        {
+          "key": "SERVICE_BOOK",
+          "text": "Servicehistorik",
+          "value": "Ej tillgängligt för denna bilmodell, kontakta märkesverkstad för info",
+          "type": "string"
+        },
+        {
+          "key": "SERVICE_BOOK_TYPE",
+          "text": "Servicebok",
+          "value": "Elektronisk",
+          "type": "string"
+        },
+        {
+          "key": "GEARBOX",
+          "text": "Växellåda",
+          "value": "Automat",
+          "type": "string"
+        },
+        {
+          "key": "NUMBER_OF_SEATS",
+          "text": "Antal säten",
+          "value": 3,
+          "type": "string"
+        },
+        {
+          "key": "NUMBER_OF_KEYS",
+          "text": "Antal nycklar",
+          "value": 2,
+          "type": "string"
+        },
+        {
+          "key": "EXTERIOR_COLOR",
+          "text": "Färg",
+          "value": "Vit",
+          "type": "string"
+        },
+        {
+          "key": "FINISH_TYPE",
+          "text": "Lack",
+          "value": "Solid",
+          "type": "string"
+        },
+        {
+          "key": "TEXTILE",
+          "text": "Klädsel",
+          "value": "Textil",
+          "type": "string"
+        },
+        {
+          "key": "MANUFACTURER_WARRANTY",
+          "text": "Nybilsgaranti",
+          "value": "Inte undersökt",
+          "type": "string"
+        },
+        {
+          "key": "COLLISION_WARRANTY",
+          "text": "Vagnskadegaranti",
+          "value": "Inte undersökt",
+          "type": "string"
+        },
+        {
+          "key": "TAX_FEE",
+          "text": "Skatt årsavgift",
+          "value": "7185 SEK",
+          "type": "string"
+        }
+      ],
+      "additional": [
+        {
+          "key": "CHASSIS_NUMBER",
+          "text": "Chassinummer",
+          "value": "ZCFCB35B805513432",
+          "type": "string"
+        },
+        {
+          "key": "ENGINE_EFFECT_DIESEL",
+          "text": "Motoreffekt (diesel)",
+          "value": 156,
+          "type": "engine_power"
+        },
+        {
+          "key": "TOWBAR",
+          "text": "Dragkrok",
+          "value": "Nej",
+          "type": "string"
+        },
+        {
+          "key": "MAX_PAYLOAD",
+          "text": "Maxlastvikt",
+          "value": 900,
+          "type": "weight"
+        },
+        {
+          "key": "INSPECTION_VALID_TO_DATE",
+          "text": "Nästa besiktning senast",
+          "value": "2028-06-30",
+          "type": "string"
+        },
+        {
+          "key": "CURB_WEIGHT",
+          "text": "Tjänstevikt",
+          "value": 2600,
+          "type": "weight"
+        },
+        {
+          "key": "TAX_WEIGHT",
+          "text": "Skattevikt",
+          "value": 3500,
+          "type": "weight"
+        },
+        {
+          "key": "MAX_TRAILER_WEIGHT",
+          "text": "Maximal släpvagnsvikt",
+          "value": 3500,
+          "type": "weight"
+        },
+        {
+          "key": "TOTAL_WEIGHT",
+          "text": "Fordonets totalvikt",
+          "value": 3500,
+          "type": "weight"
+        },
+        {
+          "key": "LENGTH",
+          "text": "Längd",
+          "value": 6650,
+          "type": "length"
+        },
+        {
+          "key": "WIDTH",
+          "text": "Bredd",
+          "value": 2180,
+          "type": "length"
+        },
+        {
+          "key": "HEIGHT",
+          "text": "Höjd",
+          "value": 3025,
+          "type": "length"
+        }
+      ],
+      "other": [
+        {
+          "key": "SOLD_IN_SWEDEN",
+          "text": "Svensksåld",
+          "value": "Ja",
+          "type": "string"
+        },
+        {
+          "key": "EXPORTABLE",
+          "text": "Kan exporteras",
+          "value": "Ja",
+          "type": "string"
+        },
+        {
+          "key": "DEDUCTIBLE_VAT",
+          "text": "Avlyftbar moms",
+          "value": "Ja",
+          "type": "string"
+        }
+      ]
+    },
+    "majorFeature": [
+      {
+        "key": "BACKKAMERA",
+        "title": "Backkamera",
+        "value": null,
+        "equipment": "Utrustning",
+        "description": "Kamera som underlättar vid backning"
+      },
+      {
+        "key": "AC",
+        "title": "AC",
+        "value": null,
+        "equipment": "Utrustning",
+        "description": "Luftkonditionering utan möjlighet till automatisk temperaturinställning"
+      },
+      {
+        "key": "AUTOBROMS",
+        "title": "Autobroms",
+        "value": null,
+        "equipment": "Utrustning",
+        "description": "Automatisk inbromsning vid lägre hastigheter för mötande fordon och hinder framför bilen (City Safety)"
+      },
+      {
+        "key": "BLUETOOTH",
+        "title": "Bluetooth",
+        "value": null,
+        "equipment": "Utrustning",
+        "description": "Trådlös uppkoppling mot mobila enheter"
+      }
+    ],
+    "batteryTestCertificateAvailable": false
+  },
+  "previewImages": [
+    {
+      "processObjectId": "7290271",
+      "uri": "https://kvdbil-images.imgix.net/7290271/ae343c43.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7290271/ae343c43.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 1
+    },
+    {
+      "processObjectId": "7290271",
+      "uri": "https://kvdbil-images.imgix.net/7290271/f81df503.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7290271/f81df503.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 1
+    },
+    {
+      "processObjectId": "7290271",
+      "uri": "https://kvdbil-images.imgix.net/7290271/c40d2e47.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7290271/c40d2e47.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 2
+    },
+    {
+      "processObjectId": "7290271",
+      "uri": "https://kvdbil-images.imgix.net/7290271/8748a934.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7290271/8748a934.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 3
+    },
+    {
+      "processObjectId": "7290271",
+      "uri": "https://kvdbil-images.imgix.net/7290271/bacd5d28.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7290271/bacd5d28.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 4
+    },
+    {
+      "processObjectId": "7290271",
+      "uri": "https://kvdbil-images.imgix.net/7290271/c495e2ed.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7290271/c495e2ed.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 4
+    },
+    {
+      "processObjectId": "7290271",
+      "uri": "https://kvdbil-images.imgix.net/7290271/58dd9b37.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7290271/58dd9b37.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 5
+    },
+    {
+      "processObjectId": "7290271",
+      "uri": "https://kvdbil-images.imgix.net/7290271/5a15f4c4.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7290271/5a15f4c4.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 6
+    },
+    {
+      "processObjectId": "7290271",
+      "uri": "https://kvdbil-images.imgix.net/7290271/6c9fe931.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7290271/6c9fe931.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 6
+    },
+    {
+      "processObjectId": "7290271",
+      "uri": "https://kvdbil-images.imgix.net/7290271/2794acd9.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7290271/2794acd9.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 7
+    },
+    {
+      "processObjectId": "7290271",
+      "uri": "https://kvdbil-images.imgix.net/7290271/a47a7164.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7290271/a47a7164.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 8
+    },
+    {
+      "processObjectId": "7290271",
+      "uri": "https://kvdbil-images.imgix.net/7290271/f0fe1c4f.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7290271/f0fe1c4f.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 9
+    },
+    {
+      "processObjectId": "7290271",
+      "uri": "https://kvdbil-images.imgix.net/7290271/31bc0959.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7290271/31bc0959.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 9
+    },
+    {
+      "processObjectId": "7290271",
+      "uri": "https://kvdbil-images.imgix.net/7290271/1b42acf9.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7290271/1b42acf9.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 10
+    },
+    {
+      "processObjectId": "7290271",
+      "uri": "https://kvdbil-images.imgix.net/7290271/ab1ba615.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7290271/ab1ba615.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 11
+    },
+    {
+      "processObjectId": "7290271",
+      "uri": "https://kvdbil-images.imgix.net/7290271/ba41e6c2.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7290271/ba41e6c2.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 11
+    },
+    {
+      "processObjectId": "7290271",
+      "uri": "https://kvdbil-images.imgix.net/7290271/805d5fe2.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7290271/805d5fe2.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 12
+    },
+    {
+      "processObjectId": "7290271",
+      "uri": "https://kvdbil-images.imgix.net/7290271/4a6526fa.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7290271/4a6526fa.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 13
+    },
+    {
+      "processObjectId": "7290271",
+      "uri": "https://kvdbil-images.imgix.net/7290271/f60b359c.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7290271/f60b359c.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 14
+    },
+    {
+      "processObjectId": "7290271",
+      "uri": "https://kvdbil-images.imgix.net/7290271/27bd32fe.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7290271/27bd32fe.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 15
+    },
+    {
+      "processObjectId": "7290271",
+      "uri": "https://kvdbil-images.imgix.net/7290271/ac8199e7.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7290271/ac8199e7.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 15
+    }
+  ],
+  "similarAuctions": [
+    {
+      "id": "309362",
+      "auctionType": "BIDDING",
+      "biddingFee": "6900.00",
+      "biddingFeeCorporate": "9875.00",
+      "mediationFee": 0,
+      "mediationFeeCorporate": 0,
+      "buyNow": false,
+      "closedAt": null,
+      "publishedAt": "2026-10-29T08:11:55.873695+00:00",
+      "countdownDuration": 210,
+      "countdownStartAt": "2026-11-04T11:16:30+00:00",
+      "createdAt": "2026-10-28T10:59:03.486182+00:00",
+      "readyForAuctionAt": "2026-11-02",
+      "currency": "SEK",
+      "maxBidRaise": 100000,
+      "minBidRaise": 500,
+      "startBid": 159000,
+      "openedAt": "2026-10-29T14:58:28.182287+00:00",
+      "processObjectId": "7292554",
+      "readyForCheckout": false,
+      "soldFor": null,
+      "sellMethod": null,
+      "slug": "vw-crafter-35-2-0-tdi-chassi-177hk",
+      "auctionUrl": "https://www.kvd.se/auktioner/vw-crafter-35-2-0-tdi-chassi-177hk-309362",
+      "state": "OPEN",
+      "targetedAuctionGroupId": null,
+      "updatedAt": "2026-11-03T11:02:37.381257+00:00",
+      "releasing": null,
+      "loan": {
+        "loanCost": null,
+        "loanCostBuyNow": null
+      },
+      "buyNowAmount": null,
+      "buyNowAvailable": false,
+      "buyNowUntil": null,
+      "eligibleForAdditionalServices": true,
+      "comingSoon": false,
+      "preliminaryPrice": 340000,
+      "maxAllowedBid": 510000,
+      "isReserved": false,
+      "isSoldByBuyNow": false,
+      "favouriteCount": 8,
+      "winningBid": null,
+      "activeAuction": {
+        "auctionId": "309362",
+        "closed": false,
+        "countdownInProgress": false,
+        "preliminaryCloseAt": "2026-11-04T11:20:00+00:00",
+        "createdAt": "2026-10-29T14:58:28.184227+00:00",
+        "updatedAt": "2026-10-29T14:58:29.256477+00:00",
+        "vatExcludedBiddingAllowed": false,
+        "reservationPriceReached": false,
+        "bids": [],
+        "myBidderAlias": null,
+        "myMaxBid": null,
+        "highestBid": null,
+        "buyNowAvailable": false,
+        "releasing": null,
+        "isHighestBidLowerThanResidualLoanValue": false
+      },
+      "processObject": {
+        "proactiveBrokering": null,
+        "sellMethod": "BIDDING",
+        "isFixedPrice": false,
+        "buyNowAmount": null,
+        "statisticalValuation": null,
+        "state": "AUCTION",
+        "baseObjectId": "523384",
+        "properties": {
+          "gearbox": "Automatic",
+          "ecoFriendly": false,
+          "familyName": "Crafter",
+          "heavyEquipment": false,
+          "deductibleVat": true,
+          "brand": "Volkswagen",
+          "modelName": "Crafter 35 2.0 TDI Volymskåp (177hk)",
+          "hasUnpaidLoan": false,
+          "mustExport": false,
+          "fuels": [
+            {
+              "fuelCode": "Diesel",
+              "enginePower": 177,
+              "co2": 193,
+              "consumption": 7.4
+            }
+          ],
+          "title": "VW Crafter 35 2.0 TDI Volymskåp (177hk)",
+          "exportable": true,
+          "adHeader": "Crafter 35 2.0 TDI Volymskåp (177hk) BG-Lyft",
+          "modelYear": 2019,
+          "exteriorColor": "White",
+          "body": "Pick-up",
+          "odometerUnit": "km",
+          "numberOfPreviousOwners": 1,
+          "odometerReading": 129730,
+          "registrationPlate": "FRT55S",
+          "package": "BG-Lyft",
+          "saleLimitedToCorporate": false,
+          "heading1": "Volkswagen Crafter",
+          "heading2": "35 2.0 TDI Volymskåp",
+          "heading3": "BG-Lyft"
+        },
+        "leaseReturnProperties": {},
+        "vehicleType": "LIGHT_TRANSPORT",
+        "id": "7292554",
+        "createdAt": "2026-10-16 08:15:42.560285+00:00",
+        "objectType": "LIGHT_TRUCK",
+        "displayCar360Spin": true,
+        "testDriveAllowed": true,
+        "baseObject": {
+          "registrationCountry": "se",
+          "gearbox": "Automatic",
+          "salesFlow": "CORPORATE_CARS",
+          "familyName": "Crafter",
+          "state": "MANUAL_VALUATION_PENDING",
+          "brand": "Volkswagen",
+          "earliestAvailableAt": null,
+          "modelName": "Crafter 35 2.0 TDI Chassi (177hk)",
+          "fuels": [
+            {
+              "fuelCode": "Diesel",
+              "powerUnit": "EG",
+              "enginePower": 130,
+              "enginePowerHp": 177,
+              "fuelTankVolume": ""
+            }
+          ],
+          "modelId": null,
+          "fabricAndMake": "VW",
+          "id": "523384",
+          "baseObjectType": "LIGHT_TRUCK",
+          "createdAt": "2026-10-16T08:15:42.276179+00:00",
+          "exteriorColor": "White",
+          "body": "Pick-up",
+          "odometerUnit": "km",
+          "odometerReading": null,
+          "year": "2019",
+          "registrationPlate": "FRT55S",
+          "technicalSpecification": {
+            "modelId": null,
+            "vehicle": {
+              "brand": "Volkswagen",
+              "body": "Pick-up",
+              "modelName": "Crafter 35 2.0 TDI Chassi (177hk)",
+              "familyName": "Crafter"
+            },
+            "year": "2019"
+          }
+        },
+        "isReleasable": false,
+        "presentationApproved": false,
+        "initialBuyNowAmount": null,
+        "car360Spin": null,
+        "certified": false,
+        "offsiteSalesContact": null,
+        "reducedPrice": false,
+        "conditionClassification": "TESTED",
+        "exportable": true,
+        "deductibleVat": true,
+        "collisionWarranty": null,
+        "title": "VW Crafter 35 2.0 TDI Volymskåp (177hk)",
+        "brand": "Volkswagen",
+        "familyName": "Crafter",
+        "modelName": "Crafter 35 2.0 TDI Volymskåp (177hk)",
+        "package": "BG-Lyft",
+        "heading1": "Volkswagen Crafter",
+        "heading2": "35 2.0 TDI Volymskåp",
+        "heading3": "BG-Lyft"
+      },
+      "previewImages": [
+        {
+          "processObjectId": "7292554",
+          "uri": "https://kvdbil-images.imgix.net/7292554/df8cb3ac.jpg",
+          "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292554/df8cb3ac.jpg",
+          "type": "PRESENTATION",
+          "contentType": "image",
+          "order": 1
+        },
+        {
+          "processObjectId": "7292554",
+          "uri": "https://kvdbil-images.imgix.net/7292554/4f7d864e.jpg",
+          "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292554/4f7d864e.jpg",
+          "type": "PRESENTATION",
+          "contentType": "image",
+          "order": 2
+        }
+      ],
+      "previewImage": "https://kvdbil-images.imgix.net/7292554/df8cb3ac.jpg"
+    }
+  ],
+  "activeAuction": {
+    "auctionId": "309215",
+    "closed": true,
+    "countdownInProgress": true,
+    "preliminaryCloseAt": "2026-11-03T11:57:53.522291+00:00",
+    "createdAt": "2026-10-28T14:50:24.247972+00:00",
+    "updatedAt": "2026-11-03T11:57:53.537321+00:00",
+    "vatExcludedBiddingAllowed": false,
+    "reservationPriceReached": false,
+    "bids": [
+      {
+        "id": 18701225,
+        "auctionId": 309215,
+        "bidderAlias": "6",
+        "amount": 312500,
+        "type": "NORMAL",
+        "maxBidId": 10928006,
+        "triggeredBy": 10928006,
+        "createdAt": "2026-11-03T11:54:23.526727+00:00",
+        "updatedAt": "2026-11-03T11:54:23.526733+00:00"
+      },
+      {
+        "id": 18701215,
+        "auctionId": 309215,
+        "bidderAlias": "4",
+        "amount": 312000,
+        "type": "AUTO",
+        "maxBidId": 10927990,
+        "triggeredBy": 10927999,
+        "createdAt": "2026-11-03T11:51:28.571048+00:00",
+        "updatedAt": "2026-11-03T11:51:28.571050+00:00"
+      },
+      {
+        "id": 18701214,
+        "auctionId": 309215,
+        "bidderAlias": "6",
+        "amount": 311500,
+        "type": "NORMAL",
+        "maxBidId": 10927999,
+        "triggeredBy": 10927999,
+        "createdAt": "2026-11-03T11:51:28.571039+00:00",
+        "updatedAt": "2026-11-03T11:51:28.571045+00:00"
+      },
+      {
+        "id": 18701201,
+        "auctionId": 309215,
+        "bidderAlias": "4",
+        "amount": 311000,
+        "type": "NORMAL",
+        "maxBidId": 10927990,
+        "triggeredBy": 10927990,
+        "createdAt": "2026-11-03T11:48:04.010906+00:00",
+        "updatedAt": "2026-11-03T11:48:04.010912+00:00"
+      },
+      {
+        "id": 18701187,
+        "auctionId": 309215,
+        "bidderAlias": "6",
+        "amount": 310500,
+        "type": "NORMAL",
+        "maxBidId": 10927982,
+        "triggeredBy": 10927982,
+        "createdAt": "2026-11-03T11:47:01.400882+00:00",
+        "updatedAt": "2026-11-03T11:47:01.400884+00:00"
+      },
+      {
+        "id": 18701186,
+        "auctionId": 309215,
+        "bidderAlias": "4",
+        "amount": 310000,
+        "type": "LIMIT_REACHED",
+        "maxBidId": 10927911,
+        "triggeredBy": 10927982,
+        "createdAt": "2026-11-03T11:47:01.400874+00:00",
+        "updatedAt": "2026-11-03T11:47:01.400879+00:00"
+      },
+      {
+        "id": 18701163,
+        "auctionId": 309215,
+        "bidderAlias": "4",
+        "amount": 309500,
+        "type": "AUTO",
+        "maxBidId": 10927911,
+        "triggeredBy": 10927969,
+        "createdAt": "2026-11-03T11:43:41.656278+00:00",
+        "updatedAt": "2026-11-03T11:43:41.656280+00:00"
+      },
+      {
+        "id": 18701162,
+        "auctionId": 309215,
+        "bidderAlias": "7",
+        "amount": 309000,
+        "type": "NORMAL",
+        "maxBidId": 10927969,
+        "triggeredBy": 10927969,
+        "createdAt": "2026-11-03T11:43:41.656267+00:00",
+        "updatedAt": "2026-11-03T11:43:41.656274+00:00"
+      },
+      {
+        "id": 18701066,
+        "auctionId": 309215,
+        "bidderAlias": "4",
+        "amount": 308000,
+        "type": "NORMAL",
+        "maxBidId": 10927911,
+        "triggeredBy": 10927911,
+        "createdAt": "2026-11-03T11:26:23.280449+00:00",
+        "updatedAt": "2026-11-03T11:26:23.280459+00:00"
+      },
+      {
+        "id": 18701060,
+        "auctionId": 309215,
+        "bidderAlias": "6",
+        "amount": 307500,
+        "type": "NORMAL",
+        "maxBidId": 10927905,
+        "triggeredBy": 10927905,
+        "createdAt": "2026-11-03T11:25:20.627934+00:00",
+        "updatedAt": "2026-11-03T11:25:20.627936+00:00"
+      },
+      {
+        "id": 18701059,
+        "auctionId": 309215,
+        "bidderAlias": "4",
+        "amount": 307000,
+        "type": "LIMIT_REACHED",
+        "maxBidId": 10927623,
+        "triggeredBy": 10927905,
+        "createdAt": "2026-11-03T11:25:20.627924+00:00",
+        "updatedAt": "2026-11-03T11:25:20.627931+00:00"
+      },
+      {
+        "id": 18700591,
+        "auctionId": 309215,
+        "bidderAlias": "4",
+        "amount": 306500,
+        "type": "NORMAL",
+        "maxBidId": 10927623,
+        "triggeredBy": 10927623,
+        "createdAt": "2026-11-03T10:41:49.940011+00:00",
+        "updatedAt": "2026-11-03T10:41:49.940013+00:00"
+      },
+      {
+        "id": 18700590,
+        "auctionId": 309215,
+        "bidderAlias": "5",
+        "amount": 306000,
+        "type": "LIMIT_REACHED",
+        "maxBidId": 10927277,
+        "triggeredBy": 10927623,
+        "createdAt": "2026-11-03T10:41:49.940001+00:00",
+        "updatedAt": "2026-11-03T10:41:49.940008+00:00"
+      },
+      {
+        "id": 18700589,
+        "auctionId": 309215,
+        "bidderAlias": "5",
+        "amount": 305500,
+        "type": "AUTO",
+        "maxBidId": 10927277,
+        "triggeredBy": 10927622,
+        "createdAt": "2026-11-03T10:41:45.722030+00:00",
+        "updatedAt": "2026-11-03T10:41:45.722032+00:00"
+      },
+      {
+        "id": 18700588,
+        "auctionId": 309215,
+        "bidderAlias": "4",
+        "amount": 305000,
+        "type": "NORMAL",
+        "maxBidId": 10927622,
+        "triggeredBy": 10927622,
+        "createdAt": "2026-11-03T10:41:45.722020+00:00",
+        "updatedAt": "2026-11-03T10:41:45.722027+00:00"
+      },
+      {
+        "id": 18700587,
+        "auctionId": 309215,
+        "bidderAlias": "5",
+        "amount": 301500,
+        "type": "AUTO",
+        "maxBidId": 10927277,
+        "triggeredBy": 10927621,
+        "createdAt": "2026-11-03T10:41:40.186920+00:00",
+        "updatedAt": "2026-11-03T10:41:40.186924+00:00"
+      },
+      {
+        "id": 18700586,
+        "auctionId": 309215,
+        "bidderAlias": "4",
+        "amount": 301000,
+        "type": "NORMAL",
+        "maxBidId": 10927621,
+        "triggeredBy": 10927621,
+        "createdAt": "2026-11-03T10:41:40.186906+00:00",
+        "updatedAt": "2026-11-03T10:41:40.186916+00:00"
+      },
+      {
+        "id": 18700424,
+        "auctionId": 309215,
+        "bidderAlias": "5",
+        "amount": 300000,
+        "type": "AUTO",
+        "maxBidId": 10927277,
+        "triggeredBy": 10927527,
+        "createdAt": "2026-11-03T10:29:58.443431+00:00",
+        "updatedAt": "2026-11-03T10:29:58.443436+00:00"
+      },
+      {
+        "id": 18700423,
+        "auctionId": 309215,
+        "bidderAlias": "4",
+        "amount": 299500,
+        "type": "NORMAL",
+        "maxBidId": 10927527,
+        "triggeredBy": 10927527,
+        "createdAt": "2026-11-03T10:29:58.443415+00:00",
+        "updatedAt": "2026-11-03T10:29:58.443426+00:00"
+      },
+      {
+        "id": 18700422,
+        "auctionId": 309215,
+        "bidderAlias": "5",
+        "amount": 292500,
+        "type": "AUTO",
+        "maxBidId": 10927277,
+        "triggeredBy": 10927526,
+        "createdAt": "2026-11-03T10:29:54.121310+00:00",
+        "updatedAt": "2026-11-03T10:29:54.121314+00:00"
+      },
+      {
+        "id": 18700421,
+        "auctionId": 309215,
+        "bidderAlias": "4",
+        "amount": 292000,
+        "type": "NORMAL",
+        "maxBidId": 10927526,
+        "triggeredBy": 10927526,
+        "createdAt": "2026-11-03T10:29:54.121299+00:00",
+        "updatedAt": "2026-11-03T10:29:54.121306+00:00"
+      },
+      {
+        "id": 18700419,
+        "auctionId": 309215,
+        "bidderAlias": "5",
+        "amount": 281500,
+        "type": "AUTO",
+        "maxBidId": 10927277,
+        "triggeredBy": 10927524,
+        "createdAt": "2026-11-03T10:29:49.238449+00:00",
+        "updatedAt": "2026-11-03T10:29:49.238452+00:00"
+      },
+      {
+        "id": 18700418,
+        "auctionId": 309215,
+        "bidderAlias": "4",
+        "amount": 281000,
+        "type": "NORMAL",
+        "maxBidId": 10927524,
+        "triggeredBy": 10927524,
+        "createdAt": "2026-11-03T10:29:49.238439+00:00",
+        "updatedAt": "2026-11-03T10:29:49.238446+00:00"
+      },
+      {
+        "id": 18700417,
+        "auctionId": 309215,
+        "bidderAlias": "5",
+        "amount": 276000,
+        "type": "AUTO",
+        "maxBidId": 10927277,
+        "triggeredBy": 10927523,
+        "createdAt": "2026-11-03T10:29:44.750493+00:00",
+        "updatedAt": "2026-11-03T10:29:44.750495+00:00"
+      },
+      {
+        "id": 18700416,
+        "auctionId": 309215,
+        "bidderAlias": "4",
+        "amount": 275500,
+        "type": "NORMAL",
+        "maxBidId": 10927523,
+        "triggeredBy": 10927523,
+        "createdAt": "2026-11-03T10:29:44.750485+00:00",
+        "updatedAt": "2026-11-03T10:29:44.750491+00:00"
+      },
+      {
+        "id": 18700415,
+        "auctionId": 309215,
+        "bidderAlias": "5",
+        "amount": 271500,
+        "type": "AUTO",
+        "maxBidId": 10927277,
+        "triggeredBy": 10927522,
+        "createdAt": "2026-11-03T10:29:39.993436+00:00",
+        "updatedAt": "2026-11-03T10:29:39.993438+00:00"
+      },
+      {
+        "id": 18700414,
+        "auctionId": 309215,
+        "bidderAlias": "4",
+        "amount": 271000,
+        "type": "NORMAL",
+        "maxBidId": 10927522,
+        "triggeredBy": 10927522,
+        "createdAt": "2026-11-03T10:29:39.993425+00:00",
+        "updatedAt": "2026-11-03T10:29:39.993433+00:00"
+      },
+      {
+        "id": 18700011,
+        "auctionId": 309215,
+        "bidderAlias": "5",
+        "amount": 265500,
+        "type": "NORMAL",
+        "maxBidId": 10927277,
+        "triggeredBy": 10927277,
+        "createdAt": "2026-11-03T10:03:23.784251+00:00",
+        "updatedAt": "2026-11-03T10:03:23.784253+00:00"
+      },
+      {
+        "id": 18700010,
+        "auctionId": 309215,
+        "bidderAlias": "4",
+        "amount": 265000,
+        "type": "LIMIT_REACHED",
+        "maxBidId": 10927241,
+        "triggeredBy": 10927277,
+        "createdAt": "2026-11-03T10:03:23.784238+00:00",
+        "updatedAt": "2026-11-03T10:03:23.784246+00:00"
+      },
+      {
+        "id": 18699947,
+        "auctionId": 309215,
+        "bidderAlias": "4",
+        "amount": 251000,
+        "type": "NORMAL",
+        "maxBidId": 10927241,
+        "triggeredBy": 10927241,
+        "createdAt": "2026-11-03T09:58:25.014435+00:00",
+        "updatedAt": "2026-11-03T09:58:25.014439+00:00"
+      },
+      {
+        "id": 18699946,
+        "auctionId": 309215,
+        "bidderAlias": "3",
+        "amount": 250500,
+        "type": "LIMIT_REACHED",
+        "maxBidId": 10927145,
+        "triggeredBy": 10927241,
+        "createdAt": "2026-11-03T09:58:25.014423+00:00",
+        "updatedAt": "2026-11-03T09:58:25.014431+00:00"
+      },
+      {
+        "id": 18699783,
+        "auctionId": 309215,
+        "bidderAlias": "3",
+        "amount": 221500,
+        "type": "NORMAL",
+        "maxBidId": 10927145,
+        "triggeredBy": 10927145,
+        "createdAt": "2026-11-03T09:48:54.936674+00:00",
+        "updatedAt": "2026-11-03T09:48:54.936676+00:00"
+      },
+      {
+        "id": 18699782,
+        "auctionId": 309215,
+        "bidderAlias": "1",
+        "amount": 221000,
+        "type": "LIMIT_REACHED",
+        "maxBidId": 10926321,
+        "triggeredBy": 10927145,
+        "createdAt": "2026-11-03T09:48:54.936665+00:00",
+        "updatedAt": "2026-11-03T09:48:54.936671+00:00"
+      },
+      {
+        "id": 18698388,
+        "auctionId": 309215,
+        "bidderAlias": "1",
+        "amount": 220500,
+        "type": "NORMAL",
+        "maxBidId": 10926321,
+        "triggeredBy": 10926321,
+        "createdAt": "2026-11-03T08:54:09.861144+00:00",
+        "updatedAt": "2026-11-03T08:54:09.861147+00:00"
+      },
+      {
+        "id": 18698387,
+        "auctionId": 309215,
+        "bidderAlias": "2",
+        "amount": 220000,
+        "type": "LIMIT_REACHED",
+        "maxBidId": 10926229,
+        "triggeredBy": 10926321,
+        "createdAt": "2026-11-03T08:54:09.861130+00:00",
+        "updatedAt": "2026-11-03T08:54:09.861139+00:00"
+      },
+      {
+        "id": 18698384,
+        "auctionId": 309215,
+        "bidderAlias": "2",
+        "amount": 218500,
+        "type": "AUTO",
+        "maxBidId": 10926229,
+        "triggeredBy": 10926319,
+        "createdAt": "2026-11-03T08:53:51.488652+00:00",
+        "updatedAt": "2026-11-03T08:53:51.488655+00:00"
+      },
+      {
+        "id": 18698383,
+        "auctionId": 309215,
+        "bidderAlias": "1",
+        "amount": 218000,
+        "type": "NORMAL",
+        "maxBidId": 10926319,
+        "triggeredBy": 10926319,
+        "createdAt": "2026-11-03T08:53:51.488642+00:00",
+        "updatedAt": "2026-11-03T08:53:51.488649+00:00"
+      },
+      {
+        "id": 18698382,
+        "auctionId": 309215,
+        "bidderAlias": "2",
+        "amount": 215500,
+        "type": "AUTO",
+        "maxBidId": 10926229,
+        "triggeredBy": 10926318,
+        "createdAt": "2026-11-03T08:53:41.535905+00:00",
+        "updatedAt": "2026-11-03T08:53:41.535907+00:00"
+      },
+      {
+        "id": 18698381,
+        "auctionId": 309215,
+        "bidderAlias": "1",
+        "amount": 215000,
+        "type": "NORMAL",
+        "maxBidId": 10926318,
+        "triggeredBy": 10926318,
+        "createdAt": "2026-11-03T08:53:41.535893+00:00",
+        "updatedAt": "2026-11-03T08:53:41.535901+00:00"
+      },
+      {
+        "id": 18698377,
+        "auctionId": 309215,
+        "bidderAlias": "2",
+        "amount": 210500,
+        "type": "AUTO",
+        "maxBidId": 10926229,
+        "triggeredBy": 10926315,
+        "createdAt": "2026-11-03T08:53:31.481529+00:00",
+        "updatedAt": "2026-11-03T08:53:31.481531+00:00"
+      },
+      {
+        "id": 18698376,
+        "auctionId": 309215,
+        "bidderAlias": "1",
+        "amount": 210000,
+        "type": "NORMAL",
+        "maxBidId": 10926315,
+        "triggeredBy": 10926315,
+        "createdAt": "2026-11-03T08:53:31.481520+00:00",
+        "updatedAt": "2026-11-03T08:53:31.481526+00:00"
+      },
+      {
+        "id": 18698375,
+        "auctionId": 309215,
+        "bidderAlias": "2",
+        "amount": 200500,
+        "type": "AUTO",
+        "maxBidId": 10926229,
+        "triggeredBy": 10926314,
+        "createdAt": "2026-11-03T08:53:22.897910+00:00",
+        "updatedAt": "2026-11-03T08:53:22.897914+00:00"
+      },
+      {
+        "id": 18698374,
+        "auctionId": 309215,
+        "bidderAlias": "1",
+        "amount": 200000,
+        "type": "NORMAL",
+        "maxBidId": 10926314,
+        "triggeredBy": 10926314,
+        "createdAt": "2026-11-03T08:53:22.897897+00:00",
+        "updatedAt": "2026-11-03T08:53:22.897906+00:00"
+      },
+      {
+        "id": 18698373,
+        "auctionId": 309215,
+        "bidderAlias": "2",
+        "amount": 198500,
+        "type": "AUTO",
+        "maxBidId": 10926229,
+        "triggeredBy": 10926313,
+        "createdAt": "2026-11-03T08:53:16.240944+00:00",
+        "updatedAt": "2026-11-03T08:53:16.240946+00:00"
+      },
+      {
+        "id": 18698372,
+        "auctionId": 309215,
+        "bidderAlias": "1",
+        "amount": 198000,
+        "type": "NORMAL",
+        "maxBidId": 10926313,
+        "triggeredBy": 10926313,
+        "createdAt": "2026-11-03T08:53:16.240934+00:00",
+        "updatedAt": "2026-11-03T08:53:16.240941+00:00"
+      },
+      {
+        "id": 18698368,
+        "auctionId": 309215,
+        "bidderAlias": "2",
+        "amount": 195500,
+        "type": "AUTO",
+        "maxBidId": 10926229,
+        "triggeredBy": 10926310,
+        "createdAt": "2026-11-03T08:53:08.025017+00:00",
+        "updatedAt": "2026-11-03T08:53:08.025019+00:00"
+      },
+      {
+        "id": 18698367,
+        "auctionId": 309215,
+        "bidderAlias": "1",
+        "amount": 195000,
+        "type": "NORMAL",
+        "maxBidId": 10926310,
+        "triggeredBy": 10926310,
+        "createdAt": "2026-11-03T08:53:08.025006+00:00",
+        "updatedAt": "2026-11-03T08:53:08.025014+00:00"
+      },
+      {
+        "id": 18698221,
+        "auctionId": 309215,
+        "bidderAlias": "2",
+        "amount": 193500,
+        "type": "NORMAL",
+        "maxBidId": 10926229,
+        "triggeredBy": 10926229,
+        "createdAt": "2026-11-03T08:38:00.557693+00:00",
+        "updatedAt": "2026-11-03T08:38:00.557695+00:00"
+      },
+      {
+        "id": 18698220,
+        "auctionId": 309215,
+        "bidderAlias": "1",
+        "amount": 193000,
+        "type": "LIMIT_REACHED",
+        "maxBidId": 10925927,
+        "triggeredBy": 10926229,
+        "createdAt": "2026-11-03T08:38:00.557685+00:00",
+        "updatedAt": "2026-11-03T08:38:00.557690+00:00"
+      },
+      {
+        "id": 18697672,
+        "auctionId": 309215,
+        "bidderAlias": "1",
+        "amount": 192000,
+        "type": "NORMAL",
+        "maxBidId": 10925927,
+        "triggeredBy": 10925927,
+        "createdAt": "2026-11-03T06:56:40.569970+00:00",
+        "updatedAt": "2026-11-03T06:56:40.569980+00:00"
+      }
+    ],
+    "myBidderAlias": null,
+    "myMaxBid": null,
+    "highestBid": {
+      "id": 18701225,
+      "auctionId": 309215,
+      "bidderAlias": null,
+      "amount": 312500,
+      "type": "NORMAL",
+      "maxBidId": 10928006,
+      "triggeredBy": 10928006,
+      "createdAt": "2026-11-03T11:54:23.526727+00:00",
+      "updatedAt": "2026-11-03T11:54:23.526733+00:00",
+      "eurAmount": 28550
+    },
+    "buyNowAvailable": false,
+    "releasing": null,
+    "isHighestBidLowerThanResidualLoanValue": false
+  },
+  "checkoutOrder": null,
+  "previewImage": "https://kvdbil-images.imgix.net/7290271/ae343c43.jpg",
+  "_list_meta": {
+    "id": "309215",
+    "slug": "iveco-daily-35-2-3-156hk",
+    "auctionType": "BIDDING",
+    "closedAt": "2026-11-03T11:57:53.531189+00:00",
+    "updatedAt": "2026-11-03T13:55:27.688175+00:00"
+  },
+  "_scraped_at": "2026-11-03T18:20:42.930199+00:00",
+  "_url": "https://www.kvd.se/auktioner/iveco-daily-35-2-3-156hk-309215"
+}
