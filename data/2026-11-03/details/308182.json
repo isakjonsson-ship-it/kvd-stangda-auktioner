@@ -1,0 +1,2518 @@
+{
+  "id": "308182",
+  "auctionType": "BIDDING",
+  "biddingFee": "4425.00",
+  "biddingFeeCorporate": "5613.00",
+  "mediationFee": 0,
+  "mediationFeeCorporate": 0,
+  "buyNow": false,
+  "closedAt": "2026-11-03T09:49:32.303347+00:00",
+  "publishedAt": "2026-10-28T09:19:48.738206+00:00",
+  "countdownDuration": 210,
+  "countdownStartAt": "2026-11-03T09:21:30+00:00",
+  "createdAt": "2026-10-20T13:26:19.557225+00:00",
+  "readyForAuctionAt": "2026-10-26",
+  "currency": "SEK",
+  "maxBidRaise": 100000,
+  "minBidRaise": 500,
+  "startBid": 18000,
+  "openedAt": "2026-10-28T14:50:18.793965+00:00",
+  "processObjectId": "7292996",
+  "readyForCheckout": true,
+  "soldFor": 76500,
+  "sellMethod": "BIDDING",
+  "slug": "renault-trafic-1-6-dci-skap-125hk",
+  "auctionUrl": "https://www.kvd.se/auktioner/renault-trafic-1-6-dci-skap-125hk-308182",
+  "state": "WINNER_CHECKOUT_PENDING",
+  "targetedAuctionGroupId": null,
+  "updatedAt": "2026-11-03T09:49:32.414057+00:00",
+  "releasing": null,
+  "loan": {
+    "loanCost": 652,
+    "loanCostBuyNow": null
+  },
+  "buyNowAmount": null,
+  "buyNowAvailable": false,
+  "buyNowUntil": null,
+  "eligibleForAdditionalServices": true,
+  "comingSoon": false,
+  "preliminaryPrice": 115000,
+  "maxAllowedBid": 172500,
+  "isReserved": false,
+  "isSoldByBuyNow": false,
+  "favouriteCount": 14,
+  "eurBuyNowAmount": null,
+  "winningBid": {
+    "id": 18699725,
+    "type": "NORMAL",
+    "amount": 76500,
+    "auctionId": 308182,
+    "createdAt": "2026-11-03T09:46:02.300181+00:00",
+    "maxBidId": 10927108,
+    "updatedAt": "2026-11-03T09:46:02.300187+00:00",
+    "bidderAlias": null,
+    "triggeredBy": 10927108,
+    "evaluationType": "AUTOMATIC"
+  },
+  "processObject": {
+    "proactiveBrokering": null,
+    "orderableAdditionalServices": {
+      "tradein": false,
+      "transport": true,
+      "insurance": true,
+      "finance": true,
+      "warranty": true,
+      "extraTires": false
+    },
+    "sellMethod": "BIDDING",
+    "isFixedPrice": false,
+    "buyNowAmount": null,
+    "statisticalValuation": {
+      "bpWhite": 106000,
+      "bpOrange": 106000,
+      "marketPrice": 106000,
+      "bpGreen": null
+    },
+    "state": "AUCTION_RESOLUTION",
+    "baseObjectId": "524188",
+    "properties": {
+      "initialTrafficDate": "2017-03-13",
+      "registrationCountry": "se",
+      "manufactureMonth": "201612",
+      "heavyEquipment": false,
+      "deductibleVat": false,
+      "formattedEquipment": [
+        {
+          "key": "AC",
+          "title": "AC",
+          "description": "Luftkonditionering utan möjlighet till automatisk temperaturinställning",
+          "priority": 0
+        },
+        {
+          "key": "ANTISLADDSYSTEM",
+          "title": "Antisladdsystem",
+          "description": "Ett system som känner av om bilen håller på att sladda. Genom att bromsa enskilda hjul stabiliseras bilen och sladden förhindras, även kallat ESP.",
+          "priority": 1
+        },
+        {
+          "key": "AUX_INGANG",
+          "title": "AUX-ingång",
+          "description": "Stereoinkoppling av mobil enhet",
+          "priority": 2
+        },
+        {
+          "key": "BLUETOOTH",
+          "title": "Bluetooth",
+          "description": "Trådlös uppkoppling mot mobila enheter",
+          "priority": 3
+        },
+        {
+          "key": "ELHISS_FRAM",
+          "title": "Elhiss fram",
+          "description": "Elektronisk fönsterhiss fram",
+          "priority": 4
+        },
+        {
+          "key": "ELSPEGLAR",
+          "title": "Elspeglar",
+          "description": "Elektroniskt ställbara sidospeglar",
+          "priority": 5
+        },
+        {
+          "key": "FJARRLAS",
+          "title": "Fjärrlås",
+          "description": "Möjliggör att du på distans kan låsa och låsa upp bilen",
+          "priority": 6
+        },
+        {
+          "key": "PARKERINGSSENSORER_BAK",
+          "title": "Parkeringssensorer bak",
+          "description": "Sensorer på stötfångare baktill som varnar för hinder bakom bilen",
+          "priority": 7
+        },
+        {
+          "key": "PARKERINGSVARMARE_MED_TIDUR",
+          "title": "Parkeringsvärmare med tidur",
+          "description": null,
+          "priority": 8
+        },
+        {
+          "key": "RADIO",
+          "title": "Radio",
+          "description": "Radiospelare",
+          "priority": 9
+        },
+        {
+          "key": "START_STOP_FUNKTION",
+          "title": "Start/Stopp-funktion",
+          "description": "Automatisk på och avstängning av motor vid exempelvis trafikljus",
+          "priority": 10
+        },
+        {
+          "key": "STOLSVARME_FRAM",
+          "title": "Stolsvärme fram",
+          "description": "Olika nivåer av värme i stolarna fram som ställs in via en knapp",
+          "priority": 11
+        },
+        {
+          "key": "URKOPPLINGSBAR_PASSAGERARAIRBAG",
+          "title": "Urkopplingsbar passagerarairbag",
+          "description": "Möjlighet att koppla till och från airbagen på passagerarsidan",
+          "priority": 12
+        },
+        {
+          "key": "USB_INGANG",
+          "title": "USB-ingång",
+          "description": "Inkoppling av mobil enhet via USB-kontakt",
+          "priority": 13
+        }
+      ],
+      "brand": "Renault",
+      "title": "Renault Trafic 1.6 dCi Skåp (125hk)",
+      "exportable": true,
+      "residualLoanValue": 0,
+      "remarks": {
+        "INTERIOR": [],
+        "ENGINE_AND_GEARBOX": [
+          {
+            "key": "Motorlampan lyser",
+            "category": "ENGINE_AND_GEARBOX",
+            "id": "0"
+          }
+        ],
+        "EXTERIOR": [
+          {
+            "key": "Stenskott i vindruta",
+            "category": "EXTERIOR",
+            "id": "0"
+          },
+          {
+            "key": "Plastkåpa under motor skadad",
+            "category": "EXTERIOR",
+            "id": "1"
+          },
+          {
+            "key": "Finns en del mossa och smuts på bilen som inte gick bort i tvätten",
+            "category": "EXTERIOR",
+            "id": "2"
+          }
+        ],
+        "BRAKES": [],
+        "TIRES": [],
+        "TECHNOLOGY_AND_EQUIPMENT": [
+          {
+            "key": "Ratt står snett, hjulinställning rekommenderas, Hjulvibrationer",
+            "category": "TECHNOLOGY_AND_EQUIPMENT",
+            "id": "0"
+          },
+          {
+            "key": "Aktivt felmeddelande ” check anti-pollution system",
+            "category": "TECHNOLOGY_AND_EQUIPMENT",
+            "id": "1"
+          }
+        ]
+      },
+      "curbWeight": 2070,
+      "grades": {
+        "INTERIOR": {
+          "min": 1,
+          "value": 3,
+          "max": 5
+        },
+        "ENGINE_AND_GEARBOX": {
+          "min": 1,
+          "value": 2,
+          "max": 3
+        },
+        "TOTAL": {
+          "min": 1,
+          "value": 2,
+          "max": 5
+        },
+        "EXTERIOR": {
+          "min": 1,
+          "value": 3,
+          "max": 5
+        },
+        "BRAKES": {
+          "min": 1,
+          "value": 3,
+          "max": 3
+        },
+        "TECHNOLOGY_AND_EQUIPMENT": {
+          "min": 1,
+          "value": 2,
+          "max": 3
+        }
+      },
+      "exteriorColor": "White",
+      "textile": "Textil",
+      "height": 1951,
+      "taxFee": 3397,
+      "familyName": "Trafic",
+      "towbar": false,
+      "modelName": "Trafic 1.6 dCi Skåp (125hk)",
+      "equipment": [
+        "AC",
+        "Antisladdsystem",
+        "AUX-ingång",
+        "Bluetooth",
+        "Elhiss fram",
+        "Elspeglar",
+        "Fjärrlås",
+        "Parkeringssensorer bak",
+        "Parkeringsvärmare med tidur",
+        "Radio",
+        "Start/Stop-funktion",
+        "Stolsvärme fram",
+        "Urkopplingsbar passagerarairbag",
+        "USB-ingång"
+      ],
+      "remarksLocalized": {
+        "TIRES": null,
+        "BRAKES": null,
+        "EXTERIOR": "Stenskott i vindruta. Plastkåpa under motor skadad. Finns en del mossa och smuts på bilen som inte gick bort i tvätten",
+        "INTERIOR": null,
+        "ENGINE_AND_GEARBOX": "Motorlampan lyser",
+        "TECHNOLOGY_AND_EQUIPMENT": "Ratt står snett, hjulinställning rekommenderas, Hjulvibrationer. Aktivt felmeddelande ” check anti-pollution system"
+      },
+      "odometerUnit": "km",
+      "odometerReading": 150550,
+      "finishType": "Solid",
+      "registrationPlate": "EJU159",
+      "length": 4999,
+      "inspectionPeriod": "2026-09-21 - 2027-11-30",
+      "gearbox": "Manual",
+      "maxPayload": 910,
+      "registrationPlateCountry": "se",
+      "hasUnpaidLoan": false,
+      "totalWeight": 2980,
+      "numberOfKeys": 1,
+      "environmentalClassEuro": "6",
+      "body": "Van",
+      "taxWeight": 2980,
+      "isRepairObject": false,
+      "importedForPersonalUse": false,
+      "saleLimitedToCorporate": false,
+      "mediation": true,
+      "ecoFriendly": false,
+      "inspectionValidToDate": "2027-11-30",
+      "mustExport": false,
+      "fuels": [
+        {
+          "fuelCode": "Diesel",
+          "enginePower": 125,
+          "co2": 155,
+          "consumption": 5.9
+        }
+      ],
+      "dateOfInspection": "2026-09-21",
+      "width": 1956,
+      "modelYear": 2017,
+      "chassisNumber": "VF1FL000357011881",
+      "drivingBan": false,
+      "numberOfPreviousOwners": 4,
+      "maxPullWeightB": 750,
+      "numberOfSeats": 3,
+      "heading1": "Renault Trafic",
+      "heading2": "1.6 dCi Skåp",
+      "heading3": null
+    },
+    "leaseReturnProperties": {},
+    "vehicleType": "LIGHT_TRANSPORT",
+    "id": "7292996",
+    "createdAt": "2026-10-20 13:20:55.865561+00:00",
+    "objectType": "LIGHT_TRUCK",
+    "displayCar360Spin": true,
+    "testDriveAllowed": true,
+    "baseObject": {
+      "registrationCountry": "se",
+      "gearbox": "Manual",
+      "salesFlow": "CONSUMER_CARS",
+      "familyName": "Trafic",
+      "state": "PREPARING_SALES_AGREEMENT",
+      "brand": "Renault",
+      "earliestAvailableAt": null,
+      "authorityRegisterInformation": {
+        "environmentalClassification": {
+          "fuels": [
+            {
+              "co2": 155,
+              "nox": "",
+              "nox4": null,
+              "fuelCode": "Diesel",
+              "hcThcNox": "",
+              "consumption": 5.9,
+              "noiseLevel": 73,
+              "emissionUnit": "g/km",
+              "innovationCo2": null,
+              "particleValue": "",
+              "particleMass4": null,
+              "consumptionUnit": "5,9",
+              "rangeNedcDrive": null,
+              "rangeWltpDrive": null,
+              "consumptionUrban": 6.9,
+              "rangeCityWltpDrive": null,
+              "consumptionExtraUrban": 5.5,
+              "electricEnergyConsumption": null,
+              "energyConsumptionWltpDrive": null
+            }
+          ],
+          "ecoFriendly": false,
+          "emissionClass": "EURO 6",
+          "innovationCode": null,
+          "environmentalClass": null,
+          "environmentalClassEuro": "6"
+        },
+        "vehicleInformation": {
+          "vin": "VF1FL000357011881",
+          "body": "BB",
+          "type": "LIGHT_TRUCK",
+          "year": "2016",
+          "model": "TRAFIC",
+          "rawType": "LB",
+          "modelYear": null,
+          "categoryEu": null,
+          "groupNumber": "RN 917080",
+          "modelNumber": "RN 000000",
+          "chassisNumber": "VF1FL000357011881",
+          "exteriorColor": "White",
+          "fabricAndMake": "RENAULT",
+          "baseObjectType": "LIGHT_TRUCK",
+          "manufactureCode": null,
+          "manufactureMonth": "201612",
+          "registrationDate": "2016-12-20",
+          "initialTrafficDate": "2017-03-13",
+          "registrationPlateReused": null
+        },
+        "vehicleInspectionInformation": {
+          "inspections": [
+            {
+              "inspectionType": "5",
+              "odometerReading": 150507,
+              "dateOfInspection": "2026-09-21"
+            },
+            {
+              "inspectionType": "5",
+              "odometerReading": 150309,
+              "dateOfInspection": "2025-09-18"
+            }
+          ],
+          "inspectionGroup": "36/24/14",
+          "odometerReading": 150507,
+          "inspectionPeriod": "2026-09-21 - 2027-11-30",
+          "dateOfInspection": "2026-09-21",
+          "inspectionValidToDate": "2027-11-30",
+          "inspectionExemptionGroup": null
+        },
+        "vehicleStatus": {
+          "tax": 3397
+        },
+        "additionalTechSpecification": {
+          "raceCar": null,
+          "wheelbase1": 3098,
+          "wheelbase2": null,
+          "wheelbase3": null,
+          "wheelbase4": null,
+          "equipment1": null,
+          "equipment2": null,
+          "equipment3": null,
+          "maximumSpeed": 177,
+          "numAxleShafts": 2,
+          "passengerAirBag": true,
+          "tyreDimensionRear": "205/65 R 16 C(107/10",
+          "tyreDimensionFront": "205/65 R 16 C(107/10",
+          "dualSteeringControl": null
+        },
+        "registrationInformation": {
+          "registrationPlate": "EJU159",
+          "deregistrationDate": null,
+          "deregistrationText": null,
+          "deregistrationReason": null
+        },
+        "generalTechSpecification": {
+          "eeg": null,
+          "fuels": [
+            {
+              "fuelCode": "Diesel",
+              "powerUnit": "EG",
+              "enginePower": 92,
+              "enginePowerHp": 125,
+              "fuelTankVolume": ""
+            }
+          ],
+          "width": 1956,
+          "height": 1951,
+          "length": 4999,
+          "gearbox": "Manual",
+          "variant": null,
+          "version": null,
+          "taxWeight": 2980,
+          "curbWeight": 2070,
+          "maxPayload": 910,
+          "totalWeight": 2980,
+          "chassisCode1": null,
+          "chassisCode2": null,
+          "cubicCapacity": "1598",
+          "numPassengers": "2",
+          "numberOfSeats": 3,
+          "fourWheelDrive": false,
+          "maxPullWeightB": 750,
+          "clutchMechanism1": null,
+          "clutchMechanism2": null,
+          "maxTrailerWeight": null,
+          "chassisCodeSupplement": null,
+          "maxPullWieghtNoBreaks": null,
+          "maxPullWeightBExtended": null,
+          "maxSingle Axle TrailerWeight": null
+        },
+        "vehicleOrigin": {
+          "originCode": "INFÖRT",
+          "originCodeReason": null,
+          "importerIdentifier": null,
+          "preRegistrationDate": null,
+          "importRegistrationDate": null,
+          "importedForPersonalUse": false,
+          "importedPreviouslyRegistered": false
+        }
+      },
+      "modelName": "Trafic 1.6 dCi Skåp (125hk)",
+      "fuels": [
+        {
+          "fuelCode": "Diesel",
+          "powerUnit": "EG",
+          "enginePower": 92,
+          "enginePowerHp": 125,
+          "fuelTankVolume": ""
+        }
+      ],
+      "modelId": null,
+      "fabricAndMake": "RENAULT",
+      "id": "524188",
+      "baseObjectType": "LIGHT_TRUCK",
+      "createdAt": "2026-10-20T08:45:39.367560+00:00",
+      "exteriorColor": "White",
+      "body": "Van",
+      "odometerUnit": "km",
+      "odometerReading": 152070,
+      "year": "2017",
+      "registrationPlate": "EJU159",
+      "technicalSpecification": {
+        "modelId": null,
+        "vehicle": {
+          "brand": "Renault",
+          "body": "Van",
+          "modelName": "Trafic 1.6 dCi Skåp (125hk)",
+          "familyName": "Trafic"
+        },
+        "year": "2017"
+      }
+    },
+    "isReleasable": false,
+    "presentationApproved": false,
+    "initialBuyNowAmount": null,
+    "car360Spin": null,
+    "certified": false,
+    "offsiteSalesContact": null,
+    "reducedPrice": false,
+    "conditionClassification": "TESTED",
+    "exportable": true,
+    "deductibleVat": false,
+    "collisionWarranty": null,
+    "title": "Renault Trafic 1.6 dCi Skåp (125hk)",
+    "brand": "Renault",
+    "familyName": "Trafic",
+    "modelName": "Trafic 1.6 dCi Skåp (125hk)",
+    "package": null,
+    "heading1": "Renault Trafic",
+    "heading2": "1.6 dCi Skåp",
+    "heading3": null,
+    "media": [
+      {
+        "processObjectId": "7292996",
+        "uri": "https://kvdbil-images.imgix.net/7292996/521aca6e.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292996/521aca6e.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 1
+      },
+      {
+        "processObjectId": "7292996",
+        "uri": "https://kvdbil-images.imgix.net/7292996/6ac60071.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292996/6ac60071.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 1
+      },
+      {
+        "processObjectId": "7292996",
+        "uri": "https://kvdbil-images.imgix.net/7292996/e367a7b1.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292996/e367a7b1.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 2
+      },
+      {
+        "processObjectId": "7292996",
+        "uri": "https://kvdbil-images.imgix.net/7292996/0a6974f5.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292996/0a6974f5.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 3
+      },
+      {
+        "processObjectId": "7292996",
+        "uri": "https://kvdbil-images.imgix.net/7292996/0f7f5437.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292996/0f7f5437.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 4
+      },
+      {
+        "processObjectId": "7292996",
+        "uri": "https://kvdbil-images.imgix.net/7292996/84985c79.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292996/84985c79.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 5
+      },
+      {
+        "processObjectId": "7292996",
+        "uri": "https://kvdbil-images.imgix.net/7292996/146e1d02.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292996/146e1d02.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 6
+      },
+      {
+        "processObjectId": "7292996",
+        "uri": "https://kvdbil-images.imgix.net/7292996/485f387d.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292996/485f387d.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 6
+      },
+      {
+        "processObjectId": "7292996",
+        "uri": "https://kvdbil-images.imgix.net/7292996/42497ca3.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292996/42497ca3.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 7
+      },
+      {
+        "processObjectId": "7292996",
+        "uri": "https://kvdbil-images.imgix.net/7292996/76360423.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292996/76360423.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 8
+      },
+      {
+        "processObjectId": "7292996",
+        "uri": "https://kvdbil-images.imgix.net/7292996/126f4ad5.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292996/126f4ad5.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 10
+      },
+      {
+        "processObjectId": "7292996",
+        "uri": "https://kvdbil-images.imgix.net/7292996/57c56f89.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292996/57c56f89.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 20
+      },
+      {
+        "processObjectId": "7292996",
+        "uri": "https://kvdbil-images.imgix.net/7292996/062a4c61.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292996/062a4c61.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 21
+      },
+      {
+        "processObjectId": "7292996",
+        "uri": "https://kvdbil-images.imgix.net/7292996/8ed8ed25.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292996/8ed8ed25.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 22
+      }
+    ],
+    "locationInfo": {
+      "id": "553751",
+      "processObjectId": "7292996",
+      "locationType": "FACILITY",
+      "createdAt": "2026-10-21T12:19:08.519580+00:00",
+      "updatedAt": "2026-10-21T12:19:08.519583+00:00",
+      "facilityId": "00000001-0001-0001-0001-000000000001",
+      "parkingZone": "A",
+      "parkingNumber": null,
+      "outgoingTime": null,
+      "leftAt": null,
+      "outgoingType": null,
+      "publicFacilityId": "00000001-0001-0001-0001-000000000001",
+      "facility": {
+        "id": "00000001-0001-0001-0001-000000000001",
+        "name": "Kungälv (Ellesbo)",
+        "operator": "KVD",
+        "legacyIdentifiers": [
+          "GBG, Kungälv",
+          "Kungälv (Ellesbo)"
+        ],
+        "objectTypes": [
+          "CAR",
+          "LIGHT_TRANSPORT",
+          "RECREATIONAL_VEHICLE"
+        ],
+        "createdAt": "2018-03-04T13:18:23.295898+00:00",
+        "calendarOrganisationalUnitId": "3",
+        "parkingAreas": [
+          {
+            "id": 1,
+            "name": "A1",
+            "createdAt": "2018-03-04T13:18:23.295898+00:00"
+          },
+          {
+            "id": 2,
+            "name": "B1",
+            "createdAt": "2018-03-04T13:18:23.295898+00:00"
+          }
+        ],
+        "active": true,
+        "latitude": 57.8325714,
+        "longitude": 12.0013274,
+        "distance": null,
+        "address": "Ellesbovägen 150",
+        "postCode": "44290",
+        "city": "Kungälv",
+        "facilityType": "MAXI",
+        "facilityMapUrl": "https://www.google.com/maps/dir/57.8325714,12.0013274/@57.8325714,12.0013274,z13",
+        "contactPhone": "+46101673040",
+        "contactEmail": "leverans.kungalv@kvdbil.se",
+        "allowIncomingTransport": true,
+        "allowLeaseReturns": true,
+        "allowUnplannedDropOffFleetManager": true,
+        "parentFacilityId": null,
+        "publicFacilityId": "00000001-0001-0001-0001-000000000001"
+      }
+    },
+    "valuation": {
+      "id": 238576,
+      "processObjectId": "7292996",
+      "valuatorComment": {
+        "da": "En Renault Trafic byder på en rummelig og praktisk kabine, der passer til både arbejde og hverdag. AC og bluetooth sikrer, at du kører komfortabelt og har nem forbindelse under rejsen, mens start/stop-funktionen og USB-indgangen gør kørsel både mere glidende og mere økonomisk. Synet til november 2027.",
+        "de": "Ein Renault Trafic bietet einen geräumigen und praktischen Innenraum, der sowohl für die Arbeit als auch den Alltag geeignet ist. Klimaanlage und Bluetooth sorgen für eine komfortable Fahrt und einfache Verbindung während der Reise, während die Start/Stopp-Funktion und der USB-Anschluss das Fahren sowohl reibungsloser als auch wirtschaftlicher machen. Geprüft bis November 2027.",
+        "en": "A Renault Trafic offers a spacious and practical interior suitable for both work and everyday life. AC and Bluetooth ensure a comfortable ride and easy connectivity during the journey, while the start/stop function and USB port make driving both smoother and more economical. Inspected until November 2027.",
+        "et": "Renault Trafic pakub avarat ja praktilist salongi, mis sobib nii tööks kui igapäevaeluks. AC ja Bluetooth tagavad mugava sõidu ja lihtsa ühenduse reisi ajal, samal ajal kui start/stop-funktsioon ja USB sisend muudavad sõidu sujuvamaks ja ökonoomsemaks. Kontrollitud kuni novembrini 2027.",
+        "fi": "Renault Trafic tarjoaa tilavan ja käytännöllisen matkustamon, joka sopii sekä työhön että arkeen. AC ja bluetooth takaavat mukavan matkustamisen ja helpon yhteyden matkan aikana, kun taas start/stop-toiminto ja USB-portti tekevät ajamisesta sujuvampaa ja taloudellisempaa. Katsastettu marraskuuhun 2027 asti.",
+        "pl": "Renault Trafic oferuje przestronne i praktyczne wnętrze, odpowiednie zarówno do pracy, jak i na co dzień. Klimatyzacja i Bluetooth zapewniają komfortową jazdę i łatwe połączenie podczas podróży, a funkcja start/stop oraz wejście USB sprawiają, że jazda jest zarówno płynniejsza, jak i bardziej ekonomiczna. Przegląd ważny do listopada 2027.",
+        "sv": "En Renault Trafic bjuder på en rymlig och praktisk kupé som passar både jobb och vardag. AC och bluetooth ser till att du åker bekvämt och har enkel uppkoppling under resan, medan start/stop-funktion och USB-ingång gör körningen både smidigare och mer ekonomisk. Besiktigad till november 2027."
+      },
+      "generatedValuatorComment": {
+        "en": "",
+        "sv": "En Renault Trafic bjuder på en rymlig och praktisk kupé som passar både jobb och vardag. AC och bluetooth ser till att du åker bekvämt och har enkel uppkoppling under resan, medan start/stop-funktion och USB-ingång gör körningen både smidigare och mer ekonomisk. Besiktigad till november 2027."
+      },
+      "carDealerPrice": 115000,
+      "endUserTestProtocol": {
+        "tires": {
+          "mountedTires": {
+            "other": {
+              "rimSize": "16",
+              "rimType": "Plåtfälg",
+              "tireType": "Sommardäck",
+              "otherInfo": "Behövs ej",
+              "tireTypeKey": "SUMMER_TIRES"
+            },
+            "grades": {
+              "rearLeft": 3,
+              "frontLeft": 3,
+              "rearRight": 3,
+              "frontRight": 2
+            },
+            "treadDepths": {
+              "rearLeft": 8,
+              "frontLeft": 5,
+              "rearRight": 7,
+              "frontRight": 3
+            }
+          }
+        },
+        "grades": {
+          "TOTAL": {
+            "max": 5,
+            "min": 1,
+            "value": 2
+          },
+          "BRAKES": {
+            "max": 3,
+            "min": 1,
+            "value": 3
+          },
+          "EXTERIOR": {
+            "max": 5,
+            "min": 1,
+            "value": 3
+          },
+          "INTERIOR": {
+            "max": 5,
+            "min": 1,
+            "value": 3
+          },
+          "ENGINE_AND_GEARBOX": {
+            "max": 3,
+            "min": 1,
+            "value": 2
+          },
+          "TECHNOLOGY_AND_EQUIPMENT": {
+            "max": 3,
+            "min": 1,
+            "value": 2
+          }
+        },
+        "towbar": false,
+        "remarks": {
+          "BRAKES": [],
+          "EXTERIOR": [
+            {
+              "id": "72929962",
+              "key": "Stenskott i vindruta. Plastkåpa under motor skadad. Finns en del mossa och smuts på bilen som inte gick bort i tvätten.",
+              "other": null,
+              "point": 0,
+              "category": "EXTERIOR",
+              "text": "Stenskott i vindruta. Plastkåpa under motor skadad. Finns en del mossa och smuts på bilen som inte gick bort i tvätten."
+            }
+          ],
+          "INTERIOR": [],
+          "ENGINE_AND_GEARBOX": [
+            {
+              "id": "72929965",
+              "key": "Motorlampan lyser.",
+              "other": null,
+              "point": 0,
+              "category": "ENGINE_AND_GEARBOX",
+              "text": "Motorlampan lyser."
+            }
+          ],
+          "TECHNOLOGY_AND_EQUIPMENT": [
+            {
+              "id": "72929964",
+              "key": "Ratt står snett, hjulinställning rekommenderas, Hjulvibrationer. Aktivt felmeddelande ” check anti-pollution system”",
+              "other": null,
+              "point": 0,
+              "category": "TECHNOLOGY_AND_EQUIPMENT",
+              "text": "Ratt står snett, hjulinställning rekommenderas, Hjulvibrationer. Aktivt felmeddelande ” check anti-pollution system”"
+            }
+          ]
+        },
+        "textile": "Textil",
+        "boatType": null,
+        "equipment": [
+          "AC",
+          "Bluetooth",
+          "Start/Stop-funktion",
+          "USB-ingång",
+          "Antisladdsystem",
+          "AUX-ingång",
+          "Elhiss fram",
+          "Elspeglar",
+          "Fjärrlås",
+          "Parkeringssensorer bak",
+          "Parkeringsvärmare med tidur",
+          "Radio",
+          "Stolsvärme fram",
+          "Urkopplingsbar passagerarairbag"
+        ],
+        "boatWidth": null,
+        "createdAt": "2026-10-24T12:22:02",
+        "boatEngine": null,
+        "boatLength": null,
+        "boatWeight": null,
+        "finishType": "Solid",
+        "protocolId": "260982",
+        "stoveFlames": null,
+        "heatingSystem": null,
+        "numberOfKeys": 1,
+        "boatCeBranded": false,
+        "boatGearModel": null,
+        "numberOfBunks": null,
+        "numberOfSeats": 3,
+        "boatEngineFuel": null,
+        "boatSepticTank": false,
+        "isRepairObject": false,
+        "boatEnginePower": null,
+        "serviceBookType": "EXISTS",
+        "boatExteriorColor": null,
+        "serviceBookStatus": "Service utförd vid följande mil: 4023, 7734, 11928 mil",
+        "boatEngineSerialNumber": null,
+        "odometerReadingAfterTest": {
+          "unit": "Mil",
+          "value": 15055
+        },
+        "odometerReadingAfterTestInKm": 150550
+      },
+      "auctionPriceValuation": {
+        "currency": "SEK"
+      },
+      "finalised": true,
+      "includedImageIds": null,
+      "createdAt": "2026-10-24T10:24:10.445187+00:00",
+      "updatedAt": "2026-10-28T09:19:53.622333+00:00",
+      "generatingInProgress": false,
+      "valuatorCommentLocalized": "En Renault Trafic bjuder på en rymlig och praktisk kupé som passar både jobb och vardag. AC och bluetooth ser till att du åker bekvämt och har enkel uppkoppling under resan, medan start/stop-funktion och USB-ingång gör körningen både smidigare och mer ekonomisk. Besiktigad till november 2027."
+    },
+    "facts": {
+      "default": [
+        {
+          "key": "NUMBER_OF_PREVIOUS_OWNERS",
+          "text": "Antal tidigare ägare",
+          "value": 4,
+          "type": "string"
+        },
+        {
+          "key": "REGISTRATION_PLATE",
+          "text": "Registreringsnummer",
+          "value": "EJU159",
+          "type": "string"
+        },
+        {
+          "key": "MODEL_YEAR",
+          "text": "Modellår",
+          "value": 2017,
+          "type": "string"
+        },
+        {
+          "key": "MANUFACTURE_MONTH",
+          "text": "Tillverkningsmånad",
+          "value": "201612",
+          "type": "manufacture_month"
+        },
+        {
+          "key": "ODOMETER_READING",
+          "text": "Mätarställning",
+          "value": 150550,
+          "type": "distance"
+        },
+        {
+          "key": "INITIAL_TRAFFIC_DATE",
+          "text": "Första datum i trafik i Sverige",
+          "value": "2017-03-13",
+          "type": "date"
+        },
+        {
+          "key": "SERVICE_BOOK",
+          "text": "Servicehistorik",
+          "value": "Service utförd vid följande mil: 4023, 7734, 11928 mil",
+          "type": "string"
+        },
+        {
+          "key": "SERVICE_BOOK_TYPE",
+          "text": "Servicebok",
+          "value": "Ja",
+          "type": "string"
+        },
+        {
+          "key": "GEARBOX",
+          "text": "Växellåda",
+          "value": "Manuell",
+          "type": "string"
+        },
+        {
+          "key": "NUMBER_OF_SEATS",
+          "text": "Antal säten",
+          "value": 3,
+          "type": "string"
+        },
+        {
+          "key": "NUMBER_OF_KEYS",
+          "text": "Antal nycklar",
+          "value": 1,
+          "type": "string"
+        },
+        {
+          "key": "EXTERIOR_COLOR",
+          "text": "Färg",
+          "value": "Vit",
+          "type": "string"
+        },
+        {
+          "key": "FINISH_TYPE",
+          "text": "Lack",
+          "value": "Solid",
+          "type": "string"
+        },
+        {
+          "key": "TEXTILE",
+          "text": "Klädsel",
+          "value": "Textil",
+          "type": "string"
+        },
+        {
+          "key": "MANUFACTURER_WARRANTY",
+          "text": "Nybilsgaranti",
+          "value": "Inte undersökt",
+          "type": "string"
+        },
+        {
+          "key": "COLLISION_WARRANTY",
+          "text": "Vagnskadegaranti",
+          "value": "Inte undersökt",
+          "type": "string"
+        },
+        {
+          "key": "TAX_FEE",
+          "text": "Skatt årsavgift",
+          "value": "3397 SEK",
+          "type": "string"
+        }
+      ],
+      "additional": [
+        {
+          "key": "CHASSIS_NUMBER",
+          "text": "Chassinummer",
+          "value": "VF1FL000357011881",
+          "type": "string"
+        },
+        {
+          "key": "ENGINE_EFFECT_DIESEL",
+          "text": "Motoreffekt (diesel)",
+          "value": 125,
+          "type": "engine_power"
+        },
+        {
+          "key": "TOWBAR",
+          "text": "Dragkrok",
+          "value": "Nej",
+          "type": "string"
+        },
+        {
+          "key": "MAX_PAYLOAD",
+          "text": "Maxlastvikt",
+          "value": 910,
+          "type": "weight"
+        },
+        {
+          "key": "CONSUMPTION_DIESEL",
+          "text": "Bränsleförbr. blandad körning (diesel)",
+          "value": 5.9,
+          "type": "consumption"
+        },
+        {
+          "key": "CO2_DIESEL",
+          "text": "CO2-utsläpp (diesel)",
+          "value": 155,
+          "type": "emission"
+        },
+        {
+          "key": "INSPECTION_VALID_TO_DATE",
+          "text": "Nästa besiktning senast",
+          "value": "2027-11-30",
+          "type": "string"
+        },
+        {
+          "key": "CURB_WEIGHT",
+          "text": "Tjänstevikt",
+          "value": 2070,
+          "type": "weight"
+        },
+        {
+          "key": "TAX_WEIGHT",
+          "text": "Skattevikt",
+          "value": 2980,
+          "type": "weight"
+        },
+        {
+          "key": "TOTAL_WEIGHT",
+          "text": "Fordonets totalvikt",
+          "value": 2980,
+          "type": "weight"
+        },
+        {
+          "key": "LENGTH",
+          "text": "Längd",
+          "value": 4999,
+          "type": "length"
+        },
+        {
+          "key": "WIDTH",
+          "text": "Bredd",
+          "value": 1956,
+          "type": "length"
+        },
+        {
+          "key": "HEIGHT",
+          "text": "Höjd",
+          "value": 1951,
+          "type": "length"
+        }
+      ],
+      "other": [
+        {
+          "key": "SOLD_IN_SWEDEN",
+          "text": "Svensksåld",
+          "value": "Ja",
+          "type": "string"
+        },
+        {
+          "key": "EXPORTABLE",
+          "text": "Kan exporteras",
+          "value": "Ja",
+          "type": "string"
+        },
+        {
+          "key": "DEDUCTIBLE_VAT",
+          "text": "Avlyftbar moms",
+          "value": "Nej",
+          "type": "string"
+        }
+      ]
+    },
+    "majorFeature": [
+      {
+        "key": "AC",
+        "title": "AC",
+        "value": null,
+        "equipment": "Utrustning",
+        "description": "Luftkonditionering utan möjlighet till automatisk temperaturinställning"
+      },
+      {
+        "key": "BLUETOOTH",
+        "title": "Bluetooth",
+        "value": null,
+        "equipment": "Utrustning",
+        "description": "Trådlös uppkoppling mot mobila enheter"
+      },
+      {
+        "key": "PARKERINGSSENSORER_BAK",
+        "title": "Parkeringssensorer bak",
+        "value": null,
+        "equipment": "Utrustning",
+        "description": "Sensorer på stötfångare baktill som varnar för hinder bakom bilen"
+      },
+      {
+        "key": "START/STOP-FUNKTION",
+        "title": "Start/Stopp-funktion",
+        "value": null,
+        "equipment": "Utrustning",
+        "description": ""
+      }
+    ],
+    "batteryTestCertificateAvailable": false
+  },
+  "previewImages": [
+    {
+      "processObjectId": "7292996",
+      "uri": "https://kvdbil-images.imgix.net/7292996/521aca6e.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292996/521aca6e.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 1
+    },
+    {
+      "processObjectId": "7292996",
+      "uri": "https://kvdbil-images.imgix.net/7292996/6ac60071.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292996/6ac60071.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 1
+    },
+    {
+      "processObjectId": "7292996",
+      "uri": "https://kvdbil-images.imgix.net/7292996/e367a7b1.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292996/e367a7b1.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 2
+    },
+    {
+      "processObjectId": "7292996",
+      "uri": "https://kvdbil-images.imgix.net/7292996/0a6974f5.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292996/0a6974f5.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 3
+    },
+    {
+      "processObjectId": "7292996",
+      "uri": "https://kvdbil-images.imgix.net/7292996/0f7f5437.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292996/0f7f5437.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 4
+    },
+    {
+      "processObjectId": "7292996",
+      "uri": "https://kvdbil-images.imgix.net/7292996/84985c79.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292996/84985c79.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 5
+    },
+    {
+      "processObjectId": "7292996",
+      "uri": "https://kvdbil-images.imgix.net/7292996/146e1d02.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292996/146e1d02.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 6
+    },
+    {
+      "processObjectId": "7292996",
+      "uri": "https://kvdbil-images.imgix.net/7292996/485f387d.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292996/485f387d.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 6
+    },
+    {
+      "processObjectId": "7292996",
+      "uri": "https://kvdbil-images.imgix.net/7292996/42497ca3.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292996/42497ca3.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 7
+    },
+    {
+      "processObjectId": "7292996",
+      "uri": "https://kvdbil-images.imgix.net/7292996/76360423.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292996/76360423.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 8
+    },
+    {
+      "processObjectId": "7292996",
+      "uri": "https://kvdbil-images.imgix.net/7292996/126f4ad5.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292996/126f4ad5.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 10
+    },
+    {
+      "processObjectId": "7292996",
+      "uri": "https://kvdbil-images.imgix.net/7292996/57c56f89.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292996/57c56f89.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 20
+    },
+    {
+      "processObjectId": "7292996",
+      "uri": "https://kvdbil-images.imgix.net/7292996/062a4c61.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292996/062a4c61.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 21
+    },
+    {
+      "processObjectId": "7292996",
+      "uri": "https://kvdbil-images.imgix.net/7292996/8ed8ed25.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292996/8ed8ed25.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 22
+    }
+  ],
+  "similarAuctions": [
+    {
+      "id": "308832",
+      "auctionType": "BIDDING",
+      "biddingFee": "4425.00",
+      "biddingFeeCorporate": "5613.00",
+      "mediationFee": 0,
+      "mediationFeeCorporate": 0,
+      "buyNow": false,
+      "closedAt": null,
+      "publishedAt": "2026-10-30T11:07:35.932389+00:00",
+      "countdownDuration": 210,
+      "countdownStartAt": "2026-11-04T10:58:30+00:00",
+      "createdAt": "2026-10-24T10:17:11.723036+00:00",
+      "readyForAuctionAt": "2026-11-02",
+      "currency": "SEK",
+      "maxBidRaise": 100000,
+      "minBidRaise": 500,
+      "startBid": 0,
+      "openedAt": "2026-10-30T15:16:23.187673+00:00",
+      "processObjectId": "7292416",
+      "readyForCheckout": false,
+      "soldFor": null,
+      "sellMethod": null,
+      "slug": "renault-trafic-1-6-dci-skap-120hk",
+      "auctionUrl": "https://www.kvd.se/auktioner/renault-trafic-1-6-dci-skap-120hk-308832",
+      "state": "OPEN",
+      "targetedAuctionGroupId": null,
+      "updatedAt": "2026-11-03T23:09:38.216484+00:00",
+      "releasing": null,
+      "loan": {
+        "loanCost": 328,
+        "loanCostBuyNow": null
+      },
+      "buyNowAmount": null,
+      "buyNowAvailable": false,
+      "buyNowUntil": null,
+      "eligibleForAdditionalServices": true,
+      "comingSoon": false,
+      "preliminaryPrice": 100000,
+      "maxAllowedBid": 150000,
+      "isReserved": false,
+      "isSoldByBuyNow": false,
+      "favouriteCount": 28,
+      "winningBid": null,
+      "activeAuction": {
+        "auctionId": "308832",
+        "closed": false,
+        "countdownInProgress": false,
+        "preliminaryCloseAt": "2026-11-04T11:02:00+00:00",
+        "createdAt": "2026-10-30T15:16:23.189502+00:00",
+        "updatedAt": "2026-10-30T15:16:24.238745+00:00",
+        "vatExcludedBiddingAllowed": false,
+        "reservationPriceReached": false,
+        "bids": [
+          {
+            "id": 18702945,
+            "auctionId": 308832,
+            "bidderAlias": "7",
+            "amount": 38500,
+            "type": "NORMAL",
+            "maxBidId": 10929038,
+            "triggeredBy": 10929038,
+            "createdAt": "2026-11-03T18:50:18.759713+00:00",
+            "updatedAt": "2026-11-03T18:50:18.759722+00:00"
+          },
+          {
+            "id": 18702584,
+            "auctionId": 308832,
+            "bidderAlias": "8",
+            "amount": 38000,
+            "type": "NORMAL",
+            "maxBidId": 10928811,
+            "triggeredBy": 10928811,
+            "createdAt": "2026-11-03T18:17:27.356326+00:00",
+            "updatedAt": "2026-11-03T18:17:27.356330+00:00"
+          },
+          {
+            "id": 18702583,
+            "auctionId": 308832,
+            "bidderAlias": "7",
+            "amount": 37500,
+            "type": "LIMIT_REACHED",
+            "maxBidId": 10928541,
+            "triggeredBy": 10928811,
+            "createdAt": "2026-11-03T18:17:27.356310+00:00",
+            "updatedAt": "2026-11-03T18:17:27.356321+00:00"
+          },
+          {
+            "id": 18702150,
+            "auctionId": 308832,
+            "bidderAlias": "7",
+            "amount": 36000,
+            "type": "NORMAL",
+            "maxBidId": 10928541,
+            "triggeredBy": 10928541,
+            "createdAt": "2026-11-03T17:23:16.966907+00:00",
+            "updatedAt": "2026-11-03T17:23:16.966914+00:00"
+          },
+          {
+            "id": 18702106,
+            "auctionId": 308832,
+            "bidderAlias": "2",
+            "amount": 35500,
+            "type": "NORMAL",
+            "maxBidId": 10928517,
+            "triggeredBy": 10928517,
+            "createdAt": "2026-11-03T17:16:12.244476+00:00",
+            "updatedAt": "2026-11-03T17:16:12.244484+00:00"
+          },
+          {
+            "id": 18702103,
+            "auctionId": 308832,
+            "bidderAlias": "6",
+            "amount": 35000,
+            "type": "AUTO",
+            "maxBidId": 10928391,
+            "triggeredBy": 10928515,
+            "createdAt": "2026-11-03T17:15:55.049099+00:00",
+            "updatedAt": "2026-11-03T17:15:55.049102+00:00"
+          },
+          {
+            "id": 18702102,
+            "auctionId": 308832,
+            "bidderAlias": "2",
+            "amount": 34500,
+            "type": "NORMAL",
+            "maxBidId": 10928515,
+            "triggeredBy": 10928515,
+            "createdAt": "2026-11-03T17:15:55.049090+00:00",
+            "updatedAt": "2026-11-03T17:15:55.049097+00:00"
+          },
+          {
+            "id": 18702095,
+            "auctionId": 308832,
+            "bidderAlias": "6",
+            "amount": 34000,
+            "type": "AUTO",
+            "maxBidId": 10928391,
+            "triggeredBy": 10928511,
+            "createdAt": "2026-11-03T17:15:30.641541+00:00",
+            "updatedAt": "2026-11-03T17:15:30.641545+00:00"
+          },
+          {
+            "id": 18702094,
+            "auctionId": 308832,
+            "bidderAlias": "2",
+            "amount": 33500,
+            "type": "NORMAL",
+            "maxBidId": 10928511,
+            "triggeredBy": 10928511,
+            "createdAt": "2026-11-03T17:15:30.641525+00:00",
+            "updatedAt": "2026-11-03T17:15:30.641536+00:00"
+          },
+          {
+            "id": 18702090,
+            "auctionId": 308832,
+            "bidderAlias": "6",
+            "amount": 33000,
+            "type": "AUTO",
+            "maxBidId": 10928391,
+            "triggeredBy": 10928508,
+            "createdAt": "2026-11-03T17:15:01.639935+00:00",
+            "updatedAt": "2026-11-03T17:15:01.639937+00:00"
+          },
+          {
+            "id": 18702089,
+            "auctionId": 308832,
+            "bidderAlias": "2",
+            "amount": 32500,
+            "type": "NORMAL",
+            "maxBidId": 10928508,
+            "triggeredBy": 10928508,
+            "createdAt": "2026-11-03T17:15:01.639925+00:00",
+            "updatedAt": "2026-11-03T17:15:01.639932+00:00"
+          },
+          {
+            "id": 18701891,
+            "auctionId": 308832,
+            "bidderAlias": "6",
+            "amount": 32000,
+            "type": "NORMAL",
+            "maxBidId": 10928391,
+            "triggeredBy": 10928391,
+            "createdAt": "2026-11-03T16:33:10.181373+00:00",
+            "updatedAt": "2026-11-03T16:33:10.181376+00:00"
+          },
+          {
+            "id": 18701890,
+            "auctionId": 308832,
+            "bidderAlias": "2",
+            "amount": 31500,
+            "type": "LIMIT_REACHED",
+            "maxBidId": 10928145,
+            "triggeredBy": 10928391,
+            "createdAt": "2026-11-03T16:33:10.181351+00:00",
+            "updatedAt": "2026-11-03T16:33:10.181367+00:00"
+          },
+          {
+            "id": 18701461,
+            "auctionId": 308832,
+            "bidderAlias": "2",
+            "amount": 30500,
+            "type": "NORMAL",
+            "maxBidId": 10928145,
+            "triggeredBy": 10928145,
+            "createdAt": "2026-11-03T14:19:50.088786+00:00",
+            "updatedAt": "2026-11-03T14:19:50.088799+00:00"
+          },
+          {
+            "id": 18701435,
+            "auctionId": 308832,
+            "bidderAlias": "5",
+            "amount": 30000,
+            "type": "NORMAL",
+            "maxBidId": 10928130,
+            "triggeredBy": 10928130,
+            "createdAt": "2026-11-03T14:04:42.829275+00:00",
+            "updatedAt": "2026-11-03T14:04:42.829279+00:00"
+          },
+          {
+            "id": 18701434,
+            "auctionId": 308832,
+            "bidderAlias": "2",
+            "amount": 29500,
+            "type": "LIMIT_REACHED",
+            "maxBidId": 10928117,
+            "triggeredBy": 10928130,
+            "createdAt": "2026-11-03T14:04:42.829262+00:00",
+            "updatedAt": "2026-11-03T14:04:42.829270+00:00"
+          },
+          {
+            "id": 18701413,
+            "auctionId": 308832,
+            "bidderAlias": "2",
+            "amount": 27500,
+            "type": "NORMAL",
+            "maxBidId": 10928117,
+            "triggeredBy": 10928117,
+            "createdAt": "2026-11-03T13:46:44.509542+00:00",
+            "updatedAt": "2026-11-03T13:46:44.509544+00:00"
+          },
+          {
+            "id": 18701412,
+            "auctionId": 308832,
+            "bidderAlias": "4",
+            "amount": 27000,
+            "type": "LIMIT_REACHED",
+            "maxBidId": 10928016,
+            "triggeredBy": 10928117,
+            "createdAt": "2026-11-03T13:46:44.509533+00:00",
+            "updatedAt": "2026-11-03T13:46:44.509539+00:00"
+          },
+          {
+            "id": 18701239,
+            "auctionId": 308832,
+            "bidderAlias": "4",
+            "amount": 26000,
+            "type": "NORMAL",
+            "maxBidId": 10928016,
+            "triggeredBy": 10928016,
+            "createdAt": "2026-11-03T11:57:19.361856+00:00",
+            "updatedAt": "2026-11-03T11:57:19.361866+00:00"
+          },
+          {
+            "id": 18696896,
+            "auctionId": 308832,
+            "bidderAlias": "2",
+            "amount": 25500,
+            "type": "NORMAL",
+            "maxBidId": 10925489,
+            "triggeredBy": 10925489,
+            "createdAt": "2026-11-02T21:15:12.827771+00:00",
+            "updatedAt": "2026-11-02T21:15:12.827776+00:00"
+          },
+          {
+            "id": 18696895,
+            "auctionId": 308832,
+            "bidderAlias": "3",
+            "amount": 25000,
+            "type": "LIMIT_REACHED",
+            "maxBidId": 10925390,
+            "triggeredBy": 10925489,
+            "createdAt": "2026-11-02T21:15:12.827752+00:00",
+            "updatedAt": "2026-11-02T21:15:12.827760+00:00"
+          },
+          {
+            "id": 18696894,
+            "auctionId": 308832,
+            "bidderAlias": "3",
+            "amount": 24000,
+            "type": "AUTO",
+            "maxBidId": 10925390,
+            "triggeredBy": 10925488,
+            "createdAt": "2026-11-02T21:14:56.695141+00:00",
+            "updatedAt": "2026-11-02T21:14:56.695144+00:00"
+          },
+          {
+            "id": 18696893,
+            "auctionId": 308832,
+            "bidderAlias": "2",
+            "amount": 23500,
+            "type": "NORMAL",
+            "maxBidId": 10925488,
+            "triggeredBy": 10925488,
+            "createdAt": "2026-11-02T21:14:56.695128+00:00",
+            "updatedAt": "2026-11-02T21:14:56.695136+00:00"
+          },
+          {
+            "id": 18696892,
+            "auctionId": 308832,
+            "bidderAlias": "3",
+            "amount": 22000,
+            "type": "AUTO",
+            "maxBidId": 10925390,
+            "triggeredBy": 10925487,
+            "createdAt": "2026-11-02T21:14:42.197741+00:00",
+            "updatedAt": "2026-11-02T21:14:42.197744+00:00"
+          },
+          {
+            "id": 18696891,
+            "auctionId": 308832,
+            "bidderAlias": "2",
+            "amount": 21500,
+            "type": "NORMAL",
+            "maxBidId": 10925487,
+            "triggeredBy": 10925487,
+            "createdAt": "2026-11-02T21:14:42.197731+00:00",
+            "updatedAt": "2026-11-02T21:14:42.197738+00:00"
+          },
+          {
+            "id": 18696890,
+            "auctionId": 308832,
+            "bidderAlias": "3",
+            "amount": 20000,
+            "type": "AUTO",
+            "maxBidId": 10925390,
+            "triggeredBy": 10925486,
+            "createdAt": "2026-11-02T21:14:27.823605+00:00",
+            "updatedAt": "2026-11-02T21:14:27.823609+00:00"
+          },
+          {
+            "id": 18696889,
+            "auctionId": 308832,
+            "bidderAlias": "2",
+            "amount": 19500,
+            "type": "NORMAL",
+            "maxBidId": 10925486,
+            "triggeredBy": 10925486,
+            "createdAt": "2026-11-02T21:14:27.823592+00:00",
+            "updatedAt": "2026-11-02T21:14:27.823600+00:00"
+          },
+          {
+            "id": 18696887,
+            "auctionId": 308832,
+            "bidderAlias": "3",
+            "amount": 17500,
+            "type": "AUTO",
+            "maxBidId": 10925390,
+            "triggeredBy": 10925484,
+            "createdAt": "2026-11-02T21:14:08.501888+00:00",
+            "updatedAt": "2026-11-02T21:14:08.501891+00:00"
+          },
+          {
+            "id": 18696886,
+            "auctionId": 308832,
+            "bidderAlias": "2",
+            "amount": 17000,
+            "type": "NORMAL",
+            "maxBidId": 10925484,
+            "triggeredBy": 10925484,
+            "createdAt": "2026-11-02T21:14:08.501879+00:00",
+            "updatedAt": "2026-11-02T21:14:08.501885+00:00"
+          },
+          {
+            "id": 18696715,
+            "auctionId": 308832,
+            "bidderAlias": "3",
+            "amount": 11000,
+            "type": "NORMAL",
+            "maxBidId": 10925390,
+            "triggeredBy": 10925390,
+            "createdAt": "2026-11-02T20:27:52.440424+00:00",
+            "updatedAt": "2026-11-02T20:27:52.440426+00:00"
+          },
+          {
+            "id": 18696714,
+            "auctionId": 308832,
+            "bidderAlias": "2",
+            "amount": 10500,
+            "type": "LIMIT_REACHED",
+            "maxBidId": 10922550,
+            "triggeredBy": 10925390,
+            "createdAt": "2026-11-02T20:27:52.440414+00:00",
+            "updatedAt": "2026-11-02T20:27:52.440421+00:00"
+          },
+          {
+            "id": 18691825,
+            "auctionId": 308832,
+            "bidderAlias": "2",
+            "amount": 2500,
+            "type": "NORMAL",
+            "maxBidId": 10922550,
+            "triggeredBy": 10922550,
+            "createdAt": "2026-11-02T08:18:49.641738+00:00",
+            "updatedAt": "2026-11-02T08:18:49.641740+00:00"
+          },
+          {
+            "id": 18691824,
+            "auctionId": 308832,
+            "bidderAlias": "1",
+            "amount": 2000,
+            "type": "LIMIT_REACHED",
+            "maxBidId": 10920734,
+            "triggeredBy": 10922550,
+            "createdAt": "2026-11-02T08:18:49.641729+00:00",
+            "updatedAt": "2026-11-02T08:18:49.641735+00:00"
+          },
+          {
+            "id": 18688717,
+            "auctionId": 308832,
+            "bidderAlias": "1",
+            "amount": 500,
+            "type": "NORMAL",
+            "maxBidId": 10920734,
+            "triggeredBy": 10920734,
+            "createdAt": "2026-11-01T15:04:41.287728+00:00",
+            "updatedAt": "2026-11-01T15:04:41.287762+00:00"
+          }
+        ],
+        "myBidderAlias": null,
+        "myMaxBid": null,
+        "highestBid": {
+          "id": 18702945,
+          "auctionId": 308832,
+          "bidderAlias": null,
+          "amount": 38500,
+          "type": "NORMAL",
+          "maxBidId": 10929038,
+          "triggeredBy": 10929038,
+          "createdAt": "2026-11-03T18:50:18.759713+00:00",
+          "updatedAt": "2026-11-03T18:50:18.759722+00:00",
+          "eurAmount": 3520
+        },
+        "buyNowAvailable": false,
+        "releasing": null,
+        "isHighestBidLowerThanResidualLoanValue": false
+      },
+      "processObject": {
+        "state": "AUCTION",
+        "certified": false,
+        "car360Spin": null,
+        "sellMethod": "BIDDING",
+        "initialBuyNowAmount": null,
+        "displayCar360Spin": true,
+        "vehicleType": "LIGHT_TRANSPORT",
+        "id": "7292416",
+        "presentationApproved": false,
+        "isFixedPrice": false,
+        "reducedPrice": false,
+        "baseObjectId": "523147",
+        "objectType": "LIGHT_TRUCK",
+        "properties": {
+          "modelYear": 2016,
+          "deductibleVat": false,
+          "adHeader": "Trafic 1.6 dCi (120hk) Värmare Drag Vinterhjul",
+          "modelName": "Trafic 1.6 dCi Skåp (120hk)",
+          "odometerReading": 158530,
+          "hasUnpaidLoan": false,
+          "saleLimitedToCorporate": false,
+          "registrationPlate": "NYZ382",
+          "body": "Van",
+          "odometerUnit": "km",
+          "heavyEquipment": false,
+          "fuels": [
+            {
+              "enginePower": 120,
+              "fuelCode": "Diesel",
+              "consumption": 5.9,
+              "co2": 155
+            }
+          ],
+          "title": "Renault Trafic 1.6 dCi Skåp (120hk)",
+          "exteriorColor": "White",
+          "gearbox": "Manual",
+          "numberOfPreviousOwners": 1,
+          "brand": "Renault",
+          "package": "Värmare Drag Vinterhjul",
+          "familyName": "Trafic",
+          "mustExport": false,
+          "ecoFriendly": false,
+          "exportable": true,
+          "heading1": "Renault Trafic",
+          "heading2": "1.6 dCi Skåp",
+          "heading3": "Värmare Drag Vinterhjul"
+        },
+        "statisticalValuation": null,
+        "isReleasable": false,
+        "leaseReturnProperties": {},
+        "testDriveAllowed": true,
+        "baseObject": {
+          "state": "MANUAL_VALUATION_PENDING",
+          "modelName": "Trafic 1.6 dCi Skåp (120hk)",
+          "odometerReading": null,
+          "year": "2016",
+          "registrationPlate": "NYZ382",
+          "body": "Van",
+          "odometerUnit": "km",
+          "fuels": [
+            {
+              "fuelCode": "Diesel",
+              "powerUnit": "EG",
+              "enginePower": 88,
+              "enginePowerHp": 120,
+              "fuelTankVolume": ""
+            }
+          ],
+          "id": "523147",
+          "exteriorColor": "White",
+          "gearbox": "Manual",
+          "registrationCountry": "se",
+          "earliestAvailableAt": null,
+          "baseObjectType": "LIGHT_TRUCK",
+          "modelId": null,
+          "fabricAndMake": "RENAULT",
+          "salesFlow": "CORPORATE_CARS_SMALL",
+          "brand": "Renault",
+          "familyName": "Trafic",
+          "createdAt": "2026-10-15T09:12:37.750559+00:00",
+          "technicalSpecification": {
+            "modelId": null,
+            "vehicle": {
+              "brand": "Renault",
+              "body": "Van",
+              "modelName": "Trafic 1.6 dCi Skåp (120hk)",
+              "familyName": "Trafic"
+            },
+            "year": "2016"
+          }
+        },
+        "buyNowAmount": null,
+        "createdAt": "2026-10-15 09:12:38.161272+00:00",
+        "offsiteSalesContact": null,
+        "conditionClassification": "TESTED",
+        "proactiveBrokering": null,
+        "exportable": true,
+        "deductibleVat": false,
+        "collisionWarranty": null,
+        "title": "Renault Trafic 1.6 dCi Skåp (120hk)",
+        "brand": "Renault",
+        "familyName": "Trafic",
+        "modelName": "Trafic 1.6 dCi Skåp (120hk)",
+        "package": "Värmare Drag Vinterhjul",
+        "heading1": "Renault Trafic",
+        "heading2": "1.6 dCi Skåp",
+        "heading3": "Värmare Drag Vinterhjul"
+      },
+      "previewImages": [
+        {
+          "processObjectId": "7292416",
+          "uri": "https://kvdbil-images.imgix.net/7292416/64e72bd6.jpg",
+          "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292416/64e72bd6.jpg",
+          "type": "PRESENTATION",
+          "contentType": "image",
+          "order": 1
+        },
+        {
+          "processObjectId": "7292416",
+          "uri": "https://kvdbil-images.imgix.net/7292416/5f76a99b.jpg",
+          "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292416/5f76a99b.jpg",
+          "type": "PRESENTATION",
+          "contentType": "image",
+          "order": 2
+        }
+      ],
+      "previewImage": "https://kvdbil-images.imgix.net/7292416/64e72bd6.jpg"
+    }
+  ],
+  "activeAuction": {
+    "auctionId": "308182",
+    "closed": true,
+    "countdownInProgress": true,
+    "preliminaryCloseAt": "2026-11-03T09:49:32.296107+00:00",
+    "createdAt": "2026-10-28T14:50:18.795887+00:00",
+    "updatedAt": "2026-11-03T09:49:32.310218+00:00",
+    "vatExcludedBiddingAllowed": false,
+    "reservationPriceReached": true,
+    "bids": [
+      {
+        "id": 18699725,
+        "auctionId": 308182,
+        "bidderAlias": "5",
+        "amount": 76500,
+        "type": "NORMAL",
+        "maxBidId": 10927108,
+        "triggeredBy": 10927108,
+        "createdAt": "2026-11-03T09:46:02.300181+00:00",
+        "updatedAt": "2026-11-03T09:46:02.300187+00:00"
+      },
+      {
+        "id": 18699718,
+        "auctionId": 308182,
+        "bidderAlias": "9",
+        "amount": 76000,
+        "type": "NORMAL",
+        "maxBidId": 10927104,
+        "triggeredBy": 10927104,
+        "createdAt": "2026-11-03T09:45:42.157203+00:00",
+        "updatedAt": "2026-11-03T09:45:42.157212+00:00"
+      },
+      {
+        "id": 18699683,
+        "auctionId": 308182,
+        "bidderAlias": "5",
+        "amount": 75500,
+        "type": "AUTO",
+        "maxBidId": 10927063,
+        "triggeredBy": 10927083,
+        "createdAt": "2026-11-03T09:43:31.405981+00:00",
+        "updatedAt": "2026-11-03T09:43:31.405985+00:00"
+      },
+      {
+        "id": 18699682,
+        "auctionId": 308182,
+        "bidderAlias": "9",
+        "amount": 75000,
+        "type": "NORMAL",
+        "maxBidId": 10927083,
+        "triggeredBy": 10927083,
+        "createdAt": "2026-11-03T09:43:31.405958+00:00",
+        "updatedAt": "2026-11-03T09:43:31.405976+00:00"
+      },
+      {
+        "id": 18699647,
+        "auctionId": 308182,
+        "bidderAlias": "5",
+        "amount": 74500,
+        "type": "NORMAL",
+        "maxBidId": 10927063,
+        "triggeredBy": 10927063,
+        "createdAt": "2026-11-03T09:41:49.527643+00:00",
+        "updatedAt": "2026-11-03T09:41:49.527650+00:00"
+      },
+      {
+        "id": 18699635,
+        "auctionId": 308182,
+        "bidderAlias": "9",
+        "amount": 74000,
+        "type": "NORMAL",
+        "maxBidId": 10927056,
+        "triggeredBy": 10927056,
+        "createdAt": "2026-11-03T09:41:05.304370+00:00",
+        "updatedAt": "2026-11-03T09:41:05.304373+00:00"
+      },
+      {
+        "id": 18699634,
+        "auctionId": 308182,
+        "bidderAlias": "5",
+        "amount": 73500,
+        "type": "LIMIT_REACHED",
+        "maxBidId": 10927052,
+        "triggeredBy": 10927056,
+        "createdAt": "2026-11-03T09:41:05.304358+00:00",
+        "updatedAt": "2026-11-03T09:41:05.304365+00:00"
+      },
+      {
+        "id": 18699628,
+        "auctionId": 308182,
+        "bidderAlias": "5",
+        "amount": 73000,
+        "type": "NORMAL",
+        "maxBidId": 10927052,
+        "triggeredBy": 10927052,
+        "createdAt": "2026-11-03T09:40:33.349159+00:00",
+        "updatedAt": "2026-11-03T09:40:33.349167+00:00"
+      },
+      {
+        "id": 18699563,
+        "auctionId": 308182,
+        "bidderAlias": "9",
+        "amount": 72500,
+        "type": "NORMAL",
+        "maxBidId": 10927015,
+        "triggeredBy": 10927015,
+        "createdAt": "2026-11-03T09:37:37.032142+00:00",
+        "updatedAt": "2026-11-03T09:37:37.032151+00:00"
+      },
+      {
+        "id": 18699506,
+        "auctionId": 308182,
+        "bidderAlias": "5",
+        "amount": 72000,
+        "type": "AUTO",
+        "maxBidId": 10926941,
+        "triggeredBy": 10926981,
+        "createdAt": "2026-11-03T09:35:14.589618+00:00",
+        "updatedAt": "2026-11-03T09:35:14.589622+00:00"
+      },
+      {
+        "id": 18699505,
+        "auctionId": 308182,
+        "bidderAlias": "9",
+        "amount": 71500,
+        "type": "NORMAL",
+        "maxBidId": 10926981,
+        "triggeredBy": 10926981,
+        "createdAt": "2026-11-03T09:35:14.589605+00:00",
+        "updatedAt": "2026-11-03T09:35:14.589613+00:00"
+      },
+      {
+        "id": 18699453,
+        "auctionId": 308182,
+        "bidderAlias": "5",
+        "amount": 71000,
+        "type": "AUTO",
+        "maxBidId": 10926941,
+        "triggeredBy": 10926948,
+        "createdAt": "2026-11-03T09:32:06.112561+00:00",
+        "updatedAt": "2026-11-03T09:32:06.112564+00:00"
+      },
+      {
+        "id": 18699452,
+        "auctionId": 308182,
+        "bidderAlias": "9",
+        "amount": 70500,
+        "type": "NORMAL",
+        "maxBidId": 10926948,
+        "triggeredBy": 10926948,
+        "createdAt": "2026-11-03T09:32:06.112553+00:00",
+        "updatedAt": "2026-11-03T09:32:06.112559+00:00"
+      },
+      {
+        "id": 18699441,
+        "auctionId": 308182,
+        "bidderAlias": "5",
+        "amount": 70000,
+        "type": "NORMAL",
+        "maxBidId": 10926941,
+        "triggeredBy": 10926941,
+        "createdAt": "2026-11-03T09:31:38.293951+00:00",
+        "updatedAt": "2026-11-03T09:31:38.293959+00:00"
+      },
+      {
+        "id": 18699370,
+        "auctionId": 308182,
+        "bidderAlias": "9",
+        "amount": 69500,
+        "type": "NORMAL",
+        "maxBidId": 10926899,
+        "triggeredBy": 10926899,
+        "createdAt": "2026-11-03T09:28:37.951269+00:00",
+        "updatedAt": "2026-11-03T09:28:37.951271+00:00"
+      },
+      {
+        "id": 18699369,
+        "auctionId": 308182,
+        "bidderAlias": "8",
+        "amount": 69000,
+        "type": "LIMIT_REACHED",
+        "maxBidId": 10926875,
+        "triggeredBy": 10926899,
+        "createdAt": "2026-11-03T09:28:37.951260+00:00",
+        "updatedAt": "2026-11-03T09:28:37.951266+00:00"
+      },
+      {
+        "id": 18699335,
+        "auctionId": 308182,
+        "bidderAlias": "8",
+        "amount": 68500,
+        "type": "NORMAL",
+        "maxBidId": 10926875,
+        "triggeredBy": 10926875,
+        "createdAt": "2026-11-03T09:26:03.403730+00:00",
+        "updatedAt": "2026-11-03T09:26:03.403735+00:00"
+      },
+      {
+        "id": 18699314,
+        "auctionId": 308182,
+        "bidderAlias": "9",
+        "amount": 68000,
+        "type": "NORMAL",
+        "maxBidId": 10926863,
+        "triggeredBy": 10926863,
+        "createdAt": "2026-11-03T09:25:13.752583+00:00",
+        "updatedAt": "2026-11-03T09:25:13.752585+00:00"
+      },
+      {
+        "id": 18699313,
+        "auctionId": 308182,
+        "bidderAlias": "8",
+        "amount": 67500,
+        "type": "LIMIT_REACHED",
+        "maxBidId": 10926846,
+        "triggeredBy": 10926863,
+        "createdAt": "2026-11-03T09:25:13.752573+00:00",
+        "updatedAt": "2026-11-03T09:25:13.752580+00:00"
+      },
+      {
+        "id": 18699303,
+        "auctionId": 308182,
+        "bidderAlias": "8",
+        "amount": 67000,
+        "type": "AUTO",
+        "maxBidId": 10926846,
+        "triggeredBy": 10926856,
+        "createdAt": "2026-11-03T09:25:02.945300+00:00",
+        "updatedAt": "2026-11-03T09:25:02.945303+00:00"
+      },
+      {
+        "id": 18699302,
+        "auctionId": 308182,
+        "bidderAlias": "9",
+        "amount": 66500,
+        "type": "NORMAL",
+        "maxBidId": 10926856,
+        "triggeredBy": 10926856,
+        "createdAt": "2026-11-03T09:25:02.945265+00:00",
+        "updatedAt": "2026-11-03T09:25:02.945295+00:00"
+      },
+      {
+        "id": 18699286,
+        "auctionId": 308182,
+        "bidderAlias": "8",
+        "amount": 66000,
+        "type": "NORMAL",
+        "maxBidId": 10926846,
+        "triggeredBy": 10926846,
+        "createdAt": "2026-11-03T09:24:18.059105+00:00",
+        "updatedAt": "2026-11-03T09:24:18.059108+00:00"
+      },
+      {
+        "id": 18699285,
+        "auctionId": 308182,
+        "bidderAlias": "5",
+        "amount": 65500,
+        "type": "LIMIT_REACHED",
+        "maxBidId": 10926835,
+        "triggeredBy": 10926846,
+        "createdAt": "2026-11-03T09:24:18.059096+00:00",
+        "updatedAt": "2026-11-03T09:24:18.059102+00:00"
+      },
+      {
+        "id": 18699281,
+        "auctionId": 308182,
+        "bidderAlias": "5",
+        "amount": 64500,
+        "type": "AUTO",
+        "maxBidId": 10926835,
+        "triggeredBy": 10926842,
+        "createdAt": "2026-11-03T09:24:02.623016+00:00",
+        "updatedAt": "2026-11-03T09:24:02.623019+00:00"
+      },
+      {
+        "id": 18699280,
+        "auctionId": 308182,
+        "bidderAlias": "8",
+        "amount": 64000,
+        "type": "NORMAL",
+        "maxBidId": 10926842,
+        "triggeredBy": 10926842,
+        "createdAt": "2026-11-03T09:24:02.623007+00:00",
+        "updatedAt": "2026-11-03T09:24:02.623013+00:00"
+      },
+      {
+        "id": 18699276,
+        "auctionId": 308182,
+        "bidderAlias": "5",
+        "amount": 62000,
+        "type": "AUTO",
+        "maxBidId": 10926835,
+        "triggeredBy": 10926839,
+        "createdAt": "2026-11-03T09:23:54.193510+00:00",
+        "updatedAt": "2026-11-03T09:23:54.193513+00:00"
+      },
+      {
+        "id": 18699275,
+        "auctionId": 308182,
+        "bidderAlias": "8",
+        "amount": 61500,
+        "type": "NORMAL",
+        "maxBidId": 10926839,
+        "triggeredBy": 10926839,
+        "createdAt": "2026-11-03T09:23:54.193501+00:00",
+        "updatedAt": "2026-11-03T09:23:54.193508+00:00"
+      },
+      {
+        "id": 18699270,
+        "auctionId": 308182,
+        "bidderAlias": "5",
+        "amount": 59000,
+        "type": "NORMAL",
+        "maxBidId": 10926835,
+        "triggeredBy": 10926835,
+        "createdAt": "2026-11-03T09:23:43.399450+00:00",
+        "updatedAt": "2026-11-03T09:23:43.399453+00:00"
+      },
+      {
+        "id": 18699269,
+        "auctionId": 308182,
+        "bidderAlias": "8",
+        "amount": 58500,
+        "type": "LIMIT_REACHED",
+        "maxBidId": 10926822,
+        "triggeredBy": 10926835,
+        "createdAt": "2026-11-03T09:23:43.399439+00:00",
+        "updatedAt": "2026-11-03T09:23:43.399447+00:00"
+      },
+      {
+        "id": 18699249,
+        "auctionId": 308182,
+        "bidderAlias": "8",
+        "amount": 56500,
+        "type": "NORMAL",
+        "maxBidId": 10926822,
+        "triggeredBy": 10926822,
+        "createdAt": "2026-11-03T09:22:58.412152+00:00",
+        "updatedAt": "2026-11-03T09:22:58.412154+00:00"
+      },
+      {
+        "id": 18699248,
+        "auctionId": 308182,
+        "bidderAlias": "5",
+        "amount": 56000,
+        "type": "LIMIT_REACHED",
+        "maxBidId": 10926788,
+        "triggeredBy": 10926822,
+        "createdAt": "2026-11-03T09:22:58.412144+00:00",
+        "updatedAt": "2026-11-03T09:22:58.412149+00:00"
+      },
+      {
+        "id": 18699242,
+        "auctionId": 308182,
+        "bidderAlias": "5",
+        "amount": 55500,
+        "type": "AUTO",
+        "maxBidId": 10926788,
+        "triggeredBy": 10926818,
+        "createdAt": "2026-11-03T09:22:49.431903+00:00",
+        "updatedAt": "2026-11-03T09:22:49.431907+00:00"
+      },
+      {
+        "id": 18699241,
+        "auctionId": 308182,
+        "bidderAlias": "8",
+        "amount": 55000,
+        "type": "NORMAL",
+        "maxBidId": 10926818,
+        "triggeredBy": 10926818,
+        "createdAt": "2026-11-03T09:22:49.431890+00:00",
+        "updatedAt": "2026-11-03T09:22:49.431898+00:00"
+      },
+      {
+        "id": 18699195,
+        "auctionId": 308182,
+        "bidderAlias": "5",
+        "amount": 51500,
+        "type": "NORMAL",
+        "maxBidId": 10926788,
+        "triggeredBy": 10926788,
+        "createdAt": "2026-11-03T09:21:18.856028+00:00",
+        "updatedAt": "2026-11-03T09:21:18.856032+00:00"
+      },
+      {
+        "id": 18699194,
+        "auctionId": 308182,
+        "bidderAlias": "3",
+        "amount": 51000,
+        "type": "LIMIT_REACHED",
+        "maxBidId": 10925924,
+        "triggeredBy": 10926788,
+        "createdAt": "2026-11-03T09:21:18.856012+00:00",
+        "updatedAt": "2026-11-03T09:21:18.856023+00:00"
+      },
+      {
+        "id": 18697667,
+        "auctionId": 308182,
+        "bidderAlias": "3",
+        "amount": 50500,
+        "type": "NORMAL",
+        "maxBidId": 10925924,
+        "triggeredBy": 10925924,
+        "createdAt": "2026-11-03T06:52:38.493606+00:00",
+        "updatedAt": "2026-11-03T06:52:38.493607+00:00"
+      },
+      {
+        "id": 18697666,
+        "auctionId": 308182,
+        "bidderAlias": "5",
+        "amount": 50000,
+        "type": "LIMIT_REACHED",
+        "maxBidId": 10919710,
+        "triggeredBy": 10925924,
+        "createdAt": "2026-11-03T06:52:38.493597+00:00",
+        "updatedAt": "2026-11-03T06:52:38.493603+00:00"
+      },
+      {
+        "id": 18697665,
+        "auctionId": 308182,
+        "bidderAlias": "5",
+        "amount": 48500,
+        "type": "AUTO",
+        "maxBidId": 10919710,
+        "triggeredBy": 10925923,
+        "createdAt": "2026-11-03T06:52:29.188341+00:00",
+        "updatedAt": "2026-11-03T06:52:29.188344+00:00"
+      },
+      {
+        "id": 18697664,
+        "auctionId": 308182,
+        "bidderAlias": "3",
+        "amount": 48000,
+        "type": "NORMAL",
+        "maxBidId": 10925923,
+        "triggeredBy": 10925923,
+        "createdAt": "2026-11-03T06:52:29.188323+00:00",
+        "updatedAt": "2026-11-03T06:52:29.188337+00:00"
+      },
+      {
+        "id": 18697663,
+        "auctionId": 308182,
+        "bidderAlias": "5",
+        "amount": 44500,
+        "type": "AUTO",
+        "maxBidId": 10919710,
+        "triggeredBy": 10925922,
+        "createdAt": "2026-11-03T06:52:21.787350+00:00",
+        "updatedAt": "2026-11-03T06:52:21.787355+00:00"
+      },
+      {
+        "id": 18697662,
+        "auctionId": 308182,
+        "bidderAlias": "3",
+        "amount": 44000,
+        "type": "NORMAL",
+        "maxBidId": 10925922,
+        "triggeredBy": 10925922,
+        "createdAt": "2026-11-03T06:52:21.787330+00:00",
+        "updatedAt": "2026-11-03T06:52:21.787344+00:00"
+      },
+      {
+        "id": 18697373,
+        "auctionId": 308182,
+        "bidderAlias": "5",
+        "amount": 39000,
+        "type": "AUTO",
+        "maxBidId": 10919710,
+        "triggeredBy": 10925755,
+        "createdAt": "2026-11-03T04:26:34.958678+00:00",
+        "updatedAt": "2026-11-03T04:26:34.958680+00:00"
+      },
+      {
+        "id": 18697372,
+        "auctionId": 308182,
+        "bidderAlias": "7",
+        "amount": 38500,
+        "type": "NORMAL",
+        "maxBidId": 10925755,
+        "triggeredBy": 10925755,
+        "createdAt": "2026-11-03T04:26:34.958668+00:00",
+        "updatedAt": "2026-11-03T04:26:34.958675+00:00"
+      },
+      {
+        "id": 18696129,
+        "auctionId": 308182,
+        "bidderAlias": "5",
+        "amount": 38000,
+        "type": "AUTO",
+        "maxBidId": 10919710,
+        "triggeredBy": 10925041,
+        "createdAt": "2026-11-02T18:13:08.011079+00:00",
+        "updatedAt": "2026-11-02T18:13:08.011081+00:00"
+      },
+      {
+        "id": 18696128,
+        "auctionId": 308182,
+        "bidderAlias": "6",
+        "amount": 37500,
+        "type": "NORMAL",
+        "maxBidId": 10925041,
+        "triggeredBy": 10925041,
+        "createdAt": "2026-11-02T18:13:08.011069+00:00",
+        "updatedAt": "2026-11-02T18:13:08.011076+00:00"
+      },
+      {
+        "id": 18696125,
+        "auctionId": 308182,
+        "bidderAlias": "5",
+        "amount": 37000,
+        "type": "AUTO",
+        "maxBidId": 10919710,
+        "triggeredBy": 10925039,
+        "createdAt": "2026-11-02T18:12:42.787469+00:00",
+        "updatedAt": "2026-11-02T18:12:42.787472+00:00"
+      },
+      {
+        "id": 18696124,
+        "auctionId": 308182,
+        "bidderAlias": "6",
+        "amount": 36500,
+        "type": "NORMAL",
+        "maxBidId": 10925039,
+        "triggeredBy": 10925039,
+        "createdAt": "2026-11-02T18:12:42.787457+00:00",
+        "updatedAt": "2026-11-02T18:12:42.787464+00:00"
+      },
+      {
+        "id": 18686877,
+        "auctionId": 308182,
+        "bidderAlias": "5",
+        "amount": 34500,
+        "type": "NORMAL",
+        "maxBidId": 10919710,
+        "triggeredBy": 10919710,
+        "createdAt": "2026-10-31T17:18:59.515514+00:00",
+        "updatedAt": "2026-10-31T17:18:59.515516+00:00"
+      },
+      {
+        "id": 18686876,
+        "auctionId": 308182,
+        "bidderAlias": "4",
+        "amount": 34000,
+        "type": "LIMIT_REACHED",
+        "maxBidId": 10918286,
+        "triggeredBy": 10919710,
+        "createdAt": "2026-10-31T17:18:59.515506+00:00",
+        "updatedAt": "2026-10-31T17:18:59.515511+00:00"
+      },
+      {
+        "id": 18684420,
+        "auctionId": 308182,
+        "bidderAlias": "4",
+        "amount": 33500,
+        "type": "NORMAL",
+        "maxBidId": 10918286,
+        "triggeredBy": 10918286,
+        "createdAt": "2026-10-30T10:49:01.883909+00:00",
+        "updatedAt": "2026-10-30T10:49:01.883912+00:00"
+      },
+      {
+        "id": 18684419,
+        "auctionId": 308182,
+        "bidderAlias": "3",
+        "amount": 33000,
+        "type": "LIMIT_REACHED",
+        "maxBidId": 10912718,
+        "triggeredBy": 10918286,
+        "createdAt": "2026-10-30T10:49:01.883900+00:00",
+        "updatedAt": "2026-10-30T10:49:01.883907+00:00"
+      },
+      {
+        "id": 18684409,
+        "auctionId": 308182,
+        "bidderAlias": "3",
+        "amount": 32500,
+        "type": "AUTO",
+        "maxBidId": 10912718,
+        "triggeredBy": 10918276,
+        "createdAt": "2026-10-30T10:46:46.318457+00:00",
+        "updatedAt": "2026-10-30T10:46:46.318459+00:00"
+      },
+      {
+        "id": 18684408,
+        "auctionId": 308182,
+        "bidderAlias": "2",
+        "amount": 32000,
+        "type": "NORMAL",
+        "maxBidId": 10918276,
+        "triggeredBy": 10918276,
+        "createdAt": "2026-10-30T10:46:46.318446+00:00",
+        "updatedAt": "2026-10-30T10:46:46.318454+00:00"
+      },
+      {
+        "id": 18675024,
+        "auctionId": 308182,
+        "bidderAlias": "3",
+        "amount": 30500,
+        "type": "AUTO",
+        "maxBidId": 10912718,
+        "triggeredBy": 10912868,
+        "createdAt": "2026-10-29T08:05:31.264305+00:00",
+        "updatedAt": "2026-10-29T08:05:31.264308+00:00"
+      },
+      {
+        "id": 18675023,
+        "auctionId": 308182,
+        "bidderAlias": "2",
+        "amount": 30000,
+        "type": "NORMAL",
+        "maxBidId": 10912868,
+        "triggeredBy": 10912868,
+        "createdAt": "2026-10-29T08:05:31.264293+00:00",
+        "updatedAt": "2026-10-29T08:05:31.264302+00:00"
+      },
+      {
+        "id": 18674749,
+        "auctionId": 308182,
+        "bidderAlias": "3",
+        "amount": 26500,
+        "type": "NORMAL",
+        "maxBidId": 10912718,
+        "triggeredBy": 10912718,
+        "createdAt": "2026-10-29T06:56:56.409879+00:00",
+        "updatedAt": "2026-10-29T06:56:56.409881+00:00"
+      },
+      {
+        "id": 18674748,
+        "auctionId": 308182,
+        "bidderAlias": "2",
+        "amount": 26000,
+        "type": "LIMIT_REACHED",
+        "maxBidId": 10912549,
+        "triggeredBy": 10912718,
+        "createdAt": "2026-10-29T06:56:56.409870+00:00",
+        "updatedAt": "2026-10-29T06:56:56.409876+00:00"
+      },
+      {
+        "id": 18674444,
+        "auctionId": 308182,
+        "bidderAlias": "2",
+        "amount": 25500,
+        "type": "NORMAL",
+        "maxBidId": 10912549,
+        "triggeredBy": 10912549,
+        "createdAt": "2026-10-29T04:40:22.380783+00:00",
+        "updatedAt": "2026-10-29T04:40:22.380786+00:00"
+      },
+      {
+        "id": 18674443,
+        "auctionId": 308182,
+        "bidderAlias": "1",
+        "amount": 25000,
+        "type": "LIMIT_REACHED",
+        "maxBidId": 10911188,
+        "triggeredBy": 10912549,
+        "createdAt": "2026-10-29T04:40:22.380766+00:00",
+        "updatedAt": "2026-10-29T04:40:22.380777+00:00"
+      },
+      {
+        "id": 18674442,
+        "auctionId": 308182,
+        "bidderAlias": "1",
+        "amount": 22500,
+        "type": "AUTO",
+        "maxBidId": 10911188,
+        "triggeredBy": 10912548,
+        "createdAt": "2026-10-29T04:39:38.631617+00:00",
+        "updatedAt": "2026-10-29T04:39:38.631620+00:00"
+      },
+      {
+        "id": 18674441,
+        "auctionId": 308182,
+        "bidderAlias": "2",
+        "amount": 22000,
+        "type": "NORMAL",
+        "maxBidId": 10912548,
+        "triggeredBy": 10912548,
+        "createdAt": "2026-10-29T04:39:38.631598+00:00",
+        "updatedAt": "2026-10-29T04:39:38.631612+00:00"
+      },
+      {
+        "id": 18672070,
+        "auctionId": 308182,
+        "bidderAlias": "1",
+        "amount": 18000,
+        "type": "NORMAL",
+        "maxBidId": 10911188,
+        "triggeredBy": 10911188,
+        "createdAt": "2026-10-28T14:52:17.501424+00:00",
+        "updatedAt": "2026-10-28T14:52:17.501432+00:00"
+      }
+    ],
+    "myBidderAlias": null,
+    "myMaxBid": null,
+    "highestBid": {
+      "id": 18699725,
+      "auctionId": 308182,
+      "bidderAlias": null,
+      "amount": 76500,
+      "type": "NORMAL",
+      "maxBidId": 10927108,
+      "triggeredBy": 10927108,
+      "createdAt": "2026-11-03T09:46:02.300181+00:00",
+      "updatedAt": "2026-11-03T09:46:02.300187+00:00",
+      "eurAmount": 6990
+    },
+    "buyNowAvailable": false,
+    "releasing": null,
+    "isHighestBidLowerThanResidualLoanValue": false
+  },
+  "checkoutOrder": null,
+  "previewImage": "https://kvdbil-images.imgix.net/7292996/521aca6e.jpg",
+  "_list_meta": {
+    "id": "308182",
+    "slug": "renault-trafic-1-6-dci-skap-125hk",
+    "auctionType": "BIDDING",
+    "closedAt": "2026-11-03T09:49:32.303347+00:00",
+    "updatedAt": "2026-11-03T09:49:32.414057+00:00"
+  },
+  "_scraped_at": "2026-11-03T23:56:17.428142+00:00",
+  "_url": "https://www.kvd.se/auktioner/renault-trafic-1-6-dci-skap-125hk-308182"
+}
