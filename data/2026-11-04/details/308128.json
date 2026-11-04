@@ -1,0 +1,2230 @@
+{
+  "id": "308128",
+  "auctionType": "BIDDING",
+  "biddingFee": "4425.00",
+  "biddingFeeCorporate": "5613.00",
+  "mediationFee": 0,
+  "mediationFeeCorporate": 0,
+  "buyNow": false,
+  "closedAt": "2026-11-03T10:51:04.768223+00:00",
+  "publishedAt": "2026-10-28T14:05:43.728198+00:00",
+  "countdownDuration": 210,
+  "countdownStartAt": "2026-11-03T10:38:30+00:00",
+  "createdAt": "2026-10-20T09:42:30.469553+00:00",
+  "readyForAuctionAt": "2026-10-26",
+  "currency": "SEK",
+  "maxBidRaise": 100000,
+  "minBidRaise": 500,
+  "startBid": 0,
+  "openedAt": "2026-10-28T14:50:17.699663+00:00",
+  "processObjectId": "7292315",
+  "readyForCheckout": true,
+  "soldFor": 28000,
+  "sellMethod": "BIDDING",
+  "slug": "nissan-e-nv200-240kwh-109hk",
+  "auctionUrl": "https://www.kvd.se/auktioner/nissan-e-nv200-240kwh-109hk-308128",
+  "state": "WINNER_CHECKOUT_PENDING",
+  "targetedAuctionGroupId": null,
+  "updatedAt": "2026-11-03T15:18:08.630463+00:00",
+  "releasing": null,
+  "loan": {
+    "loanCost": 238,
+    "loanCostBuyNow": null
+  },
+  "buyNowAmount": null,
+  "buyNowAvailable": false,
+  "buyNowUntil": null,
+  "eligibleForAdditionalServices": true,
+  "comingSoon": false,
+  "preliminaryPrice": 79000,
+  "maxAllowedBid": 118500,
+  "isReserved": false,
+  "isSoldByBuyNow": false,
+  "favouriteCount": 21,
+  "eurBuyNowAmount": null,
+  "winningBid": {
+    "id": "122289",
+    "type": "BIDDER",
+    "state": "ACTIVE",
+    "amount": 28000,
+    "brokerId": "microservice",
+    "auctionId": "308128",
+    "createdAt": "2026-11-03T15:18:08.251170+00:00",
+    "updatedAt": "2026-11-03T15:18:08.599977+00:00",
+    "evaluationType": "BROKERING"
+  },
+  "processObject": {
+    "proactiveBrokering": null,
+    "orderableAdditionalServices": {
+      "tradein": false,
+      "transport": true,
+      "insurance": true,
+      "finance": true,
+      "warranty": true,
+      "extraTires": false
+    },
+    "sellMethod": "BIDDING",
+    "isFixedPrice": false,
+    "buyNowAmount": null,
+    "statisticalValuation": null,
+    "state": "AUCTION_RESOLUTION",
+    "baseObjectId": "522936",
+    "properties": {
+      "initialTrafficDate": "2017-01-24",
+      "registrationCountry": "se",
+      "manufactureMonth": "201610",
+      "heavyEquipment": false,
+      "deductibleVat": false,
+      "formattedEquipment": [
+        {
+          "key": "ANTISLADDSYSTEM",
+          "title": "Antisladdsystem",
+          "description": "Ett system som känner av om bilen håller på att sladda. Genom att bromsa enskilda hjul stabiliseras bilen och sladden förhindras, även kallat ESP.",
+          "priority": 0
+        },
+        {
+          "key": "ANTISPINN",
+          "title": "Antispinn",
+          "description": "Hjälpsystem som förhindrar att hjulen spinner",
+          "priority": 1
+        },
+        {
+          "key": "AUX_INGANG",
+          "title": "AUX-ingång",
+          "description": "Stereoinkoppling av mobil enhet",
+          "priority": 2
+        },
+        {
+          "key": "BACKKAMERA",
+          "title": "Backkamera",
+          "description": "Kamera som underlättar vid backning",
+          "priority": 3
+        },
+        {
+          "key": "BLUETOOTH",
+          "title": "Bluetooth",
+          "description": "Trådlös uppkoppling mot mobila enheter",
+          "priority": 4
+        },
+        {
+          "key": "CD_STEREO",
+          "title": "CD-Stereo",
+          "description": "Spelare för CD-skivor",
+          "priority": 5
+        },
+        {
+          "key": "ELHISS_FRAM",
+          "title": "Elhiss fram",
+          "description": "Elektronisk fönsterhiss fram",
+          "priority": 6
+        },
+        {
+          "key": "ELSPEGLAR",
+          "title": "Elspeglar",
+          "description": "Elektroniskt ställbara sidospeglar",
+          "priority": 7
+        },
+        {
+          "key": "FARTHALLARE",
+          "title": "Farthållare",
+          "description": "Elektroniskt system som håller inprogrammerad hastighet",
+          "priority": 8
+        },
+        {
+          "key": "FJARRLAS",
+          "title": "Fjärrlås",
+          "description": "Möjliggör att du på distans kan låsa och låsa upp bilen",
+          "priority": 9
+        },
+        {
+          "key": "GPS",
+          "title": "GPS",
+          "description": "Navigationssystem med vägbeskrivning",
+          "priority": 10
+        },
+        {
+          "key": "KLIMATANLAGGNING",
+          "title": "Klimatanläggning",
+          "description": "Luftkonditionering med möjlighet till automatisk temperaturinställning",
+          "priority": 11
+        },
+        {
+          "key": "LASTBAGAR",
+          "title": "Lastbågar",
+          "description": null,
+          "priority": 12
+        },
+        {
+          "key": "NYCKELLOST_STARTSYSTEM",
+          "title": "Nyckellöst startsystem",
+          "description": "Startknapp i bilen utan tändningslås. Även kallat Keyless-go",
+          "priority": 13
+        },
+        {
+          "key": "PARKERINGSVARMARE_MED_FJARRSTYRNING",
+          "title": "Parkeringsvärmare med fjärrstyrning",
+          "description": null,
+          "priority": 14
+        },
+        {
+          "key": "RADIO",
+          "title": "Radio",
+          "description": "Radiospelare",
+          "priority": 15
+        },
+        {
+          "key": "RATTVARME",
+          "title": "Rattvärme",
+          "description": "Eluppvärmd ratt",
+          "priority": 16
+        },
+        {
+          "key": "REGNSENSOR",
+          "title": "Regnsensor",
+          "description": "Automatiska vindrutetorkare, sensorer som reagerar på vatten",
+          "priority": 17
+        },
+        {
+          "key": "STOLSVARME_FRAM",
+          "title": "Stolsvärme fram",
+          "description": "Olika nivåer av värme i stolarna fram som ställs in via en knapp",
+          "priority": 18
+        },
+        {
+          "key": "URKOPPLINGSBAR_PASSAGERARAIRBAG",
+          "title": "Urkopplingsbar passagerarairbag",
+          "description": "Möjlighet att koppla till och från airbagen på passagerarsidan",
+          "priority": 19
+        },
+        {
+          "key": "USB_INGANG",
+          "title": "USB-ingång",
+          "description": "Inkoppling av mobil enhet via USB-kontakt",
+          "priority": 20
+        }
+      ],
+      "brand": "Nissan",
+      "batterySizeNominal": 24,
+      "title": "Nissan e-NV200 24,0kWh (109hk)",
+      "exportable": true,
+      "residualLoanValue": 0,
+      "remarks": {
+        "INTERIOR": [
+          {
+            "key": "Invändigt några repor, fläckar och märken",
+            "category": "INTERIOR",
+            "id": "0"
+          },
+          {
+            "key": "Ratten är sliten",
+            "category": "INTERIOR",
+            "id": "1"
+          },
+          {
+            "key": "Klädsel skadad fram vänster",
+            "category": "INTERIOR",
+            "id": "2"
+          },
+          {
+            "key": "Bristfällig fastsättning av extrabelysning i bagageutrymmet",
+            "category": "INTERIOR",
+            "id": "3"
+          },
+          {
+            "key": "Plastlucka för usb saknas",
+            "category": "INTERIOR",
+            "id": "4"
+          }
+        ],
+        "ENGINE_AND_GEARBOX": [],
+        "EXTERIOR": [
+          {
+            "key": "Dålig linjepassning på stötfångare bak",
+            "category": "EXTERIOR",
+            "id": "0"
+          },
+          {
+            "key": "Bristfällig fastsättning stötfångare bak",
+            "category": "EXTERIOR",
+            "id": "1"
+          },
+          {
+            "key": "Skada baklucka",
+            "category": "EXTERIOR",
+            "id": "2"
+          },
+          {
+            "key": "Spår efter tidigare dekor, Flertal bucklor och repor",
+            "category": "EXTERIOR",
+            "id": "3"
+          }
+        ],
+        "BRAKES": [
+          {
+            "key": "Parkeringsbroms tar otillräckligt",
+            "category": "BRAKES",
+            "id": "0"
+          }
+        ],
+        "TIRES": [
+          {
+            "key": "Fälgar på bilen kantstötta",
+            "category": "TIRES",
+            "id": "0"
+          }
+        ],
+        "TECHNOLOGY_AND_EQUIPMENT": [
+          {
+            "key": "Reglage till elspeglar är skadat",
+            "category": "TECHNOLOGY_AND_EQUIPMENT",
+            "id": "0"
+          },
+          {
+            "key": "Spricka i vindruta",
+            "category": "TECHNOLOGY_AND_EQUIPMENT",
+            "id": "1"
+          },
+          {
+            "key": "Laddkabel medföljer ej",
+            "category": "TECHNOLOGY_AND_EQUIPMENT",
+            "id": "2"
+          },
+          {
+            "key": "Ena skyltbelysningen ur funktion",
+            "category": "TECHNOLOGY_AND_EQUIPMENT",
+            "id": "3"
+          },
+          {
+            "key": "Servicelampa lyser",
+            "category": "TECHNOLOGY_AND_EQUIPMENT",
+            "id": "4"
+          }
+        ]
+      },
+      "curbWeight": 1661,
+      "grades": {
+        "INTERIOR": {
+          "min": 1,
+          "value": 3,
+          "max": 5
+        },
+        "ENGINE_AND_GEARBOX": {
+          "min": 1,
+          "value": 3,
+          "max": 3
+        },
+        "TOTAL": {
+          "min": 1,
+          "value": 3,
+          "max": 5
+        },
+        "EXTERIOR": {
+          "min": 1,
+          "value": 2,
+          "max": 5
+        },
+        "BRAKES": {
+          "min": 1,
+          "value": 2,
+          "max": 3
+        },
+        "TECHNOLOGY_AND_EQUIPMENT": {
+          "min": 1,
+          "value": 2,
+          "max": 3
+        }
+      },
+      "exteriorColor": "Grey",
+      "textile": "Textil",
+      "height": 1850,
+      "taxExemptExpires": "2021-12-31",
+      "taxFee": 360,
+      "familyName": "NV200",
+      "towbar": false,
+      "modelName": "e-NV200 24,0kWh (109hk)",
+      "equipment": [
+        "Antisladdsystem",
+        "Antispinn",
+        "AUX-ingång",
+        "Backkamera",
+        "Bluetooth",
+        "CD-Stereo",
+        "Elhiss fram",
+        "Elspeglar",
+        "Farthållare",
+        "Fjärrlås",
+        "GPS",
+        "Klimatanläggning",
+        "Lastbågar",
+        "Nyckellöst startsystem",
+        "Parkeringsvärmare med fjärrstyrning",
+        "Radio",
+        "Rattvärme",
+        "Regnsensor",
+        "Stolsvärme fram",
+        "Urkopplingsbar passagerarairbag",
+        "USB-ingång"
+      ],
+      "remarksLocalized": {
+        "TIRES": "Fälgar på bilen kantstötta",
+        "BRAKES": "Parkeringsbroms tar otillräckligt",
+        "EXTERIOR": "Dålig linjepassning på stötfångare bak. Bristfällig fastsättning stötfångare bak. Skada baklucka. Spår efter tidigare dekor, Flertal bucklor och repor",
+        "INTERIOR": "Invändigt några repor, fläckar och märken. Ratten är sliten. Klädsel skadad fram vänster. Bristfällig fastsättning av extrabelysning i bagageutrymmet. Plastlucka för usb saknas",
+        "ENGINE_AND_GEARBOX": null,
+        "TECHNOLOGY_AND_EQUIPMENT": "Reglage till elspeglar är skadat. Spricka i vindruta. Laddkabel medföljer ej. Ena skyltbelysningen ur funktion. Servicelampa lyser"
+      },
+      "odometerUnit": "km",
+      "odometerReading": 75300,
+      "finishType": "Metallic",
+      "registrationPlate": "YJC739",
+      "length": 4560,
+      "inspectionPeriod": "2026-09-09 - 2027-11-30",
+      "gearbox": "Automatic",
+      "batteryType": "NMC",
+      "maxPayload": 559,
+      "chargePort": "Chademo",
+      "registrationPlateCountry": "se",
+      "hasUnpaidLoan": false,
+      "totalWeight": 2220,
+      "numberOfKeys": 2,
+      "body": "Van",
+      "battstatResult": {
+        "rankingRangeMin": 1,
+        "sohPercent": 79,
+        "ranking": 1,
+        "rankingRangeMax": 3
+      },
+      "taxWeight": 2220,
+      "isRepairObject": false,
+      "electricType": "Electric",
+      "importedForPersonalUse": false,
+      "saleLimitedToCorporate": false,
+      "mediation": true,
+      "ecoFriendly": true,
+      "chargingDc": 46,
+      "inspectionValidToDate": "2027-11-30",
+      "batterySizeUsable": 22,
+      "mustExport": false,
+      "fuels": [
+        {
+          "fuelCode": "Electric",
+          "enginePower": 109,
+          "rangeNedcDrive": 163
+        }
+      ],
+      "dateOfInspection": "2026-09-09",
+      "heatPump": "Ja",
+      "width": 1755,
+      "modelYear": 2017,
+      "chassisNumber": "VSKYAAME0U0514917",
+      "drivingBan": false,
+      "numberOfPreviousOwners": 3,
+      "maxPullWeightB": 1280,
+      "numberOfSeats": 2,
+      "heading1": "Nissan NV200",
+      "heading2": "e-NV200 24,0kWh",
+      "heading3": null
+    },
+    "leaseReturnProperties": {},
+    "vehicleType": "LIGHT_TRANSPORT",
+    "id": "7292315",
+    "createdAt": "2026-10-14 12:36:04.737220+00:00",
+    "objectType": "LIGHT_TRUCK",
+    "displayCar360Spin": true,
+    "testDriveAllowed": true,
+    "baseObject": {
+      "registrationCountry": "se",
+      "gearbox": null,
+      "salesFlow": "CORPORATE_CARS",
+      "familyName": "NV200",
+      "state": "CREATED",
+      "brand": "Nissan",
+      "earliestAvailableAt": null,
+      "authorityRegisterInformation": {
+        "environmentalClassification": {
+          "fuels": [
+            {
+              "co2": 0,
+              "nox": "",
+              "nox4": null,
+              "fuelCode": "Electric",
+              "hcThcNox": "",
+              "consumption": "",
+              "noiseLevel": 69,
+              "emissionUnit": "g/km",
+              "innovationCo2": null,
+              "particleValue": "",
+              "particleMass4": null,
+              "consumptionUnit": "",
+              "rangeNedcDrive": "163",
+              "rangeWltpDrive": null,
+              "consumptionUrban": "",
+              "rangeCityWltpDrive": null,
+              "consumptionExtraUrban": "",
+              "electricEnergyConsumption": null,
+              "energyConsumptionWltpDrive": null
+            }
+          ],
+          "ecoFriendly": true,
+          "emissionClass": "EL",
+          "innovationCode": null,
+          "environmentalClass": "EL",
+          "environmentalClassEuro": null
+        },
+        "vehicleInformation": {
+          "vin": "VSKYAAME0U0514917",
+          "body": "BB",
+          "type": "LIGHT_TRUCK",
+          "year": "2016",
+          "model": "NISSAN E-NV200",
+          "rawType": "LB",
+          "modelYear": null,
+          "categoryEu": "e11*2007/46*1339*05",
+          "groupNumber": "NA 900130",
+          "modelNumber": "NA 000000",
+          "chassisNumber": "VSKYAAME0U0514917",
+          "exteriorColor": "Grey",
+          "fabricAndMake": "NISSAN",
+          "baseObjectType": "LIGHT_TRUCK",
+          "manufactureCode": null,
+          "manufactureMonth": "201610",
+          "registrationDate": "2016-12-09",
+          "initialTrafficDate": "2017-01-24",
+          "registrationPlateReused": null
+        },
+        "vehicleInspectionInformation": {
+          "inspections": [
+            {
+              "inspectionType": "5",
+              "odometerReading": 74649,
+              "dateOfInspection": "2026-09-09"
+            },
+            {
+              "inspectionType": "5",
+              "odometerReading": 57760,
+              "dateOfInspection": "2025-06-04"
+            }
+          ],
+          "inspectionGroup": "36/24/14",
+          "odometerReading": 74649,
+          "inspectionPeriod": "2026-09-09 - 2027-11-30",
+          "dateOfInspection": "2026-09-09",
+          "inspectionValidToDate": "2027-11-30",
+          "inspectionExemptionGroup": null
+        },
+        "vehicleStatus": {
+          "tax": 360
+        },
+        "additionalTechSpecification": {
+          "raceCar": null,
+          "wheelbase1": 2725,
+          "wheelbase2": null,
+          "wheelbase3": null,
+          "wheelbase4": null,
+          "equipment1": null,
+          "equipment2": null,
+          "equipment3": null,
+          "maximumSpeed": 123,
+          "numAxleShafts": 2,
+          "passengerAirBag": true,
+          "tyreDimensionRear": "185/65R15 90M",
+          "tyreDimensionFront": "185/65R15 90M",
+          "dualSteeringControl": null
+        },
+        "registrationInformation": {
+          "registrationPlate": "YJC739",
+          "deregistrationDate": null,
+          "deregistrationText": null,
+          "deregistrationReason": null
+        },
+        "generalTechSpecification": {
+          "eeg": "e11*2007/46*1339*05",
+          "fuels": [
+            {
+              "fuelCode": "Electric",
+              "powerUnit": "EG",
+              "enginePower": 80,
+              "enginePowerHp": 109,
+              "fuelTankVolume": ""
+            }
+          ],
+          "width": 1755,
+          "height": 1850,
+          "length": 4560,
+          "gearbox": null,
+          "variant": "A",
+          "version": "A05",
+          "taxWeight": 2220,
+          "curbWeight": 1661,
+          "maxPayload": 559,
+          "totalWeight": 2220,
+          "chassisCode1": null,
+          "chassisCode2": null,
+          "cubicCapacity": null,
+          "numPassengers": "1",
+          "numberOfSeats": 2,
+          "fourWheelDrive": false,
+          "maxPullWeightB": 1280,
+          "clutchMechanism1": null,
+          "clutchMechanism2": null,
+          "maxTrailerWeight": null,
+          "chassisCodeSupplement": null,
+          "maxPullWieghtNoBreaks": null,
+          "maxPullWeightBExtended": null,
+          "maxSingle Axle TrailerWeight": null
+        },
+        "vehicleOrigin": {
+          "originCode": "INFÖRT",
+          "originCodeReason": null,
+          "importerIdentifier": null,
+          "preRegistrationDate": null,
+          "importRegistrationDate": null,
+          "importedForPersonalUse": false,
+          "importedPreviouslyRegistered": false
+        }
+      },
+      "modelName": "e-NV200 24,0kWh (109hk)",
+      "fuels": [
+        {
+          "fuelCode": "Electric",
+          "powerUnit": "EG",
+          "enginePower": 80,
+          "enginePowerHp": 109,
+          "fuelTankVolume": ""
+        }
+      ],
+      "modelId": null,
+      "fabricAndMake": "NISSAN",
+      "id": "522936",
+      "baseObjectType": "LIGHT_TRUCK",
+      "createdAt": "2026-10-14T12:35:34.164875+00:00",
+      "exteriorColor": "Grey",
+      "body": "Van",
+      "odometerUnit": "km",
+      "odometerReading": 74649,
+      "year": "2017",
+      "registrationPlate": "YJC739",
+      "technicalSpecification": {
+        "modelId": null,
+        "vehicle": {
+          "brand": "Nissan",
+          "body": "Van",
+          "modelName": "e-NV200 24,0kWh (109hk)",
+          "familyName": "NV200"
+        },
+        "year": "2017"
+      }
+    },
+    "isReleasable": false,
+    "presentationApproved": false,
+    "initialBuyNowAmount": null,
+    "car360Spin": null,
+    "certified": false,
+    "offsiteSalesContact": null,
+    "reducedPrice": false,
+    "conditionClassification": "TESTED",
+    "exportable": true,
+    "deductibleVat": false,
+    "collisionWarranty": null,
+    "title": "Nissan e-NV200 24,0kWh (109hk)",
+    "brand": "Nissan",
+    "familyName": "NV200",
+    "modelName": "e-NV200 24,0kWh (109hk)",
+    "package": null,
+    "heading1": "Nissan NV200",
+    "heading2": "e-NV200 24,0kWh",
+    "heading3": null,
+    "media": [
+      {
+        "processObjectId": "7292315",
+        "uri": "https://kvdbil-images.imgix.net/7292315/e4cdcd04.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292315/e4cdcd04.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 1
+      },
+      {
+        "processObjectId": "7292315",
+        "uri": "https://kvdbil-images.imgix.net/7292315/4b1baf6f.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292315/4b1baf6f.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 2
+      },
+      {
+        "processObjectId": "7292315",
+        "uri": "https://kvdbil-images.imgix.net/7292315/016f17c4.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292315/016f17c4.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 3
+      },
+      {
+        "processObjectId": "7292315",
+        "uri": "https://kvdbil-images.imgix.net/7292315/d8da7096.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292315/d8da7096.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 4
+      },
+      {
+        "processObjectId": "7292315",
+        "uri": "https://kvdbil-images.imgix.net/7292315/9c687203.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292315/9c687203.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 5
+      },
+      {
+        "processObjectId": "7292315",
+        "uri": "https://kvdbil-images.imgix.net/7292315/6bc36f04.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292315/6bc36f04.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 6
+      },
+      {
+        "processObjectId": "7292315",
+        "uri": "https://kvdbil-images.imgix.net/7292315/79fb543e.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292315/79fb543e.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 7
+      },
+      {
+        "processObjectId": "7292315",
+        "uri": "https://kvdbil-images.imgix.net/7292315/c972cc6f.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292315/c972cc6f.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 8
+      },
+      {
+        "processObjectId": "7292315",
+        "uri": "https://kvdbil-images.imgix.net/7292315/f812fd4c.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292315/f812fd4c.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 9
+      },
+      {
+        "processObjectId": "7292315",
+        "uri": "https://kvdbil-images.imgix.net/7292315/3f0346f7.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292315/3f0346f7.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 10
+      },
+      {
+        "processObjectId": "7292315",
+        "uri": "https://kvdbil-images.imgix.net/7292315/456bb5ae.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292315/456bb5ae.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 11
+      },
+      {
+        "processObjectId": "7292315",
+        "uri": "https://kvdbil-images.imgix.net/7292315/a0589ab0.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292315/a0589ab0.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 12
+      },
+      {
+        "processObjectId": "7292315",
+        "uri": "https://kvdbil-images.imgix.net/7292315/ad04d9de.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292315/ad04d9de.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 13
+      },
+      {
+        "processObjectId": "7292315",
+        "uri": "https://kvdbil-images.imgix.net/7292315/68378c59.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292315/68378c59.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 13
+      },
+      {
+        "processObjectId": "7292315",
+        "uri": "https://kvdbil-images.imgix.net/7292315/af50ed7c.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292315/af50ed7c.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 14
+      },
+      {
+        "processObjectId": "7292315",
+        "uri": "https://kvdbil-images.imgix.net/7292315/19aa3900.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292315/19aa3900.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 15
+      },
+      {
+        "processObjectId": "7292315",
+        "uri": "https://kvdbil-images.imgix.net/7292315/d0e4cbee.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292315/d0e4cbee.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 15
+      },
+      {
+        "processObjectId": "7292315",
+        "uri": "https://kvdbil-images.imgix.net/7292315/3fac90f9.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292315/3fac90f9.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 16
+      },
+      {
+        "processObjectId": "7292315",
+        "uri": "https://kvdbil-images.imgix.net/7292315/31720e1c.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292315/31720e1c.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 17
+      },
+      {
+        "processObjectId": "7292315",
+        "uri": "https://kvdbil-images.imgix.net/7292315/338c039c.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292315/338c039c.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 17
+      },
+      {
+        "processObjectId": "7292315",
+        "uri": "https://kvdbil-images.imgix.net/7292315/beb8dd95.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292315/beb8dd95.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 18
+      },
+      {
+        "processObjectId": "7292315",
+        "uri": "https://kvdbil-images.imgix.net/7292315/b0cad146.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292315/b0cad146.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 19
+      },
+      {
+        "processObjectId": "7292315",
+        "uri": "https://kvdbil-images.imgix.net/7292315/e191f470.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292315/e191f470.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 20
+      },
+      {
+        "processObjectId": "7292315",
+        "uri": "https://kvdbil-images.imgix.net/7292315/9b34e5f5.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292315/9b34e5f5.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 21
+      },
+      {
+        "processObjectId": "7292315",
+        "uri": "https://kvdbil-images.imgix.net/7292315/46ad2b3e.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292315/46ad2b3e.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 23
+      },
+      {
+        "processObjectId": "7292315",
+        "uri": "https://kvdbil-images.imgix.net/7292315/c200895c.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292315/c200895c.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 25
+      },
+      {
+        "processObjectId": "7292315",
+        "uri": "https://kvdbil-images.imgix.net/7292315/4f4df34c.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292315/4f4df34c.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 27
+      },
+      {
+        "processObjectId": "7292315",
+        "uri": "https://kvdbil-images.imgix.net/7292315/a27be0a3.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292315/a27be0a3.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 29
+      },
+      {
+        "processObjectId": "7292315",
+        "uri": "https://kvdbil-images.imgix.net/7292315/e90f158a.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292315/e90f158a.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 32
+      },
+      {
+        "processObjectId": "7292315",
+        "uri": "https://kvdbil-images.imgix.net/7292315/9c82fde6.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292315/9c82fde6.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 35
+      },
+      {
+        "processObjectId": "7292315",
+        "uri": "https://kvdbil-images.imgix.net/7292315/1525f510.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292315/1525f510.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 37
+      },
+      {
+        "processObjectId": "7292315",
+        "uri": "https://kvdbil-images.imgix.net/7292315/ca15a7a6.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292315/ca15a7a6.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 40
+      },
+      {
+        "processObjectId": "7292315",
+        "uri": "https://kvdbil-images.imgix.net/7292315/d2ca5b95.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292315/d2ca5b95.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 43
+      },
+      {
+        "processObjectId": "7292315",
+        "uri": "https://kvdbil-images.imgix.net/7292315/152fde5a.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292315/152fde5a.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 46
+      },
+      {
+        "processObjectId": "7292315",
+        "uri": "https://kvdbil-images.imgix.net/7292315/fdc52af5.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292315/fdc52af5.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 47
+      },
+      {
+        "processObjectId": "7292315",
+        "uri": "https://kvdbil-images.imgix.net/7292315/f8632bdb.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292315/f8632bdb.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 48
+      },
+      {
+        "processObjectId": "7292315",
+        "uri": "https://kvdbil-images.imgix.net/7292315/106f57ff.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292315/106f57ff.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 49
+      },
+      {
+        "processObjectId": "7292315",
+        "uri": "https://kvdbil-images.imgix.net/7292315/b20f9945.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292315/b20f9945.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 50
+      },
+      {
+        "processObjectId": "7292315",
+        "uri": "https://kvdbil-images.imgix.net/7292315/8eecd58e.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292315/8eecd58e.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 52
+      },
+      {
+        "processObjectId": "7292315",
+        "uri": "https://kvdbil-images.imgix.net/7292315/f2133cbf.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292315/f2133cbf.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 54
+      },
+      {
+        "processObjectId": "7292315",
+        "uri": "https://kvdbil-images.imgix.net/7292315/8a5e3a1e.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292315/8a5e3a1e.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 55
+      },
+      {
+        "processObjectId": "7292315",
+        "uri": "https://kvdbil-images.imgix.net/7292315/0eb2ea02.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292315/0eb2ea02.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 56
+      },
+      {
+        "processObjectId": "7292315",
+        "uri": "https://kvdbil-images.imgix.net/7292315/52b847b7.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292315/52b847b7.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 57
+      },
+      {
+        "processObjectId": "7292315",
+        "uri": "https://kvdbil-images.imgix.net/7292315/dcf42083.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292315/dcf42083.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 58
+      },
+      {
+        "processObjectId": "7292315",
+        "uri": "https://kvdbil-images.imgix.net/7292315/654a6cf3.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292315/654a6cf3.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 59
+      },
+      {
+        "processObjectId": "7292315",
+        "uri": "https://kvdbil-images.imgix.net/7292315/0682c589.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292315/0682c589.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 60
+      },
+      {
+        "processObjectId": "7292315",
+        "uri": "https://kvdbil-images.imgix.net/7292315/b77a428b.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292315/b77a428b.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 61
+      },
+      {
+        "processObjectId": "7292315",
+        "uri": "https://kvdbil-images.imgix.net/7292315/b7282287.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292315/b7282287.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 62
+      }
+    ],
+    "locationInfo": {
+      "id": "552809",
+      "processObjectId": "7292315",
+      "locationType": "FACILITY",
+      "createdAt": "2026-10-15T13:44:49.449644+00:00",
+      "updatedAt": "2026-10-15T13:44:49.449647+00:00",
+      "facilityId": "5c29b210-3560-475a-8ffd-fa069bd4fbaa",
+      "parkingZone": "A",
+      "parkingNumber": null,
+      "outgoingTime": null,
+      "leftAt": null,
+      "outgoingType": null,
+      "publicFacilityId": "5c29b210-3560-475a-8ffd-fa069bd4fbaa",
+      "facility": {
+        "id": "5c29b210-3560-475a-8ffd-fa069bd4fbaa",
+        "name": "Åkersberga (Brännbacken)",
+        "operator": "KVD",
+        "legacyIdentifiers": [
+          "STHLM, Brännbacken",
+          "Åkersberga (Brännbacken)"
+        ],
+        "objectTypes": [
+          "LIGHT_TRANSPORT",
+          "RECREATIONAL_VEHICLE",
+          "HEAVY_TRANSPORT",
+          "MACHINES"
+        ],
+        "createdAt": "2023-11-14T08:41:55.066545+00:00",
+        "calendarOrganisationalUnitId": "33",
+        "parkingAreas": [],
+        "active": true,
+        "latitude": 59.50360655861917,
+        "longitude": 18.38039552464276,
+        "distance": null,
+        "address": "Brännbacksvägen 11",
+        "postCode": "18491",
+        "city": "Åkersberga",
+        "facilityType": "MAXI",
+        "facilityMapUrl": "https://www.google.com/maps/dir/59.50360655861917,18.38039552464276/@59.50360655861917,18.38039552464276,z13",
+        "contactPhone": "+46101651400",
+        "contactEmail": "akersberga.brannbacken@kvdbil.se",
+        "allowIncomingTransport": true,
+        "allowLeaseReturns": true,
+        "allowUnplannedDropOffFleetManager": true,
+        "parentFacilityId": null,
+        "publicFacilityId": "5c29b210-3560-475a-8ffd-fa069bd4fbaa"
+      }
+    },
+    "valuation": {
+      "id": 238065,
+      "processObjectId": "7292315",
+      "valuatorComment": {
+        "da": "Denne Nissan NV200 i grå metallic kører på el og passer til dig, der ønsker at køre stille og gnidningsfrit til hverdag. Bakkamera hjælper ved parkering, mens nøglefri start gør hver start enkel og behagelig. Bluetooth og fartpilot giver en afslappet kørselsoplevelse både til arbejde og på længere ture. Synet til november 2027.",
+        "de": "Dieser Nissan NV200 in Grau Metallic fährt elektrisch und eignet sich für alle, die im Alltag leise und geschmeidig fahren möchten. Die Rückfahrkamera hilft beim Einparken, während das schlüssellose Startsystem jeden Start einfach und bequem macht. Bluetooth und Tempomat sorgen sowohl auf dem Weg zur Arbeit als auch bei längeren Fahrten für ein entspanntes Fahrerlebnis. Bis November 2027 geprüft.",
+        "en": "This Nissan NV200 in grey metallic runs on electricity and is suitable for those who want to drive quietly and smoothly in everyday life. A rearview camera helps with parking while a keyless start system makes every start easy and comfortable. Bluetooth and cruise control provide a relaxed driving experience both for work and on longer trips. Inspected until November 2027.",
+        "et": "See Nissan NV200 halli metallikvärviga sõidab elektriga ja sobib neile, kes soovivad igapäevases elus vaikselt ja sujuvalt sõita. Tagurduskaamera aitab parkimisel, samas kui võtmeta käivitussüsteem teeb iga käivituse lihtsaks ja mugavaks. Bluetooth ja püsikiiruse hoidja tagavad lõdvestunud sõidukogemuse nii tööle minnes kui ka pikematel sõitudel. Kontrollitud kuni novembrini 2027.",
+        "fi": "Tämä Nissan NV200 harmaassa metallivärissä kulkee sähköllä ja sopii sinulle, joka haluat ajaa hiljaisesti ja sujuvasti arjessa. Peruutuskamera auttaa pysäköinnissä, kun taas avaimeton käynnistyjärjestelmä tekee jokaisesta käynnistyksestä helpon ja mukavan. Bluetooth ja vakionopeudensäädin tarjoavat rentouttavan ajokokemuksen sekä työmatkoilla että pidemmillä matkoilla. Katsastettu marraskuuhun 2027 asti.",
+        "pl": "Ten Nissan NV200 w kolorze szary metallicznego jeździ na prąd i jest odpowiedni dla tych, którzy chcą jeździć cicho i płynnie na co dzień. Kamera cofania pomaga podczas parkowania, a bezkluczykowy system startu sprawia, że każdy start jest prosty i wygodny. Bluetooth i tempomat zapewniają odprężającą jazdę zarówno do pracy, jak i na dłuższe wycieczki. Przegląd ważny do listopada 2027.",
+        "sv": "Denna Nissan NV200 i grå metallic går på el och passar dig som vill köra tyst och smidigt i vardagen. Backkamera hjälper vid parkering medan nyckellöst startsystem gör varje start enkel och bekväm. Bluetooth och farthållare ger en avslappnad körupplevelse både till jobbet och på längre turer. Besiktigad till november 2027."
+      },
+      "generatedValuatorComment": {
+        "en": "",
+        "sv": "Denna Nissan NV200 i grå metallic går på el och passar dig som vill köra tyst och smidigt i vardagen. Backkamera hjälper vid parkering medan nyckellöst startsystem gör varje start enkel och bekväm. Bluetooth och farthållare ger en avslappnad körupplevelse både till jobbet och på längre turer. Besiktigad till november 2027."
+      },
+      "carDealerPrice": 79000,
+      "endUserTestProtocol": {
+        "tires": {
+          "extraTires": {
+            "other": {
+              "rimSize": "15",
+              "rimType": "plåtfälg",
+              "tireType": "Odubbade vinterdäck",
+              "otherInfo": "Behövs ej",
+              "tireTypeKey": "UNSTUDDED_WINTER_TIRES"
+            },
+            "grades": {
+              "rearLeft": 3,
+              "frontLeft": 3,
+              "rearRight": 3,
+              "frontRight": 3
+            },
+            "treadDepths": {
+              "rearLeft": 7,
+              "frontLeft": 7,
+              "rearRight": 7,
+              "frontRight": 7
+            }
+          },
+          "mountedTires": {
+            "other": {
+              "rimSize": "15",
+              "rimType": "Alu.fälg",
+              "tireType": "Sommardäck",
+              "otherInfo": "Behövs ej",
+              "tireTypeKey": "SUMMER_TIRES"
+            },
+            "grades": {
+              "rearLeft": 3,
+              "frontLeft": 3,
+              "rearRight": 3,
+              "frontRight": 3
+            },
+            "treadDepths": {
+              "rearLeft": 5,
+              "frontLeft": 5,
+              "rearRight": 5,
+              "frontRight": 5
+            }
+          }
+        },
+        "grades": {
+          "TOTAL": {
+            "max": 5,
+            "min": 1,
+            "value": 3
+          },
+          "BRAKES": {
+            "max": 3,
+            "min": 1,
+            "value": 2
+          },
+          "EXTERIOR": {
+            "max": 5,
+            "min": 1,
+            "value": 2
+          },
+          "INTERIOR": {
+            "max": 5,
+            "min": 1,
+            "value": 3
+          },
+          "ENGINE_AND_GEARBOX": {
+            "max": 3,
+            "min": 1,
+            "value": 3
+          },
+          "TECHNOLOGY_AND_EQUIPMENT": {
+            "max": 3,
+            "min": 1,
+            "value": 2
+          }
+        },
+        "towbar": false,
+        "remarks": {
+          "BRAKES": [
+            {
+              "id": "72923153",
+              "key": "Parkeringsbroms tar otillräckligt.",
+              "other": null,
+              "point": 0,
+              "category": "BRAKES",
+              "text": "Parkeringsbroms tar otillräckligt."
+            }
+          ],
+          "EXTERIOR": [
+            {
+              "id": "72923152",
+              "key": "Dålig linjepassning på stötfångare bak. Bristfällig fastsättning stötfångare bak. Skada baklucka. Spår efter tidigare dekor, Flertal bucklor och repor.",
+              "other": null,
+              "point": 0,
+              "category": "EXTERIOR",
+              "text": "Dålig linjepassning på stötfångare bak. Bristfällig fastsättning stötfångare bak. Skada baklucka. Spår efter tidigare dekor, Flertal bucklor och repor."
+            }
+          ],
+          "INTERIOR": [
+            {
+              "id": "72923151",
+              "key": "Invändigt några repor, fläckar och märken. Ratten är sliten. Klädsel skadad fram vänster. Bristfällig fastsättning av extrabelysning i bagageutrymmet. Plastlucka för usb saknas.",
+              "other": null,
+              "point": 0,
+              "category": "INTERIOR",
+              "text": "Invändigt några repor, fläckar och märken. Ratten är sliten. Klädsel skadad fram vänster. Bristfällig fastsättning av extrabelysning i bagageutrymmet. Plastlucka för usb saknas."
+            }
+          ],
+          "ENGINE_AND_GEARBOX": [],
+          "TECHNOLOGY_AND_EQUIPMENT": [
+            {
+              "id": "72923154",
+              "key": "Reglage till elspeglar är skadat. Spricka i vindruta. Laddkabel medföljer ej. Ena skyltbelysningen ur funktion. Servicelampa lyser.",
+              "other": null,
+              "point": 0,
+              "category": "TECHNOLOGY_AND_EQUIPMENT",
+              "text": "Reglage till elspeglar är skadat. Spricka i vindruta. Laddkabel medföljer ej. Ena skyltbelysningen ur funktion. Servicelampa lyser."
+            }
+          ]
+        },
+        "textile": "Textil",
+        "boatType": null,
+        "equipment": [
+          "Backkamera",
+          "GPS",
+          "Nyckellöst startsystem",
+          "Bluetooth",
+          "Farthållare",
+          "Klimatanläggning",
+          "Rattvärme",
+          "USB-ingång",
+          "Antisladdsystem",
+          "Antispinn",
+          "AUX-ingång",
+          "CD-Stereo",
+          "Elhiss fram",
+          "Elspeglar",
+          "Fjärrlås",
+          "Lastbågar",
+          "Parkeringsvärmare med fjärrstyrning",
+          "Radio",
+          "Regnsensor",
+          "Stolsvärme fram",
+          "Urkopplingsbar passagerarairbag"
+        ],
+        "boatWidth": null,
+        "createdAt": "2026-10-20T11:40:55",
+        "boatEngine": null,
+        "boatLength": null,
+        "boatWeight": null,
+        "finishType": "Metallic",
+        "protocolId": "260428",
+        "stoveFlames": null,
+        "heatingSystem": null,
+        "numberOfKeys": 2,
+        "boatCeBranded": false,
+        "boatGearModel": null,
+        "numberOfBunks": null,
+        "numberOfSeats": 2,
+        "boatEngineFuel": null,
+        "boatSepticTank": false,
+        "isRepairObject": false,
+        "boatEnginePower": null,
+        "serviceBookType": "MISSING",
+        "boatExteriorColor": null,
+        "serviceBookStatus": "Ingen servicedokumentation tillgänglig.",
+        "boatEngineSerialNumber": null,
+        "odometerReadingAfterTest": {
+          "unit": "Mil",
+          "value": 7530
+        },
+        "odometerReadingAfterTestInKm": 75300
+      },
+      "auctionPriceValuation": {
+        "currency": "SEK"
+      },
+      "finalised": true,
+      "includedImageIds": null,
+      "createdAt": "2026-10-20T09:42:30.489932+00:00",
+      "updatedAt": "2026-10-28T14:06:59.195747+00:00",
+      "generatingInProgress": false,
+      "valuatorCommentLocalized": "Denna Nissan NV200 i grå metallic går på el och passar dig som vill köra tyst och smidigt i vardagen. Backkamera hjälper vid parkering medan nyckellöst startsystem gör varje start enkel och bekväm. Bluetooth och farthållare ger en avslappnad körupplevelse både till jobbet och på längre turer. Besiktigad till november 2027."
+    },
+    "facts": {
+      "default": [
+        {
+          "key": "NUMBER_OF_PREVIOUS_OWNERS",
+          "text": "Antal tidigare ägare",
+          "value": 3,
+          "type": "string"
+        },
+        {
+          "key": "REGISTRATION_PLATE",
+          "text": "Registreringsnummer",
+          "value": "YJC739",
+          "type": "string"
+        },
+        {
+          "key": "MODEL_YEAR",
+          "text": "Modellår",
+          "value": 2017,
+          "type": "string"
+        },
+        {
+          "key": "MANUFACTURE_MONTH",
+          "text": "Tillverkningsmånad",
+          "value": "201610",
+          "type": "manufacture_month"
+        },
+        {
+          "key": "ODOMETER_READING",
+          "text": "Mätarställning",
+          "value": 75300,
+          "type": "distance"
+        },
+        {
+          "key": "INITIAL_TRAFFIC_DATE",
+          "text": "Första datum i trafik i Sverige",
+          "value": "2017-01-24",
+          "type": "date"
+        },
+        {
+          "key": "SERVICE_BOOK",
+          "text": "Servicehistorik",
+          "value": "Ingen servicedokumentation tillgänglig.",
+          "type": "string"
+        },
+        {
+          "key": "SERVICE_BOOK_TYPE",
+          "text": "Servicebok",
+          "value": "Saknas",
+          "type": "string"
+        },
+        {
+          "key": "GEARBOX",
+          "text": "Växellåda",
+          "value": "Automat",
+          "type": "string"
+        },
+        {
+          "key": "NUMBER_OF_SEATS",
+          "text": "Antal säten",
+          "value": 2,
+          "type": "string"
+        },
+        {
+          "key": "NUMBER_OF_KEYS",
+          "text": "Antal nycklar",
+          "value": 2,
+          "type": "string"
+        },
+        {
+          "key": "EXTERIOR_COLOR",
+          "text": "Färg",
+          "value": "Grå",
+          "type": "string"
+        },
+        {
+          "key": "FINISH_TYPE",
+          "text": "Lack",
+          "value": "Metallic",
+          "type": "string"
+        },
+        {
+          "key": "TEXTILE",
+          "text": "Klädsel",
+          "value": "Textil",
+          "type": "string"
+        },
+        {
+          "key": "MANUFACTURER_WARRANTY",
+          "text": "Nybilsgaranti",
+          "value": "Inte undersökt",
+          "type": "string"
+        },
+        {
+          "key": "COLLISION_WARRANTY",
+          "text": "Vagnskadegaranti",
+          "value": "Inte undersökt",
+          "type": "string"
+        },
+        {
+          "key": "TAX_FEE",
+          "text": "Skatt årsavgift",
+          "value": "360 SEK",
+          "type": "string"
+        }
+      ],
+      "additional": [
+        {
+          "key": "CHASSIS_NUMBER",
+          "text": "Chassinummer",
+          "value": "VSKYAAME0U0514917",
+          "type": "string"
+        },
+        {
+          "key": "ENGINE_EFFECT_ELECTRIC",
+          "text": "Motoreffekt (el)",
+          "value": 109,
+          "type": "engine_power"
+        },
+        {
+          "key": "TOWBAR",
+          "text": "Dragkrok",
+          "value": "Nej",
+          "type": "string"
+        },
+        {
+          "key": "MAX_PAYLOAD",
+          "text": "Maxlastvikt",
+          "value": 559,
+          "type": "weight"
+        },
+        {
+          "key": "RANGE_NEDC_DRIVE_ELECTRIC",
+          "text": "Räckvidd EL (NEDC)",
+          "value": 163,
+          "type": "distance"
+        },
+        {
+          "key": "INSPECTION_VALID_TO_DATE",
+          "text": "Nästa besiktning senast",
+          "value": "2027-11-30",
+          "type": "string"
+        },
+        {
+          "key": "CURB_WEIGHT",
+          "text": "Tjänstevikt",
+          "value": 1661,
+          "type": "weight"
+        },
+        {
+          "key": "TAX_WEIGHT",
+          "text": "Skattevikt",
+          "value": 2220,
+          "type": "weight"
+        },
+        {
+          "key": "TOTAL_WEIGHT",
+          "text": "Fordonets totalvikt",
+          "value": 2220,
+          "type": "weight"
+        },
+        {
+          "key": "LENGTH",
+          "text": "Längd",
+          "value": 4560,
+          "type": "length"
+        },
+        {
+          "key": "WIDTH",
+          "text": "Bredd",
+          "value": 1755,
+          "type": "length"
+        },
+        {
+          "key": "HEIGHT",
+          "text": "Höjd",
+          "value": 1850,
+          "type": "length"
+        },
+        {
+          "key": "BATTERY_SIZE_USABLE",
+          "text": "Batteristorlek (netto)",
+          "value": 22,
+          "type": "kilowatt_hours"
+        },
+        {
+          "key": "BATTERY_SIZE_NOMINAL",
+          "text": "Batteristorlek (brutto)",
+          "value": 24,
+          "type": "kilowatt_hours"
+        },
+        {
+          "key": "CHARGE_PORT",
+          "text": "Laddport",
+          "value": "Chademo",
+          "type": "string"
+        },
+        {
+          "key": "CHARGING_DC",
+          "text": "Laddning DC",
+          "value": 46,
+          "type": "kilowatts"
+        },
+        {
+          "key": "BATTERY_TYPE",
+          "text": "Batterityp",
+          "value": "NMC",
+          "type": "string"
+        },
+        {
+          "key": "HEAT_PUMP",
+          "text": "Värmepump",
+          "value": "Ja",
+          "type": "string"
+        }
+      ],
+      "other": [
+        {
+          "key": "SOLD_IN_SWEDEN",
+          "text": "Svensksåld",
+          "value": "Ja",
+          "type": "string"
+        },
+        {
+          "key": "EXPORTABLE",
+          "text": "Kan exporteras",
+          "value": "Ja",
+          "type": "string"
+        },
+        {
+          "key": "DEDUCTIBLE_VAT",
+          "text": "Avlyftbar moms",
+          "value": "Nej",
+          "type": "string"
+        }
+      ]
+    },
+    "majorFeature": [
+      {
+        "key": "HEAT_PUMP",
+        "title": "Värmepump",
+        "value": null,
+        "equipment": "Utrustning",
+        "description": ""
+      },
+      {
+        "key": "BACKKAMERA",
+        "title": "Backkamera",
+        "value": null,
+        "equipment": "Utrustning",
+        "description": "Kamera som underlättar vid backning"
+      },
+      {
+        "key": "GPS",
+        "title": "GPS",
+        "value": null,
+        "equipment": "Utrustning",
+        "description": "Navigationssystem med vägbeskrivning"
+      },
+      {
+        "key": "BATTSTAT",
+        "title": "Kvdbils batteritest",
+        "value": 1,
+        "equipment": null
+      }
+    ],
+    "batteryTestCertificateAvailable": true
+  },
+  "previewImages": [
+    {
+      "processObjectId": "7292315",
+      "uri": "https://kvdbil-images.imgix.net/7292315/e4cdcd04.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292315/e4cdcd04.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 1
+    },
+    {
+      "processObjectId": "7292315",
+      "uri": "https://kvdbil-images.imgix.net/7292315/4b1baf6f.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292315/4b1baf6f.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 2
+    },
+    {
+      "processObjectId": "7292315",
+      "uri": "https://kvdbil-images.imgix.net/7292315/016f17c4.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292315/016f17c4.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 3
+    },
+    {
+      "processObjectId": "7292315",
+      "uri": "https://kvdbil-images.imgix.net/7292315/d8da7096.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292315/d8da7096.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 4
+    },
+    {
+      "processObjectId": "7292315",
+      "uri": "https://kvdbil-images.imgix.net/7292315/9c687203.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292315/9c687203.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 5
+    },
+    {
+      "processObjectId": "7292315",
+      "uri": "https://kvdbil-images.imgix.net/7292315/6bc36f04.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292315/6bc36f04.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 6
+    },
+    {
+      "processObjectId": "7292315",
+      "uri": "https://kvdbil-images.imgix.net/7292315/79fb543e.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292315/79fb543e.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 7
+    },
+    {
+      "processObjectId": "7292315",
+      "uri": "https://kvdbil-images.imgix.net/7292315/c972cc6f.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292315/c972cc6f.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 8
+    },
+    {
+      "processObjectId": "7292315",
+      "uri": "https://kvdbil-images.imgix.net/7292315/f812fd4c.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292315/f812fd4c.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 9
+    },
+    {
+      "processObjectId": "7292315",
+      "uri": "https://kvdbil-images.imgix.net/7292315/3f0346f7.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292315/3f0346f7.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 10
+    },
+    {
+      "processObjectId": "7292315",
+      "uri": "https://kvdbil-images.imgix.net/7292315/456bb5ae.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292315/456bb5ae.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 11
+    },
+    {
+      "processObjectId": "7292315",
+      "uri": "https://kvdbil-images.imgix.net/7292315/a0589ab0.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292315/a0589ab0.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 12
+    },
+    {
+      "processObjectId": "7292315",
+      "uri": "https://kvdbil-images.imgix.net/7292315/ad04d9de.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292315/ad04d9de.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 13
+    },
+    {
+      "processObjectId": "7292315",
+      "uri": "https://kvdbil-images.imgix.net/7292315/68378c59.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292315/68378c59.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 13
+    },
+    {
+      "processObjectId": "7292315",
+      "uri": "https://kvdbil-images.imgix.net/7292315/af50ed7c.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292315/af50ed7c.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 14
+    },
+    {
+      "processObjectId": "7292315",
+      "uri": "https://kvdbil-images.imgix.net/7292315/19aa3900.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292315/19aa3900.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 15
+    },
+    {
+      "processObjectId": "7292315",
+      "uri": "https://kvdbil-images.imgix.net/7292315/d0e4cbee.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292315/d0e4cbee.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 15
+    },
+    {
+      "processObjectId": "7292315",
+      "uri": "https://kvdbil-images.imgix.net/7292315/3fac90f9.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292315/3fac90f9.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 16
+    },
+    {
+      "processObjectId": "7292315",
+      "uri": "https://kvdbil-images.imgix.net/7292315/31720e1c.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292315/31720e1c.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 17
+    },
+    {
+      "processObjectId": "7292315",
+      "uri": "https://kvdbil-images.imgix.net/7292315/338c039c.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292315/338c039c.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 17
+    },
+    {
+      "processObjectId": "7292315",
+      "uri": "https://kvdbil-images.imgix.net/7292315/beb8dd95.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292315/beb8dd95.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 18
+    },
+    {
+      "processObjectId": "7292315",
+      "uri": "https://kvdbil-images.imgix.net/7292315/b0cad146.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292315/b0cad146.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 19
+    },
+    {
+      "processObjectId": "7292315",
+      "uri": "https://kvdbil-images.imgix.net/7292315/e191f470.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292315/e191f470.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 20
+    },
+    {
+      "processObjectId": "7292315",
+      "uri": "https://kvdbil-images.imgix.net/7292315/9b34e5f5.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292315/9b34e5f5.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 21
+    },
+    {
+      "processObjectId": "7292315",
+      "uri": "https://kvdbil-images.imgix.net/7292315/46ad2b3e.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292315/46ad2b3e.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 23
+    },
+    {
+      "processObjectId": "7292315",
+      "uri": "https://kvdbil-images.imgix.net/7292315/c200895c.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292315/c200895c.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 25
+    },
+    {
+      "processObjectId": "7292315",
+      "uri": "https://kvdbil-images.imgix.net/7292315/4f4df34c.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292315/4f4df34c.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 27
+    },
+    {
+      "processObjectId": "7292315",
+      "uri": "https://kvdbil-images.imgix.net/7292315/a27be0a3.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292315/a27be0a3.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 29
+    },
+    {
+      "processObjectId": "7292315",
+      "uri": "https://kvdbil-images.imgix.net/7292315/e90f158a.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292315/e90f158a.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 32
+    },
+    {
+      "processObjectId": "7292315",
+      "uri": "https://kvdbil-images.imgix.net/7292315/9c82fde6.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292315/9c82fde6.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 35
+    },
+    {
+      "processObjectId": "7292315",
+      "uri": "https://kvdbil-images.imgix.net/7292315/1525f510.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292315/1525f510.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 37
+    },
+    {
+      "processObjectId": "7292315",
+      "uri": "https://kvdbil-images.imgix.net/7292315/ca15a7a6.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292315/ca15a7a6.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 40
+    },
+    {
+      "processObjectId": "7292315",
+      "uri": "https://kvdbil-images.imgix.net/7292315/d2ca5b95.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292315/d2ca5b95.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 43
+    },
+    {
+      "processObjectId": "7292315",
+      "uri": "https://kvdbil-images.imgix.net/7292315/152fde5a.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292315/152fde5a.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 46
+    },
+    {
+      "processObjectId": "7292315",
+      "uri": "https://kvdbil-images.imgix.net/7292315/fdc52af5.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292315/fdc52af5.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 47
+    },
+    {
+      "processObjectId": "7292315",
+      "uri": "https://kvdbil-images.imgix.net/7292315/f8632bdb.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292315/f8632bdb.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 48
+    },
+    {
+      "processObjectId": "7292315",
+      "uri": "https://kvdbil-images.imgix.net/7292315/106f57ff.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292315/106f57ff.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 49
+    },
+    {
+      "processObjectId": "7292315",
+      "uri": "https://kvdbil-images.imgix.net/7292315/b20f9945.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292315/b20f9945.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 50
+    },
+    {
+      "processObjectId": "7292315",
+      "uri": "https://kvdbil-images.imgix.net/7292315/8eecd58e.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292315/8eecd58e.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 52
+    },
+    {
+      "processObjectId": "7292315",
+      "uri": "https://kvdbil-images.imgix.net/7292315/f2133cbf.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292315/f2133cbf.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 54
+    },
+    {
+      "processObjectId": "7292315",
+      "uri": "https://kvdbil-images.imgix.net/7292315/8a5e3a1e.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292315/8a5e3a1e.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 55
+    },
+    {
+      "processObjectId": "7292315",
+      "uri": "https://kvdbil-images.imgix.net/7292315/0eb2ea02.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292315/0eb2ea02.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 56
+    },
+    {
+      "processObjectId": "7292315",
+      "uri": "https://kvdbil-images.imgix.net/7292315/52b847b7.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292315/52b847b7.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 57
+    },
+    {
+      "processObjectId": "7292315",
+      "uri": "https://kvdbil-images.imgix.net/7292315/dcf42083.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292315/dcf42083.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 58
+    },
+    {
+      "processObjectId": "7292315",
+      "uri": "https://kvdbil-images.imgix.net/7292315/654a6cf3.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292315/654a6cf3.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 59
+    },
+    {
+      "processObjectId": "7292315",
+      "uri": "https://kvdbil-images.imgix.net/7292315/0682c589.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292315/0682c589.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 60
+    },
+    {
+      "processObjectId": "7292315",
+      "uri": "https://kvdbil-images.imgix.net/7292315/b77a428b.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292315/b77a428b.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 61
+    },
+    {
+      "processObjectId": "7292315",
+      "uri": "https://kvdbil-images.imgix.net/7292315/b7282287.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292315/b7282287.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 62
+    }
+  ],
+  "similarAuctions": [],
+  "activeAuction": {
+    "auctionId": "308128",
+    "closed": true,
+    "countdownInProgress": true,
+    "preliminaryCloseAt": "2026-11-03T10:51:04.759216+00:00",
+    "createdAt": "2026-10-28T14:50:17.701720+00:00",
+    "updatedAt": "2026-11-03T10:51:04.773241+00:00",
+    "vatExcludedBiddingAllowed": false,
+    "reservationPriceReached": false,
+    "bids": [
+      {
+        "id": 18700659,
+        "auctionId": 308128,
+        "bidderAlias": "1",
+        "amount": 28000,
+        "type": "NORMAL",
+        "maxBidId": 10927662,
+        "triggeredBy": 10927662,
+        "createdAt": "2026-11-03T10:47:34.765135+00:00",
+        "updatedAt": "2026-11-03T10:47:34.765143+00:00"
+      },
+      {
+        "id": 18700628,
+        "auctionId": 308128,
+        "bidderAlias": "9",
+        "amount": 27500,
+        "type": "NORMAL",
+        "maxBidId": 10927645,
+        "triggeredBy": 10927645,
+        "createdAt": "2026-11-03T10:44:11.747387+00:00",
+        "updatedAt": "2026-11-03T10:44:11.747396+00:00"
+      },
+      {
+        "id": 18700592,
+        "auctionId": 308128,
+        "bidderAlias": "10",
+        "amount": 27000,
+        "type": "NORMAL",
+        "maxBidId": 10927624,
+        "triggeredBy": 10927624,
+        "createdAt": "2026-11-03T10:41:50.834579+00:00",
+        "updatedAt": "2026-11-03T10:41:50.834592+00:00"
+      },
+      {
+        "id": 18700579,
+        "auctionId": 308128,
+        "bidderAlias": "9",
+        "amount": 26500,
+        "type": "NORMAL",
+        "maxBidId": 10927616,
+        "triggeredBy": 10927616,
+        "createdAt": "2026-11-03T10:41:15.399687+00:00",
+        "updatedAt": "2026-11-03T10:41:15.399697+00:00"
+      },
+      {
+        "id": 18700565,
+        "auctionId": 308128,
+        "bidderAlias": "8",
+        "amount": 26000,
+        "type": "NORMAL",
+        "maxBidId": 10927608,
+        "triggeredBy": 10927608,
+        "createdAt": "2026-11-03T10:39:14.661561+00:00",
+        "updatedAt": "2026-11-03T10:39:14.661568+00:00"
+      },
+      {
+        "id": 18698168,
+        "auctionId": 308128,
+        "bidderAlias": "7",
+        "amount": 25500,
+        "type": "NORMAL",
+        "maxBidId": 10926199,
+        "triggeredBy": 10926199,
+        "createdAt": "2026-11-03T08:32:09.195234+00:00",
+        "updatedAt": "2026-11-03T08:32:09.195236+00:00"
+      },
+      {
+        "id": 18698167,
+        "auctionId": 308128,
+        "bidderAlias": "5",
+        "amount": 25000,
+        "type": "LIMIT_REACHED",
+        "maxBidId": 10925395,
+        "triggeredBy": 10926199,
+        "createdAt": "2026-11-03T08:32:09.195224+00:00",
+        "updatedAt": "2026-11-03T08:32:09.195231+00:00"
+      },
+      {
+        "id": 18698119,
+        "auctionId": 308128,
+        "bidderAlias": "5",
+        "amount": 22500,
+        "type": "AUTO",
+        "maxBidId": 10925395,
+        "triggeredBy": 10926173,
+        "createdAt": "2026-11-03T08:24:29.797399+00:00",
+        "updatedAt": "2026-11-03T08:24:29.797401+00:00"
+      },
+      {
+        "id": 18698118,
+        "auctionId": 308128,
+        "bidderAlias": "6",
+        "amount": 22000,
+        "type": "NORMAL",
+        "maxBidId": 10926173,
+        "triggeredBy": 10926173,
+        "createdAt": "2026-11-03T08:24:29.797389+00:00",
+        "updatedAt": "2026-11-03T08:24:29.797396+00:00"
+      },
+      {
+        "id": 18697119,
+        "auctionId": 308128,
+        "bidderAlias": "5",
+        "amount": 21500,
+        "type": "AUTO",
+        "maxBidId": 10925395,
+        "triggeredBy": 10925614,
+        "createdAt": "2026-11-02T22:58:51.547817+00:00",
+        "updatedAt": "2026-11-02T22:58:51.547822+00:00"
+      },
+      {
+        "id": 18697118,
+        "auctionId": 308128,
+        "bidderAlias": "3",
+        "amount": 21000,
+        "type": "NORMAL",
+        "maxBidId": 10925614,
+        "triggeredBy": 10925614,
+        "createdAt": "2026-11-02T22:58:51.547799+00:00",
+        "updatedAt": "2026-11-02T22:58:51.547813+00:00"
+      },
+      {
+        "id": 18696724,
+        "auctionId": 308128,
+        "bidderAlias": "5",
+        "amount": 20500,
+        "type": "NORMAL",
+        "maxBidId": 10925395,
+        "triggeredBy": 10925395,
+        "createdAt": "2026-11-02T20:32:08.160435+00:00",
+        "updatedAt": "2026-11-02T20:32:08.160438+00:00"
+      },
+      {
+        "id": 18696723,
+        "auctionId": 308128,
+        "bidderAlias": "1",
+        "amount": 20000,
+        "type": "LIMIT_REACHED",
+        "maxBidId": 10914233,
+        "triggeredBy": 10925395,
+        "createdAt": "2026-11-02T20:32:08.160418+00:00",
+        "updatedAt": "2026-11-02T20:32:08.160430+00:00"
+      },
+      {
+        "id": 18688055,
+        "auctionId": 308128,
+        "bidderAlias": "1",
+        "amount": 7500,
+        "type": "AUTO",
+        "maxBidId": 10914233,
+        "triggeredBy": 10920356,
+        "createdAt": "2026-11-01T09:04:49.433977+00:00",
+        "updatedAt": "2026-11-01T09:04:49.433980+00:00"
+      },
+      {
+        "id": 18688054,
+        "auctionId": 308128,
+        "bidderAlias": "4",
+        "amount": 7000,
+        "type": "NORMAL",
+        "maxBidId": 10920356,
+        "triggeredBy": 10920356,
+        "createdAt": "2026-11-01T09:04:49.433964+00:00",
+        "updatedAt": "2026-11-01T09:04:49.433972+00:00"
+      },
+      {
+        "id": 18688053,
+        "auctionId": 308128,
+        "bidderAlias": "1",
+        "amount": 5500,
+        "type": "AUTO",
+        "maxBidId": 10914233,
+        "triggeredBy": 10920355,
+        "createdAt": "2026-11-01T09:04:22.284798+00:00",
+        "updatedAt": "2026-11-01T09:04:22.284800+00:00"
+      },
+      {
+        "id": 18688052,
+        "auctionId": 308128,
+        "bidderAlias": "4",
+        "amount": 5000,
+        "type": "NORMAL",
+        "maxBidId": 10920355,
+        "triggeredBy": 10920355,
+        "createdAt": "2026-11-01T09:04:22.284787+00:00",
+        "updatedAt": "2026-11-01T09:04:22.284794+00:00"
+      },
+      {
+        "id": 18688049,
+        "auctionId": 308128,
+        "bidderAlias": "1",
+        "amount": 4500,
+        "type": "AUTO",
+        "maxBidId": 10914233,
+        "triggeredBy": 10920353,
+        "createdAt": "2026-11-01T09:04:08.843013+00:00",
+        "updatedAt": "2026-11-01T09:04:08.843015+00:00"
+      },
+      {
+        "id": 18688048,
+        "auctionId": 308128,
+        "bidderAlias": "4",
+        "amount": 4000,
+        "type": "NORMAL",
+        "maxBidId": 10920353,
+        "triggeredBy": 10920353,
+        "createdAt": "2026-11-01T09:04:08.843002+00:00",
+        "updatedAt": "2026-11-01T09:04:08.843010+00:00"
+      },
+      {
+        "id": 18684714,
+        "auctionId": 308128,
+        "bidderAlias": "1",
+        "amount": 3000,
+        "type": "AUTO",
+        "maxBidId": 10914233,
+        "triggeredBy": 10918464,
+        "createdAt": "2026-10-30T13:29:58.884878+00:00",
+        "updatedAt": "2026-10-30T13:29:58.884880+00:00"
+      },
+      {
+        "id": 18684713,
+        "auctionId": 308128,
+        "bidderAlias": "3",
+        "amount": 2500,
+        "type": "NORMAL",
+        "maxBidId": 10918464,
+        "triggeredBy": 10918464,
+        "createdAt": "2026-10-30T13:29:58.884868+00:00",
+        "updatedAt": "2026-10-30T13:29:58.884875+00:00"
+      },
+      {
+        "id": 18678038,
+        "auctionId": 308128,
+        "bidderAlias": "1",
+        "amount": 2000,
+        "type": "AUTO",
+        "maxBidId": 10914233,
+        "triggeredBy": 10914578,
+        "createdAt": "2026-10-29T11:22:54.231856+00:00",
+        "updatedAt": "2026-10-29T11:22:54.231859+00:00"
+      },
+      {
+        "id": 18678037,
+        "auctionId": 308128,
+        "bidderAlias": "2",
+        "amount": 1500,
+        "type": "NORMAL",
+        "maxBidId": 10914578,
+        "triggeredBy": 10914578,
+        "createdAt": "2026-10-29T11:22:54.231841+00:00",
+        "updatedAt": "2026-10-29T11:22:54.231852+00:00"
+      },
+      {
+        "id": 18677429,
+        "auctionId": 308128,
+        "bidderAlias": "1",
+        "amount": 500,
+        "type": "NORMAL",
+        "maxBidId": 10914233,
+        "triggeredBy": 10914233,
+        "createdAt": "2026-10-29T10:28:45.920287+00:00",
+        "updatedAt": "2026-10-29T10:28:45.920297+00:00"
+      }
+    ],
+    "myBidderAlias": null,
+    "myMaxBid": null,
+    "highestBid": {
+      "id": 18700659,
+      "auctionId": 308128,
+      "bidderAlias": null,
+      "amount": 28000,
+      "type": "NORMAL",
+      "maxBidId": 10927662,
+      "triggeredBy": 10927662,
+      "createdAt": "2026-11-03T10:47:34.765135+00:00",
+      "updatedAt": "2026-11-03T10:47:34.765143+00:00",
+      "eurAmount": 2560
+    },
+    "buyNowAvailable": false,
+    "releasing": null,
+    "isHighestBidLowerThanResidualLoanValue": false
+  },
+  "checkoutOrder": null,
+  "previewImage": "https://kvdbil-images.imgix.net/7292315/e4cdcd04.jpg",
+  "_list_meta": {
+    "id": "308128",
+    "slug": "nissan-e-nv200-240kwh-109hk",
+    "auctionType": "BIDDING",
+    "closedAt": "2026-11-03T10:51:04.768223+00:00",
+    "updatedAt": "2026-11-03T15:18:08.630463+00:00"
+  },
+  "_scraped_at": "2026-11-04T05:48:37.070765+00:00",
+  "_url": "https://www.kvd.se/auktioner/nissan-e-nv200-240kwh-109hk-308128"
+}
