@@ -1,0 +1,2096 @@
+{
+  "id": "309693",
+  "auctionType": "BIDDING",
+  "biddingFee": "6900.00",
+  "biddingFeeCorporate": "9875.00",
+  "mediationFee": 0,
+  "mediationFeeCorporate": 0,
+  "buyNow": false,
+  "closedAt": "2026-11-04T10:23:49.708028+00:00",
+  "publishedAt": "2026-10-30T15:16:15.377327+00:00",
+  "countdownDuration": 210,
+  "countdownStartAt": "2026-11-04T10:10:30+00:00",
+  "createdAt": "2026-10-30T13:33:36.286799+00:00",
+  "readyForAuctionAt": "2026-11-01",
+  "currency": "SEK",
+  "maxBidRaise": 100000,
+  "minBidRaise": 500,
+  "startBid": 168000,
+  "openedAt": "2026-10-30T15:16:15.361999+00:00",
+  "processObjectId": "7290970",
+  "readyForCheckout": false,
+  "soldFor": null,
+  "sellMethod": null,
+  "slug": "volvo-s60-t5-awd-250hk",
+  "auctionUrl": "https://www.kvd.se/auktioner/volvo-s60-t5-awd-250hk-309693",
+  "state": "BROKERING",
+  "targetedAuctionGroupId": null,
+  "updatedAt": "2026-11-04T10:23:49.775072+00:00",
+  "releasing": null,
+  "loan": {
+    "loanCost": 2462,
+    "loanCostBuyNow": null
+  },
+  "buyNowAmount": null,
+  "buyNowAvailable": false,
+  "buyNowUntil": null,
+  "eligibleForAdditionalServices": true,
+  "comingSoon": false,
+  "preliminaryPrice": 335000,
+  "maxAllowedBid": 502500,
+  "isReserved": false,
+  "isSoldByBuyNow": false,
+  "favouriteCount": 60,
+  "eurBuyNowAmount": null,
+  "winningBid": null,
+  "processObject": {
+    "proactiveBrokering": null,
+    "orderableAdditionalServices": {
+      "tradein": false,
+      "transport": true,
+      "insurance": true,
+      "finance": true,
+      "warranty": true,
+      "extraTires": false
+    },
+    "sellMethod": "BIDDING",
+    "isFixedPrice": false,
+    "buyNowAmount": null,
+    "statisticalValuation": {
+      "bpWhite": 332700,
+      "bpOrange": 332700,
+      "marketPrice": 332700,
+      "bpGreen": null
+    },
+    "state": "AUCTION_RESOLUTION",
+    "baseObjectId": "520376",
+    "properties": {
+      "initialTrafficDate": "2019-10-31",
+      "registrationCountry": "se",
+      "manufactureMonth": "201909",
+      "heavyEquipment": false,
+      "deductibleVat": false,
+      "formattedEquipment": [
+        {
+          "key": "4WD",
+          "title": "4WD",
+          "description": "Konstant eller inkopplingsbar fyrhjulsdrift",
+          "priority": 0
+        },
+        {
+          "key": "AUTOBROMS",
+          "title": "Autobroms",
+          "description": "Automatisk inbromsning vid lägre hastigheter för mötande fordon och hinder framför bilen (City Safety)",
+          "priority": 1
+        },
+        {
+          "key": "BLUETOOTH",
+          "title": "Bluetooth",
+          "description": "Trådlös uppkoppling mot mobila enheter",
+          "priority": 2
+        },
+        {
+          "key": "FARTHALLARE",
+          "title": "Farthållare",
+          "description": "Elektroniskt system som håller inprogrammerad hastighet",
+          "priority": 3
+        },
+        {
+          "key": "FJARRLAS",
+          "title": "Fjärrlås",
+          "description": "Möjliggör att du på distans kan låsa och låsa upp bilen",
+          "priority": 4
+        },
+        {
+          "key": "GPS",
+          "title": "GPS",
+          "description": "Navigationssystem med vägbeskrivning",
+          "priority": 5
+        },
+        {
+          "key": "RADIO",
+          "title": "Radio",
+          "description": "Radiospelare",
+          "priority": 6
+        },
+        {
+          "key": "REGNSENSOR",
+          "title": "Regnsensor",
+          "description": "Automatiska vindrutetorkare, sensorer som reagerar på vatten",
+          "priority": 7
+        },
+        {
+          "key": "STOLSVARME_FRAM",
+          "title": "Stolsvärme fram",
+          "description": "Olika nivåer av värme i stolarna fram som ställs in via en knapp",
+          "priority": 8
+        },
+        {
+          "key": "SATESVARME_BAK",
+          "title": "Sätesvärme bak",
+          "description": "Elektroniskt uppvärmt baksäte",
+          "priority": 9
+        },
+        {
+          "key": "VOLVO_ON_CALL",
+          "title": "Volvo On Call",
+          "description": "Uppkopplad tjänst för att exempelvis kunna kontrollera din Volvo på distans med hjälp av en mobilapp. Funktioner som bygger på 2G eller 3G-uppkoppling kan sluta fungera i samband med att dessa nätverk stängs ner av operatörerna.",
+          "priority": 10
+        },
+        {
+          "key": "360_KAMERA",
+          "title": "360 kamera",
+          "description": null,
+          "priority": 11
+        },
+        {
+          "key": "ANTISLADDSYSTEM",
+          "title": "Antisladdsystem",
+          "description": "Ett system som känner av om bilen håller på att sladda. Genom att bromsa enskilda hjul stabiliseras bilen och sladden förhindras, även kallat ESP.",
+          "priority": 12
+        },
+        {
+          "key": "AUTO_HOLD",
+          "title": "Auto hold",
+          "description": "Hindrar bilen tillfälligt från att rulla bakåt när du startar i motlut",
+          "priority": 13
+        },
+        {
+          "key": "DODAVINKELVARNARE",
+          "title": "Dödavinkelvarnare",
+          "description": "Elektroniskt säkerhetssystem som signalerar om det finns hinder i dödavinkeln. Kallas även BLIS",
+          "priority": 14
+        },
+        {
+          "key": "ELHISS_BAK",
+          "title": "Elhiss bak",
+          "description": "Elektroniska fönsterhissar bak",
+          "priority": 15
+        },
+        {
+          "key": "ELHISS_FRAM",
+          "title": "Elhiss fram",
+          "description": "Elektronisk fönsterhiss fram",
+          "priority": 16
+        },
+        {
+          "key": "ELINFALLBARA_SPEGLAR",
+          "title": "Elinfällbara backspeglar",
+          "description": "Speglar som fälls in automatiskt när bilen låses eller manuellt via knapp",
+          "priority": 17
+        },
+        {
+          "key": "ELSTOL_MED_MINNESFUNKTION_FORARPLATS",
+          "title": "Elstol med minnesfunktion förarplats",
+          "description": "Elektronisk ställbar förarstol med programmerbara lägen",
+          "priority": 18
+        },
+        {
+          "key": "ELSTOL_MINNESFUNKTION_PASSAGERARPLATS",
+          "title": "Elstol minnesfunktion passagerarplats",
+          "description": null,
+          "priority": 19
+        },
+        {
+          "key": "FILBYTESVARNARE",
+          "title": "Filbytesvarnare",
+          "description": "Elektroniskt säkerhetssystem som varnar vid oplanerade filbyten",
+          "priority": 20
+        },
+        {
+          "key": "HEAD_UP_DISPLAY",
+          "title": "Head-up display",
+          "description": null,
+          "priority": 21
+        },
+        {
+          "key": "ISOFIX_BAK",
+          "title": "Isofix bak",
+          "description": "  Fästsystem för bilbarnstolar enligt internationell standard, även kallat Isofix",
+          "priority": 22
+        },
+        {
+          "key": "KLIMATANLAGGNING",
+          "title": "Klimatanläggning",
+          "description": "Luftkonditionering med möjlighet till automatisk temperaturinställning",
+          "priority": 23
+        },
+        {
+          "key": "KURVLJUS",
+          "title": "Kurvljus",
+          "description": "Maximerar ljusstyrkan i kurvor och korsningar",
+          "priority": 24
+        },
+        {
+          "key": "LED_STRALKASTARE",
+          "title": "LED-strålkastare",
+          "description": "Strålkastare med LED-ljus har ett konstant vitt ljus och har samma ljusstyrka från star",
+          "priority": 25
+        },
+        {
+          "key": "PARKERINGSSENSORER_BAK",
+          "title": "Parkeringssensorer bak",
+          "description": "Sensorer på stötfångare baktill som varnar för hinder bakom bilen",
+          "priority": 26
+        },
+        {
+          "key": "PARKERINGSSENSORER_FRAM",
+          "title": "Parkeringssensorer fram",
+          "description": "Sensorer på stötfångare som varnar för hinder framför bilen",
+          "priority": 27
+        },
+        {
+          "key": "PARKERINGSVARMARE_MED_TIDUR",
+          "title": "Parkeringsvärmare med tidur",
+          "description": null,
+          "priority": 28
+        },
+        {
+          "key": "RATTVARME",
+          "title": "Rattvärme",
+          "description": "Eluppvärmd ratt",
+          "priority": 29
+        },
+        {
+          "key": "START_STOP_FUNKTION",
+          "title": "Start/Stopp-funktion",
+          "description": "Automatisk på och avstängning av motor vid exempelvis trafikljus",
+          "priority": 30
+        },
+        {
+          "key": "URKOPPLINGSBAR_PASSAGERARAIRBAG",
+          "title": "Urkopplingsbar passagerarairbag",
+          "description": "Möjlighet att koppla till och från airbagen på passagerarsidan",
+          "priority": 31
+        },
+        {
+          "key": "USB_INGANG",
+          "title": "USB-ingång",
+          "description": "Inkoppling av mobil enhet via USB-kontakt",
+          "priority": 32
+        },
+        {
+          "key": "VENTILERADE_FRAMSATEN",
+          "title": "Ventilerade framsäten",
+          "description": null,
+          "priority": 33
+        },
+        {
+          "key": "OPPNINGSBART_PANORAMATAK",
+          "title": "Öppningsbart panoramatak",
+          "description": "Glastak som är delvis öppningsbart",
+          "priority": 34
+        },
+        {
+          "key": "MASSAGE_I_FRAMSTOLARNA",
+          "title": "Massage i framstolarna",
+          "description": null,
+          "priority": 35
+        }
+      ],
+      "brand": "Volvo",
+      "title": "Volvo S60 T5 AWD (250hk)",
+      "exportable": true,
+      "residualLoanValue": 241049,
+      "remarks": {
+        "INTERIOR": [],
+        "ENGINE_AND_GEARBOX": [],
+        "EXTERIOR": [],
+        "BRAKES": [],
+        "TIRES": [],
+        "TECHNOLOGY_AND_EQUIPMENT": []
+      },
+      "curbWeight": 1865,
+      "grades": {
+        "INTERIOR": {
+          "min": 1,
+          "value": 4,
+          "max": 5
+        },
+        "ENGINE_AND_GEARBOX": {
+          "min": 1,
+          "value": 3,
+          "max": 3
+        },
+        "TOTAL": {
+          "min": 1,
+          "value": 4,
+          "max": 5
+        },
+        "EXTERIOR": {
+          "min": 1,
+          "value": 4,
+          "max": 5
+        },
+        "BRAKES": {
+          "min": 1,
+          "value": 3,
+          "max": 3
+        },
+        "TECHNOLOGY_AND_EQUIPMENT": {
+          "min": 1,
+          "value": 3,
+          "max": 3
+        }
+      },
+      "exteriorColor": "White",
+      "textile": "Helläder",
+      "height": 1423,
+      "taxFee": 1438,
+      "familyName": "S60",
+      "towbar": false,
+      "modelName": "S60 T5 AWD (250hk)",
+      "equipment": [
+        "4WD",
+        "Autobroms",
+        "Bluetooth",
+        "Farthållare",
+        "Fjärrlås",
+        "GPS",
+        "Radio",
+        "Regnsensor",
+        "Stolsvärme fram",
+        "Sätesvärme bak",
+        "Volvo On Call",
+        "360-kamera",
+        "Antisladdsystem",
+        "Auto hold",
+        "Dödavinkelvarnare",
+        "Elhiss bak",
+        "Elhiss fram",
+        "Elinfällbara speglar",
+        "Elstol med minnesfunktion förarplats",
+        "Elstol minnesfunktion passagerarplats",
+        "Filbytesvarnare",
+        "Head-up display",
+        "Isofix bak",
+        "Klimatanläggning",
+        "Kurvljus",
+        "LED-strålkastare",
+        "Parkeringssensorer bak",
+        "Parkeringssensorer fram",
+        "Parkeringsvärmare med tidur",
+        "Rattvärme",
+        "Start/Stop-funktion",
+        "Urkopplingsbar passagerarairbag",
+        "USB-ingång",
+        "Ventilerade framsäten",
+        "Öppningsbart panoramatak",
+        "Massage i framstolarna"
+      ],
+      "remarksLocalized": {
+        "TIRES": null,
+        "BRAKES": null,
+        "EXTERIOR": null,
+        "INTERIOR": null,
+        "ENGINE_AND_GEARBOX": null,
+        "TECHNOLOGY_AND_EQUIPMENT": null
+      },
+      "odometerUnit": "km",
+      "odometerReading": 95610,
+      "finishType": "Solid",
+      "registrationPlate": "TYU58G",
+      "length": 4761,
+      "inspectionPeriod": "2025-12-08 - 2027-02-28",
+      "gearbox": "Automatic",
+      "maxPayload": 395,
+      "registrationPlateCountry": "se",
+      "hasUnpaidLoan": true,
+      "totalWeight": 2260,
+      "numberOfKeys": 2,
+      "adHeader": "S60 T5 AWD (250hk) R-Design",
+      "environmentalClassEuro": "6",
+      "body": "Sedan",
+      "taxWeight": 1860,
+      "isRepairObject": false,
+      "importedForPersonalUse": false,
+      "package": "R-Design",
+      "saleLimitedToCorporate": false,
+      "maxTrailerWeight": 1800,
+      "mediation": true,
+      "ecoFriendly": false,
+      "inspectionValidToDate": "2027-02-28",
+      "mustExport": false,
+      "fuels": [
+        {
+          "fuelCode": "Petrol",
+          "enginePower": 253,
+          "co2": 160,
+          "consumption": 7.1
+        }
+      ],
+      "dateOfInspection": "2025-12-08",
+      "width": 1850,
+      "modelYear": 2020,
+      "chassisNumber": "7JRZS25VCLG042513",
+      "drivingBan": false,
+      "numberOfPreviousOwners": 7,
+      "maxPullWeightB": 1240,
+      "numberOfSeats": 5,
+      "heading1": "Volvo S60",
+      "heading2": "T5 AWD",
+      "heading3": "R-Design"
+    },
+    "leaseReturnProperties": {},
+    "vehicleType": "CAR",
+    "id": "7290970",
+    "createdAt": "2026-10-05 08:33:24.915282+00:00",
+    "objectType": "CAR",
+    "displayCar360Spin": true,
+    "testDriveAllowed": true,
+    "baseObject": {
+      "registrationCountry": "se",
+      "gearbox": "Automatic",
+      "salesFlow": "CONSUMER_CARS",
+      "familyName": "S60",
+      "state": "PREPARING_SALES_AGREEMENT",
+      "brand": "Volvo",
+      "earliestAvailableAt": null,
+      "authorityRegisterInformation": {
+        "environmentalClassification": {
+          "fuels": [
+            {
+              "co2": 160,
+              "nox": "",
+              "nox4": null,
+              "fuelCode": "Petrol",
+              "hcThcNox": "",
+              "consumption": 7.1,
+              "noiseLevel": 68,
+              "emissionUnit": "g/km",
+              "innovationCo2": null,
+              "particleValue": "",
+              "particleMass4": null,
+              "consumptionUnit": "7,1",
+              "rangeNedcDrive": null,
+              "rangeWltpDrive": null,
+              "consumptionUrban": 9.2,
+              "rangeCityWltpDrive": null,
+              "consumptionExtraUrban": 5.6,
+              "electricEnergyConsumption": null,
+              "energyConsumptionWltpDrive": null
+            }
+          ],
+          "ecoFriendly": false,
+          "emissionClass": "EURO 6",
+          "innovationCode": null,
+          "environmentalClass": null,
+          "environmentalClassEuro": "6"
+        },
+        "vehicleInformation": {
+          "vin": "7JRZS25VCLG042513",
+          "body": "AA",
+          "type": "CAR",
+          "year": "2019",
+          "model": "S60",
+          "rawType": "PB",
+          "modelYear": null,
+          "categoryEu": "e4*2007/46*1315*07",
+          "groupNumber": "VO 020312",
+          "modelNumber": "VO 000000",
+          "chassisNumber": "7JRZS25VCLG042513",
+          "exteriorColor": "White",
+          "fabricAndMake": "VOLVO",
+          "baseObjectType": "CAR",
+          "manufactureCode": null,
+          "manufactureMonth": "201909",
+          "registrationDate": "2019-09-10",
+          "initialTrafficDate": "2019-10-31",
+          "registrationPlateReused": null
+        },
+        "vehicleInspectionInformation": {
+          "inspections": [
+            {
+              "inspectionType": "5",
+              "odometerReading": 76649,
+              "dateOfInspection": "2025-12-08"
+            },
+            {
+              "inspectionType": "6",
+              "odometerReading": 62804,
+              "dateOfInspection": "2024-07-04"
+            }
+          ],
+          "inspectionGroup": "36/24/14",
+          "odometerReading": 76649,
+          "inspectionPeriod": "2025-12-08 - 2027-02-28",
+          "dateOfInspection": "2025-12-08",
+          "inspectionValidToDate": "2027-02-28",
+          "inspectionExemptionGroup": null
+        },
+        "vehicleStatus": {
+          "tax": 1438
+        },
+        "additionalTechSpecification": {
+          "raceCar": null,
+          "wheelbase1": 2872,
+          "wheelbase2": null,
+          "wheelbase3": null,
+          "wheelbase4": null,
+          "equipment1": null,
+          "equipment2": null,
+          "equipment3": null,
+          "maximumSpeed": 240,
+          "numAxleShafts": "",
+          "passengerAirBag": true,
+          "tyreDimensionRear": "235/40R19 96W",
+          "tyreDimensionFront": "235/40R19 96W",
+          "dualSteeringControl": null
+        },
+        "registrationInformation": {
+          "registrationPlate": "TYU58G",
+          "deregistrationDate": null,
+          "deregistrationText": null,
+          "deregistrationReason": null
+        },
+        "generalTechSpecification": {
+          "eeg": "e4*2007/46*1315*07",
+          "fuels": [
+            {
+              "fuelCode": "Petrol",
+              "powerUnit": "EG",
+              "enginePower": 186,
+              "enginePowerHp": 253,
+              "fuelTankVolume": ""
+            }
+          ],
+          "width": 1850,
+          "height": 1423,
+          "length": 4761,
+          "gearbox": "Automatic",
+          "variant": "ZS25",
+          "version": "ZS25VCP?",
+          "taxWeight": 1860,
+          "curbWeight": 1865,
+          "maxPayload": 395,
+          "totalWeight": 2260,
+          "chassisCode1": null,
+          "chassisCode2": null,
+          "cubicCapacity": "1969",
+          "numPassengers": "4",
+          "numberOfSeats": 5,
+          "fourWheelDrive": true,
+          "maxPullWeightB": 1240,
+          "clutchMechanism1": null,
+          "clutchMechanism2": null,
+          "maxTrailerWeight": 1800,
+          "chassisCodeSupplement": null,
+          "maxPullWieghtNoBreaks": null,
+          "maxPullWeightBExtended": null,
+          "maxSingle Axle TrailerWeight": null
+        },
+        "vehicleOrigin": {
+          "originCode": "INFÖRT",
+          "originCodeReason": null,
+          "importerIdentifier": null,
+          "preRegistrationDate": null,
+          "importRegistrationDate": null,
+          "importedForPersonalUse": false,
+          "importedPreviouslyRegistered": false
+        }
+      },
+      "modelName": "S60 T5 AWD (250hk)",
+      "fuels": [
+        {
+          "fuelCode": "Petrol",
+          "powerUnit": "EG",
+          "enginePower": 186,
+          "enginePowerHp": 253,
+          "fuelTankVolume": ""
+        }
+      ],
+      "modelId": null,
+      "fabricAndMake": "VOLVO",
+      "id": "520376",
+      "baseObjectType": "CAR",
+      "createdAt": "2026-10-05T08:30:13.990788+00:00",
+      "exteriorColor": "White",
+      "body": "Sedan",
+      "odometerUnit": "km",
+      "odometerReading": 95000,
+      "year": "2020",
+      "registrationPlate": "TYU58G",
+      "technicalSpecification": {
+        "modelId": null,
+        "vehicle": {
+          "brand": "Volvo",
+          "body": "Sedan",
+          "modelName": "S60 T5 AWD (250hk)",
+          "familyName": "S60"
+        },
+        "year": "2020"
+      }
+    },
+    "isReleasable": false,
+    "presentationApproved": false,
+    "initialBuyNowAmount": null,
+    "car360Spin": null,
+    "certified": true,
+    "offsiteSalesContact": null,
+    "reducedPrice": false,
+    "conditionClassification": "CERTIFIED_PLUS",
+    "exportable": true,
+    "deductibleVat": false,
+    "collisionWarranty": null,
+    "title": "Volvo S60 T5 AWD (250hk)",
+    "brand": "Volvo",
+    "familyName": "S60",
+    "modelName": "S60 T5 AWD (250hk)",
+    "package": "R-Design",
+    "heading1": "Volvo S60",
+    "heading2": "T5 AWD",
+    "heading3": "R-Design",
+    "media": [
+      {
+        "processObjectId": "7290970",
+        "uri": "https://kvdbil-images.imgix.net/7290970/16246bf0.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7290970/16246bf0.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 1
+      },
+      {
+        "processObjectId": "7290970",
+        "uri": "https://kvdbil-images.imgix.net/7290970/4d70c463.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7290970/4d70c463.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 1
+      },
+      {
+        "processObjectId": "7290970",
+        "uri": "https://kvdbil-images.imgix.net/7290970/eea332a4.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7290970/eea332a4.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 2
+      },
+      {
+        "processObjectId": "7290970",
+        "uri": "https://kvdbil-images.imgix.net/7290970/92a07d33.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7290970/92a07d33.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 2
+      },
+      {
+        "processObjectId": "7290970",
+        "uri": "https://kvdbil-images.imgix.net/7290970/45db1232.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7290970/45db1232.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 3
+      },
+      {
+        "processObjectId": "7290970",
+        "uri": "https://kvdbil-images.imgix.net/7290970/cd377d42.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7290970/cd377d42.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 3
+      },
+      {
+        "processObjectId": "7290970",
+        "uri": "https://kvdbil-images.imgix.net/7290970/c97e1d7e.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7290970/c97e1d7e.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 4
+      },
+      {
+        "processObjectId": "7290970",
+        "uri": "https://kvdbil-images.imgix.net/7290970/624d23d6.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7290970/624d23d6.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 5
+      },
+      {
+        "processObjectId": "7290970",
+        "uri": "https://kvdbil-images.imgix.net/7290970/07297008.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7290970/07297008.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 6
+      },
+      {
+        "processObjectId": "7290970",
+        "uri": "https://kvdbil-images.imgix.net/7290970/ab6ecc95.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7290970/ab6ecc95.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 7
+      },
+      {
+        "processObjectId": "7290970",
+        "uri": "https://kvdbil-images.imgix.net/7290970/1c8b5d48.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7290970/1c8b5d48.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 8
+      },
+      {
+        "processObjectId": "7290970",
+        "uri": "https://kvdbil-images.imgix.net/7290970/b7c52dc3.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7290970/b7c52dc3.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 9
+      },
+      {
+        "processObjectId": "7290970",
+        "uri": "https://kvdbil-images.imgix.net/7290970/9a378efc.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7290970/9a378efc.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 10
+      },
+      {
+        "processObjectId": "7290970",
+        "uri": "https://kvdbil-images.imgix.net/7290970/8a87caa0.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7290970/8a87caa0.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 11
+      },
+      {
+        "processObjectId": "7290970",
+        "uri": "https://kvdbil-images.imgix.net/7290970/92bf6084.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7290970/92bf6084.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 12
+      },
+      {
+        "processObjectId": "7290970",
+        "uri": "https://kvdbil-images.imgix.net/7290970/e89aa6d7.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7290970/e89aa6d7.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 13
+      },
+      {
+        "processObjectId": "7290970",
+        "uri": "https://kvdbil-images.imgix.net/7290970/46f39bf1.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7290970/46f39bf1.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 14
+      },
+      {
+        "processObjectId": "7290970",
+        "uri": "https://kvdbil-images.imgix.net/7290970/e140cd8b.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7290970/e140cd8b.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 15
+      },
+      {
+        "processObjectId": "7290970",
+        "uri": "https://kvdbil-images.imgix.net/7290970/e0d4a2eb.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7290970/e0d4a2eb.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 16
+      },
+      {
+        "processObjectId": "7290970",
+        "uri": "https://kvdbil-images.imgix.net/7290970/fcc3e0a4.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7290970/fcc3e0a4.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 19
+      }
+    ],
+    "locationInfo": {
+      "id": "552770",
+      "processObjectId": "7290970",
+      "locationType": "FACILITY",
+      "createdAt": "2026-10-15T12:03:12.504029+00:00",
+      "updatedAt": "2026-10-15T12:03:12.504032+00:00",
+      "facilityId": "00000001-0001-0001-0001-000000000001",
+      "parkingZone": "A",
+      "parkingNumber": null,
+      "outgoingTime": null,
+      "leftAt": null,
+      "outgoingType": null,
+      "publicFacilityId": "00000001-0001-0001-0001-000000000001",
+      "facility": {
+        "id": "00000001-0001-0001-0001-000000000001",
+        "name": "Kungälv (Ellesbo)",
+        "operator": "KVD",
+        "legacyIdentifiers": [
+          "GBG, Kungälv",
+          "Kungälv (Ellesbo)"
+        ],
+        "objectTypes": [
+          "CAR",
+          "LIGHT_TRANSPORT",
+          "RECREATIONAL_VEHICLE"
+        ],
+        "createdAt": "2018-03-04T13:18:23.295898+00:00",
+        "calendarOrganisationalUnitId": "3",
+        "parkingAreas": [
+          {
+            "id": 1,
+            "name": "A1",
+            "createdAt": "2018-03-04T13:18:23.295898+00:00"
+          },
+          {
+            "id": 2,
+            "name": "B1",
+            "createdAt": "2018-03-04T13:18:23.295898+00:00"
+          }
+        ],
+        "active": true,
+        "latitude": 57.8325714,
+        "longitude": 12.0013274,
+        "distance": null,
+        "address": "Ellesbovägen 150",
+        "postCode": "44290",
+        "city": "Kungälv",
+        "facilityType": "MAXI",
+        "facilityMapUrl": "https://www.google.com/maps/dir/57.8325714,12.0013274/@57.8325714,12.0013274,z13",
+        "contactPhone": "+46101673040",
+        "contactEmail": "leverans.kungalv@kvdbil.se",
+        "allowIncomingTransport": true,
+        "allowLeaseReturns": true,
+        "allowUnplannedDropOffFleetManager": true,
+        "parentFacilityId": null,
+        "publicFacilityId": "00000001-0001-0001-0001-000000000001"
+      }
+    },
+    "valuation": {
+      "id": 238075,
+      "processObjectId": "7290970",
+      "valuatorComment": {
+        "da": "Nu bliver efteråret lidt ekstra sprudlende med en Volvo S60 med automatgear, der gør hver rejse smidig og afslappet. Helt læderindtræk giver en luksuriøs følelse og fin komfort på både korte og lange ture. Åbningsbart panoramatag, massage i forsæderne, 360-kamera, 4WD og LED-forlygter samarbejder for at give dig lys, overblik og tryg kørsel året rundt. Bilen har desuden en motoroptimering fra Polestar.",
+        "de": "Der Herbst wird jetzt mit einem Volvo S60 mit Automatik, der jede Fahrt reibungslos und entspannt macht, etwas besonders strahlend. Vollleder im Innenraum sorgt für ein luxuriöses Gefühl und guten Komfort bei kurzen und langen Fahrten. Öffentliches Panoramadach, Massage in den Vordersitzen, 360-Kamera, Allradantrieb (4WD) und LED-Scheinwerfer arbeiten zusammen, um Ihnen Licht, Übersicht und sicheres Fahren das ganze Jahr über zu bieten. Das Fahrzeug verfügt außerdem über eine Motoroptimierung von Polestar.",
+        "en": "Now autumn becomes a little extra sparkling with a Volvo S60 with automatic that makes every journey smooth and relaxed. Full leather interior gives a luxurious feel and fine comfort on both short and long trips. Opening panoramic roof, Massage in front seats, 360 camera, 4WD and LED headlights work together to give you light, overview and safe driving all year round. The car also has a motor optimization from Polestar.",
+        "et": "Nüüd muutub sügis veidi erilisemaks Volvo S60 automaadiga, mis teeb iga reisi sujuvaks ja lõõgastavaks. Täisnahkinterjöör annab luksusliku tunde ja hea mugavuse nii lühikestel kui ka pikkadel sõitudel. Avanev panoraamkatus, massaaž esiisteis, 360-kraadine kaamera, 4WD ja LED-esituled töötavad koos, et pakkuda sulle valgust, ülevaadet ja turvalist sõitu kogu aasta vältel. Autol on lisaks ka Polestari mootori optimeerimine.",
+        "fi": "Nyt syksystä tulee hiukan erityisen säihkyvä Volvo S60:lla, jossa on automaatti, joka tekee jokaisesta matkasta sujuvan ja rentouttavan. Täysnahkasisustus antaa ylellisen tunteen ja hyvän mukavuuden sekä lyhyillä että pitkillä matkoilla. Avattava panoramakatto, hieronta etuistuimissa, 360-kamera, neliveto ja LED-ajovalot toimivat yhdessä tarjoten sinulle valoa, näkymää ja turvallista ajoa ympäri vuoden. Autossa on lisäksi Polestarin moottorin optimointi.",
+        "pl": "Jesień staje się teraz trochę bardziej efektowna dzięki Volvo S60 z automatem, który sprawia, że każda podróż jest płynna i relaksująca. Wnętrze z pełnej skóry zapewnia luksusowe wrażenia i dobrą wygodę zarówno na krótkich, jak i długich trasach. Otwierany panoramiczny dach, masaż w przednich fotelach, kamera 360, 4WD i reflektory LED współpracują, aby zapewnić Ci światło, przegląd i bezpieczną jazdę przez cały rok. Samochód ma również optymalizację silnika od Polestar.",
+        "sv": "Nu blir hösten lite extra sprakande med en Volvo S60 med automat som gör varje resa smidig och avkopplad. Helläder invändigt ger en lyxig känsla och fin komfort på både korta och långa turer. Öppningsbart panoramatak, Massage i framstolarna, 360-kamera, 4WD och LED-strålkastare samverkar för att ge dig ljus, överblick och trygg körning året runt. Bilen har dessutom en motoroptimering från Polestar."
+      },
+      "generatedValuatorComment": {
+        "en": "",
+        "sv": "Nu blir hösten lite extra sprakande med en Volvo S60 med automat som gör varje resa smidig och avkopplad. Helläder invändigt ger en lyxig känsla och fin komfort på både korta och långa turer. Öppningsbart panoramatak, 360-kamera, 4WD och LED-strålkastare samverkar för att ge dig ljus, överblick och trygg körning året runt."
+      },
+      "carDealerPrice": 335000,
+      "endUserTestProtocol": {
+        "tires": {
+          "mountedTires": {
+            "other": {
+              "rimSize": "19",
+              "rimType": "Alu.fälg",
+              "tireType": "Sommardäck",
+              "otherInfo": "Behövs ej",
+              "tireTypeKey": "SUMMER_TIRES"
+            },
+            "grades": {
+              "rearLeft": 3,
+              "frontLeft": 3,
+              "rearRight": 3,
+              "frontRight": 3
+            },
+            "treadDepths": {
+              "rearLeft": 5,
+              "frontLeft": 5,
+              "rearRight": 5,
+              "frontRight": 5
+            }
+          }
+        },
+        "grades": {
+          "TOTAL": {
+            "max": 5,
+            "min": 1,
+            "value": 4
+          },
+          "BRAKES": {
+            "max": 3,
+            "min": 1,
+            "value": 3
+          },
+          "EXTERIOR": {
+            "max": 5,
+            "min": 1,
+            "value": 4
+          },
+          "INTERIOR": {
+            "max": 5,
+            "min": 1,
+            "value": 4
+          },
+          "ENGINE_AND_GEARBOX": {
+            "max": 3,
+            "min": 1,
+            "value": 3
+          },
+          "TECHNOLOGY_AND_EQUIPMENT": {
+            "max": 3,
+            "min": 1,
+            "value": 3
+          }
+        },
+        "towbar": false,
+        "remarks": {
+          "BRAKES": [],
+          "EXTERIOR": [],
+          "INTERIOR": [],
+          "ENGINE_AND_GEARBOX": [],
+          "TECHNOLOGY_AND_EQUIPMENT": []
+        },
+        "textile": "Helläder",
+        "boatType": null,
+        "equipment": [
+          "GPS",
+          "Öppningsbart panoramatak",
+          "4WD",
+          "Volvo On Call",
+          "Head-up display",
+          "Autobroms",
+          "Bluetooth",
+          "Farthållare",
+          "Dödavinkelvarnare",
+          "Elstol med minnesfunktion förarplats",
+          "Elstol minnesfunktion passagerarplats",
+          "Filbytesvarnare",
+          "Klimatanläggning",
+          "LED-strålkastare",
+          "Rattvärme",
+          "Start/Stop-funktion",
+          "USB-ingång",
+          "Fjärrlås",
+          "Radio",
+          "Regnsensor",
+          "Stolsvärme fram",
+          "Sätesvärme bak",
+          "360-kamera",
+          "Antisladdsystem",
+          "Auto hold",
+          "Elhiss bak",
+          "Elhiss fram",
+          "Elinfällbara speglar",
+          "Isofix bak",
+          "Kurvljus",
+          "Parkeringssensorer bak",
+          "Parkeringssensorer fram",
+          "Parkeringsvärmare med tidur",
+          "Urkopplingsbar passagerarairbag",
+          "Ventilerade framsäten",
+          "Massage i framstolarna"
+        ],
+        "boatWidth": null,
+        "createdAt": "2026-10-20T13:29:29",
+        "boatEngine": null,
+        "boatLength": null,
+        "boatWeight": null,
+        "finishType": "Solid",
+        "protocolId": "260439",
+        "stoveFlames": null,
+        "heatingSystem": null,
+        "numberOfKeys": 2,
+        "boatCeBranded": false,
+        "boatGearModel": null,
+        "numberOfBunks": null,
+        "numberOfSeats": 5,
+        "boatEngineFuel": null,
+        "boatSepticTank": false,
+        "isRepairObject": false,
+        "boatEnginePower": null,
+        "serviceBookType": "EXISTS",
+        "boatExteriorColor": null,
+        "serviceBookStatus": "Service utförd vid följande mil: 2160, 3606, 5497, 7961 mil, senast 2026-01-16",
+        "boatEngineSerialNumber": null,
+        "odometerReadingAfterTest": {
+          "unit": "Mil",
+          "value": 9561
+        },
+        "odometerReadingAfterTestInKm": 95610
+      },
+      "auctionPriceValuation": {
+        "currency": "SEK"
+      },
+      "finalised": true,
+      "includedImageIds": null,
+      "createdAt": "2026-10-20T11:31:12.559642+00:00",
+      "updatedAt": "2026-10-30T13:33:35.975545+00:00",
+      "generatingInProgress": false,
+      "valuatorCommentLocalized": "Nu blir hösten lite extra sprakande med en Volvo S60 med automat som gör varje resa smidig och avkopplad. Helläder invändigt ger en lyxig känsla och fin komfort på både korta och långa turer. Öppningsbart panoramatak, Massage i framstolarna, 360-kamera, 4WD och LED-strålkastare samverkar för att ge dig ljus, överblick och trygg körning året runt. Bilen har dessutom en motoroptimering från Polestar."
+    },
+    "facts": {
+      "default": [
+        {
+          "key": "NUMBER_OF_PREVIOUS_OWNERS",
+          "text": "Antal tidigare ägare",
+          "value": 7,
+          "type": "string"
+        },
+        {
+          "key": "REGISTRATION_PLATE",
+          "text": "Registreringsnummer",
+          "value": "TYU58G",
+          "type": "string"
+        },
+        {
+          "key": "MODEL_YEAR",
+          "text": "Modellår",
+          "value": 2020,
+          "type": "string"
+        },
+        {
+          "key": "MANUFACTURE_MONTH",
+          "text": "Tillverkningsmånad",
+          "value": "201909",
+          "type": "manufacture_month"
+        },
+        {
+          "key": "ODOMETER_READING",
+          "text": "Mätarställning",
+          "value": 95610,
+          "type": "distance"
+        },
+        {
+          "key": "INITIAL_TRAFFIC_DATE",
+          "text": "Första datum i trafik i Sverige",
+          "value": "2019-10-31",
+          "type": "date"
+        },
+        {
+          "key": "SERVICE_BOOK",
+          "text": "Servicehistorik",
+          "value": "Service utförd vid följande mil: 2160, 3606, 5497, 7961 mil, senast 2026-01-16",
+          "type": "string"
+        },
+        {
+          "key": "SERVICE_BOOK_TYPE",
+          "text": "Servicebok",
+          "value": "Ja",
+          "type": "string"
+        },
+        {
+          "key": "GEARBOX",
+          "text": "Växellåda",
+          "value": "Automat",
+          "type": "string"
+        },
+        {
+          "key": "NUMBER_OF_SEATS",
+          "text": "Antal säten",
+          "value": 5,
+          "type": "string"
+        },
+        {
+          "key": "NUMBER_OF_KEYS",
+          "text": "Antal nycklar",
+          "value": 2,
+          "type": "string"
+        },
+        {
+          "key": "EXTERIOR_COLOR",
+          "text": "Färg",
+          "value": "Vit",
+          "type": "string"
+        },
+        {
+          "key": "FINISH_TYPE",
+          "text": "Lack",
+          "value": "Solid",
+          "type": "string"
+        },
+        {
+          "key": "TEXTILE",
+          "text": "Klädsel",
+          "value": "Helläder",
+          "type": "string"
+        },
+        {
+          "key": "MANUFACTURER_WARRANTY",
+          "text": "Nybilsgaranti",
+          "value": "Inte undersökt",
+          "type": "string"
+        },
+        {
+          "key": "COLLISION_WARRANTY",
+          "text": "Vagnskadegaranti",
+          "value": "Inte undersökt",
+          "type": "string"
+        },
+        {
+          "key": "TAX_FEE",
+          "text": "Skatt årsavgift",
+          "value": "1438 SEK",
+          "type": "string"
+        }
+      ],
+      "additional": [
+        {
+          "key": "CHASSIS_NUMBER",
+          "text": "Chassinummer",
+          "value": "7JRZS25VCLG042513",
+          "type": "string"
+        },
+        {
+          "key": "ENGINE_EFFECT_PETROL",
+          "text": "Motoreffekt (bensin)",
+          "value": 253,
+          "type": "engine_power"
+        },
+        {
+          "key": "TOWBAR",
+          "text": "Dragkrok",
+          "value": "Nej",
+          "type": "string"
+        },
+        {
+          "key": "MAX_PAYLOAD",
+          "text": "Maxlastvikt",
+          "value": 395,
+          "type": "weight"
+        },
+        {
+          "key": "CONSUMPTION_PETROL",
+          "text": "Bränsleförbr. blandad körning (bensin)",
+          "value": 7.1,
+          "type": "consumption"
+        },
+        {
+          "key": "CO2_PETROL",
+          "text": "CO2-utsläpp (bensin)",
+          "value": 160,
+          "type": "emission"
+        },
+        {
+          "key": "INSPECTION_VALID_TO_DATE",
+          "text": "Nästa besiktning senast",
+          "value": "2027-02-28",
+          "type": "string"
+        },
+        {
+          "key": "CURB_WEIGHT",
+          "text": "Tjänstevikt",
+          "value": 1865,
+          "type": "weight"
+        },
+        {
+          "key": "TAX_WEIGHT",
+          "text": "Skattevikt",
+          "value": 1860,
+          "type": "weight"
+        },
+        {
+          "key": "MAX_TRAILER_WEIGHT",
+          "text": "Maximal släpvagnsvikt",
+          "value": 1800,
+          "type": "weight"
+        },
+        {
+          "key": "TOTAL_WEIGHT",
+          "text": "Fordonets totalvikt",
+          "value": 2260,
+          "type": "weight"
+        },
+        {
+          "key": "LENGTH",
+          "text": "Längd",
+          "value": 4761,
+          "type": "length"
+        },
+        {
+          "key": "WIDTH",
+          "text": "Bredd",
+          "value": 1850,
+          "type": "length"
+        },
+        {
+          "key": "HEIGHT",
+          "text": "Höjd",
+          "value": 1423,
+          "type": "length"
+        }
+      ],
+      "other": [
+        {
+          "key": "SOLD_IN_SWEDEN",
+          "text": "Svensksåld",
+          "value": "Ja",
+          "type": "string"
+        },
+        {
+          "key": "EXPORTABLE",
+          "text": "Kan exporteras",
+          "value": "Ja",
+          "type": "string"
+        },
+        {
+          "key": "DEDUCTIBLE_VAT",
+          "text": "Avlyftbar moms",
+          "value": "Nej",
+          "type": "string"
+        }
+      ]
+    },
+    "majorFeature": [
+      {
+        "key": "OPPNINGSBART_PANORAMATAK",
+        "title": "Öppningsbart panoramatak",
+        "value": null,
+        "equipment": "Utrustning",
+        "description": "Glastak som är delvis öppningsbart"
+      },
+      {
+        "key": "360-KAMERA",
+        "title": "360 kamera",
+        "value": null,
+        "equipment": "Utrustning",
+        "description": ""
+      },
+      {
+        "key": "4WD",
+        "title": "4WD",
+        "value": null,
+        "equipment": "Utrustning",
+        "description": "Konstant eller inkopplingsbar fyrhjulsdrift"
+      },
+      {
+        "key": "LED_STRALKASTARE",
+        "title": "LED-strålkastare",
+        "value": null,
+        "equipment": "Utrustning",
+        "description": "Strålkastare med LED-ljus har ett konstant vitt ljus och har samma ljusstyrka från star"
+      }
+    ],
+    "batteryTestCertificateAvailable": false
+  },
+  "previewImages": [
+    {
+      "processObjectId": "7290970",
+      "uri": "https://kvdbil-images.imgix.net/7290970/16246bf0.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7290970/16246bf0.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 1
+    },
+    {
+      "processObjectId": "7290970",
+      "uri": "https://kvdbil-images.imgix.net/7290970/4d70c463.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7290970/4d70c463.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 1
+    },
+    {
+      "processObjectId": "7290970",
+      "uri": "https://kvdbil-images.imgix.net/7290970/eea332a4.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7290970/eea332a4.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 2
+    },
+    {
+      "processObjectId": "7290970",
+      "uri": "https://kvdbil-images.imgix.net/7290970/92a07d33.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7290970/92a07d33.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 2
+    },
+    {
+      "processObjectId": "7290970",
+      "uri": "https://kvdbil-images.imgix.net/7290970/45db1232.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7290970/45db1232.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 3
+    },
+    {
+      "processObjectId": "7290970",
+      "uri": "https://kvdbil-images.imgix.net/7290970/cd377d42.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7290970/cd377d42.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 3
+    },
+    {
+      "processObjectId": "7290970",
+      "uri": "https://kvdbil-images.imgix.net/7290970/c97e1d7e.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7290970/c97e1d7e.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 4
+    },
+    {
+      "processObjectId": "7290970",
+      "uri": "https://kvdbil-images.imgix.net/7290970/624d23d6.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7290970/624d23d6.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 5
+    },
+    {
+      "processObjectId": "7290970",
+      "uri": "https://kvdbil-images.imgix.net/7290970/07297008.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7290970/07297008.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 6
+    },
+    {
+      "processObjectId": "7290970",
+      "uri": "https://kvdbil-images.imgix.net/7290970/ab6ecc95.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7290970/ab6ecc95.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 7
+    },
+    {
+      "processObjectId": "7290970",
+      "uri": "https://kvdbil-images.imgix.net/7290970/1c8b5d48.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7290970/1c8b5d48.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 8
+    },
+    {
+      "processObjectId": "7290970",
+      "uri": "https://kvdbil-images.imgix.net/7290970/b7c52dc3.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7290970/b7c52dc3.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 9
+    },
+    {
+      "processObjectId": "7290970",
+      "uri": "https://kvdbil-images.imgix.net/7290970/9a378efc.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7290970/9a378efc.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 10
+    },
+    {
+      "processObjectId": "7290970",
+      "uri": "https://kvdbil-images.imgix.net/7290970/8a87caa0.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7290970/8a87caa0.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 11
+    },
+    {
+      "processObjectId": "7290970",
+      "uri": "https://kvdbil-images.imgix.net/7290970/92bf6084.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7290970/92bf6084.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 12
+    },
+    {
+      "processObjectId": "7290970",
+      "uri": "https://kvdbil-images.imgix.net/7290970/e89aa6d7.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7290970/e89aa6d7.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 13
+    },
+    {
+      "processObjectId": "7290970",
+      "uri": "https://kvdbil-images.imgix.net/7290970/46f39bf1.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7290970/46f39bf1.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 14
+    },
+    {
+      "processObjectId": "7290970",
+      "uri": "https://kvdbil-images.imgix.net/7290970/e140cd8b.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7290970/e140cd8b.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 15
+    },
+    {
+      "processObjectId": "7290970",
+      "uri": "https://kvdbil-images.imgix.net/7290970/e0d4a2eb.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7290970/e0d4a2eb.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 16
+    },
+    {
+      "processObjectId": "7290970",
+      "uri": "https://kvdbil-images.imgix.net/7290970/fcc3e0a4.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7290970/fcc3e0a4.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 19
+    }
+  ],
+  "similarAuctions": [],
+  "activeAuction": {
+    "auctionId": "309693",
+    "closed": true,
+    "countdownInProgress": true,
+    "preliminaryCloseAt": "2026-11-04T10:23:49.700759+00:00",
+    "createdAt": "2026-10-30T15:16:15.363951+00:00",
+    "updatedAt": "2026-11-04T10:23:49.710362+00:00",
+    "vatExcludedBiddingAllowed": false,
+    "reservationPriceReached": false,
+    "bids": [
+      {
+        "id": 18707543,
+        "auctionId": 309693,
+        "bidderAlias": "11",
+        "amount": 289000,
+        "type": "NORMAL",
+        "maxBidId": 10931713,
+        "triggeredBy": 10931713,
+        "createdAt": "2026-11-04T10:20:19.703896+00:00",
+        "updatedAt": "2026-11-04T10:20:19.703902+00:00"
+      },
+      {
+        "id": 18707537,
+        "auctionId": 309693,
+        "bidderAlias": "12",
+        "amount": 288500,
+        "type": "NORMAL",
+        "maxBidId": 10931709,
+        "triggeredBy": 10931709,
+        "createdAt": "2026-11-04T10:19:48.196916+00:00",
+        "updatedAt": "2026-11-04T10:19:48.196925+00:00"
+      },
+      {
+        "id": 18707454,
+        "auctionId": 309693,
+        "bidderAlias": "11",
+        "amount": 288000,
+        "type": "NORMAL",
+        "maxBidId": 10931659,
+        "triggeredBy": 10931659,
+        "createdAt": "2026-11-04T10:16:25.550169+00:00",
+        "updatedAt": "2026-11-04T10:16:25.550177+00:00"
+      },
+      {
+        "id": 18707450,
+        "auctionId": 309693,
+        "bidderAlias": "12",
+        "amount": 287500,
+        "type": "NORMAL",
+        "maxBidId": 10931655,
+        "triggeredBy": 10931655,
+        "createdAt": "2026-11-04T10:16:11.059008+00:00",
+        "updatedAt": "2026-11-04T10:16:11.059019+00:00"
+      },
+      {
+        "id": 18707448,
+        "auctionId": 309693,
+        "bidderAlias": "10",
+        "amount": 287000,
+        "type": "NORMAL",
+        "maxBidId": 10931653,
+        "triggeredBy": 10931653,
+        "createdAt": "2026-11-04T10:16:02.396557+00:00",
+        "updatedAt": "2026-11-04T10:16:02.396565+00:00"
+      },
+      {
+        "id": 18707417,
+        "auctionId": 309693,
+        "bidderAlias": "11",
+        "amount": 286500,
+        "type": "NORMAL",
+        "maxBidId": 10931635,
+        "triggeredBy": 10931635,
+        "createdAt": "2026-11-04T10:14:14.357533+00:00",
+        "updatedAt": "2026-11-04T10:14:14.357541+00:00"
+      },
+      {
+        "id": 18707386,
+        "auctionId": 309693,
+        "bidderAlias": "5",
+        "amount": 286000,
+        "type": "NORMAL",
+        "maxBidId": 10931617,
+        "triggeredBy": 10931617,
+        "createdAt": "2026-11-04T10:13:07.770720+00:00",
+        "updatedAt": "2026-11-04T10:13:07.770729+00:00"
+      },
+      {
+        "id": 18707363,
+        "auctionId": 309693,
+        "bidderAlias": "11",
+        "amount": 285500,
+        "type": "AUTO",
+        "maxBidId": 10931520,
+        "triggeredBy": 10931604,
+        "createdAt": "2026-11-04T10:12:26.284761+00:00",
+        "updatedAt": "2026-11-04T10:12:26.284765+00:00"
+      },
+      {
+        "id": 18707362,
+        "auctionId": 309693,
+        "bidderAlias": "5",
+        "amount": 285000,
+        "type": "NORMAL",
+        "maxBidId": 10931604,
+        "triggeredBy": 10931604,
+        "createdAt": "2026-11-04T10:12:26.284750+00:00",
+        "updatedAt": "2026-11-04T10:12:26.284757+00:00"
+      },
+      {
+        "id": 18707352,
+        "auctionId": 309693,
+        "bidderAlias": "11",
+        "amount": 282500,
+        "type": "AUTO",
+        "maxBidId": 10931520,
+        "triggeredBy": 10931598,
+        "createdAt": "2026-11-04T10:12:16.757909+00:00",
+        "updatedAt": "2026-11-04T10:12:16.757913+00:00"
+      },
+      {
+        "id": 18707351,
+        "auctionId": 309693,
+        "bidderAlias": "5",
+        "amount": 282000,
+        "type": "NORMAL",
+        "maxBidId": 10931598,
+        "triggeredBy": 10931598,
+        "createdAt": "2026-11-04T10:12:16.757893+00:00",
+        "updatedAt": "2026-11-04T10:12:16.757901+00:00"
+      },
+      {
+        "id": 18707346,
+        "auctionId": 309693,
+        "bidderAlias": "11",
+        "amount": 281500,
+        "type": "AUTO",
+        "maxBidId": 10931520,
+        "triggeredBy": 10931595,
+        "createdAt": "2026-11-04T10:12:09.689000+00:00",
+        "updatedAt": "2026-11-04T10:12:09.689002+00:00"
+      },
+      {
+        "id": 18707345,
+        "auctionId": 309693,
+        "bidderAlias": "5",
+        "amount": 281000,
+        "type": "NORMAL",
+        "maxBidId": 10931595,
+        "triggeredBy": 10931595,
+        "createdAt": "2026-11-04T10:12:09.688991+00:00",
+        "updatedAt": "2026-11-04T10:12:09.688997+00:00"
+      },
+      {
+        "id": 18707220,
+        "auctionId": 309693,
+        "bidderAlias": "11",
+        "amount": 280500,
+        "type": "NORMAL",
+        "maxBidId": 10931520,
+        "triggeredBy": 10931520,
+        "createdAt": "2026-11-04T10:06:24.266159+00:00",
+        "updatedAt": "2026-11-04T10:06:24.266161+00:00"
+      },
+      {
+        "id": 18707219,
+        "auctionId": 309693,
+        "bidderAlias": "5",
+        "amount": 280000,
+        "type": "LIMIT_REACHED",
+        "maxBidId": 10931371,
+        "triggeredBy": 10931520,
+        "createdAt": "2026-11-04T10:06:24.266149+00:00",
+        "updatedAt": "2026-11-04T10:06:24.266156+00:00"
+      },
+      {
+        "id": 18707121,
+        "auctionId": 309693,
+        "bidderAlias": "5",
+        "amount": 279500,
+        "type": "AUTO",
+        "maxBidId": 10931371,
+        "triggeredBy": 10931459,
+        "createdAt": "2026-11-04T10:02:38.916900+00:00",
+        "updatedAt": "2026-11-04T10:02:38.916902+00:00"
+      },
+      {
+        "id": 18707120,
+        "auctionId": 309693,
+        "bidderAlias": "8",
+        "amount": 279000,
+        "type": "NORMAL",
+        "maxBidId": 10931459,
+        "triggeredBy": 10931459,
+        "createdAt": "2026-11-04T10:02:38.916889+00:00",
+        "updatedAt": "2026-11-04T10:02:38.916897+00:00"
+      },
+      {
+        "id": 18706971,
+        "auctionId": 309693,
+        "bidderAlias": "5",
+        "amount": 276000,
+        "type": "NORMAL",
+        "maxBidId": 10931371,
+        "triggeredBy": 10931371,
+        "createdAt": "2026-11-04T09:54:32.645151+00:00",
+        "updatedAt": "2026-11-04T09:54:32.645160+00:00"
+      },
+      {
+        "id": 18706867,
+        "auctionId": 309693,
+        "bidderAlias": "10",
+        "amount": 275500,
+        "type": "NORMAL",
+        "maxBidId": 10931310,
+        "triggeredBy": 10931310,
+        "createdAt": "2026-11-04T09:47:57.750263+00:00",
+        "updatedAt": "2026-11-04T09:47:57.750265+00:00"
+      },
+      {
+        "id": 18706866,
+        "auctionId": 309693,
+        "bidderAlias": "5",
+        "amount": 275000,
+        "type": "LIMIT_REACHED",
+        "maxBidId": 10931268,
+        "triggeredBy": 10931310,
+        "createdAt": "2026-11-04T09:47:57.750253+00:00",
+        "updatedAt": "2026-11-04T09:47:57.750260+00:00"
+      },
+      {
+        "id": 18706816,
+        "auctionId": 309693,
+        "bidderAlias": "5",
+        "amount": 274500,
+        "type": "AUTO",
+        "maxBidId": 10931268,
+        "triggeredBy": 10931282,
+        "createdAt": "2026-11-04T09:46:11.346599+00:00",
+        "updatedAt": "2026-11-04T09:46:11.346601+00:00"
+      },
+      {
+        "id": 18706815,
+        "auctionId": 309693,
+        "bidderAlias": "10",
+        "amount": 274000,
+        "type": "NORMAL",
+        "maxBidId": 10931282,
+        "triggeredBy": 10931282,
+        "createdAt": "2026-11-04T09:46:11.346590+00:00",
+        "updatedAt": "2026-11-04T09:46:11.346596+00:00"
+      },
+      {
+        "id": 18706805,
+        "auctionId": 309693,
+        "bidderAlias": "5",
+        "amount": 273500,
+        "type": "AUTO",
+        "maxBidId": 10931268,
+        "triggeredBy": 10931276,
+        "createdAt": "2026-11-04T09:45:32.910833+00:00",
+        "updatedAt": "2026-11-04T09:45:32.910836+00:00"
+      },
+      {
+        "id": 18706804,
+        "auctionId": 309693,
+        "bidderAlias": "10",
+        "amount": 273000,
+        "type": "NORMAL",
+        "maxBidId": 10931276,
+        "triggeredBy": 10931276,
+        "createdAt": "2026-11-04T09:45:32.910823+00:00",
+        "updatedAt": "2026-11-04T09:45:32.910830+00:00"
+      },
+      {
+        "id": 18706790,
+        "auctionId": 309693,
+        "bidderAlias": "5",
+        "amount": 272500,
+        "type": "NORMAL",
+        "maxBidId": 10931268,
+        "triggeredBy": 10931268,
+        "createdAt": "2026-11-04T09:44:52.435185+00:00",
+        "updatedAt": "2026-11-04T09:44:52.435191+00:00"
+      },
+      {
+        "id": 18706763,
+        "auctionId": 309693,
+        "bidderAlias": "10",
+        "amount": 272000,
+        "type": "NORMAL",
+        "maxBidId": 10931251,
+        "triggeredBy": 10931251,
+        "createdAt": "2026-11-04T09:42:44.700449+00:00",
+        "updatedAt": "2026-11-04T09:42:44.700460+00:00"
+      },
+      {
+        "id": 18706743,
+        "auctionId": 309693,
+        "bidderAlias": "5",
+        "amount": 271500,
+        "type": "NORMAL",
+        "maxBidId": 10931240,
+        "triggeredBy": 10931240,
+        "createdAt": "2026-11-04T09:41:42.997290+00:00",
+        "updatedAt": "2026-11-04T09:41:42.997294+00:00"
+      },
+      {
+        "id": 18706742,
+        "auctionId": 309693,
+        "bidderAlias": "9",
+        "amount": 271000,
+        "type": "LIMIT_REACHED",
+        "maxBidId": 10931233,
+        "triggeredBy": 10931240,
+        "createdAt": "2026-11-04T09:41:42.997276+00:00",
+        "updatedAt": "2026-11-04T09:41:42.997285+00:00"
+      },
+      {
+        "id": 18706731,
+        "auctionId": 309693,
+        "bidderAlias": "9",
+        "amount": 270500,
+        "type": "NORMAL",
+        "maxBidId": 10931233,
+        "triggeredBy": 10931233,
+        "createdAt": "2026-11-04T09:40:58.057874+00:00",
+        "updatedAt": "2026-11-04T09:40:58.057876+00:00"
+      },
+      {
+        "id": 18706730,
+        "auctionId": 309693,
+        "bidderAlias": "5",
+        "amount": 270000,
+        "type": "LIMIT_REACHED",
+        "maxBidId": 10930702,
+        "triggeredBy": 10931233,
+        "createdAt": "2026-11-04T09:40:58.057864+00:00",
+        "updatedAt": "2026-11-04T09:40:58.057871+00:00"
+      },
+      {
+        "id": 18705803,
+        "auctionId": 309693,
+        "bidderAlias": "5",
+        "amount": 263500,
+        "type": "NORMAL",
+        "maxBidId": 10930702,
+        "triggeredBy": 10930702,
+        "createdAt": "2026-11-04T09:05:24.509013+00:00",
+        "updatedAt": "2026-11-04T09:05:24.509015+00:00"
+      },
+      {
+        "id": 18705802,
+        "auctionId": 309693,
+        "bidderAlias": "8",
+        "amount": 263000,
+        "type": "LIMIT_REACHED",
+        "maxBidId": 10930434,
+        "triggeredBy": 10930702,
+        "createdAt": "2026-11-04T09:05:24.509003+00:00",
+        "updatedAt": "2026-11-04T09:05:24.509010+00:00"
+      },
+      {
+        "id": 18705311,
+        "auctionId": 309693,
+        "bidderAlias": "8",
+        "amount": 260500,
+        "type": "NORMAL",
+        "maxBidId": 10930434,
+        "triggeredBy": 10930434,
+        "createdAt": "2026-11-04T08:41:06.097958+00:00",
+        "updatedAt": "2026-11-04T08:41:06.097960+00:00"
+      },
+      {
+        "id": 18705310,
+        "auctionId": 309693,
+        "bidderAlias": "5",
+        "amount": 260000,
+        "type": "LIMIT_REACHED",
+        "maxBidId": 10930205,
+        "triggeredBy": 10930434,
+        "createdAt": "2026-11-04T08:41:06.097949+00:00",
+        "updatedAt": "2026-11-04T08:41:06.097955+00:00"
+      },
+      {
+        "id": 18704892,
+        "auctionId": 309693,
+        "bidderAlias": "5",
+        "amount": 253000,
+        "type": "NORMAL",
+        "maxBidId": 10930205,
+        "triggeredBy": 10930205,
+        "createdAt": "2026-11-04T07:36:32.356688+00:00",
+        "updatedAt": "2026-11-04T07:36:32.356692+00:00"
+      },
+      {
+        "id": 18704891,
+        "auctionId": 309693,
+        "bidderAlias": "7",
+        "amount": 252500,
+        "type": "LIMIT_REACHED",
+        "maxBidId": 10930197,
+        "triggeredBy": 10930205,
+        "createdAt": "2026-11-04T07:36:32.356654+00:00",
+        "updatedAt": "2026-11-04T07:36:32.356682+00:00"
+      },
+      {
+        "id": 18704878,
+        "auctionId": 309693,
+        "bidderAlias": "7",
+        "amount": 250500,
+        "type": "NORMAL",
+        "maxBidId": 10930197,
+        "triggeredBy": 10930197,
+        "createdAt": "2026-11-04T07:30:39.402034+00:00",
+        "updatedAt": "2026-11-04T07:30:39.402038+00:00"
+      },
+      {
+        "id": 18704877,
+        "auctionId": 309693,
+        "bidderAlias": "5",
+        "amount": 250000,
+        "type": "LIMIT_REACHED",
+        "maxBidId": 10922263,
+        "triggeredBy": 10930197,
+        "createdAt": "2026-11-04T07:30:39.402020+00:00",
+        "updatedAt": "2026-11-04T07:30:39.402029+00:00"
+      },
+      {
+        "id": 18697341,
+        "auctionId": 309693,
+        "bidderAlias": "5",
+        "amount": 235500,
+        "type": "AUTO",
+        "maxBidId": 10922263,
+        "triggeredBy": 10925737,
+        "createdAt": "2026-11-03T03:09:52.308245+00:00",
+        "updatedAt": "2026-11-03T03:09:52.308247+00:00"
+      },
+      {
+        "id": 18697340,
+        "auctionId": 309693,
+        "bidderAlias": "6",
+        "amount": 235000,
+        "type": "NORMAL",
+        "maxBidId": 10925737,
+        "triggeredBy": 10925737,
+        "createdAt": "2026-11-03T03:09:52.308234+00:00",
+        "updatedAt": "2026-11-03T03:09:52.308242+00:00"
+      },
+      {
+        "id": 18695423,
+        "auctionId": 309693,
+        "bidderAlias": "5",
+        "amount": 230500,
+        "type": "AUTO",
+        "maxBidId": 10922263,
+        "triggeredBy": 10924622,
+        "createdAt": "2026-11-02T16:33:57.596842+00:00",
+        "updatedAt": "2026-11-02T16:33:57.596844+00:00"
+      },
+      {
+        "id": 18695422,
+        "auctionId": 309693,
+        "bidderAlias": "3",
+        "amount": 230000,
+        "type": "NORMAL",
+        "maxBidId": 10924622,
+        "triggeredBy": 10924622,
+        "createdAt": "2026-11-02T16:33:57.596834+00:00",
+        "updatedAt": "2026-11-02T16:33:57.596840+00:00"
+      },
+      {
+        "id": 18695421,
+        "auctionId": 309693,
+        "bidderAlias": "5",
+        "amount": 223000,
+        "type": "AUTO",
+        "maxBidId": 10922263,
+        "triggeredBy": 10924621,
+        "createdAt": "2026-11-02T16:33:47.015150+00:00",
+        "updatedAt": "2026-11-02T16:33:47.015152+00:00"
+      },
+      {
+        "id": 18695420,
+        "auctionId": 309693,
+        "bidderAlias": "3",
+        "amount": 222500,
+        "type": "NORMAL",
+        "maxBidId": 10924621,
+        "triggeredBy": 10924621,
+        "createdAt": "2026-11-02T16:33:47.015141+00:00",
+        "updatedAt": "2026-11-02T16:33:47.015148+00:00"
+      },
+      {
+        "id": 18691295,
+        "auctionId": 309693,
+        "bidderAlias": "5",
+        "amount": 221500,
+        "type": "NORMAL",
+        "maxBidId": 10922263,
+        "triggeredBy": 10922263,
+        "createdAt": "2026-11-02T04:14:29.430918+00:00",
+        "updatedAt": "2026-11-02T04:14:29.430928+00:00"
+      },
+      {
+        "id": 18686324,
+        "auctionId": 309693,
+        "bidderAlias": "4",
+        "amount": 221000,
+        "type": "NORMAL",
+        "maxBidId": 10919393,
+        "triggeredBy": 10919393,
+        "createdAt": "2026-10-31T10:33:03.725799+00:00",
+        "updatedAt": "2026-10-31T10:33:03.725807+00:00"
+      },
+      {
+        "id": 18686307,
+        "auctionId": 309693,
+        "bidderAlias": "3",
+        "amount": 220500,
+        "type": "NORMAL",
+        "maxBidId": 10919382,
+        "triggeredBy": 10919382,
+        "createdAt": "2026-10-31T10:27:38.839117+00:00",
+        "updatedAt": "2026-10-31T10:27:38.839120+00:00"
+      },
+      {
+        "id": 18686306,
+        "auctionId": 309693,
+        "bidderAlias": "1",
+        "amount": 220000,
+        "type": "LIMIT_REACHED",
+        "maxBidId": 10919031,
+        "triggeredBy": 10919382,
+        "createdAt": "2026-10-31T10:27:38.839109+00:00",
+        "updatedAt": "2026-10-31T10:27:38.839115+00:00"
+      },
+      {
+        "id": 18685874,
+        "auctionId": 309693,
+        "bidderAlias": "1",
+        "amount": 215500,
+        "type": "AUTO",
+        "maxBidId": 10919031,
+        "triggeredBy": 10919135,
+        "createdAt": "2026-10-31T01:38:03.085221+00:00",
+        "updatedAt": "2026-10-31T01:38:03.085225+00:00"
+      },
+      {
+        "id": 18685873,
+        "auctionId": 309693,
+        "bidderAlias": "2",
+        "amount": 215000,
+        "type": "NORMAL",
+        "maxBidId": 10919135,
+        "triggeredBy": 10919135,
+        "createdAt": "2026-10-31T01:38:03.085209+00:00",
+        "updatedAt": "2026-10-31T01:38:03.085217+00:00"
+      },
+      {
+        "id": 18685872,
+        "auctionId": 309693,
+        "bidderAlias": "1",
+        "amount": 205500,
+        "type": "AUTO",
+        "maxBidId": 10919031,
+        "triggeredBy": 10919134,
+        "createdAt": "2026-10-31T01:37:48.777210+00:00",
+        "updatedAt": "2026-10-31T01:37:48.777213+00:00"
+      },
+      {
+        "id": 18685871,
+        "auctionId": 309693,
+        "bidderAlias": "2",
+        "amount": 205000,
+        "type": "NORMAL",
+        "maxBidId": 10919134,
+        "triggeredBy": 10919134,
+        "createdAt": "2026-10-31T01:37:48.777196+00:00",
+        "updatedAt": "2026-10-31T01:37:48.777205+00:00"
+      },
+      {
+        "id": 18685870,
+        "auctionId": 309693,
+        "bidderAlias": "1",
+        "amount": 199500,
+        "type": "AUTO",
+        "maxBidId": 10919031,
+        "triggeredBy": 10919133,
+        "createdAt": "2026-10-31T01:37:42.751452+00:00",
+        "updatedAt": "2026-10-31T01:37:42.751455+00:00"
+      },
+      {
+        "id": 18685869,
+        "auctionId": 309693,
+        "bidderAlias": "2",
+        "amount": 199000,
+        "type": "NORMAL",
+        "maxBidId": 10919133,
+        "triggeredBy": 10919133,
+        "createdAt": "2026-10-31T01:37:42.751441+00:00",
+        "updatedAt": "2026-10-31T01:37:42.751448+00:00"
+      },
+      {
+        "id": 18685868,
+        "auctionId": 309693,
+        "bidderAlias": "1",
+        "amount": 180500,
+        "type": "AUTO",
+        "maxBidId": 10919031,
+        "triggeredBy": 10919132,
+        "createdAt": "2026-10-31T01:37:36.941982+00:00",
+        "updatedAt": "2026-10-31T01:37:36.942015+00:00"
+      },
+      {
+        "id": 18685867,
+        "auctionId": 309693,
+        "bidderAlias": "2",
+        "amount": 180000,
+        "type": "NORMAL",
+        "maxBidId": 10919132,
+        "triggeredBy": 10919132,
+        "createdAt": "2026-10-31T01:37:36.941973+00:00",
+        "updatedAt": "2026-10-31T01:37:36.941979+00:00"
+      },
+      {
+        "id": 18685681,
+        "auctionId": 309693,
+        "bidderAlias": "1",
+        "amount": 168000,
+        "type": "NORMAL",
+        "maxBidId": 10919031,
+        "triggeredBy": 10919031,
+        "createdAt": "2026-10-30T22:39:13.076724+00:00",
+        "updatedAt": "2026-10-30T22:39:13.076766+00:00"
+      }
+    ],
+    "myBidderAlias": null,
+    "myMaxBid": null,
+    "highestBid": {
+      "id": 18707543,
+      "auctionId": 309693,
+      "bidderAlias": null,
+      "amount": 289000,
+      "type": "NORMAL",
+      "maxBidId": 10931713,
+      "triggeredBy": 10931713,
+      "createdAt": "2026-11-04T10:20:19.703896+00:00",
+      "updatedAt": "2026-11-04T10:20:19.703902+00:00",
+      "eurAmount": 26390
+    },
+    "buyNowAvailable": false,
+    "releasing": null,
+    "isHighestBidLowerThanResidualLoanValue": false
+  },
+  "checkoutOrder": null,
+  "previewImage": "https://kvdbil-images.imgix.net/7290970/16246bf0.jpg",
+  "_list_meta": {
+    "id": "309693",
+    "slug": "volvo-s60-t5-awd-250hk",
+    "auctionType": "BIDDING",
+    "closedAt": "2026-11-04T10:23:49.708028+00:00",
+    "updatedAt": "2026-11-04T10:23:49.775072+00:00"
+  },
+  "_scraped_at": "2026-11-04T14:09:31.454192+00:00",
+  "_url": "https://www.kvd.se/auktioner/volvo-s60-t5-awd-250hk-309693"
+}

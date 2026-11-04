@@ -1,0 +1,2104 @@
+{
+  "id": "309679",
+  "auctionType": "BIDDING",
+  "biddingFee": "6900.00",
+  "biddingFeeCorporate": "9875.00",
+  "mediationFee": 0,
+  "mediationFeeCorporate": 0,
+  "buyNow": false,
+  "closedAt": "2026-11-04T09:21:00.007635+00:00",
+  "publishedAt": "2026-10-30T15:16:11.986544+00:00",
+  "countdownDuration": 210,
+  "countdownStartAt": "2026-11-04T09:17:30+00:00",
+  "createdAt": "2026-10-30T12:29:13.112519+00:00",
+  "readyForAuctionAt": "2026-11-01",
+  "currency": "SEK",
+  "maxBidRaise": 100000,
+  "minBidRaise": 500,
+  "startBid": 158000,
+  "openedAt": "2026-10-30T15:16:11.964749+00:00",
+  "processObjectId": "7291322",
+  "readyForCheckout": true,
+  "soldFor": 283500,
+  "sellMethod": "BIDDING",
+  "slug": "toyota-corolla-cross-2-0-awd-i-elhybrid-197hk",
+  "auctionUrl": "https://www.kvd.se/auktioner/toyota-corolla-cross-2-0-awd-i-elhybrid-197hk-309679",
+  "state": "PAYMENT_SEQUENCE_PENDING",
+  "targetedAuctionGroupId": null,
+  "updatedAt": "2026-11-04T12:25:21.056292+00:00",
+  "releasing": null,
+  "loan": {
+    "loanCost": 2415,
+    "loanCostBuyNow": null
+  },
+  "buyNowAmount": null,
+  "buyNowAvailable": false,
+  "buyNowUntil": null,
+  "eligibleForAdditionalServices": true,
+  "comingSoon": false,
+  "preliminaryPrice": 315000,
+  "maxAllowedBid": 472500,
+  "isReserved": false,
+  "isSoldByBuyNow": false,
+  "favouriteCount": 68,
+  "eurBuyNowAmount": null,
+  "winningBid": {
+    "id": 18705856,
+    "type": "NORMAL",
+    "amount": 283500,
+    "auctionId": 309679,
+    "createdAt": "2026-11-04T09:08:58.269552+00:00",
+    "maxBidId": 10930735,
+    "updatedAt": "2026-11-04T09:08:58.269554+00:00",
+    "bidderAlias": null,
+    "triggeredBy": 10930735,
+    "evaluationType": "AUTOMATIC"
+  },
+  "processObject": {
+    "proactiveBrokering": null,
+    "orderableAdditionalServices": {
+      "tradein": false,
+      "transport": true,
+      "insurance": true,
+      "finance": true,
+      "warranty": true,
+      "extraTires": false
+    },
+    "sellMethod": "BIDDING",
+    "isFixedPrice": false,
+    "buyNowAmount": null,
+    "statisticalValuation": null,
+    "state": "AUCTION_RESOLUTION",
+    "baseObjectId": "521022",
+    "properties": {
+      "initialTrafficDate": "2024-06-20",
+      "registrationCountry": "se",
+      "manufactureMonth": "202404",
+      "heavyEquipment": false,
+      "deductibleVat": true,
+      "formattedEquipment": [
+        {
+          "key": "4WD",
+          "title": "4WD",
+          "description": "Konstant eller inkopplingsbar fyrhjulsdrift",
+          "priority": 0
+        },
+        {
+          "key": "ADAPTIV_FARTHALLARE",
+          "title": "Adaptiv farthållare",
+          "description": "Farthållare som hjälper till att hålla ett givet avstånd till framförvarande fordon.",
+          "priority": 1
+        },
+        {
+          "key": "ANTISLADDSYSTEM",
+          "title": "Antisladdsystem",
+          "description": "Ett system som känner av om bilen håller på att sladda. Genom att bromsa enskilda hjul stabiliseras bilen och sladden förhindras, även kallat ESP.",
+          "priority": 2
+        },
+        {
+          "key": "ASSISTANSSYSTEM",
+          "title": "Assistanssystem",
+          "description": "Uppkopplad tjänst för att exempelvis kunna kontrollera din bil på distans med hjälp av en mobilapp. Funktioner som bygger på 2G eller 3G-uppkoppling kan sluta fungera i samband med att dessa nätverk stängs ner av operatörerna.",
+          "priority": 3
+        },
+        {
+          "key": "AUTO_HOLD",
+          "title": "Auto hold",
+          "description": "Hindrar bilen tillfälligt från att rulla bakåt när du startar i motlut",
+          "priority": 4
+        },
+        {
+          "key": "BACKKAMERA",
+          "title": "Backkamera",
+          "description": "Kamera som underlättar vid backning",
+          "priority": 5
+        },
+        {
+          "key": "BLUETOOTH",
+          "title": "Bluetooth",
+          "description": "Trådlös uppkoppling mot mobila enheter",
+          "priority": 6
+        },
+        {
+          "key": "DODAVINKELVARNARE",
+          "title": "Dödavinkelvarnare",
+          "description": "Elektroniskt säkerhetssystem som signalerar om det finns hinder i dödavinkeln. Kallas även BLIS",
+          "priority": 7
+        },
+        {
+          "key": "ELHISS_BAK",
+          "title": "Elhiss bak",
+          "description": "Elektroniska fönsterhissar bak",
+          "priority": 8
+        },
+        {
+          "key": "ELHISS_FRAM",
+          "title": "Elhiss fram",
+          "description": "Elektronisk fönsterhiss fram",
+          "priority": 9
+        },
+        {
+          "key": "ELINFALLBARA_SPEGLAR",
+          "title": "Elinfällbara backspeglar",
+          "description": "Speglar som fälls in automatiskt när bilen låses eller manuellt via knapp",
+          "priority": 10
+        },
+        {
+          "key": "FILBYTESVARNARE",
+          "title": "Filbytesvarnare",
+          "description": "Elektroniskt säkerhetssystem som varnar vid oplanerade filbyten",
+          "priority": 11
+        },
+        {
+          "key": "FJARRLAS",
+          "title": "Fjärrlås",
+          "description": "Möjliggör att du på distans kan låsa och låsa upp bilen",
+          "priority": 12
+        },
+        {
+          "key": "ISOFIX_BAK",
+          "title": "Isofix bak",
+          "description": "  Fästsystem för bilbarnstolar enligt internationell standard, även kallat Isofix",
+          "priority": 13
+        },
+        {
+          "key": "KLIMATANLAGGNING",
+          "title": "Klimatanläggning",
+          "description": "Luftkonditionering med möjlighet till automatisk temperaturinställning",
+          "priority": 14
+        },
+        {
+          "key": "LED_STRALKASTARE",
+          "title": "LED-strålkastare",
+          "description": "Strålkastare med LED-ljus har ett konstant vitt ljus och har samma ljusstyrka från star",
+          "priority": 15
+        },
+        {
+          "key": "NYCKELLOST_STARTSYSTEM",
+          "title": "Nyckellöst startsystem",
+          "description": "Startknapp i bilen utan tändningslås. Även kallat Keyless-go",
+          "priority": 16
+        },
+        {
+          "key": "PARKERINGSSENSORER_BAK",
+          "title": "Parkeringssensorer bak",
+          "description": "Sensorer på stötfångare baktill som varnar för hinder bakom bilen",
+          "priority": 17
+        },
+        {
+          "key": "PARKERINGSSENSORER_FRAM",
+          "title": "Parkeringssensorer fram",
+          "description": "Sensorer på stötfångare som varnar för hinder framför bilen",
+          "priority": 18
+        },
+        {
+          "key": "RADIO",
+          "title": "Radio",
+          "description": "Radiospelare",
+          "priority": 19
+        },
+        {
+          "key": "RATTVARME",
+          "title": "Rattvärme",
+          "description": "Eluppvärmd ratt",
+          "priority": 20
+        },
+        {
+          "key": "STOLSVARME_FRAM",
+          "title": "Stolsvärme fram",
+          "description": "Olika nivåer av värme i stolarna fram som ställs in via en knapp",
+          "priority": 21
+        },
+        {
+          "key": "URKOPPLINGSBAR_PASSAGERARAIRBAG",
+          "title": "Urkopplingsbar passagerarairbag",
+          "description": "Möjlighet att koppla till och från airbagen på passagerarsidan",
+          "priority": 22
+        },
+        {
+          "key": "USB_INGANG",
+          "title": "USB-ingång",
+          "description": "Inkoppling av mobil enhet via USB-kontakt",
+          "priority": 23
+        }
+      ],
+      "brand": "Toyota",
+      "title": "Toyota Corolla Cross 2.0 AWD-i Elhybrid (197hk)",
+      "exportable": true,
+      "residualLoanValue": 0,
+      "remarks": {
+        "INTERIOR": [],
+        "ENGINE_AND_GEARBOX": [],
+        "EXTERIOR": [],
+        "BRAKES": [],
+        "TIRES": [],
+        "TECHNOLOGY_AND_EQUIPMENT": []
+      },
+      "curbWeight": 1579,
+      "grades": {
+        "INTERIOR": {
+          "min": 1,
+          "value": 4,
+          "max": 5
+        },
+        "ENGINE_AND_GEARBOX": {
+          "min": 1,
+          "value": 3,
+          "max": 3
+        },
+        "TOTAL": {
+          "min": 1,
+          "value": 4,
+          "max": 5
+        },
+        "EXTERIOR": {
+          "min": 1,
+          "value": 4,
+          "max": 5
+        },
+        "BRAKES": {
+          "min": 1,
+          "value": 3,
+          "max": 3
+        },
+        "TECHNOLOGY_AND_EQUIPMENT": {
+          "min": 1,
+          "value": 3,
+          "max": 3
+        }
+      },
+      "exteriorColor": "Grey",
+      "textile": "Textil",
+      "height": 1620,
+      "collisionWarranty": "2027-06-19",
+      "taxFee": 5175,
+      "familyName": "Corolla Cross",
+      "towbar": false,
+      "modelName": "Corolla Cross 2.0 AWD-i Elhybrid (197hk)",
+      "equipment": [
+        "4WD",
+        "Adaptiv farthållare",
+        "Antisladdsystem",
+        "Assistanssystem",
+        "Auto hold",
+        "Backkamera",
+        "Bluetooth",
+        "Dödavinkelvarnare",
+        "Elhiss bak",
+        "Elhiss fram",
+        "Elinfällbara speglar",
+        "Filbytesvarnare",
+        "Fjärrlås",
+        "Isofix bak",
+        "Klimatanläggning",
+        "LED-strålkastare",
+        "Nyckellöst startsystem",
+        "Parkeringssensorer bak",
+        "Parkeringssensorer fram",
+        "Radio",
+        "Rattvärme",
+        "Stolsvärme fram",
+        "Urkopplingsbar passagerarairbag",
+        "USB-ingång"
+      ],
+      "remarksLocalized": {
+        "TIRES": null,
+        "BRAKES": null,
+        "EXTERIOR": null,
+        "INTERIOR": null,
+        "ENGINE_AND_GEARBOX": null,
+        "TECHNOLOGY_AND_EQUIPMENT": null
+      },
+      "odometerUnit": "km",
+      "odometerReading": 82000,
+      "finishType": "Metallic",
+      "registrationPlate": "HFP31B",
+      "length": 4460,
+      "manufacturerWarranty": {
+        "odometerReadingLimit": 100000,
+        "expirationDate": "2027-06-19"
+      },
+      "inspectionPeriod": "2026-07-17 - 2027-07-31",
+      "gearbox": "Automatic",
+      "maxPayload": 436,
+      "registrationPlateCountry": "se",
+      "hasUnpaidLoan": false,
+      "totalWeight": 2015,
+      "numberOfKeys": 2,
+      "adHeader": "Corolla Cross AWD-i Elhybrid (197hk) Vinterhjul",
+      "environmentalClassEuro": "6",
+      "body": "SUV",
+      "taxWeight": 1570,
+      "isRepairObject": false,
+      "importedForPersonalUse": false,
+      "package": "Vinterhjul",
+      "saleLimitedToCorporate": false,
+      "maxTrailerWeight": 750,
+      "mediation": true,
+      "ecoFriendly": false,
+      "inspectionValidToDate": "2027-07-31",
+      "mustExport": false,
+      "fuels": [
+        {
+          "fuelCode": "Petrol",
+          "enginePower": 152
+        },
+        {
+          "fuelCode": "Electric"
+        }
+      ],
+      "dateOfInspection": "2026-07-17",
+      "width": 1825,
+      "modelYear": 2024,
+      "chassisNumber": "JTNACABB20J020756",
+      "drivingBan": false,
+      "numberOfPreviousOwners": 1,
+      "maxPullWeightB": 1485,
+      "numberOfSeats": 5,
+      "heading1": "Toyota Corolla Cross",
+      "heading2": "Corolla Cross 2.0 AWD-i Elhybrid",
+      "heading3": "Vinterhjul"
+    },
+    "leaseReturnProperties": {},
+    "vehicleType": "CAR",
+    "id": "7291322",
+    "createdAt": "2026-10-07 08:18:44.608853+00:00",
+    "objectType": "CAR",
+    "displayCar360Spin": true,
+    "testDriveAllowed": true,
+    "baseObject": {
+      "registrationCountry": "se",
+      "gearbox": "Automatic",
+      "salesFlow": "CORPORATE_CARS",
+      "familyName": "Corolla Cross",
+      "state": "MANUAL_VALUATION_PENDING",
+      "brand": "Toyota",
+      "earliestAvailableAt": null,
+      "authorityRegisterInformation": {
+        "environmentalClassification": {
+          "fuels": [
+            {
+              "co2": "",
+              "nox": "",
+              "nox4": null,
+              "fuelCode": "Petrol",
+              "hcThcNox": "",
+              "consumption": "",
+              "noiseLevel": 66,
+              "emissionUnit": "g/km",
+              "innovationCo2": null,
+              "particleValue": "",
+              "particleMass4": null,
+              "consumptionUnit": "",
+              "rangeNedcDrive": null,
+              "rangeWltpDrive": null,
+              "consumptionUrban": "",
+              "rangeCityWltpDrive": null,
+              "consumptionExtraUrban": "",
+              "electricEnergyConsumption": null,
+              "energyConsumptionWltpDrive": null
+            }
+          ],
+          "ecoFriendly": false,
+          "emissionClass": "ELHYBRID",
+          "innovationCode": null,
+          "environmentalClass": null,
+          "environmentalClassEuro": "6"
+        },
+        "vehicleInformation": {
+          "vin": "JTNACABB20J020756",
+          "body": "AB",
+          "type": "CAR",
+          "year": "2024",
+          "model": "TOYOTA COROLLA",
+          "rawType": "PB",
+          "modelYear": null,
+          "categoryEu": "e6*2018/858*00186*02",
+          "groupNumber": "TO 283507",
+          "modelNumber": "TO 000000",
+          "chassisNumber": "JTNACABB20J020756",
+          "exteriorColor": "Grey",
+          "fabricAndMake": "TOYOTA",
+          "baseObjectType": "CAR",
+          "manufactureCode": null,
+          "manufactureMonth": "202404",
+          "registrationDate": "2024-04-04",
+          "initialTrafficDate": "2024-06-20",
+          "registrationPlateReused": null
+        },
+        "vehicleInspectionInformation": {
+          "inspections": [
+            {
+              "inspectionType": "5",
+              "odometerReading": 77915,
+              "dateOfInspection": "2026-07-17"
+            },
+            {
+              "inspectionType": "5",
+              "odometerReading": 36220,
+              "dateOfInspection": "2025-07-02"
+            }
+          ],
+          "inspectionGroup": "12/12/12",
+          "odometerReading": 77915,
+          "inspectionPeriod": "2026-07-17 - 2027-07-31",
+          "dateOfInspection": "2026-07-17",
+          "inspectionValidToDate": "2027-07-31",
+          "inspectionExemptionGroup": null
+        },
+        "vehicleStatus": {
+          "tax": 5175
+        },
+        "additionalTechSpecification": {
+          "raceCar": null,
+          "wheelbase1": 2640,
+          "wheelbase2": null,
+          "wheelbase3": null,
+          "wheelbase4": null,
+          "equipment1": null,
+          "equipment2": null,
+          "equipment3": null,
+          "maximumSpeed": 180,
+          "numAxleShafts": 2,
+          "passengerAirBag": true,
+          "tyreDimensionRear": "215/60R17",
+          "tyreDimensionFront": "215/60R17",
+          "dualSteeringControl": null
+        },
+        "registrationInformation": {
+          "registrationPlate": "HFP31B",
+          "deregistrationDate": null,
+          "deregistrationText": null,
+          "deregistrationReason": null
+        },
+        "generalTechSpecification": {
+          "eeg": "e6*2018/858*00186*02",
+          "fuels": [
+            {
+              "fuelCode": "Petrol",
+              "powerUnit": "EG",
+              "enginePower": 112,
+              "enginePowerHp": 152,
+              "fuelTankVolume": ""
+            }
+          ],
+          "width": 1825,
+          "height": 1620,
+          "length": 4460,
+          "gearbox": "Automatic",
+          "variant": "MXGH15(H)",
+          "version": "MXGH15L-KHXNHW(1C)",
+          "taxWeight": 1570,
+          "curbWeight": 1579,
+          "maxPayload": 436,
+          "totalWeight": 2015,
+          "chassisCode1": null,
+          "chassisCode2": null,
+          "cubicCapacity": "1987",
+          "numPassengers": "4",
+          "numberOfSeats": 5,
+          "fourWheelDrive": true,
+          "maxPullWeightB": 1485,
+          "clutchMechanism1": null,
+          "clutchMechanism2": null,
+          "maxTrailerWeight": 750,
+          "chassisCodeSupplement": null,
+          "maxPullWieghtNoBreaks": null,
+          "maxPullWeightBExtended": null,
+          "maxSingle Axle TrailerWeight": null
+        },
+        "vehicleOrigin": {
+          "originCode": "INFÖRT",
+          "originCodeReason": null,
+          "importerIdentifier": null,
+          "preRegistrationDate": null,
+          "importRegistrationDate": null,
+          "importedForPersonalUse": false,
+          "importedPreviouslyRegistered": false
+        }
+      },
+      "modelName": "Corolla Cross 2.0 AWD-i Elhybrid (197hk)",
+      "fuels": [
+        {
+          "fuelCode": "Petrol",
+          "powerUnit": "EG",
+          "enginePower": 112,
+          "enginePowerHp": 152,
+          "fuelTankVolume": ""
+        }
+      ],
+      "modelId": null,
+      "fabricAndMake": "TOYOTA",
+      "id": "521022",
+      "baseObjectType": "CAR",
+      "createdAt": "2026-10-07T08:18:44.397096+00:00",
+      "exteriorColor": "Grey",
+      "body": "SUV",
+      "odometerUnit": "km",
+      "odometerReading": null,
+      "year": "2024",
+      "registrationPlate": "HFP31B",
+      "technicalSpecification": {
+        "modelId": null,
+        "vehicle": {
+          "brand": "Toyota",
+          "body": "SUV",
+          "modelName": "Corolla Cross 2.0 AWD-i Elhybrid (197hk)",
+          "familyName": "Corolla Cross"
+        },
+        "year": "2024"
+      }
+    },
+    "isReleasable": false,
+    "presentationApproved": false,
+    "initialBuyNowAmount": null,
+    "car360Spin": null,
+    "certified": true,
+    "offsiteSalesContact": null,
+    "reducedPrice": false,
+    "conditionClassification": "CERTIFIED_PLUS",
+    "exportable": true,
+    "deductibleVat": true,
+    "collisionWarranty": "2027-06-19",
+    "title": "Toyota Corolla Cross 2.0 AWD-i Elhybrid (197hk)",
+    "brand": "Toyota",
+    "familyName": "Corolla Cross",
+    "modelName": "Corolla Cross 2.0 AWD-i Elhybrid (197hk)",
+    "package": "Vinterhjul",
+    "heading1": "Toyota Corolla Cross",
+    "heading2": "Corolla Cross 2.0 AWD-i Elhybrid",
+    "heading3": "Vinterhjul",
+    "media": [
+      {
+        "processObjectId": "7291322",
+        "uri": "https://kvdbil-images.imgix.net/7291322/41a5fbfd.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291322/41a5fbfd.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 1
+      },
+      {
+        "processObjectId": "7291322",
+        "uri": "https://kvdbil-images.imgix.net/7291322/40b0d035.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291322/40b0d035.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 2
+      },
+      {
+        "processObjectId": "7291322",
+        "uri": "https://kvdbil-images.imgix.net/7291322/6bc0ef9b.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291322/6bc0ef9b.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 3
+      },
+      {
+        "processObjectId": "7291322",
+        "uri": "https://kvdbil-images.imgix.net/7291322/b425f8c6.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291322/b425f8c6.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 3
+      },
+      {
+        "processObjectId": "7291322",
+        "uri": "https://kvdbil-images.imgix.net/7291322/333b0ee1.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291322/333b0ee1.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 4
+      },
+      {
+        "processObjectId": "7291322",
+        "uri": "https://kvdbil-images.imgix.net/7291322/47f675f4.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291322/47f675f4.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 5
+      },
+      {
+        "processObjectId": "7291322",
+        "uri": "https://kvdbil-images.imgix.net/7291322/9d5b31b8.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291322/9d5b31b8.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 6
+      },
+      {
+        "processObjectId": "7291322",
+        "uri": "https://kvdbil-images.imgix.net/7291322/f298f9f5.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291322/f298f9f5.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 7
+      },
+      {
+        "processObjectId": "7291322",
+        "uri": "https://kvdbil-images.imgix.net/7291322/d38feeba.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291322/d38feeba.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 8
+      },
+      {
+        "processObjectId": "7291322",
+        "uri": "https://kvdbil-images.imgix.net/7291322/28f3482d.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291322/28f3482d.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 9
+      },
+      {
+        "processObjectId": "7291322",
+        "uri": "https://kvdbil-images.imgix.net/7291322/38fda6d9.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291322/38fda6d9.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 10
+      },
+      {
+        "processObjectId": "7291322",
+        "uri": "https://kvdbil-images.imgix.net/7291322/dece4067.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291322/dece4067.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 11
+      },
+      {
+        "processObjectId": "7291322",
+        "uri": "https://kvdbil-images.imgix.net/7291322/d3254bea.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291322/d3254bea.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 12
+      },
+      {
+        "processObjectId": "7291322",
+        "uri": "https://kvdbil-images.imgix.net/7291322/0be1c4ee.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291322/0be1c4ee.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 13
+      }
+    ],
+    "locationInfo": {
+      "id": "551432",
+      "processObjectId": "7291322",
+      "locationType": "FACILITY",
+      "createdAt": "2026-10-08T09:18:44.240741+00:00",
+      "updatedAt": "2026-10-08T09:18:44.240745+00:00",
+      "facilityId": "00000001-0001-0001-0001-000000000001",
+      "parkingZone": "A",
+      "parkingNumber": null,
+      "outgoingTime": "2026-11-05T10:30:00+00:00",
+      "leftAt": null,
+      "outgoingType": "BOOKING",
+      "publicFacilityId": "00000001-0001-0001-0001-000000000001",
+      "facility": {
+        "id": "00000001-0001-0001-0001-000000000001",
+        "name": "Kungälv (Ellesbo)",
+        "operator": "KVD",
+        "legacyIdentifiers": [
+          "GBG, Kungälv",
+          "Kungälv (Ellesbo)"
+        ],
+        "objectTypes": [
+          "CAR",
+          "LIGHT_TRANSPORT",
+          "RECREATIONAL_VEHICLE"
+        ],
+        "createdAt": "2018-03-04T13:18:23.295898+00:00",
+        "calendarOrganisationalUnitId": "3",
+        "parkingAreas": [
+          {
+            "id": 1,
+            "name": "A1",
+            "createdAt": "2018-03-04T13:18:23.295898+00:00"
+          },
+          {
+            "id": 2,
+            "name": "B1",
+            "createdAt": "2018-03-04T13:18:23.295898+00:00"
+          }
+        ],
+        "active": true,
+        "latitude": 57.8325714,
+        "longitude": 12.0013274,
+        "distance": null,
+        "address": "Ellesbovägen 150",
+        "postCode": "44290",
+        "city": "Kungälv",
+        "facilityType": "MAXI",
+        "facilityMapUrl": "https://www.google.com/maps/dir/57.8325714,12.0013274/@57.8325714,12.0013274,z13",
+        "contactPhone": "+46101673040",
+        "contactEmail": "leverans.kungalv@kvdbil.se",
+        "allowIncomingTransport": true,
+        "allowLeaseReturns": true,
+        "allowUnplannedDropOffFleetManager": true,
+        "parentFacilityId": null,
+        "publicFacilityId": "00000001-0001-0001-0001-000000000001"
+      }
+    },
+    "valuation": {
+      "id": 237362,
+      "processObjectId": "7291322",
+      "valuatorComment": {
+        "da": "Denne Toyota Corolla Cross med automatgear i stilfuld grå metallic giver en moderne og komfortabel køreoplevelse. Firehjulstræk giver tryghed i al slags vejr, mens adaptiv fartpilot gør langrendture mere afslappende. Bakkameraet gør parkering nemmere, og LED-forlygter giver god sigtbarhed selv på mørke veje. For nylig serviceret og fine vinterdæk medfølger.",
+        "de": "Dieser Toyota Corolla Cross mit Automatikgetriebe in schickem Grau Metallic bietet ein modernes und komfortables Fahrerlebnis. Der Allradantrieb sorgt bei jedem Wetter für Sicherheit, während der adaptive Tempomat lange Fahrten entspannter macht. Die Rückfahrkamera erleichtert das Parken und die LED-Scheinwerfer sorgen auch auf dunklen Straßen für gute Sicht. Kürzlich gewartet und schöne Winterreifen sind im Lieferumfang enthalten.",
+        "en": "This Toyota Corolla Cross with automatic transmission in stylish grey metallic offers a modern and comfortable driving experience. Four-wheel drive provides security in all weather conditions while adaptive cruise control makes long trips more relaxed. Rearview camera makes parking easier and LED headlights provide good visibility even on dark roads. Recently serviced and fine winter tires included.",
+        "et": "See Toyota Corolla Cross automaatkäigukastiga ja stiilse halli metallikvärviga pakub kaasaegset ja mugavat sõidukogemust. Nelikvedu tagab kindlustunnet igasuguse ilmaga ning adaptiivne püsikiirusehoidja muudab pikad sõidud lõõgastavamaks. Tagurduskaamera lihtsustab parkimist ning LED-esituled tagavad hea nähtavuse ka pimedatel teedel. Hiljuti hooldatud ja kaasas korralikud talverattad.",
+        "fi": "Tämä automaattivaihteinen Toyota Corolla Cross tyylikkäässä harmaassa metallivärissä tarjoaa modernin ja mukavan ajokokemuksen. Neliveto lisää varmuutta kaikissa olosuhteissa, kun taas adaptiivinen vakionopeudensäädin tekee pitkistä matkoista rennompia. Peruutuskamera helpottaa pysäköintiä ja LED-ajovalot takaavat hyvän näkyvyyden myös pimeillä teillä. Äskettäin huollettu ja mukana hyvät talvirenkaat.",
+        "pl": "Ten Toyota Corolla Cross z automatyczną skrzynią biegów w eleganckim szarym metalicznym kolorze oferuje nowoczesne i komfortowe wrażenia z jazdy. Napęd na cztery koła zapewnia bezpieczeństwo w każdych warunkach pogodowych, a adaptacyjny tempomat sprawia, że długie podróże są bardziej relaksujące. Kamera cofania ułatwia parkowanie, a reflektory LED zapewniają dobrą widoczność nawet na ciemnych drogach. Ostatnio serwisowany, dołączone są również dobre opony zimowe.",
+        "sv": "Denna Toyota Corolla Cross med automat i snygg grå metallic ger en modern och bekväm körupplevelse. Fyrhjulsdrift ger trygghet i alla väder medan adaptiv farthållare gör långresorna mer avslappnade. Backkamera underlättar parkering och LED-strålkastare ger bra sikt även på mörka vägar. Nyligen servad och fina vinterhjul medföljer."
+      },
+      "generatedValuatorComment": {
+        "en": "",
+        "sv": "Denna Toyota Corolla Cross med automat i snygg grå metallic ger en modern och bekväm körupplevelse. Fyrhjulsdrift ger trygghet i alla väder medan adaptiv farthållare gör långresorna mer avslappnade. Backkamera underlättar parkering och LED-strålkastare ger bra sikt även på mörka vägar. Nyligen servad."
+      },
+      "carDealerPrice": 315000,
+      "endUserTestProtocol": {
+        "tires": {
+          "extraTires": {
+            "other": {
+              "rimSize": "17",
+              "rimType": "Alu.fälg",
+              "tireType": "Dubbade vinterdäck",
+              "otherInfo": "Behövs ej",
+              "tireTypeKey": "STUDDED_WINTER_TIRES"
+            },
+            "grades": {
+              "rearLeft": 3,
+              "frontLeft": 3,
+              "rearRight": 3,
+              "frontRight": 3
+            },
+            "treadDepths": {
+              "rearLeft": 7,
+              "frontLeft": 8,
+              "rearRight": 7,
+              "frontRight": 8
+            }
+          },
+          "mountedTires": {
+            "other": {
+              "rimSize": "17",
+              "rimType": "Alu.fälg",
+              "tireType": "Sommardäck",
+              "otherInfo": "Behövs ej",
+              "tireTypeKey": "SUMMER_TIRES"
+            },
+            "grades": {
+              "rearLeft": 3,
+              "frontLeft": 3,
+              "rearRight": 3,
+              "frontRight": 3
+            },
+            "treadDepths": {
+              "rearLeft": 5,
+              "frontLeft": 7,
+              "rearRight": 5,
+              "frontRight": 7
+            }
+          }
+        },
+        "grades": {
+          "TOTAL": {
+            "max": 5,
+            "min": 1,
+            "value": 4
+          },
+          "BRAKES": {
+            "max": 3,
+            "min": 1,
+            "value": 3
+          },
+          "EXTERIOR": {
+            "max": 5,
+            "min": 1,
+            "value": 4
+          },
+          "INTERIOR": {
+            "max": 5,
+            "min": 1,
+            "value": 4
+          },
+          "ENGINE_AND_GEARBOX": {
+            "max": 3,
+            "min": 1,
+            "value": 3
+          },
+          "TECHNOLOGY_AND_EQUIPMENT": {
+            "max": 3,
+            "min": 1,
+            "value": 3
+          }
+        },
+        "towbar": false,
+        "remarks": {
+          "BRAKES": [],
+          "EXTERIOR": [],
+          "INTERIOR": [],
+          "ENGINE_AND_GEARBOX": [],
+          "TECHNOLOGY_AND_EQUIPMENT": []
+        },
+        "textile": "Textil",
+        "boatType": null,
+        "equipment": [
+          "Backkamera",
+          "4WD",
+          "Adaptiv farthållare",
+          "Assistanssystem",
+          "Nyckellöst startsystem",
+          "Bluetooth",
+          "Dödavinkelvarnare",
+          "Filbytesvarnare",
+          "Klimatanläggning",
+          "LED-strålkastare",
+          "Rattvärme",
+          "USB-ingång",
+          "Antisladdsystem",
+          "Auto hold",
+          "Elhiss bak",
+          "Elhiss fram",
+          "Elinfällbara speglar",
+          "Fjärrlås",
+          "Isofix bak",
+          "Parkeringssensorer bak",
+          "Parkeringssensorer fram",
+          "Radio",
+          "Stolsvärme fram",
+          "Urkopplingsbar passagerarairbag"
+        ],
+        "boatWidth": null,
+        "createdAt": "2026-10-13T10:28:04",
+        "boatEngine": null,
+        "boatLength": null,
+        "boatWeight": null,
+        "finishType": "Metallic",
+        "protocolId": "259641",
+        "stoveFlames": null,
+        "heatingSystem": null,
+        "numberOfKeys": 2,
+        "boatCeBranded": false,
+        "boatGearModel": null,
+        "numberOfBunks": null,
+        "numberOfSeats": 5,
+        "boatEngineFuel": null,
+        "boatSepticTank": false,
+        "isRepairObject": false,
+        "boatEnginePower": null,
+        "serviceBookType": "ELECTRONIC",
+        "boatExteriorColor": null,
+        "serviceBookStatus": "Service utförd vid följande mil: 1648, 3264, 4970, 6597, 8136 mil, senast 2026-09-09",
+        "boatEngineSerialNumber": null,
+        "odometerReadingAfterTest": {
+          "unit": "Mil",
+          "value": 8200
+        },
+        "odometerReadingAfterTestInKm": 82000
+      },
+      "auctionPriceValuation": {
+        "currency": "SEK"
+      },
+      "finalised": true,
+      "includedImageIds": null,
+      "createdAt": "2026-10-13T08:30:10.429531+00:00",
+      "updatedAt": "2026-10-30T12:29:12.192419+00:00",
+      "generatingInProgress": false,
+      "valuatorCommentLocalized": "Denna Toyota Corolla Cross med automat i snygg grå metallic ger en modern och bekväm körupplevelse. Fyrhjulsdrift ger trygghet i alla väder medan adaptiv farthållare gör långresorna mer avslappnade. Backkamera underlättar parkering och LED-strålkastare ger bra sikt även på mörka vägar. Nyligen servad och fina vinterhjul medföljer."
+    },
+    "facts": {
+      "default": [
+        {
+          "key": "NUMBER_OF_PREVIOUS_OWNERS",
+          "text": "Antal tidigare ägare",
+          "value": 1,
+          "type": "string"
+        },
+        {
+          "key": "REGISTRATION_PLATE",
+          "text": "Registreringsnummer",
+          "value": "HFP31B",
+          "type": "string"
+        },
+        {
+          "key": "MODEL_YEAR",
+          "text": "Modellår",
+          "value": 2024,
+          "type": "string"
+        },
+        {
+          "key": "MANUFACTURE_MONTH",
+          "text": "Tillverkningsmånad",
+          "value": "202404",
+          "type": "manufacture_month"
+        },
+        {
+          "key": "ODOMETER_READING",
+          "text": "Mätarställning",
+          "value": 82000,
+          "type": "distance"
+        },
+        {
+          "key": "INITIAL_TRAFFIC_DATE",
+          "text": "Första datum i trafik i Sverige",
+          "value": "2024-06-20",
+          "type": "date"
+        },
+        {
+          "key": "SERVICE_BOOK",
+          "text": "Servicehistorik",
+          "value": "Service utförd vid följande mil: 1648, 3264, 4970, 6597, 8136 mil, senast 2026-09-09",
+          "type": "string"
+        },
+        {
+          "key": "SERVICE_BOOK_TYPE",
+          "text": "Servicebok",
+          "value": "Elektronisk",
+          "type": "string"
+        },
+        {
+          "key": "GEARBOX",
+          "text": "Växellåda",
+          "value": "Automat",
+          "type": "string"
+        },
+        {
+          "key": "NUMBER_OF_SEATS",
+          "text": "Antal säten",
+          "value": 5,
+          "type": "string"
+        },
+        {
+          "key": "NUMBER_OF_KEYS",
+          "text": "Antal nycklar",
+          "value": 2,
+          "type": "string"
+        },
+        {
+          "key": "EXTERIOR_COLOR",
+          "text": "Färg",
+          "value": "Grå",
+          "type": "string"
+        },
+        {
+          "key": "FINISH_TYPE",
+          "text": "Lack",
+          "value": "Metallic",
+          "type": "string"
+        },
+        {
+          "key": "TEXTILE",
+          "text": "Klädsel",
+          "value": "Textil",
+          "type": "string"
+        },
+        {
+          "key": "MANUFACTURER_WARRANTY",
+          "text": "Nybilsgaranti",
+          "value": {
+            "odometerReadingLimit": 100000,
+            "expirationDate": "2027-06-19"
+          },
+          "type": "manufacturer_warranty"
+        },
+        {
+          "key": "COLLISION_WARRANTY",
+          "text": "Vagnskadegaranti",
+          "value": "2027-06-19",
+          "type": "date"
+        },
+        {
+          "key": "TAX_FEE",
+          "text": "Skatt årsavgift",
+          "value": "5175 SEK",
+          "type": "string"
+        }
+      ],
+      "additional": [
+        {
+          "key": "CHASSIS_NUMBER",
+          "text": "Chassinummer",
+          "value": "JTNACABB20J020756",
+          "type": "string"
+        },
+        {
+          "key": "ENGINE_EFFECT_PETROL",
+          "text": "Motoreffekt (bensin)",
+          "value": 152,
+          "type": "engine_power"
+        },
+        {
+          "key": "TOWBAR",
+          "text": "Dragkrok",
+          "value": "Nej",
+          "type": "string"
+        },
+        {
+          "key": "MAX_PAYLOAD",
+          "text": "Maxlastvikt",
+          "value": 436,
+          "type": "weight"
+        },
+        {
+          "key": "INSPECTION_VALID_TO_DATE",
+          "text": "Nästa besiktning senast",
+          "value": "2027-07-31",
+          "type": "string"
+        },
+        {
+          "key": "CURB_WEIGHT",
+          "text": "Tjänstevikt",
+          "value": 1579,
+          "type": "weight"
+        },
+        {
+          "key": "TAX_WEIGHT",
+          "text": "Skattevikt",
+          "value": 1570,
+          "type": "weight"
+        },
+        {
+          "key": "MAX_TRAILER_WEIGHT",
+          "text": "Maximal släpvagnsvikt",
+          "value": 750,
+          "type": "weight"
+        },
+        {
+          "key": "TOTAL_WEIGHT",
+          "text": "Fordonets totalvikt",
+          "value": 2015,
+          "type": "weight"
+        },
+        {
+          "key": "LENGTH",
+          "text": "Längd",
+          "value": 4460,
+          "type": "length"
+        },
+        {
+          "key": "WIDTH",
+          "text": "Bredd",
+          "value": 1825,
+          "type": "length"
+        },
+        {
+          "key": "HEIGHT",
+          "text": "Höjd",
+          "value": 1620,
+          "type": "length"
+        }
+      ],
+      "other": [
+        {
+          "key": "SOLD_IN_SWEDEN",
+          "text": "Svensksåld",
+          "value": "Ja",
+          "type": "string"
+        },
+        {
+          "key": "EXPORTABLE",
+          "text": "Kan exporteras",
+          "value": "Ja",
+          "type": "string"
+        },
+        {
+          "key": "DEDUCTIBLE_VAT",
+          "text": "Avlyftbar moms",
+          "value": "Ja",
+          "type": "string"
+        }
+      ]
+    },
+    "majorFeature": [
+      {
+        "key": "4WD",
+        "title": "4WD",
+        "value": null,
+        "equipment": "Utrustning",
+        "description": "Konstant eller inkopplingsbar fyrhjulsdrift"
+      },
+      {
+        "key": "ADAPTIV_FARTHALLARE",
+        "title": "Adaptiv farthållare",
+        "value": null,
+        "equipment": "Utrustning",
+        "description": "Farthållare som hjälper till att hålla ett givet avstånd till framförvarande fordon."
+      },
+      {
+        "key": "BACKKAMERA",
+        "title": "Backkamera",
+        "value": null,
+        "equipment": "Utrustning",
+        "description": "Kamera som underlättar vid backning"
+      },
+      {
+        "key": "LED_STRALKASTARE",
+        "title": "LED-strålkastare",
+        "value": null,
+        "equipment": "Utrustning",
+        "description": "Strålkastare med LED-ljus har ett konstant vitt ljus och har samma ljusstyrka från star"
+      }
+    ],
+    "batteryTestCertificateAvailable": false
+  },
+  "previewImages": [
+    {
+      "processObjectId": "7291322",
+      "uri": "https://kvdbil-images.imgix.net/7291322/41a5fbfd.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291322/41a5fbfd.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 1
+    },
+    {
+      "processObjectId": "7291322",
+      "uri": "https://kvdbil-images.imgix.net/7291322/40b0d035.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291322/40b0d035.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 2
+    },
+    {
+      "processObjectId": "7291322",
+      "uri": "https://kvdbil-images.imgix.net/7291322/6bc0ef9b.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291322/6bc0ef9b.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 3
+    },
+    {
+      "processObjectId": "7291322",
+      "uri": "https://kvdbil-images.imgix.net/7291322/b425f8c6.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291322/b425f8c6.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 3
+    },
+    {
+      "processObjectId": "7291322",
+      "uri": "https://kvdbil-images.imgix.net/7291322/333b0ee1.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291322/333b0ee1.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 4
+    },
+    {
+      "processObjectId": "7291322",
+      "uri": "https://kvdbil-images.imgix.net/7291322/47f675f4.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291322/47f675f4.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 5
+    },
+    {
+      "processObjectId": "7291322",
+      "uri": "https://kvdbil-images.imgix.net/7291322/9d5b31b8.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291322/9d5b31b8.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 6
+    },
+    {
+      "processObjectId": "7291322",
+      "uri": "https://kvdbil-images.imgix.net/7291322/f298f9f5.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291322/f298f9f5.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 7
+    },
+    {
+      "processObjectId": "7291322",
+      "uri": "https://kvdbil-images.imgix.net/7291322/d38feeba.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291322/d38feeba.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 8
+    },
+    {
+      "processObjectId": "7291322",
+      "uri": "https://kvdbil-images.imgix.net/7291322/28f3482d.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291322/28f3482d.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 9
+    },
+    {
+      "processObjectId": "7291322",
+      "uri": "https://kvdbil-images.imgix.net/7291322/38fda6d9.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291322/38fda6d9.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 10
+    },
+    {
+      "processObjectId": "7291322",
+      "uri": "https://kvdbil-images.imgix.net/7291322/dece4067.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291322/dece4067.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 11
+    },
+    {
+      "processObjectId": "7291322",
+      "uri": "https://kvdbil-images.imgix.net/7291322/d3254bea.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291322/d3254bea.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 12
+    },
+    {
+      "processObjectId": "7291322",
+      "uri": "https://kvdbil-images.imgix.net/7291322/0be1c4ee.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291322/0be1c4ee.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 13
+    }
+  ],
+  "similarAuctions": [],
+  "activeAuction": {
+    "auctionId": "309679",
+    "closed": true,
+    "countdownInProgress": true,
+    "preliminaryCloseAt": "2026-11-04T09:21:00+00:00",
+    "createdAt": "2026-10-30T15:16:11.968606+00:00",
+    "updatedAt": "2026-11-04T09:21:00.010414+00:00",
+    "vatExcludedBiddingAllowed": false,
+    "reservationPriceReached": true,
+    "bids": [
+      {
+        "id": 18705856,
+        "auctionId": 309679,
+        "bidderAlias": "19",
+        "amount": 283500,
+        "type": "NORMAL",
+        "maxBidId": 10930735,
+        "triggeredBy": 10930735,
+        "createdAt": "2026-11-04T09:08:58.269552+00:00",
+        "updatedAt": "2026-11-04T09:08:58.269554+00:00"
+      },
+      {
+        "id": 18705855,
+        "auctionId": 309679,
+        "bidderAlias": "17",
+        "amount": 283000,
+        "type": "LIMIT_REACHED",
+        "maxBidId": 10930497,
+        "triggeredBy": 10930735,
+        "createdAt": "2026-11-04T09:08:58.269543+00:00",
+        "updatedAt": "2026-11-04T09:08:58.269549+00:00"
+      },
+      {
+        "id": 18705434,
+        "auctionId": 309679,
+        "bidderAlias": "17",
+        "amount": 282500,
+        "type": "NORMAL",
+        "maxBidId": 10930497,
+        "triggeredBy": 10930497,
+        "createdAt": "2026-11-04T08:49:52.168491+00:00",
+        "updatedAt": "2026-11-04T08:49:52.168493+00:00"
+      },
+      {
+        "id": 18705433,
+        "auctionId": 309679,
+        "bidderAlias": "20",
+        "amount": 282000,
+        "type": "LIMIT_REACHED",
+        "maxBidId": 10930493,
+        "triggeredBy": 10930497,
+        "createdAt": "2026-11-04T08:49:52.168480+00:00",
+        "updatedAt": "2026-11-04T08:49:52.168488+00:00"
+      },
+      {
+        "id": 18705427,
+        "auctionId": 309679,
+        "bidderAlias": "20",
+        "amount": 281000,
+        "type": "NORMAL",
+        "maxBidId": 10930493,
+        "triggeredBy": 10930493,
+        "createdAt": "2026-11-04T08:48:59.721669+00:00",
+        "updatedAt": "2026-11-04T08:48:59.721675+00:00"
+      },
+      {
+        "id": 18705422,
+        "auctionId": 309679,
+        "bidderAlias": "19",
+        "amount": 280500,
+        "type": "AUTO",
+        "maxBidId": 10930413,
+        "triggeredBy": 10930490,
+        "createdAt": "2026-11-04T08:48:41.072949+00:00",
+        "updatedAt": "2026-11-04T08:48:41.072953+00:00"
+      },
+      {
+        "id": 18705421,
+        "auctionId": 309679,
+        "bidderAlias": "20",
+        "amount": 280000,
+        "type": "NORMAL",
+        "maxBidId": 10930490,
+        "triggeredBy": 10930490,
+        "createdAt": "2026-11-04T08:48:41.072934+00:00",
+        "updatedAt": "2026-11-04T08:48:41.072944+00:00"
+      },
+      {
+        "id": 18705420,
+        "auctionId": 309679,
+        "bidderAlias": "19",
+        "amount": 274500,
+        "type": "AUTO",
+        "maxBidId": 10930413,
+        "triggeredBy": 10930489,
+        "createdAt": "2026-11-04T08:48:36.332835+00:00",
+        "updatedAt": "2026-11-04T08:48:36.332837+00:00"
+      },
+      {
+        "id": 18705419,
+        "auctionId": 309679,
+        "bidderAlias": "17",
+        "amount": 274000,
+        "type": "NORMAL",
+        "maxBidId": 10930489,
+        "triggeredBy": 10930489,
+        "createdAt": "2026-11-04T08:48:36.332824+00:00",
+        "updatedAt": "2026-11-04T08:48:36.332831+00:00"
+      },
+      {
+        "id": 18705408,
+        "auctionId": 309679,
+        "bidderAlias": "19",
+        "amount": 273500,
+        "type": "AUTO",
+        "maxBidId": 10930413,
+        "triggeredBy": 10930483,
+        "createdAt": "2026-11-04T08:48:08.786099+00:00",
+        "updatedAt": "2026-11-04T08:48:08.786101+00:00"
+      },
+      {
+        "id": 18705407,
+        "auctionId": 309679,
+        "bidderAlias": "20",
+        "amount": 273000,
+        "type": "NORMAL",
+        "maxBidId": 10930483,
+        "triggeredBy": 10930483,
+        "createdAt": "2026-11-04T08:48:08.786088+00:00",
+        "updatedAt": "2026-11-04T08:48:08.786096+00:00"
+      },
+      {
+        "id": 18705374,
+        "auctionId": 309679,
+        "bidderAlias": "19",
+        "amount": 270500,
+        "type": "AUTO",
+        "maxBidId": 10930413,
+        "triggeredBy": 10930466,
+        "createdAt": "2026-11-04T08:46:20.524357+00:00",
+        "updatedAt": "2026-11-04T08:46:20.524360+00:00"
+      },
+      {
+        "id": 18705373,
+        "auctionId": 309679,
+        "bidderAlias": "20",
+        "amount": 270000,
+        "type": "NORMAL",
+        "maxBidId": 10930466,
+        "triggeredBy": 10930466,
+        "createdAt": "2026-11-04T08:46:20.524344+00:00",
+        "updatedAt": "2026-11-04T08:46:20.524352+00:00"
+      },
+      {
+        "id": 18705272,
+        "auctionId": 309679,
+        "bidderAlias": "19",
+        "amount": 265500,
+        "type": "NORMAL",
+        "maxBidId": 10930413,
+        "triggeredBy": 10930413,
+        "createdAt": "2026-11-04T08:36:41.047664+00:00",
+        "updatedAt": "2026-11-04T08:36:41.047667+00:00"
+      },
+      {
+        "id": 18705271,
+        "auctionId": 309679,
+        "bidderAlias": "18",
+        "amount": 265000,
+        "type": "LIMIT_REACHED",
+        "maxBidId": 10930297,
+        "triggeredBy": 10930413,
+        "createdAt": "2026-11-04T08:36:41.047648+00:00",
+        "updatedAt": "2026-11-04T08:36:41.047658+00:00"
+      },
+      {
+        "id": 18705061,
+        "auctionId": 309679,
+        "bidderAlias": "18",
+        "amount": 260500,
+        "type": "NORMAL",
+        "maxBidId": 10930297,
+        "triggeredBy": 10930297,
+        "createdAt": "2026-11-04T08:06:25.673268+00:00",
+        "updatedAt": "2026-11-04T08:06:25.673272+00:00"
+      },
+      {
+        "id": 18705060,
+        "auctionId": 309679,
+        "bidderAlias": "13",
+        "amount": 260000,
+        "type": "LIMIT_REACHED",
+        "maxBidId": 10929828,
+        "triggeredBy": 10930297,
+        "createdAt": "2026-11-04T08:06:25.673253+00:00",
+        "updatedAt": "2026-11-04T08:06:25.673263+00:00"
+      },
+      {
+        "id": 18705057,
+        "auctionId": 309679,
+        "bidderAlias": "13",
+        "amount": 259500,
+        "type": "AUTO",
+        "maxBidId": 10929828,
+        "triggeredBy": 10930294,
+        "createdAt": "2026-11-04T08:05:54.813587+00:00",
+        "updatedAt": "2026-11-04T08:05:54.813591+00:00"
+      },
+      {
+        "id": 18705056,
+        "auctionId": 309679,
+        "bidderAlias": "18",
+        "amount": 259000,
+        "type": "NORMAL",
+        "maxBidId": 10930294,
+        "triggeredBy": 10930294,
+        "createdAt": "2026-11-04T08:05:54.813573+00:00",
+        "updatedAt": "2026-11-04T08:05:54.813583+00:00"
+      },
+      {
+        "id": 18705034,
+        "auctionId": 309679,
+        "bidderAlias": "13",
+        "amount": 258500,
+        "type": "AUTO",
+        "maxBidId": 10929828,
+        "triggeredBy": 10930280,
+        "createdAt": "2026-11-04T08:04:01.604883+00:00",
+        "updatedAt": "2026-11-04T08:04:01.604886+00:00"
+      },
+      {
+        "id": 18705033,
+        "auctionId": 309679,
+        "bidderAlias": "17",
+        "amount": 258000,
+        "type": "NORMAL",
+        "maxBidId": 10930280,
+        "triggeredBy": 10930280,
+        "createdAt": "2026-11-04T08:04:01.604867+00:00",
+        "updatedAt": "2026-11-04T08:04:01.604879+00:00"
+      },
+      {
+        "id": 18704223,
+        "auctionId": 309679,
+        "bidderAlias": "13",
+        "amount": 257500,
+        "type": "NORMAL",
+        "maxBidId": 10929828,
+        "triggeredBy": 10929828,
+        "createdAt": "2026-11-03T23:17:16.799138+00:00",
+        "updatedAt": "2026-11-03T23:17:16.799141+00:00"
+      },
+      {
+        "id": 18704222,
+        "auctionId": 309679,
+        "bidderAlias": "15",
+        "amount": 257000,
+        "type": "LIMIT_REACHED",
+        "maxBidId": 10928044,
+        "triggeredBy": 10929828,
+        "createdAt": "2026-11-03T23:17:16.799128+00:00",
+        "updatedAt": "2026-11-03T23:17:16.799135+00:00"
+      },
+      {
+        "id": 18701669,
+        "auctionId": 309679,
+        "bidderAlias": "15",
+        "amount": 256500,
+        "type": "AUTO",
+        "maxBidId": 10928044,
+        "triggeredBy": 10928265,
+        "createdAt": "2026-11-03T15:31:29.989369+00:00",
+        "updatedAt": "2026-11-03T15:31:29.989371+00:00"
+      },
+      {
+        "id": 18701668,
+        "auctionId": 309679,
+        "bidderAlias": "16",
+        "amount": 256000,
+        "type": "NORMAL",
+        "maxBidId": 10928265,
+        "triggeredBy": 10928265,
+        "createdAt": "2026-11-03T15:31:29.989357+00:00",
+        "updatedAt": "2026-11-03T15:31:29.989366+00:00"
+      },
+      {
+        "id": 18701290,
+        "auctionId": 309679,
+        "bidderAlias": "15",
+        "amount": 255500,
+        "type": "NORMAL",
+        "maxBidId": 10928044,
+        "triggeredBy": 10928044,
+        "createdAt": "2026-11-03T12:03:19.616978+00:00",
+        "updatedAt": "2026-11-03T12:03:19.616980+00:00"
+      },
+      {
+        "id": 18701289,
+        "auctionId": 309679,
+        "bidderAlias": "8",
+        "amount": 255000,
+        "type": "LIMIT_REACHED",
+        "maxBidId": 10928004,
+        "triggeredBy": 10928044,
+        "createdAt": "2026-11-03T12:03:19.616969+00:00",
+        "updatedAt": "2026-11-03T12:03:19.616976+00:00"
+      },
+      {
+        "id": 18701223,
+        "auctionId": 309679,
+        "bidderAlias": "8",
+        "amount": 250500,
+        "type": "NORMAL",
+        "maxBidId": 10928004,
+        "triggeredBy": 10928004,
+        "createdAt": "2026-11-03T11:53:33.593027+00:00",
+        "updatedAt": "2026-11-03T11:53:33.593030+00:00"
+      },
+      {
+        "id": 18701222,
+        "auctionId": 309679,
+        "bidderAlias": "13",
+        "amount": 250000,
+        "type": "LIMIT_REACHED",
+        "maxBidId": 10925646,
+        "triggeredBy": 10928004,
+        "createdAt": "2026-11-03T11:53:33.593018+00:00",
+        "updatedAt": "2026-11-03T11:53:33.593024+00:00"
+      },
+      {
+        "id": 18701192,
+        "auctionId": 309679,
+        "bidderAlias": "13",
+        "amount": 247500,
+        "type": "AUTO",
+        "maxBidId": 10925646,
+        "triggeredBy": 10927985,
+        "createdAt": "2026-11-03T11:47:25.006036+00:00",
+        "updatedAt": "2026-11-03T11:47:25.006038+00:00"
+      },
+      {
+        "id": 18701191,
+        "auctionId": 309679,
+        "bidderAlias": "15",
+        "amount": 247000,
+        "type": "NORMAL",
+        "maxBidId": 10927985,
+        "triggeredBy": 10927985,
+        "createdAt": "2026-11-03T11:47:25.006028+00:00",
+        "updatedAt": "2026-11-03T11:47:25.006033+00:00"
+      },
+      {
+        "id": 18697264,
+        "auctionId": 309679,
+        "bidderAlias": "13",
+        "amount": 245000,
+        "type": "AUTO",
+        "maxBidId": 10925646,
+        "triggeredBy": 10925694,
+        "createdAt": "2026-11-03T01:33:49.033852+00:00",
+        "updatedAt": "2026-11-03T01:33:49.033856+00:00"
+      },
+      {
+        "id": 18697263,
+        "auctionId": 309679,
+        "bidderAlias": "14",
+        "amount": 244500,
+        "type": "NORMAL",
+        "maxBidId": 10925694,
+        "triggeredBy": 10925694,
+        "createdAt": "2026-11-03T01:33:49.033839+00:00",
+        "updatedAt": "2026-11-03T01:33:49.033848+00:00"
+      },
+      {
+        "id": 18697175,
+        "auctionId": 309679,
+        "bidderAlias": "13",
+        "amount": 243000,
+        "type": "NORMAL",
+        "maxBidId": 10925646,
+        "triggeredBy": 10925646,
+        "createdAt": "2026-11-02T23:44:07.876127+00:00",
+        "updatedAt": "2026-11-02T23:44:07.876129+00:00"
+      },
+      {
+        "id": 18697174,
+        "auctionId": 309679,
+        "bidderAlias": "12",
+        "amount": 242500,
+        "type": "LIMIT_REACHED",
+        "maxBidId": 10925034,
+        "triggeredBy": 10925646,
+        "createdAt": "2026-11-02T23:44:07.876116+00:00",
+        "updatedAt": "2026-11-02T23:44:07.876124+00:00"
+      },
+      {
+        "id": 18696948,
+        "auctionId": 309679,
+        "bidderAlias": "12",
+        "amount": 241500,
+        "type": "AUTO",
+        "maxBidId": 10925034,
+        "triggeredBy": 10925521,
+        "createdAt": "2026-11-02T21:35:35.020008+00:00",
+        "updatedAt": "2026-11-02T21:35:35.020010+00:00"
+      },
+      {
+        "id": 18696947,
+        "auctionId": 309679,
+        "bidderAlias": "9",
+        "amount": 241000,
+        "type": "NORMAL",
+        "maxBidId": 10925521,
+        "triggeredBy": 10925521,
+        "createdAt": "2026-11-02T21:35:35.019991+00:00",
+        "updatedAt": "2026-11-02T21:35:35.020005+00:00"
+      },
+      {
+        "id": 18696422,
+        "auctionId": 309679,
+        "bidderAlias": "12",
+        "amount": 240500,
+        "type": "AUTO",
+        "maxBidId": 10925034,
+        "triggeredBy": 10925221,
+        "createdAt": "2026-11-02T19:18:03.958026+00:00",
+        "updatedAt": "2026-11-02T19:18:03.958028+00:00"
+      },
+      {
+        "id": 18696421,
+        "auctionId": 309679,
+        "bidderAlias": "8",
+        "amount": 240000,
+        "type": "NORMAL",
+        "maxBidId": 10925221,
+        "triggeredBy": 10925221,
+        "createdAt": "2026-11-02T19:18:03.958017+00:00",
+        "updatedAt": "2026-11-02T19:18:03.958023+00:00"
+      },
+      {
+        "id": 18696117,
+        "auctionId": 309679,
+        "bidderAlias": "12",
+        "amount": 235500,
+        "type": "NORMAL",
+        "maxBidId": 10925034,
+        "triggeredBy": 10925034,
+        "createdAt": "2026-11-02T18:08:37.714511+00:00",
+        "updatedAt": "2026-11-02T18:08:37.714515+00:00"
+      },
+      {
+        "id": 18696116,
+        "auctionId": 309679,
+        "bidderAlias": "8",
+        "amount": 235000,
+        "type": "LIMIT_REACHED",
+        "maxBidId": 10922077,
+        "triggeredBy": 10925034,
+        "createdAt": "2026-11-02T18:08:37.714497+00:00",
+        "updatedAt": "2026-11-02T18:08:37.714507+00:00"
+      },
+      {
+        "id": 18696109,
+        "auctionId": 309679,
+        "bidderAlias": "8",
+        "amount": 234500,
+        "type": "AUTO",
+        "maxBidId": 10922077,
+        "triggeredBy": 10925029,
+        "createdAt": "2026-11-02T18:04:22.165989+00:00",
+        "updatedAt": "2026-11-02T18:04:22.165991+00:00"
+      },
+      {
+        "id": 18696108,
+        "auctionId": 309679,
+        "bidderAlias": "12",
+        "amount": 234000,
+        "type": "NORMAL",
+        "maxBidId": 10925029,
+        "triggeredBy": 10925029,
+        "createdAt": "2026-11-02T18:04:22.165981+00:00",
+        "updatedAt": "2026-11-02T18:04:22.165987+00:00"
+      },
+      {
+        "id": 18695889,
+        "auctionId": 309679,
+        "bidderAlias": "8",
+        "amount": 230500,
+        "type": "AUTO",
+        "maxBidId": 10922077,
+        "triggeredBy": 10924896,
+        "createdAt": "2026-11-02T17:28:02.815461+00:00",
+        "updatedAt": "2026-11-02T17:28:02.815464+00:00"
+      },
+      {
+        "id": 18695888,
+        "auctionId": 309679,
+        "bidderAlias": "3",
+        "amount": 230000,
+        "type": "NORMAL",
+        "maxBidId": 10924896,
+        "triggeredBy": 10924896,
+        "createdAt": "2026-11-02T17:28:02.815447+00:00",
+        "updatedAt": "2026-11-02T17:28:02.815456+00:00"
+      },
+      {
+        "id": 18694937,
+        "auctionId": 309679,
+        "bidderAlias": "8",
+        "amount": 227500,
+        "type": "AUTO",
+        "maxBidId": 10922077,
+        "triggeredBy": 10924350,
+        "createdAt": "2026-11-02T12:27:17.591777+00:00",
+        "updatedAt": "2026-11-02T12:27:17.591780+00:00"
+      },
+      {
+        "id": 18694936,
+        "auctionId": 309679,
+        "bidderAlias": "11",
+        "amount": 227000,
+        "type": "NORMAL",
+        "maxBidId": 10924350,
+        "triggeredBy": 10924350,
+        "createdAt": "2026-11-02T12:27:17.591727+00:00",
+        "updatedAt": "2026-11-02T12:27:17.591772+00:00"
+      },
+      {
+        "id": 18694400,
+        "auctionId": 309679,
+        "bidderAlias": "8",
+        "amount": 226500,
+        "type": "AUTO",
+        "maxBidId": 10922077,
+        "triggeredBy": 10924048,
+        "createdAt": "2026-11-02T10:48:29.464901+00:00",
+        "updatedAt": "2026-11-02T10:48:29.464904+00:00"
+      },
+      {
+        "id": 18694399,
+        "auctionId": 309679,
+        "bidderAlias": "10",
+        "amount": 226000,
+        "type": "NORMAL",
+        "maxBidId": 10924048,
+        "triggeredBy": 10924048,
+        "createdAt": "2026-11-02T10:48:29.464891+00:00",
+        "updatedAt": "2026-11-02T10:48:29.464898+00:00"
+      },
+      {
+        "id": 18690951,
+        "auctionId": 309679,
+        "bidderAlias": "8",
+        "amount": 225500,
+        "type": "NORMAL",
+        "maxBidId": 10922077,
+        "triggeredBy": 10922077,
+        "createdAt": "2026-11-01T21:54:05.269308+00:00",
+        "updatedAt": "2026-11-01T21:54:05.269310+00:00"
+      },
+      {
+        "id": 18690950,
+        "auctionId": 309679,
+        "bidderAlias": "5",
+        "amount": 225000,
+        "type": "LIMIT_REACHED",
+        "maxBidId": 10920442,
+        "triggeredBy": 10922077,
+        "createdAt": "2026-11-01T21:54:05.269299+00:00",
+        "updatedAt": "2026-11-01T21:54:05.269305+00:00"
+      },
+      {
+        "id": 18690774,
+        "auctionId": 309679,
+        "bidderAlias": "5",
+        "amount": 211500,
+        "type": "AUTO",
+        "maxBidId": 10920442,
+        "triggeredBy": 10921980,
+        "createdAt": "2026-11-01T21:19:39.090074+00:00",
+        "updatedAt": "2026-11-01T21:19:39.090076+00:00"
+      },
+      {
+        "id": 18690773,
+        "auctionId": 309679,
+        "bidderAlias": "9",
+        "amount": 211000,
+        "type": "NORMAL",
+        "maxBidId": 10921980,
+        "triggeredBy": 10921980,
+        "createdAt": "2026-11-01T21:19:39.090064+00:00",
+        "updatedAt": "2026-11-01T21:19:39.090071+00:00"
+      },
+      {
+        "id": 18690143,
+        "auctionId": 309679,
+        "bidderAlias": "5",
+        "amount": 210500,
+        "type": "AUTO",
+        "maxBidId": 10920442,
+        "triggeredBy": 10921603,
+        "createdAt": "2026-11-01T18:52:33.145828+00:00",
+        "updatedAt": "2026-11-01T18:52:33.145831+00:00"
+      },
+      {
+        "id": 18690142,
+        "auctionId": 309679,
+        "bidderAlias": "8",
+        "amount": 210000,
+        "type": "NORMAL",
+        "maxBidId": 10921603,
+        "triggeredBy": 10921603,
+        "createdAt": "2026-11-01T18:52:33.145813+00:00",
+        "updatedAt": "2026-11-01T18:52:33.145824+00:00"
+      },
+      {
+        "id": 18688768,
+        "auctionId": 309679,
+        "bidderAlias": "5",
+        "amount": 206500,
+        "type": "AUTO",
+        "maxBidId": 10920442,
+        "triggeredBy": 10920764,
+        "createdAt": "2026-11-01T15:17:16.321124+00:00",
+        "updatedAt": "2026-11-01T15:17:16.321126+00:00"
+      },
+      {
+        "id": 18688767,
+        "auctionId": 309679,
+        "bidderAlias": "7",
+        "amount": 206000,
+        "type": "NORMAL",
+        "maxBidId": 10920764,
+        "triggeredBy": 10920764,
+        "createdAt": "2026-11-01T15:17:16.321115+00:00",
+        "updatedAt": "2026-11-01T15:17:16.321122+00:00"
+      },
+      {
+        "id": 18688251,
+        "auctionId": 309679,
+        "bidderAlias": "5",
+        "amount": 205500,
+        "type": "AUTO",
+        "maxBidId": 10920442,
+        "triggeredBy": 10920468,
+        "createdAt": "2026-11-01T11:07:29.616591+00:00",
+        "updatedAt": "2026-11-01T11:07:29.616595+00:00"
+      },
+      {
+        "id": 18688250,
+        "auctionId": 309679,
+        "bidderAlias": "6",
+        "amount": 205000,
+        "type": "NORMAL",
+        "maxBidId": 10920468,
+        "triggeredBy": 10920468,
+        "createdAt": "2026-11-01T11:07:29.616578+00:00",
+        "updatedAt": "2026-11-01T11:07:29.616587+00:00"
+      },
+      {
+        "id": 18688204,
+        "auctionId": 309679,
+        "bidderAlias": "5",
+        "amount": 202500,
+        "type": "NORMAL",
+        "maxBidId": 10920442,
+        "triggeredBy": 10920442,
+        "createdAt": "2026-11-01T10:39:09.765519+00:00",
+        "updatedAt": "2026-11-01T10:39:09.765521+00:00"
+      },
+      {
+        "id": 18688203,
+        "auctionId": 309679,
+        "bidderAlias": "3",
+        "amount": 202000,
+        "type": "LIMIT_REACHED",
+        "maxBidId": 10919938,
+        "triggeredBy": 10920442,
+        "createdAt": "2026-11-01T10:39:09.765509+00:00",
+        "updatedAt": "2026-11-01T10:39:09.765516+00:00"
+      },
+      {
+        "id": 18687304,
+        "auctionId": 309679,
+        "bidderAlias": "3",
+        "amount": 201000,
+        "type": "NORMAL",
+        "maxBidId": 10919938,
+        "triggeredBy": 10919938,
+        "createdAt": "2026-10-31T20:20:47.257194+00:00",
+        "updatedAt": "2026-10-31T20:20:47.257200+00:00"
+      },
+      {
+        "id": 18686840,
+        "auctionId": 309679,
+        "bidderAlias": "4",
+        "amount": 200500,
+        "type": "NORMAL",
+        "maxBidId": 10919687,
+        "triggeredBy": 10919687,
+        "createdAt": "2026-10-31T17:02:07.356940+00:00",
+        "updatedAt": "2026-10-31T17:02:07.356942+00:00"
+      },
+      {
+        "id": 18686839,
+        "auctionId": 309679,
+        "bidderAlias": "1",
+        "amount": 200000,
+        "type": "LIMIT_REACHED",
+        "maxBidId": 10918761,
+        "triggeredBy": 10919687,
+        "createdAt": "2026-10-31T17:02:07.356922+00:00",
+        "updatedAt": "2026-10-31T17:02:07.356931+00:00"
+      },
+      {
+        "id": 18686838,
+        "auctionId": 309679,
+        "bidderAlias": "1",
+        "amount": 180500,
+        "type": "AUTO",
+        "maxBidId": 10918761,
+        "triggeredBy": 10919686,
+        "createdAt": "2026-10-31T17:01:42.948694+00:00",
+        "updatedAt": "2026-10-31T17:01:42.948698+00:00"
+      },
+      {
+        "id": 18686837,
+        "auctionId": 309679,
+        "bidderAlias": "4",
+        "amount": 180000,
+        "type": "NORMAL",
+        "maxBidId": 10919686,
+        "triggeredBy": 10919686,
+        "createdAt": "2026-10-31T17:01:42.948681+00:00",
+        "updatedAt": "2026-10-31T17:01:42.948689+00:00"
+      },
+      {
+        "id": 18686836,
+        "auctionId": 309679,
+        "bidderAlias": "1",
+        "amount": 170500,
+        "type": "AUTO",
+        "maxBidId": 10918761,
+        "triggeredBy": 10919685,
+        "createdAt": "2026-10-31T17:01:31.400359+00:00",
+        "updatedAt": "2026-10-31T17:01:31.400363+00:00"
+      },
+      {
+        "id": 18686835,
+        "auctionId": 309679,
+        "bidderAlias": "4",
+        "amount": 170000,
+        "type": "NORMAL",
+        "maxBidId": 10919685,
+        "triggeredBy": 10919685,
+        "createdAt": "2026-10-31T17:01:31.400344+00:00",
+        "updatedAt": "2026-10-31T17:01:31.400355+00:00"
+      },
+      {
+        "id": 18686085,
+        "auctionId": 309679,
+        "bidderAlias": "1",
+        "amount": 160500,
+        "type": "AUTO",
+        "maxBidId": 10918761,
+        "triggeredBy": 10919258,
+        "createdAt": "2026-10-31T07:54:21.475953+00:00",
+        "updatedAt": "2026-10-31T07:54:21.475955+00:00"
+      },
+      {
+        "id": 18686084,
+        "auctionId": 309679,
+        "bidderAlias": "3",
+        "amount": 160000,
+        "type": "NORMAL",
+        "maxBidId": 10919258,
+        "triggeredBy": 10919258,
+        "createdAt": "2026-10-31T07:54:21.475945+00:00",
+        "updatedAt": "2026-10-31T07:54:21.475951+00:00"
+      },
+      {
+        "id": 18685213,
+        "auctionId": 309679,
+        "bidderAlias": "1",
+        "amount": 159000,
+        "type": "NORMAL",
+        "maxBidId": 10918761,
+        "triggeredBy": 10918761,
+        "createdAt": "2026-10-30T18:47:38.057136+00:00",
+        "updatedAt": "2026-10-30T18:47:38.057146+00:00"
+      },
+      {
+        "id": 18685200,
+        "auctionId": 309679,
+        "bidderAlias": "2",
+        "amount": 158500,
+        "type": "NORMAL",
+        "maxBidId": 10918753,
+        "triggeredBy": 10918753,
+        "createdAt": "2026-10-30T18:38:35.997137+00:00",
+        "updatedAt": "2026-10-30T18:38:35.997145+00:00"
+      },
+      {
+        "id": 18685168,
+        "auctionId": 309679,
+        "bidderAlias": "1",
+        "amount": 158000,
+        "type": "NORMAL",
+        "maxBidId": 10918732,
+        "triggeredBy": 10918732,
+        "createdAt": "2026-10-30T18:22:29.850627+00:00",
+        "updatedAt": "2026-10-30T18:22:29.850636+00:00"
+      }
+    ],
+    "myBidderAlias": null,
+    "myMaxBid": null,
+    "highestBid": {
+      "id": 18705856,
+      "auctionId": 309679,
+      "bidderAlias": null,
+      "amount": 283500,
+      "type": "NORMAL",
+      "maxBidId": 10930735,
+      "triggeredBy": 10930735,
+      "createdAt": "2026-11-04T09:08:58.269552+00:00",
+      "updatedAt": "2026-11-04T09:08:58.269554+00:00",
+      "eurAmount": 25890
+    },
+    "buyNowAvailable": false,
+    "releasing": null,
+    "isHighestBidLowerThanResidualLoanValue": false
+  },
+  "checkoutOrder": null,
+  "previewImage": "https://kvdbil-images.imgix.net/7291322/41a5fbfd.jpg",
+  "_list_meta": {
+    "id": "309679",
+    "slug": "toyota-corolla-cross-2-0-awd-i-elhybrid-197hk",
+    "auctionType": "BIDDING",
+    "closedAt": "2026-11-04T09:21:00.007635+00:00",
+    "updatedAt": "2026-11-04T12:25:21.056292+00:00"
+  },
+  "_scraped_at": "2026-11-04T14:09:38.221336+00:00",
+  "_url": "https://www.kvd.se/auktioner/toyota-corolla-cross-2-0-awd-i-elhybrid-197hk-309679"
+}
