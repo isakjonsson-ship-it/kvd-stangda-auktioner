@@ -1,0 +1,1812 @@
+{
+  "id": "309404",
+  "auctionType": "BIDDING",
+  "biddingFee": "5775.00",
+  "biddingFeeCorporate": "7438.00",
+  "mediationFee": 0,
+  "mediationFeeCorporate": 0,
+  "buyNow": false,
+  "closedAt": "2026-11-05T10:54:00.006131+00:00",
+  "publishedAt": "2026-10-28T14:49:41.633803+00:00",
+  "countdownDuration": 210,
+  "countdownStartAt": "2026-11-05T10:50:30+00:00",
+  "createdAt": "2026-10-28T13:13:12.739002+00:00",
+  "readyForAuctionAt": "2026-10-25",
+  "currency": "SEK",
+  "maxBidRaise": 100000,
+  "minBidRaise": 500,
+  "startBid": 110000,
+  "openedAt": "2026-10-28T14:49:41.614093+00:00",
+  "processObjectId": "7292219",
+  "readyForCheckout": true,
+  "soldFor": 147500,
+  "sellMethod": "BIDDING",
+  "slug": "audi-a8-3-0-tdi-quattro-258hk",
+  "auctionUrl": "https://www.kvd.se/auktioner/audi-a8-3-0-tdi-quattro-258hk-309404",
+  "state": "WINNER_CHECKOUT_PENDING",
+  "targetedAuctionGroupId": null,
+  "updatedAt": "2026-11-05T12:37:29.928856+00:00",
+  "releasing": null,
+  "loan": {
+    "loanCost": 1256,
+    "loanCostBuyNow": null
+  },
+  "buyNowAmount": null,
+  "buyNowAvailable": false,
+  "buyNowUntil": null,
+  "eligibleForAdditionalServices": true,
+  "comingSoon": false,
+  "preliminaryPrice": 220000,
+  "maxAllowedBid": 330000,
+  "isReserved": false,
+  "isSoldByBuyNow": false,
+  "favouriteCount": 19,
+  "eurBuyNowAmount": null,
+  "winningBid": {
+    "id": "122521",
+    "type": "BIDDER",
+    "state": "ACTIVE",
+    "amount": 147500,
+    "brokerId": "microservice",
+    "auctionId": "309404",
+    "createdAt": "2026-11-05T12:37:29.627107+00:00",
+    "updatedAt": "2026-11-05T12:37:29.903859+00:00",
+    "evaluationType": "BROKERING"
+  },
+  "processObject": {
+    "statisticalValuation": {
+      "bpWhite": 217800,
+      "marketPrice": 217800,
+      "bpGreen": null,
+      "bpOrange": 217800
+    },
+    "leaseReturnProperties": {},
+    "reducedPrice": false,
+    "properties": {
+      "package": "Läder Matrix GPS",
+      "saleLimitedToCorporate": false,
+      "textile": "Helläder",
+      "totalWeight": 2570,
+      "towbar": false,
+      "formattedEquipment": [
+        {
+          "key": "4WD",
+          "title": "4WD",
+          "description": "Konstant eller inkopplingsbar fyrhjulsdrift",
+          "priority": 0
+        },
+        {
+          "key": "BACKKAMERA",
+          "title": "Backkamera",
+          "description": "Kamera som underlättar vid backning",
+          "priority": 1
+        },
+        {
+          "key": "CD_STEREO",
+          "title": "CD-Stereo",
+          "description": "Spelare för CD-skivor",
+          "priority": 2
+        },
+        {
+          "key": "FARTHALLARE",
+          "title": "Farthållare",
+          "description": "Elektroniskt system som håller inprogrammerad hastighet",
+          "priority": 3
+        },
+        {
+          "key": "FJARRLAS",
+          "title": "Fjärrlås",
+          "description": "Möjliggör att du på distans kan låsa och låsa upp bilen",
+          "priority": 4
+        },
+        {
+          "key": "GPS",
+          "title": "GPS",
+          "description": "Navigationssystem med vägbeskrivning",
+          "priority": 5
+        },
+        {
+          "key": "RADIO",
+          "title": "Radio",
+          "description": "Radiospelare",
+          "priority": 6
+        },
+        {
+          "key": "STOLSVARME_FRAM",
+          "title": "Stolsvärme fram",
+          "description": "Olika nivåer av värme i stolarna fram som ställs in via en knapp",
+          "priority": 7
+        },
+        {
+          "key": "TAKLUCKA",
+          "title": "Taklucka",
+          "description": null,
+          "priority": 8
+        },
+        {
+          "key": "ANTISLADDSYSTEM",
+          "title": "Antisladdsystem",
+          "description": "Ett system som känner av om bilen håller på att sladda. Genom att bromsa enskilda hjul stabiliseras bilen och sladden förhindras, även kallat ESP.",
+          "priority": 9
+        },
+        {
+          "key": "AUTO_HOLD",
+          "title": "Auto hold",
+          "description": "Hindrar bilen tillfälligt från att rulla bakåt när du startar i motlut",
+          "priority": 10
+        },
+        {
+          "key": "ELDRIVEN_BAKLUCKA",
+          "title": "Eldriven baklucka",
+          "description": "Baklucka som öppnas/stängs elektroniskt.",
+          "priority": 11
+        },
+        {
+          "key": "ELHISS_BAK",
+          "title": "Elhiss bak",
+          "description": "Elektroniska fönsterhissar bak",
+          "priority": 12
+        },
+        {
+          "key": "ELHISS_FRAM",
+          "title": "Elhiss fram",
+          "description": "Elektronisk fönsterhiss fram",
+          "priority": 13
+        },
+        {
+          "key": "ELINFALLBARA_SPEGLAR",
+          "title": "Elinfällbara backspeglar",
+          "description": "Speglar som fälls in automatiskt när bilen låses eller manuellt via knapp",
+          "priority": 14
+        },
+        {
+          "key": "ELSTOL_MED_MINNESFUNKTION_FORARPLATS",
+          "title": "Elstol med minnesfunktion förarplats",
+          "description": "Elektronisk ställbar förarstol med programmerbara lägen",
+          "priority": 15
+        },
+        {
+          "key": "ELSTOL_MINNESFUNKTION_PASSAGERARPLATS",
+          "title": "Elstol minnesfunktion passagerarplats",
+          "description": null,
+          "priority": 16
+        },
+        {
+          "key": "ISOFIX_BAK",
+          "title": "Isofix bak",
+          "description": "  Fästsystem för bilbarnstolar enligt internationell standard, även kallat Isofix",
+          "priority": 17
+        },
+        {
+          "key": "MATRIX_LED_STRALKASTARE",
+          "title": "Matrix LED-strålkastare",
+          "description": null,
+          "priority": 18
+        },
+        {
+          "key": "NYCKELLOST_STARTSYSTEM",
+          "title": "Nyckellöst startsystem",
+          "description": "Startknapp i bilen utan tändningslås. Även kallat Keyless-go",
+          "priority": 19
+        },
+        {
+          "key": "PARKERINGSSENSORER_BAK",
+          "title": "Parkeringssensorer bak",
+          "description": "Sensorer på stötfångare baktill som varnar för hinder bakom bilen",
+          "priority": 20
+        },
+        {
+          "key": "PARKERINGSSENSORER_FRAM",
+          "title": "Parkeringssensorer fram",
+          "description": "Sensorer på stötfångare som varnar för hinder framför bilen",
+          "priority": 21
+        },
+        {
+          "key": "START_STOP_FUNKTION",
+          "title": "Start/Stopp-funktion",
+          "description": "Automatisk på och avstängning av motor vid exempelvis trafikljus",
+          "priority": 22
+        },
+        {
+          "key": "SKYLTAVLASNING",
+          "title": "Skyltavläsning",
+          "description": null,
+          "priority": 23
+        },
+        {
+          "key": "KOMFORTSATEN_FRAM",
+          "title": "Komfortsäten fram",
+          "description": null,
+          "priority": 24
+        },
+        {
+          "key": "MMI_NAVIGATION_PLUS",
+          "title": "MMI Navigation Plus",
+          "description": null,
+          "priority": 25
+        },
+        {
+          "key": "KOMFORTNYCKEL",
+          "title": "Komfortnyckel",
+          "description": null,
+          "priority": 26
+        }
+      ],
+      "importedForPersonalUse": true,
+      "numberOfPreviousOwners": 3,
+      "exteriorColor": "Black",
+      "maxPayload": 525,
+      "body": "Sedan",
+      "deductibleVat": false,
+      "chassisNumber": "WAUZZZ4H4FN011321",
+      "width": 1949,
+      "maxPullWeightB": 930,
+      "odometerReading": 223320,
+      "taxWeight": 2040,
+      "fuels": [
+        {
+          "enginePower": 258,
+          "fuelCode": "Diesel",
+          "co2": 155
+        }
+      ],
+      "familyName": "A8",
+      "inspectionPeriod": "2026-04-14 - 2027-06-30",
+      "mediation": true,
+      "numberOfKeys": 2,
+      "finishType": "Solid",
+      "ecoFriendly": false,
+      "residualLoanValue": 76254,
+      "modelName": "A8 3.0 TDI quattro (258hk)",
+      "remarksLocalized": {
+        "TIRES": null,
+        "BRAKES": null,
+        "EXTERIOR": "Stenskott i vindruta. Bilen är folierad med flertalet skador",
+        "INTERIOR": null,
+        "ENGINE_AND_GEARBOX": "Vibrationer i drivlinan",
+        "TECHNOLOGY_AND_EQUIPMENT": "Tankluckan har fastnat i öppetläge går ej att stänga. Höger bak elhiss går ej att dra ner samt solskyddet"
+      },
+      "registrationCountry": "se",
+      "numberOfSeats": 5,
+      "inspectionValidToDate": "2027-06-30",
+      "equipment": [
+        "4WD",
+        "Backkamera",
+        "CD-Stereo",
+        "Farthållare",
+        "Fjärrlås",
+        "GPS",
+        "Radio",
+        "Stolsvärme fram",
+        "Taklucka",
+        "Antisladdsystem",
+        "Auto hold",
+        "Eldriven baklucka",
+        "Elhiss bak",
+        "Elhiss fram",
+        "Elinfällbara speglar",
+        "Elstol med minnesfunktion förarplats",
+        "Elstol minnesfunktion passagerarplats",
+        "Isofix bak",
+        "Matrix LED-strålkastare",
+        "Nyckellöst startsystem",
+        "Parkeringssensorer bak",
+        "Parkeringssensorer fram",
+        "Start/Stop-funktion",
+        "Skyltavläsning",
+        "Komfortsäten fram",
+        "MMI Navigation Plus",
+        "Komfortnyckel"
+      ],
+      "curbWeight": 2045,
+      "adHeader": "A8 3.0 TDI quattro (258hk) Läder Matrix GPS",
+      "odometerUnit": "km",
+      "taxFee": 3397,
+      "heavyEquipment": false,
+      "dateOfInspection": "2026-04-14",
+      "exportable": true,
+      "brand": "Audi",
+      "length": 5135,
+      "drivingBan": false,
+      "maxTrailerWeight": 2200,
+      "registrationPlateCountry": "se",
+      "mustExport": false,
+      "isRepairObject": false,
+      "hasUnpaidLoan": true,
+      "title": "Audi A8 3.0 TDI quattro (258hk)",
+      "registrationPlate": "UJN18R",
+      "remarks": {
+        "EXTERIOR": [
+          {
+            "id": "0",
+            "category": "EXTERIOR",
+            "key": "Stenskott i vindruta"
+          },
+          {
+            "id": "1",
+            "category": "EXTERIOR",
+            "key": "Bilen är folierad med flertalet skador"
+          }
+        ],
+        "TIRES": [],
+        "TECHNOLOGY_AND_EQUIPMENT": [
+          {
+            "id": "0",
+            "category": "TECHNOLOGY_AND_EQUIPMENT",
+            "key": "Tankluckan har fastnat i öppetläge går ej att stänga"
+          },
+          {
+            "id": "1",
+            "category": "TECHNOLOGY_AND_EQUIPMENT",
+            "key": "Höger bak elhiss går ej att dra ner samt solskyddet"
+          }
+        ],
+        "BRAKES": [],
+        "ENGINE_AND_GEARBOX": [
+          {
+            "id": "0",
+            "category": "ENGINE_AND_GEARBOX",
+            "key": "Vibrationer i drivlinan"
+          }
+        ],
+        "INTERIOR": [
+          {
+            "id": "0",
+            "category": "INTERIOR",
+            "key": ""
+          }
+        ]
+      },
+      "initialTrafficDate": "2022-03-19",
+      "grades": {
+        "EXTERIOR": {
+          "min": 1,
+          "max": 5,
+          "value": 3
+        },
+        "TOTAL": {
+          "min": 1,
+          "max": 5,
+          "value": 3
+        },
+        "TECHNOLOGY_AND_EQUIPMENT": {
+          "min": 1,
+          "max": 3,
+          "value": 2
+        },
+        "BRAKES": {
+          "min": 1,
+          "max": 3,
+          "value": 3
+        },
+        "ENGINE_AND_GEARBOX": {
+          "min": 1,
+          "max": 3,
+          "value": 2
+        },
+        "INTERIOR": {
+          "min": 1,
+          "max": 5,
+          "value": 3
+        }
+      },
+      "environmentalClassEuro": "6",
+      "modelYear": 2015,
+      "gearbox": "Automatic",
+      "heading1": "Audi A8",
+      "heading2": "3.0 TDI quattro",
+      "heading3": "Läder Matrix GPS"
+    },
+    "state": "AUCTION_RESOLUTION",
+    "car360Spin": null,
+    "buyNowAmount": null,
+    "id": "7292219",
+    "displayCar360Spin": true,
+    "offsiteSalesContact": null,
+    "proactiveBrokering": null,
+    "certified": false,
+    "initialBuyNowAmount": null,
+    "objectType": "CAR",
+    "baseObject": {
+      "body": "Sedan",
+      "authorityRegisterInformation": {
+        "environmentalClassification": {
+          "fuels": [
+            {
+              "co2": 155,
+              "nox": "",
+              "nox4": null,
+              "fuelCode": "Diesel",
+              "hcThcNox": "",
+              "consumption": "",
+              "noiseLevel": "",
+              "emissionUnit": "g/km",
+              "innovationCo2": null,
+              "particleValue": "",
+              "particleMass4": null,
+              "consumptionUnit": "",
+              "rangeNedcDrive": null,
+              "rangeWltpDrive": null,
+              "consumptionUrban": "",
+              "rangeCityWltpDrive": null,
+              "consumptionExtraUrban": "",
+              "electricEnergyConsumption": null,
+              "energyConsumptionWltpDrive": null
+            }
+          ],
+          "ecoFriendly": false,
+          "emissionClass": "EURO 6",
+          "innovationCode": null,
+          "environmentalClass": null,
+          "environmentalClassEuro": "6"
+        },
+        "vehicleInspectionInformation": {
+          "inspections": [
+            {
+              "inspectionType": "5",
+              "odometerReading": 217462,
+              "dateOfInspection": "2026-04-14"
+            },
+            {
+              "inspectionType": "5",
+              "odometerReading": 197984,
+              "dateOfInspection": "2025-01-08"
+            }
+          ],
+          "inspectionGroup": "36/24/14",
+          "odometerReading": 217462,
+          "inspectionPeriod": "2026-04-14 - 2027-06-30",
+          "dateOfInspection": "2026-04-14",
+          "inspectionValidToDate": "2027-06-30",
+          "inspectionExemptionGroup": null
+        },
+        "vehicleStatus": {
+          "tax": 3397
+        },
+        "vehicleOrigin": {
+          "originCode": "IMPORT",
+          "originCodeReason": "ANNAT",
+          "importerIdentifier": null,
+          "preRegistrationDate": null,
+          "importRegistrationDate": "2021-04-16",
+          "importedForPersonalUse": true,
+          "importedPreviouslyRegistered": true
+        },
+        "additionalTechSpecification": {
+          "raceCar": null,
+          "wheelbase1": 3000,
+          "wheelbase2": null,
+          "wheelbase3": null,
+          "wheelbase4": null,
+          "equipment1": null,
+          "equipment2": null,
+          "equipment3": null,
+          "maximumSpeed": null,
+          "numAxleShafts": 2,
+          "passengerAirBag": true,
+          "tyreDimensionRear": "255/40R20",
+          "tyreDimensionFront": "255/40R20",
+          "dualSteeringControl": null
+        },
+        "registrationInformation": {
+          "registrationPlate": "UJN18R",
+          "deregistrationDate": null,
+          "deregistrationText": null,
+          "deregistrationReason": null
+        },
+        "generalTechSpecification": {
+          "eeg": "e1*2007/46*0284*15",
+          "fuels": [
+            {
+              "fuelCode": "Diesel",
+              "powerUnit": "EG",
+              "enginePower": 190,
+              "enginePowerHp": 258,
+              "fuelTankVolume": ""
+            }
+          ],
+          "width": 1949,
+          "height": null,
+          "length": 5135,
+          "gearbox": "Automatic",
+          "variant": "LCTBAQ1",
+          "version": "QA8BK003R4H71S57MMEM2",
+          "taxWeight": 2040,
+          "curbWeight": 2045,
+          "maxPayload": 525,
+          "totalWeight": 2570,
+          "chassisCode1": null,
+          "chassisCode2": null,
+          "cubicCapacity": "2967",
+          "numPassengers": "4",
+          "numberOfSeats": 5,
+          "fourWheelDrive": true,
+          "maxPullWeightB": 930,
+          "clutchMechanism1": null,
+          "clutchMechanism2": null,
+          "maxTrailerWeight": 2200,
+          "chassisCodeSupplement": null,
+          "maxPullWieghtNoBreaks": null,
+          "maxPullWeightBExtended": null,
+          "maxSingle Axle TrailerWeight": null
+        },
+        "vehicleInformation": {
+          "vin": "WAUZZZ4H4FN011321",
+          "body": "AA",
+          "type": "CAR",
+          "year": "2014",
+          "model": "A8",
+          "rawType": "PB",
+          "modelYear": null,
+          "categoryEu": "e1*2007/46*0284*15",
+          "groupNumber": "AU 010000",
+          "modelNumber": "AU 000000",
+          "chassisNumber": "WAUZZZ4H4FN011321",
+          "exteriorColor": "Black",
+          "fabricAndMake": "AUDI",
+          "baseObjectType": "CAR",
+          "manufactureCode": null,
+          "manufactureMonth": null,
+          "registrationDate": "2021-04-16",
+          "initialTrafficDate": "2022-03-19",
+          "registrationPlateReused": null
+        }
+      },
+      "modelName": "A8 3.0 TDI quattro (258hk)",
+      "modelId": null,
+      "earliestAvailableAt": null,
+      "registrationCountry": "se",
+      "state": "PREPARING_SALES_AGREEMENT",
+      "odometerReading": 223000,
+      "id": "522234",
+      "fuels": [
+        {
+          "fuelCode": "Diesel",
+          "powerUnit": "EG",
+          "enginePower": 190,
+          "enginePowerHp": 258,
+          "fuelTankVolume": ""
+        }
+      ],
+      "odometerUnit": "km",
+      "registrationPlate": "UJN18R",
+      "year": "2015",
+      "fabricAndMake": "AUDI",
+      "familyName": "A8",
+      "exteriorColor": "Black",
+      "brand": "Audi",
+      "baseObjectType": "CAR",
+      "salesFlow": "CONSUMER_CARS",
+      "createdAt": "2026-10-12T12:34:18.585705+00:00",
+      "gearbox": "Automatic",
+      "technicalSpecification": {
+        "modelId": null,
+        "vehicle": {
+          "brand": "Audi",
+          "body": "Sedan",
+          "modelName": "A8 3.0 TDI quattro (258hk)",
+          "familyName": "A8"
+        },
+        "year": "2015"
+      }
+    },
+    "orderableAdditionalServices": {
+      "tradein": false,
+      "transport": true,
+      "insurance": true,
+      "finance": true,
+      "warranty": true,
+      "extraTires": false
+    },
+    "presentationApproved": false,
+    "vehicleType": "CAR",
+    "baseObjectId": "522234",
+    "conditionClassification": "TESTED",
+    "isReleasable": false,
+    "sellMethod": "BIDDING",
+    "createdAt": "2026-10-14 07:44:50.497084+00:00",
+    "testDriveAllowed": true,
+    "isFixedPrice": false,
+    "exportable": true,
+    "deductibleVat": false,
+    "collisionWarranty": null,
+    "title": "Audi A8 3.0 TDI quattro (258hk)",
+    "brand": "Audi",
+    "familyName": "A8",
+    "modelName": "A8 3.0 TDI quattro (258hk)",
+    "package": "Läder Matrix GPS",
+    "heading1": "Audi A8",
+    "heading2": "3.0 TDI quattro",
+    "heading3": "Läder Matrix GPS",
+    "media": [
+      {
+        "processObjectId": "7292219",
+        "uri": "https://kvdbil-images.imgix.net/7292219/e6b88926.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292219/e6b88926.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 1
+      },
+      {
+        "processObjectId": "7292219",
+        "uri": "https://kvdbil-images.imgix.net/7292219/ab958429.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292219/ab958429.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 2
+      },
+      {
+        "processObjectId": "7292219",
+        "uri": "https://kvdbil-images.imgix.net/7292219/edc0eb66.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292219/edc0eb66.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 3
+      },
+      {
+        "processObjectId": "7292219",
+        "uri": "https://kvdbil-images.imgix.net/7292219/7556801d.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292219/7556801d.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 3
+      },
+      {
+        "processObjectId": "7292219",
+        "uri": "https://kvdbil-images.imgix.net/7292219/3ec5d566.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292219/3ec5d566.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 4
+      },
+      {
+        "processObjectId": "7292219",
+        "uri": "https://kvdbil-images.imgix.net/7292219/304f48e3.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292219/304f48e3.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 4
+      },
+      {
+        "processObjectId": "7292219",
+        "uri": "https://kvdbil-images.imgix.net/7292219/02f4672a.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292219/02f4672a.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 5
+      },
+      {
+        "processObjectId": "7292219",
+        "uri": "https://kvdbil-images.imgix.net/7292219/77a9eb30.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292219/77a9eb30.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 6
+      },
+      {
+        "processObjectId": "7292219",
+        "uri": "https://kvdbil-images.imgix.net/7292219/5f8abebf.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292219/5f8abebf.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 6
+      },
+      {
+        "processObjectId": "7292219",
+        "uri": "https://kvdbil-images.imgix.net/7292219/45a13301.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292219/45a13301.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 7
+      },
+      {
+        "processObjectId": "7292219",
+        "uri": "https://kvdbil-images.imgix.net/7292219/9244b58c.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292219/9244b58c.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 8
+      },
+      {
+        "processObjectId": "7292219",
+        "uri": "https://kvdbil-images.imgix.net/7292219/a575c896.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292219/a575c896.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 8
+      },
+      {
+        "processObjectId": "7292219",
+        "uri": "https://kvdbil-images.imgix.net/7292219/7271ef6a.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292219/7271ef6a.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 9
+      },
+      {
+        "processObjectId": "7292219",
+        "uri": "https://kvdbil-images.imgix.net/7292219/58694103.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292219/58694103.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 9
+      },
+      {
+        "processObjectId": "7292219",
+        "uri": "https://kvdbil-images.imgix.net/7292219/df75fc0a.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292219/df75fc0a.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 10
+      },
+      {
+        "processObjectId": "7292219",
+        "uri": "https://kvdbil-images.imgix.net/7292219/b767824a.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292219/b767824a.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 10
+      },
+      {
+        "processObjectId": "7292219",
+        "uri": "https://kvdbil-images.imgix.net/7292219/a2e93c42.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292219/a2e93c42.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 11
+      },
+      {
+        "processObjectId": "7292219",
+        "uri": "https://kvdbil-images.imgix.net/7292219/ef90e217.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292219/ef90e217.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 11
+      },
+      {
+        "processObjectId": "7292219",
+        "uri": "https://kvdbil-images.imgix.net/7292219/b2572784.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292219/b2572784.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 12
+      },
+      {
+        "processObjectId": "7292219",
+        "uri": "https://kvdbil-images.imgix.net/7292219/e28762a3.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292219/e28762a3.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 12
+      },
+      {
+        "processObjectId": "7292219",
+        "uri": "https://kvdbil-images.imgix.net/7292219/17a26c78.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292219/17a26c78.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 13
+      },
+      {
+        "processObjectId": "7292219",
+        "uri": "https://kvdbil-images.imgix.net/7292219/b4d6a3a9.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292219/b4d6a3a9.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 14
+      },
+      {
+        "processObjectId": "7292219",
+        "uri": "https://kvdbil-images.imgix.net/7292219/949cd97e.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292219/949cd97e.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 19
+      }
+    ],
+    "locationInfo": {
+      "id": "553160",
+      "processObjectId": "7292219",
+      "locationType": "FACILITY",
+      "createdAt": "2026-10-19T06:39:00.965321+00:00",
+      "updatedAt": "2026-10-19T06:39:00.965325+00:00",
+      "facilityId": "00000001-0001-0001-0001-000000000001",
+      "parkingZone": "A",
+      "parkingNumber": null,
+      "outgoingTime": null,
+      "leftAt": null,
+      "outgoingType": null,
+      "publicFacilityId": "00000001-0001-0001-0001-000000000001",
+      "facility": {
+        "id": "00000001-0001-0001-0001-000000000001",
+        "name": "Kungälv (Ellesbo)",
+        "operator": "KVD",
+        "legacyIdentifiers": [
+          "GBG, Kungälv",
+          "Kungälv (Ellesbo)"
+        ],
+        "objectTypes": [
+          "CAR",
+          "LIGHT_TRANSPORT",
+          "RECREATIONAL_VEHICLE"
+        ],
+        "createdAt": "2018-03-04T13:18:23.295898+00:00",
+        "calendarOrganisationalUnitId": "3",
+        "parkingAreas": [
+          {
+            "id": 1,
+            "name": "A1",
+            "createdAt": "2018-03-04T13:18:23.295898+00:00"
+          },
+          {
+            "id": 2,
+            "name": "B1",
+            "createdAt": "2018-03-04T13:18:23.295898+00:00"
+          }
+        ],
+        "active": true,
+        "latitude": 57.8325714,
+        "longitude": 12.0013274,
+        "distance": null,
+        "address": "Ellesbovägen 150",
+        "postCode": "44290",
+        "city": "Kungälv",
+        "facilityType": "MAXI",
+        "facilityMapUrl": "https://www.google.com/maps/dir/57.8325714,12.0013274/@57.8325714,12.0013274,z13",
+        "contactPhone": "+46101673040",
+        "contactEmail": "leverans.kungalv@kvdbil.se",
+        "allowIncomingTransport": true,
+        "allowLeaseReturns": true,
+        "allowUnplannedDropOffFleetManager": true,
+        "parentFacilityId": null,
+        "publicFacilityId": "00000001-0001-0001-0001-000000000001"
+      }
+    },
+    "valuation": {
+      "id": 238297,
+      "processObjectId": "7292219",
+      "valuatorComment": {
+        "da": "Forestil dig at køre i en Audi A8 med automatgear, som gør hver rejse glat og afslappet. Firehjulstræk giver sikkert vejgreb året rundt, mens fuldlæder indvendigt giver en luksuriøs følelse for både fører og passagerer. Soltaget slipper ekstra lys og frisk luft ind, og bakkamera samt LED-forlygter hjælper dig både ved parkering og i mørkekørsel.",
+        "de": "Stellen Sie sich vor, Sie fahren in einem Audi A8 mit Automatikgetriebe, das jede Fahrt reibungslos und entspannt macht. Allradantrieb sorgt das ganze Jahr über für sicheren Halt, während das volllederne Interieur ein luxuriöses Gefühl für Fahrer und Beifahrer vermittelt. Das Schiebedach lässt zusätzliches Licht und frische Luft herein, und die Rückfahrkamera sowie die LED-Scheinwerfer unterstützen Sie sowohl beim Einparken als auch beim Fahren im Dunkeln.",
+        "en": "Imagine driving an Audi A8 with an automatic transmission that makes every journey smooth and relaxed. All-wheel drive provides secure traction year-round, while full leather interior gives a luxurious feel for both driver and passengers. The sunroof lets in extra light and fresh air, and the rearview camera and LED headlights assist you both when parking and driving in the dark.",
+        "et": "Kujuta endale sõitu Audi A8 automaatkastiga, mis teeb iga reisi sujuvaks ja mõnusaks. Nelikvedu tagab aastaringselt kindla haarduvuse, samas kui täisnahkist sisustus lisab nii juhile kui ka reisijatele luksusliku tunde. Katuseluuk laseb sisse lisavalgust ja värsket õhku ning tagurduskaamera ning LED-esituled aitavad nii parkimisel kui ka pimedas sõites.",
+        "fi": "Kuvittele ajavasi Audi A8:lla automaativaihteistolla, joka tekee jokaisesta matkasta sujuvan ja rentouttavan. Neliveto antaa varman pidon ympäri vuoden, samalla kun täysnahkainen sisustus tarjoaa ylellisen tunteen sekä kuljettajalle että matkustajille. Kattoluukku päästää sisään lisää valoa ja raikasta ilmaa, ja peruutuskamera sekä LED-ajovalot auttavat sinua niin pysäköinnissä kuin pimeällä ajossa.",
+        "pl": "Wyobraź sobie jazdę Audi A8 z automatyczną skrzynią biegów, która sprawia, że każda podróż jest płynna i komfortowa. Napęd na wszystkie koła zapewnia pewną przyczepność przez cały rok, a pełna skórzana tapicerka wnętrza daje luksusowe odczucie zarówno kierowcy, jak i pasażerom. Szyberdach wpuszcza dodatkowe światło i świeże powietrze, a kamera cofania oraz reflektory LED pomagają zarówno podczas parkowania, jak i jazdy po zmroku.",
+        "sv": "Tänk dig att åka i en Audi A8 med automat som gör varje resa smidig och avslappnad. Fyrhjulsdrift ger tryggt fäste året runt, medan helläder invändigt ger en lyxig känsla för både förare och passagerare. Taklucka släpper in extra ljus och frisk luft, och backkamera samt LED-strålkastare hjälper dig både vid parkering och i mörkerkörning."
+      },
+      "generatedValuatorComment": {
+        "en": "",
+        "sv": "Tänk dig att åka i en Audi A8 med automat som gör varje resa smidig och avslappnad. Fyrhjulsdrift ger tryggt fäste året runt, medan helläder invändigt ger en lyxig känsla för både förare och passagerare. Taklucka släpper in extra ljus och frisk luft, och backkamera samt LED-strålkastare hjälper dig både vid parkering och i mörkerkörning."
+      },
+      "carDealerPrice": 220000,
+      "endUserTestProtocol": {
+        "tires": {
+          "mountedTires": {
+            "other": {
+              "rimSize": "19",
+              "rimType": "Alu.fälg",
+              "tireType": "Odubbade vinterdäck",
+              "otherInfo": "Behövs ej",
+              "tireTypeKey": "UNSTUDDED_WINTER_TIRES"
+            },
+            "grades": {
+              "rearLeft": 2,
+              "frontLeft": 2,
+              "rearRight": 2,
+              "frontRight": 2
+            },
+            "treadDepths": {
+              "rearLeft": 4,
+              "frontLeft": 5,
+              "rearRight": 4,
+              "frontRight": 5
+            }
+          }
+        },
+        "grades": {
+          "TOTAL": {
+            "max": 5,
+            "min": 1,
+            "value": 3
+          },
+          "BRAKES": {
+            "max": 3,
+            "min": 1,
+            "value": 3
+          },
+          "EXTERIOR": {
+            "max": 5,
+            "min": 1,
+            "value": 3
+          },
+          "INTERIOR": {
+            "max": 5,
+            "min": 1,
+            "value": 3
+          },
+          "ENGINE_AND_GEARBOX": {
+            "max": 3,
+            "min": 1,
+            "value": 2
+          },
+          "TECHNOLOGY_AND_EQUIPMENT": {
+            "max": 3,
+            "min": 1,
+            "value": 2
+          }
+        },
+        "towbar": false,
+        "remarks": {
+          "BRAKES": [],
+          "EXTERIOR": [
+            {
+              "id": "72922192",
+              "key": "Stenskott i vindruta. Bilen är folierad med flertalet skador.",
+              "other": null,
+              "point": 0,
+              "category": "EXTERIOR",
+              "text": "Stenskott i vindruta. Bilen är folierad med flertalet skador."
+            }
+          ],
+          "INTERIOR": [
+            {
+              "id": "72922191",
+              "key": ".",
+              "other": null,
+              "point": 0,
+              "category": "INTERIOR",
+              "text": "."
+            }
+          ],
+          "ENGINE_AND_GEARBOX": [
+            {
+              "id": "72922195",
+              "key": "Vibrationer i drivlinan.",
+              "other": null,
+              "point": 0,
+              "category": "ENGINE_AND_GEARBOX",
+              "text": "Vibrationer i drivlinan."
+            }
+          ],
+          "TECHNOLOGY_AND_EQUIPMENT": [
+            {
+              "id": "72922194",
+              "key": "Tankluckan har fastnat i öppetläge går ej att stänga. Höger bak elhiss går ej att dra ner samt solskyddet.",
+              "other": null,
+              "point": 0,
+              "category": "TECHNOLOGY_AND_EQUIPMENT",
+              "text": "Tankluckan har fastnat i öppetläge går ej att stänga. Höger bak elhiss går ej att dra ner samt solskyddet."
+            }
+          ]
+        },
+        "textile": "Helläder",
+        "boatType": null,
+        "equipment": [
+          "Backkamera",
+          "GPS",
+          "Taklucka",
+          "4WD",
+          "Nyckellöst startsystem",
+          "Farthållare",
+          "Eldriven baklucka",
+          "Elstol med minnesfunktion förarplats",
+          "Elstol minnesfunktion passagerarplats",
+          "Start/Stop-funktion",
+          "CD-Stereo",
+          "Fjärrlås",
+          "Radio",
+          "Stolsvärme fram",
+          "Antisladdsystem",
+          "Auto hold",
+          "Elhiss bak",
+          "Elhiss fram",
+          "Elinfällbara speglar",
+          "Isofix bak",
+          "Matrix LED-strålkastare",
+          "Parkeringssensorer bak",
+          "Parkeringssensorer fram",
+          "Skyltavläsning",
+          "Komfortsäten fram",
+          "MMI Navigation Plus",
+          "Komfortnyckel"
+        ],
+        "boatWidth": null,
+        "createdAt": "2026-10-22T10:17:33",
+        "boatEngine": null,
+        "boatLength": null,
+        "boatWeight": null,
+        "finishType": "Solid",
+        "protocolId": "260673",
+        "stoveFlames": null,
+        "heatingSystem": null,
+        "numberOfKeys": 2,
+        "boatCeBranded": false,
+        "boatGearModel": null,
+        "numberOfBunks": null,
+        "numberOfSeats": 5,
+        "boatEngineFuel": null,
+        "boatSepticTank": false,
+        "isRepairObject": false,
+        "boatEnginePower": null,
+        "serviceBookType": "EXISTS",
+        "boatExteriorColor": null,
+        "serviceBookStatus": "Service utförd vid följande mil: 2441, 5487, 8777, 13973, 18196, 19761, 21108 mil, senast 2025-12-02",
+        "boatEngineSerialNumber": null,
+        "odometerReadingAfterTest": {
+          "unit": "Mil",
+          "value": 22332
+        },
+        "odometerReadingAfterTestInKm": 223320
+      },
+      "auctionPriceValuation": {
+        "currency": "SEK"
+      },
+      "finalised": true,
+      "includedImageIds": null,
+      "createdAt": "2026-10-22T08:19:11.837214+00:00",
+      "updatedAt": "2026-10-28T13:13:12.412478+00:00",
+      "generatingInProgress": false,
+      "valuatorCommentLocalized": "Tänk dig att åka i en Audi A8 med automat som gör varje resa smidig och avslappnad. Fyrhjulsdrift ger tryggt fäste året runt, medan helläder invändigt ger en lyxig känsla för både förare och passagerare. Taklucka släpper in extra ljus och frisk luft, och backkamera samt LED-strålkastare hjälper dig både vid parkering och i mörkerkörning."
+    },
+    "facts": {
+      "default": [
+        {
+          "key": "NUMBER_OF_PREVIOUS_OWNERS",
+          "text": "Antal tidigare ägare",
+          "value": 3,
+          "type": "string"
+        },
+        {
+          "key": "REGISTRATION_PLATE",
+          "text": "Registreringsnummer",
+          "value": "UJN18R",
+          "type": "string"
+        },
+        {
+          "key": "MODEL_YEAR",
+          "text": "Modellår",
+          "value": 2015,
+          "type": "string"
+        },
+        {
+          "key": "ODOMETER_READING",
+          "text": "Mätarställning",
+          "value": 223320,
+          "type": "distance"
+        },
+        {
+          "key": "INITIAL_TRAFFIC_DATE",
+          "text": "Första datum i trafik i Sverige",
+          "value": "2022-03-19",
+          "type": "date"
+        },
+        {
+          "key": "SERVICE_BOOK",
+          "text": "Servicehistorik",
+          "value": "Service utförd vid följande mil: 2441, 5487, 8777, 13973, 18196, 19761, 21108 mil, senast 2025-12-02",
+          "type": "string"
+        },
+        {
+          "key": "SERVICE_BOOK_TYPE",
+          "text": "Servicebok",
+          "value": "Ja",
+          "type": "string"
+        },
+        {
+          "key": "GEARBOX",
+          "text": "Växellåda",
+          "value": "Automat",
+          "type": "string"
+        },
+        {
+          "key": "NUMBER_OF_SEATS",
+          "text": "Antal säten",
+          "value": 5,
+          "type": "string"
+        },
+        {
+          "key": "NUMBER_OF_KEYS",
+          "text": "Antal nycklar",
+          "value": 2,
+          "type": "string"
+        },
+        {
+          "key": "EXTERIOR_COLOR",
+          "text": "Färg",
+          "value": "Svart",
+          "type": "string"
+        },
+        {
+          "key": "FINISH_TYPE",
+          "text": "Lack",
+          "value": "Solid",
+          "type": "string"
+        },
+        {
+          "key": "TEXTILE",
+          "text": "Klädsel",
+          "value": "Helläder",
+          "type": "string"
+        },
+        {
+          "key": "MANUFACTURER_WARRANTY",
+          "text": "Nybilsgaranti",
+          "value": "Inte undersökt",
+          "type": "string"
+        },
+        {
+          "key": "COLLISION_WARRANTY",
+          "text": "Vagnskadegaranti",
+          "value": "Inte undersökt",
+          "type": "string"
+        },
+        {
+          "key": "TAX_FEE",
+          "text": "Skatt årsavgift",
+          "value": "3397 SEK",
+          "type": "string"
+        }
+      ],
+      "additional": [
+        {
+          "key": "CHASSIS_NUMBER",
+          "text": "Chassinummer",
+          "value": "WAUZZZ4H4FN011321",
+          "type": "string"
+        },
+        {
+          "key": "ENGINE_EFFECT_DIESEL",
+          "text": "Motoreffekt (diesel)",
+          "value": 258,
+          "type": "engine_power"
+        },
+        {
+          "key": "TOWBAR",
+          "text": "Dragkrok",
+          "value": "Nej",
+          "type": "string"
+        },
+        {
+          "key": "MAX_PAYLOAD",
+          "text": "Maxlastvikt",
+          "value": 525,
+          "type": "weight"
+        },
+        {
+          "key": "CO2_DIESEL",
+          "text": "CO2-utsläpp (diesel)",
+          "value": 155,
+          "type": "emission"
+        },
+        {
+          "key": "INSPECTION_VALID_TO_DATE",
+          "text": "Nästa besiktning senast",
+          "value": "2027-06-30",
+          "type": "string"
+        },
+        {
+          "key": "CURB_WEIGHT",
+          "text": "Tjänstevikt",
+          "value": 2045,
+          "type": "weight"
+        },
+        {
+          "key": "TAX_WEIGHT",
+          "text": "Skattevikt",
+          "value": 2040,
+          "type": "weight"
+        },
+        {
+          "key": "MAX_TRAILER_WEIGHT",
+          "text": "Maximal släpvagnsvikt",
+          "value": 2200,
+          "type": "weight"
+        },
+        {
+          "key": "TOTAL_WEIGHT",
+          "text": "Fordonets totalvikt",
+          "value": 2570,
+          "type": "weight"
+        },
+        {
+          "key": "LENGTH",
+          "text": "Längd",
+          "value": 5135,
+          "type": "length"
+        },
+        {
+          "key": "WIDTH",
+          "text": "Bredd",
+          "value": 1949,
+          "type": "length"
+        }
+      ],
+      "other": [
+        {
+          "key": "SOLD_IN_SWEDEN",
+          "text": "Svensksåld",
+          "value": "Nej",
+          "type": "string"
+        },
+        {
+          "key": "EXPORTABLE",
+          "text": "Kan exporteras",
+          "value": "Ja",
+          "type": "string"
+        },
+        {
+          "key": "DEDUCTIBLE_VAT",
+          "text": "Avlyftbar moms",
+          "value": "Nej",
+          "type": "string"
+        }
+      ]
+    },
+    "majorFeature": [
+      {
+        "key": "TAKLUCKA",
+        "title": "Taklucka",
+        "value": null,
+        "equipment": "Utrustning",
+        "description": null
+      },
+      {
+        "key": "4WD",
+        "title": "4WD",
+        "value": null,
+        "equipment": "Utrustning",
+        "description": "Konstant eller inkopplingsbar fyrhjulsdrift"
+      },
+      {
+        "key": "BACKKAMERA",
+        "title": "Backkamera",
+        "value": null,
+        "equipment": "Utrustning",
+        "description": "Kamera som underlättar vid backning"
+      },
+      {
+        "key": "GPS",
+        "title": "GPS",
+        "value": null,
+        "equipment": "Utrustning",
+        "description": "Navigationssystem med vägbeskrivning"
+      }
+    ],
+    "batteryTestCertificateAvailable": false
+  },
+  "previewImages": [
+    {
+      "processObjectId": "7292219",
+      "uri": "https://kvdbil-images.imgix.net/7292219/e6b88926.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292219/e6b88926.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 1
+    },
+    {
+      "processObjectId": "7292219",
+      "uri": "https://kvdbil-images.imgix.net/7292219/ab958429.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292219/ab958429.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 2
+    },
+    {
+      "processObjectId": "7292219",
+      "uri": "https://kvdbil-images.imgix.net/7292219/edc0eb66.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292219/edc0eb66.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 3
+    },
+    {
+      "processObjectId": "7292219",
+      "uri": "https://kvdbil-images.imgix.net/7292219/7556801d.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292219/7556801d.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 3
+    },
+    {
+      "processObjectId": "7292219",
+      "uri": "https://kvdbil-images.imgix.net/7292219/3ec5d566.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292219/3ec5d566.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 4
+    },
+    {
+      "processObjectId": "7292219",
+      "uri": "https://kvdbil-images.imgix.net/7292219/304f48e3.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292219/304f48e3.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 4
+    },
+    {
+      "processObjectId": "7292219",
+      "uri": "https://kvdbil-images.imgix.net/7292219/02f4672a.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292219/02f4672a.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 5
+    },
+    {
+      "processObjectId": "7292219",
+      "uri": "https://kvdbil-images.imgix.net/7292219/77a9eb30.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292219/77a9eb30.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 6
+    },
+    {
+      "processObjectId": "7292219",
+      "uri": "https://kvdbil-images.imgix.net/7292219/5f8abebf.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292219/5f8abebf.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 6
+    },
+    {
+      "processObjectId": "7292219",
+      "uri": "https://kvdbil-images.imgix.net/7292219/45a13301.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292219/45a13301.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 7
+    },
+    {
+      "processObjectId": "7292219",
+      "uri": "https://kvdbil-images.imgix.net/7292219/9244b58c.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292219/9244b58c.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 8
+    },
+    {
+      "processObjectId": "7292219",
+      "uri": "https://kvdbil-images.imgix.net/7292219/a575c896.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292219/a575c896.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 8
+    },
+    {
+      "processObjectId": "7292219",
+      "uri": "https://kvdbil-images.imgix.net/7292219/7271ef6a.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292219/7271ef6a.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 9
+    },
+    {
+      "processObjectId": "7292219",
+      "uri": "https://kvdbil-images.imgix.net/7292219/58694103.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292219/58694103.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 9
+    },
+    {
+      "processObjectId": "7292219",
+      "uri": "https://kvdbil-images.imgix.net/7292219/df75fc0a.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292219/df75fc0a.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 10
+    },
+    {
+      "processObjectId": "7292219",
+      "uri": "https://kvdbil-images.imgix.net/7292219/b767824a.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292219/b767824a.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 10
+    },
+    {
+      "processObjectId": "7292219",
+      "uri": "https://kvdbil-images.imgix.net/7292219/a2e93c42.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292219/a2e93c42.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 11
+    },
+    {
+      "processObjectId": "7292219",
+      "uri": "https://kvdbil-images.imgix.net/7292219/ef90e217.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292219/ef90e217.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 11
+    },
+    {
+      "processObjectId": "7292219",
+      "uri": "https://kvdbil-images.imgix.net/7292219/b2572784.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292219/b2572784.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 12
+    },
+    {
+      "processObjectId": "7292219",
+      "uri": "https://kvdbil-images.imgix.net/7292219/e28762a3.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292219/e28762a3.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 12
+    },
+    {
+      "processObjectId": "7292219",
+      "uri": "https://kvdbil-images.imgix.net/7292219/17a26c78.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292219/17a26c78.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 13
+    },
+    {
+      "processObjectId": "7292219",
+      "uri": "https://kvdbil-images.imgix.net/7292219/b4d6a3a9.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292219/b4d6a3a9.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 14
+    },
+    {
+      "processObjectId": "7292219",
+      "uri": "https://kvdbil-images.imgix.net/7292219/949cd97e.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292219/949cd97e.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 19
+    }
+  ],
+  "similarAuctions": [],
+  "activeAuction": {
+    "auctionId": "309404",
+    "closed": true,
+    "countdownInProgress": true,
+    "preliminaryCloseAt": "2026-11-05T10:54:00+00:00",
+    "createdAt": "2026-10-28T14:49:41.617829+00:00",
+    "updatedAt": "2026-11-05T10:54:00.008872+00:00",
+    "vatExcludedBiddingAllowed": false,
+    "reservationPriceReached": false,
+    "bids": [
+      {
+        "id": 18713126,
+        "auctionId": 309404,
+        "bidderAlias": "4",
+        "amount": 147500,
+        "type": "AUTO",
+        "maxBidId": 10920909,
+        "triggeredBy": 10935015,
+        "createdAt": "2026-11-05T07:22:00.688807+00:00",
+        "updatedAt": "2026-11-05T07:22:00.688809+00:00"
+      },
+      {
+        "id": 18713125,
+        "auctionId": 309404,
+        "bidderAlias": "7",
+        "amount": 147000,
+        "type": "NORMAL",
+        "maxBidId": 10935015,
+        "triggeredBy": 10935015,
+        "createdAt": "2026-11-05T07:22:00.688797+00:00",
+        "updatedAt": "2026-11-05T07:22:00.688804+00:00"
+      },
+      {
+        "id": 18713124,
+        "auctionId": 309404,
+        "bidderAlias": "4",
+        "amount": 146500,
+        "type": "AUTO",
+        "maxBidId": 10920909,
+        "triggeredBy": 10935014,
+        "createdAt": "2026-11-05T07:21:50.676818+00:00",
+        "updatedAt": "2026-11-05T07:21:50.676821+00:00"
+      },
+      {
+        "id": 18713123,
+        "auctionId": 309404,
+        "bidderAlias": "7",
+        "amount": 146000,
+        "type": "NORMAL",
+        "maxBidId": 10935014,
+        "triggeredBy": 10935014,
+        "createdAt": "2026-11-05T07:21:50.676807+00:00",
+        "updatedAt": "2026-11-05T07:21:50.676814+00:00"
+      },
+      {
+        "id": 18713122,
+        "auctionId": 309404,
+        "bidderAlias": "4",
+        "amount": 145500,
+        "type": "AUTO",
+        "maxBidId": 10920909,
+        "triggeredBy": 10935013,
+        "createdAt": "2026-11-05T07:20:58.576179+00:00",
+        "updatedAt": "2026-11-05T07:20:58.576181+00:00"
+      },
+      {
+        "id": 18713121,
+        "auctionId": 309404,
+        "bidderAlias": "7",
+        "amount": 145000,
+        "type": "NORMAL",
+        "maxBidId": 10935013,
+        "triggeredBy": 10935013,
+        "createdAt": "2026-11-05T07:20:58.576167+00:00",
+        "updatedAt": "2026-11-05T07:20:58.576174+00:00"
+      },
+      {
+        "id": 18691316,
+        "auctionId": 309404,
+        "bidderAlias": "4",
+        "amount": 135500,
+        "type": "AUTO",
+        "maxBidId": 10920909,
+        "triggeredBy": 10922274,
+        "createdAt": "2026-11-02T04:59:30.237219+00:00",
+        "updatedAt": "2026-11-02T04:59:30.237221+00:00"
+      },
+      {
+        "id": 18691315,
+        "auctionId": 309404,
+        "bidderAlias": "6",
+        "amount": 135000,
+        "type": "NORMAL",
+        "maxBidId": 10922274,
+        "triggeredBy": 10922274,
+        "createdAt": "2026-11-02T04:59:30.237207+00:00",
+        "updatedAt": "2026-11-02T04:59:30.237216+00:00"
+      },
+      {
+        "id": 18691129,
+        "auctionId": 309404,
+        "bidderAlias": "4",
+        "amount": 130500,
+        "type": "AUTO",
+        "maxBidId": 10920909,
+        "triggeredBy": 10922172,
+        "createdAt": "2026-11-01T22:41:16.743688+00:00",
+        "updatedAt": "2026-11-01T22:41:16.743691+00:00"
+      },
+      {
+        "id": 18691128,
+        "auctionId": 309404,
+        "bidderAlias": "5",
+        "amount": 130000,
+        "type": "NORMAL",
+        "maxBidId": 10922172,
+        "triggeredBy": 10922172,
+        "createdAt": "2026-11-01T22:41:16.743677+00:00",
+        "updatedAt": "2026-11-01T22:41:16.743684+00:00"
+      },
+      {
+        "id": 18689021,
+        "auctionId": 309404,
+        "bidderAlias": "4",
+        "amount": 121000,
+        "type": "NORMAL",
+        "maxBidId": 10920909,
+        "triggeredBy": 10920909,
+        "createdAt": "2026-11-01T16:52:17.000837+00:00",
+        "updatedAt": "2026-11-01T16:52:17.000845+00:00"
+      },
+      {
+        "id": 18688249,
+        "auctionId": 309404,
+        "bidderAlias": "3",
+        "amount": 120500,
+        "type": "NORMAL",
+        "maxBidId": 10920467,
+        "triggeredBy": 10920467,
+        "createdAt": "2026-11-01T11:06:29.088869+00:00",
+        "updatedAt": "2026-11-01T11:06:29.088872+00:00"
+      },
+      {
+        "id": 18688248,
+        "auctionId": 309404,
+        "bidderAlias": "2",
+        "amount": 120000,
+        "type": "LIMIT_REACHED",
+        "maxBidId": 10917158,
+        "triggeredBy": 10920467,
+        "createdAt": "2026-11-01T11:06:29.088861+00:00",
+        "updatedAt": "2026-11-01T11:06:29.088866+00:00"
+      },
+      {
+        "id": 18688247,
+        "auctionId": 309404,
+        "bidderAlias": "2",
+        "amount": 119500,
+        "type": "AUTO",
+        "maxBidId": 10917158,
+        "triggeredBy": 10920466,
+        "createdAt": "2026-11-01T11:05:17.408978+00:00",
+        "updatedAt": "2026-11-01T11:05:17.408979+00:00"
+      },
+      {
+        "id": 18688246,
+        "auctionId": 309404,
+        "bidderAlias": "3",
+        "amount": 119000,
+        "type": "NORMAL",
+        "maxBidId": 10920466,
+        "triggeredBy": 10920466,
+        "createdAt": "2026-11-01T11:05:17.408969+00:00",
+        "updatedAt": "2026-11-01T11:05:17.408975+00:00"
+      },
+      {
+        "id": 18688245,
+        "auctionId": 309404,
+        "bidderAlias": "2",
+        "amount": 118500,
+        "type": "AUTO",
+        "maxBidId": 10917158,
+        "triggeredBy": 10920465,
+        "createdAt": "2026-11-01T11:04:46.283565+00:00",
+        "updatedAt": "2026-11-01T11:04:46.283567+00:00"
+      },
+      {
+        "id": 18688244,
+        "auctionId": 309404,
+        "bidderAlias": "3",
+        "amount": 118000,
+        "type": "NORMAL",
+        "maxBidId": 10920465,
+        "triggeredBy": 10920465,
+        "createdAt": "2026-11-01T11:04:46.283556+00:00",
+        "updatedAt": "2026-11-01T11:04:46.283562+00:00"
+      },
+      {
+        "id": 18688243,
+        "auctionId": 309404,
+        "bidderAlias": "2",
+        "amount": 117500,
+        "type": "AUTO",
+        "maxBidId": 10917158,
+        "triggeredBy": 10920464,
+        "createdAt": "2026-11-01T11:04:35.250639+00:00",
+        "updatedAt": "2026-11-01T11:04:35.250640+00:00"
+      },
+      {
+        "id": 18688242,
+        "auctionId": 309404,
+        "bidderAlias": "3",
+        "amount": 117000,
+        "type": "NORMAL",
+        "maxBidId": 10920464,
+        "triggeredBy": 10920464,
+        "createdAt": "2026-11-01T11:04:35.250630+00:00",
+        "updatedAt": "2026-11-01T11:04:35.250636+00:00"
+      },
+      {
+        "id": 18688241,
+        "auctionId": 309404,
+        "bidderAlias": "2",
+        "amount": 116500,
+        "type": "AUTO",
+        "maxBidId": 10917158,
+        "triggeredBy": 10920463,
+        "createdAt": "2026-11-01T11:04:30.563872+00:00",
+        "updatedAt": "2026-11-01T11:04:30.563876+00:00"
+      },
+      {
+        "id": 18688240,
+        "auctionId": 309404,
+        "bidderAlias": "3",
+        "amount": 116000,
+        "type": "NORMAL",
+        "maxBidId": 10920463,
+        "triggeredBy": 10920463,
+        "createdAt": "2026-11-01T11:04:30.563860+00:00",
+        "updatedAt": "2026-11-01T11:04:30.563868+00:00"
+      },
+      {
+        "id": 18688239,
+        "auctionId": 309404,
+        "bidderAlias": "2",
+        "amount": 115500,
+        "type": "AUTO",
+        "maxBidId": 10917158,
+        "triggeredBy": 10920462,
+        "createdAt": "2026-11-01T11:04:26.055238+00:00",
+        "updatedAt": "2026-11-01T11:04:26.055242+00:00"
+      },
+      {
+        "id": 18688238,
+        "auctionId": 309404,
+        "bidderAlias": "3",
+        "amount": 115000,
+        "type": "NORMAL",
+        "maxBidId": 10920462,
+        "triggeredBy": 10920462,
+        "createdAt": "2026-11-01T11:04:26.055223+00:00",
+        "updatedAt": "2026-11-01T11:04:26.055234+00:00"
+      },
+      {
+        "id": 18688237,
+        "auctionId": 309404,
+        "bidderAlias": "2",
+        "amount": 113500,
+        "type": "AUTO",
+        "maxBidId": 10917158,
+        "triggeredBy": 10920461,
+        "createdAt": "2026-11-01T11:04:22.161788+00:00",
+        "updatedAt": "2026-11-01T11:04:22.161791+00:00"
+      },
+      {
+        "id": 18688236,
+        "auctionId": 309404,
+        "bidderAlias": "3",
+        "amount": 113000,
+        "type": "NORMAL",
+        "maxBidId": 10920461,
+        "triggeredBy": 10920461,
+        "createdAt": "2026-11-01T11:04:22.161769+00:00",
+        "updatedAt": "2026-11-01T11:04:22.161774+00:00"
+      },
+      {
+        "id": 18682484,
+        "auctionId": 309404,
+        "bidderAlias": "2",
+        "amount": 112500,
+        "type": "NORMAL",
+        "maxBidId": 10917158,
+        "triggeredBy": 10917158,
+        "createdAt": "2026-10-30T09:21:17.208919+00:00",
+        "updatedAt": "2026-10-30T09:21:17.208924+00:00"
+      },
+      {
+        "id": 18682483,
+        "auctionId": 309404,
+        "bidderAlias": "1",
+        "amount": 112000,
+        "type": "LIMIT_REACHED",
+        "maxBidId": 10912420,
+        "triggeredBy": 10917158,
+        "createdAt": "2026-10-30T09:21:17.208896+00:00",
+        "updatedAt": "2026-10-30T09:21:17.208914+00:00"
+      },
+      {
+        "id": 18674211,
+        "auctionId": 309404,
+        "bidderAlias": "1",
+        "amount": 110000,
+        "type": "NORMAL",
+        "maxBidId": 10912420,
+        "triggeredBy": 10912420,
+        "createdAt": "2026-10-28T22:59:14.195082+00:00",
+        "updatedAt": "2026-10-28T22:59:14.195093+00:00"
+      }
+    ],
+    "myBidderAlias": null,
+    "myMaxBid": null,
+    "highestBid": {
+      "id": 18713126,
+      "auctionId": 309404,
+      "bidderAlias": null,
+      "amount": 147500,
+      "type": "AUTO",
+      "maxBidId": 10920909,
+      "triggeredBy": 10935015,
+      "createdAt": "2026-11-05T07:22:00.688807+00:00",
+      "updatedAt": "2026-11-05T07:22:00.688809+00:00",
+      "eurAmount": 13450
+    },
+    "buyNowAvailable": false,
+    "releasing": null,
+    "isHighestBidLowerThanResidualLoanValue": false
+  },
+  "checkoutOrder": null,
+  "previewImage": "https://kvdbil-images.imgix.net/7292219/e6b88926.jpg",
+  "_list_meta": {
+    "id": "309404",
+    "slug": "audi-a8-3-0-tdi-quattro-258hk",
+    "auctionType": "BIDDING",
+    "closedAt": "2026-11-05T10:54:00.006131+00:00",
+    "updatedAt": "2026-11-05T12:37:29.928856+00:00"
+  },
+  "_scraped_at": "2026-11-05T18:39:13.722574+00:00",
+  "_url": "https://www.kvd.se/auktioner/audi-a8-3-0-tdi-quattro-258hk-309404"
+}
