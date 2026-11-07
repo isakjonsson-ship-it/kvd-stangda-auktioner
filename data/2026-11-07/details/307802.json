@@ -1,0 +1,1784 @@
+{
+  "id": "307802",
+  "auctionType": "BIDDING",
+  "biddingFee": "5238.00",
+  "biddingFeeCorporate": "6663.00",
+  "mediationFee": 0,
+  "mediationFeeCorporate": 0,
+  "buyNow": true,
+  "closedAt": "2026-11-03T12:05:11.548549+00:00",
+  "publishedAt": "2026-10-27T16:02:46.098244+00:00",
+  "countdownDuration": 210,
+  "countdownStartAt": "2026-11-03T11:56:30+00:00",
+  "createdAt": "2026-10-16T13:41:06.221200+00:00",
+  "readyForAuctionAt": "2026-10-25",
+  "currency": "SEK",
+  "maxBidRaise": 100000,
+  "minBidRaise": 500,
+  "startBid": 109000,
+  "openedAt": "2026-10-27T16:02:55.549930+00:00",
+  "processObjectId": "7292636",
+  "readyForCheckout": true,
+  "soldFor": 120500,
+  "sellMethod": "BIDDING",
+  "slug": "volkswagen-sharan-2-0-tdi-150hk",
+  "auctionUrl": "https://www.kvd.se/auktioner/volkswagen-sharan-2-0-tdi-150hk-307802",
+  "state": "PAYMENT_SEQUENCE_PENDING",
+  "targetedAuctionGroupId": null,
+  "updatedAt": "2026-11-05T07:39:08.403299+00:00",
+  "releasing": null,
+  "loan": {
+    "loanCost": 1027,
+    "loanCostBuyNow": 1361
+  },
+  "buyNowAmount": 159800,
+  "buyNowAvailable": false,
+  "buyNowUntil": "2026-11-01T11:56:30+00:00",
+  "eligibleForAdditionalServices": true,
+  "comingSoon": false,
+  "preliminaryPrice": 170000,
+  "maxAllowedBid": 255000,
+  "isReserved": false,
+  "isSoldByBuyNow": false,
+  "favouriteCount": 13,
+  "eurBuyNowAmount": 14500,
+  "winningBid": {
+    "id": "122443",
+    "type": "BIDDER",
+    "state": "ACTIVE",
+    "amount": 120500,
+    "brokerId": "microservice",
+    "auctionId": "307802",
+    "createdAt": "2026-11-05T07:25:40.644730+00:00",
+    "updatedAt": "2026-11-05T07:25:40.897895+00:00",
+    "evaluationType": "BROKERING"
+  },
+  "processObject": {
+    "statisticalValuation": null,
+    "leaseReturnProperties": {},
+    "reducedPrice": false,
+    "properties": {
+      "package": "Premium Panorama",
+      "saleLimitedToCorporate": false,
+      "textile": "Textil",
+      "totalWeight": 2540,
+      "towbar": false,
+      "formattedEquipment": [
+        {
+          "key": "AC",
+          "title": "AC",
+          "description": "Luftkonditionering utan möjlighet till automatisk temperaturinställning",
+          "priority": 0
+        },
+        {
+          "key": "ADAPTIV_FARTHALLARE",
+          "title": "Adaptiv farthållare",
+          "description": "Farthållare som hjälper till att hålla ett givet avstånd till framförvarande fordon.",
+          "priority": 1
+        },
+        {
+          "key": "ANTISLADDSYSTEM",
+          "title": "Antisladdsystem",
+          "description": "Ett system som känner av om bilen håller på att sladda. Genom att bromsa enskilda hjul stabiliseras bilen och sladden förhindras, även kallat ESP.",
+          "priority": 2
+        },
+        {
+          "key": "ANTISPINN",
+          "title": "Antispinn",
+          "description": "Hjälpsystem som förhindrar att hjulen spinner",
+          "priority": 3
+        },
+        {
+          "key": "AUTO_HOLD",
+          "title": "Auto hold",
+          "description": "Hindrar bilen tillfälligt från att rulla bakåt när du startar i motlut",
+          "priority": 4
+        },
+        {
+          "key": "AUTOBROMS",
+          "title": "Autobroms",
+          "description": "Automatisk inbromsning vid lägre hastigheter för mötande fordon och hinder framför bilen (City Safety)",
+          "priority": 5
+        },
+        {
+          "key": "AUX_INGANG",
+          "title": "AUX-ingång",
+          "description": "Stereoinkoppling av mobil enhet",
+          "priority": 6
+        },
+        {
+          "key": "BLUETOOTH",
+          "title": "Bluetooth",
+          "description": "Trådlös uppkoppling mot mobila enheter",
+          "priority": 7
+        },
+        {
+          "key": "CD_STEREO",
+          "title": "CD-Stereo",
+          "description": "Spelare för CD-skivor",
+          "priority": 8
+        },
+        {
+          "key": "ELHISS_BAK",
+          "title": "Elhiss bak",
+          "description": "Elektroniska fönsterhissar bak",
+          "priority": 9
+        },
+        {
+          "key": "ELHISS_FRAM",
+          "title": "Elhiss fram",
+          "description": "Elektronisk fönsterhiss fram",
+          "priority": 10
+        },
+        {
+          "key": "ELSPEGLAR",
+          "title": "Elspeglar",
+          "description": "Elektroniskt ställbara sidospeglar",
+          "priority": 11
+        },
+        {
+          "key": "FJARRLAS",
+          "title": "Fjärrlås",
+          "description": "Möjliggör att du på distans kan låsa och låsa upp bilen",
+          "priority": 12
+        },
+        {
+          "key": "ISOFIX_BAK",
+          "title": "Isofix bak",
+          "description": "  Fästsystem för bilbarnstolar enligt internationell standard, även kallat Isofix",
+          "priority": 13
+        },
+        {
+          "key": "KLIMATANLAGGNING",
+          "title": "Klimatanläggning",
+          "description": "Luftkonditionering med möjlighet till automatisk temperaturinställning",
+          "priority": 14
+        },
+        {
+          "key": "PARKERINGSSENSORER_BAK",
+          "title": "Parkeringssensorer bak",
+          "description": "Sensorer på stötfångare baktill som varnar för hinder bakom bilen",
+          "priority": 15
+        },
+        {
+          "key": "PARKERINGSSENSORER_FRAM",
+          "title": "Parkeringssensorer fram",
+          "description": "Sensorer på stötfångare som varnar för hinder framför bilen",
+          "priority": 16
+        },
+        {
+          "key": "RADIO",
+          "title": "Radio",
+          "description": "Radiospelare",
+          "priority": 17
+        },
+        {
+          "key": "SMARTPHONE_INTEGRATION",
+          "title": "Smartphone integration",
+          "description": null,
+          "priority": 18
+        },
+        {
+          "key": "START_STOP_FUNKTION",
+          "title": "Start/Stopp-funktion",
+          "description": "Automatisk på och avstängning av motor vid exempelvis trafikljus",
+          "priority": 19
+        },
+        {
+          "key": "STOLSVARME_FRAM",
+          "title": "Stolsvärme fram",
+          "description": "Olika nivåer av värme i stolarna fram som ställs in via en knapp",
+          "priority": 20
+        },
+        {
+          "key": "URKOPPLINGSBAR_PASSAGERARAIRBAG",
+          "title": "Urkopplingsbar passagerarairbag",
+          "description": "Möjlighet att koppla till och från airbagen på passagerarsidan",
+          "priority": 21
+        },
+        {
+          "key": "USB_INGANG",
+          "title": "USB-ingång",
+          "description": "Inkoppling av mobil enhet via USB-kontakt",
+          "priority": 22
+        },
+        {
+          "key": "XENON_LJUS",
+          "title": "Xenon-ljus",
+          "description": "Xenonljus ändrar färg från blått till vitt då lampan är kall",
+          "priority": 23
+        },
+        {
+          "key": "OPPNINGSBART_PANORAMATAK",
+          "title": "Öppningsbart panoramatak",
+          "description": "Glastak som är delvis öppningsbart",
+          "priority": 24
+        }
+      ],
+      "importedForPersonalUse": false,
+      "manufactureMonth": "201602",
+      "numberOfPreviousOwners": 6,
+      "exteriorColor": "Silver",
+      "maxPayload": 573,
+      "body": "SUV",
+      "deductibleVat": false,
+      "height": 1698,
+      "chassisNumber": "WVWZZZ7NZGV233690",
+      "width": 1904,
+      "maxPullWeightB": 960,
+      "odometerReading": 179520,
+      "taxWeight": 1960,
+      "fuels": [
+        {
+          "enginePower": 150,
+          "fuelCode": "Diesel",
+          "co2": 137,
+          "consumption": 5.2
+        }
+      ],
+      "familyName": "Sharan",
+      "inspectionPeriod": "2026-01-07 - 2027-03-31",
+      "mediation": false,
+      "numberOfKeys": 1,
+      "finishType": "Metallic",
+      "ecoFriendly": false,
+      "residualLoanValue": 0,
+      "modelName": "Sharan 2.0 TDI (150hk)",
+      "remarksLocalized": {
+        "TIRES": null,
+        "BRAKES": null,
+        "EXTERIOR": "Flertal rostangrepp",
+        "INTERIOR": "Baksäte vänster går ej fälla fram",
+        "ENGINE_AND_GEARBOX": null,
+        "TECHNOLOGY_AND_EQUIPMENT": null
+      },
+      "registrationCountry": "se",
+      "numberOfSeats": 7,
+      "inspectionValidToDate": "2027-03-31",
+      "equipment": [
+        "AC",
+        "Adaptiv farthållare",
+        "Antisladdsystem",
+        "Antispinn",
+        "Auto hold",
+        "Autobroms",
+        "AUX-ingång",
+        "Bluetooth",
+        "CD-Stereo",
+        "Elhiss bak",
+        "Elhiss fram",
+        "Elspeglar",
+        "Fjärrlås",
+        "Isofix bak",
+        "Klimatanläggning",
+        "Parkeringssensorer bak",
+        "Parkeringssensorer fram",
+        "Radio",
+        "Smartphone integration",
+        "Start/Stop-funktion",
+        "Stolsvärme fram",
+        "Urkopplingsbar passagerarairbag",
+        "USB-ingång",
+        "Xenon-ljus",
+        "Öppningsbart panoramatak"
+      ],
+      "curbWeight": 1967,
+      "adHeader": "Sharan 2.0 TDI (150hk) Premium Panorama",
+      "odometerUnit": "km",
+      "taxFee": 2458,
+      "heavyEquipment": false,
+      "dateOfInspection": "2026-01-07",
+      "exportable": true,
+      "brand": "Volkswagen",
+      "length": 4854,
+      "drivingBan": false,
+      "maxTrailerWeight": 2200,
+      "registrationPlateCountry": "se",
+      "mustExport": false,
+      "isRepairObject": false,
+      "hasUnpaidLoan": false,
+      "title": "VW Sharan 2.0 TDI (150hk)",
+      "registrationPlate": "AWR823",
+      "remarks": {
+        "EXTERIOR": [
+          {
+            "id": "0",
+            "category": "EXTERIOR",
+            "key": "Flertal rostangrepp"
+          }
+        ],
+        "TIRES": [],
+        "TECHNOLOGY_AND_EQUIPMENT": [],
+        "BRAKES": [],
+        "ENGINE_AND_GEARBOX": [],
+        "INTERIOR": [
+          {
+            "id": "0",
+            "category": "INTERIOR",
+            "key": "Baksäte vänster går ej fälla fram"
+          }
+        ]
+      },
+      "initialTrafficDate": "2016-04-25",
+      "grades": {
+        "EXTERIOR": {
+          "min": 1,
+          "max": 5,
+          "value": 3
+        },
+        "TOTAL": {
+          "min": 1,
+          "max": 5,
+          "value": 3
+        },
+        "TECHNOLOGY_AND_EQUIPMENT": {
+          "min": 1,
+          "max": 3,
+          "value": 3
+        },
+        "BRAKES": {
+          "min": 1,
+          "max": 3,
+          "value": 3
+        },
+        "ENGINE_AND_GEARBOX": {
+          "min": 1,
+          "max": 3,
+          "value": 3
+        },
+        "INTERIOR": {
+          "min": 1,
+          "max": 5,
+          "value": 3
+        }
+      },
+      "environmentalClassEuro": "6",
+      "modelYear": 2016,
+      "gearbox": "Automatic",
+      "heading1": "Volkswagen Sharan",
+      "heading2": "2.0 TDI",
+      "heading3": "Premium Panorama"
+    },
+    "state": "AUCTION_RESOLUTION",
+    "car360Spin": null,
+    "buyNowAmount": 159800,
+    "id": "7292636",
+    "displayCar360Spin": true,
+    "offsiteSalesContact": null,
+    "proactiveBrokering": null,
+    "certified": false,
+    "initialBuyNowAmount": 159800,
+    "objectType": "CAR",
+    "baseObject": {
+      "body": "MPV",
+      "authorityRegisterInformation": {
+        "environmentalClassification": {
+          "fuels": [
+            {
+              "co2": 137,
+              "nox": "",
+              "nox4": null,
+              "fuelCode": "Diesel",
+              "hcThcNox": "",
+              "consumption": 5.2,
+              "noiseLevel": 69,
+              "emissionUnit": "g/km",
+              "innovationCo2": null,
+              "particleValue": "",
+              "particleMass4": null,
+              "consumptionUnit": "5,2",
+              "rangeNedcDrive": null,
+              "rangeWltpDrive": null,
+              "consumptionUrban": 5.9,
+              "rangeCityWltpDrive": null,
+              "consumptionExtraUrban": 4.7,
+              "electricEnergyConsumption": null,
+              "energyConsumptionWltpDrive": null
+            }
+          ],
+          "ecoFriendly": false,
+          "emissionClass": "EURO 6",
+          "innovationCode": null,
+          "environmentalClass": null,
+          "environmentalClassEuro": "6"
+        },
+        "vehicleInspectionInformation": {
+          "inspections": [
+            {
+              "inspectionType": "5",
+              "odometerReading": 166757,
+              "dateOfInspection": "2026-01-07"
+            },
+            {
+              "inspectionType": "5",
+              "odometerReading": 144302,
+              "dateOfInspection": "2024-11-14"
+            }
+          ],
+          "inspectionGroup": "36/24/14",
+          "odometerReading": 166757,
+          "inspectionPeriod": "2026-01-07 - 2027-03-31",
+          "dateOfInspection": "2026-01-07",
+          "inspectionValidToDate": "2027-03-31",
+          "inspectionExemptionGroup": null
+        },
+        "vehicleStatus": {
+          "tax": 2458
+        },
+        "vehicleOrigin": {
+          "originCode": "INFÖRT",
+          "originCodeReason": null,
+          "importerIdentifier": null,
+          "preRegistrationDate": null,
+          "importRegistrationDate": null,
+          "importedForPersonalUse": false,
+          "importedPreviouslyRegistered": false
+        },
+        "additionalTechSpecification": {
+          "raceCar": null,
+          "wheelbase1": 2920,
+          "wheelbase2": null,
+          "wheelbase3": null,
+          "wheelbase4": null,
+          "equipment1": null,
+          "equipment2": null,
+          "equipment3": null,
+          "maximumSpeed": 198,
+          "numAxleShafts": "",
+          "passengerAirBag": true,
+          "tyreDimensionRear": "205/60 R16 96H",
+          "tyreDimensionFront": "205/60 R16 96H",
+          "dualSteeringControl": null
+        },
+        "registrationInformation": {
+          "registrationPlate": "AWR823",
+          "deregistrationDate": null,
+          "deregistrationText": null,
+          "deregistrationReason": null
+        },
+        "generalTechSpecification": {
+          "eeg": "e1*2007/46*0401*12",
+          "fuels": [
+            {
+              "fuelCode": "Diesel",
+              "powerUnit": "EG",
+              "enginePower": 110,
+              "enginePowerHp": 150,
+              "fuelTankVolume": ""
+            }
+          ],
+          "width": 1904,
+          "height": 1698,
+          "length": 4854,
+          "gearbox": "Automatic",
+          "variant": "DFLAX0AF",
+          "version": "FD6FD62E0317MMN7VR2VW62",
+          "taxWeight": 1960,
+          "curbWeight": 1967,
+          "maxPayload": 573,
+          "totalWeight": 2540,
+          "chassisCode1": null,
+          "chassisCode2": null,
+          "cubicCapacity": "1968",
+          "numPassengers": "6",
+          "numberOfSeats": 7,
+          "fourWheelDrive": false,
+          "maxPullWeightB": 960,
+          "clutchMechanism1": null,
+          "clutchMechanism2": null,
+          "maxTrailerWeight": 2200,
+          "chassisCodeSupplement": null,
+          "maxPullWieghtNoBreaks": null,
+          "maxPullWeightBExtended": null,
+          "maxSingle Axle TrailerWeight": null
+        },
+        "vehicleInformation": {
+          "vin": "WVWZZZ7NZGV233690",
+          "body": "AF",
+          "type": "CAR",
+          "year": "2016",
+          "model": "SHARAN",
+          "rawType": "PB",
+          "modelYear": null,
+          "categoryEu": "e1*2007/46*0401*12",
+          "groupNumber": "VW 855013",
+          "modelNumber": "VW 000000",
+          "chassisNumber": "WVWZZZ7NZGV233690",
+          "exteriorColor": "Silver",
+          "fabricAndMake": "VOLKSWAGEN, VW",
+          "baseObjectType": "CAR",
+          "manufactureCode": null,
+          "manufactureMonth": "201602",
+          "registrationDate": "2016-03-21",
+          "initialTrafficDate": "2016-04-25",
+          "registrationPlateReused": null
+        }
+      },
+      "modelName": "Sharan 2.0 TDI (150hk)",
+      "modelId": null,
+      "earliestAvailableAt": null,
+      "registrationCountry": "se",
+      "state": "MANUAL_VALUATION_PENDING",
+      "odometerReading": null,
+      "id": "523502",
+      "fuels": [
+        {
+          "fuelCode": "Diesel",
+          "powerUnit": "EG",
+          "enginePower": 110,
+          "enginePowerHp": 150,
+          "fuelTankVolume": ""
+        }
+      ],
+      "odometerUnit": "km",
+      "registrationPlate": "AWR823",
+      "year": "2016",
+      "fabricAndMake": "VOLKSWAGEN, VW",
+      "familyName": "Sharan",
+      "exteriorColor": "Silver",
+      "brand": "Volkswagen",
+      "baseObjectType": "CAR",
+      "salesFlow": "CONSUMER_CARS",
+      "createdAt": "2026-10-16T13:38:34.259054+00:00",
+      "gearbox": "Automatic",
+      "technicalSpecification": {
+        "modelId": null,
+        "vehicle": {
+          "brand": "Volkswagen",
+          "body": "MPV",
+          "modelName": "Sharan 2.0 TDI (150hk)",
+          "familyName": "Sharan"
+        },
+        "year": "2016"
+      }
+    },
+    "orderableAdditionalServices": {
+      "tradein": false,
+      "transport": true,
+      "insurance": true,
+      "finance": true,
+      "warranty": true,
+      "extraTires": true
+    },
+    "presentationApproved": false,
+    "vehicleType": "CAR",
+    "baseObjectId": "523502",
+    "conditionClassification": "TESTED",
+    "isReleasable": false,
+    "sellMethod": "BIDDING",
+    "createdAt": "2026-10-16 13:38:34.577958+00:00",
+    "testDriveAllowed": true,
+    "isFixedPrice": false,
+    "exportable": true,
+    "deductibleVat": false,
+    "collisionWarranty": null,
+    "title": "VW Sharan 2.0 TDI (150hk)",
+    "brand": "Volkswagen",
+    "familyName": "Sharan",
+    "modelName": "Sharan 2.0 TDI (150hk)",
+    "package": "Premium Panorama",
+    "heading1": "Volkswagen Sharan",
+    "heading2": "2.0 TDI",
+    "heading3": "Premium Panorama",
+    "media": [
+      {
+        "processObjectId": "7292636",
+        "uri": "https://kvdbil-images.imgix.net/7292636/355f0536.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292636/355f0536.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 1
+      },
+      {
+        "processObjectId": "7292636",
+        "uri": "https://kvdbil-images.imgix.net/7292636/a39fca8d.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292636/a39fca8d.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 1
+      },
+      {
+        "processObjectId": "7292636",
+        "uri": "https://kvdbil-images.imgix.net/7292636/18687950.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292636/18687950.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 2
+      },
+      {
+        "processObjectId": "7292636",
+        "uri": "https://kvdbil-images.imgix.net/7292636/d15a6ebf.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292636/d15a6ebf.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 2
+      },
+      {
+        "processObjectId": "7292636",
+        "uri": "https://kvdbil-images.imgix.net/7292636/ab5919d9.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292636/ab5919d9.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 3
+      },
+      {
+        "processObjectId": "7292636",
+        "uri": "https://kvdbil-images.imgix.net/7292636/d6f54355.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292636/d6f54355.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 4
+      },
+      {
+        "processObjectId": "7292636",
+        "uri": "https://kvdbil-images.imgix.net/7292636/c506ba30.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292636/c506ba30.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 5
+      },
+      {
+        "processObjectId": "7292636",
+        "uri": "https://kvdbil-images.imgix.net/7292636/5247f24c.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292636/5247f24c.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 6
+      },
+      {
+        "processObjectId": "7292636",
+        "uri": "https://kvdbil-images.imgix.net/7292636/750e910f.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292636/750e910f.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 6
+      },
+      {
+        "processObjectId": "7292636",
+        "uri": "https://kvdbil-images.imgix.net/7292636/572f4c77.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292636/572f4c77.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 7
+      },
+      {
+        "processObjectId": "7292636",
+        "uri": "https://kvdbil-images.imgix.net/7292636/ab8be39e.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292636/ab8be39e.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 7
+      },
+      {
+        "processObjectId": "7292636",
+        "uri": "https://kvdbil-images.imgix.net/7292636/9127dd36.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292636/9127dd36.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 8
+      },
+      {
+        "processObjectId": "7292636",
+        "uri": "https://kvdbil-images.imgix.net/7292636/7c44c91a.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292636/7c44c91a.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 8
+      },
+      {
+        "processObjectId": "7292636",
+        "uri": "https://kvdbil-images.imgix.net/7292636/00b324da.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292636/00b324da.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 9
+      },
+      {
+        "processObjectId": "7292636",
+        "uri": "https://kvdbil-images.imgix.net/7292636/a171ff90.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292636/a171ff90.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 9
+      },
+      {
+        "processObjectId": "7292636",
+        "uri": "https://kvdbil-images.imgix.net/7292636/00bf9026.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292636/00bf9026.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 10
+      },
+      {
+        "processObjectId": "7292636",
+        "uri": "https://kvdbil-images.imgix.net/7292636/ed8306b1.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292636/ed8306b1.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 10
+      },
+      {
+        "processObjectId": "7292636",
+        "uri": "https://kvdbil-images.imgix.net/7292636/007a795f.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292636/007a795f.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 11
+      },
+      {
+        "processObjectId": "7292636",
+        "uri": "https://kvdbil-images.imgix.net/7292636/e8978e04.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292636/e8978e04.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 12
+      },
+      {
+        "processObjectId": "7292636",
+        "uri": "https://kvdbil-images.imgix.net/7292636/59adbfed.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292636/59adbfed.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 12
+      },
+      {
+        "processObjectId": "7292636",
+        "uri": "https://kvdbil-images.imgix.net/7292636/297f816c.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292636/297f816c.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 13
+      },
+      {
+        "processObjectId": "7292636",
+        "uri": "https://kvdbil-images.imgix.net/7292636/11bd1f96.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292636/11bd1f96.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 13
+      },
+      {
+        "processObjectId": "7292636",
+        "uri": "https://kvdbil-images.imgix.net/7292636/0599130a.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292636/0599130a.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 14
+      },
+      {
+        "processObjectId": "7292636",
+        "uri": "https://kvdbil-images.imgix.net/7292636/ddcee281.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292636/ddcee281.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 15
+      },
+      {
+        "processObjectId": "7292636",
+        "uri": "https://kvdbil-images.imgix.net/7292636/425902f3.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292636/425902f3.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 15
+      },
+      {
+        "processObjectId": "7292636",
+        "uri": "https://kvdbil-images.imgix.net/7292636/389e6ef0.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292636/389e6ef0.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 16
+      },
+      {
+        "processObjectId": "7292636",
+        "uri": "https://kvdbil-images.imgix.net/7292636/df6940c2.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292636/df6940c2.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 17
+      },
+      {
+        "processObjectId": "7292636",
+        "uri": "https://kvdbil-images.imgix.net/7292636/ec39ef80.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292636/ec39ef80.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 18
+      }
+    ],
+    "locationInfo": {
+      "id": "553070",
+      "processObjectId": "7292636",
+      "locationType": "FACILITY",
+      "createdAt": "2026-10-16T13:39:08.547368+00:00",
+      "updatedAt": "2026-10-16T13:39:08.547373+00:00",
+      "facilityId": "5e2dd18c-fba3-4532-ab9d-8bc5c56bd46c",
+      "parkingZone": "A",
+      "parkingNumber": null,
+      "outgoingTime": "2026-11-06T11:30:00+00:00",
+      "leftAt": null,
+      "outgoingType": "BOOKING",
+      "publicFacilityId": "5e2dd18c-fba3-4532-ab9d-8bc5c56bd46c",
+      "facility": {
+        "id": "5e2dd18c-fba3-4532-ab9d-8bc5c56bd46c",
+        "name": "Getinge",
+        "operator": "PARTNER",
+        "legacyIdentifiers": [
+          "Getinge"
+        ],
+        "objectTypes": [
+          "CAR",
+          "LIGHT_TRANSPORT",
+          "RECREATIONAL_VEHICLE",
+          "HEAVY_TRANSPORT"
+        ],
+        "createdAt": "2023-05-19T06:40:31.681180+00:00",
+        "calendarOrganisationalUnitId": "27",
+        "parkingAreas": [],
+        "active": true,
+        "latitude": 56.811119,
+        "longitude": 12.725488,
+        "distance": null,
+        "address": "Teknikvägen 54",
+        "postCode": "30575",
+        "city": "Getinge",
+        "facilityType": "MTV_LU",
+        "facilityMapUrl": "https://www.google.com/maps/dir/56.811119,12.725488/@56.811119,12.725488,z13",
+        "contactPhone": "+46101673000",
+        "contactEmail": "filial.getinge@kvdbil.se",
+        "allowIncomingTransport": true,
+        "allowLeaseReturns": true,
+        "allowUnplannedDropOffFleetManager": true,
+        "parentFacilityId": null,
+        "publicFacilityId": "5e2dd18c-fba3-4532-ab9d-8bc5c56bd46c"
+      }
+    },
+    "valuation": {
+      "id": 237862,
+      "processObjectId": "7292636",
+      "valuatorComment": {
+        "da": "Forestil dig at køre i en Volkswagen Sharan med automatgear i elegant sølv metallic, der gør hver rejse behagelig og afslappet. Det åbningsbare panoramatag lader ekstra lys komme ind, mens adaptiv fartpilot og smartphone-integration gør lange ture både sikrere og sjovere. AC sørger for, at du altid har et behageligt klima i kabinen. Nyligt serviceret.",
+        "de": "Stell dir vor, du fährst einen Volkswagen Sharan mit Automatik in elegantem Silber Metallic, der jede Fahrt bequem und entspannt macht. Das aufklappbare Panorama-Schiebedach lässt zusätzliches Licht herein, während der adaptive Tempomat und die Smartphone-Integration lange Fahrten sowohl sicherer als auch angenehmer machen. Die Klimaanlage sorgt dafür, dass du im Innenraum stets ein angenehmes Klima hast. Kürzlich gewartet.",
+        "en": "Imagine driving a Volkswagen Sharan with automatic transmission in elegant silver metallic that makes every journey comfortable and relaxed. The opening panoramic roof lets in extra light while adaptive cruise control and smartphone integration make long drives both safer and more enjoyable. AC ensures you always have a pleasant climate in the cabin. Recently serviced.",
+        "et": "Kujuta ette, et sõidad Volkswagen Sharani automaatkäigukastiga elegantse hõbedase metallikvärviga, mis muudab iga sõidu mugavaks ja lõõgastavaks. Avatav panoraamkatus laseb sisse ekstra valgust, samal ajal kui adaptiivne püsikiirusehoidja ja nutitelefoni integratsioon muudavad pikad sõidud turvalisemaks ja nauditavamaks. AC tagab, et sul on salongis alati meeldiv kliima. Hiljuti hooldatud.",
+        "fi": "Kuvittele ajavasi Volkswagen Sharania automaattivaihteist elegantissa hopean metallivärissä, joka tekee jokaisesta matkasta mukavan ja rentouttavan. Avattava panoraamakatto päästää lisää valoa sisään, kun taas adaptiivinen vakionopeudensäädin ja älypuhelinintegraatio tekevät pitkistä ajomatkoista sekä turvallisempia että hauskempia. AC varmistaa, että matkustamossa on aina miellyttävä ilmasto. Äskettäin huollettu.",
+        "pl": "Wyobraź sobie jazdę Volkswagenem Sharanem z automatyczną skrzynią biegów w eleganckim kolorze srebrnym metalicznym, który sprawia, że każda podróż jest komfortowa i relaksująca. Otwierany panoramiczny dach wpuszcza dodatkowe światło, podczas gdy adaptacyjny tempomat i integracja ze smartfonem sprawiają, że długie trasy są zarówno bezpieczniejsze, jak i przyjemniejsze. Klimatyzacja zapewnia zawsze przyjemny klimat w kabinie. Niedawno serwisowany.",
+        "sv": "Tänk dig att åka i en Volkswagen Sharan med automat i elegant silver metallic som gör varje resa bekväm och avslappnad. Det öppningsbara panoramataket släpper in extra ljus medan adaptiv farthållare och smartphone‑integration gör långkörningar både säkrare och roligare. AC ser till att du alltid har ett behagligt klimat i kupén. Nyligen servad."
+      },
+      "generatedValuatorComment": {
+        "en": "",
+        "sv": "Ingen värderingskommentar genererad"
+      },
+      "carDealerPrice": 170000,
+      "endUserTestProtocol": {
+        "tires": {
+          "extraTires": {
+            "other": {
+              "rimSize": "16",
+              "rimType": "Alu.fälg",
+              "tireType": "Dubbade vinterdäck",
+              "otherInfo": "Behövs ej",
+              "tireTypeKey": "STUDDED_WINTER_TIRES"
+            },
+            "grades": {
+              "rearLeft": 3,
+              "frontLeft": 2,
+              "rearRight": 2,
+              "frontRight": 2
+            },
+            "treadDepths": {
+              "rearLeft": 6,
+              "frontLeft": 4,
+              "rearRight": 5,
+              "frontRight": 4
+            }
+          },
+          "mountedTires": {
+            "other": {
+              "rimSize": "17",
+              "rimType": "Alu.fälg",
+              "tireType": "Sommardäck",
+              "otherInfo": "Behövs ej",
+              "tireTypeKey": "SUMMER_TIRES"
+            },
+            "grades": {
+              "rearLeft": 2,
+              "frontLeft": 3,
+              "rearRight": 3,
+              "frontRight": 3
+            },
+            "treadDepths": {
+              "rearLeft": 4,
+              "frontLeft": 5,
+              "rearRight": 5,
+              "frontRight": 6
+            }
+          }
+        },
+        "grades": {
+          "TOTAL": {
+            "max": 5,
+            "min": 1,
+            "value": 3
+          },
+          "BRAKES": {
+            "max": 3,
+            "min": 1,
+            "value": 3
+          },
+          "EXTERIOR": {
+            "max": 5,
+            "min": 1,
+            "value": 3
+          },
+          "INTERIOR": {
+            "max": 5,
+            "min": 1,
+            "value": 3
+          },
+          "ENGINE_AND_GEARBOX": {
+            "max": 3,
+            "min": 1,
+            "value": 3
+          },
+          "TECHNOLOGY_AND_EQUIPMENT": {
+            "max": 3,
+            "min": 1,
+            "value": 3
+          }
+        },
+        "towbar": false,
+        "remarks": {
+          "BRAKES": [],
+          "EXTERIOR": [
+            {
+              "id": "72926362",
+              "key": "Flertal rostangrepp",
+              "other": null,
+              "point": 0,
+              "category": "EXTERIOR",
+              "text": "Flertal rostangrepp"
+            }
+          ],
+          "INTERIOR": [
+            {
+              "id": "72926361",
+              "key": "Baksäte vänster går ej fälla fram.",
+              "other": null,
+              "point": 0,
+              "category": "INTERIOR",
+              "text": "Baksäte vänster går ej fälla fram."
+            }
+          ],
+          "ENGINE_AND_GEARBOX": [],
+          "TECHNOLOGY_AND_EQUIPMENT": []
+        },
+        "textile": "Textil",
+        "boatType": null,
+        "equipment": [
+          "Öppningsbart panoramatak",
+          "Adaptiv farthållare",
+          "AC",
+          "Autobroms",
+          "Bluetooth",
+          "Klimatanläggning",
+          "Start/Stop-funktion",
+          "USB-ingång",
+          "Antisladdsystem",
+          "Antispinn",
+          "Auto hold",
+          "AUX-ingång",
+          "CD-Stereo",
+          "Elhiss bak",
+          "Elhiss fram",
+          "Elspeglar",
+          "Fjärrlås",
+          "Isofix bak",
+          "Parkeringssensorer bak",
+          "Parkeringssensorer fram",
+          "Radio",
+          "Smartphone integration",
+          "Stolsvärme fram",
+          "Urkopplingsbar passagerarairbag",
+          "Xenon-ljus"
+        ],
+        "boatWidth": null,
+        "createdAt": "2026-09-30T13:14:24",
+        "boatEngine": null,
+        "boatLength": null,
+        "boatWeight": null,
+        "finishType": "Metallic",
+        "protocolId": "260201",
+        "stoveFlames": null,
+        "heatingSystem": null,
+        "numberOfKeys": 1,
+        "boatCeBranded": false,
+        "boatGearModel": null,
+        "numberOfBunks": null,
+        "numberOfSeats": 7,
+        "boatEngineFuel": null,
+        "boatSepticTank": false,
+        "isRepairObject": false,
+        "boatEnginePower": null,
+        "serviceBookType": "EXISTS",
+        "boatExteriorColor": null,
+        "serviceBookStatus": "Service utförd vid följande mil: 3184, 5404, 8456, 11394, 13790, 15320, 17772 mil, senast 2026-08-14",
+        "boatEngineSerialNumber": null,
+        "odometerReadingAfterTest": {
+          "unit": "Mil",
+          "value": 17952
+        },
+        "odometerReadingAfterTestInKm": 179520
+      },
+      "auctionPriceValuation": {
+        "currency": "SEK"
+      },
+      "finalised": true,
+      "includedImageIds": null,
+      "createdAt": "2026-10-16T13:41:06.226433+00:00",
+      "updatedAt": "2026-10-27T16:02:51.990281+00:00",
+      "generatingInProgress": false,
+      "valuatorCommentLocalized": "Tänk dig att åka i en Volkswagen Sharan med automat i elegant silver metallic som gör varje resa bekväm och avslappnad. Det öppningsbara panoramataket släpper in extra ljus medan adaptiv farthållare och smartphone‑integration gör långkörningar både säkrare och roligare. AC ser till att du alltid har ett behagligt klimat i kupén. Nyligen servad."
+    },
+    "facts": {
+      "default": [
+        {
+          "key": "NUMBER_OF_PREVIOUS_OWNERS",
+          "text": "Antal tidigare ägare",
+          "value": 6,
+          "type": "string"
+        },
+        {
+          "key": "REGISTRATION_PLATE",
+          "text": "Registreringsnummer",
+          "value": "AWR823",
+          "type": "string"
+        },
+        {
+          "key": "MODEL_YEAR",
+          "text": "Modellår",
+          "value": 2016,
+          "type": "string"
+        },
+        {
+          "key": "MANUFACTURE_MONTH",
+          "text": "Tillverkningsmånad",
+          "value": "201602",
+          "type": "manufacture_month"
+        },
+        {
+          "key": "ODOMETER_READING",
+          "text": "Mätarställning",
+          "value": 179520,
+          "type": "distance"
+        },
+        {
+          "key": "INITIAL_TRAFFIC_DATE",
+          "text": "Första datum i trafik i Sverige",
+          "value": "2016-04-25",
+          "type": "date"
+        },
+        {
+          "key": "SERVICE_BOOK",
+          "text": "Servicehistorik",
+          "value": "Service utförd vid följande mil: 3184, 5404, 8456, 11394, 13790, 15320, 17772 mil, senast 2026-08-14",
+          "type": "string"
+        },
+        {
+          "key": "SERVICE_BOOK_TYPE",
+          "text": "Servicebok",
+          "value": "Ja",
+          "type": "string"
+        },
+        {
+          "key": "GEARBOX",
+          "text": "Växellåda",
+          "value": "Automat",
+          "type": "string"
+        },
+        {
+          "key": "NUMBER_OF_SEATS",
+          "text": "Antal säten",
+          "value": 7,
+          "type": "string"
+        },
+        {
+          "key": "NUMBER_OF_KEYS",
+          "text": "Antal nycklar",
+          "value": 1,
+          "type": "string"
+        },
+        {
+          "key": "EXTERIOR_COLOR",
+          "text": "Färg",
+          "value": "Silver",
+          "type": "string"
+        },
+        {
+          "key": "FINISH_TYPE",
+          "text": "Lack",
+          "value": "Metallic",
+          "type": "string"
+        },
+        {
+          "key": "TEXTILE",
+          "text": "Klädsel",
+          "value": "Textil",
+          "type": "string"
+        },
+        {
+          "key": "MANUFACTURER_WARRANTY",
+          "text": "Nybilsgaranti",
+          "value": "Inte undersökt",
+          "type": "string"
+        },
+        {
+          "key": "COLLISION_WARRANTY",
+          "text": "Vagnskadegaranti",
+          "value": "Inte undersökt",
+          "type": "string"
+        },
+        {
+          "key": "TAX_FEE",
+          "text": "Skatt årsavgift",
+          "value": "2458 SEK",
+          "type": "string"
+        }
+      ],
+      "additional": [
+        {
+          "key": "CHASSIS_NUMBER",
+          "text": "Chassinummer",
+          "value": "WVWZZZ7NZGV233690",
+          "type": "string"
+        },
+        {
+          "key": "ENGINE_EFFECT_DIESEL",
+          "text": "Motoreffekt (diesel)",
+          "value": 150,
+          "type": "engine_power"
+        },
+        {
+          "key": "TOWBAR",
+          "text": "Dragkrok",
+          "value": "Nej",
+          "type": "string"
+        },
+        {
+          "key": "MAX_PAYLOAD",
+          "text": "Maxlastvikt",
+          "value": 573,
+          "type": "weight"
+        },
+        {
+          "key": "CONSUMPTION_DIESEL",
+          "text": "Bränsleförbr. blandad körning (diesel)",
+          "value": 5.2,
+          "type": "consumption"
+        },
+        {
+          "key": "CO2_DIESEL",
+          "text": "CO2-utsläpp (diesel)",
+          "value": 137,
+          "type": "emission"
+        },
+        {
+          "key": "INSPECTION_VALID_TO_DATE",
+          "text": "Nästa besiktning senast",
+          "value": "2027-03-31",
+          "type": "string"
+        },
+        {
+          "key": "CURB_WEIGHT",
+          "text": "Tjänstevikt",
+          "value": 1967,
+          "type": "weight"
+        },
+        {
+          "key": "TAX_WEIGHT",
+          "text": "Skattevikt",
+          "value": 1960,
+          "type": "weight"
+        },
+        {
+          "key": "MAX_TRAILER_WEIGHT",
+          "text": "Maximal släpvagnsvikt",
+          "value": 2200,
+          "type": "weight"
+        },
+        {
+          "key": "TOTAL_WEIGHT",
+          "text": "Fordonets totalvikt",
+          "value": 2540,
+          "type": "weight"
+        },
+        {
+          "key": "LENGTH",
+          "text": "Längd",
+          "value": 4854,
+          "type": "length"
+        },
+        {
+          "key": "WIDTH",
+          "text": "Bredd",
+          "value": 1904,
+          "type": "length"
+        },
+        {
+          "key": "HEIGHT",
+          "text": "Höjd",
+          "value": 1698,
+          "type": "length"
+        }
+      ],
+      "other": [
+        {
+          "key": "SOLD_IN_SWEDEN",
+          "text": "Svensksåld",
+          "value": "Ja",
+          "type": "string"
+        },
+        {
+          "key": "EXPORTABLE",
+          "text": "Kan exporteras",
+          "value": "Ja",
+          "type": "string"
+        },
+        {
+          "key": "DEDUCTIBLE_VAT",
+          "text": "Avlyftbar moms",
+          "value": "Nej",
+          "type": "string"
+        }
+      ]
+    },
+    "majorFeature": [
+      {
+        "key": "NUMBER_OF_SEATS",
+        "title": "Antal säten",
+        "value": 7,
+        "equipment": null
+      },
+      {
+        "key": "OPPNINGSBART_PANORAMATAK",
+        "title": "Öppningsbart panoramatak",
+        "value": null,
+        "equipment": "Utrustning",
+        "description": "Glastak som är delvis öppningsbart"
+      },
+      {
+        "key": "ADAPTIV_FARTHALLARE",
+        "title": "Adaptiv farthållare",
+        "value": null,
+        "equipment": "Utrustning",
+        "description": "Farthållare som hjälper till att hålla ett givet avstånd till framförvarande fordon."
+      },
+      {
+        "key": "SMARTPHONE_INTEGRATION",
+        "title": "Smartphone integration",
+        "value": null,
+        "equipment": "Utrustning",
+        "description": null
+      }
+    ],
+    "batteryTestCertificateAvailable": false
+  },
+  "previewImages": [
+    {
+      "processObjectId": "7292636",
+      "uri": "https://kvdbil-images.imgix.net/7292636/355f0536.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292636/355f0536.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 1
+    },
+    {
+      "processObjectId": "7292636",
+      "uri": "https://kvdbil-images.imgix.net/7292636/a39fca8d.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292636/a39fca8d.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 1
+    },
+    {
+      "processObjectId": "7292636",
+      "uri": "https://kvdbil-images.imgix.net/7292636/18687950.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292636/18687950.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 2
+    },
+    {
+      "processObjectId": "7292636",
+      "uri": "https://kvdbil-images.imgix.net/7292636/d15a6ebf.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292636/d15a6ebf.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 2
+    },
+    {
+      "processObjectId": "7292636",
+      "uri": "https://kvdbil-images.imgix.net/7292636/ab5919d9.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292636/ab5919d9.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 3
+    },
+    {
+      "processObjectId": "7292636",
+      "uri": "https://kvdbil-images.imgix.net/7292636/d6f54355.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292636/d6f54355.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 4
+    },
+    {
+      "processObjectId": "7292636",
+      "uri": "https://kvdbil-images.imgix.net/7292636/c506ba30.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292636/c506ba30.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 5
+    },
+    {
+      "processObjectId": "7292636",
+      "uri": "https://kvdbil-images.imgix.net/7292636/5247f24c.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292636/5247f24c.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 6
+    },
+    {
+      "processObjectId": "7292636",
+      "uri": "https://kvdbil-images.imgix.net/7292636/750e910f.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292636/750e910f.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 6
+    },
+    {
+      "processObjectId": "7292636",
+      "uri": "https://kvdbil-images.imgix.net/7292636/572f4c77.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292636/572f4c77.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 7
+    },
+    {
+      "processObjectId": "7292636",
+      "uri": "https://kvdbil-images.imgix.net/7292636/ab8be39e.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292636/ab8be39e.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 7
+    },
+    {
+      "processObjectId": "7292636",
+      "uri": "https://kvdbil-images.imgix.net/7292636/9127dd36.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292636/9127dd36.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 8
+    },
+    {
+      "processObjectId": "7292636",
+      "uri": "https://kvdbil-images.imgix.net/7292636/7c44c91a.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292636/7c44c91a.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 8
+    },
+    {
+      "processObjectId": "7292636",
+      "uri": "https://kvdbil-images.imgix.net/7292636/00b324da.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292636/00b324da.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 9
+    },
+    {
+      "processObjectId": "7292636",
+      "uri": "https://kvdbil-images.imgix.net/7292636/a171ff90.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292636/a171ff90.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 9
+    },
+    {
+      "processObjectId": "7292636",
+      "uri": "https://kvdbil-images.imgix.net/7292636/00bf9026.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292636/00bf9026.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 10
+    },
+    {
+      "processObjectId": "7292636",
+      "uri": "https://kvdbil-images.imgix.net/7292636/ed8306b1.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292636/ed8306b1.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 10
+    },
+    {
+      "processObjectId": "7292636",
+      "uri": "https://kvdbil-images.imgix.net/7292636/007a795f.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292636/007a795f.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 11
+    },
+    {
+      "processObjectId": "7292636",
+      "uri": "https://kvdbil-images.imgix.net/7292636/e8978e04.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292636/e8978e04.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 12
+    },
+    {
+      "processObjectId": "7292636",
+      "uri": "https://kvdbil-images.imgix.net/7292636/59adbfed.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292636/59adbfed.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 12
+    },
+    {
+      "processObjectId": "7292636",
+      "uri": "https://kvdbil-images.imgix.net/7292636/297f816c.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292636/297f816c.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 13
+    },
+    {
+      "processObjectId": "7292636",
+      "uri": "https://kvdbil-images.imgix.net/7292636/11bd1f96.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292636/11bd1f96.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 13
+    },
+    {
+      "processObjectId": "7292636",
+      "uri": "https://kvdbil-images.imgix.net/7292636/0599130a.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292636/0599130a.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 14
+    },
+    {
+      "processObjectId": "7292636",
+      "uri": "https://kvdbil-images.imgix.net/7292636/ddcee281.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292636/ddcee281.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 15
+    },
+    {
+      "processObjectId": "7292636",
+      "uri": "https://kvdbil-images.imgix.net/7292636/425902f3.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292636/425902f3.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 15
+    },
+    {
+      "processObjectId": "7292636",
+      "uri": "https://kvdbil-images.imgix.net/7292636/389e6ef0.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292636/389e6ef0.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 16
+    },
+    {
+      "processObjectId": "7292636",
+      "uri": "https://kvdbil-images.imgix.net/7292636/df6940c2.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292636/df6940c2.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 17
+    },
+    {
+      "processObjectId": "7292636",
+      "uri": "https://kvdbil-images.imgix.net/7292636/ec39ef80.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292636/ec39ef80.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 18
+    }
+  ],
+  "similarAuctions": [],
+  "activeAuction": {
+    "auctionId": "307802",
+    "closed": true,
+    "countdownInProgress": true,
+    "preliminaryCloseAt": "2026-11-03T12:05:11.535910+00:00",
+    "createdAt": "2026-10-27T16:02:55.551896+00:00",
+    "updatedAt": "2026-11-03T12:05:11.555319+00:00",
+    "vatExcludedBiddingAllowed": false,
+    "reservationPriceReached": false,
+    "bids": [
+      {
+        "id": 18701285,
+        "auctionId": 307802,
+        "bidderAlias": "5",
+        "amount": 120500,
+        "type": "NORMAL",
+        "maxBidId": 10928041,
+        "triggeredBy": 10928041,
+        "createdAt": "2026-11-03T12:01:41.542893+00:00",
+        "updatedAt": "2026-11-03T12:01:41.542897+00:00"
+      },
+      {
+        "id": 18701284,
+        "auctionId": 307802,
+        "bidderAlias": "4",
+        "amount": 120000,
+        "type": "LIMIT_REACHED",
+        "maxBidId": 10928017,
+        "triggeredBy": 10928041,
+        "createdAt": "2026-11-03T12:01:41.542880+00:00",
+        "updatedAt": "2026-11-03T12:01:41.542888+00:00"
+      },
+      {
+        "id": 18701282,
+        "auctionId": 307802,
+        "bidderAlias": "4",
+        "amount": 119500,
+        "type": "AUTO",
+        "maxBidId": 10928017,
+        "triggeredBy": 10928039,
+        "createdAt": "2026-11-03T12:01:28.759595+00:00",
+        "updatedAt": "2026-11-03T12:01:28.759598+00:00"
+      },
+      {
+        "id": 18701281,
+        "auctionId": 307802,
+        "bidderAlias": "5",
+        "amount": 119000,
+        "type": "NORMAL",
+        "maxBidId": 10928039,
+        "triggeredBy": 10928039,
+        "createdAt": "2026-11-03T12:01:28.759587+00:00",
+        "updatedAt": "2026-11-03T12:01:28.759593+00:00"
+      },
+      {
+        "id": 18701274,
+        "auctionId": 307802,
+        "bidderAlias": "4",
+        "amount": 118500,
+        "type": "AUTO",
+        "maxBidId": 10928017,
+        "triggeredBy": 10928035,
+        "createdAt": "2026-11-03T12:00:43.166756+00:00",
+        "updatedAt": "2026-11-03T12:00:43.166759+00:00"
+      },
+      {
+        "id": 18701273,
+        "auctionId": 307802,
+        "bidderAlias": "5",
+        "amount": 118000,
+        "type": "NORMAL",
+        "maxBidId": 10928035,
+        "triggeredBy": 10928035,
+        "createdAt": "2026-11-03T12:00:43.166738+00:00",
+        "updatedAt": "2026-11-03T12:00:43.166751+00:00"
+      },
+      {
+        "id": 18701258,
+        "auctionId": 307802,
+        "bidderAlias": "4",
+        "amount": 117500,
+        "type": "AUTO",
+        "maxBidId": 10928017,
+        "triggeredBy": 10928027,
+        "createdAt": "2026-11-03T11:59:55.621524+00:00",
+        "updatedAt": "2026-11-03T11:59:55.621527+00:00"
+      },
+      {
+        "id": 18701257,
+        "auctionId": 307802,
+        "bidderAlias": "5",
+        "amount": 117000,
+        "type": "NORMAL",
+        "maxBidId": 10928027,
+        "triggeredBy": 10928027,
+        "createdAt": "2026-11-03T11:59:55.621511+00:00",
+        "updatedAt": "2026-11-03T11:59:55.621519+00:00"
+      },
+      {
+        "id": 18701256,
+        "auctionId": 307802,
+        "bidderAlias": "4",
+        "amount": 115500,
+        "type": "AUTO",
+        "maxBidId": 10928017,
+        "triggeredBy": 10928026,
+        "createdAt": "2026-11-03T11:59:06.684056+00:00",
+        "updatedAt": "2026-11-03T11:59:06.684059+00:00"
+      },
+      {
+        "id": 18701255,
+        "auctionId": 307802,
+        "bidderAlias": "2",
+        "amount": 115000,
+        "type": "NORMAL",
+        "maxBidId": 10928026,
+        "triggeredBy": 10928026,
+        "createdAt": "2026-11-03T11:59:06.684047+00:00",
+        "updatedAt": "2026-11-03T11:59:06.684053+00:00"
+      },
+      {
+        "id": 18701248,
+        "auctionId": 307802,
+        "bidderAlias": "4",
+        "amount": 114500,
+        "type": "AUTO",
+        "maxBidId": 10928017,
+        "triggeredBy": 10928021,
+        "createdAt": "2026-11-03T11:58:14.735285+00:00",
+        "updatedAt": "2026-11-03T11:58:14.735288+00:00"
+      },
+      {
+        "id": 18701247,
+        "auctionId": 307802,
+        "bidderAlias": "2",
+        "amount": 114000,
+        "type": "NORMAL",
+        "maxBidId": 10928021,
+        "triggeredBy": 10928021,
+        "createdAt": "2026-11-03T11:58:14.735276+00:00",
+        "updatedAt": "2026-11-03T11:58:14.735282+00:00"
+      },
+      {
+        "id": 18701242,
+        "auctionId": 307802,
+        "bidderAlias": "4",
+        "amount": 113000,
+        "type": "AUTO",
+        "maxBidId": 10928017,
+        "triggeredBy": 10928018,
+        "createdAt": "2026-11-03T11:57:48.104727+00:00",
+        "updatedAt": "2026-11-03T11:57:48.104730+00:00"
+      },
+      {
+        "id": 18701241,
+        "auctionId": 307802,
+        "bidderAlias": "2",
+        "amount": 112500,
+        "type": "NORMAL",
+        "maxBidId": 10928018,
+        "triggeredBy": 10928018,
+        "createdAt": "2026-11-03T11:57:48.104720+00:00",
+        "updatedAt": "2026-11-03T11:57:48.104725+00:00"
+      },
+      {
+        "id": 18701240,
+        "auctionId": 307802,
+        "bidderAlias": "4",
+        "amount": 112000,
+        "type": "NORMAL",
+        "maxBidId": 10928017,
+        "triggeredBy": 10928017,
+        "createdAt": "2026-11-03T11:57:21.258589+00:00",
+        "updatedAt": "2026-11-03T11:57:21.258597+00:00"
+      },
+      {
+        "id": 18701236,
+        "auctionId": 307802,
+        "bidderAlias": "2",
+        "amount": 111500,
+        "type": "NORMAL",
+        "maxBidId": 10928014,
+        "triggeredBy": 10928014,
+        "createdAt": "2026-11-03T11:56:40.570096+00:00",
+        "updatedAt": "2026-11-03T11:56:40.570105+00:00"
+      },
+      {
+        "id": 18701231,
+        "auctionId": 307802,
+        "bidderAlias": "4",
+        "amount": 111000,
+        "type": "NORMAL",
+        "maxBidId": 10928010,
+        "triggeredBy": 10928010,
+        "createdAt": "2026-11-03T11:56:02.116118+00:00",
+        "updatedAt": "2026-11-03T11:56:02.116125+00:00"
+      },
+      {
+        "id": 18701095,
+        "auctionId": 307802,
+        "bidderAlias": "2",
+        "amount": 110500,
+        "type": "AUTO",
+        "maxBidId": 10922735,
+        "triggeredBy": 10927931,
+        "createdAt": "2026-11-03T11:32:28.330127+00:00",
+        "updatedAt": "2026-11-03T11:32:28.330129+00:00"
+      },
+      {
+        "id": 18701094,
+        "auctionId": 307802,
+        "bidderAlias": "3",
+        "amount": 110000,
+        "type": "NORMAL",
+        "maxBidId": 10927931,
+        "triggeredBy": 10927931,
+        "createdAt": "2026-11-03T11:32:28.330116+00:00",
+        "updatedAt": "2026-11-03T11:32:28.330124+00:00"
+      },
+      {
+        "id": 18692166,
+        "auctionId": 307802,
+        "bidderAlias": "2",
+        "amount": 109500,
+        "type": "NORMAL",
+        "maxBidId": 10922735,
+        "triggeredBy": 10922735,
+        "createdAt": "2026-11-02T08:56:43.945877+00:00",
+        "updatedAt": "2026-11-02T08:56:43.945883+00:00"
+      },
+      {
+        "id": 18681222,
+        "auctionId": 307802,
+        "bidderAlias": "1",
+        "amount": 109000,
+        "type": "NORMAL",
+        "maxBidId": 10916444,
+        "triggeredBy": 10916444,
+        "createdAt": "2026-10-29T21:42:00.449195+00:00",
+        "updatedAt": "2026-10-29T21:42:00.449205+00:00"
+      }
+    ],
+    "myBidderAlias": null,
+    "myMaxBid": null,
+    "highestBid": {
+      "id": 18701285,
+      "auctionId": 307802,
+      "bidderAlias": null,
+      "amount": 120500,
+      "type": "NORMAL",
+      "maxBidId": 10928041,
+      "triggeredBy": 10928041,
+      "createdAt": "2026-11-03T12:01:41.542893+00:00",
+      "updatedAt": "2026-11-03T12:01:41.542897+00:00",
+      "eurAmount": 10930
+    },
+    "buyNowAvailable": false,
+    "releasing": null,
+    "isHighestBidLowerThanResidualLoanValue": false
+  },
+  "checkoutOrder": null,
+  "previewImage": "https://kvdbil-images.imgix.net/7292636/355f0536.jpg",
+  "_list_meta": {
+    "id": "307802",
+    "slug": "volkswagen-sharan-2-0-tdi-150hk",
+    "auctionType": "BIDDING",
+    "closedAt": "2026-11-03T12:05:11.548549+00:00",
+    "updatedAt": "2026-11-05T07:39:08.403299+00:00"
+  },
+  "_scraped_at": "2026-11-07T06:57:08.063452+00:00",
+  "_url": "https://www.kvd.se/auktioner/volkswagen-sharan-2-0-tdi-150hk-307802"
+}
