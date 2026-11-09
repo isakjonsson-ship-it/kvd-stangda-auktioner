@@ -3,6 +3,7 @@
 KVD stängda auktioner-scraper.
 Hämtar listan + detaljer och sparar full JSON + aggregerad sammanställning.
 Hoppar över redan skrapade ID:n och lägger till max 50 nya per körning.
+Underhåller också en global aggregated_all.json/csv utan dubbletter.
 """
 
 import json
@@ -25,7 +26,6 @@ SESSION.headers.update(HEADERS)
 DATA_DIR = Path("data")
 DELAY_BETWEEN_REQUESTS = 0.8
 
-# Alla fält som alltid ska finnas i aggregerade rader
 AGG_FIELDS = [
     "id", "slug", "url", "brand", "model", "model_name", "model_year",
     "odometer_km", "fuel", "fuel_codes", "electric_type", "is_ev",
@@ -37,7 +37,6 @@ AGG_FIELDS = [
 
 
 def get_already_scraped_ids() -> set:
-    """Hittar alla redan skrapade auktions-ID:n genom att titta i alla details-mappar."""
     scraped = set()
     if not DATA_DIR.exists():
         return scraped
@@ -52,7 +51,6 @@ def get_already_scraped_ids() -> set:
 
 
 def fetch_closed_list():
-    """Hämtar listan över stängda auktioner (JSON inbäddad i sidan)."""
     r = SESSION.get(LIST_URL, timeout=30)
     r.raise_for_status()
     m = re.search(r'"link-graveyard":\{"auctions":(\[.*?\])\}', r.text)
@@ -62,7 +60,6 @@ def fetch_closed_list():
 
 
 def extract_auction_object(html: str, auction_id: str) -> dict | None:
-    """Extraherar det stora auktionsobjektet från detaljsidans Redux-state."""
     marker = f'"{auction_id}":{{'
     idx = html.find(marker)
     if idx == -1:
@@ -76,7 +73,6 @@ def extract_auction_object(html: str, auction_id: str) -> dict | None:
 
 
 def scrape_detail(auction: dict) -> dict:
-    """Hämtar och parsar en enskild auktionssida."""
     auction_id = auction["id"]
     slug = auction["slug"]
     url = f"{BASE_URL}/auktioner/{slug}-{auction_id}"
@@ -98,7 +94,6 @@ def scrape_detail(auction: dict) -> dict:
 
 
 def extract_fuel_info(props: dict) -> dict:
-    """Extraherar bränsletyp, EV-flagga och hybrid-info."""
     electric_type = props.get("electricType")
     fuels = props.get("fuels") or []
     fuel_codes = [f.get("fuelCode") for f in fuels if f.get("fuelCode")]
@@ -129,7 +124,6 @@ def extract_fuel_info(props: dict) -> dict:
 
 
 def flatten_for_aggregate(full: dict) -> dict:
-    """Tar ut de intressanta fälten till den aggregerade filen. Alla rader har samma nycklar."""
     base = {field: None for field in AGG_FIELDS}
 
     if "error" in full:
@@ -190,7 +184,6 @@ def flatten_for_aggregate(full: dict) -> dict:
 
 
 def rebuild_aggregated(day_dir: Path):
-    """Bygger om aggregated.json/csv från alla details i dagens mapp."""
     details_dir = day_dir / "details"
     aggregated = []
     for detail_file in sorted(details_dir.glob("*.json")):
@@ -213,11 +206,47 @@ def rebuild_aggregated(day_dir: Path):
         writer.writeheader()
         writer.writerows(aggregated)
 
-    print(f"Aggregerat uppdaterat: {len(aggregated)} rader")
+    print(f"Aggregerat (dag): {len(aggregated)} rader")
+
+
+def rebuild_global_aggregated():
+    """Bygger om data/aggregated_all.json + .csv från alla details-mappar, utan dubbletter."""
+    seen = {}
+    for day_dir in sorted(DATA_DIR.iterdir()):
+        if not day_dir.is_dir():
+            continue
+        details_dir = day_dir / "details"
+        if not details_dir.exists():
+            continue
+        for detail_file in details_dir.glob("*.json"):
+            aid = detail_file.stem
+            if aid in seen:
+                continue
+            try:
+                full = json.loads(detail_file.read_text(encoding="utf-8"))
+                seen[aid] = flatten_for_aggregate(full)
+            except Exception as e:
+                print(f"Kunde inte läsa {detail_file}: {e}")
+
+    if not seen:
+        print("Ingen data att aggregera globalt.")
+        return
+
+    rows = list(seen.values())
+    global_json = DATA_DIR / "aggregated_all.json"
+    global_json.write_text(json.dumps(rows, ensure_ascii=False, indent=2), encoding="utf-8")
+
+    import csv
+    global_csv = DATA_DIR / "aggregated_all.csv"
+    with global_csv.open("w", newline="", encoding="utf-8") as f:
+        writer = csv.DictWriter(f, fieldnames=AGG_FIELDS, extrasaction="ignore")
+        writer.writeheader()
+        writer.writerows(rows)
+
+    print(f"Global aggregerad: {len(rows)} unika auktioner → data/aggregated_all.json + .csv")
 
 
 def main(max_details: int | None = None):
-    """max_details = max antal NYA auktioner att skrapa den här körningen."""
     today = datetime.now().strftime("%Y-%m-%d")
     day_dir = DATA_DIR / today
     details_dir = day_dir / "details"
@@ -253,11 +282,9 @@ def main(max_details: int | None = None):
         time.sleep(DELAY_BETWEEN_REQUESTS)
 
     rebuild_aggregated(day_dir)
+    rebuild_global_aggregated()
 
-    print(f"\nKlart. Data sparad i {day_dir}/")
-    print(f"- Lista: {list_path}")
-    print(f"- Detaljer: {details_dir}/ ({len(list(details_dir.glob('*.json')))} filer)")
-    print(f"- Aggregerat: aggregated.json + aggregated.csv")
+    print(f"\nKlart. Data sparad i {day_dir}/ och data/aggregated_all.*")
 
 
 if __name__ == "__main__":
