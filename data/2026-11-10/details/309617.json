@@ -1,0 +1,2519 @@
+{
+  "id": "309617",
+  "auctionType": "BIDDING",
+  "biddingFee": "4425.00",
+  "biddingFeeCorporate": "5613.00",
+  "mediationFee": 0,
+  "mediationFeeCorporate": 0,
+  "buyNow": false,
+  "closedAt": "2026-11-10T10:48:46.847091+00:00",
+  "publishedAt": "2026-11-05T16:06:35.227770+00:00",
+  "countdownDuration": 210,
+  "countdownStartAt": "2026-11-10T10:09:30+00:00",
+  "createdAt": "2026-10-30T08:16:17.353238+00:00",
+  "readyForAuctionAt": "2026-11-08",
+  "currency": "SEK",
+  "maxBidRaise": 100000,
+  "minBidRaise": 500,
+  "startBid": 0,
+  "openedAt": "2026-11-05T16:06:35.215366+00:00",
+  "processObjectId": "7291894",
+  "readyForCheckout": false,
+  "soldFor": 68000,
+  "sellMethod": "BIDDING",
+  "slug": "vw-golf-vii-1-2-tsi-5dr-110hk",
+  "auctionUrl": "https://www.kvd.se/auktioner/vw-golf-vii-1-2-tsi-5dr-110hk-309617",
+  "state": "FINISHED",
+  "targetedAuctionGroupId": null,
+  "updatedAt": "2026-11-10T14:35:57.976145+00:00",
+  "releasing": null,
+  "loan": {
+    "loanCost": 579,
+    "loanCostBuyNow": null
+  },
+  "buyNowAmount": null,
+  "buyNowAvailable": false,
+  "buyNowUntil": null,
+  "eligibleForAdditionalServices": true,
+  "comingSoon": false,
+  "preliminaryPrice": null,
+  "maxAllowedBid": null,
+  "isReserved": false,
+  "isSoldByBuyNow": false,
+  "favouriteCount": 30,
+  "eurBuyNowAmount": null,
+  "winningBid": {
+    "id": 18738465,
+    "type": "NORMAL",
+    "amount": 68000,
+    "auctionId": 309617,
+    "createdAt": "2026-11-10T10:45:16.845026+00:00",
+    "maxBidId": 10949730,
+    "updatedAt": "2026-11-10T10:45:16.845035+00:00",
+    "bidderAlias": null,
+    "triggeredBy": 10949730,
+    "evaluationType": "AUTOMATIC"
+  },
+  "processObject": {
+    "id": "7291894",
+    "initialBuyNowAmount": null,
+    "certified": false,
+    "statisticalValuation": null,
+    "conditionClassification": "TESTED",
+    "createdAt": "2026-10-12 11:44:50.207265+00:00",
+    "sellMethod": "BIDDING",
+    "orderableAdditionalServices": {
+      "tradein": false,
+      "transport": true,
+      "insurance": true,
+      "finance": true,
+      "warranty": true,
+      "extraTires": false
+    },
+    "presentationApproved": false,
+    "properties": {
+      "numberOfSeats": 5,
+      "environmentalClassEuro": "6",
+      "deductibleVat": false,
+      "residualLoanValue": 0,
+      "remarksLocalized": {
+        "TIRES": "Lackskada på fälg",
+        "BRAKES": "Bromsskivor fram är slitna, behöver bytas inom 6 månader",
+        "EXTERIOR": "Karosskada höger bakskärm",
+        "INTERIOR": null,
+        "ENGINE_AND_GEARBOX": null,
+        "TECHNOLOGY_AND_EQUIPMENT": "Strålkastarglas vänster, matt"
+      },
+      "taxFee": 426,
+      "modelYear": 2017,
+      "dateOfInspection": "2026-10-15",
+      "height": 1437,
+      "numberOfKeys": 2,
+      "ecoFriendly": false,
+      "maxPayload": 479,
+      "odometerReading": 206230,
+      "maxPullWeightB": 1740,
+      "formattedEquipment": [
+        {
+          "key": "AC",
+          "title": "AC",
+          "description": "Luftkonditionering utan möjlighet till automatisk temperaturinställning",
+          "priority": 0
+        },
+        {
+          "key": "ADAPTIV_FARTHALLARE",
+          "title": "Adaptiv farthållare",
+          "description": "Farthållare som hjälper till att hålla ett givet avstånd till framförvarande fordon.",
+          "priority": 1
+        },
+        {
+          "key": "ANTISLADDSYSTEM",
+          "title": "Antisladdsystem",
+          "description": "Ett system som känner av om bilen håller på att sladda. Genom att bromsa enskilda hjul stabiliseras bilen och sladden förhindras, även kallat ESP.",
+          "priority": 2
+        },
+        {
+          "key": "ANTISPINN",
+          "title": "Antispinn",
+          "description": "Hjälpsystem som förhindrar att hjulen spinner",
+          "priority": 3
+        },
+        {
+          "key": "AUTO_HOLD",
+          "title": "Auto hold",
+          "description": "Hindrar bilen tillfälligt från att rulla bakåt när du startar i motlut",
+          "priority": 4
+        },
+        {
+          "key": "AUTOBROMS",
+          "title": "Autobroms",
+          "description": "Automatisk inbromsning vid lägre hastigheter för mötande fordon och hinder framför bilen (City Safety)",
+          "priority": 5
+        },
+        {
+          "key": "AUX_INGANG",
+          "title": "AUX-ingång",
+          "description": "Stereoinkoppling av mobil enhet",
+          "priority": 6
+        },
+        {
+          "key": "BLUETOOTH",
+          "title": "Bluetooth",
+          "description": "Trådlös uppkoppling mot mobila enheter",
+          "priority": 7
+        },
+        {
+          "key": "ELHISS_BAK",
+          "title": "Elhiss bak",
+          "description": "Elektroniska fönsterhissar bak",
+          "priority": 8
+        },
+        {
+          "key": "ELHISS_FRAM",
+          "title": "Elhiss fram",
+          "description": "Elektronisk fönsterhiss fram",
+          "priority": 9
+        },
+        {
+          "key": "ELSPEGLAR",
+          "title": "Elspeglar",
+          "description": "Elektroniskt ställbara sidospeglar",
+          "priority": 10
+        },
+        {
+          "key": "FARTHALLARE",
+          "title": "Farthållare",
+          "description": "Elektroniskt system som håller inprogrammerad hastighet",
+          "priority": 11
+        },
+        {
+          "key": "FASTMONTERAD_DRAGKROK",
+          "title": "Fastmonterad dragkrok",
+          "description": " Anordning för att dra exempelvis personbilssläp, båttrailer mm. Fastmonterad på bilen.",
+          "priority": 12
+        },
+        {
+          "key": "FJARRLAS",
+          "title": "Fjärrlås",
+          "description": "Möjliggör att du på distans kan låsa och låsa upp bilen",
+          "priority": 13
+        },
+        {
+          "key": "ISOFIX_BAK",
+          "title": "Isofix bak",
+          "description": "  Fästsystem för bilbarnstolar enligt internationell standard, även kallat Isofix",
+          "priority": 14
+        },
+        {
+          "key": "RADIO",
+          "title": "Radio",
+          "description": "Radiospelare",
+          "priority": 15
+        },
+        {
+          "key": "START_STOP_FUNKTION",
+          "title": "Start/Stopp-funktion",
+          "description": "Automatisk på och avstängning av motor vid exempelvis trafikljus",
+          "priority": 16
+        },
+        {
+          "key": "STOLSVARME_FRAM",
+          "title": "Stolsvärme fram",
+          "description": "Olika nivåer av värme i stolarna fram som ställs in via en knapp",
+          "priority": 17
+        },
+        {
+          "key": "URKOPPLINGSBAR_PASSAGERARAIRBAG",
+          "title": "Urkopplingsbar passagerarairbag",
+          "description": "Möjlighet att koppla till och från airbagen på passagerarsidan",
+          "priority": 18
+        },
+        {
+          "key": "USB_INGANG",
+          "title": "USB-ingång",
+          "description": "Inkoppling av mobil enhet via USB-kontakt",
+          "priority": 19
+        }
+      ],
+      "odometerUnit": "km",
+      "adHeader": "Golf VII 1.2 TSI 5dr (110hk) Dragkrok",
+      "remarks": {
+        "TIRES": [
+          {
+            "id": "0",
+            "key": "Lackskada på fälg",
+            "category": "TIRES"
+          }
+        ],
+        "BRAKES": [
+          {
+            "id": "0",
+            "key": "Bromsskivor fram är slitna, behöver bytas inom 6 månader",
+            "category": "BRAKES"
+          }
+        ],
+        "TECHNOLOGY_AND_EQUIPMENT": [
+          {
+            "id": "0",
+            "key": "Strålkastarglas vänster, matt",
+            "category": "TECHNOLOGY_AND_EQUIPMENT"
+          }
+        ],
+        "EXTERIOR": [
+          {
+            "id": "0",
+            "key": "Karosskada höger bakskärm",
+            "category": "EXTERIOR"
+          }
+        ],
+        "INTERIOR": [],
+        "ENGINE_AND_GEARBOX": []
+      },
+      "brand": "Volkswagen",
+      "drivingBan": false,
+      "modelName": "Golf VII 1.2 TSI 5dr (110hk)",
+      "maxTrailerWeight": 1300,
+      "totalWeight": 1760,
+      "textile": "Textil",
+      "saleLimitedToCorporate": false,
+      "gearbox": "Manual",
+      "manufactureMonth": "201606",
+      "hasUnpaidLoan": false,
+      "curbWeight": 1281,
+      "grades": {
+        "BRAKES": {
+          "value": 2,
+          "min": 1,
+          "max": 3
+        },
+        "TOTAL": {
+          "value": 3,
+          "min": 1,
+          "max": 5
+        },
+        "TECHNOLOGY_AND_EQUIPMENT": {
+          "value": 2,
+          "min": 1,
+          "max": 3
+        },
+        "EXTERIOR": {
+          "value": 3,
+          "min": 1,
+          "max": 5
+        },
+        "INTERIOR": {
+          "value": 3,
+          "min": 1,
+          "max": 5
+        },
+        "ENGINE_AND_GEARBOX": {
+          "value": 3,
+          "min": 1,
+          "max": 3
+        }
+      },
+      "heavyEquipment": false,
+      "registrationPlate": "POK794",
+      "equipment": [
+        "AC",
+        "Adaptiv farthållare",
+        "Antisladdsystem",
+        "Antispinn",
+        "Auto hold",
+        "Autobroms",
+        "AUX-ingång",
+        "Bluetooth",
+        "Elhiss bak",
+        "Elhiss fram",
+        "Elspeglar",
+        "Farthållare",
+        "Fastmonterad dragkrok",
+        "Fjärrlås",
+        "Isofix bak",
+        "Radio",
+        "Start/Stop-funktion",
+        "Stolsvärme fram",
+        "Urkopplingsbar passagerarairbag",
+        "USB-ingång"
+      ],
+      "importedForPersonalUse": false,
+      "package": "Dragkrok",
+      "exteriorColor": "White",
+      "isRepairObject": false,
+      "width": 1790,
+      "fuels": [
+        {
+          "fuelCode": "Petrol",
+          "enginePower": 110,
+          "co2": 114,
+          "consumption": 4.9
+        }
+      ],
+      "registrationCountry": "se",
+      "inspectionPeriod": "2026-10-15 - 2027-12-31",
+      "inspectionValidToDate": "2027-12-31",
+      "finishType": "Solid",
+      "body": "Hatchback",
+      "mustExport": false,
+      "towbar": false,
+      "initialTrafficDate": "2016-12-28",
+      "chassisNumber": "WVWZZZAUZHP007802",
+      "numberOfPreviousOwners": 5,
+      "mediation": true,
+      "title": "VW Golf VII 1.2 TSI 5dr (110hk)",
+      "taxWeight": 1280,
+      "familyName": "Golf",
+      "length": 4255,
+      "exportable": true,
+      "registrationPlateCountry": "se",
+      "heading1": "Volkswagen Golf",
+      "heading2": "VII 1.2 TSI 5dr",
+      "heading3": "Dragkrok"
+    },
+    "state": "AUCTION",
+    "baseObjectId": "522206",
+    "leaseReturnProperties": {},
+    "isReleasable": false,
+    "offsiteSalesContact": null,
+    "buyNowAmount": null,
+    "proactiveBrokering": null,
+    "displayCar360Spin": true,
+    "reducedPrice": false,
+    "objectType": "CAR",
+    "car360Spin": null,
+    "isFixedPrice": false,
+    "baseObject": {
+      "id": "522206",
+      "year": "2017",
+      "earliestAvailableAt": null,
+      "registrationPlate": "POK794",
+      "baseObjectType": "CAR",
+      "createdAt": "2026-10-12T11:44:49.987061+00:00",
+      "modelId": null,
+      "body": "Hatchback",
+      "salesFlow": "CONSUMER_CARS",
+      "state": "MANUAL_VALUATION_PENDING",
+      "brand": "Volkswagen",
+      "exteriorColor": "White",
+      "modelName": "Golf VII 1.2 TSI 5dr (110hk)",
+      "authorityRegisterInformation": {
+        "registrationInformation": {
+          "registrationPlate": "POK794",
+          "deregistrationDate": null,
+          "deregistrationText": null,
+          "deregistrationReason": null
+        },
+        "environmentalClassification": {
+          "fuels": [
+            {
+              "co2": 114,
+              "nox": "",
+              "nox4": null,
+              "fuelCode": "Petrol",
+              "hcThcNox": "",
+              "consumption": 4.9,
+              "noiseLevel": 72,
+              "emissionUnit": "g/km",
+              "innovationCo2": null,
+              "particleValue": "",
+              "particleMass4": null,
+              "consumptionUnit": "4,9",
+              "rangeNedcDrive": null,
+              "rangeWltpDrive": null,
+              "consumptionUrban": 6.1,
+              "rangeCityWltpDrive": null,
+              "consumptionExtraUrban": 4.2,
+              "electricEnergyConsumption": null,
+              "energyConsumptionWltpDrive": null
+            }
+          ],
+          "ecoFriendly": false,
+          "emissionClass": "EURO 6",
+          "innovationCode": null,
+          "environmentalClass": null,
+          "environmentalClassEuro": "6"
+        },
+        "generalTechSpecification": {
+          "eeg": "e1*2007/46*0623*20",
+          "fuels": [
+            {
+              "fuelCode": "Petrol",
+              "powerUnit": "EG",
+              "enginePower": 81,
+              "enginePowerHp": 110,
+              "fuelTankVolume": ""
+            }
+          ],
+          "width": 1790,
+          "height": 1437,
+          "length": 4255,
+          "gearbox": "Manual",
+          "variant": "GAC4CYVBX0",
+          "version": "FM6FM6AJ009N7MMON1VL61VR2",
+          "taxWeight": 1280,
+          "curbWeight": 1281,
+          "maxPayload": 479,
+          "totalWeight": 1760,
+          "chassisCode1": null,
+          "chassisCode2": null,
+          "cubicCapacity": "1197",
+          "numPassengers": "4",
+          "numberOfSeats": 5,
+          "fourWheelDrive": false,
+          "maxPullWeightB": 1740,
+          "clutchMechanism1": null,
+          "clutchMechanism2": null,
+          "maxTrailerWeight": 1300,
+          "chassisCodeSupplement": null,
+          "maxPullWieghtNoBreaks": null,
+          "maxPullWeightBExtended": null,
+          "maxSingle Axle TrailerWeight": null
+        },
+        "vehicleStatus": {
+          "tax": 426
+        },
+        "vehicleInformation": {
+          "vin": "WVWZZZAUZHP007802",
+          "body": "AC",
+          "type": "CAR",
+          "year": "2016",
+          "model": "GOLF",
+          "rawType": "PB",
+          "modelYear": null,
+          "categoryEu": "e1*2007/46*0623*20",
+          "groupNumber": "VW 714223",
+          "modelNumber": "VW 000000",
+          "chassisNumber": "WVWZZZAUZHP007802",
+          "exteriorColor": "White",
+          "fabricAndMake": "VOLKSWAGEN, VW",
+          "baseObjectType": "CAR",
+          "manufactureCode": null,
+          "manufactureMonth": "201606",
+          "registrationDate": "2016-06-17",
+          "initialTrafficDate": "2016-12-28",
+          "registrationPlateReused": null
+        },
+        "vehicleOrigin": {
+          "originCode": "INFÖRT",
+          "originCodeReason": null,
+          "importerIdentifier": null,
+          "preRegistrationDate": null,
+          "importRegistrationDate": null,
+          "importedForPersonalUse": false,
+          "importedPreviouslyRegistered": false
+        },
+        "vehicleInspectionInformation": {
+          "inspections": [
+            {
+              "inspectionType": "5",
+              "odometerReading": 149051,
+              "dateOfInspection": "2025-04-24"
+            },
+            {
+              "inspectionType": "5",
+              "odometerReading": 112555,
+              "dateOfInspection": "2024-03-28"
+            }
+          ],
+          "inspectionGroup": "36/24/14",
+          "odometerReading": 149051,
+          "inspectionPeriod": "2025-04-24 - 2026-06-30",
+          "dateOfInspection": "2025-04-24",
+          "inspectionValidToDate": "2026-06-30",
+          "inspectionExemptionGroup": null
+        },
+        "additionalTechSpecification": {
+          "raceCar": null,
+          "wheelbase1": 2620,
+          "wheelbase2": null,
+          "wheelbase3": null,
+          "wheelbase4": null,
+          "equipment1": null,
+          "equipment2": null,
+          "equipment3": null,
+          "maximumSpeed": 195,
+          "numAxleShafts": "",
+          "passengerAirBag": true,
+          "tyreDimensionRear": "195/65 R15 91H",
+          "tyreDimensionFront": "195/65 R15 91H",
+          "dualSteeringControl": null
+        }
+      },
+      "odometerReading": null,
+      "gearbox": "Manual",
+      "fabricAndMake": "VOLKSWAGEN, VW",
+      "fuels": [
+        {
+          "fuelCode": "Petrol",
+          "powerUnit": "EG",
+          "enginePower": 81,
+          "enginePowerHp": 110,
+          "fuelTankVolume": ""
+        }
+      ],
+      "registrationCountry": "se",
+      "familyName": "Golf",
+      "odometerUnit": "km",
+      "technicalSpecification": {
+        "modelId": null,
+        "vehicle": {
+          "brand": "Volkswagen",
+          "body": "Hatchback",
+          "modelName": "Golf VII 1.2 TSI 5dr (110hk)",
+          "familyName": "Golf"
+        },
+        "year": "2017"
+      }
+    },
+    "testDriveAllowed": true,
+    "vehicleType": "CAR",
+    "exportable": true,
+    "deductibleVat": false,
+    "collisionWarranty": null,
+    "title": "VW Golf VII 1.2 TSI 5dr (110hk)",
+    "brand": "Volkswagen",
+    "familyName": "Golf",
+    "modelName": "Golf VII 1.2 TSI 5dr (110hk)",
+    "package": "Dragkrok",
+    "heading1": "Volkswagen Golf",
+    "heading2": "VII 1.2 TSI 5dr",
+    "heading3": "Dragkrok",
+    "media": [
+      {
+        "processObjectId": "7291894",
+        "uri": "https://kvdbil-images.imgix.net/7291894/dac0e07c.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291894/dac0e07c.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 1
+      },
+      {
+        "processObjectId": "7291894",
+        "uri": "https://kvdbil-images.imgix.net/7291894/266587f7.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291894/266587f7.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 1
+      },
+      {
+        "processObjectId": "7291894",
+        "uri": "https://kvdbil-images.imgix.net/7291894/c9d8816e.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291894/c9d8816e.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 2
+      },
+      {
+        "processObjectId": "7291894",
+        "uri": "https://kvdbil-images.imgix.net/7291894/ebdb21bc.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291894/ebdb21bc.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 2
+      },
+      {
+        "processObjectId": "7291894",
+        "uri": "https://kvdbil-images.imgix.net/7291894/a178826b.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291894/a178826b.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 3
+      },
+      {
+        "processObjectId": "7291894",
+        "uri": "https://kvdbil-images.imgix.net/7291894/1f39f9a0.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291894/1f39f9a0.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 4
+      },
+      {
+        "processObjectId": "7291894",
+        "uri": "https://kvdbil-images.imgix.net/7291894/d4a65bce.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291894/d4a65bce.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 4
+      },
+      {
+        "processObjectId": "7291894",
+        "uri": "https://kvdbil-images.imgix.net/7291894/a5e6917d.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291894/a5e6917d.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 5
+      },
+      {
+        "processObjectId": "7291894",
+        "uri": "https://kvdbil-images.imgix.net/7291894/00833ab6.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291894/00833ab6.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 6
+      },
+      {
+        "processObjectId": "7291894",
+        "uri": "https://kvdbil-images.imgix.net/7291894/9169207b.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291894/9169207b.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 6
+      },
+      {
+        "processObjectId": "7291894",
+        "uri": "https://kvdbil-images.imgix.net/7291894/e79e627e.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291894/e79e627e.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 7
+      },
+      {
+        "processObjectId": "7291894",
+        "uri": "https://kvdbil-images.imgix.net/7291894/12c9980b.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291894/12c9980b.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 7
+      },
+      {
+        "processObjectId": "7291894",
+        "uri": "https://kvdbil-images.imgix.net/7291894/8eddeda9.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291894/8eddeda9.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 8
+      },
+      {
+        "processObjectId": "7291894",
+        "uri": "https://kvdbil-images.imgix.net/7291894/cc4b752a.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291894/cc4b752a.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 8
+      },
+      {
+        "processObjectId": "7291894",
+        "uri": "https://kvdbil-images.imgix.net/7291894/34c509a1.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291894/34c509a1.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 9
+      },
+      {
+        "processObjectId": "7291894",
+        "uri": "https://kvdbil-images.imgix.net/7291894/14e7067f.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291894/14e7067f.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 9
+      },
+      {
+        "processObjectId": "7291894",
+        "uri": "https://kvdbil-images.imgix.net/7291894/c226af49.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291894/c226af49.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 10
+      },
+      {
+        "processObjectId": "7291894",
+        "uri": "https://kvdbil-images.imgix.net/7291894/57ae1571.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291894/57ae1571.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 10
+      },
+      {
+        "processObjectId": "7291894",
+        "uri": "https://kvdbil-images.imgix.net/7291894/3ce81785.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291894/3ce81785.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 11
+      },
+      {
+        "processObjectId": "7291894",
+        "uri": "https://kvdbil-images.imgix.net/7291894/c503e28f.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291894/c503e28f.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 11
+      },
+      {
+        "processObjectId": "7291894",
+        "uri": "https://kvdbil-images.imgix.net/7291894/a7e10223.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291894/a7e10223.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 12
+      },
+      {
+        "processObjectId": "7291894",
+        "uri": "https://kvdbil-images.imgix.net/7291894/c55d3bc3.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291894/c55d3bc3.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 13
+      },
+      {
+        "processObjectId": "7291894",
+        "uri": "https://kvdbil-images.imgix.net/7291894/27f7eb0a.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291894/27f7eb0a.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 15
+      },
+      {
+        "processObjectId": "7291894",
+        "uri": "https://kvdbil-images.imgix.net/7291894/177662a0.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291894/177662a0.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 16
+      },
+      {
+        "processObjectId": "7291894",
+        "uri": "https://kvdbil-images.imgix.net/7291894/1b1c1c70.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291894/1b1c1c70.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 17
+      },
+      {
+        "processObjectId": "7291894",
+        "uri": "https://kvdbil-images.imgix.net/7291894/bcb6e4e0.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291894/bcb6e4e0.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 18
+      },
+      {
+        "processObjectId": "7291894",
+        "uri": "https://kvdbil-images.imgix.net/7291894/3022d3d9.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291894/3022d3d9.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 19
+      }
+    ],
+    "locationInfo": {
+      "id": "552481",
+      "processObjectId": "7291894",
+      "locationType": "FACILITY",
+      "createdAt": "2026-10-14T11:13:48.368361+00:00",
+      "updatedAt": "2026-10-14T11:13:48.368364+00:00",
+      "facilityId": "00000005-0005-0005-0005-000000000005",
+      "parkingZone": "A",
+      "parkingNumber": null,
+      "outgoingTime": null,
+      "leftAt": null,
+      "outgoingType": null,
+      "publicFacilityId": "00000005-0005-0005-0005-000000000005",
+      "facility": {
+        "id": "00000005-0005-0005-0005-000000000005",
+        "name": "Svedala",
+        "operator": "KVD",
+        "legacyIdentifiers": [
+          "Malmö",
+          "Svedala"
+        ],
+        "objectTypes": [
+          "CAR",
+          "LIGHT_TRANSPORT"
+        ],
+        "createdAt": "2018-03-04T13:18:23.295898+00:00",
+        "calendarOrganisationalUnitId": "7",
+        "parkingAreas": [
+          {
+            "id": 9,
+            "name": "A1",
+            "createdAt": "2018-03-04T13:18:23.295898+00:00"
+          },
+          {
+            "id": 10,
+            "name": "B1",
+            "createdAt": "2018-03-04T13:18:23.295898+00:00"
+          }
+        ],
+        "active": true,
+        "latitude": 55.5112433,
+        "longitude": 13.251069,
+        "distance": null,
+        "address": "Svetsaregatan 2",
+        "postCode": "23351",
+        "city": "Svedala",
+        "facilityType": "MAXI",
+        "facilityMapUrl": "https://www.google.com/maps/dir/55.5112433,13.251069/@55.5112433,13.251069,z13",
+        "contactPhone": "+46101673045",
+        "contactEmail": "leverans.svedala@kvdbil.se",
+        "allowIncomingTransport": true,
+        "allowLeaseReturns": true,
+        "allowUnplannedDropOffFleetManager": true,
+        "parentFacilityId": null,
+        "publicFacilityId": "00000005-0005-0005-0005-000000000005"
+      }
+    },
+    "valuation": {
+      "id": 239115,
+      "processObjectId": "7291894",
+      "valuatorComment": {
+        "da": "Hvad siger du til en Volkswagen Golf, der tilbyder adaptiv fartpilot og autobremse for en tryg og afslappet kørsel. AC sikrer, at du har en behagelig temperatur året rundt, mens Bluetooth gør det nemt at forbinde din telefon. Synet til december 2027, og bilen har anhængertræk.",
+        "de": "Wie fühlst du dich bei einem Volkswagen Golf, der adaptive Geschwindigkeitsregelung und automatische Bremsung für eine sichere und entspannte Fahrt bietet. Die Klimaanlage sorgt das ganze Jahr über für angenehme Temperaturen, während Bluetooth dir ermöglicht, dein Handy unkompliziert zu verbinden. Abgenommen bis Dezember 2027 und das Auto hat eine Anhängerkupplung.",
+        "en": "How do you feel about a Volkswagen Golf that offers adaptive cruise control and automatic braking for a safe and relaxed drive. AC ensures you have a comfortable temperature all year round while Bluetooth lets you connect your phone easily. Inspected until December 2027 and the car has a tow bar.",
+        "et": "Kuidas sulle meeldiks Volkswagen Golf, mis pakub adaptiivset püsikiiruse regulaatorit ja automaatset pidurdust turvaliseks ja lõõgastavaks sõiduks. Konditsioneer tagab mugava temperatuuri aastaringselt, samas kui Bluetooth võimaldab sul oma telefoni mugavalt ühendada. Kontrollitud detsembrini 2027 ning autol on haakekonks.",
+        "fi": "Miltä kuulostaa Volkswagen Golf, joka tarjoaa adaptiivisen vakionopeudensäädön ja automaattijarrutuksen turvallista ja rentoa ajamista varten. Ilmastointi varmistaa miellyttävän lämpötilan ympäri vuoden, ja Bluetooth antaa sinun yhdistää puhelimesi helposti. Katsastettu joulukuuhun 2027 asti ja autossa on vetokoukku.",
+        "pl": "Co sądzisz o Volkswagenie Golfie, który oferuje adaptacyjny tempomat i automatyczne hamowanie dla bezpiecznej i spokojnej jazdy. Klimatyzacja zapewnia komfortową temperaturę przez cały rok, a Bluetooth umożliwia łatwe podłączenie telefonu. Przegląd ważny do grudnia 2027, a samochód ma hak holowniczy.",
+        "sv": "Hur känner du för en Volkswagen Golf som bjuder på adaptiv farthållare och autobroms för en trygg och avspänd körning. AC ser till att du har skön temperatur året runt medan bluetooth låter dig koppla upp mobilen smidigt. Besiktigad till december 2027 och bilen har dragkrok."
+      },
+      "generatedValuatorComment": {
+        "en": "",
+        "sv": "Hur känner du för en Volkswagen Golf som bjuder på adaptiv farthållare och autobroms för en trygg och avspänd körning. AC ser till att du har skön temperatur året runt medan bluetooth låter dig koppla upp mobilen smidigt. Besiktigad till december 2027."
+      },
+      "carDealerPrice": 75000,
+      "endUserTestProtocol": {
+        "tires": {
+          "mountedTires": {
+            "other": {
+              "rimSize": "16",
+              "rimType": "Alu.fälg",
+              "tireType": "Sommardäck",
+              "otherInfo": "Behövs ej",
+              "tireTypeKey": "SUMMER_TIRES"
+            },
+            "grades": {
+              "rearLeft": 2,
+              "frontLeft": 3,
+              "rearRight": 2,
+              "frontRight": 3
+            },
+            "treadDepths": {
+              "rearLeft": 3,
+              "frontLeft": 7,
+              "rearRight": 3,
+              "frontRight": 7
+            }
+          }
+        },
+        "grades": {
+          "TOTAL": {
+            "max": 5,
+            "min": 1,
+            "value": 3
+          },
+          "BRAKES": {
+            "max": 3,
+            "min": 1,
+            "value": 2
+          },
+          "EXTERIOR": {
+            "max": 5,
+            "min": 1,
+            "value": 3
+          },
+          "INTERIOR": {
+            "max": 5,
+            "min": 1,
+            "value": 3
+          },
+          "ENGINE_AND_GEARBOX": {
+            "max": 3,
+            "min": 1,
+            "value": 3
+          },
+          "TECHNOLOGY_AND_EQUIPMENT": {
+            "max": 3,
+            "min": 1,
+            "value": 2
+          }
+        },
+        "towbar": false,
+        "remarks": {
+          "BRAKES": [
+            {
+              "id": "72918943",
+              "key": "Bromsskivor fram är slitna, behöver bytas inom 6 månader",
+              "other": null,
+              "point": 0,
+              "category": "BRAKES",
+              "text": "Bromsskivor fram är slitna, behöver bytas inom 6 månader"
+            }
+          ],
+          "EXTERIOR": [
+            {
+              "id": "72918942",
+              "key": "Karosskada höger bakskärm.",
+              "other": null,
+              "point": 0,
+              "category": "EXTERIOR",
+              "text": "Karosskada höger bakskärm."
+            }
+          ],
+          "INTERIOR": [],
+          "ENGINE_AND_GEARBOX": [],
+          "TECHNOLOGY_AND_EQUIPMENT": [
+            {
+              "id": "72918944",
+              "key": "Strålkastarglas vänster, matt.",
+              "other": null,
+              "point": 0,
+              "category": "TECHNOLOGY_AND_EQUIPMENT",
+              "text": "Strålkastarglas vänster, matt."
+            }
+          ]
+        },
+        "textile": "Textil",
+        "boatType": null,
+        "equipment": [
+          "Adaptiv farthållare",
+          "AC",
+          "Autobroms",
+          "Bluetooth",
+          "Farthållare",
+          "Start/Stop-funktion",
+          "USB-ingång",
+          "Antisladdsystem",
+          "Antispinn",
+          "Auto hold",
+          "AUX-ingång",
+          "Elhiss bak",
+          "Elhiss fram",
+          "Elspeglar",
+          "Fastmonterad dragkrok",
+          "Fjärrlås",
+          "Isofix bak",
+          "Radio",
+          "Stolsvärme fram",
+          "Urkopplingsbar passagerarairbag"
+        ],
+        "boatWidth": null,
+        "createdAt": "2026-10-30T09:14:49",
+        "boatEngine": null,
+        "boatLength": null,
+        "boatWeight": null,
+        "finishType": "Solid",
+        "protocolId": "261616",
+        "stoveFlames": null,
+        "heatingSystem": null,
+        "numberOfKeys": 2,
+        "boatCeBranded": false,
+        "boatGearModel": null,
+        "numberOfBunks": null,
+        "numberOfSeats": 5,
+        "boatEngineFuel": null,
+        "boatSepticTank": false,
+        "isRepairObject": false,
+        "boatEnginePower": null,
+        "serviceBookType": "ELECTRONIC",
+        "boatExteriorColor": null,
+        "serviceBookStatus": "Service utförd vid följande mil: 3052, 5646, 7512, 8706, 9120, 9969, 10631, 13588 mil, senast 2025-03-14",
+        "serviceBookStatusI18N": {
+          "da": "Service udført ved følgende km: 30520, 56460, 75120, 87060, 91200, 99690, 106310, 135880 km, senest 2025-03-14",
+          "de": "Service durchgeführt bei folgenden km: 30520, 56460, 75120, 87060, 91200, 99690, 106310, 135880 km, zuletzt 2025-03-14",
+          "en": "Service performed at the following km: 30520, 56460, 75120, 87060, 91200, 99690, 106310, 135880 km, latest 2025-03-14",
+          "et": "Hooldus tehtud järgneval läbisõidul km: 30520, 56460, 75120, 87060, 91200, 99690, 106310, 135880 km, viimane 2025-03-14",
+          "fi": "Huolto tehty seuraavilla kilometreillä: 30520, 56460, 75120, 87060, 91200, 99690, 106310, 135880 km, viimeisin 2025-03-14",
+          "pl": "Serwis wykonano przy następujących km: 30520, 56460, 75120, 87060, 91200, 99690, 106310, 135880 km, ostatni 2025-03-14",
+          "sv": "Service utförd vid följande mil: 3052, 5646, 7512, 8706, 9120, 9969, 10631, 13588 mil, senast 2025-03-14"
+        },
+        "boatEngineSerialNumber": null,
+        "odometerReadingAfterTest": {
+          "unit": "Mil",
+          "value": 20623
+        },
+        "odometerReadingAfterTestInKm": 206230
+      },
+      "auctionPriceValuation": {
+        "currency": "SEK"
+      },
+      "finalised": true,
+      "includedImageIds": null,
+      "createdAt": "2026-10-30T08:16:17.407316+00:00",
+      "updatedAt": "2026-11-10T14:35:57.673888+00:00",
+      "generatingInProgress": false,
+      "valuatorCommentLocalized": "Hur känner du för en Volkswagen Golf som bjuder på adaptiv farthållare och autobroms för en trygg och avspänd körning. AC ser till att du har skön temperatur året runt medan bluetooth låter dig koppla upp mobilen smidigt. Besiktigad till december 2027 och bilen har dragkrok."
+    },
+    "facts": {
+      "default": [
+        {
+          "key": "NUMBER_OF_PREVIOUS_OWNERS",
+          "text": "Antal tidigare ägare",
+          "value": 5,
+          "type": "string"
+        },
+        {
+          "key": "REGISTRATION_PLATE",
+          "text": "Registreringsnummer",
+          "value": "POK794",
+          "type": "string"
+        },
+        {
+          "key": "MODEL_YEAR",
+          "text": "Modellår",
+          "value": 2017,
+          "type": "string"
+        },
+        {
+          "key": "MANUFACTURE_MONTH",
+          "text": "Tillverkningsmånad",
+          "value": "201606",
+          "type": "manufacture_month"
+        },
+        {
+          "key": "ODOMETER_READING",
+          "text": "Mätarställning",
+          "value": 206230,
+          "type": "distance"
+        },
+        {
+          "key": "INITIAL_TRAFFIC_DATE",
+          "text": "Första datum i trafik i Sverige",
+          "value": "2016-12-28",
+          "type": "date"
+        },
+        {
+          "key": "SERVICE_BOOK",
+          "text": "Servicehistorik",
+          "value": "Service utförd vid följande mil: 3052, 5646, 7512, 8706, 9120, 9969, 10631, 13588 mil, senast 2025-03-14",
+          "type": "string"
+        },
+        {
+          "key": "SERVICE_BOOK_TYPE",
+          "text": "Servicebok",
+          "value": "Elektronisk",
+          "type": "string"
+        },
+        {
+          "key": "GEARBOX",
+          "text": "Växellåda",
+          "value": "Manuell",
+          "type": "string"
+        },
+        {
+          "key": "NUMBER_OF_SEATS",
+          "text": "Antal säten",
+          "value": 5,
+          "type": "string"
+        },
+        {
+          "key": "NUMBER_OF_KEYS",
+          "text": "Antal nycklar",
+          "value": 2,
+          "type": "string"
+        },
+        {
+          "key": "EXTERIOR_COLOR",
+          "text": "Färg",
+          "value": "Vit",
+          "type": "string"
+        },
+        {
+          "key": "FINISH_TYPE",
+          "text": "Lack",
+          "value": "Solid",
+          "type": "string"
+        },
+        {
+          "key": "TEXTILE",
+          "text": "Klädsel",
+          "value": "Textil",
+          "type": "string"
+        },
+        {
+          "key": "MANUFACTURER_WARRANTY",
+          "text": "Nybilsgaranti",
+          "value": "Inte undersökt",
+          "type": "string"
+        },
+        {
+          "key": "COLLISION_WARRANTY",
+          "text": "Vagnskadegaranti",
+          "value": "Inte undersökt",
+          "type": "string"
+        },
+        {
+          "key": "TAX_FEE",
+          "text": "Skatt årsavgift",
+          "value": "426 SEK",
+          "type": "string"
+        }
+      ],
+      "additional": [
+        {
+          "key": "CHASSIS_NUMBER",
+          "text": "Chassinummer",
+          "value": "WVWZZZAUZHP007802",
+          "type": "string"
+        },
+        {
+          "key": "ENGINE_EFFECT_PETROL",
+          "text": "Motoreffekt (bensin)",
+          "value": 110,
+          "type": "engine_power"
+        },
+        {
+          "key": "TOWBAR",
+          "text": "Dragkrok",
+          "value": "Nej",
+          "type": "string"
+        },
+        {
+          "key": "MAX_PAYLOAD",
+          "text": "Maxlastvikt",
+          "value": 479,
+          "type": "weight"
+        },
+        {
+          "key": "CONSUMPTION_PETROL",
+          "text": "Bränsleförbr. blandad körning (bensin)",
+          "value": 4.9,
+          "type": "consumption"
+        },
+        {
+          "key": "CO2_PETROL",
+          "text": "CO2-utsläpp (bensin)",
+          "value": 114,
+          "type": "emission"
+        },
+        {
+          "key": "INSPECTION_VALID_TO_DATE",
+          "text": "Nästa besiktning senast",
+          "value": "2027-12-31",
+          "type": "string"
+        },
+        {
+          "key": "CURB_WEIGHT",
+          "text": "Tjänstevikt",
+          "value": 1281,
+          "type": "weight"
+        },
+        {
+          "key": "TAX_WEIGHT",
+          "text": "Skattevikt",
+          "value": 1280,
+          "type": "weight"
+        },
+        {
+          "key": "MAX_TRAILER_WEIGHT",
+          "text": "Maximal släpvagnsvikt",
+          "value": 1300,
+          "type": "weight"
+        },
+        {
+          "key": "TOTAL_WEIGHT",
+          "text": "Fordonets totalvikt",
+          "value": 1760,
+          "type": "weight"
+        },
+        {
+          "key": "LENGTH",
+          "text": "Längd",
+          "value": 4255,
+          "type": "length"
+        },
+        {
+          "key": "WIDTH",
+          "text": "Bredd",
+          "value": 1790,
+          "type": "length"
+        },
+        {
+          "key": "HEIGHT",
+          "text": "Höjd",
+          "value": 1437,
+          "type": "length"
+        }
+      ],
+      "other": [
+        {
+          "key": "SOLD_IN_SWEDEN",
+          "text": "Svensksåld",
+          "value": "Ja",
+          "type": "string"
+        },
+        {
+          "key": "EXPORTABLE",
+          "text": "Kan exporteras",
+          "value": "Ja",
+          "type": "string"
+        },
+        {
+          "key": "DEDUCTIBLE_VAT",
+          "text": "Avlyftbar moms",
+          "value": "Nej",
+          "type": "string"
+        }
+      ]
+    },
+    "majorFeature": [
+      {
+        "key": "FASTMONTERAD_DRAGKROK",
+        "title": "Fastmonterad dragkrok",
+        "value": null,
+        "equipment": "Utrustning",
+        "description": " Anordning för att dra exempelvis personbilssläp, båttrailer mm. Fastmonterad på bilen."
+      },
+      {
+        "key": "ADAPTIV_FARTHALLARE",
+        "title": "Adaptiv farthållare",
+        "value": null,
+        "equipment": "Utrustning",
+        "description": "Farthållare som hjälper till att hålla ett givet avstånd till framförvarande fordon."
+      },
+      {
+        "key": "AC",
+        "title": "AC",
+        "value": null,
+        "equipment": "Utrustning",
+        "description": "Luftkonditionering utan möjlighet till automatisk temperaturinställning"
+      },
+      {
+        "key": "AUTOBROMS",
+        "title": "Autobroms",
+        "value": null,
+        "equipment": "Utrustning",
+        "description": "Automatisk inbromsning vid lägre hastigheter för mötande fordon och hinder framför bilen (City Safety)"
+      }
+    ],
+    "batteryTestCertificateAvailable": false
+  },
+  "previewImages": [
+    {
+      "processObjectId": "7291894",
+      "uri": "https://kvdbil-images.imgix.net/7291894/dac0e07c.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291894/dac0e07c.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 1
+    },
+    {
+      "processObjectId": "7291894",
+      "uri": "https://kvdbil-images.imgix.net/7291894/266587f7.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291894/266587f7.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 1
+    },
+    {
+      "processObjectId": "7291894",
+      "uri": "https://kvdbil-images.imgix.net/7291894/c9d8816e.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291894/c9d8816e.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 2
+    },
+    {
+      "processObjectId": "7291894",
+      "uri": "https://kvdbil-images.imgix.net/7291894/ebdb21bc.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291894/ebdb21bc.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 2
+    },
+    {
+      "processObjectId": "7291894",
+      "uri": "https://kvdbil-images.imgix.net/7291894/a178826b.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291894/a178826b.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 3
+    },
+    {
+      "processObjectId": "7291894",
+      "uri": "https://kvdbil-images.imgix.net/7291894/1f39f9a0.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291894/1f39f9a0.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 4
+    },
+    {
+      "processObjectId": "7291894",
+      "uri": "https://kvdbil-images.imgix.net/7291894/d4a65bce.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291894/d4a65bce.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 4
+    },
+    {
+      "processObjectId": "7291894",
+      "uri": "https://kvdbil-images.imgix.net/7291894/a5e6917d.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291894/a5e6917d.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 5
+    },
+    {
+      "processObjectId": "7291894",
+      "uri": "https://kvdbil-images.imgix.net/7291894/00833ab6.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291894/00833ab6.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 6
+    },
+    {
+      "processObjectId": "7291894",
+      "uri": "https://kvdbil-images.imgix.net/7291894/9169207b.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291894/9169207b.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 6
+    },
+    {
+      "processObjectId": "7291894",
+      "uri": "https://kvdbil-images.imgix.net/7291894/e79e627e.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291894/e79e627e.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 7
+    },
+    {
+      "processObjectId": "7291894",
+      "uri": "https://kvdbil-images.imgix.net/7291894/12c9980b.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291894/12c9980b.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 7
+    },
+    {
+      "processObjectId": "7291894",
+      "uri": "https://kvdbil-images.imgix.net/7291894/8eddeda9.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291894/8eddeda9.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 8
+    },
+    {
+      "processObjectId": "7291894",
+      "uri": "https://kvdbil-images.imgix.net/7291894/cc4b752a.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291894/cc4b752a.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 8
+    },
+    {
+      "processObjectId": "7291894",
+      "uri": "https://kvdbil-images.imgix.net/7291894/34c509a1.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291894/34c509a1.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 9
+    },
+    {
+      "processObjectId": "7291894",
+      "uri": "https://kvdbil-images.imgix.net/7291894/14e7067f.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291894/14e7067f.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 9
+    },
+    {
+      "processObjectId": "7291894",
+      "uri": "https://kvdbil-images.imgix.net/7291894/c226af49.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291894/c226af49.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 10
+    },
+    {
+      "processObjectId": "7291894",
+      "uri": "https://kvdbil-images.imgix.net/7291894/57ae1571.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291894/57ae1571.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 10
+    },
+    {
+      "processObjectId": "7291894",
+      "uri": "https://kvdbil-images.imgix.net/7291894/3ce81785.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291894/3ce81785.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 11
+    },
+    {
+      "processObjectId": "7291894",
+      "uri": "https://kvdbil-images.imgix.net/7291894/c503e28f.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291894/c503e28f.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 11
+    },
+    {
+      "processObjectId": "7291894",
+      "uri": "https://kvdbil-images.imgix.net/7291894/a7e10223.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291894/a7e10223.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 12
+    },
+    {
+      "processObjectId": "7291894",
+      "uri": "https://kvdbil-images.imgix.net/7291894/c55d3bc3.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291894/c55d3bc3.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 13
+    },
+    {
+      "processObjectId": "7291894",
+      "uri": "https://kvdbil-images.imgix.net/7291894/27f7eb0a.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291894/27f7eb0a.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 15
+    },
+    {
+      "processObjectId": "7291894",
+      "uri": "https://kvdbil-images.imgix.net/7291894/177662a0.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291894/177662a0.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 16
+    },
+    {
+      "processObjectId": "7291894",
+      "uri": "https://kvdbil-images.imgix.net/7291894/1b1c1c70.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291894/1b1c1c70.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 17
+    },
+    {
+      "processObjectId": "7291894",
+      "uri": "https://kvdbil-images.imgix.net/7291894/bcb6e4e0.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291894/bcb6e4e0.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 18
+    },
+    {
+      "processObjectId": "7291894",
+      "uri": "https://kvdbil-images.imgix.net/7291894/3022d3d9.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291894/3022d3d9.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 19
+    }
+  ],
+  "similarAuctions": [],
+  "activeAuction": {
+    "auctionId": "309617",
+    "closed": true,
+    "countdownInProgress": true,
+    "preliminaryCloseAt": "2026-11-10T10:48:46.841343+00:00",
+    "createdAt": "2026-11-05T16:06:35.216662+00:00",
+    "updatedAt": "2026-11-10T10:48:46.849202+00:00",
+    "vatExcludedBiddingAllowed": false,
+    "reservationPriceReached": true,
+    "bids": [
+      {
+        "id": 18738465,
+        "auctionId": 309617,
+        "bidderAlias": "10",
+        "amount": 68000,
+        "type": "NORMAL",
+        "maxBidId": 10949730,
+        "triggeredBy": 10949730,
+        "createdAt": "2026-11-10T10:45:16.845026+00:00",
+        "updatedAt": "2026-11-10T10:45:16.845035+00:00"
+      },
+      {
+        "id": 18738431,
+        "auctionId": 309617,
+        "bidderAlias": "7",
+        "amount": 67500,
+        "type": "NORMAL",
+        "maxBidId": 10949711,
+        "triggeredBy": 10949711,
+        "createdAt": "2026-11-10T10:43:39.507395+00:00",
+        "updatedAt": "2026-11-10T10:43:39.507401+00:00"
+      },
+      {
+        "id": 18738414,
+        "auctionId": 309617,
+        "bidderAlias": "10",
+        "amount": 67000,
+        "type": "NORMAL",
+        "maxBidId": 10949699,
+        "triggeredBy": 10949699,
+        "createdAt": "2026-11-10T10:43:10.192922+00:00",
+        "updatedAt": "2026-11-10T10:43:10.192931+00:00"
+      },
+      {
+        "id": 18738400,
+        "auctionId": 309617,
+        "bidderAlias": "7",
+        "amount": 66500,
+        "type": "NORMAL",
+        "maxBidId": 10949690,
+        "triggeredBy": 10949690,
+        "createdAt": "2026-11-10T10:41:48.377382+00:00",
+        "updatedAt": "2026-11-10T10:41:48.377390+00:00"
+      },
+      {
+        "id": 18738363,
+        "auctionId": 309617,
+        "bidderAlias": "10",
+        "amount": 66000,
+        "type": "NORMAL",
+        "maxBidId": 10949668,
+        "triggeredBy": 10949668,
+        "createdAt": "2026-11-10T10:39:01.341045+00:00",
+        "updatedAt": "2026-11-10T10:39:01.341051+00:00"
+      },
+      {
+        "id": 18738350,
+        "auctionId": 309617,
+        "bidderAlias": "7",
+        "amount": 65500,
+        "type": "NORMAL",
+        "maxBidId": 10949661,
+        "triggeredBy": 10949661,
+        "createdAt": "2026-11-10T10:38:13.404584+00:00",
+        "updatedAt": "2026-11-10T10:38:13.404595+00:00"
+      },
+      {
+        "id": 18738326,
+        "auctionId": 309617,
+        "bidderAlias": "10",
+        "amount": 65000,
+        "type": "NORMAL",
+        "maxBidId": 10949648,
+        "triggeredBy": 10949648,
+        "createdAt": "2026-11-10T10:37:15.881109+00:00",
+        "updatedAt": "2026-11-10T10:37:15.881119+00:00"
+      },
+      {
+        "id": 18738289,
+        "auctionId": 309617,
+        "bidderAlias": "7",
+        "amount": 64500,
+        "type": "NORMAL",
+        "maxBidId": 10949626,
+        "triggeredBy": 10949626,
+        "createdAt": "2026-11-10T10:35:35.635098+00:00",
+        "updatedAt": "2026-11-10T10:35:35.635105+00:00"
+      },
+      {
+        "id": 18738281,
+        "auctionId": 309617,
+        "bidderAlias": "10",
+        "amount": 64000,
+        "type": "NORMAL",
+        "maxBidId": 10949620,
+        "triggeredBy": 10949620,
+        "createdAt": "2026-11-10T10:35:20.542537+00:00",
+        "updatedAt": "2026-11-10T10:35:20.542543+00:00"
+      },
+      {
+        "id": 18738229,
+        "auctionId": 309617,
+        "bidderAlias": "7",
+        "amount": 63500,
+        "type": "NORMAL",
+        "maxBidId": 10949589,
+        "triggeredBy": 10949589,
+        "createdAt": "2026-11-10T10:32:41.169429+00:00",
+        "updatedAt": "2026-11-10T10:32:41.169435+00:00"
+      },
+      {
+        "id": 18738220,
+        "auctionId": 309617,
+        "bidderAlias": "10",
+        "amount": 63000,
+        "type": "NORMAL",
+        "maxBidId": 10949583,
+        "triggeredBy": 10949583,
+        "createdAt": "2026-11-10T10:32:28.937418+00:00",
+        "updatedAt": "2026-11-10T10:32:28.937423+00:00"
+      },
+      {
+        "id": 18738181,
+        "auctionId": 309617,
+        "bidderAlias": "7",
+        "amount": 62500,
+        "type": "NORMAL",
+        "maxBidId": 10949561,
+        "triggeredBy": 10949561,
+        "createdAt": "2026-11-10T10:30:41.037841+00:00",
+        "updatedAt": "2026-11-10T10:30:41.037846+00:00"
+      },
+      {
+        "id": 18738175,
+        "auctionId": 309617,
+        "bidderAlias": "10",
+        "amount": 62000,
+        "type": "NORMAL",
+        "maxBidId": 10949557,
+        "triggeredBy": 10949557,
+        "createdAt": "2026-11-10T10:30:22.441786+00:00",
+        "updatedAt": "2026-11-10T10:30:22.441791+00:00"
+      },
+      {
+        "id": 18738158,
+        "auctionId": 309617,
+        "bidderAlias": "7",
+        "amount": 61500,
+        "type": "NORMAL",
+        "maxBidId": 10949546,
+        "triggeredBy": 10949546,
+        "createdAt": "2026-11-10T10:29:49.381876+00:00",
+        "updatedAt": "2026-11-10T10:29:49.381882+00:00"
+      },
+      {
+        "id": 18738155,
+        "auctionId": 309617,
+        "bidderAlias": "10",
+        "amount": 61000,
+        "type": "NORMAL",
+        "maxBidId": 10949544,
+        "triggeredBy": 10949544,
+        "createdAt": "2026-11-10T10:29:40.142591+00:00",
+        "updatedAt": "2026-11-10T10:29:40.142598+00:00"
+      },
+      {
+        "id": 18738123,
+        "auctionId": 309617,
+        "bidderAlias": "7",
+        "amount": 60500,
+        "type": "NORMAL",
+        "maxBidId": 10949525,
+        "triggeredBy": 10949525,
+        "createdAt": "2026-11-10T10:28:28.650946+00:00",
+        "updatedAt": "2026-11-10T10:28:28.650954+00:00"
+      },
+      {
+        "id": 18738120,
+        "auctionId": 309617,
+        "bidderAlias": "10",
+        "amount": 60000,
+        "type": "NORMAL",
+        "maxBidId": 10949523,
+        "triggeredBy": 10949523,
+        "createdAt": "2026-11-10T10:28:17.258018+00:00",
+        "updatedAt": "2026-11-10T10:28:17.258026+00:00"
+      },
+      {
+        "id": 18738109,
+        "auctionId": 309617,
+        "bidderAlias": "7",
+        "amount": 59500,
+        "type": "NORMAL",
+        "maxBidId": 10949516,
+        "triggeredBy": 10949516,
+        "createdAt": "2026-11-10T10:27:46.465075+00:00",
+        "updatedAt": "2026-11-10T10:27:46.465084+00:00"
+      },
+      {
+        "id": 18738104,
+        "auctionId": 309617,
+        "bidderAlias": "10",
+        "amount": 59000,
+        "type": "NORMAL",
+        "maxBidId": 10949512,
+        "triggeredBy": 10949512,
+        "createdAt": "2026-11-10T10:27:25.471876+00:00",
+        "updatedAt": "2026-11-10T10:27:25.471884+00:00"
+      },
+      {
+        "id": 18738081,
+        "auctionId": 309617,
+        "bidderAlias": "7",
+        "amount": 58500,
+        "type": "NORMAL",
+        "maxBidId": 10949496,
+        "triggeredBy": 10949496,
+        "createdAt": "2026-11-10T10:26:43.419201+00:00",
+        "updatedAt": "2026-11-10T10:26:43.419210+00:00"
+      },
+      {
+        "id": 18738073,
+        "auctionId": 309617,
+        "bidderAlias": "10",
+        "amount": 58000,
+        "type": "NORMAL",
+        "maxBidId": 10949491,
+        "triggeredBy": 10949491,
+        "createdAt": "2026-11-10T10:26:18.570995+00:00",
+        "updatedAt": "2026-11-10T10:26:18.571001+00:00"
+      },
+      {
+        "id": 18738033,
+        "auctionId": 309617,
+        "bidderAlias": "7",
+        "amount": 57500,
+        "type": "NORMAL",
+        "maxBidId": 10949468,
+        "triggeredBy": 10949468,
+        "createdAt": "2026-11-10T10:23:57.587708+00:00",
+        "updatedAt": "2026-11-10T10:23:57.587715+00:00"
+      },
+      {
+        "id": 18738027,
+        "auctionId": 309617,
+        "bidderAlias": "10",
+        "amount": 57000,
+        "type": "NORMAL",
+        "maxBidId": 10949464,
+        "triggeredBy": 10949464,
+        "createdAt": "2026-11-10T10:23:34.184224+00:00",
+        "updatedAt": "2026-11-10T10:23:34.184231+00:00"
+      },
+      {
+        "id": 18738022,
+        "auctionId": 309617,
+        "bidderAlias": "7",
+        "amount": 56500,
+        "type": "NORMAL",
+        "maxBidId": 10949460,
+        "triggeredBy": 10949460,
+        "createdAt": "2026-11-10T10:22:54.861294+00:00",
+        "updatedAt": "2026-11-10T10:22:54.861302+00:00"
+      },
+      {
+        "id": 18738019,
+        "auctionId": 309617,
+        "bidderAlias": "10",
+        "amount": 56000,
+        "type": "NORMAL",
+        "maxBidId": 10949458,
+        "triggeredBy": 10949458,
+        "createdAt": "2026-11-10T10:22:40.740417+00:00",
+        "updatedAt": "2026-11-10T10:22:40.740425+00:00"
+      },
+      {
+        "id": 18737982,
+        "auctionId": 309617,
+        "bidderAlias": "7",
+        "amount": 55500,
+        "type": "NORMAL",
+        "maxBidId": 10949434,
+        "triggeredBy": 10949434,
+        "createdAt": "2026-11-10T10:19:53.496924+00:00",
+        "updatedAt": "2026-11-10T10:19:53.496926+00:00"
+      },
+      {
+        "id": 18737981,
+        "auctionId": 309617,
+        "bidderAlias": "11",
+        "amount": 55000,
+        "type": "LIMIT_REACHED",
+        "maxBidId": 10949427,
+        "triggeredBy": 10949434,
+        "createdAt": "2026-11-10T10:19:53.496915+00:00",
+        "updatedAt": "2026-11-10T10:19:53.496921+00:00"
+      },
+      {
+        "id": 18737971,
+        "auctionId": 309617,
+        "bidderAlias": "11",
+        "amount": 54500,
+        "type": "NORMAL",
+        "maxBidId": 10949427,
+        "triggeredBy": 10949427,
+        "createdAt": "2026-11-10T10:19:28.988498+00:00",
+        "updatedAt": "2026-11-10T10:19:28.988542+00:00"
+      },
+      {
+        "id": 18737962,
+        "auctionId": 309617,
+        "bidderAlias": "7",
+        "amount": 54000,
+        "type": "NORMAL",
+        "maxBidId": 10949422,
+        "triggeredBy": 10949422,
+        "createdAt": "2026-11-10T10:19:01.691316+00:00",
+        "updatedAt": "2026-11-10T10:19:01.691326+00:00"
+      },
+      {
+        "id": 18737958,
+        "auctionId": 309617,
+        "bidderAlias": "11",
+        "amount": 53500,
+        "type": "NORMAL",
+        "maxBidId": 10949419,
+        "triggeredBy": 10949419,
+        "createdAt": "2026-11-10T10:18:41.286801+00:00",
+        "updatedAt": "2026-11-10T10:18:41.286806+00:00"
+      },
+      {
+        "id": 18737931,
+        "auctionId": 309617,
+        "bidderAlias": "7",
+        "amount": 53000,
+        "type": "NORMAL",
+        "maxBidId": 10949402,
+        "triggeredBy": 10949402,
+        "createdAt": "2026-11-10T10:17:29.231223+00:00",
+        "updatedAt": "2026-11-10T10:17:29.231233+00:00"
+      },
+      {
+        "id": 18737920,
+        "auctionId": 309617,
+        "bidderAlias": "11",
+        "amount": 52500,
+        "type": "NORMAL",
+        "maxBidId": 10949396,
+        "triggeredBy": 10949396,
+        "createdAt": "2026-11-10T10:17:09.795853+00:00",
+        "updatedAt": "2026-11-10T10:17:09.795862+00:00"
+      },
+      {
+        "id": 18737884,
+        "auctionId": 309617,
+        "bidderAlias": "7",
+        "amount": 52000,
+        "type": "NORMAL",
+        "maxBidId": 10949375,
+        "triggeredBy": 10949375,
+        "createdAt": "2026-11-10T10:15:26.906678+00:00",
+        "updatedAt": "2026-11-10T10:15:26.906688+00:00"
+      },
+      {
+        "id": 18737879,
+        "auctionId": 309617,
+        "bidderAlias": "10",
+        "amount": 51500,
+        "type": "NORMAL",
+        "maxBidId": 10949372,
+        "triggeredBy": 10949372,
+        "createdAt": "2026-11-10T10:15:17.865141+00:00",
+        "updatedAt": "2026-11-10T10:15:17.865148+00:00"
+      },
+      {
+        "id": 18737843,
+        "auctionId": 309617,
+        "bidderAlias": "7",
+        "amount": 51000,
+        "type": "NORMAL",
+        "maxBidId": 10949351,
+        "triggeredBy": 10949351,
+        "createdAt": "2026-11-10T10:13:55.190628+00:00",
+        "updatedAt": "2026-11-10T10:13:55.190634+00:00"
+      },
+      {
+        "id": 18737839,
+        "auctionId": 309617,
+        "bidderAlias": "10",
+        "amount": 50500,
+        "type": "NORMAL",
+        "maxBidId": 10949348,
+        "triggeredBy": 10949348,
+        "createdAt": "2026-11-10T10:13:29.729933+00:00",
+        "updatedAt": "2026-11-10T10:13:29.729939+00:00"
+      },
+      {
+        "id": 18737825,
+        "auctionId": 309617,
+        "bidderAlias": "7",
+        "amount": 50000,
+        "type": "NORMAL",
+        "maxBidId": 10949339,
+        "triggeredBy": 10949339,
+        "createdAt": "2026-11-10T10:12:26.402299+00:00",
+        "updatedAt": "2026-11-10T10:12:26.402308+00:00"
+      },
+      {
+        "id": 18737816,
+        "auctionId": 309617,
+        "bidderAlias": "10",
+        "amount": 49500,
+        "type": "NORMAL",
+        "maxBidId": 10949333,
+        "triggeredBy": 10949333,
+        "createdAt": "2026-11-10T10:12:04.752014+00:00",
+        "updatedAt": "2026-11-10T10:12:04.752020+00:00"
+      },
+      {
+        "id": 18737769,
+        "auctionId": 309617,
+        "bidderAlias": "7",
+        "amount": 49000,
+        "type": "NORMAL",
+        "maxBidId": 10949305,
+        "triggeredBy": 10949305,
+        "createdAt": "2026-11-10T10:09:40.627846+00:00",
+        "updatedAt": "2026-11-10T10:09:40.627852+00:00"
+      },
+      {
+        "id": 18737760,
+        "auctionId": 309617,
+        "bidderAlias": "10",
+        "amount": 48500,
+        "type": "NORMAL",
+        "maxBidId": 10949300,
+        "triggeredBy": 10949300,
+        "createdAt": "2026-11-10T10:09:20.262033+00:00",
+        "updatedAt": "2026-11-10T10:09:20.262040+00:00"
+      },
+      {
+        "id": 18736099,
+        "auctionId": 309617,
+        "bidderAlias": "7",
+        "amount": 48000,
+        "type": "NORMAL",
+        "maxBidId": 10948342,
+        "triggeredBy": 10948342,
+        "createdAt": "2026-11-10T08:38:47.466949+00:00",
+        "updatedAt": "2026-11-10T08:38:47.466958+00:00"
+      },
+      {
+        "id": 18736094,
+        "auctionId": 309617,
+        "bidderAlias": "9",
+        "amount": 47500,
+        "type": "NORMAL",
+        "maxBidId": 10948339,
+        "triggeredBy": 10948339,
+        "createdAt": "2026-11-10T08:38:11.956156+00:00",
+        "updatedAt": "2026-11-10T08:38:11.956161+00:00"
+      },
+      {
+        "id": 18734777,
+        "auctionId": 309617,
+        "bidderAlias": "7",
+        "amount": 47000,
+        "type": "NORMAL",
+        "maxBidId": 10947609,
+        "triggeredBy": 10947609,
+        "createdAt": "2026-11-09T21:17:23.756037+00:00",
+        "updatedAt": "2026-11-09T21:17:23.756047+00:00"
+      },
+      {
+        "id": 18734774,
+        "auctionId": 309617,
+        "bidderAlias": "9",
+        "amount": 46500,
+        "type": "NORMAL",
+        "maxBidId": 10947607,
+        "triggeredBy": 10947607,
+        "createdAt": "2026-11-09T21:15:54.215770+00:00",
+        "updatedAt": "2026-11-09T21:15:54.215779+00:00"
+      },
+      {
+        "id": 18734402,
+        "auctionId": 309617,
+        "bidderAlias": "7",
+        "amount": 46000,
+        "type": "NORMAL",
+        "maxBidId": 10947374,
+        "triggeredBy": 10947374,
+        "createdAt": "2026-11-09T19:42:25.502504+00:00",
+        "updatedAt": "2026-11-09T19:42:25.502517+00:00"
+      },
+      {
+        "id": 18734399,
+        "auctionId": 309617,
+        "bidderAlias": "9",
+        "amount": 45500,
+        "type": "NORMAL",
+        "maxBidId": 10947372,
+        "triggeredBy": 10947372,
+        "createdAt": "2026-11-09T19:42:11.201132+00:00",
+        "updatedAt": "2026-11-09T19:42:11.201138+00:00"
+      },
+      {
+        "id": 18734392,
+        "auctionId": 309617,
+        "bidderAlias": "7",
+        "amount": 45000,
+        "type": "NORMAL",
+        "maxBidId": 10947367,
+        "triggeredBy": 10947367,
+        "createdAt": "2026-11-09T19:41:15.646787+00:00",
+        "updatedAt": "2026-11-09T19:41:15.646797+00:00"
+      },
+      {
+        "id": 18734390,
+        "auctionId": 309617,
+        "bidderAlias": "9",
+        "amount": 44500,
+        "type": "NORMAL",
+        "maxBidId": 10947365,
+        "triggeredBy": 10947365,
+        "createdAt": "2026-11-09T19:40:38.112828+00:00",
+        "updatedAt": "2026-11-09T19:40:38.112835+00:00"
+      },
+      {
+        "id": 18732424,
+        "auctionId": 309617,
+        "bidderAlias": "7",
+        "amount": 44000,
+        "type": "NORMAL",
+        "maxBidId": 10946184,
+        "triggeredBy": 10946184,
+        "createdAt": "2026-11-09T13:23:12.099411+00:00",
+        "updatedAt": "2026-11-09T13:23:12.099415+00:00"
+      },
+      {
+        "id": 18732423,
+        "auctionId": 309617,
+        "bidderAlias": "2",
+        "amount": 43500,
+        "type": "LIMIT_REACHED",
+        "maxBidId": 10946181,
+        "triggeredBy": 10946184,
+        "createdAt": "2026-11-09T13:23:12.099400+00:00",
+        "updatedAt": "2026-11-09T13:23:12.099408+00:00"
+      },
+      {
+        "id": 18732422,
+        "auctionId": 309617,
+        "bidderAlias": "2",
+        "amount": 43000,
+        "type": "AUTO",
+        "maxBidId": 10946181,
+        "triggeredBy": 10946183,
+        "createdAt": "2026-11-09T13:22:58.177429+00:00",
+        "updatedAt": "2026-11-09T13:22:58.177431+00:00"
+      },
+      {
+        "id": 18732421,
+        "auctionId": 309617,
+        "bidderAlias": "7",
+        "amount": 42500,
+        "type": "NORMAL",
+        "maxBidId": 10946183,
+        "triggeredBy": 10946183,
+        "createdAt": "2026-11-09T13:22:58.177419+00:00",
+        "updatedAt": "2026-11-09T13:22:58.177426+00:00"
+      },
+      {
+        "id": 18732418,
+        "auctionId": 309617,
+        "bidderAlias": "2",
+        "amount": 42000,
+        "type": "NORMAL",
+        "maxBidId": 10946181,
+        "triggeredBy": 10946181,
+        "createdAt": "2026-11-09T13:22:08.470100+00:00",
+        "updatedAt": "2026-11-09T13:22:08.470109+00:00"
+      },
+      {
+        "id": 18732417,
+        "auctionId": 309617,
+        "bidderAlias": "7",
+        "amount": 41500,
+        "type": "NORMAL",
+        "maxBidId": 10946180,
+        "triggeredBy": 10946180,
+        "createdAt": "2026-11-09T13:20:28.849153+00:00",
+        "updatedAt": "2026-11-09T13:20:28.849160+00:00"
+      },
+      {
+        "id": 18732414,
+        "auctionId": 309617,
+        "bidderAlias": "2",
+        "amount": 41000,
+        "type": "NORMAL",
+        "maxBidId": 10946178,
+        "triggeredBy": 10946178,
+        "createdAt": "2026-11-09T13:17:35.540449+00:00",
+        "updatedAt": "2026-11-09T13:17:35.540451+00:00"
+      },
+      {
+        "id": 18732413,
+        "auctionId": 309617,
+        "bidderAlias": "7",
+        "amount": 40500,
+        "type": "LIMIT_REACHED",
+        "maxBidId": 10945784,
+        "triggeredBy": 10946178,
+        "createdAt": "2026-11-09T13:17:35.540439+00:00",
+        "updatedAt": "2026-11-09T13:17:35.540446+00:00"
+      },
+      {
+        "id": 18732408,
+        "auctionId": 309617,
+        "bidderAlias": "7",
+        "amount": 38000,
+        "type": "AUTO",
+        "maxBidId": 10945784,
+        "triggeredBy": 10946175,
+        "createdAt": "2026-11-09T13:17:22.444859+00:00",
+        "updatedAt": "2026-11-09T13:17:22.444861+00:00"
+      },
+      {
+        "id": 18732407,
+        "auctionId": 309617,
+        "bidderAlias": "2",
+        "amount": 37500,
+        "type": "NORMAL",
+        "maxBidId": 10946175,
+        "triggeredBy": 10946175,
+        "createdAt": "2026-11-09T13:17:22.444848+00:00",
+        "updatedAt": "2026-11-09T13:17:22.444856+00:00"
+      },
+      {
+        "id": 18731740,
+        "auctionId": 309617,
+        "bidderAlias": "7",
+        "amount": 37000,
+        "type": "NORMAL",
+        "maxBidId": 10945784,
+        "triggeredBy": 10945784,
+        "createdAt": "2026-11-09T11:29:09.795870+00:00",
+        "updatedAt": "2026-11-09T11:29:09.795877+00:00"
+      },
+      {
+        "id": 18731732,
+        "auctionId": 309617,
+        "bidderAlias": "8",
+        "amount": 36500,
+        "type": "NORMAL",
+        "maxBidId": 10945778,
+        "triggeredBy": 10945778,
+        "createdAt": "2026-11-09T11:28:26.918067+00:00",
+        "updatedAt": "2026-11-09T11:28:26.918071+00:00"
+      },
+      {
+        "id": 18731731,
+        "auctionId": 309617,
+        "bidderAlias": "7",
+        "amount": 36000,
+        "type": "LIMIT_REACHED",
+        "maxBidId": 10941960,
+        "triggeredBy": 10945778,
+        "createdAt": "2026-11-09T11:28:26.918053+00:00",
+        "updatedAt": "2026-11-09T11:28:26.918062+00:00"
+      },
+      {
+        "id": 18725086,
+        "auctionId": 309617,
+        "bidderAlias": "7",
+        "amount": 35500,
+        "type": "NORMAL",
+        "maxBidId": 10941960,
+        "triggeredBy": 10941960,
+        "createdAt": "2026-11-08T11:29:48.320877+00:00",
+        "updatedAt": "2026-11-08T11:29:48.320881+00:00"
+      },
+      {
+        "id": 18725085,
+        "auctionId": 309617,
+        "bidderAlias": "3",
+        "amount": 35000,
+        "type": "LIMIT_REACHED",
+        "maxBidId": 10941958,
+        "triggeredBy": 10941960,
+        "createdAt": "2026-11-08T11:29:48.320863+00:00",
+        "updatedAt": "2026-11-08T11:29:48.320872+00:00"
+      },
+      {
+        "id": 18725084,
+        "auctionId": 309617,
+        "bidderAlias": "3",
+        "amount": 32000,
+        "type": "AUTO",
+        "maxBidId": 10941958,
+        "triggeredBy": 10941959,
+        "createdAt": "2026-11-08T11:29:11.738856+00:00",
+        "updatedAt": "2026-11-08T11:29:11.738858+00:00"
+      },
+      {
+        "id": 18725083,
+        "auctionId": 309617,
+        "bidderAlias": "7",
+        "amount": 31500,
+        "type": "NORMAL",
+        "maxBidId": 10941959,
+        "triggeredBy": 10941959,
+        "createdAt": "2026-11-08T11:29:11.738848+00:00",
+        "updatedAt": "2026-11-08T11:29:11.738853+00:00"
+      },
+      {
+        "id": 18725082,
+        "auctionId": 309617,
+        "bidderAlias": "3",
+        "amount": 31000,
+        "type": "NORMAL",
+        "maxBidId": 10941958,
+        "triggeredBy": 10941958,
+        "createdAt": "2026-11-08T11:28:28.355036+00:00",
+        "updatedAt": "2026-11-08T11:28:28.355038+00:00"
+      },
+      {
+        "id": 18725081,
+        "auctionId": 309617,
+        "bidderAlias": "7",
+        "amount": 30500,
+        "type": "LIMIT_REACHED",
+        "maxBidId": 10941877,
+        "triggeredBy": 10941958,
+        "createdAt": "2026-11-08T11:28:28.355027+00:00",
+        "updatedAt": "2026-11-08T11:28:28.355033+00:00"
+      },
+      {
+        "id": 18725080,
+        "auctionId": 309617,
+        "bidderAlias": "7",
+        "amount": 27500,
+        "type": "AUTO",
+        "maxBidId": 10941877,
+        "triggeredBy": 10941957,
+        "createdAt": "2026-11-08T11:28:17.974704+00:00",
+        "updatedAt": "2026-11-08T11:28:17.974706+00:00"
+      },
+      {
+        "id": 18725079,
+        "auctionId": 309617,
+        "bidderAlias": "3",
+        "amount": 27000,
+        "type": "NORMAL",
+        "maxBidId": 10941957,
+        "triggeredBy": 10941957,
+        "createdAt": "2026-11-08T11:28:17.974696+00:00",
+        "updatedAt": "2026-11-08T11:28:17.974701+00:00"
+      },
+      {
+        "id": 18724933,
+        "auctionId": 309617,
+        "bidderAlias": "7",
+        "amount": 25500,
+        "type": "NORMAL",
+        "maxBidId": 10941877,
+        "triggeredBy": 10941877,
+        "createdAt": "2026-11-08T10:18:41.621478+00:00",
+        "updatedAt": "2026-11-08T10:18:41.621497+00:00"
+      },
+      {
+        "id": 18724932,
+        "auctionId": 309617,
+        "bidderAlias": "5",
+        "amount": 25000,
+        "type": "LIMIT_REACHED",
+        "maxBidId": 10941124,
+        "triggeredBy": 10941877,
+        "createdAt": "2026-11-08T10:18:41.621470+00:00",
+        "updatedAt": "2026-11-08T10:18:41.621475+00:00"
+      },
+      {
+        "id": 18724912,
+        "auctionId": 309617,
+        "bidderAlias": "5",
+        "amount": 20500,
+        "type": "AUTO",
+        "maxBidId": 10941124,
+        "triggeredBy": 10941864,
+        "createdAt": "2026-11-08T10:00:45.030042+00:00",
+        "updatedAt": "2026-11-08T10:00:45.030044+00:00"
+      },
+      {
+        "id": 18724911,
+        "auctionId": 309617,
+        "bidderAlias": "4",
+        "amount": 20000,
+        "type": "NORMAL",
+        "maxBidId": 10941864,
+        "triggeredBy": 10941864,
+        "createdAt": "2026-11-08T10:00:45.030033+00:00",
+        "updatedAt": "2026-11-08T10:00:45.030039+00:00"
+      },
+      {
+        "id": 18724910,
+        "auctionId": 309617,
+        "bidderAlias": "5",
+        "amount": 17500,
+        "type": "AUTO",
+        "maxBidId": 10941124,
+        "triggeredBy": 10941863,
+        "createdAt": "2026-11-08T10:00:32.607489+00:00",
+        "updatedAt": "2026-11-08T10:00:32.607492+00:00"
+      },
+      {
+        "id": 18724909,
+        "auctionId": 309617,
+        "bidderAlias": "4",
+        "amount": 17000,
+        "type": "NORMAL",
+        "maxBidId": 10941863,
+        "triggeredBy": 10941863,
+        "createdAt": "2026-11-08T10:00:32.607473+00:00",
+        "updatedAt": "2026-11-08T10:00:32.607484+00:00"
+      },
+      {
+        "id": 18723833,
+        "auctionId": 309617,
+        "bidderAlias": "5",
+        "amount": 15500,
+        "type": "AUTO",
+        "maxBidId": 10941124,
+        "triggeredBy": 10941255,
+        "createdAt": "2026-11-07T16:21:39.067274+00:00",
+        "updatedAt": "2026-11-07T16:21:39.067276+00:00"
+      },
+      {
+        "id": 18723832,
+        "auctionId": 309617,
+        "bidderAlias": "6",
+        "amount": 15000,
+        "type": "NORMAL",
+        "maxBidId": 10941255,
+        "triggeredBy": 10941255,
+        "createdAt": "2026-11-07T16:21:39.067266+00:00",
+        "updatedAt": "2026-11-07T16:21:39.067272+00:00"
+      },
+      {
+        "id": 18723831,
+        "auctionId": 309617,
+        "bidderAlias": "5",
+        "amount": 14500,
+        "type": "AUTO",
+        "maxBidId": 10941124,
+        "triggeredBy": 10941254,
+        "createdAt": "2026-11-07T16:21:05.604204+00:00",
+        "updatedAt": "2026-11-07T16:21:05.604206+00:00"
+      },
+      {
+        "id": 18723830,
+        "auctionId": 309617,
+        "bidderAlias": "6",
+        "amount": 14000,
+        "type": "NORMAL",
+        "maxBidId": 10941254,
+        "triggeredBy": 10941254,
+        "createdAt": "2026-11-07T16:21:05.604195+00:00",
+        "updatedAt": "2026-11-07T16:21:05.604201+00:00"
+      },
+      {
+        "id": 18723606,
+        "auctionId": 309617,
+        "bidderAlias": "5",
+        "amount": 13500,
+        "type": "NORMAL",
+        "maxBidId": 10941124,
+        "triggeredBy": 10941124,
+        "createdAt": "2026-11-07T13:35:06.257146+00:00",
+        "updatedAt": "2026-11-07T13:35:06.257149+00:00"
+      },
+      {
+        "id": 18723605,
+        "auctionId": 309617,
+        "bidderAlias": "4",
+        "amount": 13000,
+        "type": "LIMIT_REACHED",
+        "maxBidId": 10941122,
+        "triggeredBy": 10941124,
+        "createdAt": "2026-11-07T13:35:06.257136+00:00",
+        "updatedAt": "2026-11-07T13:35:06.257143+00:00"
+      },
+      {
+        "id": 18723603,
+        "auctionId": 309617,
+        "bidderAlias": "4",
+        "amount": 12500,
+        "type": "NORMAL",
+        "maxBidId": 10941122,
+        "triggeredBy": 10941122,
+        "createdAt": "2026-11-07T13:21:02.366549+00:00",
+        "updatedAt": "2026-11-07T13:21:02.366552+00:00"
+      },
+      {
+        "id": 18723602,
+        "auctionId": 309617,
+        "bidderAlias": "5",
+        "amount": 12000,
+        "type": "LIMIT_REACHED",
+        "maxBidId": 10941070,
+        "triggeredBy": 10941122,
+        "createdAt": "2026-11-07T13:21:02.366538+00:00",
+        "updatedAt": "2026-11-07T13:21:02.366546+00:00"
+      },
+      {
+        "id": 18723511,
+        "auctionId": 309617,
+        "bidderAlias": "5",
+        "amount": 11000,
+        "type": "NORMAL",
+        "maxBidId": 10941070,
+        "triggeredBy": 10941070,
+        "createdAt": "2026-11-07T12:32:50.354767+00:00",
+        "updatedAt": "2026-11-07T12:32:50.354776+00:00"
+      },
+      {
+        "id": 18723288,
+        "auctionId": 309617,
+        "bidderAlias": "4",
+        "amount": 10500,
+        "type": "NORMAL",
+        "maxBidId": 10940937,
+        "triggeredBy": 10940937,
+        "createdAt": "2026-11-07T08:39:43.334738+00:00",
+        "updatedAt": "2026-11-07T08:39:43.334740+00:00"
+      },
+      {
+        "id": 18723287,
+        "auctionId": 309617,
+        "bidderAlias": "3",
+        "amount": 10000,
+        "type": "LIMIT_REACHED",
+        "maxBidId": 10940679,
+        "triggeredBy": 10940937,
+        "createdAt": "2026-11-07T08:39:43.334729+00:00",
+        "updatedAt": "2026-11-07T08:39:43.334736+00:00"
+      },
+      {
+        "id": 18723286,
+        "auctionId": 309617,
+        "bidderAlias": "3",
+        "amount": 5500,
+        "type": "AUTO",
+        "maxBidId": 10940679,
+        "triggeredBy": 10940936,
+        "createdAt": "2026-11-07T08:39:25.115330+00:00",
+        "updatedAt": "2026-11-07T08:39:25.115332+00:00"
+      },
+      {
+        "id": 18723285,
+        "auctionId": 309617,
+        "bidderAlias": "4",
+        "amount": 5000,
+        "type": "NORMAL",
+        "maxBidId": 10940936,
+        "triggeredBy": 10940936,
+        "createdAt": "2026-11-07T08:39:25.115321+00:00",
+        "updatedAt": "2026-11-07T08:39:25.115327+00:00"
+      },
+      {
+        "id": 18722830,
+        "auctionId": 309617,
+        "bidderAlias": "3",
+        "amount": 1500,
+        "type": "NORMAL",
+        "maxBidId": 10940679,
+        "triggeredBy": 10940679,
+        "createdAt": "2026-11-06T21:14:20.189878+00:00",
+        "updatedAt": "2026-11-06T21:14:20.189889+00:00"
+      },
+      {
+        "id": 18722263,
+        "auctionId": 309617,
+        "bidderAlias": "2",
+        "amount": 1000,
+        "type": "NORMAL",
+        "maxBidId": 10940342,
+        "triggeredBy": 10940342,
+        "createdAt": "2026-11-06T15:49:31.963514+00:00",
+        "updatedAt": "2026-11-06T15:49:31.963522+00:00"
+      },
+      {
+        "id": 18719005,
+        "auctionId": 309617,
+        "bidderAlias": "1",
+        "amount": 500,
+        "type": "NORMAL",
+        "maxBidId": 10938449,
+        "triggeredBy": 10938449,
+        "createdAt": "2026-11-06T05:14:29.129784+00:00",
+        "updatedAt": "2026-11-06T05:14:29.129790+00:00"
+      }
+    ],
+    "myBidderAlias": null,
+    "myMaxBid": null,
+    "highestBid": {
+      "id": 18738465,
+      "auctionId": 309617,
+      "bidderAlias": null,
+      "amount": 68000,
+      "type": "NORMAL",
+      "maxBidId": 10949730,
+      "triggeredBy": 10949730,
+      "createdAt": "2026-11-10T10:45:16.845026+00:00",
+      "updatedAt": "2026-11-10T10:45:16.845035+00:00",
+      "eurAmount": 6190
+    },
+    "buyNowAvailable": false,
+    "releasing": null,
+    "isHighestBidLowerThanResidualLoanValue": false
+  },
+  "checkoutOrder": null,
+  "previewImage": "https://kvdbil-images.imgix.net/7291894/dac0e07c.jpg",
+  "_list_meta": {
+    "id": "309617",
+    "slug": "vw-golf-vii-1-2-tsi-5dr-110hk",
+    "auctionType": "BIDDING",
+    "closedAt": "2026-11-10T10:48:46.847091+00:00",
+    "updatedAt": "2026-11-10T14:35:57.976145+00:00"
+  },
+  "_scraped_at": "2026-11-10T20:24:18.899569+00:00",
+  "_url": "https://www.kvd.se/auktioner/vw-golf-vii-1-2-tsi-5dr-110hk-309617"
+}

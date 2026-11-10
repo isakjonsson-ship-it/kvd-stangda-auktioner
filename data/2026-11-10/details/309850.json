@@ -1,0 +1,2686 @@
+{
+  "id": "309850",
+  "auctionType": "BIDDING",
+  "biddingFee": "6900.00",
+  "biddingFeeCorporate": "9875.00",
+  "mediationFee": 0,
+  "mediationFeeCorporate": 0,
+  "buyNow": false,
+  "closedAt": "2026-11-10T09:28:00.007783+00:00",
+  "publishedAt": "2026-11-05T13:54:25.824717+00:00",
+  "countdownDuration": 210,
+  "countdownStartAt": "2026-11-10T09:24:30+00:00",
+  "createdAt": "2026-11-03T08:50:13.452978+00:00",
+  "readyForAuctionAt": "2026-11-08",
+  "currency": "SEK",
+  "maxBidRaise": 100000,
+  "minBidRaise": 500,
+  "startBid": 140000,
+  "openedAt": "2026-11-05T16:06:44.027663+00:00",
+  "processObjectId": "7293885",
+  "readyForCheckout": true,
+  "soldFor": 237500,
+  "sellMethod": "BIDDING",
+  "slug": "mercedes-cla-200-d-coupe-c118-150hk",
+  "auctionUrl": "https://www.kvd.se/auktioner/mercedes-cla-200-d-coupe-c118-150hk-309850",
+  "state": "WINNER_CHECKOUT_PENDING",
+  "targetedAuctionGroupId": null,
+  "updatedAt": "2026-11-10T09:28:00.090544+00:00",
+  "releasing": null,
+  "loan": {
+    "loanCost": 2023,
+    "loanCostBuyNow": null
+  },
+  "buyNowAmount": null,
+  "buyNowAvailable": false,
+  "buyNowUntil": null,
+  "eligibleForAdditionalServices": true,
+  "comingSoon": false,
+  "preliminaryPrice": 280000,
+  "maxAllowedBid": 420000,
+  "isReserved": false,
+  "isSoldByBuyNow": false,
+  "favouriteCount": 50,
+  "eurBuyNowAmount": null,
+  "winningBid": {
+    "id": 18736912,
+    "type": "NORMAL",
+    "amount": 237500,
+    "auctionId": 309850,
+    "createdAt": "2026-11-10T09:23:55.767566+00:00",
+    "maxBidId": 10948805,
+    "updatedAt": "2026-11-10T09:23:55.767572+00:00",
+    "bidderAlias": null,
+    "triggeredBy": 10948805,
+    "evaluationType": "AUTOMATIC"
+  },
+  "processObject": {
+    "id": "7293885",
+    "initialBuyNowAmount": null,
+    "certified": false,
+    "statisticalValuation": {
+      "bpGreen": null,
+      "bpWhite": 270171,
+      "bpOrange": 270171,
+      "marketPrice": 270171
+    },
+    "conditionClassification": "TESTED",
+    "createdAt": "2026-10-28 14:28:59.583323+00:00",
+    "sellMethod": "BIDDING",
+    "orderableAdditionalServices": {
+      "tradein": false,
+      "transport": true,
+      "insurance": true,
+      "finance": true,
+      "warranty": true,
+      "extraTires": false
+    },
+    "presentationApproved": false,
+    "properties": {
+      "numberOfSeats": 5,
+      "environmentalClassEuro": "6",
+      "deductibleVat": false,
+      "residualLoanValue": 128536,
+      "remarksLocalized": {
+        "TIRES": "Däckpar fram, snedslitna",
+        "BRAKES": null,
+        "EXTERIOR": "Flertal stenskott, dörruppslag, bucklor och repor",
+        "INTERIOR": null,
+        "ENGINE_AND_GEARBOX": null,
+        "TECHNOLOGY_AND_EQUIPMENT": null
+      },
+      "taxFee": 2750,
+      "modelYear": 2021,
+      "dateOfInspection": "2026-10-29",
+      "height": 1440,
+      "numberOfKeys": 2,
+      "ecoFriendly": false,
+      "maxPayload": 460,
+      "odometerReading": 61260,
+      "maxPullWeightB": 1445,
+      "formattedEquipment": [
+        {
+          "key": "BACKKAMERA",
+          "title": "Backkamera",
+          "description": "Kamera som underlättar vid backning",
+          "priority": 0
+        },
+        {
+          "key": "BLUETOOTH",
+          "title": "Bluetooth",
+          "description": "Trådlös uppkoppling mot mobila enheter",
+          "priority": 1
+        },
+        {
+          "key": "FARTHALLARE",
+          "title": "Farthållare",
+          "description": "Elektroniskt system som håller inprogrammerad hastighet",
+          "priority": 2
+        },
+        {
+          "key": "FJARRLAS",
+          "title": "Fjärrlås",
+          "description": "Möjliggör att du på distans kan låsa och låsa upp bilen",
+          "priority": 3
+        },
+        {
+          "key": "GPS",
+          "title": "GPS",
+          "description": "Navigationssystem med vägbeskrivning",
+          "priority": 4
+        },
+        {
+          "key": "RADIO",
+          "title": "Radio",
+          "description": "Radiospelare",
+          "priority": 5
+        },
+        {
+          "key": "REGNSENSOR",
+          "title": "Regnsensor",
+          "description": "Automatiska vindrutetorkare, sensorer som reagerar på vatten",
+          "priority": 6
+        },
+        {
+          "key": "STOLSVARME_FRAM",
+          "title": "Stolsvärme fram",
+          "description": "Olika nivåer av värme i stolarna fram som ställs in via en knapp",
+          "priority": 7
+        },
+        {
+          "key": "ANTISLADDSYSTEM",
+          "title": "Antisladdsystem",
+          "description": "Ett system som känner av om bilen håller på att sladda. Genom att bromsa enskilda hjul stabiliseras bilen och sladden förhindras, även kallat ESP.",
+          "priority": 8
+        },
+        {
+          "key": "ASSISTANSSYSTEM",
+          "title": "Assistanssystem",
+          "description": "Uppkopplad tjänst för att exempelvis kunna kontrollera din bil på distans med hjälp av en mobilapp. Funktioner som bygger på 2G eller 3G-uppkoppling kan sluta fungera i samband med att dessa nätverk stängs ner av operatörerna.",
+          "priority": 9
+        },
+        {
+          "key": "ELHISS_BAK",
+          "title": "Elhiss bak",
+          "description": "Elektroniska fönsterhissar bak",
+          "priority": 10
+        },
+        {
+          "key": "ELHISS_FRAM",
+          "title": "Elhiss fram",
+          "description": "Elektronisk fönsterhiss fram",
+          "priority": 11
+        },
+        {
+          "key": "ELINFALLBARA_SPEGLAR",
+          "title": "Elinfällbara backspeglar",
+          "description": "Speglar som fälls in automatiskt när bilen låses eller manuellt via knapp",
+          "priority": 12
+        },
+        {
+          "key": "ISOFIX_BAK",
+          "title": "Isofix bak",
+          "description": "  Fästsystem för bilbarnstolar enligt internationell standard, även kallat Isofix",
+          "priority": 13
+        },
+        {
+          "key": "KLIMATANLAGGNING",
+          "title": "Klimatanläggning",
+          "description": "Luftkonditionering med möjlighet till automatisk temperaturinställning",
+          "priority": 14
+        },
+        {
+          "key": "LED_STRALKASTARE",
+          "title": "LED-strålkastare",
+          "description": "Strålkastare med LED-ljus har ett konstant vitt ljus och har samma ljusstyrka från star",
+          "priority": 15
+        },
+        {
+          "key": "NYCKELLOST_STARTSYSTEM",
+          "title": "Nyckellöst startsystem",
+          "description": "Startknapp i bilen utan tändningslås. Även kallat Keyless-go",
+          "priority": 16
+        },
+        {
+          "key": "PARKERINGSSENSORER_BAK",
+          "title": "Parkeringssensorer bak",
+          "description": "Sensorer på stötfångare baktill som varnar för hinder bakom bilen",
+          "priority": 17
+        },
+        {
+          "key": "PARKERINGSSENSORER_FRAM",
+          "title": "Parkeringssensorer fram",
+          "description": "Sensorer på stötfångare som varnar för hinder framför bilen",
+          "priority": 18
+        },
+        {
+          "key": "START_STOP_FUNKTION",
+          "title": "Start/Stopp-funktion",
+          "description": "Automatisk på och avstängning av motor vid exempelvis trafikljus",
+          "priority": 19
+        },
+        {
+          "key": "USB_INGANG",
+          "title": "USB-ingång",
+          "description": "Inkoppling av mobil enhet via USB-kontakt",
+          "priority": 20
+        },
+        {
+          "key": "MERCEDES_BENZ_CONNECT",
+          "title": "Mercedes-Benz connect",
+          "description": null,
+          "priority": 21
+        },
+        {
+          "key": "AKTIV_PARKERINGSHJALP",
+          "title": "Aktiv parkeringshjälp",
+          "description": " Parkeringshjälp som använder ultraljudssensorer där den mäter upp utrymme mellan bilar.",
+          "priority": 22
+        },
+        {
+          "key": "PARKERINGSPAKET",
+          "title": "Parkeringspaket",
+          "description": null,
+          "priority": 23
+        },
+        {
+          "key": "SPEGELPAKET",
+          "title": "Spegelpaket",
+          "description": null,
+          "priority": 24
+        },
+        {
+          "key": "AKKOMFORTPAKET",
+          "title": "Åkkomfortpaket",
+          "description": null,
+          "priority": 25
+        },
+        {
+          "key": "LJUS_OCH_SIKTPAKET",
+          "title": "Ljus- och siktpaket",
+          "description": null,
+          "priority": 26
+        }
+      ],
+      "odometerUnit": "km",
+      "remarks": {
+        "TIRES": [
+          {
+            "id": "0",
+            "key": "Däckpar fram, snedslitna",
+            "category": "TIRES"
+          }
+        ],
+        "BRAKES": [],
+        "TECHNOLOGY_AND_EQUIPMENT": [],
+        "EXTERIOR": [
+          {
+            "id": "0",
+            "key": "Flertal stenskott, dörruppslag, bucklor och repor",
+            "category": "EXTERIOR"
+          }
+        ],
+        "INTERIOR": [],
+        "ENGINE_AND_GEARBOX": []
+      },
+      "brand": "Mercedes",
+      "drivingBan": false,
+      "modelName": "CLA 200 d Coupé C118 (150hk)",
+      "totalWeight": 2055,
+      "textile": "Delläder",
+      "saleLimitedToCorporate": false,
+      "gearbox": "Automatic",
+      "manufactureMonth": "202007",
+      "hasUnpaidLoan": true,
+      "curbWeight": 1595,
+      "grades": {
+        "BRAKES": {
+          "value": 3,
+          "min": 1,
+          "max": 3
+        },
+        "TOTAL": {
+          "value": 3,
+          "min": 1,
+          "max": 5
+        },
+        "TECHNOLOGY_AND_EQUIPMENT": {
+          "value": 3,
+          "min": 1,
+          "max": 3
+        },
+        "EXTERIOR": {
+          "value": 3,
+          "min": 1,
+          "max": 5
+        },
+        "INTERIOR": {
+          "value": 3,
+          "min": 1,
+          "max": 5
+        },
+        "ENGINE_AND_GEARBOX": {
+          "value": 3,
+          "min": 1,
+          "max": 3
+        }
+      },
+      "heavyEquipment": false,
+      "registrationPlate": "ARJ83U",
+      "equipment": [
+        "Backkamera",
+        "Bluetooth",
+        "Farthållare",
+        "Fjärrlås",
+        "GPS",
+        "Radio",
+        "Regnsensor",
+        "Stolsvärme fram",
+        "Antisladdsystem",
+        "Assistanssystem",
+        "Elhiss bak",
+        "Elhiss fram",
+        "Elinfällbara speglar",
+        "Isofix bak",
+        "Klimatanläggning",
+        "LED-strålkastare",
+        "Nyckellöst startsystem",
+        "Parkeringssensorer bak",
+        "Parkeringssensorer fram",
+        "Start/Stop-funktion",
+        "USB-ingång",
+        "Mercedes-Benz Connect",
+        "Aktiv parkeringshjälp",
+        "Parkeringspaket",
+        "Spegelpaket",
+        "Åkkomfortpaket",
+        "Ljus- och siktpaket"
+      ],
+      "importedForPersonalUse": false,
+      "exteriorColor": "Black",
+      "isRepairObject": false,
+      "width": 1857,
+      "fuels": [
+        {
+          "fuelCode": "Diesel",
+          "enginePower": 150,
+          "co2": 114,
+          "consumption": 4.3
+        }
+      ],
+      "registrationCountry": "se",
+      "inspectionPeriod": "2026-10-29 - 2027-12-31",
+      "inspectionValidToDate": "2027-12-31",
+      "finishType": "Solid",
+      "body": "Coupe",
+      "mustExport": false,
+      "towbar": false,
+      "initialTrafficDate": "2020-08-31",
+      "chassisNumber": "W1K1183121N147683",
+      "numberOfPreviousOwners": 3,
+      "mediation": true,
+      "title": "Mercedes CLA 200 d Coupé C118 (150hk)",
+      "taxWeight": 1590,
+      "familyName": "CLA ",
+      "length": 4695,
+      "exportable": true,
+      "registrationPlateCountry": "se",
+      "heading1": "Mercedes CLA ",
+      "heading2": "CLA 200 d Coupé C118",
+      "heading3": null
+    },
+    "state": "AUCTION_RESOLUTION",
+    "baseObjectId": "526118",
+    "leaseReturnProperties": {},
+    "isReleasable": false,
+    "offsiteSalesContact": null,
+    "buyNowAmount": null,
+    "proactiveBrokering": null,
+    "displayCar360Spin": true,
+    "reducedPrice": false,
+    "objectType": "CAR",
+    "car360Spin": null,
+    "isFixedPrice": false,
+    "baseObject": {
+      "id": "526118",
+      "year": "2021",
+      "earliestAvailableAt": null,
+      "registrationPlate": "ARJ83U",
+      "baseObjectType": "CAR",
+      "createdAt": "2026-10-28T14:26:44.926231+00:00",
+      "modelId": null,
+      "body": "Coupe",
+      "salesFlow": "CONSUMER_CARS",
+      "state": "PREPARING_SALES_AGREEMENT",
+      "brand": "Mercedes-Benz",
+      "exteriorColor": "Black",
+      "modelName": "CLA 200 d Coupé C118 (150hk)",
+      "authorityRegisterInformation": {
+        "registrationInformation": {
+          "registrationPlate": "ARJ83U",
+          "deregistrationDate": null,
+          "deregistrationText": null,
+          "deregistrationReason": null
+        },
+        "environmentalClassification": {
+          "fuels": [
+            {
+              "co2": 114,
+              "nox": "",
+              "nox4": null,
+              "fuelCode": "Diesel",
+              "hcThcNox": "",
+              "consumption": 4.3,
+              "noiseLevel": 69,
+              "emissionUnit": "g/km",
+              "innovationCo2": null,
+              "particleValue": "",
+              "particleMass4": null,
+              "consumptionUnit": "4,3",
+              "rangeNedcDrive": null,
+              "rangeWltpDrive": null,
+              "consumptionUrban": 5.3,
+              "rangeCityWltpDrive": null,
+              "consumptionExtraUrban": 3.7,
+              "electricEnergyConsumption": null,
+              "energyConsumptionWltpDrive": null
+            }
+          ],
+          "ecoFriendly": false,
+          "emissionClass": "EURO 6",
+          "innovationCode": null,
+          "environmentalClass": null,
+          "environmentalClassEuro": "6"
+        },
+        "generalTechSpecification": {
+          "eeg": "e1*2007/46*1912*08",
+          "fuels": [
+            {
+              "fuelCode": "Diesel",
+              "powerUnit": "EG",
+              "enginePower": 110,
+              "enginePowerHp": 150,
+              "fuelTankVolume": ""
+            }
+          ],
+          "width": 1857,
+          "height": 1440,
+          "length": 4695,
+          "gearbox": null,
+          "variant": "331CT2",
+          "version": "HZAA150A",
+          "taxWeight": 1590,
+          "curbWeight": 1595,
+          "maxPayload": 460,
+          "totalWeight": 2055,
+          "chassisCode1": null,
+          "chassisCode2": null,
+          "cubicCapacity": "1950",
+          "numPassengers": "4",
+          "numberOfSeats": 5,
+          "fourWheelDrive": false,
+          "maxPullWeightB": 1445,
+          "clutchMechanism1": null,
+          "clutchMechanism2": null,
+          "maxTrailerWeight": null,
+          "chassisCodeSupplement": null,
+          "maxPullWieghtNoBreaks": null,
+          "maxPullWeightBExtended": null,
+          "maxSingle Axle TrailerWeight": null
+        },
+        "vehicleStatus": {
+          "tax": 2750
+        },
+        "vehicleInformation": {
+          "vin": "W1K1183121N147683",
+          "body": "AA",
+          "type": "CAR",
+          "year": "2020",
+          "model": "CLA 200 D",
+          "rawType": "PB",
+          "modelYear": null,
+          "categoryEu": "e1*2007/46*1912*08",
+          "groupNumber": "MB 533122",
+          "modelNumber": "MB 000000",
+          "chassisNumber": "W1K1183121N147683",
+          "exteriorColor": "Black",
+          "fabricAndMake": "MERCEDES-BENZ",
+          "baseObjectType": "CAR",
+          "manufactureCode": null,
+          "manufactureMonth": "202007",
+          "registrationDate": "2020-07-13",
+          "initialTrafficDate": "2020-08-31",
+          "registrationPlateReused": null
+        },
+        "vehicleOrigin": {
+          "originCode": "INFÖRT",
+          "originCodeReason": null,
+          "importerIdentifier": null,
+          "preRegistrationDate": null,
+          "importRegistrationDate": null,
+          "importedForPersonalUse": false,
+          "importedPreviouslyRegistered": false
+        },
+        "vehicleInspectionInformation": {
+          "inspections": [
+            {
+              "inspectionType": "5",
+              "odometerReading": 49257,
+              "dateOfInspection": "2025-08-11"
+            },
+            {
+              "inspectionType": "5",
+              "odometerReading": 26893,
+              "dateOfInspection": "2023-08-08"
+            }
+          ],
+          "inspectionGroup": "36/24/14",
+          "odometerReading": 49257,
+          "inspectionPeriod": "2025-08-11 - 2026-10-31",
+          "dateOfInspection": "2025-08-11",
+          "inspectionValidToDate": "2026-10-31",
+          "inspectionExemptionGroup": null
+        },
+        "additionalTechSpecification": {
+          "raceCar": null,
+          "wheelbase1": 2729,
+          "wheelbase2": null,
+          "wheelbase3": null,
+          "wheelbase4": null,
+          "equipment1": null,
+          "equipment2": null,
+          "equipment3": null,
+          "maximumSpeed": 226,
+          "numAxleShafts": 2,
+          "passengerAirBag": false,
+          "tyreDimensionRear": "225/45 R18 91W",
+          "tyreDimensionFront": "225/45 R18 91W",
+          "dualSteeringControl": null
+        }
+      },
+      "odometerReading": 61000,
+      "gearbox": null,
+      "fabricAndMake": "MERCEDES-BENZ",
+      "fuels": [
+        {
+          "fuelCode": "Diesel",
+          "powerUnit": "EG",
+          "enginePower": 110,
+          "enginePowerHp": 150,
+          "fuelTankVolume": ""
+        }
+      ],
+      "registrationCountry": "se",
+      "familyName": "CLA ",
+      "odometerUnit": "km",
+      "technicalSpecification": {
+        "modelId": null,
+        "vehicle": {
+          "brand": "Mercedes-Benz",
+          "body": "Coupe",
+          "modelName": "CLA 200 d Coupé C118 (150hk)",
+          "familyName": "CLA "
+        },
+        "year": "2021"
+      }
+    },
+    "testDriveAllowed": true,
+    "vehicleType": "CAR",
+    "exportable": true,
+    "deductibleVat": false,
+    "collisionWarranty": null,
+    "title": "Mercedes CLA 200 d Coupé C118 (150hk)",
+    "brand": "Mercedes",
+    "familyName": "CLA ",
+    "modelName": "CLA 200 d Coupé C118 (150hk)",
+    "package": null,
+    "heading1": "Mercedes CLA ",
+    "heading2": "CLA 200 d Coupé C118",
+    "heading3": null,
+    "media": [
+      {
+        "processObjectId": "7293885",
+        "uri": "https://kvdbil-images.imgix.net/7293885/b26c932f.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7293885/b26c932f.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 1
+      },
+      {
+        "processObjectId": "7293885",
+        "uri": "https://kvdbil-images.imgix.net/7293885/e00fc1a5.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7293885/e00fc1a5.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 1
+      },
+      {
+        "processObjectId": "7293885",
+        "uri": "https://kvdbil-images.imgix.net/7293885/22ae71de.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7293885/22ae71de.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 2
+      },
+      {
+        "processObjectId": "7293885",
+        "uri": "https://kvdbil-images.imgix.net/7293885/5c653a7d.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7293885/5c653a7d.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 3
+      },
+      {
+        "processObjectId": "7293885",
+        "uri": "https://kvdbil-images.imgix.net/7293885/98f97339.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7293885/98f97339.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 3
+      },
+      {
+        "processObjectId": "7293885",
+        "uri": "https://kvdbil-images.imgix.net/7293885/b4f2f717.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7293885/b4f2f717.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 4
+      },
+      {
+        "processObjectId": "7293885",
+        "uri": "https://kvdbil-images.imgix.net/7293885/43b6d0a7.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7293885/43b6d0a7.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 5
+      },
+      {
+        "processObjectId": "7293885",
+        "uri": "https://kvdbil-images.imgix.net/7293885/5009060f.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7293885/5009060f.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 5
+      },
+      {
+        "processObjectId": "7293885",
+        "uri": "https://kvdbil-images.imgix.net/7293885/475c9dd7.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7293885/475c9dd7.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 6
+      },
+      {
+        "processObjectId": "7293885",
+        "uri": "https://kvdbil-images.imgix.net/7293885/4e3e5018.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7293885/4e3e5018.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 6
+      },
+      {
+        "processObjectId": "7293885",
+        "uri": "https://kvdbil-images.imgix.net/7293885/c9e30238.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7293885/c9e30238.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 7
+      },
+      {
+        "processObjectId": "7293885",
+        "uri": "https://kvdbil-images.imgix.net/7293885/a5aa2afc.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7293885/a5aa2afc.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 8
+      },
+      {
+        "processObjectId": "7293885",
+        "uri": "https://kvdbil-images.imgix.net/7293885/305b83f0.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7293885/305b83f0.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 8
+      },
+      {
+        "processObjectId": "7293885",
+        "uri": "https://kvdbil-images.imgix.net/7293885/0f650cfc.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7293885/0f650cfc.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 9
+      },
+      {
+        "processObjectId": "7293885",
+        "uri": "https://kvdbil-images.imgix.net/7293885/9abcc345.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7293885/9abcc345.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 9
+      },
+      {
+        "processObjectId": "7293885",
+        "uri": "https://kvdbil-images.imgix.net/7293885/6f71766d.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7293885/6f71766d.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 10
+      },
+      {
+        "processObjectId": "7293885",
+        "uri": "https://kvdbil-images.imgix.net/7293885/ed557172.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7293885/ed557172.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 10
+      },
+      {
+        "processObjectId": "7293885",
+        "uri": "https://kvdbil-images.imgix.net/7293885/169d9864.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7293885/169d9864.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 11
+      },
+      {
+        "processObjectId": "7293885",
+        "uri": "https://kvdbil-images.imgix.net/7293885/ab48fe07.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7293885/ab48fe07.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 11
+      },
+      {
+        "processObjectId": "7293885",
+        "uri": "https://kvdbil-images.imgix.net/7293885/33252ce7.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7293885/33252ce7.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 12
+      },
+      {
+        "processObjectId": "7293885",
+        "uri": "https://kvdbil-images.imgix.net/7293885/cd8e9e8d.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7293885/cd8e9e8d.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 13
+      },
+      {
+        "processObjectId": "7293885",
+        "uri": "https://kvdbil-images.imgix.net/7293885/9eed2c9c.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7293885/9eed2c9c.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 14
+      },
+      {
+        "processObjectId": "7293885",
+        "uri": "https://kvdbil-images.imgix.net/7293885/a094ff6b.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7293885/a094ff6b.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 16
+      }
+    ],
+    "locationInfo": {
+      "id": "555123",
+      "processObjectId": "7293885",
+      "locationType": "FACILITY",
+      "createdAt": "2026-10-29T10:45:24.479314+00:00",
+      "updatedAt": "2026-10-29T10:45:24.479317+00:00",
+      "facilityId": "00000001-0001-0001-0001-000000000001",
+      "parkingZone": "A",
+      "parkingNumber": null,
+      "outgoingTime": "2026-11-11T19:00:00+00:00",
+      "leftAt": null,
+      "outgoingType": "TRANSPORT",
+      "publicFacilityId": "00000001-0001-0001-0001-000000000001",
+      "facility": {
+        "id": "00000001-0001-0001-0001-000000000001",
+        "name": "Kungälv (Ellesbo)",
+        "operator": "KVD",
+        "legacyIdentifiers": [
+          "GBG, Kungälv",
+          "Kungälv (Ellesbo)"
+        ],
+        "objectTypes": [
+          "CAR",
+          "LIGHT_TRANSPORT",
+          "RECREATIONAL_VEHICLE"
+        ],
+        "createdAt": "2018-03-04T13:18:23.295898+00:00",
+        "calendarOrganisationalUnitId": "3",
+        "parkingAreas": [
+          {
+            "id": 1,
+            "name": "A1",
+            "createdAt": "2018-03-04T13:18:23.295898+00:00"
+          },
+          {
+            "id": 2,
+            "name": "B1",
+            "createdAt": "2018-03-04T13:18:23.295898+00:00"
+          }
+        ],
+        "active": true,
+        "latitude": 57.8325714,
+        "longitude": 12.0013274,
+        "distance": null,
+        "address": "Ellesbovägen 150",
+        "postCode": "44290",
+        "city": "Kungälv",
+        "facilityType": "MAXI",
+        "facilityMapUrl": "https://www.google.com/maps/dir/57.8325714,12.0013274/@57.8325714,12.0013274,z13",
+        "contactPhone": "+46101673040",
+        "contactEmail": "leverans.kungalv@kvdbil.se",
+        "allowIncomingTransport": true,
+        "allowLeaseReturns": true,
+        "allowUnplannedDropOffFleetManager": true,
+        "parentFacilityId": null,
+        "publicFacilityId": "00000001-0001-0001-0001-000000000001"
+      }
+    },
+    "valuation": {
+      "id": 239324,
+      "processObjectId": "7293885",
+      "valuatorComment": {
+        "da": "Her præsenterer vi en Mercedes CLA med automatgear, der gør hver rejse glat og behagelig. Indvendigt er der en stilren dellæderindretning, der giver en hyggelig og hjemlig følelse. Bakkamera, LED-forlygter, assistentsystemer og nøglefrit startsystem giver både komfort og ekstra støtte i den daglige kørsel. For nylig serviceret og synet til december 2027.",
+        "de": "Hier präsentieren wir einen Mercedes CLA mit Automatikgetriebe, das jede Fahrt geschmeidig und komfortabel macht. Innen gibt es eine stilvolle Teil-Lederausstattung, die ein angenehmes und behagliches Gefühl vermittelt. Rückfahrkamera, LED-Scheinwerfer, Assistenzsysteme und schlüsselloses Startsystem bieten sowohl Komfort als auch zusätzliche Unterstützung im Alltag. Kürzlich gewartet und geprüft bis Dezember 2027.",
+        "en": "Here we present a Mercedes CLA with automatic transmission that makes every journey smooth and comfortable. Inside there is a stylish partial leather interior that gives a cozy and homely feeling. Rearview camera, LED headlights, assistance systems and keyless start system provide both comfort and extra support in everyday driving. Recently serviced and inspected until December 2027.",
+        "et": "Siin tutvustame Mercedes CLA-d automaatkäigukastiga, mis muudab iga sõidu sujuvaks ja mugavaks. Siseviimistluses on stiilne nahaga istmeosa, mis annab hubase ja koduse tunde. Tagurduskaamera, LED-esituled, abisüsteemid ja võtmeta käivitussüsteem tagavad nii mugavuse kui ka täiendava toe igapäevases sõidus. Hiljuti hooldatud ja kontrollitud kuni detsembrini 2027.",
+        "fi": "Tässä esittelemme Mercedes CLA:n automaattivaihteistolla, joka tekee jokaisesta matkasta sujuvan ja mukavan. Sisätiloissa on tyylikäs osittainen nahkaverhoilu, joka antaa viihtyisän ja kodikkaan tunteen. Peruutuskamera, LED-ajovalot, avustinjärjestelmät ja avaimeton käynnistysjärjestelmä tarjoavat sekä mukavuutta että lisätukea arjen ajossa. Hiljattain huollettu ja katsastettu joulukuuhun 2027 asti.",
+        "pl": "Przedstawiamy Mercedes CLA z automatyczną skrzynią biegów, który sprawia, że każda podróż jest płynna i wygodna. Wnętrze posiada stylową częściową skórzaną tapicerkę, która zapewnia przytulne i domowe uczucie. Kamera cofania, reflektory LED, systemy wspomagające i bezkluczykowy system startu zapewniają komfort i dodatkowe wsparcie podczas codziennej jazdy. Niedawno serwisowany i przegląd techniczny ważny do grudnia 2027.",
+        "sv": "Här presenterar vi en Mercedes CLA med automat som gör varje resa smidig och bekväm. Invändigt finns en stilren delläderinredning som ger en trivsam och ombonad känsla. Backkamera, LED-strålkastare, assistanssystem och nyckellöst startsystem ger både komfort och extra stöd i vardagskörningen. Nyligen servad och besiktigad till december 2027."
+      },
+      "generatedValuatorComment": {
+        "en": "",
+        "sv": "Här presenterar vi en Mercedes CLA med automat som gör varje resa smidig och bekväm. Invändigt finns en stilren delläderinredning som ger en trivsam och ombonad känsla. Backkamera, LED-strålkastare, assistanssystem och nyckellöst startsystem ger både komfort och extra stöd i vardagskörningen. Nyligen servad och besiktigad till december 2027."
+      },
+      "carDealerPrice": 280000,
+      "endUserTestProtocol": {
+        "tires": {
+          "extraTires": {
+            "other": {
+              "rimSize": "18",
+              "rimType": "Alu.fälg",
+              "tireType": "Sommardäck",
+              "otherInfo": "Behövs ej",
+              "tireTypeKey": "SUMMER_TIRES"
+            },
+            "grades": {
+              "rearLeft": 2,
+              "frontLeft": 3,
+              "rearRight": 2,
+              "frontRight": 3
+            },
+            "treadDepths": {
+              "rearLeft": 4,
+              "frontLeft": 5,
+              "rearRight": 4,
+              "frontRight": 5
+            }
+          },
+          "mountedTires": {
+            "other": {
+              "rimSize": "19",
+              "rimType": "Alu.fälg",
+              "tireType": "Odubbade vinterdäck",
+              "otherInfo": "Behövs ej",
+              "tireTypeKey": "UNSTUDDED_WINTER_TIRES"
+            },
+            "grades": {
+              "rearLeft": 1,
+              "frontLeft": 2,
+              "rearRight": 1,
+              "frontRight": 2
+            },
+            "treadDepths": {
+              "rearLeft": 3,
+              "frontLeft": 5,
+              "rearRight": 3,
+              "frontRight": 5
+            }
+          }
+        },
+        "grades": {
+          "TOTAL": {
+            "max": 5,
+            "min": 1,
+            "value": 3
+          },
+          "BRAKES": {
+            "max": 3,
+            "min": 1,
+            "value": 3
+          },
+          "EXTERIOR": {
+            "max": 5,
+            "min": 1,
+            "value": 3
+          },
+          "INTERIOR": {
+            "max": 5,
+            "min": 1,
+            "value": 3
+          },
+          "ENGINE_AND_GEARBOX": {
+            "max": 3,
+            "min": 1,
+            "value": 3
+          },
+          "TECHNOLOGY_AND_EQUIPMENT": {
+            "max": 3,
+            "min": 1,
+            "value": 3
+          }
+        },
+        "towbar": false,
+        "remarks": {
+          "BRAKES": [],
+          "EXTERIOR": [
+            {
+              "id": "72938852",
+              "key": "Flertal stenskott, dörruppslag, bucklor och repor.",
+              "other": null,
+              "point": 0,
+              "category": "EXTERIOR",
+              "text": "Flertal stenskott, dörruppslag, bucklor och repor."
+            }
+          ],
+          "INTERIOR": [],
+          "ENGINE_AND_GEARBOX": [],
+          "TECHNOLOGY_AND_EQUIPMENT": []
+        },
+        "textile": "Delläder",
+        "boatType": null,
+        "equipment": [
+          "Backkamera",
+          "GPS",
+          "Assistanssystem",
+          "Nyckellöst startsystem",
+          "Bluetooth",
+          "Farthållare",
+          "Klimatanläggning",
+          "LED-strålkastare",
+          "Start/Stop-funktion",
+          "USB-ingång",
+          "Fjärrlås",
+          "Radio",
+          "Regnsensor",
+          "Stolsvärme fram",
+          "Antisladdsystem",
+          "Elhiss bak",
+          "Elhiss fram",
+          "Elinfällbara speglar",
+          "Isofix bak",
+          "Parkeringssensorer bak",
+          "Parkeringssensorer fram",
+          "Mercedes-Benz Connect",
+          "Aktiv parkeringshjälp",
+          "Parkeringspaket",
+          "Spegelpaket",
+          "Åkkomfortpaket",
+          "Ljus- och siktpaket"
+        ],
+        "boatWidth": null,
+        "createdAt": "2026-11-03T09:48:43",
+        "boatEngine": null,
+        "boatLength": null,
+        "boatWeight": null,
+        "finishType": "Solid",
+        "protocolId": "261859",
+        "stoveFlames": null,
+        "heatingSystem": null,
+        "numberOfKeys": 2,
+        "boatCeBranded": false,
+        "boatGearModel": null,
+        "numberOfBunks": null,
+        "numberOfSeats": 5,
+        "boatEngineFuel": null,
+        "boatSepticTank": false,
+        "isRepairObject": false,
+        "boatEnginePower": null,
+        "serviceBookType": "ELECTRONIC",
+        "boatExteriorColor": null,
+        "serviceBookStatus": "Service utförd vid följande mil: 1244, 2224, 2708, 3946, 4925, 6007 mil, senast 2026-09-02",
+        "serviceBookStatusI18N": {
+          "da": "Service udført ved følgende km: 12440, 22240, 27080, 39460, 49250, 60070 km, senest 2026-09-02",
+          "de": "Service durchgeführt bei folgenden km: 12440, 22240, 27080, 39460, 49250, 60070 km, zuletzt 2026-09-02",
+          "en": "Service performed at the following km: 12440, 22240, 27080, 39460, 49250, 60070 km, last 2026-09-02",
+          "et": "Hooldus tehtud järgmiste km juures: 12440, 22240, 27080, 39460, 49250, 60070 km, viimane 2026-09-02",
+          "fi": "Huolto tehty seuraavilla kilometreillä: 12440, 22240, 27080, 39460, 49250, 60070 km, viimeisin 2026-09-02",
+          "pl": "Serwis wykonany przy następującym przebiegu km: 12440, 22240, 27080, 39460, 49250, 60070 km, ostatnio 2026-09-02",
+          "sv": "Service utförd vid följande mil: 1244, 2224, 2708, 3946, 4925, 6007 mil, senast 2026-09-02"
+        },
+        "boatEngineSerialNumber": null,
+        "odometerReadingAfterTest": {
+          "unit": "Mil",
+          "value": 6126
+        },
+        "odometerReadingAfterTestInKm": 61260
+      },
+      "auctionPriceValuation": {
+        "currency": "SEK"
+      },
+      "finalised": true,
+      "includedImageIds": null,
+      "createdAt": "2026-11-03T08:50:13.517992+00:00",
+      "updatedAt": "2026-11-09T09:45:05.315436+00:00",
+      "generatingInProgress": false,
+      "valuatorCommentLocalized": "Här presenterar vi en Mercedes CLA med automat som gör varje resa smidig och bekväm. Invändigt finns en stilren delläderinredning som ger en trivsam och ombonad känsla. Backkamera, LED-strålkastare, assistanssystem och nyckellöst startsystem ger både komfort och extra stöd i vardagskörningen. Nyligen servad och besiktigad till december 2027."
+    },
+    "facts": {
+      "default": [
+        {
+          "key": "NUMBER_OF_PREVIOUS_OWNERS",
+          "text": "Antal tidigare ägare",
+          "value": 3,
+          "type": "string"
+        },
+        {
+          "key": "REGISTRATION_PLATE",
+          "text": "Registreringsnummer",
+          "value": "ARJ83U",
+          "type": "string"
+        },
+        {
+          "key": "MODEL_YEAR",
+          "text": "Modellår",
+          "value": 2021,
+          "type": "string"
+        },
+        {
+          "key": "MANUFACTURE_MONTH",
+          "text": "Tillverkningsmånad",
+          "value": "202007",
+          "type": "manufacture_month"
+        },
+        {
+          "key": "ODOMETER_READING",
+          "text": "Mätarställning",
+          "value": 61260,
+          "type": "distance"
+        },
+        {
+          "key": "INITIAL_TRAFFIC_DATE",
+          "text": "Första datum i trafik i Sverige",
+          "value": "2020-08-31",
+          "type": "date"
+        },
+        {
+          "key": "SERVICE_BOOK",
+          "text": "Servicehistorik",
+          "value": "Service utförd vid följande mil: 1244, 2224, 2708, 3946, 4925, 6007 mil, senast 2026-09-02",
+          "type": "string"
+        },
+        {
+          "key": "SERVICE_BOOK_TYPE",
+          "text": "Servicebok",
+          "value": "Elektronisk",
+          "type": "string"
+        },
+        {
+          "key": "GEARBOX",
+          "text": "Växellåda",
+          "value": "Automat",
+          "type": "string"
+        },
+        {
+          "key": "NUMBER_OF_SEATS",
+          "text": "Antal säten",
+          "value": 5,
+          "type": "string"
+        },
+        {
+          "key": "NUMBER_OF_KEYS",
+          "text": "Antal nycklar",
+          "value": 2,
+          "type": "string"
+        },
+        {
+          "key": "EXTERIOR_COLOR",
+          "text": "Färg",
+          "value": "Svart",
+          "type": "string"
+        },
+        {
+          "key": "FINISH_TYPE",
+          "text": "Lack",
+          "value": "Solid",
+          "type": "string"
+        },
+        {
+          "key": "TEXTILE",
+          "text": "Klädsel",
+          "value": "Delläder",
+          "type": "string"
+        },
+        {
+          "key": "MANUFACTURER_WARRANTY",
+          "text": "Nybilsgaranti",
+          "value": "Inte undersökt",
+          "type": "string"
+        },
+        {
+          "key": "COLLISION_WARRANTY",
+          "text": "Vagnskadegaranti",
+          "value": "Inte undersökt",
+          "type": "string"
+        },
+        {
+          "key": "TAX_FEE",
+          "text": "Skatt årsavgift",
+          "value": "2750 SEK",
+          "type": "string"
+        }
+      ],
+      "additional": [
+        {
+          "key": "CHASSIS_NUMBER",
+          "text": "Chassinummer",
+          "value": "W1K1183121N147683",
+          "type": "string"
+        },
+        {
+          "key": "ENGINE_EFFECT_DIESEL",
+          "text": "Motoreffekt (diesel)",
+          "value": 150,
+          "type": "engine_power"
+        },
+        {
+          "key": "TOWBAR",
+          "text": "Dragkrok",
+          "value": "Nej",
+          "type": "string"
+        },
+        {
+          "key": "MAX_PAYLOAD",
+          "text": "Maxlastvikt",
+          "value": 460,
+          "type": "weight"
+        },
+        {
+          "key": "CONSUMPTION_DIESEL",
+          "text": "Bränsleförbr. blandad körning (diesel)",
+          "value": 4.3,
+          "type": "consumption"
+        },
+        {
+          "key": "CO2_DIESEL",
+          "text": "CO2-utsläpp (diesel)",
+          "value": 114,
+          "type": "emission"
+        },
+        {
+          "key": "INSPECTION_VALID_TO_DATE",
+          "text": "Nästa besiktning senast",
+          "value": "2027-12-31",
+          "type": "string"
+        },
+        {
+          "key": "CURB_WEIGHT",
+          "text": "Tjänstevikt",
+          "value": 1595,
+          "type": "weight"
+        },
+        {
+          "key": "TAX_WEIGHT",
+          "text": "Skattevikt",
+          "value": 1590,
+          "type": "weight"
+        },
+        {
+          "key": "TOTAL_WEIGHT",
+          "text": "Fordonets totalvikt",
+          "value": 2055,
+          "type": "weight"
+        },
+        {
+          "key": "LENGTH",
+          "text": "Längd",
+          "value": 4695,
+          "type": "length"
+        },
+        {
+          "key": "WIDTH",
+          "text": "Bredd",
+          "value": 1857,
+          "type": "length"
+        },
+        {
+          "key": "HEIGHT",
+          "text": "Höjd",
+          "value": 1440,
+          "type": "length"
+        }
+      ],
+      "other": [
+        {
+          "key": "SOLD_IN_SWEDEN",
+          "text": "Svensksåld",
+          "value": "Ja",
+          "type": "string"
+        },
+        {
+          "key": "EXPORTABLE",
+          "text": "Kan exporteras",
+          "value": "Ja",
+          "type": "string"
+        },
+        {
+          "key": "DEDUCTIBLE_VAT",
+          "text": "Avlyftbar moms",
+          "value": "Nej",
+          "type": "string"
+        }
+      ]
+    },
+    "majorFeature": [
+      {
+        "key": "BACKKAMERA",
+        "title": "Backkamera",
+        "value": null,
+        "equipment": "Utrustning",
+        "description": "Kamera som underlättar vid backning"
+      },
+      {
+        "key": "LED_STRALKASTARE",
+        "title": "LED-strålkastare",
+        "value": null,
+        "equipment": "Utrustning",
+        "description": "Strålkastare med LED-ljus har ett konstant vitt ljus och har samma ljusstyrka från star"
+      },
+      {
+        "key": "GPS",
+        "title": "GPS",
+        "value": null,
+        "equipment": "Utrustning",
+        "description": "Navigationssystem med vägbeskrivning"
+      },
+      {
+        "key": "ASSISTANSSYSTEM",
+        "title": "Assistanssystem",
+        "value": null,
+        "equipment": "Utrustning",
+        "description": "Uppkopplad tjänst för att exempelvis kunna kontrollera din bil på distans med hjälp av en mobilapp. Funktioner som bygger på 2G eller 3G-uppkoppling kan sluta fungera i samband med att dessa nätverk stängs ner av operatörerna."
+      }
+    ],
+    "batteryTestCertificateAvailable": false
+  },
+  "previewImages": [
+    {
+      "processObjectId": "7293885",
+      "uri": "https://kvdbil-images.imgix.net/7293885/b26c932f.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7293885/b26c932f.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 1
+    },
+    {
+      "processObjectId": "7293885",
+      "uri": "https://kvdbil-images.imgix.net/7293885/e00fc1a5.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7293885/e00fc1a5.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 1
+    },
+    {
+      "processObjectId": "7293885",
+      "uri": "https://kvdbil-images.imgix.net/7293885/22ae71de.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7293885/22ae71de.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 2
+    },
+    {
+      "processObjectId": "7293885",
+      "uri": "https://kvdbil-images.imgix.net/7293885/5c653a7d.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7293885/5c653a7d.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 3
+    },
+    {
+      "processObjectId": "7293885",
+      "uri": "https://kvdbil-images.imgix.net/7293885/98f97339.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7293885/98f97339.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 3
+    },
+    {
+      "processObjectId": "7293885",
+      "uri": "https://kvdbil-images.imgix.net/7293885/b4f2f717.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7293885/b4f2f717.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 4
+    },
+    {
+      "processObjectId": "7293885",
+      "uri": "https://kvdbil-images.imgix.net/7293885/43b6d0a7.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7293885/43b6d0a7.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 5
+    },
+    {
+      "processObjectId": "7293885",
+      "uri": "https://kvdbil-images.imgix.net/7293885/5009060f.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7293885/5009060f.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 5
+    },
+    {
+      "processObjectId": "7293885",
+      "uri": "https://kvdbil-images.imgix.net/7293885/475c9dd7.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7293885/475c9dd7.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 6
+    },
+    {
+      "processObjectId": "7293885",
+      "uri": "https://kvdbil-images.imgix.net/7293885/4e3e5018.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7293885/4e3e5018.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 6
+    },
+    {
+      "processObjectId": "7293885",
+      "uri": "https://kvdbil-images.imgix.net/7293885/c9e30238.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7293885/c9e30238.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 7
+    },
+    {
+      "processObjectId": "7293885",
+      "uri": "https://kvdbil-images.imgix.net/7293885/a5aa2afc.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7293885/a5aa2afc.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 8
+    },
+    {
+      "processObjectId": "7293885",
+      "uri": "https://kvdbil-images.imgix.net/7293885/305b83f0.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7293885/305b83f0.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 8
+    },
+    {
+      "processObjectId": "7293885",
+      "uri": "https://kvdbil-images.imgix.net/7293885/0f650cfc.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7293885/0f650cfc.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 9
+    },
+    {
+      "processObjectId": "7293885",
+      "uri": "https://kvdbil-images.imgix.net/7293885/9abcc345.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7293885/9abcc345.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 9
+    },
+    {
+      "processObjectId": "7293885",
+      "uri": "https://kvdbil-images.imgix.net/7293885/6f71766d.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7293885/6f71766d.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 10
+    },
+    {
+      "processObjectId": "7293885",
+      "uri": "https://kvdbil-images.imgix.net/7293885/ed557172.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7293885/ed557172.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 10
+    },
+    {
+      "processObjectId": "7293885",
+      "uri": "https://kvdbil-images.imgix.net/7293885/169d9864.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7293885/169d9864.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 11
+    },
+    {
+      "processObjectId": "7293885",
+      "uri": "https://kvdbil-images.imgix.net/7293885/ab48fe07.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7293885/ab48fe07.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 11
+    },
+    {
+      "processObjectId": "7293885",
+      "uri": "https://kvdbil-images.imgix.net/7293885/33252ce7.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7293885/33252ce7.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 12
+    },
+    {
+      "processObjectId": "7293885",
+      "uri": "https://kvdbil-images.imgix.net/7293885/cd8e9e8d.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7293885/cd8e9e8d.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 13
+    },
+    {
+      "processObjectId": "7293885",
+      "uri": "https://kvdbil-images.imgix.net/7293885/9eed2c9c.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7293885/9eed2c9c.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 14
+    },
+    {
+      "processObjectId": "7293885",
+      "uri": "https://kvdbil-images.imgix.net/7293885/a094ff6b.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7293885/a094ff6b.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 16
+    }
+  ],
+  "similarAuctions": [],
+  "activeAuction": {
+    "auctionId": "309850",
+    "closed": true,
+    "countdownInProgress": true,
+    "preliminaryCloseAt": "2026-11-10T09:28:00+00:00",
+    "createdAt": "2026-11-05T16:06:44.029181+00:00",
+    "updatedAt": "2026-11-10T09:28:00.011111+00:00",
+    "vatExcludedBiddingAllowed": false,
+    "reservationPriceReached": true,
+    "bids": [
+      {
+        "id": 18736912,
+        "auctionId": 309850,
+        "bidderAlias": "7",
+        "amount": 237500,
+        "type": "NORMAL",
+        "maxBidId": 10948805,
+        "triggeredBy": 10948805,
+        "createdAt": "2026-11-10T09:23:55.767566+00:00",
+        "updatedAt": "2026-11-10T09:23:55.767572+00:00"
+      },
+      {
+        "id": 18736789,
+        "auctionId": 309850,
+        "bidderAlias": "10",
+        "amount": 237000,
+        "type": "NORMAL",
+        "maxBidId": 10948727,
+        "triggeredBy": 10948727,
+        "createdAt": "2026-11-10T09:18:04.479000+00:00",
+        "updatedAt": "2026-11-10T09:18:04.479004+00:00"
+      },
+      {
+        "id": 18736788,
+        "auctionId": 309850,
+        "bidderAlias": "7",
+        "amount": 236500,
+        "type": "LIMIT_REACHED",
+        "maxBidId": 10948091,
+        "triggeredBy": 10948727,
+        "createdAt": "2026-11-10T09:18:04.478987+00:00",
+        "updatedAt": "2026-11-10T09:18:04.478996+00:00"
+      },
+      {
+        "id": 18735646,
+        "auctionId": 309850,
+        "bidderAlias": "7",
+        "amount": 235500,
+        "type": "NORMAL",
+        "maxBidId": 10948091,
+        "triggeredBy": 10948091,
+        "createdAt": "2026-11-10T06:56:57.885352+00:00",
+        "updatedAt": "2026-11-10T06:56:57.885356+00:00"
+      },
+      {
+        "id": 18735645,
+        "auctionId": 309850,
+        "bidderAlias": "2",
+        "amount": 235000,
+        "type": "LIMIT_REACHED",
+        "maxBidId": 10947632,
+        "triggeredBy": 10948091,
+        "createdAt": "2026-11-10T06:56:57.885337+00:00",
+        "updatedAt": "2026-11-10T06:56:57.885347+00:00"
+      },
+      {
+        "id": 18734813,
+        "auctionId": 309850,
+        "bidderAlias": "2",
+        "amount": 230500,
+        "type": "NORMAL",
+        "maxBidId": 10947632,
+        "triggeredBy": 10947632,
+        "createdAt": "2026-11-09T21:30:12.244302+00:00",
+        "updatedAt": "2026-11-09T21:30:12.244304+00:00"
+      },
+      {
+        "id": 18734812,
+        "auctionId": 309850,
+        "bidderAlias": "7",
+        "amount": 230000,
+        "type": "LIMIT_REACHED",
+        "maxBidId": 10947626,
+        "triggeredBy": 10947632,
+        "createdAt": "2026-11-09T21:30:12.244288+00:00",
+        "updatedAt": "2026-11-09T21:30:12.244299+00:00"
+      },
+      {
+        "id": 18734810,
+        "auctionId": 309850,
+        "bidderAlias": "7",
+        "amount": 223000,
+        "type": "AUTO",
+        "maxBidId": 10947626,
+        "triggeredBy": 10947630,
+        "createdAt": "2026-11-09T21:29:41.262367+00:00",
+        "updatedAt": "2026-11-09T21:29:41.262369+00:00"
+      },
+      {
+        "id": 18734809,
+        "auctionId": 309850,
+        "bidderAlias": "2",
+        "amount": 222500,
+        "type": "NORMAL",
+        "maxBidId": 10947630,
+        "triggeredBy": 10947630,
+        "createdAt": "2026-11-09T21:29:41.262358+00:00",
+        "updatedAt": "2026-11-09T21:29:41.262364+00:00"
+      },
+      {
+        "id": 18734806,
+        "auctionId": 309850,
+        "bidderAlias": "7",
+        "amount": 222000,
+        "type": "AUTO",
+        "maxBidId": 10947626,
+        "triggeredBy": 10947628,
+        "createdAt": "2026-11-09T21:29:19.094981+00:00",
+        "updatedAt": "2026-11-09T21:29:19.094986+00:00"
+      },
+      {
+        "id": 18734805,
+        "auctionId": 309850,
+        "bidderAlias": "2",
+        "amount": 221500,
+        "type": "NORMAL",
+        "maxBidId": 10947628,
+        "triggeredBy": 10947628,
+        "createdAt": "2026-11-09T21:29:19.094927+00:00",
+        "updatedAt": "2026-11-09T21:29:19.094968+00:00"
+      },
+      {
+        "id": 18734803,
+        "auctionId": 309850,
+        "bidderAlias": "7",
+        "amount": 221000,
+        "type": "NORMAL",
+        "maxBidId": 10947626,
+        "triggeredBy": 10947626,
+        "createdAt": "2026-11-09T21:28:52.799579+00:00",
+        "updatedAt": "2026-11-09T21:28:52.799587+00:00"
+      },
+      {
+        "id": 18734660,
+        "auctionId": 309850,
+        "bidderAlias": "2",
+        "amount": 220500,
+        "type": "NORMAL",
+        "maxBidId": 10947541,
+        "triggeredBy": 10947541,
+        "createdAt": "2026-11-09T20:40:02.583558+00:00",
+        "updatedAt": "2026-11-09T20:40:02.583560+00:00"
+      },
+      {
+        "id": 18734659,
+        "auctionId": 309850,
+        "bidderAlias": "12",
+        "amount": 220000,
+        "type": "LIMIT_REACHED",
+        "maxBidId": 10947464,
+        "triggeredBy": 10947541,
+        "createdAt": "2026-11-09T20:40:02.583549+00:00",
+        "updatedAt": "2026-11-09T20:40:02.583555+00:00"
+      },
+      {
+        "id": 18734582,
+        "auctionId": 309850,
+        "bidderAlias": "12",
+        "amount": 219500,
+        "type": "AUTO",
+        "maxBidId": 10947464,
+        "triggeredBy": 10947496,
+        "createdAt": "2026-11-09T20:18:14.326357+00:00",
+        "updatedAt": "2026-11-09T20:18:14.326359+00:00"
+      },
+      {
+        "id": 18734581,
+        "auctionId": 309850,
+        "bidderAlias": "2",
+        "amount": 219000,
+        "type": "NORMAL",
+        "maxBidId": 10947496,
+        "triggeredBy": 10947496,
+        "createdAt": "2026-11-09T20:18:14.326348+00:00",
+        "updatedAt": "2026-11-09T20:18:14.326354+00:00"
+      },
+      {
+        "id": 18734534,
+        "auctionId": 309850,
+        "bidderAlias": "12",
+        "amount": 218500,
+        "type": "NORMAL",
+        "maxBidId": 10947464,
+        "triggeredBy": 10947464,
+        "createdAt": "2026-11-09T20:02:22.964027+00:00",
+        "updatedAt": "2026-11-09T20:02:22.964029+00:00"
+      },
+      {
+        "id": 18734533,
+        "auctionId": 309850,
+        "bidderAlias": "4",
+        "amount": 218000,
+        "type": "LIMIT_REACHED",
+        "maxBidId": 10947448,
+        "triggeredBy": 10947464,
+        "createdAt": "2026-11-09T20:02:22.964017+00:00",
+        "updatedAt": "2026-11-09T20:02:22.964024+00:00"
+      },
+      {
+        "id": 18734532,
+        "auctionId": 309850,
+        "bidderAlias": "4",
+        "amount": 216500,
+        "type": "AUTO",
+        "maxBidId": 10947448,
+        "triggeredBy": 10947463,
+        "createdAt": "2026-11-09T20:02:08.522012+00:00",
+        "updatedAt": "2026-11-09T20:02:08.522014+00:00"
+      },
+      {
+        "id": 18734531,
+        "auctionId": 309850,
+        "bidderAlias": "12",
+        "amount": 216000,
+        "type": "NORMAL",
+        "maxBidId": 10947463,
+        "triggeredBy": 10947463,
+        "createdAt": "2026-11-09T20:02:08.521989+00:00",
+        "updatedAt": "2026-11-09T20:02:08.521996+00:00"
+      },
+      {
+        "id": 18734509,
+        "auctionId": 309850,
+        "bidderAlias": "4",
+        "amount": 215500,
+        "type": "NORMAL",
+        "maxBidId": 10947448,
+        "triggeredBy": 10947448,
+        "createdAt": "2026-11-09T19:59:09.414947+00:00",
+        "updatedAt": "2026-11-09T19:59:09.414949+00:00"
+      },
+      {
+        "id": 18734508,
+        "auctionId": 309850,
+        "bidderAlias": "12",
+        "amount": 215000,
+        "type": "LIMIT_REACHED",
+        "maxBidId": 10947285,
+        "triggeredBy": 10947448,
+        "createdAt": "2026-11-09T19:59:09.414938+00:00",
+        "updatedAt": "2026-11-09T19:59:09.414944+00:00"
+      },
+      {
+        "id": 18734262,
+        "auctionId": 309850,
+        "bidderAlias": "12",
+        "amount": 212500,
+        "type": "NORMAL",
+        "maxBidId": 10947285,
+        "triggeredBy": 10947285,
+        "createdAt": "2026-11-09T19:21:50.075473+00:00",
+        "updatedAt": "2026-11-09T19:21:50.075475+00:00"
+      },
+      {
+        "id": 18734261,
+        "auctionId": 309850,
+        "bidderAlias": "10",
+        "amount": 212000,
+        "type": "LIMIT_REACHED",
+        "maxBidId": 10945470,
+        "triggeredBy": 10947285,
+        "createdAt": "2026-11-09T19:21:50.075464+00:00",
+        "updatedAt": "2026-11-09T19:21:50.075470+00:00"
+      },
+      {
+        "id": 18734258,
+        "auctionId": 309850,
+        "bidderAlias": "10",
+        "amount": 210500,
+        "type": "AUTO",
+        "maxBidId": 10945470,
+        "triggeredBy": 10947283,
+        "createdAt": "2026-11-09T19:21:38.363476+00:00",
+        "updatedAt": "2026-11-09T19:21:38.363478+00:00"
+      },
+      {
+        "id": 18734257,
+        "auctionId": 309850,
+        "bidderAlias": "12",
+        "amount": 210000,
+        "type": "NORMAL",
+        "maxBidId": 10947283,
+        "triggeredBy": 10947283,
+        "createdAt": "2026-11-09T19:21:38.363468+00:00",
+        "updatedAt": "2026-11-09T19:21:38.363473+00:00"
+      },
+      {
+        "id": 18733921,
+        "auctionId": 309850,
+        "bidderAlias": "10",
+        "amount": 203500,
+        "type": "AUTO",
+        "maxBidId": 10945470,
+        "triggeredBy": 10947066,
+        "createdAt": "2026-11-09T18:39:15.045248+00:00",
+        "updatedAt": "2026-11-09T18:39:15.045250+00:00"
+      },
+      {
+        "id": 18733920,
+        "auctionId": 309850,
+        "bidderAlias": "12",
+        "amount": 203000,
+        "type": "NORMAL",
+        "maxBidId": 10947066,
+        "triggeredBy": 10947066,
+        "createdAt": "2026-11-09T18:39:15.045240+00:00",
+        "updatedAt": "2026-11-09T18:39:15.045245+00:00"
+      },
+      {
+        "id": 18732846,
+        "auctionId": 309850,
+        "bidderAlias": "10",
+        "amount": 202500,
+        "type": "AUTO",
+        "maxBidId": 10945470,
+        "triggeredBy": 10946435,
+        "createdAt": "2026-11-09T16:31:40.057041+00:00",
+        "updatedAt": "2026-11-09T16:31:40.057043+00:00"
+      },
+      {
+        "id": 18732845,
+        "auctionId": 309850,
+        "bidderAlias": "2",
+        "amount": 202000,
+        "type": "NORMAL",
+        "maxBidId": 10946435,
+        "triggeredBy": 10946435,
+        "createdAt": "2026-11-09T16:31:40.057030+00:00",
+        "updatedAt": "2026-11-09T16:31:40.057038+00:00"
+      },
+      {
+        "id": 18732838,
+        "auctionId": 309850,
+        "bidderAlias": "10",
+        "amount": 201500,
+        "type": "AUTO",
+        "maxBidId": 10945470,
+        "triggeredBy": 10946431,
+        "createdAt": "2026-11-09T16:31:00.323811+00:00",
+        "updatedAt": "2026-11-09T16:31:00.323813+00:00"
+      },
+      {
+        "id": 18732837,
+        "auctionId": 309850,
+        "bidderAlias": "2",
+        "amount": 201000,
+        "type": "NORMAL",
+        "maxBidId": 10946431,
+        "triggeredBy": 10946431,
+        "createdAt": "2026-11-09T16:31:00.323803+00:00",
+        "updatedAt": "2026-11-09T16:31:00.323808+00:00"
+      },
+      {
+        "id": 18732833,
+        "auctionId": 309850,
+        "bidderAlias": "10",
+        "amount": 200500,
+        "type": "AUTO",
+        "maxBidId": 10945470,
+        "triggeredBy": 10946428,
+        "createdAt": "2026-11-09T16:29:58.315418+00:00",
+        "updatedAt": "2026-11-09T16:29:58.315420+00:00"
+      },
+      {
+        "id": 18732832,
+        "auctionId": 309850,
+        "bidderAlias": "2",
+        "amount": 200000,
+        "type": "NORMAL",
+        "maxBidId": 10946428,
+        "triggeredBy": 10946428,
+        "createdAt": "2026-11-09T16:29:58.315407+00:00",
+        "updatedAt": "2026-11-09T16:29:58.315415+00:00"
+      },
+      {
+        "id": 18732449,
+        "auctionId": 309850,
+        "bidderAlias": "10",
+        "amount": 199500,
+        "type": "AUTO",
+        "maxBidId": 10945470,
+        "triggeredBy": 10946198,
+        "createdAt": "2026-11-09T13:45:34.290073+00:00",
+        "updatedAt": "2026-11-09T13:45:34.290075+00:00"
+      },
+      {
+        "id": 18732448,
+        "auctionId": 309850,
+        "bidderAlias": "11",
+        "amount": 199000,
+        "type": "NORMAL",
+        "maxBidId": 10946198,
+        "triggeredBy": 10946198,
+        "createdAt": "2026-11-09T13:45:34.290065+00:00",
+        "updatedAt": "2026-11-09T13:45:34.290071+00:00"
+      },
+      {
+        "id": 18732447,
+        "auctionId": 309850,
+        "bidderAlias": "10",
+        "amount": 198500,
+        "type": "AUTO",
+        "maxBidId": 10945470,
+        "triggeredBy": 10946197,
+        "createdAt": "2026-11-09T13:45:16.584552+00:00",
+        "updatedAt": "2026-11-09T13:45:16.584556+00:00"
+      },
+      {
+        "id": 18732446,
+        "auctionId": 309850,
+        "bidderAlias": "11",
+        "amount": 198000,
+        "type": "NORMAL",
+        "maxBidId": 10946197,
+        "triggeredBy": 10946197,
+        "createdAt": "2026-11-09T13:45:16.584532+00:00",
+        "updatedAt": "2026-11-09T13:45:16.584547+00:00"
+      },
+      {
+        "id": 18732406,
+        "auctionId": 309850,
+        "bidderAlias": "10",
+        "amount": 197500,
+        "type": "AUTO",
+        "maxBidId": 10945470,
+        "triggeredBy": 10946174,
+        "createdAt": "2026-11-09T13:15:07.962586+00:00",
+        "updatedAt": "2026-11-09T13:15:07.962588+00:00"
+      },
+      {
+        "id": 18732405,
+        "auctionId": 309850,
+        "bidderAlias": "2",
+        "amount": 197000,
+        "type": "NORMAL",
+        "maxBidId": 10946174,
+        "triggeredBy": 10946174,
+        "createdAt": "2026-11-09T13:15:07.962577+00:00",
+        "updatedAt": "2026-11-09T13:15:07.962583+00:00"
+      },
+      {
+        "id": 18732404,
+        "auctionId": 309850,
+        "bidderAlias": "10",
+        "amount": 196500,
+        "type": "AUTO",
+        "maxBidId": 10945470,
+        "triggeredBy": 10946173,
+        "createdAt": "2026-11-09T13:14:59.962791+00:00",
+        "updatedAt": "2026-11-09T13:14:59.962795+00:00"
+      },
+      {
+        "id": 18732403,
+        "auctionId": 309850,
+        "bidderAlias": "2",
+        "amount": 196000,
+        "type": "NORMAL",
+        "maxBidId": 10946173,
+        "triggeredBy": 10946173,
+        "createdAt": "2026-11-09T13:14:59.962776+00:00",
+        "updatedAt": "2026-11-09T13:14:59.962786+00:00"
+      },
+      {
+        "id": 18732402,
+        "auctionId": 309850,
+        "bidderAlias": "10",
+        "amount": 195500,
+        "type": "AUTO",
+        "maxBidId": 10945470,
+        "triggeredBy": 10946172,
+        "createdAt": "2026-11-09T13:14:49.112795+00:00",
+        "updatedAt": "2026-11-09T13:14:49.112798+00:00"
+      },
+      {
+        "id": 18732401,
+        "auctionId": 309850,
+        "bidderAlias": "2",
+        "amount": 195000,
+        "type": "NORMAL",
+        "maxBidId": 10946172,
+        "triggeredBy": 10946172,
+        "createdAt": "2026-11-09T13:14:49.112782+00:00",
+        "updatedAt": "2026-11-09T13:14:49.112790+00:00"
+      },
+      {
+        "id": 18732400,
+        "auctionId": 309850,
+        "bidderAlias": "10",
+        "amount": 194500,
+        "type": "AUTO",
+        "maxBidId": 10945470,
+        "triggeredBy": 10946171,
+        "createdAt": "2026-11-09T13:14:38.652479+00:00",
+        "updatedAt": "2026-11-09T13:14:38.652481+00:00"
+      },
+      {
+        "id": 18732399,
+        "auctionId": 309850,
+        "bidderAlias": "2",
+        "amount": 194000,
+        "type": "NORMAL",
+        "maxBidId": 10946171,
+        "triggeredBy": 10946171,
+        "createdAt": "2026-11-09T13:14:38.652470+00:00",
+        "updatedAt": "2026-11-09T13:14:38.652476+00:00"
+      },
+      {
+        "id": 18732398,
+        "auctionId": 309850,
+        "bidderAlias": "10",
+        "amount": 193500,
+        "type": "AUTO",
+        "maxBidId": 10945470,
+        "triggeredBy": 10946170,
+        "createdAt": "2026-11-09T13:14:04.974583+00:00",
+        "updatedAt": "2026-11-09T13:14:04.974587+00:00"
+      },
+      {
+        "id": 18732397,
+        "auctionId": 309850,
+        "bidderAlias": "2",
+        "amount": 193000,
+        "type": "NORMAL",
+        "maxBidId": 10946170,
+        "triggeredBy": 10946170,
+        "createdAt": "2026-11-09T13:14:04.974568+00:00",
+        "updatedAt": "2026-11-09T13:14:04.974578+00:00"
+      },
+      {
+        "id": 18732395,
+        "auctionId": 309850,
+        "bidderAlias": "10",
+        "amount": 191500,
+        "type": "AUTO",
+        "maxBidId": 10945470,
+        "triggeredBy": 10946168,
+        "createdAt": "2026-11-09T13:13:48.846416+00:00",
+        "updatedAt": "2026-11-09T13:13:48.846419+00:00"
+      },
+      {
+        "id": 18732394,
+        "auctionId": 309850,
+        "bidderAlias": "2",
+        "amount": 191000,
+        "type": "NORMAL",
+        "maxBidId": 10946168,
+        "triggeredBy": 10946168,
+        "createdAt": "2026-11-09T13:13:48.846400+00:00",
+        "updatedAt": "2026-11-09T13:13:48.846410+00:00"
+      },
+      {
+        "id": 18732393,
+        "auctionId": 309850,
+        "bidderAlias": "10",
+        "amount": 190500,
+        "type": "AUTO",
+        "maxBidId": 10945470,
+        "triggeredBy": 10946167,
+        "createdAt": "2026-11-09T13:12:07.183684+00:00",
+        "updatedAt": "2026-11-09T13:12:07.183687+00:00"
+      },
+      {
+        "id": 18732392,
+        "auctionId": 309850,
+        "bidderAlias": "2",
+        "amount": 190000,
+        "type": "NORMAL",
+        "maxBidId": 10946167,
+        "triggeredBy": 10946167,
+        "createdAt": "2026-11-09T13:12:07.183670+00:00",
+        "updatedAt": "2026-11-09T13:12:07.183680+00:00"
+      },
+      {
+        "id": 18732391,
+        "auctionId": 309850,
+        "bidderAlias": "10",
+        "amount": 188500,
+        "type": "AUTO",
+        "maxBidId": 10945470,
+        "triggeredBy": 10946166,
+        "createdAt": "2026-11-09T13:11:42.315009+00:00",
+        "updatedAt": "2026-11-09T13:11:42.315011+00:00"
+      },
+      {
+        "id": 18732390,
+        "auctionId": 309850,
+        "bidderAlias": "2",
+        "amount": 188000,
+        "type": "NORMAL",
+        "maxBidId": 10946166,
+        "triggeredBy": 10946166,
+        "createdAt": "2026-11-09T13:11:42.315001+00:00",
+        "updatedAt": "2026-11-09T13:11:42.315007+00:00"
+      },
+      {
+        "id": 18732388,
+        "auctionId": 309850,
+        "bidderAlias": "10",
+        "amount": 187500,
+        "type": "AUTO",
+        "maxBidId": 10945470,
+        "triggeredBy": 10946164,
+        "createdAt": "2026-11-09T13:10:45.055747+00:00",
+        "updatedAt": "2026-11-09T13:10:45.055749+00:00"
+      },
+      {
+        "id": 18732387,
+        "auctionId": 309850,
+        "bidderAlias": "2",
+        "amount": 187000,
+        "type": "NORMAL",
+        "maxBidId": 10946164,
+        "triggeredBy": 10946164,
+        "createdAt": "2026-11-09T13:10:45.055737+00:00",
+        "updatedAt": "2026-11-09T13:10:45.055744+00:00"
+      },
+      {
+        "id": 18732386,
+        "auctionId": 309850,
+        "bidderAlias": "10",
+        "amount": 186500,
+        "type": "AUTO",
+        "maxBidId": 10945470,
+        "triggeredBy": 10946163,
+        "createdAt": "2026-11-09T13:10:24.739261+00:00",
+        "updatedAt": "2026-11-09T13:10:24.739263+00:00"
+      },
+      {
+        "id": 18732385,
+        "auctionId": 309850,
+        "bidderAlias": "2",
+        "amount": 186000,
+        "type": "NORMAL",
+        "maxBidId": 10946163,
+        "triggeredBy": 10946163,
+        "createdAt": "2026-11-09T13:10:24.739250+00:00",
+        "updatedAt": "2026-11-09T13:10:24.739258+00:00"
+      },
+      {
+        "id": 18732384,
+        "auctionId": 309850,
+        "bidderAlias": "10",
+        "amount": 185500,
+        "type": "AUTO",
+        "maxBidId": 10945470,
+        "triggeredBy": 10946162,
+        "createdAt": "2026-11-09T13:10:00.861719+00:00",
+        "updatedAt": "2026-11-09T13:10:00.861721+00:00"
+      },
+      {
+        "id": 18732383,
+        "auctionId": 309850,
+        "bidderAlias": "2",
+        "amount": 185000,
+        "type": "NORMAL",
+        "maxBidId": 10946162,
+        "triggeredBy": 10946162,
+        "createdAt": "2026-11-09T13:10:00.861708+00:00",
+        "updatedAt": "2026-11-09T13:10:00.861717+00:00"
+      },
+      {
+        "id": 18732376,
+        "auctionId": 309850,
+        "bidderAlias": "10",
+        "amount": 184500,
+        "type": "AUTO",
+        "maxBidId": 10945470,
+        "triggeredBy": 10946158,
+        "createdAt": "2026-11-09T13:09:24.301722+00:00",
+        "updatedAt": "2026-11-09T13:09:24.301726+00:00"
+      },
+      {
+        "id": 18732375,
+        "auctionId": 309850,
+        "bidderAlias": "2",
+        "amount": 184000,
+        "type": "NORMAL",
+        "maxBidId": 10946158,
+        "triggeredBy": 10946158,
+        "createdAt": "2026-11-09T13:09:24.301709+00:00",
+        "updatedAt": "2026-11-09T13:09:24.301718+00:00"
+      },
+      {
+        "id": 18732372,
+        "auctionId": 309850,
+        "bidderAlias": "10",
+        "amount": 183500,
+        "type": "AUTO",
+        "maxBidId": 10945470,
+        "triggeredBy": 10946156,
+        "createdAt": "2026-11-09T13:08:33.856591+00:00",
+        "updatedAt": "2026-11-09T13:08:33.856593+00:00"
+      },
+      {
+        "id": 18732371,
+        "auctionId": 309850,
+        "bidderAlias": "2",
+        "amount": 183000,
+        "type": "NORMAL",
+        "maxBidId": 10946156,
+        "triggeredBy": 10946156,
+        "createdAt": "2026-11-09T13:08:33.856581+00:00",
+        "updatedAt": "2026-11-09T13:08:33.856587+00:00"
+      },
+      {
+        "id": 18731187,
+        "auctionId": 309850,
+        "bidderAlias": "10",
+        "amount": 182500,
+        "type": "NORMAL",
+        "maxBidId": 10945470,
+        "triggeredBy": 10945470,
+        "createdAt": "2026-11-09T10:54:18.427699+00:00",
+        "updatedAt": "2026-11-09T10:54:18.427701+00:00"
+      },
+      {
+        "id": 18731186,
+        "auctionId": 309850,
+        "bidderAlias": "9",
+        "amount": 182000,
+        "type": "LIMIT_REACHED",
+        "maxBidId": 10943131,
+        "triggeredBy": 10945470,
+        "createdAt": "2026-11-09T10:54:18.427690+00:00",
+        "updatedAt": "2026-11-09T10:54:18.427697+00:00"
+      },
+      {
+        "id": 18727048,
+        "auctionId": 309850,
+        "bidderAlias": "9",
+        "amount": 180500,
+        "type": "NORMAL",
+        "maxBidId": 10943131,
+        "triggeredBy": 10943131,
+        "createdAt": "2026-11-08T19:06:37.620066+00:00",
+        "updatedAt": "2026-11-08T19:06:37.620069+00:00"
+      },
+      {
+        "id": 18727047,
+        "auctionId": 309850,
+        "bidderAlias": "4",
+        "amount": 180000,
+        "type": "LIMIT_REACHED",
+        "maxBidId": 10942961,
+        "triggeredBy": 10943131,
+        "createdAt": "2026-11-08T19:06:37.620056+00:00",
+        "updatedAt": "2026-11-08T19:06:37.620064+00:00"
+      },
+      {
+        "id": 18727033,
+        "auctionId": 309850,
+        "bidderAlias": "4",
+        "amount": 175500,
+        "type": "AUTO",
+        "maxBidId": 10942961,
+        "triggeredBy": 10943122,
+        "createdAt": "2026-11-08T19:06:04.229114+00:00",
+        "updatedAt": "2026-11-08T19:06:04.229116+00:00"
+      },
+      {
+        "id": 18727032,
+        "auctionId": 309850,
+        "bidderAlias": "9",
+        "amount": 175000,
+        "type": "NORMAL",
+        "maxBidId": 10943122,
+        "triggeredBy": 10943122,
+        "createdAt": "2026-11-08T19:06:04.229105+00:00",
+        "updatedAt": "2026-11-08T19:06:04.229111+00:00"
+      },
+      {
+        "id": 18726786,
+        "auctionId": 309850,
+        "bidderAlias": "4",
+        "amount": 170500,
+        "type": "NORMAL",
+        "maxBidId": 10942961,
+        "triggeredBy": 10942961,
+        "createdAt": "2026-11-08T18:31:19.033670+00:00",
+        "updatedAt": "2026-11-08T18:31:19.033677+00:00"
+      },
+      {
+        "id": 18725225,
+        "auctionId": 309850,
+        "bidderAlias": "2",
+        "amount": 170000,
+        "type": "AUTO",
+        "maxBidId": 10942017,
+        "triggeredBy": 10942035,
+        "createdAt": "2026-11-08T12:26:19.392323+00:00",
+        "updatedAt": "2026-11-08T12:26:19.392325+00:00"
+      },
+      {
+        "id": 18725224,
+        "auctionId": 309850,
+        "bidderAlias": "8",
+        "amount": 169500,
+        "type": "NORMAL",
+        "maxBidId": 10942035,
+        "triggeredBy": 10942035,
+        "createdAt": "2026-11-08T12:26:19.392314+00:00",
+        "updatedAt": "2026-11-08T12:26:19.392320+00:00"
+      },
+      {
+        "id": 18725223,
+        "auctionId": 309850,
+        "bidderAlias": "2",
+        "amount": 169000,
+        "type": "AUTO",
+        "maxBidId": 10942017,
+        "triggeredBy": 10942034,
+        "createdAt": "2026-11-08T12:26:10.760104+00:00",
+        "updatedAt": "2026-11-08T12:26:10.760105+00:00"
+      },
+      {
+        "id": 18725222,
+        "auctionId": 309850,
+        "bidderAlias": "8",
+        "amount": 168500,
+        "type": "NORMAL",
+        "maxBidId": 10942034,
+        "triggeredBy": 10942034,
+        "createdAt": "2026-11-08T12:26:10.760096+00:00",
+        "updatedAt": "2026-11-08T12:26:10.760101+00:00"
+      },
+      {
+        "id": 18725221,
+        "auctionId": 309850,
+        "bidderAlias": "2",
+        "amount": 168000,
+        "type": "AUTO",
+        "maxBidId": 10942017,
+        "triggeredBy": 10942033,
+        "createdAt": "2026-11-08T12:26:02.497273+00:00",
+        "updatedAt": "2026-11-08T12:26:02.497275+00:00"
+      },
+      {
+        "id": 18725220,
+        "auctionId": 309850,
+        "bidderAlias": "8",
+        "amount": 167500,
+        "type": "NORMAL",
+        "maxBidId": 10942033,
+        "triggeredBy": 10942033,
+        "createdAt": "2026-11-08T12:26:02.497262+00:00",
+        "updatedAt": "2026-11-08T12:26:02.497271+00:00"
+      },
+      {
+        "id": 18725219,
+        "auctionId": 309850,
+        "bidderAlias": "2",
+        "amount": 167000,
+        "type": "AUTO",
+        "maxBidId": 10942017,
+        "triggeredBy": 10942032,
+        "createdAt": "2026-11-08T12:25:55.564717+00:00",
+        "updatedAt": "2026-11-08T12:25:55.564720+00:00"
+      },
+      {
+        "id": 18725218,
+        "auctionId": 309850,
+        "bidderAlias": "8",
+        "amount": 166500,
+        "type": "NORMAL",
+        "maxBidId": 10942032,
+        "triggeredBy": 10942032,
+        "createdAt": "2026-11-08T12:25:55.564705+00:00",
+        "updatedAt": "2026-11-08T12:25:55.564713+00:00"
+      },
+      {
+        "id": 18725217,
+        "auctionId": 309850,
+        "bidderAlias": "2",
+        "amount": 166000,
+        "type": "AUTO",
+        "maxBidId": 10942017,
+        "triggeredBy": 10942031,
+        "createdAt": "2026-11-08T12:25:44.187748+00:00",
+        "updatedAt": "2026-11-08T12:25:44.187752+00:00"
+      },
+      {
+        "id": 18725216,
+        "auctionId": 309850,
+        "bidderAlias": "8",
+        "amount": 165500,
+        "type": "NORMAL",
+        "maxBidId": 10942031,
+        "triggeredBy": 10942031,
+        "createdAt": "2026-11-08T12:25:44.187733+00:00",
+        "updatedAt": "2026-11-08T12:25:44.187743+00:00"
+      },
+      {
+        "id": 18725215,
+        "auctionId": 309850,
+        "bidderAlias": "2",
+        "amount": 165000,
+        "type": "AUTO",
+        "maxBidId": 10942017,
+        "triggeredBy": 10942030,
+        "createdAt": "2026-11-08T12:25:34.759587+00:00",
+        "updatedAt": "2026-11-08T12:25:34.759591+00:00"
+      },
+      {
+        "id": 18725214,
+        "auctionId": 309850,
+        "bidderAlias": "8",
+        "amount": 164500,
+        "type": "NORMAL",
+        "maxBidId": 10942030,
+        "triggeredBy": 10942030,
+        "createdAt": "2026-11-08T12:25:34.759572+00:00",
+        "updatedAt": "2026-11-08T12:25:34.759582+00:00"
+      },
+      {
+        "id": 18725213,
+        "auctionId": 309850,
+        "bidderAlias": "2",
+        "amount": 164000,
+        "type": "AUTO",
+        "maxBidId": 10942017,
+        "triggeredBy": 10942029,
+        "createdAt": "2026-11-08T12:25:20.402532+00:00",
+        "updatedAt": "2026-11-08T12:25:20.402535+00:00"
+      },
+      {
+        "id": 18725212,
+        "auctionId": 309850,
+        "bidderAlias": "8",
+        "amount": 163500,
+        "type": "NORMAL",
+        "maxBidId": 10942029,
+        "triggeredBy": 10942029,
+        "createdAt": "2026-11-08T12:25:20.402519+00:00",
+        "updatedAt": "2026-11-08T12:25:20.402527+00:00"
+      },
+      {
+        "id": 18725211,
+        "auctionId": 309850,
+        "bidderAlias": "2",
+        "amount": 163000,
+        "type": "AUTO",
+        "maxBidId": 10942017,
+        "triggeredBy": 10942028,
+        "createdAt": "2026-11-08T12:25:11.846418+00:00",
+        "updatedAt": "2026-11-08T12:25:11.846420+00:00"
+      },
+      {
+        "id": 18725210,
+        "auctionId": 309850,
+        "bidderAlias": "8",
+        "amount": 162500,
+        "type": "NORMAL",
+        "maxBidId": 10942028,
+        "triggeredBy": 10942028,
+        "createdAt": "2026-11-08T12:25:11.846409+00:00",
+        "updatedAt": "2026-11-08T12:25:11.846415+00:00"
+      },
+      {
+        "id": 18725209,
+        "auctionId": 309850,
+        "bidderAlias": "2",
+        "amount": 162000,
+        "type": "AUTO",
+        "maxBidId": 10942017,
+        "triggeredBy": 10942027,
+        "createdAt": "2026-11-08T12:24:39.536592+00:00",
+        "updatedAt": "2026-11-08T12:24:39.536594+00:00"
+      },
+      {
+        "id": 18725208,
+        "auctionId": 309850,
+        "bidderAlias": "8",
+        "amount": 161500,
+        "type": "NORMAL",
+        "maxBidId": 10942027,
+        "triggeredBy": 10942027,
+        "createdAt": "2026-11-08T12:24:39.536582+00:00",
+        "updatedAt": "2026-11-08T12:24:39.536589+00:00"
+      },
+      {
+        "id": 18725191,
+        "auctionId": 309850,
+        "bidderAlias": "2",
+        "amount": 161000,
+        "type": "NORMAL",
+        "maxBidId": 10942017,
+        "triggeredBy": 10942017,
+        "createdAt": "2026-11-08T12:07:44.572344+00:00",
+        "updatedAt": "2026-11-08T12:07:44.572352+00:00"
+      },
+      {
+        "id": 18725142,
+        "auctionId": 309850,
+        "bidderAlias": "7",
+        "amount": 160500,
+        "type": "NORMAL",
+        "maxBidId": 10941990,
+        "triggeredBy": 10941990,
+        "createdAt": "2026-11-08T11:43:50.106711+00:00",
+        "updatedAt": "2026-11-08T11:43:50.106713+00:00"
+      },
+      {
+        "id": 18725141,
+        "auctionId": 309850,
+        "bidderAlias": "2",
+        "amount": 160000,
+        "type": "LIMIT_REACHED",
+        "maxBidId": 10941646,
+        "triggeredBy": 10941990,
+        "createdAt": "2026-11-08T11:43:50.106702+00:00",
+        "updatedAt": "2026-11-08T11:43:50.106708+00:00"
+      },
+      {
+        "id": 18725138,
+        "auctionId": 309850,
+        "bidderAlias": "2",
+        "amount": 157500,
+        "type": "AUTO",
+        "maxBidId": 10941646,
+        "triggeredBy": 10941988,
+        "createdAt": "2026-11-08T11:42:36.736738+00:00",
+        "updatedAt": "2026-11-08T11:42:36.736741+00:00"
+      },
+      {
+        "id": 18725137,
+        "auctionId": 309850,
+        "bidderAlias": "7",
+        "amount": 157000,
+        "type": "NORMAL",
+        "maxBidId": 10941988,
+        "triggeredBy": 10941988,
+        "createdAt": "2026-11-08T11:42:36.736729+00:00",
+        "updatedAt": "2026-11-08T11:42:36.736735+00:00"
+      },
+      {
+        "id": 18724520,
+        "auctionId": 309850,
+        "bidderAlias": "2",
+        "amount": 156000,
+        "type": "NORMAL",
+        "maxBidId": 10941646,
+        "triggeredBy": 10941646,
+        "createdAt": "2026-11-08T01:36:54.500047+00:00",
+        "updatedAt": "2026-11-08T01:36:54.500056+00:00"
+      },
+      {
+        "id": 18723777,
+        "auctionId": 309850,
+        "bidderAlias": "6",
+        "amount": 155500,
+        "type": "NORMAL",
+        "maxBidId": 10941224,
+        "triggeredBy": 10941224,
+        "createdAt": "2026-11-07T15:56:34.688738+00:00",
+        "updatedAt": "2026-11-07T15:56:34.688742+00:00"
+      },
+      {
+        "id": 18723776,
+        "auctionId": 309850,
+        "bidderAlias": "4",
+        "amount": 155000,
+        "type": "LIMIT_REACHED",
+        "maxBidId": 10941036,
+        "triggeredBy": 10941224,
+        "createdAt": "2026-11-07T15:56:34.688725+00:00",
+        "updatedAt": "2026-11-07T15:56:34.688734+00:00"
+      },
+      {
+        "id": 18723774,
+        "auctionId": 309850,
+        "bidderAlias": "4",
+        "amount": 154000,
+        "type": "AUTO",
+        "maxBidId": 10941036,
+        "triggeredBy": 10941222,
+        "createdAt": "2026-11-07T15:55:35.170216+00:00",
+        "updatedAt": "2026-11-07T15:55:35.170219+00:00"
+      },
+      {
+        "id": 18723773,
+        "auctionId": 309850,
+        "bidderAlias": "6",
+        "amount": 153500,
+        "type": "NORMAL",
+        "maxBidId": 10941222,
+        "triggeredBy": 10941222,
+        "createdAt": "2026-11-07T15:55:35.170208+00:00",
+        "updatedAt": "2026-11-07T15:55:35.170213+00:00"
+      },
+      {
+        "id": 18723451,
+        "auctionId": 309850,
+        "bidderAlias": "4",
+        "amount": 153000,
+        "type": "NORMAL",
+        "maxBidId": 10941036,
+        "triggeredBy": 10941036,
+        "createdAt": "2026-11-07T11:36:43.717925+00:00",
+        "updatedAt": "2026-11-07T11:36:43.717931+00:00"
+      },
+      {
+        "id": 18723421,
+        "auctionId": 309850,
+        "bidderAlias": "5",
+        "amount": 152500,
+        "type": "NORMAL",
+        "maxBidId": 10941018,
+        "triggeredBy": 10941018,
+        "createdAt": "2026-11-07T11:03:26.929346+00:00",
+        "updatedAt": "2026-11-07T11:03:26.929348+00:00"
+      },
+      {
+        "id": 18723420,
+        "auctionId": 309850,
+        "bidderAlias": "4",
+        "amount": 152000,
+        "type": "LIMIT_REACHED",
+        "maxBidId": 10940732,
+        "triggeredBy": 10941018,
+        "createdAt": "2026-11-07T11:03:26.929336+00:00",
+        "updatedAt": "2026-11-07T11:03:26.929342+00:00"
+      },
+      {
+        "id": 18722919,
+        "auctionId": 309850,
+        "bidderAlias": "4",
+        "amount": 151500,
+        "type": "NORMAL",
+        "maxBidId": 10940732,
+        "triggeredBy": 10940732,
+        "createdAt": "2026-11-06T22:39:05.167098+00:00",
+        "updatedAt": "2026-11-06T22:39:05.167102+00:00"
+      },
+      {
+        "id": 18722918,
+        "auctionId": 309850,
+        "bidderAlias": "3",
+        "amount": 151000,
+        "type": "LIMIT_REACHED",
+        "maxBidId": 10940464,
+        "triggeredBy": 10940732,
+        "createdAt": "2026-11-06T22:39:05.167084+00:00",
+        "updatedAt": "2026-11-06T22:39:05.167094+00:00"
+      },
+      {
+        "id": 18722462,
+        "auctionId": 309850,
+        "bidderAlias": "3",
+        "amount": 150500,
+        "type": "NORMAL",
+        "maxBidId": 10940464,
+        "triggeredBy": 10940464,
+        "createdAt": "2026-11-06T18:05:54.332765+00:00",
+        "updatedAt": "2026-11-06T18:05:54.332767+00:00"
+      },
+      {
+        "id": 18722461,
+        "auctionId": 309850,
+        "bidderAlias": "2",
+        "amount": 150000,
+        "type": "LIMIT_REACHED",
+        "maxBidId": 10938404,
+        "triggeredBy": 10940464,
+        "createdAt": "2026-11-06T18:05:54.332755+00:00",
+        "updatedAt": "2026-11-06T18:05:54.332762+00:00"
+      },
+      {
+        "id": 18718924,
+        "auctionId": 309850,
+        "bidderAlias": "2",
+        "amount": 140500,
+        "type": "NORMAL",
+        "maxBidId": 10938404,
+        "triggeredBy": 10938404,
+        "createdAt": "2026-11-06T02:00:43.073356+00:00",
+        "updatedAt": "2026-11-06T02:00:43.073367+00:00"
+      },
+      {
+        "id": 18717952,
+        "auctionId": 309850,
+        "bidderAlias": "1",
+        "amount": 140000,
+        "type": "NORMAL",
+        "maxBidId": 10937827,
+        "triggeredBy": 10937827,
+        "createdAt": "2026-11-05T18:46:43.706250+00:00",
+        "updatedAt": "2026-11-05T18:46:43.706257+00:00"
+      }
+    ],
+    "myBidderAlias": null,
+    "myMaxBid": null,
+    "highestBid": {
+      "id": 18736912,
+      "auctionId": 309850,
+      "bidderAlias": null,
+      "amount": 237500,
+      "type": "NORMAL",
+      "maxBidId": 10948805,
+      "triggeredBy": 10948805,
+      "createdAt": "2026-11-10T09:23:55.767566+00:00",
+      "updatedAt": "2026-11-10T09:23:55.767572+00:00",
+      "eurAmount": 21600
+    },
+    "buyNowAvailable": false,
+    "releasing": null,
+    "isHighestBidLowerThanResidualLoanValue": false
+  },
+  "checkoutOrder": null,
+  "previewImage": "https://kvdbil-images.imgix.net/7293885/b26c932f.jpg",
+  "_list_meta": {
+    "id": "309850",
+    "slug": "mercedes-cla-200-d-coupe-c118-150hk",
+    "auctionType": "BIDDING",
+    "closedAt": "2026-11-10T09:28:00.007783+00:00",
+    "updatedAt": "2026-11-10T09:28:00.090544+00:00"
+  },
+  "_scraped_at": "2026-11-10T20:23:52.261779+00:00",
+  "_url": "https://www.kvd.se/auktioner/mercedes-cla-200-d-coupe-c118-150hk-309850"
+}
