@@ -1,0 +1,4633 @@
+{
+  "id": "310200",
+  "auctionType": "BIDDING",
+  "biddingFee": "6900.00",
+  "biddingFeeCorporate": "9875.00",
+  "mediationFee": 0,
+  "mediationFeeCorporate": 0,
+  "buyNow": false,
+  "closedAt": "2026-11-10T11:23:37.975597+00:00",
+  "publishedAt": "2026-11-05T16:07:07.185378+00:00",
+  "countdownDuration": 210,
+  "countdownStartAt": "2026-11-10T11:13:30+00:00",
+  "createdAt": "2026-11-05T12:50:43.508765+00:00",
+  "readyForAuctionAt": "2026-11-01",
+  "currency": "SEK",
+  "maxBidRaise": 100000,
+  "minBidRaise": 500,
+  "startBid": 162000,
+  "openedAt": "2026-11-05T16:07:07.173037+00:00",
+  "processObjectId": "7288841",
+  "readyForCheckout": true,
+  "soldFor": 305000,
+  "sellMethod": "BIDDING",
+  "slug": "tesla-model-y-rwd",
+  "auctionUrl": "https://www.kvd.se/auktioner/tesla-model-y-rwd-310200",
+  "state": "WINNER_CHECKOUT_PENDING",
+  "targetedAuctionGroupId": null,
+  "updatedAt": "2026-11-10T11:23:38.224359+00:00",
+  "releasing": null,
+  "loan": {
+    "loanCost": 2599,
+    "loanCostBuyNow": null
+  },
+  "buyNowAmount": null,
+  "buyNowAvailable": false,
+  "buyNowUntil": null,
+  "eligibleForAdditionalServices": true,
+  "comingSoon": false,
+  "preliminaryPrice": 325000,
+  "maxAllowedBid": 487500,
+  "isReserved": false,
+  "isSoldByBuyNow": false,
+  "favouriteCount": 64,
+  "eurBuyNowAmount": null,
+  "winningBid": {
+    "id": 18738972,
+    "type": "NORMAL",
+    "amount": 305000,
+    "auctionId": 310200,
+    "createdAt": "2026-11-10T11:20:07.976182+00:00",
+    "maxBidId": 10950022,
+    "updatedAt": "2026-11-10T11:20:07.976190+00:00",
+    "bidderAlias": null,
+    "triggeredBy": 10950022,
+    "evaluationType": "AUTOMATIC"
+  },
+  "processObject": {
+    "id": "7288841",
+    "initialBuyNowAmount": null,
+    "certified": true,
+    "statisticalValuation": {
+      "bpGreen": null,
+      "bpWhite": 289338,
+      "bpOrange": 289338,
+      "marketPrice": 289338
+    },
+    "conditionClassification": "CERTIFIED",
+    "createdAt": "2026-09-15 08:27:22.126359+00:00",
+    "sellMethod": "BIDDING",
+    "orderableAdditionalServices": {
+      "tradein": false,
+      "transport": true,
+      "insurance": true,
+      "finance": true,
+      "warranty": true,
+      "extraTires": false
+    },
+    "presentationApproved": false,
+    "properties": {
+      "numberOfSeats": 5,
+      "deductibleVat": true,
+      "residualLoanValue": 258709,
+      "remarksLocalized": {
+        "TIRES": "Fälgar på bilen kantstötta",
+        "BRAKES": null,
+        "EXTERIOR": "Flertal lackskador, Fåtal bucklor/dörruppslag",
+        "INTERIOR": null,
+        "ENGINE_AND_GEARBOX": null,
+        "TECHNOLOGY_AND_EQUIPMENT": null
+      },
+      "taxFee": 360,
+      "modelYear": 2023,
+      "dateOfInspection": "2026-03-09",
+      "height": 1624,
+      "numberOfKeys": 2,
+      "ecoFriendly": true,
+      "maxPayload": 454,
+      "odometerReading": 98570,
+      "maxPullWeightB": 1052,
+      "formattedEquipment": [
+        {
+          "key": "ADAPTIV_FARTHALLARE",
+          "title": "Adaptiv farthållare",
+          "description": "Farthållare som hjälper till att hålla ett givet avstånd till framförvarande fordon.",
+          "priority": 0
+        },
+        {
+          "key": "ANTISLADDSYSTEM",
+          "title": "Antisladdsystem",
+          "description": "Ett system som känner av om bilen håller på att sladda. Genom att bromsa enskilda hjul stabiliseras bilen och sladden förhindras, även kallat ESP.",
+          "priority": 1
+        },
+        {
+          "key": "ANTISPINN",
+          "title": "Antispinn",
+          "description": "Hjälpsystem som förhindrar att hjulen spinner",
+          "priority": 2
+        },
+        {
+          "key": "ASSISTANSSYSTEM",
+          "title": "Assistanssystem",
+          "description": "Uppkopplad tjänst för att exempelvis kunna kontrollera din bil på distans med hjälp av en mobilapp. Funktioner som bygger på 2G eller 3G-uppkoppling kan sluta fungera i samband med att dessa nätverk stängs ner av operatörerna.",
+          "priority": 3
+        },
+        {
+          "key": "AUTO_HOLD",
+          "title": "Auto hold",
+          "description": "Hindrar bilen tillfälligt från att rulla bakåt när du startar i motlut",
+          "priority": 4
+        },
+        {
+          "key": "AUTOBROMS",
+          "title": "Autobroms",
+          "description": "Automatisk inbromsning vid lägre hastigheter för mötande fordon och hinder framför bilen (City Safety)",
+          "priority": 5
+        },
+        {
+          "key": "AVTAGBAR_DRAGKROK",
+          "title": "Avtagbar dragkrok",
+          "description": " Anordning för att dra exempelvis personbilssläp, båttrailer. Kan monteras av.",
+          "priority": 6
+        },
+        {
+          "key": "BACKKAMERA",
+          "title": "Backkamera",
+          "description": "Kamera som underlättar vid backning",
+          "priority": 7
+        },
+        {
+          "key": "BLUETOOTH",
+          "title": "Bluetooth",
+          "description": "Trådlös uppkoppling mot mobila enheter",
+          "priority": 8
+        },
+        {
+          "key": "DODAVINKELVARNARE",
+          "title": "Dödavinkelvarnare",
+          "description": "Elektroniskt säkerhetssystem som signalerar om det finns hinder i dödavinkeln. Kallas även BLIS",
+          "priority": 9
+        },
+        {
+          "key": "ELDRIVEN_BAKLUCKA",
+          "title": "Eldriven baklucka",
+          "description": "Baklucka som öppnas/stängs elektroniskt.",
+          "priority": 10
+        },
+        {
+          "key": "ELHISS_BAK",
+          "title": "Elhiss bak",
+          "description": "Elektroniska fönsterhissar bak",
+          "priority": 11
+        },
+        {
+          "key": "ELHISS_FRAM",
+          "title": "Elhiss fram",
+          "description": "Elektronisk fönsterhiss fram",
+          "priority": 12
+        },
+        {
+          "key": "ELINFALLBARA_SPEGLAR",
+          "title": "Elinfällbara backspeglar",
+          "description": "Speglar som fälls in automatiskt när bilen låses eller manuellt via knapp",
+          "priority": 13
+        },
+        {
+          "key": "ELSPEGLAR",
+          "title": "Elspeglar",
+          "description": "Elektroniskt ställbara sidospeglar",
+          "priority": 14
+        },
+        {
+          "key": "ELSTOL_FORARPLATS",
+          "title": "Elstol förarplats",
+          "description": "Elektronisk ställbar förarstol",
+          "priority": 15
+        },
+        {
+          "key": "ELSTOL_MED_MINNESFUNKTION_FORARPLATS",
+          "title": "Elstol med minnesfunktion förarplats",
+          "description": "Elektronisk ställbar förarstol med programmerbara lägen",
+          "priority": 16
+        },
+        {
+          "key": "ELSTOL_PASSAGERARPLATS",
+          "title": "Elstol passagerarplat",
+          "description": "Elektronisk ställbar passagerarstol",
+          "priority": 17
+        },
+        {
+          "key": "FARTHALLARE",
+          "title": "Farthållare",
+          "description": "Elektroniskt system som håller inprogrammerad hastighet",
+          "priority": 18
+        },
+        {
+          "key": "FILBYTESVARNARE",
+          "title": "Filbytesvarnare",
+          "description": "Elektroniskt säkerhetssystem som varnar vid oplanerade filbyten",
+          "priority": 19
+        },
+        {
+          "key": "FJARRLAS",
+          "title": "Fjärrlås",
+          "description": "Möjliggör att du på distans kan låsa och låsa upp bilen",
+          "priority": 20
+        },
+        {
+          "key": "GPS",
+          "title": "GPS",
+          "description": "Navigationssystem med vägbeskrivning",
+          "priority": 21
+        },
+        {
+          "key": "ISOFIX_BAK",
+          "title": "Isofix bak",
+          "description": "  Fästsystem för bilbarnstolar enligt internationell standard, även kallat Isofix",
+          "priority": 22
+        },
+        {
+          "key": "KLIMATANLAGGNING",
+          "title": "Klimatanläggning",
+          "description": "Luftkonditionering med möjlighet till automatisk temperaturinställning",
+          "priority": 23
+        },
+        {
+          "key": "LED_STRALKASTARE",
+          "title": "LED-strålkastare",
+          "description": "Strålkastare med LED-ljus har ett konstant vitt ljus och har samma ljusstyrka från star",
+          "priority": 24
+        },
+        {
+          "key": "NYCKELFRI_UPPLASNING_AV_DORRAR",
+          "title": "Nyckelfri upplåsning av dörrar",
+          "description": null,
+          "priority": 25
+        },
+        {
+          "key": "NYCKELLOST_STARTSYSTEM",
+          "title": "Nyckellöst startsystem",
+          "description": "Startknapp i bilen utan tändningslås. Även kallat Keyless-go",
+          "priority": 26
+        },
+        {
+          "key": "PANORAMATAK",
+          "title": "Panoramatak",
+          "description": "Glastak som i vissa fall är öppningsbart",
+          "priority": 27
+        },
+        {
+          "key": "PARKERINGSSENSORER_BAK",
+          "title": "Parkeringssensorer bak",
+          "description": "Sensorer på stötfångare baktill som varnar för hinder bakom bilen",
+          "priority": 28
+        },
+        {
+          "key": "PARKERINGSSENSORER_FRAM",
+          "title": "Parkeringssensorer fram",
+          "description": "Sensorer på stötfångare som varnar för hinder framför bilen",
+          "priority": 29
+        },
+        {
+          "key": "RADIO",
+          "title": "Radio",
+          "description": "Radiospelare",
+          "priority": 30
+        },
+        {
+          "key": "RATTVARME",
+          "title": "Rattvärme",
+          "description": "Eluppvärmd ratt",
+          "priority": 31
+        },
+        {
+          "key": "REGNSENSOR",
+          "title": "Regnsensor",
+          "description": "Automatiska vindrutetorkare, sensorer som reagerar på vatten",
+          "priority": 32
+        },
+        {
+          "key": "STOLSVARME_FRAM",
+          "title": "Stolsvärme fram",
+          "description": "Olika nivåer av värme i stolarna fram som ställs in via en knapp",
+          "priority": 33
+        },
+        {
+          "key": "SATESVARME_BAK",
+          "title": "Sätesvärme bak",
+          "description": "Elektroniskt uppvärmt baksäte",
+          "priority": 34
+        },
+        {
+          "key": "URKOPPLINGSBAR_PASSAGERARAIRBAG",
+          "title": "Urkopplingsbar passagerarairbag",
+          "description": "Möjlighet att koppla till och från airbagen på passagerarsidan",
+          "priority": 35
+        },
+        {
+          "key": "USB_INGANG",
+          "title": "USB-ingång",
+          "description": "Inkoppling av mobil enhet via USB-kontakt",
+          "priority": 36
+        }
+      ],
+      "odometerUnit": "km",
+      "batterySizeNominal": 60,
+      "remarks": {
+        "TIRES": [
+          {
+            "id": "0",
+            "key": "Fälgar på bilen kantstötta",
+            "category": "TIRES"
+          }
+        ],
+        "BRAKES": [],
+        "TECHNOLOGY_AND_EQUIPMENT": [],
+        "EXTERIOR": [
+          {
+            "id": "0",
+            "key": "Flertal lackskador, Fåtal bucklor/dörruppslag",
+            "category": "EXTERIOR"
+          }
+        ],
+        "INTERIOR": [],
+        "ENGINE_AND_GEARBOX": []
+      },
+      "brand": "Tesla",
+      "drivingBan": false,
+      "modelName": "Model Y RWD",
+      "maxTrailerWeight": 1600,
+      "totalWeight": 2448,
+      "textile": "Helläder",
+      "saleLimitedToCorporate": false,
+      "gearbox": "Automatic",
+      "manufactureMonth": "202212",
+      "electricType": "Electric",
+      "hasUnpaidLoan": true,
+      "curbWeight": 1994,
+      "grades": {
+        "BRAKES": {
+          "value": 3,
+          "min": 1,
+          "max": 3
+        },
+        "TOTAL": {
+          "value": 3,
+          "min": 1,
+          "max": 5
+        },
+        "TECHNOLOGY_AND_EQUIPMENT": {
+          "value": 3,
+          "min": 1,
+          "max": 3
+        },
+        "EXTERIOR": {
+          "value": 3,
+          "min": 1,
+          "max": 5
+        },
+        "INTERIOR": {
+          "value": 3,
+          "min": 1,
+          "max": 5
+        },
+        "ENGINE_AND_GEARBOX": {
+          "value": 3,
+          "min": 1,
+          "max": 3
+        }
+      },
+      "heavyEquipment": false,
+      "registrationPlate": "HNO958",
+      "equipment": [
+        "Adaptiv farthållare",
+        "Antisladdsystem",
+        "Antispinn",
+        "Assistanssystem",
+        "Auto hold",
+        "Autobroms",
+        "Avtagbar dragkrok",
+        "Backkamera",
+        "Bluetooth",
+        "Dödavinkelvarnare",
+        "Eldriven baklucka",
+        "Elhiss bak",
+        "Elhiss fram",
+        "Elinfällbara speglar",
+        "Elspeglar",
+        "Elstol förarplats",
+        "Elstol med minnesfunktion förarplats",
+        "Elstol passagerarplats",
+        "Farthållare",
+        "Filbytesvarnare",
+        "Fjärrlås",
+        "GPS",
+        "Isofix bak",
+        "Klimatanläggning",
+        "LED-strålkastare",
+        "Nyckelfri upplåsning av dörrar",
+        "Nyckellöst startsystem",
+        "Panoramatak",
+        "Parkeringssensorer bak",
+        "Parkeringssensorer fram",
+        "Radio",
+        "Rattvärme",
+        "Regnsensor",
+        "Stolsvärme fram",
+        "Sätesvärme bak",
+        "Urkopplingsbar passagerarairbag",
+        "USB-ingång"
+      ],
+      "importedForPersonalUse": false,
+      "exteriorColor": "White",
+      "isRepairObject": false,
+      "batterySizeUsable": 57,
+      "battstatResult": {
+        "rankingRangeMax": 3,
+        "rankingRangeMin": 1,
+        "sohPercent": 97,
+        "ranking": 3
+      },
+      "width": 1921,
+      "fuels": [
+        {
+          "fuelCode": "Electric",
+          "energyConsumptionWltpDrive": 157,
+          "rangeWltpDrive": 455,
+          "enginePower": 299,
+          "rangeCityWltpDrive": 646
+        }
+      ],
+      "registrationCountry": "se",
+      "inspectionPeriod": "2026-03-09 - 2028-02-29",
+      "heatPump": "Ja",
+      "inspectionValidToDate": "2028-02-29",
+      "finishType": "Metallic",
+      "body": "SUV",
+      "mustExport": false,
+      "towbar": false,
+      "initialTrafficDate": "2023-02-20",
+      "chassisNumber": "LRWYGCFS0PC696678",
+      "batteryType": "LFP",
+      "numberOfPreviousOwners": 1,
+      "mediation": true,
+      "title": "Tesla Model Y RWD",
+      "taxWeight": 1990,
+      "familyName": "Model Y",
+      "chargingDc": 170,
+      "length": 4750,
+      "exportable": true,
+      "registrationPlateCountry": "se",
+      "heading1": "Tesla Model Y",
+      "heading2": "Model Y RWD",
+      "heading3": null
+    },
+    "state": "AUCTION_RESOLUTION",
+    "baseObjectId": "516289",
+    "leaseReturnProperties": {},
+    "isReleasable": false,
+    "offsiteSalesContact": null,
+    "buyNowAmount": null,
+    "proactiveBrokering": null,
+    "displayCar360Spin": true,
+    "reducedPrice": false,
+    "objectType": "CAR",
+    "car360Spin": null,
+    "isFixedPrice": false,
+    "baseObject": {
+      "id": "516289",
+      "year": "2023",
+      "earliestAvailableAt": null,
+      "registrationPlate": "HNO958",
+      "baseObjectType": "CAR",
+      "createdAt": "2026-09-15T07:30:47.605544+00:00",
+      "modelId": null,
+      "body": "SUV",
+      "salesFlow": "CORPORATE_CARS_SMALL",
+      "state": "PREPARING_SALES_AGREEMENT",
+      "brand": "Tesla",
+      "exteriorColor": "White",
+      "modelName": "Model Y RWD",
+      "authorityRegisterInformation": {
+        "registrationInformation": {
+          "registrationPlate": "HNO958",
+          "deregistrationDate": null,
+          "deregistrationText": null,
+          "deregistrationReason": null
+        },
+        "environmentalClassification": {
+          "fuels": [
+            {
+              "co2": 0,
+              "nox": "",
+              "nox4": null,
+              "fuelCode": "Electric",
+              "hcThcNox": "",
+              "consumption": "",
+              "noiseLevel": 70,
+              "emissionUnit": "g/km",
+              "innovationCo2": null,
+              "particleValue": "",
+              "particleMass4": null,
+              "consumptionUnit": "",
+              "rangeNedcDrive": null,
+              "rangeWltpDrive": "455",
+              "consumptionUrban": "",
+              "rangeCityWltpDrive": "646",
+              "consumptionExtraUrban": "",
+              "electricEnergyConsumption": null,
+              "energyConsumptionWltpDrive": "157"
+            }
+          ],
+          "ecoFriendly": true,
+          "emissionClass": "EL",
+          "innovationCode": null,
+          "environmentalClass": "EL",
+          "environmentalClassEuro": null
+        },
+        "generalTechSpecification": {
+          "eeg": "e4*2007/46*1293*27",
+          "fuels": [
+            {
+              "fuelCode": "Electric",
+              "powerUnit": "EG",
+              "enginePower": 220,
+              "enginePowerHp": 299,
+              "fuelTankVolume": ""
+            }
+          ],
+          "width": 1921,
+          "height": 1624,
+          "length": 4750,
+          "gearbox": null,
+          "variant": "Y6LR",
+          "version": "BZB3S5T3",
+          "taxWeight": 1990,
+          "curbWeight": 1994,
+          "maxPayload": 454,
+          "totalWeight": 2448,
+          "chassisCode1": null,
+          "chassisCode2": null,
+          "cubicCapacity": null,
+          "numPassengers": "4",
+          "numberOfSeats": 5,
+          "fourWheelDrive": false,
+          "maxPullWeightB": 1052,
+          "clutchMechanism1": null,
+          "clutchMechanism2": null,
+          "maxTrailerWeight": 1600,
+          "chassisCodeSupplement": null,
+          "maxPullWieghtNoBreaks": null,
+          "maxPullWeightBExtended": null,
+          "maxSingle Axle TrailerWeight": null
+        },
+        "vehicleStatus": {
+          "tax": 360
+        },
+        "vehicleInformation": {
+          "vin": "LRWYGCFS0PC696678",
+          "body": "AF",
+          "type": "CAR",
+          "year": "2022",
+          "model": "MODEL Y",
+          "rawType": "PB",
+          "modelYear": null,
+          "categoryEu": "e4*2007/46*1293*27",
+          "groupNumber": "T- 221113",
+          "modelNumber": "T- 000000",
+          "chassisNumber": "LRWYGCFS0PC696678",
+          "exteriorColor": "White",
+          "fabricAndMake": "TESLA",
+          "baseObjectType": "CAR",
+          "manufactureCode": null,
+          "manufactureMonth": "202212",
+          "registrationDate": "2022-12-16",
+          "initialTrafficDate": "2023-02-20",
+          "registrationPlateReused": null
+        },
+        "vehicleOrigin": {
+          "originCode": "INFÖRT",
+          "originCodeReason": null,
+          "importerIdentifier": null,
+          "preRegistrationDate": null,
+          "importRegistrationDate": null,
+          "importedForPersonalUse": false,
+          "importedPreviouslyRegistered": false
+        },
+        "vehicleInspectionInformation": {
+          "inspections": [
+            {
+              "inspectionType": "6",
+              "odometerReading": 83657,
+              "dateOfInspection": "2026-03-09"
+            },
+            {
+              "inspectionType": "5",
+              "odometerReading": 80400,
+              "dateOfInspection": "2026-02-13"
+            }
+          ],
+          "inspectionGroup": "36/24/14",
+          "odometerReading": 83657,
+          "inspectionPeriod": "2026-03-09 - 2028-02-29",
+          "dateOfInspection": "2026-03-09",
+          "inspectionValidToDate": "2028-02-29",
+          "inspectionExemptionGroup": null
+        },
+        "additionalTechSpecification": {
+          "raceCar": null,
+          "wheelbase1": 2890,
+          "wheelbase2": null,
+          "wheelbase3": null,
+          "wheelbase4": null,
+          "equipment1": null,
+          "equipment2": null,
+          "equipment3": null,
+          "maximumSpeed": 217,
+          "numAxleShafts": 2,
+          "passengerAirBag": true,
+          "tyreDimensionRear": "255/45R19",
+          "tyreDimensionFront": "255/45R19",
+          "dualSteeringControl": null
+        }
+      },
+      "odometerReading": 98250,
+      "gearbox": null,
+      "fabricAndMake": "TESLA",
+      "fuels": [
+        {
+          "fuelCode": "Electric",
+          "powerUnit": "EG",
+          "enginePower": 220,
+          "enginePowerHp": 299,
+          "fuelTankVolume": ""
+        }
+      ],
+      "registrationCountry": "se",
+      "familyName": "Model Y",
+      "odometerUnit": "km",
+      "technicalSpecification": {
+        "modelId": null,
+        "vehicle": {
+          "brand": "Tesla",
+          "body": "SUV",
+          "modelName": "Model Y RWD",
+          "familyName": "Model Y"
+        },
+        "year": "2023"
+      }
+    },
+    "testDriveAllowed": true,
+    "vehicleType": "CAR",
+    "exportable": true,
+    "deductibleVat": true,
+    "collisionWarranty": null,
+    "title": "Tesla Model Y RWD",
+    "brand": "Tesla",
+    "familyName": "Model Y",
+    "modelName": "Model Y RWD",
+    "package": null,
+    "heading1": "Tesla Model Y",
+    "heading2": "Model Y RWD",
+    "heading3": null,
+    "media": [
+      {
+        "processObjectId": "7288841",
+        "uri": "https://kvdbil-images.imgix.net/7288841/768ba58f.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7288841/768ba58f.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 1
+      },
+      {
+        "processObjectId": "7288841",
+        "uri": "https://kvdbil-images.imgix.net/7288841/43b39241.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7288841/43b39241.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 1
+      },
+      {
+        "processObjectId": "7288841",
+        "uri": "https://kvdbil-images.imgix.net/7288841/a46c3f58.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7288841/a46c3f58.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 2
+      },
+      {
+        "processObjectId": "7288841",
+        "uri": "https://kvdbil-images.imgix.net/7288841/2e5867f3.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7288841/2e5867f3.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 3
+      },
+      {
+        "processObjectId": "7288841",
+        "uri": "https://kvdbil-images.imgix.net/7288841/c6c38d0b.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7288841/c6c38d0b.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 4
+      },
+      {
+        "processObjectId": "7288841",
+        "uri": "https://kvdbil-images.imgix.net/7288841/cea27eda.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7288841/cea27eda.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 5
+      },
+      {
+        "processObjectId": "7288841",
+        "uri": "https://kvdbil-images.imgix.net/7288841/0b8ed210.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7288841/0b8ed210.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 6
+      },
+      {
+        "processObjectId": "7288841",
+        "uri": "https://kvdbil-images.imgix.net/7288841/9b3ba6ef.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7288841/9b3ba6ef.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 6
+      },
+      {
+        "processObjectId": "7288841",
+        "uri": "https://kvdbil-images.imgix.net/7288841/517f7566.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7288841/517f7566.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 7
+      },
+      {
+        "processObjectId": "7288841",
+        "uri": "https://kvdbil-images.imgix.net/7288841/ed9421e6.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7288841/ed9421e6.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 7
+      },
+      {
+        "processObjectId": "7288841",
+        "uri": "https://kvdbil-images.imgix.net/7288841/e123d87e.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7288841/e123d87e.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 8
+      },
+      {
+        "processObjectId": "7288841",
+        "uri": "https://kvdbil-images.imgix.net/7288841/6aecd21e.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7288841/6aecd21e.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 9
+      },
+      {
+        "processObjectId": "7288841",
+        "uri": "https://kvdbil-images.imgix.net/7288841/60f19ee4.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7288841/60f19ee4.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 9
+      },
+      {
+        "processObjectId": "7288841",
+        "uri": "https://kvdbil-images.imgix.net/7288841/84197233.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7288841/84197233.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 10
+      },
+      {
+        "processObjectId": "7288841",
+        "uri": "https://kvdbil-images.imgix.net/7288841/864d765e.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7288841/864d765e.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 11
+      },
+      {
+        "processObjectId": "7288841",
+        "uri": "https://kvdbil-images.imgix.net/7288841/dc7d29ce.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7288841/dc7d29ce.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 11
+      },
+      {
+        "processObjectId": "7288841",
+        "uri": "https://kvdbil-images.imgix.net/7288841/317ccbd0.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7288841/317ccbd0.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 12
+      },
+      {
+        "processObjectId": "7288841",
+        "uri": "https://kvdbil-images.imgix.net/7288841/6f7a5c1c.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7288841/6f7a5c1c.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 13
+      },
+      {
+        "processObjectId": "7288841",
+        "uri": "https://kvdbil-images.imgix.net/7288841/5e4374ff.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7288841/5e4374ff.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 13
+      },
+      {
+        "processObjectId": "7288841",
+        "uri": "https://kvdbil-images.imgix.net/7288841/3bb95536.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7288841/3bb95536.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 14
+      },
+      {
+        "processObjectId": "7288841",
+        "uri": "https://kvdbil-images.imgix.net/7288841/5d974196.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7288841/5d974196.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 15
+      },
+      {
+        "processObjectId": "7288841",
+        "uri": "https://kvdbil-images.imgix.net/7288841/fd45c202.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7288841/fd45c202.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 16
+      },
+      {
+        "processObjectId": "7288841",
+        "uri": "https://kvdbil-images.imgix.net/7288841/b3ab843d.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7288841/b3ab843d.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 17
+      },
+      {
+        "processObjectId": "7288841",
+        "uri": "https://kvdbil-images.imgix.net/7288841/28f35224.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7288841/28f35224.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 19
+      }
+    ],
+    "locationInfo": {
+      "id": "548441",
+      "processObjectId": "7288841",
+      "locationType": "FACILITY",
+      "createdAt": "2026-09-21T09:37:12.637041+00:00",
+      "updatedAt": "2026-09-21T09:37:12.637044+00:00",
+      "facilityId": "00000005-0005-0005-0005-000000000005",
+      "parkingZone": "A",
+      "parkingNumber": null,
+      "outgoingTime": "2026-10-07T13:30:00+00:00",
+      "leftAt": null,
+      "outgoingType": "BOOKING",
+      "publicFacilityId": "00000005-0005-0005-0005-000000000005",
+      "facility": {
+        "id": "00000005-0005-0005-0005-000000000005",
+        "name": "Svedala",
+        "operator": "KVD",
+        "legacyIdentifiers": [
+          "Malmö",
+          "Svedala"
+        ],
+        "objectTypes": [
+          "CAR",
+          "LIGHT_TRANSPORT"
+        ],
+        "createdAt": "2018-03-04T13:18:23.295898+00:00",
+        "calendarOrganisationalUnitId": "7",
+        "parkingAreas": [
+          {
+            "id": 9,
+            "name": "A1",
+            "createdAt": "2018-03-04T13:18:23.295898+00:00"
+          },
+          {
+            "id": 10,
+            "name": "B1",
+            "createdAt": "2018-03-04T13:18:23.295898+00:00"
+          }
+        ],
+        "active": true,
+        "latitude": 55.5112433,
+        "longitude": 13.251069,
+        "distance": null,
+        "address": "Svetsaregatan 2",
+        "postCode": "23351",
+        "city": "Svedala",
+        "facilityType": "MAXI",
+        "facilityMapUrl": "https://www.google.com/maps/dir/55.5112433,13.251069/@55.5112433,13.251069,z13",
+        "contactPhone": "+46101673045",
+        "contactEmail": "leverans.svedala@kvdbil.se",
+        "allowIncomingTransport": true,
+        "allowLeaseReturns": true,
+        "allowUnplannedDropOffFleetManager": true,
+        "parentFacilityId": null,
+        "publicFacilityId": "00000005-0005-0005-0005-000000000005"
+      }
+    },
+    "valuation": {
+      "id": 235591,
+      "processObjectId": "7288841",
+      "valuatorComment": {
+        "da": "Her præsenterer vi en Tesla Model Y med elektrisk drift, der giver en stille og livlig kørsel, mens den metaliske lak får den til at skille sig ud på vejen. Panoramataget giver ekstra plads og lys i kabinen, og hellæder indenfor giver en luksuriøs følelse på hver rejse. Adaptiv fartpilot, bakkamera og LED-lygter gør kørslen både behagelig og tryg. Synet til februar 2028.",
+        "de": "Hier präsentieren wir einen Tesla Model Y mit Elektroantrieb, der ein leises und lebhaftes Fahren ermöglicht, während der Metallic-Lack für einen auffälligen Auftritt auf der Straße sorgt. Das Panoramadach sorgt für zusätzlichen Raum und Licht im Innenraum, und das Vollleder-Innenraum verleiht auf jeder Fahrt ein luxuriöses Gefühl. Adaptiver Tempomat, Rückfahrkamera und LED-Scheinwerfer machen das Fahren sowohl bequem als auch sicher. Abgenommen bis Februar 2028.",
+        "en": "Here we present a Tesla Model Y with electric drive that provides quiet and lively driving, while the metallic paint makes it stand out on the road. The panoramic roof provides extra space and light in the cabin, and full leather interior gives a luxurious feeling on every journey. Adaptive cruise control, rear camera, and LED headlights make driving both comfortable and safe. Inspected until February 2028.",
+        "et": "Siin esitame Tesla Model Y elektriajamiga, mis tagab vaikse ja virgea sõidu, samal ajal kui metallikvärv muudab selle tee peal silmapaistvaks. Panoraamkatusega on salongis rohkem ruumi ja valgust ning täisnahk siseviimistluses annab iga sõidu ajal luksusliku tunde. Adaptatiivne püsikiirusehoidja, tagurduskaamera ja LED-esituled muudavad sõidu mugavaks ja turvaliseks. Kinnitatud kuni veebruar 2028.",
+        "fi": "Tässä esitellään Tesla Model Y sähköisellä voimansiirrolla, joka tarjoaa hiljaisen ja pirteän ajon, samalla kun metalliväri saa sen erottumaan tiellä. Panoraamakatto tuo lisää avaruutta ja valoa matkustamoon, ja täysnahkainen sisustus antaa ylellisen tunteen jokaisella matkalla. Adaptiivinen vakionopeudensäädin, peruutuskamera ja LED-ajovalot tekevät ajamisesta sekä mukavaa että turvallista. Katsastettu helmikuuhun 2028 asti.",
+        "pl": "Prezentujemy tutaj Tesla Model Y z napędem elektrycznym, który zapewnia cichą i żywą jazdę, podczas gdy metaliczny lakier sprawia, że wyróżnia się na drodze. Dach panoramiczny zapewnia dodatkową przestrzeń i światło w kabinie, a wnętrze w pełnej skórze nadaje luksusowe wrażenie podczas każdej podróży. Adaptacyjny tempomat, kamera cofania i reflektory LED sprawiają, że jazda jest zarówno wygodna, jak i bezpieczna. Przegląd ważny do lutego 2028.",
+        "sv": "Här presenterar vi en Tesla Model Y med eldrift som ger tyst och pigg körning, medan metalliclacken gör att den sticker ut på vägen. Panoramatak ger extra rymd och ljus i kupén och helläder invändigt ger en lyxig känsla på varje resa. Adaptiv farthållare, backkamera och LED-strålkastare gör körningen både bekväm och trygg. Besiktigad till februari 2028."
+      },
+      "generatedValuatorComment": {
+        "en": "",
+        "sv": "Här presenterar vi en Tesla Model Y med eldrift som ger tyst och pigg körning, medan metalliclacken gör att den sticker ut på vägen. Panoramatak ger extra rymd och ljus i kupén och helläder invändigt ger en lyxig känsla på varje resa. Adaptiv farthållare, backkamera och LED-strålkastare gör körningen både bekväm och trygg. Besiktigad till februari 2028."
+      },
+      "carDealerPrice": 325000,
+      "endUserTestProtocol": {
+        "tires": {
+          "extraTires": {
+            "other": {
+              "rimSize": "19",
+              "rimType": "Alu.fälg",
+              "tireType": "Odubbade vinterdäck",
+              "otherInfo": "Behövs ej",
+              "tireTypeKey": "UNSTUDDED_WINTER_TIRES"
+            },
+            "grades": {
+              "rearLeft": 3,
+              "frontLeft": 3,
+              "rearRight": 3,
+              "frontRight": 3
+            },
+            "treadDepths": {
+              "rearLeft": 8,
+              "frontLeft": 6,
+              "rearRight": 7,
+              "frontRight": 6
+            }
+          },
+          "mountedTires": {
+            "other": {
+              "rimSize": "19",
+              "rimType": "Alu.fälg",
+              "tireType": "Sommardäck",
+              "otherInfo": "Behövs ej",
+              "tireTypeKey": "SUMMER_TIRES"
+            },
+            "grades": {
+              "rearLeft": 3,
+              "frontLeft": 2,
+              "rearRight": 2,
+              "frontRight": 2
+            },
+            "treadDepths": {
+              "rearLeft": 5,
+              "frontLeft": 3,
+              "rearRight": 4,
+              "frontRight": 3
+            }
+          }
+        },
+        "grades": {
+          "TOTAL": {
+            "max": 5,
+            "min": 1,
+            "value": 3
+          },
+          "BRAKES": {
+            "max": 3,
+            "min": 1,
+            "value": 3
+          },
+          "EXTERIOR": {
+            "max": 5,
+            "min": 1,
+            "value": 3
+          },
+          "INTERIOR": {
+            "max": 5,
+            "min": 1,
+            "value": 3
+          },
+          "ENGINE_AND_GEARBOX": {
+            "max": 3,
+            "min": 1,
+            "value": 3
+          },
+          "TECHNOLOGY_AND_EQUIPMENT": {
+            "max": 3,
+            "min": 1,
+            "value": 3
+          }
+        },
+        "towbar": false,
+        "remarks": {
+          "BRAKES": [],
+          "EXTERIOR": [
+            {
+              "id": "72888412",
+              "key": "Flertal lackskador, Fåtal bucklor/dörruppslag",
+              "other": null,
+              "point": 0,
+              "category": "EXTERIOR",
+              "text": "Flertal lackskador, Fåtal bucklor/dörruppslag"
+            }
+          ],
+          "INTERIOR": [],
+          "ENGINE_AND_GEARBOX": [],
+          "TECHNOLOGY_AND_EQUIPMENT": []
+        },
+        "textile": "Helläder",
+        "boatType": null,
+        "equipment": [
+          "Backkamera",
+          "GPS",
+          "Panoramatak",
+          "Adaptiv farthållare",
+          "Assistanssystem",
+          "Nyckellöst startsystem",
+          "Autobroms",
+          "Bluetooth",
+          "Dödavinkelvarnare",
+          "Eldriven baklucka",
+          "Elstol förarplats",
+          "Elstol med minnesfunktion förarplats",
+          "Elstol passagerarplats",
+          "Farthållare",
+          "Filbytesvarnare",
+          "Klimatanläggning",
+          "LED-strålkastare",
+          "Rattvärme",
+          "USB-ingång",
+          "Antisladdsystem",
+          "Antispinn",
+          "Auto hold",
+          "Avtagbar dragkrok",
+          "Elhiss bak",
+          "Elhiss fram",
+          "Elinfällbara speglar",
+          "Elspeglar",
+          "Fjärrlås",
+          "Isofix bak",
+          "Nyckelfri upplåsning av dörrar",
+          "Parkeringssensorer bak",
+          "Parkeringssensorer fram",
+          "Radio",
+          "Regnsensor",
+          "Stolsvärme fram",
+          "Sätesvärme bak",
+          "Urkopplingsbar passagerarairbag"
+        ],
+        "boatWidth": null,
+        "createdAt": "2026-09-23T09:46:21",
+        "boatEngine": null,
+        "boatLength": null,
+        "boatWeight": null,
+        "finishType": "Metallic",
+        "protocolId": "257424",
+        "stoveFlames": null,
+        "heatingSystem": null,
+        "numberOfKeys": 2,
+        "boatCeBranded": false,
+        "boatGearModel": null,
+        "numberOfBunks": null,
+        "numberOfSeats": 5,
+        "boatEngineFuel": null,
+        "boatSepticTank": false,
+        "isRepairObject": false,
+        "boatEnginePower": null,
+        "serviceBookType": "ELECTRONIC",
+        "boatExteriorColor": null,
+        "serviceBookStatus": "Ej tillgängligt för denna bilmodell, kontakta märkesverkstad för info",
+        "serviceBookStatusI18N": {
+          "da": "Ikke tilgængelig for denne bilmodel, kontakt mærkeværksted for info",
+          "de": "Nicht verfügbar für dieses Automodell, kontaktieren Sie die Markenwerkstatt für Informationen",
+          "en": "Not available for this car model, contact the brand workshop for info",
+          "et": "Seda automudelit ei ole saadaval, teavitage teabeks margitöökoda",
+          "fi": "Ei saatavilla tälle automallille, ota yhteyttä merkkikorjaamoon tiedusteluja varten",
+          "pl": "Niedostępne dla tego modelu samochodu, skontaktuj się z autoryzowanym serwisem w celu uzyskania informacji",
+          "sv": "Ej tillgängligt för denna bilmodell, kontakta märkesverkstad för info"
+        },
+        "boatEngineSerialNumber": null,
+        "odometerReadingAfterTest": {
+          "unit": "Mil",
+          "value": 9857
+        },
+        "odometerReadingAfterTestInKm": 98570
+      },
+      "auctionPriceValuation": {
+        "currency": "SEK"
+      },
+      "finalised": true,
+      "includedImageIds": null,
+      "createdAt": "2026-09-23T07:48:12.918777+00:00",
+      "updatedAt": "2026-11-10T10:07:13.348733+00:00",
+      "generatingInProgress": false,
+      "valuatorCommentLocalized": "Här presenterar vi en Tesla Model Y med eldrift som ger tyst och pigg körning, medan metalliclacken gör att den sticker ut på vägen. Panoramatak ger extra rymd och ljus i kupén och helläder invändigt ger en lyxig känsla på varje resa. Adaptiv farthållare, backkamera och LED-strålkastare gör körningen både bekväm och trygg. Besiktigad till februari 2028."
+    },
+    "facts": {
+      "default": [
+        {
+          "key": "NUMBER_OF_PREVIOUS_OWNERS",
+          "text": "Antal tidigare ägare",
+          "value": 1,
+          "type": "string"
+        },
+        {
+          "key": "REGISTRATION_PLATE",
+          "text": "Registreringsnummer",
+          "value": "HNO958",
+          "type": "string"
+        },
+        {
+          "key": "MODEL_YEAR",
+          "text": "Modellår",
+          "value": 2023,
+          "type": "string"
+        },
+        {
+          "key": "MANUFACTURE_MONTH",
+          "text": "Tillverkningsmånad",
+          "value": "202212",
+          "type": "manufacture_month"
+        },
+        {
+          "key": "ODOMETER_READING",
+          "text": "Mätarställning",
+          "value": 98570,
+          "type": "distance"
+        },
+        {
+          "key": "INITIAL_TRAFFIC_DATE",
+          "text": "Första datum i trafik i Sverige",
+          "value": "2023-02-20",
+          "type": "date"
+        },
+        {
+          "key": "SERVICE_BOOK",
+          "text": "Servicehistorik",
+          "value": "Ej tillgängligt för denna bilmodell, kontakta märkesverkstad för info",
+          "type": "string"
+        },
+        {
+          "key": "SERVICE_BOOK_TYPE",
+          "text": "Servicebok",
+          "value": "Elektronisk",
+          "type": "string"
+        },
+        {
+          "key": "GEARBOX",
+          "text": "Växellåda",
+          "value": "Automat",
+          "type": "string"
+        },
+        {
+          "key": "NUMBER_OF_SEATS",
+          "text": "Antal säten",
+          "value": 5,
+          "type": "string"
+        },
+        {
+          "key": "NUMBER_OF_KEYS",
+          "text": "Antal nycklar",
+          "value": 2,
+          "type": "string"
+        },
+        {
+          "key": "EXTERIOR_COLOR",
+          "text": "Färg",
+          "value": "Vit",
+          "type": "string"
+        },
+        {
+          "key": "FINISH_TYPE",
+          "text": "Lack",
+          "value": "Metallic",
+          "type": "string"
+        },
+        {
+          "key": "TEXTILE",
+          "text": "Klädsel",
+          "value": "Helläder",
+          "type": "string"
+        },
+        {
+          "key": "MANUFACTURER_WARRANTY",
+          "text": "Nybilsgaranti",
+          "value": "Inte undersökt",
+          "type": "string"
+        },
+        {
+          "key": "COLLISION_WARRANTY",
+          "text": "Vagnskadegaranti",
+          "value": "Inte undersökt",
+          "type": "string"
+        },
+        {
+          "key": "TAX_FEE",
+          "text": "Skatt årsavgift",
+          "value": "360 SEK",
+          "type": "string"
+        }
+      ],
+      "additional": [
+        {
+          "key": "CHASSIS_NUMBER",
+          "text": "Chassinummer",
+          "value": "LRWYGCFS0PC696678",
+          "type": "string"
+        },
+        {
+          "key": "ENGINE_EFFECT_ELECTRIC",
+          "text": "Motoreffekt (el)",
+          "value": 299,
+          "type": "engine_power"
+        },
+        {
+          "key": "TOWBAR",
+          "text": "Dragkrok",
+          "value": "Nej",
+          "type": "string"
+        },
+        {
+          "key": "MAX_PAYLOAD",
+          "text": "Maxlastvikt",
+          "value": 454,
+          "type": "weight"
+        },
+        {
+          "key": "RANGE_WLTP_DRIVE_ELECTRIC",
+          "text": "Räckvidd WLTP",
+          "value": 455,
+          "type": "distance"
+        },
+        {
+          "key": "RANGE_CITY_WLTP_DRIVE_ELECTRIC",
+          "text": "Räckvidd stad WLTP",
+          "value": 646,
+          "type": "distance"
+        },
+        {
+          "key": "ENERGY_CONSUMPTION_WLTP_DRIVE_ELECTRIC",
+          "text": "Förbrukning (batteri)",
+          "value": 157,
+          "type": "consumption_wh_km"
+        },
+        {
+          "key": "INSPECTION_VALID_TO_DATE",
+          "text": "Nästa besiktning senast",
+          "value": "2028-02-29",
+          "type": "string"
+        },
+        {
+          "key": "CURB_WEIGHT",
+          "text": "Tjänstevikt",
+          "value": 1994,
+          "type": "weight"
+        },
+        {
+          "key": "TAX_WEIGHT",
+          "text": "Skattevikt",
+          "value": 1990,
+          "type": "weight"
+        },
+        {
+          "key": "MAX_TRAILER_WEIGHT",
+          "text": "Maximal släpvagnsvikt",
+          "value": 1600,
+          "type": "weight"
+        },
+        {
+          "key": "TOTAL_WEIGHT",
+          "text": "Fordonets totalvikt",
+          "value": 2448,
+          "type": "weight"
+        },
+        {
+          "key": "LENGTH",
+          "text": "Längd",
+          "value": 4750,
+          "type": "length"
+        },
+        {
+          "key": "WIDTH",
+          "text": "Bredd",
+          "value": 1921,
+          "type": "length"
+        },
+        {
+          "key": "HEIGHT",
+          "text": "Höjd",
+          "value": 1624,
+          "type": "length"
+        },
+        {
+          "key": "BATTERY_SIZE_USABLE",
+          "text": "Batteristorlek (netto)",
+          "value": 57,
+          "type": "kilowatt_hours"
+        },
+        {
+          "key": "BATTERY_SIZE_NOMINAL",
+          "text": "Batteristorlek (brutto)",
+          "value": 60,
+          "type": "kilowatt_hours"
+        },
+        {
+          "key": "CHARGING_DC",
+          "text": "Laddning DC",
+          "value": 170,
+          "type": "kilowatts"
+        },
+        {
+          "key": "BATTERY_TYPE",
+          "text": "Batterityp",
+          "value": "LFP",
+          "type": "string"
+        },
+        {
+          "key": "HEAT_PUMP",
+          "text": "Värmepump",
+          "value": "Ja",
+          "type": "string"
+        }
+      ],
+      "other": [
+        {
+          "key": "SOLD_IN_SWEDEN",
+          "text": "Svensksåld",
+          "value": "Ja",
+          "type": "string"
+        },
+        {
+          "key": "EXPORTABLE",
+          "text": "Kan exporteras",
+          "value": "Ja",
+          "type": "string"
+        },
+        {
+          "key": "DEDUCTIBLE_VAT",
+          "text": "Avlyftbar moms",
+          "value": "Ja",
+          "type": "string"
+        }
+      ]
+    },
+    "majorFeature": [
+      {
+        "key": "RANGE_WLTP_DRIVE_ELECTRIC",
+        "title": "Räckvidd WLTP",
+        "value": 455,
+        "equipment": null
+      },
+      {
+        "key": "PANORAMATAK",
+        "title": "Panoramatak",
+        "value": null,
+        "equipment": "Utrustning",
+        "description": "Glastak som i vissa fall är öppningsbart"
+      },
+      {
+        "key": "HEAT_PUMP",
+        "title": "Värmepump",
+        "value": null,
+        "equipment": "Utrustning",
+        "description": ""
+      },
+      {
+        "key": "BATTSTAT",
+        "title": "Kvdbils batteritest",
+        "value": 3,
+        "equipment": null
+      }
+    ],
+    "batteryTestCertificateAvailable": true
+  },
+  "previewImages": [
+    {
+      "processObjectId": "7288841",
+      "uri": "https://kvdbil-images.imgix.net/7288841/768ba58f.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7288841/768ba58f.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 1
+    },
+    {
+      "processObjectId": "7288841",
+      "uri": "https://kvdbil-images.imgix.net/7288841/43b39241.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7288841/43b39241.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 1
+    },
+    {
+      "processObjectId": "7288841",
+      "uri": "https://kvdbil-images.imgix.net/7288841/a46c3f58.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7288841/a46c3f58.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 2
+    },
+    {
+      "processObjectId": "7288841",
+      "uri": "https://kvdbil-images.imgix.net/7288841/2e5867f3.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7288841/2e5867f3.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 3
+    },
+    {
+      "processObjectId": "7288841",
+      "uri": "https://kvdbil-images.imgix.net/7288841/c6c38d0b.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7288841/c6c38d0b.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 4
+    },
+    {
+      "processObjectId": "7288841",
+      "uri": "https://kvdbil-images.imgix.net/7288841/cea27eda.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7288841/cea27eda.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 5
+    },
+    {
+      "processObjectId": "7288841",
+      "uri": "https://kvdbil-images.imgix.net/7288841/0b8ed210.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7288841/0b8ed210.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 6
+    },
+    {
+      "processObjectId": "7288841",
+      "uri": "https://kvdbil-images.imgix.net/7288841/9b3ba6ef.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7288841/9b3ba6ef.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 6
+    },
+    {
+      "processObjectId": "7288841",
+      "uri": "https://kvdbil-images.imgix.net/7288841/517f7566.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7288841/517f7566.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 7
+    },
+    {
+      "processObjectId": "7288841",
+      "uri": "https://kvdbil-images.imgix.net/7288841/ed9421e6.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7288841/ed9421e6.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 7
+    },
+    {
+      "processObjectId": "7288841",
+      "uri": "https://kvdbil-images.imgix.net/7288841/e123d87e.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7288841/e123d87e.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 8
+    },
+    {
+      "processObjectId": "7288841",
+      "uri": "https://kvdbil-images.imgix.net/7288841/6aecd21e.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7288841/6aecd21e.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 9
+    },
+    {
+      "processObjectId": "7288841",
+      "uri": "https://kvdbil-images.imgix.net/7288841/60f19ee4.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7288841/60f19ee4.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 9
+    },
+    {
+      "processObjectId": "7288841",
+      "uri": "https://kvdbil-images.imgix.net/7288841/84197233.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7288841/84197233.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 10
+    },
+    {
+      "processObjectId": "7288841",
+      "uri": "https://kvdbil-images.imgix.net/7288841/864d765e.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7288841/864d765e.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 11
+    },
+    {
+      "processObjectId": "7288841",
+      "uri": "https://kvdbil-images.imgix.net/7288841/dc7d29ce.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7288841/dc7d29ce.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 11
+    },
+    {
+      "processObjectId": "7288841",
+      "uri": "https://kvdbil-images.imgix.net/7288841/317ccbd0.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7288841/317ccbd0.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 12
+    },
+    {
+      "processObjectId": "7288841",
+      "uri": "https://kvdbil-images.imgix.net/7288841/6f7a5c1c.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7288841/6f7a5c1c.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 13
+    },
+    {
+      "processObjectId": "7288841",
+      "uri": "https://kvdbil-images.imgix.net/7288841/5e4374ff.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7288841/5e4374ff.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 13
+    },
+    {
+      "processObjectId": "7288841",
+      "uri": "https://kvdbil-images.imgix.net/7288841/3bb95536.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7288841/3bb95536.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 14
+    },
+    {
+      "processObjectId": "7288841",
+      "uri": "https://kvdbil-images.imgix.net/7288841/5d974196.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7288841/5d974196.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 15
+    },
+    {
+      "processObjectId": "7288841",
+      "uri": "https://kvdbil-images.imgix.net/7288841/fd45c202.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7288841/fd45c202.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 16
+    },
+    {
+      "processObjectId": "7288841",
+      "uri": "https://kvdbil-images.imgix.net/7288841/b3ab843d.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7288841/b3ab843d.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 17
+    },
+    {
+      "processObjectId": "7288841",
+      "uri": "https://kvdbil-images.imgix.net/7288841/28f35224.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7288841/28f35224.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 19
+    }
+  ],
+  "similarAuctions": [
+    {
+      "id": "305499",
+      "auctionType": "BIDDING",
+      "biddingFee": "6900.00",
+      "biddingFeeCorporate": "9875.00",
+      "mediationFee": 0,
+      "mediationFeeCorporate": 0,
+      "buyNow": true,
+      "closedAt": null,
+      "publishedAt": "2026-10-28T09:34:13.166782+00:00",
+      "countdownDuration": 210,
+      "countdownStartAt": "2026-11-11T09:26:30+00:00",
+      "createdAt": "2026-09-30T13:16:10.762485+00:00",
+      "readyForAuctionAt": "2026-11-08",
+      "currency": "SEK",
+      "maxBidRaise": 100000,
+      "minBidRaise": 500,
+      "startBid": 220000,
+      "openedAt": "2026-10-28T09:34:33.645050+00:00",
+      "processObjectId": "7289895",
+      "readyForCheckout": false,
+      "soldFor": null,
+      "sellMethod": null,
+      "slug": "tesla-model-y-rwd",
+      "auctionUrl": "https://www.kvd.se/auktioner/tesla-model-y-rwd-305499",
+      "state": "OPEN",
+      "targetedAuctionGroupId": null,
+      "updatedAt": "2026-11-10T09:22:49.211048+00:00",
+      "releasing": null,
+      "loan": {
+        "loanCost": 2373,
+        "loanCostBuyNow": 2538
+      },
+      "buyNowAmount": 297900,
+      "buyNowAvailable": false,
+      "buyNowUntil": "2026-11-09T09:26:30+00:00",
+      "eligibleForAdditionalServices": true,
+      "comingSoon": false,
+      "preliminaryPrice": 315000,
+      "maxAllowedBid": 472500,
+      "isReserved": false,
+      "isSoldByBuyNow": false,
+      "favouriteCount": 101,
+      "winningBid": null,
+      "activeAuction": {
+        "auctionId": "305499",
+        "closed": false,
+        "countdownInProgress": false,
+        "preliminaryCloseAt": "2026-11-11T09:30:00+00:00",
+        "createdAt": "2026-10-28T09:34:33.646852+00:00",
+        "updatedAt": "2026-10-28T09:34:34.697712+00:00",
+        "vatExcludedBiddingAllowed": false,
+        "reservationPriceReached": true,
+        "bids": [
+          {
+            "id": 18733978,
+            "auctionId": 305499,
+            "bidderAlias": "5",
+            "amount": 278500,
+            "type": "AUTO",
+            "maxBidId": 10919655,
+            "triggeredBy": 10947100,
+            "createdAt": "2026-11-09T18:43:41.164343+00:00",
+            "updatedAt": "2026-11-09T18:43:41.164345+00:00"
+          },
+          {
+            "id": 18733977,
+            "auctionId": 305499,
+            "bidderAlias": "7",
+            "amount": 278000,
+            "type": "NORMAL",
+            "maxBidId": 10947100,
+            "triggeredBy": 10947100,
+            "createdAt": "2026-11-09T18:43:41.164332+00:00",
+            "updatedAt": "2026-11-09T18:43:41.164340+00:00"
+          },
+          {
+            "id": 18726260,
+            "auctionId": 305499,
+            "bidderAlias": "5",
+            "amount": 277500,
+            "type": "AUTO",
+            "maxBidId": 10919655,
+            "triggeredBy": 10942620,
+            "createdAt": "2026-11-08T17:27:23.911825+00:00",
+            "updatedAt": "2026-11-08T17:27:23.911828+00:00"
+          },
+          {
+            "id": 18726259,
+            "auctionId": 305499,
+            "bidderAlias": "8",
+            "amount": 277000,
+            "type": "NORMAL",
+            "maxBidId": 10942620,
+            "triggeredBy": 10942620,
+            "createdAt": "2026-11-08T17:27:23.911814+00:00",
+            "updatedAt": "2026-11-08T17:27:23.911821+00:00"
+          },
+          {
+            "id": 18724877,
+            "auctionId": 305499,
+            "bidderAlias": "5",
+            "amount": 275500,
+            "type": "AUTO",
+            "maxBidId": 10919655,
+            "triggeredBy": 10941844,
+            "createdAt": "2026-11-08T09:46:09.844019+00:00",
+            "updatedAt": "2026-11-08T09:46:09.844022+00:00"
+          },
+          {
+            "id": 18724876,
+            "auctionId": 305499,
+            "bidderAlias": "7",
+            "amount": 275000,
+            "type": "NORMAL",
+            "maxBidId": 10941844,
+            "triggeredBy": 10941844,
+            "createdAt": "2026-11-08T09:46:09.844008+00:00",
+            "updatedAt": "2026-11-08T09:46:09.844015+00:00"
+          },
+          {
+            "id": 18724874,
+            "auctionId": 305499,
+            "bidderAlias": "5",
+            "amount": 274500,
+            "type": "AUTO",
+            "maxBidId": 10919655,
+            "triggeredBy": 10941842,
+            "createdAt": "2026-11-08T09:44:24.924350+00:00",
+            "updatedAt": "2026-11-08T09:44:24.924354+00:00"
+          },
+          {
+            "id": 18724873,
+            "auctionId": 305499,
+            "bidderAlias": "7",
+            "amount": 274000,
+            "type": "NORMAL",
+            "maxBidId": 10941842,
+            "triggeredBy": 10941842,
+            "createdAt": "2026-11-08T09:44:24.924336+00:00",
+            "updatedAt": "2026-11-08T09:44:24.924345+00:00"
+          },
+          {
+            "id": 18724872,
+            "auctionId": 305499,
+            "bidderAlias": "5",
+            "amount": 273500,
+            "type": "AUTO",
+            "maxBidId": 10919655,
+            "triggeredBy": 10941841,
+            "createdAt": "2026-11-08T09:44:04.800880+00:00",
+            "updatedAt": "2026-11-08T09:44:04.800882+00:00"
+          },
+          {
+            "id": 18724871,
+            "auctionId": 305499,
+            "bidderAlias": "7",
+            "amount": 273000,
+            "type": "NORMAL",
+            "maxBidId": 10941841,
+            "triggeredBy": 10941841,
+            "createdAt": "2026-11-08T09:44:04.800871+00:00",
+            "updatedAt": "2026-11-08T09:44:04.800877+00:00"
+          },
+          {
+            "id": 18724868,
+            "auctionId": 305499,
+            "bidderAlias": "5",
+            "amount": 272500,
+            "type": "AUTO",
+            "maxBidId": 10919655,
+            "triggeredBy": 10941839,
+            "createdAt": "2026-11-08T09:40:02.285080+00:00",
+            "updatedAt": "2026-11-08T09:40:02.285084+00:00"
+          },
+          {
+            "id": 18724867,
+            "auctionId": 305499,
+            "bidderAlias": "7",
+            "amount": 272000,
+            "type": "NORMAL",
+            "maxBidId": 10941839,
+            "triggeredBy": 10941839,
+            "createdAt": "2026-11-08T09:40:02.285066+00:00",
+            "updatedAt": "2026-11-08T09:40:02.285076+00:00"
+          },
+          {
+            "id": 18688849,
+            "auctionId": 305499,
+            "bidderAlias": "5",
+            "amount": 271500,
+            "type": "AUTO",
+            "maxBidId": 10919655,
+            "triggeredBy": 10920809,
+            "createdAt": "2026-11-01T15:57:14.770216+00:00",
+            "updatedAt": "2026-11-01T15:57:14.770220+00:00"
+          },
+          {
+            "id": 18688848,
+            "auctionId": 305499,
+            "bidderAlias": "6",
+            "amount": 271000,
+            "type": "NORMAL",
+            "maxBidId": 10920809,
+            "triggeredBy": 10920809,
+            "createdAt": "2026-11-01T15:57:14.770202+00:00",
+            "updatedAt": "2026-11-01T15:57:14.770212+00:00"
+          },
+          {
+            "id": 18686789,
+            "auctionId": 305499,
+            "bidderAlias": "5",
+            "amount": 270500,
+            "type": "NORMAL",
+            "maxBidId": 10919655,
+            "triggeredBy": 10919655,
+            "createdAt": "2026-10-31T16:00:14.859648+00:00",
+            "updatedAt": "2026-10-31T16:00:14.859650+00:00"
+          },
+          {
+            "id": 18686788,
+            "auctionId": 305499,
+            "bidderAlias": "4",
+            "amount": 270000,
+            "type": "LIMIT_REACHED",
+            "maxBidId": 10914799,
+            "triggeredBy": 10919655,
+            "createdAt": "2026-10-31T16:00:14.859639+00:00",
+            "updatedAt": "2026-10-31T16:00:14.859645+00:00"
+          },
+          {
+            "id": 18678435,
+            "auctionId": 305499,
+            "bidderAlias": "4",
+            "amount": 260500,
+            "type": "NORMAL",
+            "maxBidId": 10914799,
+            "triggeredBy": 10914799,
+            "createdAt": "2026-10-29T13:01:33.926261+00:00",
+            "updatedAt": "2026-10-29T13:01:33.926263+00:00"
+          },
+          {
+            "id": 18678434,
+            "auctionId": 305499,
+            "bidderAlias": "3",
+            "amount": 260000,
+            "type": "LIMIT_REACHED",
+            "maxBidId": 10913914,
+            "triggeredBy": 10914799,
+            "createdAt": "2026-10-29T13:01:33.926250+00:00",
+            "updatedAt": "2026-10-29T13:01:33.926258+00:00"
+          },
+          {
+            "id": 18676863,
+            "auctionId": 305499,
+            "bidderAlias": "3",
+            "amount": 251000,
+            "type": "NORMAL",
+            "maxBidId": 10913914,
+            "triggeredBy": 10913914,
+            "createdAt": "2026-10-29T09:48:47.597457+00:00",
+            "updatedAt": "2026-10-29T09:48:47.597464+00:00"
+          },
+          {
+            "id": 18672225,
+            "auctionId": 305499,
+            "bidderAlias": "2",
+            "amount": 250500,
+            "type": "NORMAL",
+            "maxBidId": 10911276,
+            "triggeredBy": 10911276,
+            "createdAt": "2026-10-28T15:52:19.583407+00:00",
+            "updatedAt": "2026-10-28T15:52:19.583410+00:00"
+          },
+          {
+            "id": 18672224,
+            "auctionId": 305499,
+            "bidderAlias": "1",
+            "amount": 250000,
+            "type": "LIMIT_REACHED",
+            "maxBidId": 10911055,
+            "triggeredBy": 10911276,
+            "createdAt": "2026-10-28T15:52:19.583396+00:00",
+            "updatedAt": "2026-10-28T15:52:19.583404+00:00"
+          },
+          {
+            "id": 18672219,
+            "auctionId": 305499,
+            "bidderAlias": "1",
+            "amount": 230500,
+            "type": "AUTO",
+            "maxBidId": 10911055,
+            "triggeredBy": 10911273,
+            "createdAt": "2026-10-28T15:51:10.890661+00:00",
+            "updatedAt": "2026-10-28T15:51:10.890665+00:00"
+          },
+          {
+            "id": 18672218,
+            "auctionId": 305499,
+            "bidderAlias": "2",
+            "amount": 230000,
+            "type": "NORMAL",
+            "maxBidId": 10911273,
+            "triggeredBy": 10911273,
+            "createdAt": "2026-10-28T15:51:10.890646+00:00",
+            "updatedAt": "2026-10-28T15:51:10.890657+00:00"
+          },
+          {
+            "id": 18671825,
+            "auctionId": 305499,
+            "bidderAlias": "1",
+            "amount": 220000,
+            "type": "NORMAL",
+            "maxBidId": 10911055,
+            "triggeredBy": 10911055,
+            "createdAt": "2026-10-28T13:25:37.974515+00:00",
+            "updatedAt": "2026-10-28T13:25:37.974520+00:00"
+          }
+        ],
+        "myBidderAlias": null,
+        "myMaxBid": null,
+        "highestBid": {
+          "id": 18733978,
+          "auctionId": 305499,
+          "bidderAlias": null,
+          "amount": 278500,
+          "type": "AUTO",
+          "maxBidId": 10919655,
+          "triggeredBy": 10947100,
+          "createdAt": "2026-11-09T18:43:41.164343+00:00",
+          "updatedAt": "2026-11-09T18:43:41.164345+00:00",
+          "eurAmount": 25330
+        },
+        "buyNowAvailable": false,
+        "releasing": null,
+        "isHighestBidLowerThanResidualLoanValue": false
+      },
+      "processObject": {
+        "certified": true,
+        "presentationApproved": false,
+        "reducedPrice": true,
+        "createdAt": "2026-09-24 11:11:34.878724+00:00",
+        "car360Spin": null,
+        "state": "AUCTION",
+        "testDriveAllowed": true,
+        "buyNowAmount": 297900,
+        "displayCar360Spin": true,
+        "offsiteSalesContact": null,
+        "id": "7289895",
+        "isFixedPrice": false,
+        "vehicleType": "CAR",
+        "baseObject": {
+          "modelId": null,
+          "year": "2023",
+          "createdAt": "2026-09-24T11:11:17.408711+00:00",
+          "familyName": "Model Y",
+          "state": "CREATED",
+          "modelName": "Model Y RWD",
+          "id": "518412",
+          "body": "SUV",
+          "odometerUnit": "km",
+          "registrationCountry": "se",
+          "earliestAvailableAt": null,
+          "odometerReading": 0,
+          "fabricAndMake": "TESLA",
+          "gearbox": null,
+          "registrationPlate": "BGL01K",
+          "salesFlow": "CORPORATE_CARS",
+          "exteriorColor": "White",
+          "brand": "Tesla",
+          "baseObjectType": "CAR",
+          "fuels": [
+            {
+              "fuelCode": "Electric",
+              "powerUnit": "EG",
+              "enginePower": 220,
+              "enginePowerHp": 299,
+              "fuelTankVolume": ""
+            }
+          ],
+          "technicalSpecification": {
+            "modelId": null,
+            "vehicle": {
+              "brand": "Tesla",
+              "body": "SUV",
+              "modelName": "Model Y RWD",
+              "familyName": "Model Y"
+            },
+            "year": "2023"
+          }
+        },
+        "conditionClassification": "CERTIFIED_PLUS",
+        "sellMethod": "BIDDING",
+        "leaseReturnProperties": {},
+        "properties": {
+          "chargingDc": 170,
+          "batterySizeUsable": 57,
+          "package": "Vinterhjul medföljer Dragkrok",
+          "familyName": "Model Y",
+          "exportable": true,
+          "heavyEquipment": false,
+          "modelName": "Model Y RWD",
+          "batterySizeNominal": 60,
+          "body": "SUV",
+          "odometerUnit": "km",
+          "mustExport": false,
+          "odometerReading": 113180,
+          "ecoFriendly": true,
+          "batteryType": "LFP",
+          "gearbox": "Automatic",
+          "title": "Tesla Model Y RWD",
+          "battstatResult": {
+            "sohPercent": 99,
+            "rankingRangeMax": 3,
+            "rankingRangeMin": 1,
+            "ranking": 3
+          },
+          "registrationPlate": "BGL01K",
+          "electricType": "Electric",
+          "modelYear": 2023,
+          "numberOfPreviousOwners": 2,
+          "hasUnpaidLoan": false,
+          "exteriorColor": "White",
+          "saleLimitedToCorporate": false,
+          "brand": "Tesla",
+          "deductibleVat": true,
+          "adHeader": "Model Y RWD Vinterhjul medföljer Dragkrok",
+          "fuels": [
+            {
+              "enginePower": 299,
+              "rangeCityWltpDrive": 646,
+              "rangeWltpDrive": 455,
+              "energyConsumptionWltpDrive": 157,
+              "fuelCode": "Electric"
+            }
+          ],
+          "heatPump": "Ja",
+          "heading1": "Tesla Model Y",
+          "heading2": "Model Y RWD",
+          "heading3": "Vinterhjul medföljer Dragkrok"
+        },
+        "proactiveBrokering": null,
+        "objectType": "CAR",
+        "isReleasable": false,
+        "baseObjectId": "518412",
+        "statisticalValuation": null,
+        "initialBuyNowAmount": 299900,
+        "exportable": true,
+        "deductibleVat": true,
+        "collisionWarranty": null,
+        "title": "Tesla Model Y RWD",
+        "brand": "Tesla",
+        "familyName": "Model Y",
+        "modelName": "Model Y RWD",
+        "package": "Vinterhjul medföljer Dragkrok",
+        "heading1": "Tesla Model Y",
+        "heading2": "Model Y RWD",
+        "heading3": "Vinterhjul medföljer Dragkrok"
+      },
+      "previewImages": [
+        {
+          "processObjectId": "7289895",
+          "uri": "https://kvdbil-images.imgix.net/7289895/5cb154b6.jpg",
+          "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7289895/5cb154b6.jpg",
+          "type": "PRESENTATION",
+          "contentType": "image",
+          "order": 1
+        },
+        {
+          "processObjectId": "7289895",
+          "uri": "https://kvdbil-images.imgix.net/7289895/58974103.jpg",
+          "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7289895/58974103.jpg",
+          "type": "PRESENTATION",
+          "contentType": "image",
+          "order": 2
+        }
+      ],
+      "previewImage": "https://kvdbil-images.imgix.net/7289895/5cb154b6.jpg"
+    },
+    {
+      "id": "305519",
+      "auctionType": "BIDDING",
+      "biddingFee": "9638.00",
+      "biddingFeeCorporate": "13963.00",
+      "mediationFee": 0,
+      "mediationFeeCorporate": 0,
+      "buyNow": true,
+      "closedAt": null,
+      "publishedAt": "2026-10-30T12:34:15.752076+00:00",
+      "countdownDuration": 210,
+      "countdownStartAt": "2026-11-13T10:16:30+00:00",
+      "createdAt": "2026-09-30T14:11:13.621991+00:00",
+      "readyForAuctionAt": "2026-11-08",
+      "currency": "SEK",
+      "maxBidRaise": 100000,
+      "minBidRaise": 500,
+      "startBid": 434000,
+      "openedAt": "2026-10-30T12:34:15.736692+00:00",
+      "processObjectId": "7289667",
+      "readyForCheckout": false,
+      "soldFor": null,
+      "sellMethod": null,
+      "slug": "tesla-mode-y-long-range-dual-motor-awd",
+      "auctionUrl": "https://www.kvd.se/auktioner/tesla-mode-y-long-range-dual-motor-awd-305519",
+      "state": "OPEN",
+      "targetedAuctionGroupId": null,
+      "updatedAt": "2026-11-10T09:44:55.290504+00:00",
+      "releasing": null,
+      "loan": {
+        "loanCost": 4179,
+        "loanCostBuyNow": 5026
+      },
+      "buyNowAmount": 589900,
+      "buyNowAvailable": true,
+      "buyNowUntil": "2026-11-11T10:16:30+00:00",
+      "eligibleForAdditionalServices": true,
+      "comingSoon": false,
+      "preliminaryPrice": null,
+      "maxAllowedBid": null,
+      "isReserved": false,
+      "isSoldByBuyNow": false,
+      "favouriteCount": 93,
+      "winningBid": null,
+      "activeAuction": {
+        "auctionId": "305519",
+        "closed": false,
+        "countdownInProgress": false,
+        "preliminaryCloseAt": "2026-11-13T10:20:00+00:00",
+        "createdAt": "2026-10-30T12:34:15.738909+00:00",
+        "updatedAt": "2026-10-30T12:34:16.796556+00:00",
+        "vatExcludedBiddingAllowed": false,
+        "reservationPriceReached": false,
+        "bids": [
+          {
+            "id": 18735592,
+            "auctionId": 305519,
+            "bidderAlias": "7",
+            "amount": 490500,
+            "type": "NORMAL",
+            "maxBidId": 10948060,
+            "triggeredBy": 10948060,
+            "createdAt": "2026-11-10T06:25:09.561203+00:00",
+            "updatedAt": "2026-11-10T06:25:09.561205+00:00"
+          },
+          {
+            "id": 18735591,
+            "auctionId": 305519,
+            "bidderAlias": "11",
+            "amount": 490000,
+            "type": "LIMIT_REACHED",
+            "maxBidId": 10947451,
+            "triggeredBy": 10948060,
+            "createdAt": "2026-11-10T06:25:09.561194+00:00",
+            "updatedAt": "2026-11-10T06:25:09.561201+00:00"
+          },
+          {
+            "id": 18734512,
+            "auctionId": 305519,
+            "bidderAlias": "11",
+            "amount": 481000,
+            "type": "NORMAL",
+            "maxBidId": 10947451,
+            "triggeredBy": 10947451,
+            "createdAt": "2026-11-09T19:59:31.047290+00:00",
+            "updatedAt": "2026-11-09T19:59:31.047302+00:00"
+          },
+          {
+            "id": 18727216,
+            "auctionId": 305519,
+            "bidderAlias": "1",
+            "amount": 480500,
+            "type": "NORMAL",
+            "maxBidId": 10943233,
+            "triggeredBy": 10943233,
+            "createdAt": "2026-11-08T19:25:06.860978+00:00",
+            "updatedAt": "2026-11-08T19:25:06.860982+00:00"
+          },
+          {
+            "id": 18727215,
+            "auctionId": 305519,
+            "bidderAlias": "4",
+            "amount": 480000,
+            "type": "LIMIT_REACHED",
+            "maxBidId": 10925733,
+            "triggeredBy": 10943233,
+            "createdAt": "2026-11-08T19:25:06.860966+00:00",
+            "updatedAt": "2026-11-08T19:25:06.860974+00:00"
+          },
+          {
+            "id": 18725794,
+            "auctionId": 305519,
+            "bidderAlias": "4",
+            "amount": 479500,
+            "type": "AUTO",
+            "maxBidId": 10925733,
+            "triggeredBy": 10942352,
+            "createdAt": "2026-11-08T16:16:46.410774+00:00",
+            "updatedAt": "2026-11-08T16:16:46.410776+00:00"
+          },
+          {
+            "id": 18725793,
+            "auctionId": 305519,
+            "bidderAlias": "10",
+            "amount": 479000,
+            "type": "NORMAL",
+            "maxBidId": 10942352,
+            "triggeredBy": 10942352,
+            "createdAt": "2026-11-08T16:16:46.410765+00:00",
+            "updatedAt": "2026-11-08T16:16:46.410772+00:00"
+          },
+          {
+            "id": 18724558,
+            "auctionId": 305519,
+            "bidderAlias": "4",
+            "amount": 478500,
+            "type": "AUTO",
+            "maxBidId": 10925733,
+            "triggeredBy": 10941665,
+            "createdAt": "2026-11-08T01:46:14.400918+00:00",
+            "updatedAt": "2026-11-08T01:46:14.400922+00:00"
+          },
+          {
+            "id": 18724557,
+            "auctionId": 305519,
+            "bidderAlias": "9",
+            "amount": 478000,
+            "type": "NORMAL",
+            "maxBidId": 10941665,
+            "triggeredBy": 10941665,
+            "createdAt": "2026-11-08T01:46:14.400906+00:00",
+            "updatedAt": "2026-11-08T01:46:14.400914+00:00"
+          },
+          {
+            "id": 18724556,
+            "auctionId": 305519,
+            "bidderAlias": "4",
+            "amount": 477500,
+            "type": "AUTO",
+            "maxBidId": 10925733,
+            "triggeredBy": 10941664,
+            "createdAt": "2026-11-08T01:46:08.650659+00:00",
+            "updatedAt": "2026-11-08T01:46:08.650661+00:00"
+          },
+          {
+            "id": 18724555,
+            "auctionId": 305519,
+            "bidderAlias": "9",
+            "amount": 477000,
+            "type": "NORMAL",
+            "maxBidId": 10941664,
+            "triggeredBy": 10941664,
+            "createdAt": "2026-11-08T01:46:08.650648+00:00",
+            "updatedAt": "2026-11-08T01:46:08.650656+00:00"
+          },
+          {
+            "id": 18722081,
+            "auctionId": 305519,
+            "bidderAlias": "4",
+            "amount": 476500,
+            "type": "AUTO",
+            "maxBidId": 10925733,
+            "triggeredBy": 10940228,
+            "createdAt": "2026-11-06T12:30:06.812231+00:00",
+            "updatedAt": "2026-11-06T12:30:06.812234+00:00"
+          },
+          {
+            "id": 18722080,
+            "auctionId": 305519,
+            "bidderAlias": "8",
+            "amount": 476000,
+            "type": "NORMAL",
+            "maxBidId": 10940228,
+            "triggeredBy": 10940228,
+            "createdAt": "2026-11-06T12:30:06.812222+00:00",
+            "updatedAt": "2026-11-06T12:30:06.812229+00:00"
+          },
+          {
+            "id": 18718753,
+            "auctionId": 305519,
+            "bidderAlias": "4",
+            "amount": 475500,
+            "type": "AUTO",
+            "maxBidId": 10925733,
+            "triggeredBy": 10938311,
+            "createdAt": "2026-11-05T23:04:06.581628+00:00",
+            "updatedAt": "2026-11-05T23:04:06.581630+00:00"
+          },
+          {
+            "id": 18718752,
+            "auctionId": 305519,
+            "bidderAlias": "7",
+            "amount": 475000,
+            "type": "NORMAL",
+            "maxBidId": 10938311,
+            "triggeredBy": 10938311,
+            "createdAt": "2026-11-05T23:04:06.581617+00:00",
+            "updatedAt": "2026-11-05T23:04:06.581624+00:00"
+          },
+          {
+            "id": 18713530,
+            "auctionId": 305519,
+            "bidderAlias": "4",
+            "amount": 474500,
+            "type": "AUTO",
+            "maxBidId": 10925733,
+            "triggeredBy": 10935237,
+            "createdAt": "2026-11-05T08:38:02.277045+00:00",
+            "updatedAt": "2026-11-05T08:38:02.277049+00:00"
+          },
+          {
+            "id": 18713529,
+            "auctionId": 305519,
+            "bidderAlias": "6",
+            "amount": 474000,
+            "type": "NORMAL",
+            "maxBidId": 10935237,
+            "triggeredBy": 10935237,
+            "createdAt": "2026-11-05T08:38:02.277028+00:00",
+            "updatedAt": "2026-11-05T08:38:02.277040+00:00"
+          },
+          {
+            "id": 18713526,
+            "auctionId": 305519,
+            "bidderAlias": "4",
+            "amount": 472500,
+            "type": "AUTO",
+            "maxBidId": 10925733,
+            "triggeredBy": 10935235,
+            "createdAt": "2026-11-05T08:37:39.086946+00:00",
+            "updatedAt": "2026-11-05T08:37:39.086948+00:00"
+          },
+          {
+            "id": 18713525,
+            "auctionId": 305519,
+            "bidderAlias": "6",
+            "amount": 472000,
+            "type": "NORMAL",
+            "maxBidId": 10935235,
+            "triggeredBy": 10935235,
+            "createdAt": "2026-11-05T08:37:39.086935+00:00",
+            "updatedAt": "2026-11-05T08:37:39.086943+00:00"
+          },
+          {
+            "id": 18713522,
+            "auctionId": 305519,
+            "bidderAlias": "4",
+            "amount": 471500,
+            "type": "AUTO",
+            "maxBidId": 10925733,
+            "triggeredBy": 10935233,
+            "createdAt": "2026-11-05T08:37:19.353765+00:00",
+            "updatedAt": "2026-11-05T08:37:19.353767+00:00"
+          },
+          {
+            "id": 18713521,
+            "auctionId": 305519,
+            "bidderAlias": "6",
+            "amount": 471000,
+            "type": "NORMAL",
+            "maxBidId": 10935233,
+            "triggeredBy": 10935233,
+            "createdAt": "2026-11-05T08:37:19.353754+00:00",
+            "updatedAt": "2026-11-05T08:37:19.353762+00:00"
+          },
+          {
+            "id": 18711938,
+            "auctionId": 305519,
+            "bidderAlias": "4",
+            "amount": 470500,
+            "type": "AUTO",
+            "maxBidId": 10925733,
+            "triggeredBy": 10934345,
+            "createdAt": "2026-11-04T19:49:19.858802+00:00",
+            "updatedAt": "2026-11-04T19:49:19.858804+00:00"
+          },
+          {
+            "id": 18711937,
+            "auctionId": 305519,
+            "bidderAlias": "5",
+            "amount": 470000,
+            "type": "NORMAL",
+            "maxBidId": 10934345,
+            "triggeredBy": 10934345,
+            "createdAt": "2026-11-04T19:49:19.858793+00:00",
+            "updatedAt": "2026-11-04T19:49:19.858799+00:00"
+          },
+          {
+            "id": 18711936,
+            "auctionId": 305519,
+            "bidderAlias": "4",
+            "amount": 461500,
+            "type": "AUTO",
+            "maxBidId": 10925733,
+            "triggeredBy": 10934344,
+            "createdAt": "2026-11-04T19:49:10.443094+00:00",
+            "updatedAt": "2026-11-04T19:49:10.443098+00:00"
+          },
+          {
+            "id": 18711935,
+            "auctionId": 305519,
+            "bidderAlias": "5",
+            "amount": 461000,
+            "type": "NORMAL",
+            "maxBidId": 10934344,
+            "triggeredBy": 10934344,
+            "createdAt": "2026-11-04T19:49:10.443083+00:00",
+            "updatedAt": "2026-11-04T19:49:10.443090+00:00"
+          },
+          {
+            "id": 18697335,
+            "auctionId": 305519,
+            "bidderAlias": "4",
+            "amount": 460500,
+            "type": "NORMAL",
+            "maxBidId": 10925733,
+            "triggeredBy": 10925733,
+            "createdAt": "2026-11-03T02:49:51.794582+00:00",
+            "updatedAt": "2026-11-03T02:49:51.794585+00:00"
+          },
+          {
+            "id": 18697334,
+            "auctionId": 305519,
+            "bidderAlias": "3",
+            "amount": 460000,
+            "type": "LIMIT_REACHED",
+            "maxBidId": 10921661,
+            "triggeredBy": 10925733,
+            "createdAt": "2026-11-03T02:49:51.794567+00:00",
+            "updatedAt": "2026-11-03T02:49:51.794577+00:00"
+          },
+          {
+            "id": 18691663,
+            "auctionId": 305519,
+            "bidderAlias": "3",
+            "amount": 459500,
+            "type": "AUTO",
+            "maxBidId": 10921661,
+            "triggeredBy": 10922462,
+            "createdAt": "2026-11-02T07:36:30.015129+00:00",
+            "updatedAt": "2026-11-02T07:36:30.015131+00:00"
+          },
+          {
+            "id": 18691662,
+            "auctionId": 305519,
+            "bidderAlias": "2",
+            "amount": 459000,
+            "type": "NORMAL",
+            "maxBidId": 10922462,
+            "triggeredBy": 10922462,
+            "createdAt": "2026-11-02T07:36:30.015121+00:00",
+            "updatedAt": "2026-11-02T07:36:30.015126+00:00"
+          },
+          {
+            "id": 18690236,
+            "auctionId": 305519,
+            "bidderAlias": "3",
+            "amount": 455500,
+            "type": "NORMAL",
+            "maxBidId": 10921661,
+            "triggeredBy": 10921661,
+            "createdAt": "2026-11-01T19:07:15.152883+00:00",
+            "updatedAt": "2026-11-01T19:07:15.152887+00:00"
+          },
+          {
+            "id": 18690235,
+            "auctionId": 305519,
+            "bidderAlias": "1",
+            "amount": 455000,
+            "type": "LIMIT_REACHED",
+            "maxBidId": 10918597,
+            "triggeredBy": 10921661,
+            "createdAt": "2026-11-01T19:07:15.152867+00:00",
+            "updatedAt": "2026-11-01T19:07:15.152879+00:00"
+          },
+          {
+            "id": 18690234,
+            "auctionId": 305519,
+            "bidderAlias": "1",
+            "amount": 450500,
+            "type": "AUTO",
+            "maxBidId": 10918597,
+            "triggeredBy": 10921660,
+            "createdAt": "2026-11-01T19:06:34.564718+00:00",
+            "updatedAt": "2026-11-01T19:06:34.564721+00:00"
+          },
+          {
+            "id": 18690233,
+            "auctionId": 305519,
+            "bidderAlias": "3",
+            "amount": 450000,
+            "type": "NORMAL",
+            "maxBidId": 10921660,
+            "triggeredBy": 10921660,
+            "createdAt": "2026-11-01T19:06:34.564709+00:00",
+            "updatedAt": "2026-11-01T19:06:34.564715+00:00"
+          },
+          {
+            "id": 18687766,
+            "auctionId": 305519,
+            "bidderAlias": "1",
+            "amount": 435500,
+            "type": "AUTO",
+            "maxBidId": 10918597,
+            "triggeredBy": 10920198,
+            "createdAt": "2026-11-01T05:53:21.411442+00:00",
+            "updatedAt": "2026-11-01T05:53:21.411445+00:00"
+          },
+          {
+            "id": 18687765,
+            "auctionId": 305519,
+            "bidderAlias": "2",
+            "amount": 435000,
+            "type": "NORMAL",
+            "maxBidId": 10920198,
+            "triggeredBy": 10920198,
+            "createdAt": "2026-11-01T05:53:21.411429+00:00",
+            "updatedAt": "2026-11-01T05:53:21.411437+00:00"
+          },
+          {
+            "id": 18684940,
+            "auctionId": 305519,
+            "bidderAlias": "1",
+            "amount": 434000,
+            "type": "NORMAL",
+            "maxBidId": 10918597,
+            "triggeredBy": 10918597,
+            "createdAt": "2026-10-30T16:20:02.985744+00:00",
+            "updatedAt": "2026-10-30T16:20:02.985753+00:00"
+          }
+        ],
+        "myBidderAlias": null,
+        "myMaxBid": null,
+        "highestBid": {
+          "id": 18735592,
+          "auctionId": 305519,
+          "bidderAlias": null,
+          "amount": 490500,
+          "type": "NORMAL",
+          "maxBidId": 10948060,
+          "triggeredBy": 10948060,
+          "createdAt": "2026-11-10T06:25:09.561203+00:00",
+          "updatedAt": "2026-11-10T06:25:09.561205+00:00",
+          "eurAmount": 44610
+        },
+        "buyNowAvailable": true,
+        "releasing": null,
+        "isHighestBidLowerThanResidualLoanValue": false
+      },
+      "processObject": {
+        "certified": true,
+        "presentationApproved": false,
+        "reducedPrice": true,
+        "createdAt": "2026-09-22 12:56:14.364373+00:00",
+        "car360Spin": null,
+        "state": "AUCTION",
+        "testDriveAllowed": true,
+        "buyNowAmount": 589900,
+        "displayCar360Spin": true,
+        "offsiteSalesContact": null,
+        "id": "7289667",
+        "isFixedPrice": false,
+        "vehicleType": "CAR",
+        "baseObject": {
+          "modelId": null,
+          "year": "2026",
+          "createdAt": "2026-09-22T12:56:14.116018+00:00",
+          "familyName": "Model Y",
+          "state": "MANUAL_VALUATION_PENDING",
+          "modelName": "Mode Y Long Range Dual Motor AWD",
+          "id": "517912",
+          "body": "SUV",
+          "odometerUnit": "km",
+          "registrationCountry": "se",
+          "earliestAvailableAt": null,
+          "odometerReading": null,
+          "fabricAndMake": "TESLA",
+          "gearbox": null,
+          "registrationPlate": "YFR07N",
+          "salesFlow": "CORPORATE_CARS_SMALL",
+          "exteriorColor": "Black",
+          "brand": "Tesla",
+          "baseObjectType": "CAR",
+          "fuels": [
+            {
+              "fuelCode": "Electric",
+              "powerUnit": "EG",
+              "enginePower": 378,
+              "enginePowerHp": 514,
+              "fuelTankVolume": ""
+            }
+          ],
+          "technicalSpecification": {
+            "modelId": null,
+            "vehicle": {
+              "brand": "Tesla",
+              "body": "SUV",
+              "modelName": "Mode Y Long Range Dual Motor AWD",
+              "familyName": "Model Y"
+            },
+            "year": "2026"
+          }
+        },
+        "conditionClassification": "CERTIFIED",
+        "sellMethod": "BIDDING",
+        "leaseReturnProperties": {},
+        "properties": {
+          "chargingDc": 250,
+          "batterySizeUsable": 75,
+          "package": "Juniper Premium Dragkrok",
+          "familyName": "Model Y",
+          "exportable": true,
+          "heavyEquipment": false,
+          "modelName": "Model Y Long Range Dual Motor AWD",
+          "batterySizeNominal": 78.1,
+          "body": "SUV",
+          "odometerUnit": "km",
+          "mustExport": false,
+          "odometerReading": 61740,
+          "chargePort": "CCS",
+          "ecoFriendly": true,
+          "batteryType": "NMC",
+          "gearbox": "Automatic",
+          "title": "Tesla Model Y Long Range Dual Motor AWD",
+          "battstatResult": {
+            "sohPercent": null,
+            "rankingRangeMax": 3,
+            "rankingRangeMin": 1,
+            "ranking": null
+          },
+          "registrationPlate": "YFR07N",
+          "electricType": "Electric",
+          "modelYear": 2026,
+          "numberOfPreviousOwners": 2,
+          "hasUnpaidLoan": false,
+          "exteriorColor": "Black",
+          "saleLimitedToCorporate": false,
+          "brand": "Tesla",
+          "deductibleVat": true,
+          "adHeader": "Mode Y Long Range Dual Motor Juniper Premium Drag",
+          "fuels": [
+            {
+              "enginePower": 514,
+              "rangeCityWltpDrive": 724,
+              "rangeWltpDrive": 600,
+              "energyConsumptionWltpDrive": 159,
+              "fuelCode": "Electric"
+            }
+          ],
+          "heatPump": "Ja",
+          "heading1": "Tesla Model Y",
+          "heading2": "Model Y Long Range Dual Motor AWD",
+          "heading3": "Juniper Premium Dragkrok"
+        },
+        "proactiveBrokering": null,
+        "objectType": "CAR",
+        "isReleasable": false,
+        "baseObjectId": "517912",
+        "statisticalValuation": null,
+        "initialBuyNowAmount": 594900,
+        "exportable": true,
+        "deductibleVat": true,
+        "collisionWarranty": null,
+        "title": "Tesla Model Y Long Range Dual Motor AWD",
+        "brand": "Tesla",
+        "familyName": "Model Y",
+        "modelName": "Model Y Long Range Dual Motor AWD",
+        "package": "Juniper Premium Dragkrok",
+        "heading1": "Tesla Model Y",
+        "heading2": "Model Y Long Range Dual Motor AWD",
+        "heading3": "Juniper Premium Dragkrok"
+      },
+      "previewImages": [
+        {
+          "processObjectId": "7289667",
+          "uri": "https://kvdbil-images.imgix.net/7289667/e702a58d.jpg",
+          "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7289667/e702a58d.jpg",
+          "type": "PRESENTATION",
+          "contentType": "image",
+          "order": 1
+        },
+        {
+          "processObjectId": "7289667",
+          "uri": "https://kvdbil-images.imgix.net/7289667/26eee070.jpg",
+          "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7289667/26eee070.jpg",
+          "type": "PRESENTATION",
+          "contentType": "image",
+          "order": 2
+        }
+      ],
+      "previewImage": "https://kvdbil-images.imgix.net/7289667/e702a58d.jpg"
+    },
+    {
+      "id": "307576",
+      "auctionType": "BIDDING",
+      "biddingFee": "6900.00",
+      "biddingFeeCorporate": "9875.00",
+      "mediationFee": 0,
+      "mediationFeeCorporate": 0,
+      "buyNow": true,
+      "closedAt": null,
+      "publishedAt": "2026-11-04T08:22:51.198060+00:00",
+      "countdownDuration": 210,
+      "countdownStartAt": "2026-11-18T10:11:30+00:00",
+      "createdAt": "2026-10-15T11:35:03.943726+00:00",
+      "readyForAuctionAt": "2026-11-15",
+      "currency": "SEK",
+      "maxBidRaise": 100000,
+      "minBidRaise": 500,
+      "startBid": 259000,
+      "openedAt": "2026-11-04T08:22:51.183559+00:00",
+      "processObjectId": "7290156",
+      "readyForCheckout": false,
+      "soldFor": null,
+      "sellMethod": null,
+      "slug": "tesla-model-y-long-range-dual-motor-awd",
+      "auctionUrl": "https://www.kvd.se/auktioner/tesla-model-y-long-range-dual-motor-awd-307576",
+      "state": "OPEN",
+      "targetedAuctionGroupId": null,
+      "updatedAt": "2026-11-10T12:08:58.822389+00:00",
+      "releasing": null,
+      "loan": {
+        "loanCost": 2480,
+        "loanCostBuyNow": 2938
+      },
+      "buyNowAmount": 344900,
+      "buyNowAvailable": true,
+      "buyNowUntil": "2026-11-16T10:11:30+00:00",
+      "eligibleForAdditionalServices": true,
+      "comingSoon": false,
+      "preliminaryPrice": null,
+      "maxAllowedBid": null,
+      "isReserved": false,
+      "isSoldByBuyNow": false,
+      "favouriteCount": 62,
+      "winningBid": null,
+      "activeAuction": {
+        "auctionId": "307576",
+        "closed": false,
+        "countdownInProgress": false,
+        "preliminaryCloseAt": "2026-11-18T10:15:00+00:00",
+        "createdAt": "2026-11-04T08:22:51.185310+00:00",
+        "updatedAt": "2026-11-04T08:22:52.240721+00:00",
+        "vatExcludedBiddingAllowed": false,
+        "reservationPriceReached": false,
+        "bids": [
+          {
+            "id": 18739468,
+            "auctionId": 307576,
+            "bidderAlias": "3",
+            "amount": 291000,
+            "type": "AUTO",
+            "maxBidId": 10942073,
+            "triggeredBy": 10950299,
+            "createdAt": "2026-11-10T12:08:58.723303+00:00",
+            "updatedAt": "2026-11-10T12:08:58.723305+00:00"
+          },
+          {
+            "id": 18739467,
+            "auctionId": 307576,
+            "bidderAlias": "6",
+            "amount": 290500,
+            "type": "NORMAL",
+            "maxBidId": 10950299,
+            "triggeredBy": 10950299,
+            "createdAt": "2026-11-10T12:08:58.723293+00:00",
+            "updatedAt": "2026-11-10T12:08:58.723300+00:00"
+          },
+          {
+            "id": 18739461,
+            "auctionId": 307576,
+            "bidderAlias": "3",
+            "amount": 288000,
+            "type": "AUTO",
+            "maxBidId": 10942073,
+            "triggeredBy": 10950295,
+            "createdAt": "2026-11-10T12:08:27.068416+00:00",
+            "updatedAt": "2026-11-10T12:08:27.068418+00:00"
+          },
+          {
+            "id": 18739460,
+            "auctionId": 307576,
+            "bidderAlias": "6",
+            "amount": 287500,
+            "type": "NORMAL",
+            "maxBidId": 10950295,
+            "triggeredBy": 10950295,
+            "createdAt": "2026-11-10T12:08:27.068405+00:00",
+            "updatedAt": "2026-11-10T12:08:27.068413+00:00"
+          },
+          {
+            "id": 18739457,
+            "auctionId": 307576,
+            "bidderAlias": "3",
+            "amount": 284000,
+            "type": "AUTO",
+            "maxBidId": 10942073,
+            "triggeredBy": 10950293,
+            "createdAt": "2026-11-10T12:08:09.240232+00:00",
+            "updatedAt": "2026-11-10T12:08:09.240235+00:00"
+          },
+          {
+            "id": 18739456,
+            "auctionId": 307576,
+            "bidderAlias": "6",
+            "amount": 283500,
+            "type": "NORMAL",
+            "maxBidId": 10950293,
+            "triggeredBy": 10950293,
+            "createdAt": "2026-11-10T12:08:09.240218+00:00",
+            "updatedAt": "2026-11-10T12:08:09.240228+00:00"
+          },
+          {
+            "id": 18733843,
+            "auctionId": 307576,
+            "bidderAlias": "3",
+            "amount": 276000,
+            "type": "AUTO",
+            "maxBidId": 10942073,
+            "triggeredBy": 10947018,
+            "createdAt": "2026-11-09T18:32:30.052813+00:00",
+            "updatedAt": "2026-11-09T18:32:30.052815+00:00"
+          },
+          {
+            "id": 18733842,
+            "auctionId": 307576,
+            "bidderAlias": "5",
+            "amount": 275500,
+            "type": "NORMAL",
+            "maxBidId": 10947018,
+            "triggeredBy": 10947018,
+            "createdAt": "2026-11-09T18:32:30.052801+00:00",
+            "updatedAt": "2026-11-09T18:32:30.052810+00:00"
+          },
+          {
+            "id": 18732569,
+            "auctionId": 307576,
+            "bidderAlias": "3",
+            "amount": 271000,
+            "type": "AUTO",
+            "maxBidId": 10942073,
+            "triggeredBy": 10946270,
+            "createdAt": "2026-11-09T14:56:10.894611+00:00",
+            "updatedAt": "2026-11-09T14:56:10.894613+00:00"
+          },
+          {
+            "id": 18732568,
+            "auctionId": 307576,
+            "bidderAlias": "5",
+            "amount": 270500,
+            "type": "NORMAL",
+            "maxBidId": 10946270,
+            "triggeredBy": 10946270,
+            "createdAt": "2026-11-09T14:56:10.894602+00:00",
+            "updatedAt": "2026-11-09T14:56:10.894608+00:00"
+          },
+          {
+            "id": 18732567,
+            "auctionId": 307576,
+            "bidderAlias": "3",
+            "amount": 267500,
+            "type": "AUTO",
+            "maxBidId": 10942073,
+            "triggeredBy": 10946269,
+            "createdAt": "2026-11-09T14:55:58.502607+00:00",
+            "updatedAt": "2026-11-09T14:55:58.502611+00:00"
+          },
+          {
+            "id": 18732566,
+            "auctionId": 307576,
+            "bidderAlias": "5",
+            "amount": 267000,
+            "type": "NORMAL",
+            "maxBidId": 10946269,
+            "triggeredBy": 10946269,
+            "createdAt": "2026-11-09T14:55:58.502596+00:00",
+            "updatedAt": "2026-11-09T14:55:58.502604+00:00"
+          },
+          {
+            "id": 18732145,
+            "auctionId": 307576,
+            "bidderAlias": "3",
+            "amount": 265500,
+            "type": "AUTO",
+            "maxBidId": 10942073,
+            "triggeredBy": 10946019,
+            "createdAt": "2026-11-09T11:55:10.489881+00:00",
+            "updatedAt": "2026-11-09T11:55:10.489885+00:00"
+          },
+          {
+            "id": 18732144,
+            "auctionId": 307576,
+            "bidderAlias": "4",
+            "amount": 265000,
+            "type": "NORMAL",
+            "maxBidId": 10946019,
+            "triggeredBy": 10946019,
+            "createdAt": "2026-11-09T11:55:10.489866+00:00",
+            "updatedAt": "2026-11-09T11:55:10.489876+00:00"
+          },
+          {
+            "id": 18726832,
+            "auctionId": 307576,
+            "bidderAlias": "3",
+            "amount": 263500,
+            "type": "AUTO",
+            "maxBidId": 10942073,
+            "triggeredBy": 10942995,
+            "createdAt": "2026-11-08T18:37:49.089771+00:00",
+            "updatedAt": "2026-11-08T18:37:49.089774+00:00"
+          },
+          {
+            "id": 18726831,
+            "auctionId": 307576,
+            "bidderAlias": "2",
+            "amount": 263000,
+            "type": "NORMAL",
+            "maxBidId": 10942995,
+            "triggeredBy": 10942995,
+            "createdAt": "2026-11-08T18:37:49.089758+00:00",
+            "updatedAt": "2026-11-08T18:37:49.089766+00:00"
+          },
+          {
+            "id": 18725292,
+            "auctionId": 307576,
+            "bidderAlias": "3",
+            "amount": 262500,
+            "type": "NORMAL",
+            "maxBidId": 10942073,
+            "triggeredBy": 10942073,
+            "createdAt": "2026-11-08T12:56:38.516294+00:00",
+            "updatedAt": "2026-11-08T12:56:38.516296+00:00"
+          },
+          {
+            "id": 18725291,
+            "auctionId": 307576,
+            "bidderAlias": "2",
+            "amount": 262000,
+            "type": "LIMIT_REACHED",
+            "maxBidId": 10935717,
+            "triggeredBy": 10942073,
+            "createdAt": "2026-11-08T12:56:38.516285+00:00",
+            "updatedAt": "2026-11-08T12:56:38.516291+00:00"
+          },
+          {
+            "id": 18714384,
+            "auctionId": 307576,
+            "bidderAlias": "2",
+            "amount": 260500,
+            "type": "NORMAL",
+            "maxBidId": 10935717,
+            "triggeredBy": 10935717,
+            "createdAt": "2026-11-05T09:36:33.052569+00:00",
+            "updatedAt": "2026-11-05T09:36:33.052571+00:00"
+          },
+          {
+            "id": 18714383,
+            "auctionId": 307576,
+            "bidderAlias": "1",
+            "amount": 260000,
+            "type": "LIMIT_REACHED",
+            "maxBidId": 10934924,
+            "triggeredBy": 10935717,
+            "createdAt": "2026-11-05T09:36:33.052560+00:00",
+            "updatedAt": "2026-11-05T09:36:33.052566+00:00"
+          },
+          {
+            "id": 18712959,
+            "auctionId": 307576,
+            "bidderAlias": "1",
+            "amount": 259000,
+            "type": "NORMAL",
+            "maxBidId": 10934924,
+            "triggeredBy": 10934924,
+            "createdAt": "2026-11-05T06:55:17.867200+00:00",
+            "updatedAt": "2026-11-05T06:55:17.867209+00:00"
+          }
+        ],
+        "myBidderAlias": null,
+        "myMaxBid": null,
+        "highestBid": {
+          "id": 18739468,
+          "auctionId": 307576,
+          "bidderAlias": null,
+          "amount": 291000,
+          "type": "AUTO",
+          "maxBidId": 10942073,
+          "triggeredBy": 10950299,
+          "createdAt": "2026-11-10T12:08:58.723303+00:00",
+          "updatedAt": "2026-11-10T12:08:58.723305+00:00",
+          "eurAmount": 26470
+        },
+        "buyNowAvailable": true,
+        "releasing": null,
+        "isHighestBidLowerThanResidualLoanValue": false
+      },
+      "processObject": {
+        "certified": true,
+        "presentationApproved": false,
+        "reducedPrice": true,
+        "createdAt": "2026-09-28 08:06:26.498549+00:00",
+        "car360Spin": null,
+        "state": "AUCTION",
+        "testDriveAllowed": true,
+        "buyNowAmount": 344900,
+        "displayCar360Spin": true,
+        "offsiteSalesContact": null,
+        "id": "7290156",
+        "isFixedPrice": false,
+        "vehicleType": "CAR",
+        "baseObject": {
+          "modelId": null,
+          "year": "2023",
+          "createdAt": "2026-09-28T08:06:26.280663+00:00",
+          "familyName": "Model Y",
+          "state": "MANUAL_VALUATION_PENDING",
+          "modelName": "Model Y Long Range Dual Motor AWD",
+          "id": "519009",
+          "body": "SUV",
+          "odometerUnit": "km",
+          "registrationCountry": "se",
+          "earliestAvailableAt": null,
+          "odometerReading": null,
+          "fabricAndMake": "TESLA",
+          "gearbox": null,
+          "registrationPlate": "ZWA246",
+          "salesFlow": "CORPORATE_CARS",
+          "exteriorColor": "White",
+          "brand": "Tesla",
+          "baseObjectType": "CAR",
+          "fuels": [
+            {
+              "fuelCode": "Electric",
+              "powerUnit": "EG",
+              "enginePower": 378,
+              "enginePowerHp": 514,
+              "fuelTankVolume": ""
+            }
+          ],
+          "technicalSpecification": {
+            "modelId": null,
+            "vehicle": {
+              "brand": "Tesla",
+              "body": "SUV",
+              "modelName": "Model Y Long Range Dual Motor AWD",
+              "familyName": "Model Y"
+            },
+            "year": "2023"
+          }
+        },
+        "conditionClassification": "CERTIFIED",
+        "sellMethod": "BIDDING",
+        "leaseReturnProperties": {},
+        "properties": {
+          "chargingDc": 210,
+          "batterySizeUsable": 72,
+          "familyName": "Model Y",
+          "exportable": true,
+          "heavyEquipment": false,
+          "modelName": "Model Y Long Range Dual Motor AWD",
+          "batterySizeNominal": 75,
+          "body": "SUV",
+          "odometerUnit": "km",
+          "mustExport": false,
+          "odometerReading": 97130,
+          "chargePort": "CCS",
+          "ecoFriendly": true,
+          "batteryType": "NMC",
+          "gearbox": "Automatic",
+          "title": "Tesla Model Y Long Range Dual Motor AWD",
+          "battstatResult": {
+            "sohPercent": 99,
+            "rankingRangeMax": 3,
+            "rankingRangeMin": 1,
+            "ranking": 3
+          },
+          "registrationPlate": "ZWA246",
+          "electricType": "Electric",
+          "modelYear": 2023,
+          "numberOfPreviousOwners": 2,
+          "hasUnpaidLoan": false,
+          "exteriorColor": "White",
+          "saleLimitedToCorporate": false,
+          "brand": "Tesla",
+          "deductibleVat": true,
+          "fuels": [
+            {
+              "enginePower": 514,
+              "rangeCityWltpDrive": 650,
+              "rangeWltpDrive": 533,
+              "energyConsumptionWltpDrive": 169,
+              "fuelCode": "Electric"
+            }
+          ],
+          "heatPump": "Ja",
+          "heading1": "Tesla Model Y",
+          "heading2": "Model Y Long Range Dual Motor AWD",
+          "heading3": null
+        },
+        "proactiveBrokering": null,
+        "objectType": "CAR",
+        "isReleasable": false,
+        "baseObjectId": "519009",
+        "statisticalValuation": null,
+        "initialBuyNowAmount": 349900,
+        "exportable": true,
+        "deductibleVat": true,
+        "collisionWarranty": null,
+        "title": "Tesla Model Y Long Range Dual Motor AWD",
+        "brand": "Tesla",
+        "familyName": "Model Y",
+        "modelName": "Model Y Long Range Dual Motor AWD",
+        "package": null,
+        "heading1": "Tesla Model Y",
+        "heading2": "Model Y Long Range Dual Motor AWD",
+        "heading3": null
+      },
+      "previewImages": [
+        {
+          "processObjectId": "7290156",
+          "uri": "https://kvdbil-images.imgix.net/7290156/a4410394.jpg",
+          "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7290156/a4410394.jpg",
+          "type": "PRESENTATION",
+          "contentType": "image",
+          "order": 1
+        },
+        {
+          "processObjectId": "7290156",
+          "uri": "https://kvdbil-images.imgix.net/7290156/f11132cb.jpg",
+          "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7290156/f11132cb.jpg",
+          "type": "PRESENTATION",
+          "contentType": "image",
+          "order": 2
+        }
+      ],
+      "previewImage": "https://kvdbil-images.imgix.net/7290156/a4410394.jpg"
+    },
+    {
+      "id": "310151",
+      "auctionType": "BIDDING",
+      "biddingFee": "6900.00",
+      "biddingFeeCorporate": "9875.00",
+      "mediationFee": 0,
+      "mediationFeeCorporate": 0,
+      "buyNow": false,
+      "closedAt": null,
+      "publishedAt": "2026-11-06T08:42:56.253491+00:00",
+      "countdownDuration": 210,
+      "countdownStartAt": "2026-11-11T10:23:30+00:00",
+      "createdAt": "2026-11-05T09:36:15.378249+00:00",
+      "readyForAuctionAt": "2026-11-08",
+      "currency": "SEK",
+      "maxBidRaise": 100000,
+      "minBidRaise": 500,
+      "startBid": 155000,
+      "openedAt": "2026-11-06T15:56:38.586810+00:00",
+      "processObjectId": "7289945",
+      "readyForCheckout": false,
+      "soldFor": null,
+      "sellMethod": null,
+      "slug": "tesla-model-y-long-range-dual-motor-awd",
+      "auctionUrl": "https://www.kvd.se/auktioner/tesla-model-y-long-range-dual-motor-awd-310151",
+      "state": "OPEN",
+      "targetedAuctionGroupId": null,
+      "updatedAt": "2026-11-10T11:36:32.230993+00:00",
+      "releasing": null,
+      "loan": {
+        "loanCost": 2390,
+        "loanCostBuyNow": null
+      },
+      "buyNowAmount": null,
+      "buyNowAvailable": false,
+      "buyNowUntil": null,
+      "eligibleForAdditionalServices": true,
+      "comingSoon": false,
+      "preliminaryPrice": 310000,
+      "maxAllowedBid": 465000,
+      "isReserved": false,
+      "isSoldByBuyNow": false,
+      "favouriteCount": 59,
+      "winningBid": null,
+      "activeAuction": {
+        "auctionId": "310151",
+        "closed": false,
+        "countdownInProgress": false,
+        "preliminaryCloseAt": "2026-11-11T10:27:00+00:00",
+        "createdAt": "2026-11-06T15:56:38.588429+00:00",
+        "updatedAt": "2026-11-06T15:56:39.643325+00:00",
+        "vatExcludedBiddingAllowed": false,
+        "reservationPriceReached": true,
+        "bids": [
+          {
+            "id": 18737809,
+            "auctionId": 310151,
+            "bidderAlias": "1",
+            "amount": 280500,
+            "type": "NORMAL",
+            "maxBidId": 10949327,
+            "triggeredBy": 10949327,
+            "createdAt": "2026-11-10T10:11:26.594842+00:00",
+            "updatedAt": "2026-11-10T10:11:26.594846+00:00"
+          },
+          {
+            "id": 18737808,
+            "auctionId": 310151,
+            "bidderAlias": "6",
+            "amount": 280000,
+            "type": "LIMIT_REACHED",
+            "maxBidId": 10949319,
+            "triggeredBy": 10949327,
+            "createdAt": "2026-11-10T10:11:26.594830+00:00",
+            "updatedAt": "2026-11-10T10:11:26.594838+00:00"
+          },
+          {
+            "id": 18737807,
+            "auctionId": 310151,
+            "bidderAlias": "6",
+            "amount": 276500,
+            "type": "AUTO",
+            "maxBidId": 10949319,
+            "triggeredBy": 10949326,
+            "createdAt": "2026-11-10T10:11:20.032559+00:00",
+            "updatedAt": "2026-11-10T10:11:20.032563+00:00"
+          },
+          {
+            "id": 18737806,
+            "auctionId": 310151,
+            "bidderAlias": "1",
+            "amount": 276000,
+            "type": "NORMAL",
+            "maxBidId": 10949326,
+            "triggeredBy": 10949326,
+            "createdAt": "2026-11-10T10:11:20.032546+00:00",
+            "updatedAt": "2026-11-10T10:11:20.032555+00:00"
+          },
+          {
+            "id": 18737795,
+            "auctionId": 310151,
+            "bidderAlias": "6",
+            "amount": 275500,
+            "type": "NORMAL",
+            "maxBidId": 10949319,
+            "triggeredBy": 10949319,
+            "createdAt": "2026-11-10T10:10:26.049088+00:00",
+            "updatedAt": "2026-11-10T10:10:26.049091+00:00"
+          },
+          {
+            "id": 18737794,
+            "auctionId": 310151,
+            "bidderAlias": "1",
+            "amount": 275000,
+            "type": "LIMIT_REACHED",
+            "maxBidId": 10940700,
+            "triggeredBy": 10949319,
+            "createdAt": "2026-11-10T10:10:26.049075+00:00",
+            "updatedAt": "2026-11-10T10:10:26.049084+00:00"
+          },
+          {
+            "id": 18737791,
+            "auctionId": 310151,
+            "bidderAlias": "1",
+            "amount": 270500,
+            "type": "AUTO",
+            "maxBidId": 10940700,
+            "triggeredBy": 10949317,
+            "createdAt": "2026-11-10T10:10:21.394256+00:00",
+            "updatedAt": "2026-11-10T10:10:21.394258+00:00"
+          },
+          {
+            "id": 18737790,
+            "auctionId": 310151,
+            "bidderAlias": "6",
+            "amount": 270000,
+            "type": "NORMAL",
+            "maxBidId": 10949317,
+            "triggeredBy": 10949317,
+            "createdAt": "2026-11-10T10:10:21.394245+00:00",
+            "updatedAt": "2026-11-10T10:10:21.394253+00:00"
+          },
+          {
+            "id": 18737789,
+            "auctionId": 310151,
+            "bidderAlias": "1",
+            "amount": 260500,
+            "type": "AUTO",
+            "maxBidId": 10940700,
+            "triggeredBy": 10949316,
+            "createdAt": "2026-11-10T10:10:16.637395+00:00",
+            "updatedAt": "2026-11-10T10:10:16.637399+00:00"
+          },
+          {
+            "id": 18737788,
+            "auctionId": 310151,
+            "bidderAlias": "6",
+            "amount": 260000,
+            "type": "NORMAL",
+            "maxBidId": 10949316,
+            "triggeredBy": 10949316,
+            "createdAt": "2026-11-10T10:10:16.637380+00:00",
+            "updatedAt": "2026-11-10T10:10:16.637390+00:00"
+          },
+          {
+            "id": 18737787,
+            "auctionId": 310151,
+            "bidderAlias": "1",
+            "amount": 255500,
+            "type": "AUTO",
+            "maxBidId": 10940700,
+            "triggeredBy": 10949315,
+            "createdAt": "2026-11-10T10:10:11.913393+00:00",
+            "updatedAt": "2026-11-10T10:10:11.913396+00:00"
+          },
+          {
+            "id": 18737786,
+            "auctionId": 310151,
+            "bidderAlias": "6",
+            "amount": 255000,
+            "type": "NORMAL",
+            "maxBidId": 10949315,
+            "triggeredBy": 10949315,
+            "createdAt": "2026-11-10T10:10:11.913382+00:00",
+            "updatedAt": "2026-11-10T10:10:11.913390+00:00"
+          },
+          {
+            "id": 18737785,
+            "auctionId": 310151,
+            "bidderAlias": "1",
+            "amount": 250500,
+            "type": "AUTO",
+            "maxBidId": 10940700,
+            "triggeredBy": 10949314,
+            "createdAt": "2026-11-10T10:10:06.392921+00:00",
+            "updatedAt": "2026-11-10T10:10:06.392923+00:00"
+          },
+          {
+            "id": 18737784,
+            "auctionId": 310151,
+            "bidderAlias": "6",
+            "amount": 250000,
+            "type": "NORMAL",
+            "maxBidId": 10949314,
+            "triggeredBy": 10949314,
+            "createdAt": "2026-11-10T10:10:06.392912+00:00",
+            "updatedAt": "2026-11-10T10:10:06.392919+00:00"
+          },
+          {
+            "id": 18737783,
+            "auctionId": 310151,
+            "bidderAlias": "1",
+            "amount": 240500,
+            "type": "AUTO",
+            "maxBidId": 10940700,
+            "triggeredBy": 10949313,
+            "createdAt": "2026-11-10T10:10:01.760253+00:00",
+            "updatedAt": "2026-11-10T10:10:01.760257+00:00"
+          },
+          {
+            "id": 18737782,
+            "auctionId": 310151,
+            "bidderAlias": "6",
+            "amount": 240000,
+            "type": "NORMAL",
+            "maxBidId": 10949313,
+            "triggeredBy": 10949313,
+            "createdAt": "2026-11-10T10:10:01.760239+00:00",
+            "updatedAt": "2026-11-10T10:10:01.760249+00:00"
+          },
+          {
+            "id": 18737778,
+            "auctionId": 310151,
+            "bidderAlias": "1",
+            "amount": 235500,
+            "type": "AUTO",
+            "maxBidId": 10940700,
+            "triggeredBy": 10949310,
+            "createdAt": "2026-11-10T10:09:56.634281+00:00",
+            "updatedAt": "2026-11-10T10:09:56.634284+00:00"
+          },
+          {
+            "id": 18737777,
+            "auctionId": 310151,
+            "bidderAlias": "6",
+            "amount": 235000,
+            "type": "NORMAL",
+            "maxBidId": 10949310,
+            "triggeredBy": 10949310,
+            "createdAt": "2026-11-10T10:09:56.634272+00:00",
+            "updatedAt": "2026-11-10T10:09:56.634278+00:00"
+          },
+          {
+            "id": 18734372,
+            "auctionId": 310151,
+            "bidderAlias": "1",
+            "amount": 233500,
+            "type": "AUTO",
+            "maxBidId": 10940700,
+            "triggeredBy": 10947354,
+            "createdAt": "2026-11-09T19:36:59.936399+00:00",
+            "updatedAt": "2026-11-09T19:36:59.936402+00:00"
+          },
+          {
+            "id": 18734371,
+            "auctionId": 310151,
+            "bidderAlias": "5",
+            "amount": 233000,
+            "type": "NORMAL",
+            "maxBidId": 10947354,
+            "triggeredBy": 10947354,
+            "createdAt": "2026-11-09T19:36:59.936386+00:00",
+            "updatedAt": "2026-11-09T19:36:59.936396+00:00"
+          },
+          {
+            "id": 18725278,
+            "auctionId": 310151,
+            "bidderAlias": "1",
+            "amount": 201500,
+            "type": "AUTO",
+            "maxBidId": 10940700,
+            "triggeredBy": 10942066,
+            "createdAt": "2026-11-08T12:55:00.572239+00:00",
+            "updatedAt": "2026-11-08T12:55:00.572241+00:00"
+          },
+          {
+            "id": 18725277,
+            "auctionId": 310151,
+            "bidderAlias": "4",
+            "amount": 201000,
+            "type": "NORMAL",
+            "maxBidId": 10942066,
+            "triggeredBy": 10942066,
+            "createdAt": "2026-11-08T12:55:00.572230+00:00",
+            "updatedAt": "2026-11-08T12:55:00.572236+00:00"
+          },
+          {
+            "id": 18725276,
+            "auctionId": 310151,
+            "bidderAlias": "1",
+            "amount": 192500,
+            "type": "AUTO",
+            "maxBidId": 10940700,
+            "triggeredBy": 10942065,
+            "createdAt": "2026-11-08T12:54:55.743792+00:00",
+            "updatedAt": "2026-11-08T12:54:55.743794+00:00"
+          },
+          {
+            "id": 18725275,
+            "auctionId": 310151,
+            "bidderAlias": "4",
+            "amount": 192000,
+            "type": "NORMAL",
+            "maxBidId": 10942065,
+            "triggeredBy": 10942065,
+            "createdAt": "2026-11-08T12:54:55.743784+00:00",
+            "updatedAt": "2026-11-08T12:54:55.743790+00:00"
+          },
+          {
+            "id": 18723595,
+            "auctionId": 310151,
+            "bidderAlias": "1",
+            "amount": 170500,
+            "type": "AUTO",
+            "maxBidId": 10940700,
+            "triggeredBy": 10941118,
+            "createdAt": "2026-11-07T13:13:46.780539+00:00",
+            "updatedAt": "2026-11-07T13:13:46.780542+00:00"
+          },
+          {
+            "id": 18723594,
+            "auctionId": 310151,
+            "bidderAlias": "3",
+            "amount": 170000,
+            "type": "NORMAL",
+            "maxBidId": 10941118,
+            "triggeredBy": 10941118,
+            "createdAt": "2026-11-07T13:13:46.780529+00:00",
+            "updatedAt": "2026-11-07T13:13:46.780536+00:00"
+          },
+          {
+            "id": 18723472,
+            "auctionId": 310151,
+            "bidderAlias": "1",
+            "amount": 156000,
+            "type": "AUTO",
+            "maxBidId": 10940700,
+            "triggeredBy": 10941047,
+            "createdAt": "2026-11-07T11:53:41.242264+00:00",
+            "updatedAt": "2026-11-07T11:53:41.242267+00:00"
+          },
+          {
+            "id": 18723471,
+            "auctionId": 310151,
+            "bidderAlias": "2",
+            "amount": 155500,
+            "type": "NORMAL",
+            "maxBidId": 10941047,
+            "triggeredBy": 10941047,
+            "createdAt": "2026-11-07T11:53:41.242253+00:00",
+            "updatedAt": "2026-11-07T11:53:41.242261+00:00"
+          },
+          {
+            "id": 18722864,
+            "auctionId": 310151,
+            "bidderAlias": "1",
+            "amount": 155000,
+            "type": "NORMAL",
+            "maxBidId": 10940700,
+            "triggeredBy": 10940700,
+            "createdAt": "2026-11-06T21:52:36.680001+00:00",
+            "updatedAt": "2026-11-06T21:52:36.680009+00:00"
+          }
+        ],
+        "myBidderAlias": null,
+        "myMaxBid": null,
+        "highestBid": {
+          "id": 18737809,
+          "auctionId": 310151,
+          "bidderAlias": null,
+          "amount": 280500,
+          "type": "NORMAL",
+          "maxBidId": 10949327,
+          "triggeredBy": 10949327,
+          "createdAt": "2026-11-10T10:11:26.594842+00:00",
+          "updatedAt": "2026-11-10T10:11:26.594846+00:00",
+          "eurAmount": 25510
+        },
+        "buyNowAvailable": false,
+        "releasing": null,
+        "isHighestBidLowerThanResidualLoanValue": false
+      },
+      "processObject": {
+        "certified": false,
+        "presentationApproved": false,
+        "reducedPrice": false,
+        "createdAt": "2026-09-24 13:49:07.647204+00:00",
+        "car360Spin": null,
+        "state": "AUCTION",
+        "testDriveAllowed": true,
+        "buyNowAmount": null,
+        "displayCar360Spin": true,
+        "offsiteSalesContact": null,
+        "id": "7289945",
+        "isFixedPrice": false,
+        "vehicleType": "CAR",
+        "baseObject": {
+          "modelId": null,
+          "year": "2023",
+          "createdAt": "2026-09-10T07:37:55.226007+00:00",
+          "familyName": "Model Y",
+          "state": "PREPARING_SALES_AGREEMENT",
+          "modelName": "Model Y Long Range Dual Motor AWD",
+          "id": "515331",
+          "body": "SUV",
+          "odometerUnit": "km",
+          "registrationCountry": "se",
+          "earliestAvailableAt": null,
+          "odometerReading": 173000,
+          "fabricAndMake": "TESLA",
+          "gearbox": null,
+          "registrationPlate": "XER01J",
+          "salesFlow": "CORPORATE_CARS_SMALL",
+          "exteriorColor": "Blue",
+          "brand": "Tesla",
+          "baseObjectType": "CAR",
+          "fuels": [
+            {
+              "fuelCode": "Electric",
+              "powerUnit": "EG",
+              "enginePower": 378,
+              "enginePowerHp": 514,
+              "fuelTankVolume": ""
+            }
+          ],
+          "technicalSpecification": {
+            "modelId": null,
+            "vehicle": {
+              "brand": "Tesla",
+              "body": "SUV",
+              "modelName": "Model Y Long Range Dual Motor AWD",
+              "familyName": "Model Y"
+            },
+            "year": "2023"
+          }
+        },
+        "conditionClassification": "TESTED",
+        "sellMethod": "BIDDING",
+        "leaseReturnProperties": {},
+        "properties": {
+          "chargingDc": 210,
+          "batterySizeUsable": 72,
+          "familyName": "Model Y",
+          "exportable": true,
+          "heavyEquipment": false,
+          "modelName": "Model Y Long Range Dual Motor AWD",
+          "batterySizeNominal": 75,
+          "body": "SUV",
+          "odometerUnit": "km",
+          "mustExport": false,
+          "odometerReading": 173930,
+          "chargePort": "CCS",
+          "ecoFriendly": true,
+          "batteryType": "NMC",
+          "gearbox": "Automatic",
+          "title": "Tesla Model Y Long Range Dual Motor AWD",
+          "battstatResult": {
+            "sohPercent": 96,
+            "rankingRangeMax": 3,
+            "rankingRangeMin": 1,
+            "ranking": 3
+          },
+          "registrationPlate": "XER01J",
+          "electricType": "Electric",
+          "modelYear": 2023,
+          "numberOfPreviousOwners": 1,
+          "hasUnpaidLoan": false,
+          "exteriorColor": "Blue",
+          "saleLimitedToCorporate": false,
+          "brand": "Tesla",
+          "deductibleVat": false,
+          "fuels": [
+            {
+              "enginePower": 514,
+              "rangeCityWltpDrive": 656,
+              "rangeWltpDrive": 533,
+              "energyConsumptionWltpDrive": 169,
+              "fuelCode": "Electric"
+            }
+          ],
+          "heatPump": "Ja",
+          "heading1": "Tesla Model Y",
+          "heading2": "Model Y Long Range Dual Motor AWD",
+          "heading3": null
+        },
+        "proactiveBrokering": null,
+        "objectType": "CAR",
+        "isReleasable": false,
+        "baseObjectId": "515331",
+        "statisticalValuation": {
+          "bpOrange": 305342,
+          "marketPrice": 305342,
+          "bpGreen": null,
+          "bpWhite": 305342
+        },
+        "initialBuyNowAmount": null,
+        "exportable": true,
+        "deductibleVat": false,
+        "collisionWarranty": null,
+        "title": "Tesla Model Y Long Range Dual Motor AWD",
+        "brand": "Tesla",
+        "familyName": "Model Y",
+        "modelName": "Model Y Long Range Dual Motor AWD",
+        "package": null,
+        "heading1": "Tesla Model Y",
+        "heading2": "Model Y Long Range Dual Motor AWD",
+        "heading3": null
+      },
+      "previewImages": [
+        {
+          "processObjectId": "7289945",
+          "uri": "https://kvdbil-images.imgix.net/7289945/4dd577cc.jpg",
+          "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7289945/4dd577cc.jpg",
+          "type": "PRESENTATION",
+          "contentType": "image",
+          "order": 1
+        },
+        {
+          "processObjectId": "7289945",
+          "uri": "https://kvdbil-images.imgix.net/7289945/0c4ff6d2.jpg",
+          "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7289945/0c4ff6d2.jpg",
+          "type": "PRESENTATION",
+          "contentType": "image",
+          "order": 2
+        }
+      ],
+      "previewImage": "https://kvdbil-images.imgix.net/7289945/4dd577cc.jpg"
+    },
+    {
+      "id": "309846",
+      "auctionType": "BIDDING",
+      "biddingFee": "6900.00",
+      "biddingFeeCorporate": "9875.00",
+      "mediationFee": 0,
+      "mediationFeeCorporate": 0,
+      "buyNow": true,
+      "closedAt": null,
+      "publishedAt": "2026-11-09T10:23:17.184190+00:00",
+      "countdownDuration": 210,
+      "countdownStartAt": "2026-11-23T09:41:30+00:00",
+      "createdAt": "2026-11-03T08:32:03.676484+00:00",
+      "readyForAuctionAt": "2026-11-22",
+      "currency": "SEK",
+      "maxBidRaise": 100000,
+      "minBidRaise": 500,
+      "startBid": 252000,
+      "openedAt": "2026-11-09T10:24:29.916884+00:00",
+      "processObjectId": "7293599",
+      "readyForCheckout": false,
+      "soldFor": null,
+      "sellMethod": null,
+      "slug": "tesla-model-y-long-range-dual-motor-awd",
+      "auctionUrl": "https://www.kvd.se/auktioner/tesla-model-y-long-range-dual-motor-awd-309846",
+      "state": "OPEN",
+      "targetedAuctionGroupId": null,
+      "updatedAt": "2026-11-10T12:09:53.146558+00:00",
+      "releasing": null,
+      "loan": {
+        "loanCost": 2228,
+        "loanCostBuyNow": 2853
+      },
+      "buyNowAmount": 334900,
+      "buyNowAvailable": true,
+      "buyNowUntil": "2026-11-21T09:41:30+00:00",
+      "eligibleForAdditionalServices": true,
+      "comingSoon": false,
+      "preliminaryPrice": 360000,
+      "maxAllowedBid": 540000,
+      "isReserved": false,
+      "isSoldByBuyNow": false,
+      "favouriteCount": 58,
+      "winningBid": null,
+      "activeAuction": {
+        "auctionId": "309846",
+        "closed": false,
+        "countdownInProgress": false,
+        "preliminaryCloseAt": "2026-11-23T09:45:00+00:00",
+        "createdAt": "2026-11-09T10:24:29.918814+00:00",
+        "updatedAt": "2026-11-09T10:24:30.963353+00:00",
+        "vatExcludedBiddingAllowed": false,
+        "reservationPriceReached": false,
+        "bids": [
+          {
+            "id": 18739473,
+            "auctionId": 309846,
+            "bidderAlias": "5",
+            "amount": 261500,
+            "type": "NORMAL",
+            "maxBidId": 10950302,
+            "triggeredBy": 10950302,
+            "createdAt": "2026-11-10T12:09:43.944359+00:00",
+            "updatedAt": "2026-11-10T12:09:43.944361+00:00"
+          },
+          {
+            "id": 18739472,
+            "auctionId": 309846,
+            "bidderAlias": "4",
+            "amount": 261000,
+            "type": "LIMIT_REACHED",
+            "maxBidId": 10948011,
+            "triggeredBy": 10950302,
+            "createdAt": "2026-11-10T12:09:43.944351+00:00",
+            "updatedAt": "2026-11-10T12:09:43.944356+00:00"
+          },
+          {
+            "id": 18735499,
+            "auctionId": 309846,
+            "bidderAlias": "4",
+            "amount": 254000,
+            "type": "NORMAL",
+            "maxBidId": 10948011,
+            "triggeredBy": 10948011,
+            "createdAt": "2026-11-10T05:51:56.408534+00:00",
+            "updatedAt": "2026-11-10T05:51:56.408541+00:00"
+          },
+          {
+            "id": 18734694,
+            "auctionId": 309846,
+            "bidderAlias": "3",
+            "amount": 253500,
+            "type": "NORMAL",
+            "maxBidId": 10947561,
+            "triggeredBy": 10947561,
+            "createdAt": "2026-11-09T20:48:21.674545+00:00",
+            "updatedAt": "2026-11-09T20:48:21.674548+00:00"
+          },
+          {
+            "id": 18734693,
+            "auctionId": 309846,
+            "bidderAlias": "2",
+            "amount": 253000,
+            "type": "LIMIT_REACHED",
+            "maxBidId": 10947290,
+            "triggeredBy": 10947561,
+            "createdAt": "2026-11-09T20:48:21.674529+00:00",
+            "updatedAt": "2026-11-09T20:48:21.674539+00:00"
+          },
+          {
+            "id": 18734269,
+            "auctionId": 309846,
+            "bidderAlias": "2",
+            "amount": 252500,
+            "type": "NORMAL",
+            "maxBidId": 10947290,
+            "triggeredBy": 10947290,
+            "createdAt": "2026-11-09T19:22:51.920215+00:00",
+            "updatedAt": "2026-11-09T19:22:51.920222+00:00"
+          },
+          {
+            "id": 18732197,
+            "auctionId": 309846,
+            "bidderAlias": "1",
+            "amount": 252000,
+            "type": "NORMAL",
+            "maxBidId": 10946054,
+            "triggeredBy": 10946054,
+            "createdAt": "2026-11-09T11:59:33.489082+00:00",
+            "updatedAt": "2026-11-09T11:59:33.489090+00:00"
+          }
+        ],
+        "myBidderAlias": null,
+        "myMaxBid": null,
+        "highestBid": {
+          "id": 18739473,
+          "auctionId": 309846,
+          "bidderAlias": null,
+          "amount": 261500,
+          "type": "NORMAL",
+          "maxBidId": 10950302,
+          "triggeredBy": 10950302,
+          "createdAt": "2026-11-10T12:09:43.944359+00:00",
+          "updatedAt": "2026-11-10T12:09:43.944361+00:00",
+          "eurAmount": 23790
+        },
+        "buyNowAvailable": true,
+        "releasing": null,
+        "isHighestBidLowerThanResidualLoanValue": false
+      },
+      "processObject": {
+        "certified": true,
+        "presentationApproved": false,
+        "reducedPrice": false,
+        "createdAt": "2026-10-26 16:00:51.500948+00:00",
+        "car360Spin": null,
+        "state": "AUCTION",
+        "testDriveAllowed": true,
+        "buyNowAmount": 334900,
+        "displayCar360Spin": true,
+        "offsiteSalesContact": null,
+        "id": "7293599",
+        "isFixedPrice": false,
+        "vehicleType": "CAR",
+        "baseObject": {
+          "modelId": null,
+          "year": "2022",
+          "createdAt": "2026-10-26T15:54:21.527609+00:00",
+          "familyName": "Model Y",
+          "state": "PREPARING_SALES_AGREEMENT",
+          "modelName": "Model Y Long Range Dual Motor AWD",
+          "id": "525588",
+          "body": "SUV",
+          "odometerUnit": "km",
+          "registrationCountry": "se",
+          "earliestAvailableAt": null,
+          "odometerReading": 96340,
+          "fabricAndMake": "TESLA",
+          "gearbox": null,
+          "registrationPlate": "RCK48B",
+          "salesFlow": "CORPORATE_CARS_SMALL",
+          "exteriorColor": "Black",
+          "brand": "Tesla",
+          "baseObjectType": "CAR",
+          "fuels": [
+            {
+              "fuelCode": "Electric",
+              "powerUnit": "EG",
+              "enginePower": 378,
+              "enginePowerHp": 514,
+              "fuelTankVolume": ""
+            }
+          ],
+          "technicalSpecification": {
+            "modelId": null,
+            "vehicle": {
+              "brand": "Tesla",
+              "body": "SUV",
+              "modelName": "Model Y Long Range Dual Motor AWD",
+              "familyName": "Model Y"
+            },
+            "year": "2022"
+          }
+        },
+        "conditionClassification": "CERTIFIED",
+        "sellMethod": "BIDDING",
+        "leaseReturnProperties": {},
+        "properties": {
+          "chargingDc": 210,
+          "batterySizeUsable": 72,
+          "familyName": "Model Y",
+          "exportable": true,
+          "heavyEquipment": false,
+          "modelName": "Model Y Long Range Dual Motor AWD",
+          "batterySizeNominal": 75,
+          "body": "SUV",
+          "odometerUnit": "km",
+          "mustExport": false,
+          "odometerReading": 96670,
+          "chargePort": "CCS",
+          "ecoFriendly": true,
+          "batteryType": "NMC",
+          "gearbox": "Automatic",
+          "title": "Tesla Model Y Long Range Dual Motor AWD",
+          "battstatResult": {
+            "sohPercent": 97,
+            "rankingRangeMax": 3,
+            "rankingRangeMin": 1,
+            "ranking": 3
+          },
+          "registrationPlate": "RCK48B",
+          "electricType": "Electric",
+          "modelYear": 2022,
+          "numberOfPreviousOwners": 1,
+          "hasUnpaidLoan": true,
+          "exteriorColor": "Black",
+          "saleLimitedToCorporate": false,
+          "brand": "Tesla",
+          "deductibleVat": true,
+          "fuels": [
+            {
+              "enginePower": 514,
+              "rangeCityWltpDrive": 656,
+              "rangeWltpDrive": 533,
+              "energyConsumptionWltpDrive": 169,
+              "fuelCode": "Electric"
+            }
+          ],
+          "heatPump": "Ja",
+          "heading1": "Tesla Model Y",
+          "heading2": "Model Y Long Range Dual Motor AWD",
+          "heading3": null
+        },
+        "proactiveBrokering": null,
+        "objectType": "CAR",
+        "isReleasable": false,
+        "baseObjectId": "525588",
+        "statisticalValuation": {
+          "bpOrange": 334200,
+          "marketPrice": 334200,
+          "bpGreen": null,
+          "bpWhite": 334200
+        },
+        "initialBuyNowAmount": 334900,
+        "exportable": true,
+        "deductibleVat": true,
+        "collisionWarranty": null,
+        "title": "Tesla Model Y Long Range Dual Motor AWD",
+        "brand": "Tesla",
+        "familyName": "Model Y",
+        "modelName": "Model Y Long Range Dual Motor AWD",
+        "package": null,
+        "heading1": "Tesla Model Y",
+        "heading2": "Model Y Long Range Dual Motor AWD",
+        "heading3": null
+      },
+      "previewImages": [
+        {
+          "processObjectId": "7293599",
+          "uri": "https://kvdbil-images.imgix.net/7293599/5d480223.jpg",
+          "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7293599/5d480223.jpg",
+          "type": "PRESENTATION",
+          "contentType": "image",
+          "order": 1
+        },
+        {
+          "processObjectId": "7293599",
+          "uri": "https://kvdbil-images.imgix.net/7293599/9ed09c94.jpg",
+          "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7293599/9ed09c94.jpg",
+          "type": "PRESENTATION",
+          "contentType": "image",
+          "order": 2
+        }
+      ],
+      "previewImage": "https://kvdbil-images.imgix.net/7293599/5d480223.jpg"
+    }
+  ],
+  "activeAuction": {
+    "auctionId": "310200",
+    "closed": true,
+    "countdownInProgress": true,
+    "preliminaryCloseAt": "2026-11-10T11:23:37.968878+00:00",
+    "createdAt": "2026-11-05T16:07:07.174489+00:00",
+    "updatedAt": "2026-11-10T11:23:37.977907+00:00",
+    "vatExcludedBiddingAllowed": false,
+    "reservationPriceReached": true,
+    "bids": [
+      {
+        "id": 18738972,
+        "auctionId": 310200,
+        "bidderAlias": "11",
+        "amount": 305000,
+        "type": "NORMAL",
+        "maxBidId": 10950022,
+        "triggeredBy": 10950022,
+        "createdAt": "2026-11-10T11:20:07.976182+00:00",
+        "updatedAt": "2026-11-10T11:20:07.976190+00:00"
+      },
+      {
+        "id": 18738937,
+        "auctionId": 310200,
+        "bidderAlias": "12",
+        "amount": 304500,
+        "type": "NORMAL",
+        "maxBidId": 10950001,
+        "triggeredBy": 10950001,
+        "createdAt": "2026-11-10T11:16:42.668233+00:00",
+        "updatedAt": "2026-11-10T11:16:42.668244+00:00"
+      },
+      {
+        "id": 18738899,
+        "auctionId": 310200,
+        "bidderAlias": "11",
+        "amount": 304000,
+        "type": "NORMAL",
+        "maxBidId": 10949980,
+        "triggeredBy": 10949980,
+        "createdAt": "2026-11-10T11:13:46.733453+00:00",
+        "updatedAt": "2026-11-10T11:13:46.733463+00:00"
+      },
+      {
+        "id": 18738018,
+        "auctionId": 310200,
+        "bidderAlias": "12",
+        "amount": 303500,
+        "type": "NORMAL",
+        "maxBidId": 10949457,
+        "triggeredBy": 10949457,
+        "createdAt": "2026-11-10T10:22:34.929206+00:00",
+        "updatedAt": "2026-11-10T10:22:34.929214+00:00"
+      },
+      {
+        "id": 18738005,
+        "auctionId": 310200,
+        "bidderAlias": "11",
+        "amount": 303000,
+        "type": "AUTO",
+        "maxBidId": 10948757,
+        "triggeredBy": 10949449,
+        "createdAt": "2026-11-10T10:21:21.098014+00:00",
+        "updatedAt": "2026-11-10T10:21:21.098015+00:00"
+      },
+      {
+        "id": 18738004,
+        "auctionId": 310200,
+        "bidderAlias": "12",
+        "amount": 302500,
+        "type": "NORMAL",
+        "maxBidId": 10949449,
+        "triggeredBy": 10949449,
+        "createdAt": "2026-11-10T10:21:21.098005+00:00",
+        "updatedAt": "2026-11-10T10:21:21.098011+00:00"
+      },
+      {
+        "id": 18736836,
+        "auctionId": 310200,
+        "bidderAlias": "11",
+        "amount": 302000,
+        "type": "NORMAL",
+        "maxBidId": 10948757,
+        "triggeredBy": 10948757,
+        "createdAt": "2026-11-10T09:20:16.998161+00:00",
+        "updatedAt": "2026-11-10T09:20:16.998171+00:00"
+      },
+      {
+        "id": 18736072,
+        "auctionId": 310200,
+        "bidderAlias": "10",
+        "amount": 301500,
+        "type": "NORMAL",
+        "maxBidId": 10948327,
+        "triggeredBy": 10948327,
+        "createdAt": "2026-11-10T08:34:57.549711+00:00",
+        "updatedAt": "2026-11-10T08:34:57.549713+00:00"
+      },
+      {
+        "id": 18736071,
+        "auctionId": 310200,
+        "bidderAlias": "9",
+        "amount": 301000,
+        "type": "LIMIT_REACHED",
+        "maxBidId": 10946302,
+        "triggeredBy": 10948327,
+        "createdAt": "2026-11-10T08:34:57.549701+00:00",
+        "updatedAt": "2026-11-10T08:34:57.549708+00:00"
+      },
+      {
+        "id": 18732624,
+        "auctionId": 310200,
+        "bidderAlias": "9",
+        "amount": 300500,
+        "type": "NORMAL",
+        "maxBidId": 10946302,
+        "triggeredBy": 10946302,
+        "createdAt": "2026-11-09T15:23:10.930431+00:00",
+        "updatedAt": "2026-11-09T15:23:10.930433+00:00"
+      },
+      {
+        "id": 18732623,
+        "auctionId": 310200,
+        "bidderAlias": "5",
+        "amount": 300000,
+        "type": "LIMIT_REACHED",
+        "maxBidId": 10940392,
+        "triggeredBy": 10946302,
+        "createdAt": "2026-11-09T15:23:10.930423+00:00",
+        "updatedAt": "2026-11-09T15:23:10.930429+00:00"
+      },
+      {
+        "id": 18732622,
+        "auctionId": 310200,
+        "bidderAlias": "5",
+        "amount": 298500,
+        "type": "AUTO",
+        "maxBidId": 10940392,
+        "triggeredBy": 10946301,
+        "createdAt": "2026-11-09T15:23:03.505001+00:00",
+        "updatedAt": "2026-11-09T15:23:03.505003+00:00"
+      },
+      {
+        "id": 18732621,
+        "auctionId": 310200,
+        "bidderAlias": "9",
+        "amount": 298000,
+        "type": "NORMAL",
+        "maxBidId": 10946301,
+        "triggeredBy": 10946301,
+        "createdAt": "2026-11-09T15:23:03.504990+00:00",
+        "updatedAt": "2026-11-09T15:23:03.504997+00:00"
+      },
+      {
+        "id": 18732620,
+        "auctionId": 310200,
+        "bidderAlias": "5",
+        "amount": 295500,
+        "type": "AUTO",
+        "maxBidId": 10940392,
+        "triggeredBy": 10946300,
+        "createdAt": "2026-11-09T15:22:57.376219+00:00",
+        "updatedAt": "2026-11-09T15:22:57.376223+00:00"
+      },
+      {
+        "id": 18732619,
+        "auctionId": 310200,
+        "bidderAlias": "9",
+        "amount": 295000,
+        "type": "NORMAL",
+        "maxBidId": 10946300,
+        "triggeredBy": 10946300,
+        "createdAt": "2026-11-09T15:22:57.376204+00:00",
+        "updatedAt": "2026-11-09T15:22:57.376214+00:00"
+      },
+      {
+        "id": 18732618,
+        "auctionId": 310200,
+        "bidderAlias": "5",
+        "amount": 292000,
+        "type": "AUTO",
+        "maxBidId": 10940392,
+        "triggeredBy": 10946299,
+        "createdAt": "2026-11-09T15:22:52.129564+00:00",
+        "updatedAt": "2026-11-09T15:22:52.129568+00:00"
+      },
+      {
+        "id": 18732617,
+        "auctionId": 310200,
+        "bidderAlias": "9",
+        "amount": 291500,
+        "type": "NORMAL",
+        "maxBidId": 10946299,
+        "triggeredBy": 10946299,
+        "createdAt": "2026-11-09T15:22:52.129552+00:00",
+        "updatedAt": "2026-11-09T15:22:52.129560+00:00"
+      },
+      {
+        "id": 18732616,
+        "auctionId": 310200,
+        "bidderAlias": "5",
+        "amount": 289500,
+        "type": "AUTO",
+        "maxBidId": 10940392,
+        "triggeredBy": 10946298,
+        "createdAt": "2026-11-09T15:22:45.542890+00:00",
+        "updatedAt": "2026-11-09T15:22:45.542891+00:00"
+      },
+      {
+        "id": 18732615,
+        "auctionId": 310200,
+        "bidderAlias": "9",
+        "amount": 289000,
+        "type": "NORMAL",
+        "maxBidId": 10946298,
+        "triggeredBy": 10946298,
+        "createdAt": "2026-11-09T15:22:45.542879+00:00",
+        "updatedAt": "2026-11-09T15:22:45.542886+00:00"
+      },
+      {
+        "id": 18732614,
+        "auctionId": 310200,
+        "bidderAlias": "5",
+        "amount": 287000,
+        "type": "AUTO",
+        "maxBidId": 10940392,
+        "triggeredBy": 10946297,
+        "createdAt": "2026-11-09T15:22:37.147234+00:00",
+        "updatedAt": "2026-11-09T15:22:37.147237+00:00"
+      },
+      {
+        "id": 18732613,
+        "auctionId": 310200,
+        "bidderAlias": "9",
+        "amount": 286500,
+        "type": "NORMAL",
+        "maxBidId": 10946297,
+        "triggeredBy": 10946297,
+        "createdAt": "2026-11-09T15:22:37.147226+00:00",
+        "updatedAt": "2026-11-09T15:22:37.147232+00:00"
+      },
+      {
+        "id": 18732488,
+        "auctionId": 310200,
+        "bidderAlias": "5",
+        "amount": 285000,
+        "type": "AUTO",
+        "maxBidId": 10940392,
+        "triggeredBy": 10946221,
+        "createdAt": "2026-11-09T14:05:51.289409+00:00",
+        "updatedAt": "2026-11-09T14:05:51.289414+00:00"
+      },
+      {
+        "id": 18732487,
+        "auctionId": 310200,
+        "bidderAlias": "8",
+        "amount": 284500,
+        "type": "NORMAL",
+        "maxBidId": 10946221,
+        "triggeredBy": 10946221,
+        "createdAt": "2026-11-09T14:05:51.289388+00:00",
+        "updatedAt": "2026-11-09T14:05:51.289404+00:00"
+      },
+      {
+        "id": 18732486,
+        "auctionId": 310200,
+        "bidderAlias": "5",
+        "amount": 281000,
+        "type": "AUTO",
+        "maxBidId": 10940392,
+        "triggeredBy": 10946220,
+        "createdAt": "2026-11-09T14:05:40.674436+00:00",
+        "updatedAt": "2026-11-09T14:05:40.674440+00:00"
+      },
+      {
+        "id": 18732485,
+        "auctionId": 310200,
+        "bidderAlias": "8",
+        "amount": 280500,
+        "type": "NORMAL",
+        "maxBidId": 10946220,
+        "triggeredBy": 10946220,
+        "createdAt": "2026-11-09T14:05:40.674423+00:00",
+        "updatedAt": "2026-11-09T14:05:40.674431+00:00"
+      },
+      {
+        "id": 18732483,
+        "auctionId": 310200,
+        "bidderAlias": "5",
+        "amount": 278000,
+        "type": "AUTO",
+        "maxBidId": 10940392,
+        "triggeredBy": 10946218,
+        "createdAt": "2026-11-09T14:04:54.590672+00:00",
+        "updatedAt": "2026-11-09T14:04:54.590674+00:00"
+      },
+      {
+        "id": 18732482,
+        "auctionId": 310200,
+        "bidderAlias": "8",
+        "amount": 277500,
+        "type": "NORMAL",
+        "maxBidId": 10946218,
+        "triggeredBy": 10946218,
+        "createdAt": "2026-11-09T14:04:54.590661+00:00",
+        "updatedAt": "2026-11-09T14:04:54.590669+00:00"
+      },
+      {
+        "id": 18732481,
+        "auctionId": 310200,
+        "bidderAlias": "5",
+        "amount": 276500,
+        "type": "AUTO",
+        "maxBidId": 10940392,
+        "triggeredBy": 10946217,
+        "createdAt": "2026-11-09T14:04:44.814071+00:00",
+        "updatedAt": "2026-11-09T14:04:44.814073+00:00"
+      },
+      {
+        "id": 18732480,
+        "auctionId": 310200,
+        "bidderAlias": "8",
+        "amount": 276000,
+        "type": "NORMAL",
+        "maxBidId": 10946217,
+        "triggeredBy": 10946217,
+        "createdAt": "2026-11-09T14:04:44.814061+00:00",
+        "updatedAt": "2026-11-09T14:04:44.814068+00:00"
+      },
+      {
+        "id": 18732479,
+        "auctionId": 310200,
+        "bidderAlias": "5",
+        "amount": 275000,
+        "type": "AUTO",
+        "maxBidId": 10940392,
+        "triggeredBy": 10946216,
+        "createdAt": "2026-11-09T14:04:27.895590+00:00",
+        "updatedAt": "2026-11-09T14:04:27.895594+00:00"
+      },
+      {
+        "id": 18732478,
+        "auctionId": 310200,
+        "bidderAlias": "8",
+        "amount": 274500,
+        "type": "NORMAL",
+        "maxBidId": 10946216,
+        "triggeredBy": 10946216,
+        "createdAt": "2026-11-09T14:04:27.895576+00:00",
+        "updatedAt": "2026-11-09T14:04:27.895584+00:00"
+      },
+      {
+        "id": 18732477,
+        "auctionId": 310200,
+        "bidderAlias": "5",
+        "amount": 271000,
+        "type": "AUTO",
+        "maxBidId": 10940392,
+        "triggeredBy": 10946215,
+        "createdAt": "2026-11-09T14:04:22.096880+00:00",
+        "updatedAt": "2026-11-09T14:04:22.096883+00:00"
+      },
+      {
+        "id": 18732476,
+        "auctionId": 310200,
+        "bidderAlias": "8",
+        "amount": 270500,
+        "type": "NORMAL",
+        "maxBidId": 10946215,
+        "triggeredBy": 10946215,
+        "createdAt": "2026-11-09T14:04:22.096867+00:00",
+        "updatedAt": "2026-11-09T14:04:22.096875+00:00"
+      },
+      {
+        "id": 18724033,
+        "auctionId": 310200,
+        "bidderAlias": "5",
+        "amount": 260500,
+        "type": "AUTO",
+        "maxBidId": 10940392,
+        "triggeredBy": 10941373,
+        "createdAt": "2026-11-07T18:49:15.796357+00:00",
+        "updatedAt": "2026-11-07T18:49:15.796361+00:00"
+      },
+      {
+        "id": 18724032,
+        "auctionId": 310200,
+        "bidderAlias": "7",
+        "amount": 260000,
+        "type": "NORMAL",
+        "maxBidId": 10941373,
+        "triggeredBy": 10941373,
+        "createdAt": "2026-11-07T18:49:15.796341+00:00",
+        "updatedAt": "2026-11-07T18:49:15.796353+00:00"
+      },
+      {
+        "id": 18722723,
+        "auctionId": 310200,
+        "bidderAlias": "5",
+        "amount": 201500,
+        "type": "AUTO",
+        "maxBidId": 10940392,
+        "triggeredBy": 10940617,
+        "createdAt": "2026-11-06T19:56:23.987542+00:00",
+        "updatedAt": "2026-11-06T19:56:23.987544+00:00"
+      },
+      {
+        "id": 18722722,
+        "auctionId": 310200,
+        "bidderAlias": "6",
+        "amount": 201000,
+        "type": "NORMAL",
+        "maxBidId": 10940617,
+        "triggeredBy": 10940617,
+        "createdAt": "2026-11-06T19:56:23.987532+00:00",
+        "updatedAt": "2026-11-06T19:56:23.987539+00:00"
+      },
+      {
+        "id": 18722340,
+        "auctionId": 310200,
+        "bidderAlias": "5",
+        "amount": 200500,
+        "type": "NORMAL",
+        "maxBidId": 10940392,
+        "triggeredBy": 10940392,
+        "createdAt": "2026-11-06T16:52:22.419978+00:00",
+        "updatedAt": "2026-11-06T16:52:22.419981+00:00"
+      },
+      {
+        "id": 18722339,
+        "auctionId": 310200,
+        "bidderAlias": "3",
+        "amount": 200000,
+        "type": "LIMIT_REACHED",
+        "maxBidId": 10938541,
+        "triggeredBy": 10940392,
+        "createdAt": "2026-11-06T16:52:22.419964+00:00",
+        "updatedAt": "2026-11-06T16:52:22.419973+00:00"
+      },
+      {
+        "id": 18722309,
+        "auctionId": 310200,
+        "bidderAlias": "3",
+        "amount": 185500,
+        "type": "AUTO",
+        "maxBidId": 10938541,
+        "triggeredBy": 10940371,
+        "createdAt": "2026-11-06T16:19:19.370469+00:00",
+        "updatedAt": "2026-11-06T16:19:19.370473+00:00"
+      },
+      {
+        "id": 18722308,
+        "auctionId": 310200,
+        "bidderAlias": "4",
+        "amount": 185000,
+        "type": "NORMAL",
+        "maxBidId": 10940371,
+        "triggeredBy": 10940371,
+        "createdAt": "2026-11-06T16:19:19.370458+00:00",
+        "updatedAt": "2026-11-06T16:19:19.370465+00:00"
+      },
+      {
+        "id": 18722307,
+        "auctionId": 310200,
+        "bidderAlias": "3",
+        "amount": 184500,
+        "type": "AUTO",
+        "maxBidId": 10938541,
+        "triggeredBy": 10940370,
+        "createdAt": "2026-11-06T16:18:36.214109+00:00",
+        "updatedAt": "2026-11-06T16:18:36.214111+00:00"
+      },
+      {
+        "id": 18722306,
+        "auctionId": 310200,
+        "bidderAlias": "4",
+        "amount": 184000,
+        "type": "NORMAL",
+        "maxBidId": 10940370,
+        "triggeredBy": 10940370,
+        "createdAt": "2026-11-06T16:18:36.214099+00:00",
+        "updatedAt": "2026-11-06T16:18:36.214106+00:00"
+      },
+      {
+        "id": 18722297,
+        "auctionId": 310200,
+        "bidderAlias": "3",
+        "amount": 183500,
+        "type": "AUTO",
+        "maxBidId": 10938541,
+        "triggeredBy": 10940363,
+        "createdAt": "2026-11-06T16:05:50.462724+00:00",
+        "updatedAt": "2026-11-06T16:05:50.462727+00:00"
+      },
+      {
+        "id": 18722296,
+        "auctionId": 310200,
+        "bidderAlias": "4",
+        "amount": 183000,
+        "type": "NORMAL",
+        "maxBidId": 10940363,
+        "triggeredBy": 10940363,
+        "createdAt": "2026-11-06T16:05:50.462715+00:00",
+        "updatedAt": "2026-11-06T16:05:50.462721+00:00"
+      },
+      {
+        "id": 18722295,
+        "auctionId": 310200,
+        "bidderAlias": "3",
+        "amount": 182500,
+        "type": "AUTO",
+        "maxBidId": 10938541,
+        "triggeredBy": 10940362,
+        "createdAt": "2026-11-06T16:05:07.867882+00:00",
+        "updatedAt": "2026-11-06T16:05:07.867884+00:00"
+      },
+      {
+        "id": 18722294,
+        "auctionId": 310200,
+        "bidderAlias": "4",
+        "amount": 182000,
+        "type": "NORMAL",
+        "maxBidId": 10940362,
+        "triggeredBy": 10940362,
+        "createdAt": "2026-11-06T16:05:07.867872+00:00",
+        "updatedAt": "2026-11-06T16:05:07.867879+00:00"
+      },
+      {
+        "id": 18722292,
+        "auctionId": 310200,
+        "bidderAlias": "3",
+        "amount": 181500,
+        "type": "AUTO",
+        "maxBidId": 10938541,
+        "triggeredBy": 10940360,
+        "createdAt": "2026-11-06T16:03:57.584344+00:00",
+        "updatedAt": "2026-11-06T16:03:57.584346+00:00"
+      },
+      {
+        "id": 18722291,
+        "auctionId": 310200,
+        "bidderAlias": "4",
+        "amount": 181000,
+        "type": "NORMAL",
+        "maxBidId": 10940360,
+        "triggeredBy": 10940360,
+        "createdAt": "2026-11-06T16:03:57.584332+00:00",
+        "updatedAt": "2026-11-06T16:03:57.584341+00:00"
+      },
+      {
+        "id": 18719173,
+        "auctionId": 310200,
+        "bidderAlias": "3",
+        "amount": 180500,
+        "type": "NORMAL",
+        "maxBidId": 10938541,
+        "triggeredBy": 10938541,
+        "createdAt": "2026-11-06T07:16:20.391612+00:00",
+        "updatedAt": "2026-11-06T07:16:20.391615+00:00"
+      },
+      {
+        "id": 18719172,
+        "auctionId": 310200,
+        "bidderAlias": "2",
+        "amount": 180000,
+        "type": "LIMIT_REACHED",
+        "maxBidId": 10937942,
+        "triggeredBy": 10938541,
+        "createdAt": "2026-11-06T07:16:20.391603+00:00",
+        "updatedAt": "2026-11-06T07:16:20.391610+00:00"
+      },
+      {
+        "id": 18718130,
+        "auctionId": 310200,
+        "bidderAlias": "2",
+        "amount": 165500,
+        "type": "NORMAL",
+        "maxBidId": 10937942,
+        "triggeredBy": 10937942,
+        "createdAt": "2026-11-05T19:17:51.632820+00:00",
+        "updatedAt": "2026-11-05T19:17:51.632823+00:00"
+      },
+      {
+        "id": 18718129,
+        "auctionId": 310200,
+        "bidderAlias": "1",
+        "amount": 165000,
+        "type": "LIMIT_REACHED",
+        "maxBidId": 10937818,
+        "triggeredBy": 10937942,
+        "createdAt": "2026-11-05T19:17:51.632807+00:00",
+        "updatedAt": "2026-11-05T19:17:51.632816+00:00"
+      },
+      {
+        "id": 18718126,
+        "auctionId": 310200,
+        "bidderAlias": "1",
+        "amount": 163000,
+        "type": "AUTO",
+        "maxBidId": 10937818,
+        "triggeredBy": 10937939,
+        "createdAt": "2026-11-05T19:17:33.110026+00:00",
+        "updatedAt": "2026-11-05T19:17:33.110030+00:00"
+      },
+      {
+        "id": 18718125,
+        "auctionId": 310200,
+        "bidderAlias": "2",
+        "amount": 162500,
+        "type": "NORMAL",
+        "maxBidId": 10937939,
+        "triggeredBy": 10937939,
+        "createdAt": "2026-11-05T19:17:33.110011+00:00",
+        "updatedAt": "2026-11-05T19:17:33.110021+00:00"
+      },
+      {
+        "id": 18717939,
+        "auctionId": 310200,
+        "bidderAlias": "1",
+        "amount": 162000,
+        "type": "NORMAL",
+        "maxBidId": 10937818,
+        "triggeredBy": 10937818,
+        "createdAt": "2026-11-05T18:44:59.983903+00:00",
+        "updatedAt": "2026-11-05T18:44:59.983912+00:00"
+      }
+    ],
+    "myBidderAlias": null,
+    "myMaxBid": null,
+    "highestBid": {
+      "id": 18738972,
+      "auctionId": 310200,
+      "bidderAlias": null,
+      "amount": 305000,
+      "type": "NORMAL",
+      "maxBidId": 10950022,
+      "triggeredBy": 10950022,
+      "createdAt": "2026-11-10T11:20:07.976182+00:00",
+      "updatedAt": "2026-11-10T11:20:07.976190+00:00",
+      "eurAmount": 27740
+    },
+    "buyNowAvailable": false,
+    "releasing": null,
+    "isHighestBidLowerThanResidualLoanValue": false
+  },
+  "checkoutOrder": null,
+  "previewImage": "https://kvdbil-images.imgix.net/7288841/768ba58f.jpg",
+  "_list_meta": {
+    "id": "310200",
+    "slug": "tesla-model-y-rwd",
+    "auctionType": "BIDDING",
+    "closedAt": "2026-11-10T11:23:37.975597+00:00",
+    "updatedAt": "2026-11-10T11:23:38.224359+00:00"
+  },
+  "_scraped_at": "2026-11-10T12:23:08.809878+00:00",
+  "_url": "https://www.kvd.se/auktioner/tesla-model-y-rwd-310200"
+}
