@@ -1,0 +1,2484 @@
+{
+  "id": "309046",
+  "auctionType": "BIDDING",
+  "biddingFee": "11763.00",
+  "biddingFeeCorporate": "16563.00",
+  "mediationFee": 0,
+  "mediationFeeCorporate": 0,
+  "buyNow": true,
+  "closedAt": "2026-11-10T10:46:45.268236+00:00",
+  "publishedAt": "2026-10-27T10:01:15.478235+00:00",
+  "countdownDuration": 210,
+  "countdownStartAt": "2026-11-10T10:26:30+00:00",
+  "createdAt": "2026-10-26T15:22:13.014485+00:00",
+  "readyForAuctionAt": "2026-10-25",
+  "currency": "SEK",
+  "maxBidRaise": 100000,
+  "minBidRaise": 500,
+  "startBid": 483000,
+  "openedAt": "2026-10-27T10:03:27.105571+00:00",
+  "processObjectId": "7287353",
+  "readyForCheckout": true,
+  "soldFor": 556000,
+  "sellMethod": "BIDDING",
+  "slug": "porsche-cayenne-e-hybrid-462hk",
+  "auctionUrl": "https://www.kvd.se/auktioner/porsche-cayenne-e-hybrid-462hk-309046",
+  "state": "WINNER_CHECKOUT_PENDING",
+  "targetedAuctionGroupId": null,
+  "updatedAt": "2026-11-10T14:08:55.884066+00:00",
+  "releasing": null,
+  "loan": {
+    "loanCost": 4738,
+    "loanCostBuyNow": 5409
+  },
+  "buyNowAmount": 634900,
+  "buyNowAvailable": false,
+  "buyNowUntil": "2026-11-08T10:26:30+00:00",
+  "eligibleForAdditionalServices": true,
+  "comingSoon": false,
+  "preliminaryPrice": 690000,
+  "maxAllowedBid": 1035000,
+  "isReserved": false,
+  "isSoldByBuyNow": false,
+  "favouriteCount": 46,
+  "eurBuyNowAmount": 57740,
+  "winningBid": {
+    "id": "122895",
+    "type": "BIDDER",
+    "state": "ACTIVE",
+    "amount": 556000,
+    "brokerId": "microservice",
+    "auctionId": "309046",
+    "createdAt": "2026-11-10T14:08:55.630603+00:00",
+    "updatedAt": "2026-11-10T14:08:55.856441+00:00",
+    "evaluationType": "BROKERING"
+  },
+  "processObject": {
+    "id": "7287353",
+    "initialBuyNowAmount": 639900,
+    "certified": true,
+    "statisticalValuation": {
+      "bpGreen": null,
+      "bpWhite": 614000,
+      "bpOrange": 614000,
+      "marketPrice": 614000
+    },
+    "conditionClassification": "CERTIFIED",
+    "createdAt": "2026-09-02 08:14:15.174435+00:00",
+    "sellMethod": "BIDDING",
+    "orderableAdditionalServices": {
+      "tradein": false,
+      "transport": true,
+      "insurance": true,
+      "finance": true,
+      "warranty": true,
+      "extraTires": false
+    },
+    "presentationApproved": false,
+    "properties": {
+      "numberOfSeats": 5,
+      "environmentalClassEuro": "6",
+      "deductibleVat": false,
+      "residualLoanValue": 0,
+      "remarksLocalized": {
+        "TIRES": null,
+        "BRAKES": null,
+        "EXTERIOR": null,
+        "INTERIOR": null,
+        "ENGINE_AND_GEARBOX": null,
+        "TECHNOLOGY_AND_EQUIPMENT": "Laddkabel medföljer ej"
+      },
+      "taxFee": 360,
+      "modelYear": 2021,
+      "dateOfInspection": "2026-08-21",
+      "height": 1663,
+      "numberOfKeys": 3,
+      "ecoFriendly": true,
+      "maxPayload": 478,
+      "odometerReading": 70210,
+      "maxPullWeightB": 750,
+      "formattedEquipment": [
+        {
+          "key": "4WD",
+          "title": "4WD",
+          "description": "Konstant eller inkopplingsbar fyrhjulsdrift",
+          "priority": 0
+        },
+        {
+          "key": "ANTISPINN",
+          "title": "Antispinn",
+          "description": "Hjälpsystem som förhindrar att hjulen spinner",
+          "priority": 1
+        },
+        {
+          "key": "AUTOBROMS",
+          "title": "Autobroms",
+          "description": "Automatisk inbromsning vid lägre hastigheter för mötande fordon och hinder framför bilen (City Safety)",
+          "priority": 2
+        },
+        {
+          "key": "BACKKAMERA",
+          "title": "Backkamera",
+          "description": "Kamera som underlättar vid backning",
+          "priority": 3
+        },
+        {
+          "key": "BLUETOOTH",
+          "title": "Bluetooth",
+          "description": "Trådlös uppkoppling mot mobila enheter",
+          "priority": 4
+        },
+        {
+          "key": "ELSPEGLAR",
+          "title": "Elspeglar",
+          "description": "Elektroniskt ställbara sidospeglar",
+          "priority": 5
+        },
+        {
+          "key": "FARTHALLARE",
+          "title": "Farthållare",
+          "description": "Elektroniskt system som håller inprogrammerad hastighet",
+          "priority": 6
+        },
+        {
+          "key": "FJARRLAS",
+          "title": "Fjärrlås",
+          "description": "Möjliggör att du på distans kan låsa och låsa upp bilen",
+          "priority": 7
+        },
+        {
+          "key": "GPS",
+          "title": "GPS",
+          "description": "Navigationssystem med vägbeskrivning",
+          "priority": 8
+        },
+        {
+          "key": "RADIO",
+          "title": "Radio",
+          "description": "Radiospelare",
+          "priority": 9
+        },
+        {
+          "key": "REGNSENSOR",
+          "title": "Regnsensor",
+          "description": "Automatiska vindrutetorkare, sensorer som reagerar på vatten",
+          "priority": 10
+        },
+        {
+          "key": "STOLSVARME_FRAM",
+          "title": "Stolsvärme fram",
+          "description": "Olika nivåer av värme i stolarna fram som ställs in via en knapp",
+          "priority": 11
+        },
+        {
+          "key": "SATESVARME_BAK",
+          "title": "Sätesvärme bak",
+          "description": "Elektroniskt uppvärmt baksäte",
+          "priority": 12
+        },
+        {
+          "key": "ADAPTIV_FARTHALLARE",
+          "title": "Adaptiv farthållare",
+          "description": "Farthållare som hjälper till att hålla ett givet avstånd till framförvarande fordon.",
+          "priority": 13
+        },
+        {
+          "key": "ANTISLADDSYSTEM",
+          "title": "Antisladdsystem",
+          "description": "Ett system som känner av om bilen håller på att sladda. Genom att bromsa enskilda hjul stabiliseras bilen och sladden förhindras, även kallat ESP.",
+          "priority": 14
+        },
+        {
+          "key": "ASSISTANSSYSTEM",
+          "title": "Assistanssystem",
+          "description": "Uppkopplad tjänst för att exempelvis kunna kontrollera din bil på distans med hjälp av en mobilapp. Funktioner som bygger på 2G eller 3G-uppkoppling kan sluta fungera i samband med att dessa nätverk stängs ner av operatörerna.",
+          "priority": 15
+        },
+        {
+          "key": "DODAVINKELVARNARE",
+          "title": "Dödavinkelvarnare",
+          "description": "Elektroniskt säkerhetssystem som signalerar om det finns hinder i dödavinkeln. Kallas även BLIS",
+          "priority": 16
+        },
+        {
+          "key": "ELDRIVEN_BAKLUCKA",
+          "title": "Eldriven baklucka",
+          "description": "Baklucka som öppnas/stängs elektroniskt.",
+          "priority": 17
+        },
+        {
+          "key": "ELHISS_BAK",
+          "title": "Elhiss bak",
+          "description": "Elektroniska fönsterhissar bak",
+          "priority": 18
+        },
+        {
+          "key": "ELHISS_FRAM",
+          "title": "Elhiss fram",
+          "description": "Elektronisk fönsterhiss fram",
+          "priority": 19
+        },
+        {
+          "key": "ELINFALLBARA_SPEGLAR",
+          "title": "Elinfällbara backspeglar",
+          "description": "Speglar som fälls in automatiskt när bilen låses eller manuellt via knapp",
+          "priority": 20
+        },
+        {
+          "key": "ELSTOL_FORARPLATS",
+          "title": "Elstol förarplats",
+          "description": "Elektronisk ställbar förarstol",
+          "priority": 21
+        },
+        {
+          "key": "ELSTOL_MED_MINNESFUNKTION_FORARPLATS",
+          "title": "Elstol med minnesfunktion förarplats",
+          "description": "Elektronisk ställbar förarstol med programmerbara lägen",
+          "priority": 22
+        },
+        {
+          "key": "ELSTOL_MINNESFUNKTION_PASSAGERARPLATS",
+          "title": "Elstol minnesfunktion passagerarplats",
+          "description": null,
+          "priority": 23
+        },
+        {
+          "key": "ELSTOL_PASSAGERARPLATS",
+          "title": "Elstol passagerarplat",
+          "description": "Elektronisk ställbar passagerarstol",
+          "priority": 24
+        },
+        {
+          "key": "FILBYTESVARNARE",
+          "title": "Filbytesvarnare",
+          "description": "Elektroniskt säkerhetssystem som varnar vid oplanerade filbyten",
+          "priority": 25
+        },
+        {
+          "key": "HEAD_UP_DISPLAY",
+          "title": "Head-up display",
+          "description": null,
+          "priority": 26
+        },
+        {
+          "key": "INFALLBAR_DRAGKROK",
+          "title": "Infällbar dragkrok",
+          "description": " Anordning för att dra exempelvis personbilssläp, båttrailer mm. Kan fällas in/ut.",
+          "priority": 27
+        },
+        {
+          "key": "ISOFIX_BAK",
+          "title": "Isofix bak",
+          "description": "  Fästsystem för bilbarnstolar enligt internationell standard, även kallat Isofix",
+          "priority": 28
+        },
+        {
+          "key": "KLIMATANLAGGNING",
+          "title": "Klimatanläggning",
+          "description": "Luftkonditionering med möjlighet till automatisk temperaturinställning",
+          "priority": 29
+        },
+        {
+          "key": "KURVLJUS",
+          "title": "Kurvljus",
+          "description": "Maximerar ljusstyrkan i kurvor och korsningar",
+          "priority": 30
+        },
+        {
+          "key": "LED_STRALKASTARE_PDLS",
+          "title": "LED-strålkastare PDLS",
+          "description": null,
+          "priority": 31
+        },
+        {
+          "key": "LUFTFJADRING_JUSTERBAR",
+          "title": "Luftfjädring (justerbar)",
+          "description": null,
+          "priority": 32
+        },
+        {
+          "key": "NYCKELFRI_UPPLASNING_AV_DORRAR",
+          "title": "Nyckelfri upplåsning av dörrar",
+          "description": null,
+          "priority": 33
+        },
+        {
+          "key": "NYCKELLOST_STARTSYSTEM",
+          "title": "Nyckellöst startsystem",
+          "description": "Startknapp i bilen utan tändningslås. Även kallat Keyless-go",
+          "priority": 34
+        },
+        {
+          "key": "PARKERINGSSENSORER_BAK",
+          "title": "Parkeringssensorer bak",
+          "description": "Sensorer på stötfångare baktill som varnar för hinder bakom bilen",
+          "priority": 35
+        },
+        {
+          "key": "PARKERINGSSENSORER_FRAM",
+          "title": "Parkeringssensorer fram",
+          "description": "Sensorer på stötfångare som varnar för hinder framför bilen",
+          "priority": 36
+        },
+        {
+          "key": "PARKERINGSVARMARE_MED_TIDUR",
+          "title": "Parkeringsvärmare med tidur",
+          "description": null,
+          "priority": 37
+        },
+        {
+          "key": "RATTVARME",
+          "title": "Rattvärme",
+          "description": "Eluppvärmd ratt",
+          "priority": 38
+        },
+        {
+          "key": "RATTVAXEL_PADDLAR",
+          "title": "Rattväxel/paddlar",
+          "description": "Knappar, placerade på ratten, för manuell växling vid automatlåda",
+          "priority": 39
+        },
+        {
+          "key": "SMARTPHONE_INTEGRATION",
+          "title": "Smartphone integration",
+          "description": null,
+          "priority": 40
+        },
+        {
+          "key": "URKOPPLINGSBAR_PASSAGERARAIRBAG",
+          "title": "Urkopplingsbar passagerarairbag",
+          "description": "Möjlighet att koppla till och från airbagen på passagerarsidan",
+          "priority": 41
+        },
+        {
+          "key": "USB_INGANG",
+          "title": "USB-ingång",
+          "description": "Inkoppling av mobil enhet via USB-kontakt",
+          "priority": 42
+        },
+        {
+          "key": "OPPNINGSBART_PANORAMATAK",
+          "title": "Öppningsbart panoramatak",
+          "description": "Glastak som är delvis öppningsbart",
+          "priority": 43
+        },
+        {
+          "key": "BAKAXELSTYRNING",
+          "title": "Bakaxelstyrning",
+          "description": null,
+          "priority": 44
+        },
+        {
+          "key": "PORSCHE_ENTRY_DRIVE",
+          "title": "Porsche Entry & Drive",
+          "description": null,
+          "priority": 45
+        },
+        {
+          "key": "PARKASSIST",
+          "title": "ParkAssist",
+          "description": null,
+          "priority": 46
+        },
+        {
+          "key": "FILBYTESASSISTENT",
+          "title": "Filbytesassistent",
+          "description": null,
+          "priority": 47
+        },
+        {
+          "key": "PDLS_INKL_MATRIX_BEAM",
+          "title": "PDLS+ inkl Matrix Beam",
+          "description": null,
+          "priority": 48
+        },
+        {
+          "key": "SPORT_CHRONO_PACKAGE_PLUS",
+          "title": "Sport Chrono Package Plus",
+          "description": null,
+          "priority": 49
+        },
+        {
+          "key": "SOUND_PACKAGE_1",
+          "title": "Sound Package 1",
+          "description": null,
+          "priority": 50
+        },
+        {
+          "key": "MIRRORLINK_CARPLAY",
+          "title": "Mirrorlink Carplay",
+          "description": null,
+          "priority": 51
+        },
+        {
+          "key": "PREMIUM_RADIO",
+          "title": "Premium radio",
+          "description": null,
+          "priority": 52
+        },
+        {
+          "key": "KOMFORTSATEN_FRAM",
+          "title": "Komfortsäten fram",
+          "description": null,
+          "priority": 53
+        },
+        {
+          "key": "ALUMINIUMPAKET",
+          "title": "Aluminiumpaket",
+          "description": null,
+          "priority": 54
+        },
+        {
+          "key": "SVART",
+          "title": "svart",
+          "description": null,
+          "priority": 55
+        },
+        {
+          "key": "VAGMARKESAVKANNING",
+          "title": "Vägmärkesavkänning",
+          "description": null,
+          "priority": 56
+        }
+      ],
+      "odometerUnit": "km",
+      "adHeader": "Cayenne E-hybrid (462hk) Sport Chrono",
+      "remarks": {
+        "TIRES": [],
+        "BRAKES": [],
+        "TECHNOLOGY_AND_EQUIPMENT": [
+          {
+            "id": "0",
+            "key": "Laddkabel medföljer ej",
+            "category": "TECHNOLOGY_AND_EQUIPMENT"
+          }
+        ],
+        "EXTERIOR": [],
+        "INTERIOR": [],
+        "ENGINE_AND_GEARBOX": []
+      },
+      "brand": "Porsche",
+      "drivingBan": false,
+      "modelName": "Cayenne E-hybrid (462hk)",
+      "maxTrailerWeight": 3500,
+      "totalWeight": 3030,
+      "textile": "Helläder",
+      "saleLimitedToCorporate": false,
+      "gearbox": "Automatic",
+      "manufactureMonth": "202009",
+      "electricType": "Plug-in hybrid",
+      "hasUnpaidLoan": false,
+      "curbWeight": 2552,
+      "grades": {
+        "BRAKES": {
+          "value": 3,
+          "min": 1,
+          "max": 3
+        },
+        "TOTAL": {
+          "value": 3,
+          "min": 1,
+          "max": 5
+        },
+        "TECHNOLOGY_AND_EQUIPMENT": {
+          "value": 3,
+          "min": 1,
+          "max": 3
+        },
+        "EXTERIOR": {
+          "value": 3,
+          "min": 1,
+          "max": 5
+        },
+        "INTERIOR": {
+          "value": 3,
+          "min": 1,
+          "max": 5
+        },
+        "ENGINE_AND_GEARBOX": {
+          "value": 3,
+          "min": 1,
+          "max": 3
+        }
+      },
+      "heavyEquipment": false,
+      "registrationPlate": "ZJZ20E",
+      "equipment": [
+        "4WD",
+        "Antispinn",
+        "Autobroms",
+        "Backkamera",
+        "Bluetooth",
+        "Elspeglar",
+        "Farthållare",
+        "Fjärrlås",
+        "GPS",
+        "Radio",
+        "Regnsensor",
+        "Stolsvärme fram",
+        "Sätesvärme bak",
+        "Adaptiv farthållare",
+        "Antisladdsystem",
+        "Assistanssystem",
+        "Dödavinkelvarnare",
+        "Eldriven baklucka",
+        "Elhiss bak",
+        "Elhiss fram",
+        "Elinfällbara speglar",
+        "Elstol förarplats",
+        "Elstol med minnesfunktion förarplats",
+        "Elstol minnesfunktion passagerarplats",
+        "Elstol passagerarplats",
+        "Filbytesvarnare",
+        "Head-up display",
+        "Infällbar dragkrok",
+        "Isofix bak",
+        "Klimatanläggning",
+        "Kurvljus",
+        "LED-strålkastare PDLS+",
+        "Luftfjädring (justerbar)",
+        "Nyckelfri upplåsning av dörrar",
+        "Nyckellöst startsystem",
+        "Parkeringssensorer bak",
+        "Parkeringssensorer fram",
+        "Parkeringsvärmare med tidur",
+        "Rattvärme",
+        "Rattväxel/paddlar",
+        "Smartphone integration",
+        "Urkopplingsbar passagerarairbag",
+        "USB-ingång",
+        "Öppningsbart panoramatak",
+        "Bakaxelstyrning",
+        "Porsche entry + drive",
+        "Parkassist",
+        "Filbytesassistent",
+        "PDLS+ inkl Matrix Beam",
+        "Sport Chrono Package Plus",
+        "Sound Package 1",
+        "Mirrorlink Carplay",
+        "Premium Radio",
+        "Komfortsäten fram",
+        "Aluminiumpaket",
+        "svart",
+        "Vägmärkesavkänning"
+      ],
+      "importedForPersonalUse": false,
+      "package": "Sport Chrono",
+      "exteriorColor": "Black",
+      "isRepairObject": false,
+      "battstatResult": {
+        "rankingRangeMax": 0,
+        "rankingRangeMin": 0,
+        "sohPercent": null,
+        "ranking": null
+      },
+      "width": 1983,
+      "fuels": [
+        {
+          "fuelCode": "Petrol",
+          "enginePower": 340,
+          "rangeNedcDrive": 56
+        },
+        {
+          "fuelCode": "Electric",
+          "rangeWltpDrive": 44,
+          "enginePower": 136,
+          "rangeCityWltpDrive": 47
+        }
+      ],
+      "registrationCountry": "se",
+      "inspectionPeriod": "2026-08-21 - 2027-10-31",
+      "inspectionValidToDate": "2027-10-31",
+      "finishType": "Metallic",
+      "body": "SUV",
+      "mustExport": false,
+      "towbar": false,
+      "initialTrafficDate": "2020-11-03",
+      "chassisNumber": "WP1ZZZ9YZMDA13137",
+      "numberOfPreviousOwners": 1,
+      "mediation": true,
+      "title": "Porsche Cayenne E-hybrid (462hk)",
+      "taxWeight": 2550,
+      "familyName": "Cayenne",
+      "length": 4918,
+      "exportable": true,
+      "registrationPlateCountry": "se",
+      "heading1": "Porsche Cayenne",
+      "heading2": "E-hybrid",
+      "heading3": "Sport Chrono"
+    },
+    "state": "AUCTION_RESOLUTION",
+    "baseObjectId": "513162",
+    "leaseReturnProperties": {},
+    "isReleasable": false,
+    "offsiteSalesContact": null,
+    "buyNowAmount": 634900,
+    "proactiveBrokering": null,
+    "displayCar360Spin": true,
+    "reducedPrice": true,
+    "objectType": "CAR",
+    "car360Spin": null,
+    "isFixedPrice": false,
+    "baseObject": {
+      "id": "513162",
+      "year": "2021",
+      "earliestAvailableAt": null,
+      "registrationPlate": "ZJZ20E",
+      "baseObjectType": "CAR",
+      "createdAt": "2026-09-01T09:05:35.589887+00:00",
+      "modelId": null,
+      "body": "SUV",
+      "salesFlow": "CONSUMER_CARS",
+      "state": "PREPARING_SALES_AGREEMENT",
+      "brand": "Porsche",
+      "exteriorColor": "Black",
+      "modelName": "Cayenne E-hybrid (462hk)",
+      "authorityRegisterInformation": {
+        "registrationInformation": {
+          "registrationPlate": "ZJZ20E",
+          "deregistrationDate": null,
+          "deregistrationText": null,
+          "deregistrationReason": null
+        },
+        "environmentalClassification": {
+          "fuels": [
+            {
+              "co2": "",
+              "nox": "",
+              "nox4": null,
+              "fuelCode": "Petrol",
+              "hcThcNox": "",
+              "consumption": "",
+              "noiseLevel": 68,
+              "emissionUnit": "g/km",
+              "innovationCo2": null,
+              "particleValue": "",
+              "particleMass4": null,
+              "consumptionUnit": "",
+              "rangeNedcDrive": "56",
+              "rangeWltpDrive": null,
+              "consumptionUrban": "",
+              "rangeCityWltpDrive": null,
+              "consumptionExtraUrban": "",
+              "electricEnergyConsumption": null,
+              "energyConsumptionWltpDrive": null
+            },
+            {
+              "co2": 0,
+              "nox": "",
+              "nox4": null,
+              "fuelCode": "Electric",
+              "hcThcNox": "",
+              "consumption": "",
+              "noiseLevel": "",
+              "emissionUnit": "g/km",
+              "innovationCo2": null,
+              "particleValue": "",
+              "particleMass4": null,
+              "consumptionUnit": "",
+              "rangeNedcDrive": null,
+              "rangeWltpDrive": "44",
+              "consumptionUrban": "",
+              "rangeCityWltpDrive": "47",
+              "consumptionExtraUrban": "",
+              "electricEnergyConsumption": null,
+              "energyConsumptionWltpDrive": null
+            }
+          ],
+          "ecoFriendly": true,
+          "emissionClass": "LADDHYBRID",
+          "innovationCode": null,
+          "environmentalClass": "HYBRID",
+          "environmentalClassEuro": "6"
+        },
+        "generalTechSpecification": {
+          "eeg": "e13*2007/46*0900*08",
+          "fuels": [
+            {
+              "fuelCode": "Petrol",
+              "powerUnit": "EG",
+              "enginePower": 250,
+              "enginePowerHp": 340,
+              "fuelTankVolume": ""
+            },
+            {
+              "fuelCode": "Electric",
+              "powerUnit": "",
+              "enginePower": 100,
+              "enginePowerHp": 136,
+              "fuelTankVolume": ""
+            }
+          ],
+          "width": 1983,
+          "height": 1663,
+          "length": 4918,
+          "gearbox": null,
+          "variant": "EF22",
+          "version": "1205101",
+          "taxWeight": 2550,
+          "curbWeight": 2552,
+          "maxPayload": 478,
+          "totalWeight": 3030,
+          "chassisCode1": null,
+          "chassisCode2": null,
+          "cubicCapacity": "2995",
+          "numPassengers": "4",
+          "numberOfSeats": 5,
+          "fourWheelDrive": true,
+          "maxPullWeightB": 750,
+          "clutchMechanism1": null,
+          "clutchMechanism2": null,
+          "maxTrailerWeight": 3500,
+          "chassisCodeSupplement": null,
+          "maxPullWieghtNoBreaks": null,
+          "maxPullWeightBExtended": null,
+          "maxSingle Axle TrailerWeight": null
+        },
+        "vehicleStatus": {
+          "tax": 360
+        },
+        "vehicleInformation": {
+          "vin": "WP1ZZZ9YZMDA13137",
+          "body": "AC",
+          "type": "CAR",
+          "year": "2020",
+          "model": "CAYENNE E-HYBRID",
+          "rawType": "PB",
+          "modelYear": null,
+          "categoryEu": "e13*2007/46*0900*08",
+          "groupNumber": "PR 092104",
+          "modelNumber": "PR 000000",
+          "chassisNumber": "WP1ZZZ9YZMDA13137",
+          "exteriorColor": "Black",
+          "fabricAndMake": "PORSCHE",
+          "baseObjectType": "CAR",
+          "manufactureCode": null,
+          "manufactureMonth": "202009",
+          "registrationDate": "2020-09-03",
+          "initialTrafficDate": "2020-11-03",
+          "registrationPlateReused": null
+        },
+        "vehicleOrigin": {
+          "originCode": "INFÖRT",
+          "originCodeReason": null,
+          "importerIdentifier": null,
+          "preRegistrationDate": null,
+          "importRegistrationDate": null,
+          "importedForPersonalUse": false,
+          "importedPreviouslyRegistered": false
+        },
+        "vehicleInspectionInformation": {
+          "inspections": [
+            {
+              "inspectionType": "5",
+              "odometerReading": 58568,
+              "dateOfInspection": "2025-08-05"
+            },
+            {
+              "inspectionType": "5",
+              "odometerReading": 37307,
+              "dateOfInspection": "2023-09-08"
+            }
+          ],
+          "inspectionGroup": "36/24/14",
+          "odometerReading": 69394,
+          "inspectionPeriod": "2026-08-21 - 2027-10-31",
+          "dateOfInspection": "2026-08-21",
+          "inspectionValidToDate": "2027-10-31",
+          "inspectionExemptionGroup": null
+        },
+        "additionalTechSpecification": {
+          "raceCar": null,
+          "wheelbase1": 2895,
+          "wheelbase2": null,
+          "wheelbase3": null,
+          "wheelbase4": null,
+          "equipment1": null,
+          "equipment2": null,
+          "equipment3": null,
+          "maximumSpeed": 253,
+          "numAxleShafts": 2,
+          "passengerAirBag": false,
+          "tyreDimensionRear": "315/35ZR21(111Y)XL",
+          "tyreDimensionFront": "285/40ZR21(109Y)XL",
+          "dualSteeringControl": null
+        }
+      },
+      "odometerReading": 69450,
+      "gearbox": null,
+      "fabricAndMake": "PORSCHE",
+      "fuels": [
+        {
+          "fuelCode": "Petrol",
+          "powerUnit": "EG",
+          "enginePower": 250,
+          "enginePowerHp": 340,
+          "fuelTankVolume": ""
+        },
+        {
+          "fuelCode": "Electric",
+          "powerUnit": "",
+          "enginePower": 100,
+          "enginePowerHp": 136,
+          "fuelTankVolume": ""
+        }
+      ],
+      "registrationCountry": "se",
+      "familyName": "Cayenne",
+      "odometerUnit": "km",
+      "technicalSpecification": {
+        "modelId": null,
+        "vehicle": {
+          "brand": "Porsche",
+          "body": "SUV",
+          "modelName": "Cayenne E-hybrid (462hk)",
+          "familyName": "Cayenne"
+        },
+        "year": "2021"
+      }
+    },
+    "testDriveAllowed": true,
+    "vehicleType": "CAR",
+    "exportable": true,
+    "deductibleVat": false,
+    "collisionWarranty": null,
+    "title": "Porsche Cayenne E-hybrid (462hk)",
+    "brand": "Porsche",
+    "familyName": "Cayenne",
+    "modelName": "Cayenne E-hybrid (462hk)",
+    "package": "Sport Chrono",
+    "heading1": "Porsche Cayenne",
+    "heading2": "E-hybrid",
+    "heading3": "Sport Chrono",
+    "media": [
+      {
+        "processObjectId": "7287353",
+        "uri": "https://kvdbil-images.imgix.net/7287353/b98ad5b0.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7287353/b98ad5b0.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 1
+      },
+      {
+        "processObjectId": "7287353",
+        "uri": "https://kvdbil-images.imgix.net/7287353/86954e78.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7287353/86954e78.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 1
+      },
+      {
+        "processObjectId": "7287353",
+        "uri": "https://kvdbil-images.imgix.net/7287353/c8da4269.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7287353/c8da4269.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 2
+      },
+      {
+        "processObjectId": "7287353",
+        "uri": "https://kvdbil-images.imgix.net/7287353/b12e48eb.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7287353/b12e48eb.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 2
+      },
+      {
+        "processObjectId": "7287353",
+        "uri": "https://kvdbil-images.imgix.net/7287353/3f29bb72.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7287353/3f29bb72.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 3
+      },
+      {
+        "processObjectId": "7287353",
+        "uri": "https://kvdbil-images.imgix.net/7287353/0ead250c.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7287353/0ead250c.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 3
+      },
+      {
+        "processObjectId": "7287353",
+        "uri": "https://kvdbil-images.imgix.net/7287353/b2f204df.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7287353/b2f204df.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 4
+      },
+      {
+        "processObjectId": "7287353",
+        "uri": "https://kvdbil-images.imgix.net/7287353/d860cf3a.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7287353/d860cf3a.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 5
+      },
+      {
+        "processObjectId": "7287353",
+        "uri": "https://kvdbil-images.imgix.net/7287353/6df1398b.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7287353/6df1398b.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 5
+      },
+      {
+        "processObjectId": "7287353",
+        "uri": "https://kvdbil-images.imgix.net/7287353/5a9916a6.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7287353/5a9916a6.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 6
+      },
+      {
+        "processObjectId": "7287353",
+        "uri": "https://kvdbil-images.imgix.net/7287353/4bb5b870.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7287353/4bb5b870.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 7
+      },
+      {
+        "processObjectId": "7287353",
+        "uri": "https://kvdbil-images.imgix.net/7287353/079ae564.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7287353/079ae564.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 8
+      },
+      {
+        "processObjectId": "7287353",
+        "uri": "https://kvdbil-images.imgix.net/7287353/b5756417.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7287353/b5756417.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 9
+      },
+      {
+        "processObjectId": "7287353",
+        "uri": "https://kvdbil-images.imgix.net/7287353/860630a9.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7287353/860630a9.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 10
+      },
+      {
+        "processObjectId": "7287353",
+        "uri": "https://kvdbil-images.imgix.net/7287353/e6e73e64.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7287353/e6e73e64.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 11
+      },
+      {
+        "processObjectId": "7287353",
+        "uri": "https://kvdbil-images.imgix.net/7287353/46d43c09.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7287353/46d43c09.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 12
+      },
+      {
+        "processObjectId": "7287353",
+        "uri": "https://kvdbil-images.imgix.net/7287353/d96aacff.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7287353/d96aacff.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 13
+      },
+      {
+        "processObjectId": "7287353",
+        "uri": "https://kvdbil-images.imgix.net/7287353/0aab19a5.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7287353/0aab19a5.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 14
+      },
+      {
+        "processObjectId": "7287353",
+        "uri": "https://kvdbil-images.imgix.net/7287353/565b1e9c.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7287353/565b1e9c.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 15
+      },
+      {
+        "processObjectId": "7287353",
+        "uri": "https://kvdbil-images.imgix.net/7287353/24025de1.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7287353/24025de1.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 16
+      },
+      {
+        "processObjectId": "7287353",
+        "uri": "https://kvdbil-images.imgix.net/7287353/97caaf8e.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7287353/97caaf8e.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 17
+      },
+      {
+        "processObjectId": "7287353",
+        "uri": "https://kvdbil-images.imgix.net/7287353/9e820049.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7287353/9e820049.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 19
+      }
+    ],
+    "locationInfo": {
+      "id": "546856",
+      "processObjectId": "7287353",
+      "locationType": "FACILITY",
+      "createdAt": "2026-09-10T10:58:57.223349+00:00",
+      "updatedAt": "2026-09-10T10:58:57.223354+00:00",
+      "facilityId": "00000005-0005-0005-0005-000000000005",
+      "parkingZone": "A",
+      "parkingNumber": null,
+      "outgoingTime": null,
+      "leftAt": null,
+      "outgoingType": null,
+      "publicFacilityId": "00000005-0005-0005-0005-000000000005",
+      "facility": {
+        "id": "00000005-0005-0005-0005-000000000005",
+        "name": "Svedala",
+        "operator": "KVD",
+        "legacyIdentifiers": [
+          "Malmö",
+          "Svedala"
+        ],
+        "objectTypes": [
+          "CAR",
+          "LIGHT_TRANSPORT"
+        ],
+        "createdAt": "2018-03-04T13:18:23.295898+00:00",
+        "calendarOrganisationalUnitId": "7",
+        "parkingAreas": [
+          {
+            "id": 9,
+            "name": "A1",
+            "createdAt": "2018-03-04T13:18:23.295898+00:00"
+          },
+          {
+            "id": 10,
+            "name": "B1",
+            "createdAt": "2018-03-04T13:18:23.295898+00:00"
+          }
+        ],
+        "active": true,
+        "latitude": 55.5112433,
+        "longitude": 13.251069,
+        "distance": null,
+        "address": "Svetsaregatan 2",
+        "postCode": "23351",
+        "city": "Svedala",
+        "facilityType": "MAXI",
+        "facilityMapUrl": "https://www.google.com/maps/dir/55.5112433,13.251069/@55.5112433,13.251069,z13",
+        "contactPhone": "+46101673045",
+        "contactEmail": "leverans.svedala@kvdbil.se",
+        "allowIncomingTransport": true,
+        "allowLeaseReturns": true,
+        "allowUnplannedDropOffFleetManager": true,
+        "parentFacilityId": null,
+        "publicFacilityId": "00000005-0005-0005-0005-000000000005"
+      }
+    },
+    "valuation": {
+      "id": 238698,
+      "processObjectId": "7287353",
+      "valuatorComment": {
+        "da": "Er din næste bil en Porsche Cayenne med ladhybrid og automatgear, som giver stilfuld, kraftfuld kørsel og afslappende komfort. Det åbne panorama-tag lukker ekstra lys ind, mens ægte læder og firehjulstræk skaber en luksuriøs og tryg fornemmelse bag rattet. Adaptiv fartpilot og bakkamera hjælper dig både i trafik og parkering, og den har haft én ejer siden ny. Synet til oktober 2027. Motoren blev udskiftet under forsikring til en ny motor 2026-09-30 ved 7020 mil.",
+        "de": "Ist Ihr nächstes Auto ein Porsche Cayenne mit Plug-in-Hybrid und Automatik, der leises, kraftvolles Fahren und entspannenden Komfort bietet? Das aufklappbare Panorama-Glasdach lässt zusätzliches Licht herein, während Vollleder und Allradantrieb ein luxuriöses und sicheres Gefühl hinter dem Steuer schaffen. Adaptiver Tempomat und Rückfahrkamera helfen Ihnen im Verkehr und beim Parken. Das Fahrzeug hatte seit neuem einen Besitzer. TÜV gültig bis Oktober 2027. Motor wurde 2026-09-30 bei 7020 Meilen im Rahmen der Versicherung auf einen neuen Motor getauscht.",
+        "en": "Is your next car a Porsche Cayenne with plug-in hybrid and automatic that provides quiet, powerful driving and relaxing comfort. The opening panoramic roof lets in extra light while full leather and 4WD create a luxurious and safe feeling behind the wheel. Adaptive cruise control and rearview camera help you in both traffic and parking, and it has had one owner since new. Inspected until October 2027. Engine was replaced under insurance with a new engine 2026-09-30 at 7020 miles.",
+        "et": "Kas sinu järgmine auto on Porsche Cayenne pistikhübriidiga ja automaatkäigukastiga, mis pakub vaikset, võimsat sõitu ja lõõgastavat mugavust. Avanev panoraamkatus laseb sisse lisavalgust, samal ajal kui täielik nahkistmetega ja nelikvedu loovad luksusliku ja turvalise tunde rooli taga. Kohanemisvõimeline püsikiirusehoidja ja tagurduskaamera aitavad nii liikluses kui parkimisel ning sõidukil on olnud üks omanik alates uuest. Ülevaatus kehtib oktoobrini 2027. Mootor vahetati kindlustuse alusel uue vastu 2026-09-30, läbisõidul 7020 miili.",
+        "fi": "Onko seuraava autosi Porsche Cayenne ladattavalla hybridillä ja automaattivaihteistolla, joka tarjoaa hiljaisen, voimakkaan ajokokemuksen ja rentouttavan mukavuuden. Avattava panoraamakatto päästää sisään ylimääräistä valoa, kun taas täysnahka ja neliveto luovat ylellisen ja turvallisen tunteen ratin takana. Adaptiivinen vakionopeudensäädin ja peruutuskamera auttavat sekä liikenteessä että pysäköinnissä, ja autolla on ollut yksi omistaja uutena. Katsastus voimassa lokakuuhun 2027 asti. Moottori vaihdettiin vakuutuksen kautta uuteen 30.9.2026, ajomittarissa 7020 mailia.",
+        "pl": "Czy Twój następny samochód to Porsche Cayenne z hybrydą plug-in i automatyczną skrzynią biegów, który oferuje cichą, mocną jazdę i relaksujący komfort. Otwierany dach panoramiczny wpuszcza dodatkowe światło, a pełna skóra i napęd 4x4 tworzą luksusowe i bezpieczne wrażenie za kierownicą. Adaptacyjny tempomat i kamera cofania pomagają zarówno w ruchu, jak i podczas parkowania, a pojazd miał jednego właściciela od nowości. Przegląd ważny do października 2027. Silnik został wymieniony na nowy na ubezpieczeniu 2026-09-30 przy 7020 milach.",
+        "sv": "Är din nästa bil en Porsche Cayenne med laddhybrid och automat som ger tyst, kraftfull körning och avkopplande komfort. Öppningsbart panoramatak släpper in extra ljus medan helläder och 4WD skapar en lyxig och trygg känsla bakom ratten. Adaptiv farthållare och backkamera hjälper dig i både trafik och parkering, och den har haft en ägare sedan ny. Besiktigad till oktober 2027. Motor byttes på försäkring till en ny motor 2026-09-30 vid 7020 mil."
+      },
+      "generatedValuatorComment": {
+        "en": "",
+        "sv": "Är din nästa bil en Porsche Cayenne med laddhybrid och automat som ger tyst, kraftfull körning och avkopplande komfort. Öppningsbart panoramatak släpper in extra ljus medan helläder och 4WD skapar en lyxig och trygg känsla bakom ratten. Adaptiv farthållare och backkamera hjälper dig i både trafik och parkering, och den har haft en ägare sedan ny. Besiktigad till oktober 2027."
+      },
+      "carDealerPrice": 690000,
+      "endUserTestProtocol": {
+        "tires": {
+          "extraTires": {
+            "other": {
+              "rimSize": "19",
+              "rimType": "Alu.fälg",
+              "tireType": "Odubbade vinterdäck",
+              "otherInfo": "Behövs ej",
+              "tireTypeKey": "UNSTUDDED_WINTER_TIRES"
+            },
+            "grades": {
+              "rearLeft": 2,
+              "frontLeft": 3,
+              "rearRight": 2,
+              "frontRight": 2
+            },
+            "treadDepths": {
+              "rearLeft": 4,
+              "frontLeft": 6,
+              "rearRight": 4,
+              "frontRight": 5
+            }
+          },
+          "mountedTires": {
+            "other": {
+              "rimSize": "21",
+              "rimType": "Alu.fälg",
+              "tireType": "Sommardäck",
+              "otherInfo": "Behövs ej",
+              "tireTypeKey": "SUMMER_TIRES"
+            },
+            "grades": {
+              "rearLeft": 3,
+              "frontLeft": 2,
+              "rearRight": 2,
+              "frontRight": 3
+            },
+            "treadDepths": {
+              "rearLeft": 5,
+              "frontLeft": 3,
+              "rearRight": 4,
+              "frontRight": 5
+            }
+          }
+        },
+        "grades": {
+          "TOTAL": {
+            "max": 5,
+            "min": 1,
+            "value": 3
+          },
+          "BRAKES": {
+            "max": 3,
+            "min": 1,
+            "value": 3
+          },
+          "EXTERIOR": {
+            "max": 5,
+            "min": 1,
+            "value": 3
+          },
+          "INTERIOR": {
+            "max": 5,
+            "min": 1,
+            "value": 3
+          },
+          "ENGINE_AND_GEARBOX": {
+            "max": 3,
+            "min": 1,
+            "value": 3
+          },
+          "TECHNOLOGY_AND_EQUIPMENT": {
+            "max": 3,
+            "min": 1,
+            "value": 3
+          }
+        },
+        "towbar": false,
+        "remarks": {
+          "BRAKES": [],
+          "EXTERIOR": [],
+          "INTERIOR": [],
+          "ENGINE_AND_GEARBOX": [],
+          "TECHNOLOGY_AND_EQUIPMENT": [
+            {
+              "id": "72873534",
+              "key": "Laddkabel medföljer ej.",
+              "other": null,
+              "point": 0,
+              "category": "TECHNOLOGY_AND_EQUIPMENT",
+              "text": "Laddkabel medföljer ej."
+            }
+          ]
+        },
+        "textile": "Helläder",
+        "boatType": null,
+        "equipment": [
+          "Backkamera",
+          "GPS",
+          "Luftfjädring (justerbar)",
+          "Öppningsbart panoramatak",
+          "4WD",
+          "Adaptiv farthållare",
+          "Assistanssystem",
+          "Head-up display",
+          "Infällbar dragkrok",
+          "Nyckellöst startsystem",
+          "Autobroms",
+          "Bluetooth",
+          "Farthållare",
+          "Dödavinkelvarnare",
+          "Eldriven baklucka",
+          "Elstol förarplats",
+          "Elstol med minnesfunktion förarplats",
+          "Elstol minnesfunktion passagerarplats",
+          "Elstol passagerarplats",
+          "Filbytesvarnare",
+          "Klimatanläggning",
+          "Rattvärme",
+          "USB-ingång",
+          "Antispinn",
+          "Elspeglar",
+          "Fjärrlås",
+          "Radio",
+          "Regnsensor",
+          "Stolsvärme fram",
+          "Sätesvärme bak",
+          "Antisladdsystem",
+          "Elhiss bak",
+          "Elhiss fram",
+          "Elinfällbara speglar",
+          "Isofix bak",
+          "Kurvljus",
+          "LED-strålkastare PDLS+",
+          "Nyckelfri upplåsning av dörrar",
+          "Parkeringssensorer bak",
+          "Parkeringssensorer fram",
+          "Parkeringsvärmare med tidur",
+          "Rattväxel/paddlar",
+          "Smartphone integration",
+          "Urkopplingsbar passagerarairbag",
+          "Bakaxelstyrning",
+          "Porsche entry + drive",
+          "Parkassist",
+          "Filbytesassistent",
+          "PDLS+ inkl Matrix Beam",
+          "Sport Chrono Package Plus",
+          "Sound Package 1",
+          "Mirrorlink Carplay",
+          "Premium Radio",
+          "Komfortsäten fram",
+          "Aluminiumpaket",
+          "svart",
+          "Vägmärkesavkänning"
+        ],
+        "boatWidth": null,
+        "createdAt": "2026-10-26T16:20:59",
+        "boatEngine": null,
+        "boatLength": null,
+        "boatWeight": null,
+        "finishType": "Metallic",
+        "protocolId": "261127",
+        "stoveFlames": null,
+        "heatingSystem": null,
+        "numberOfKeys": 3,
+        "boatCeBranded": false,
+        "boatGearModel": null,
+        "numberOfBunks": null,
+        "numberOfSeats": 5,
+        "boatEngineFuel": null,
+        "boatSepticTank": false,
+        "isRepairObject": false,
+        "boatEnginePower": null,
+        "serviceBookType": "EXISTS",
+        "boatExteriorColor": null,
+        "serviceBookStatus": "Service utförd vid följande mil: 2259, 4619, 6827 mil, senast 2026-06-12",
+        "serviceBookStatusI18N": {
+          "da": "Service udført ved følgende km: 22590, 46190, 68270 km, senest 2026-06-12",
+          "de": "Service durchgeführt bei folgenden km: 22590, 46190, 68270 km, zuletzt 2026-06-12",
+          "en": "Service performed at the following km: 22590, 46190, 68270 km, last 2026-06-12",
+          "et": "Hooldus tehtud järgmistel km: 22590, 46190, 68270 km, viimane 2026-06-12",
+          "fi": "Huolto tehty seuraavilla km: 22590, 46190, 68270 km, viimeinen 2026-06-12",
+          "pl": "Przegląd wykonany przy następujących km: 22590, 46190, 68270 km, ostatni 2026-06-12",
+          "sv": "Service utförd vid följande mil: 2259, 4619, 6827 mil, senast 2026-06-12"
+        },
+        "boatEngineSerialNumber": null,
+        "odometerReadingAfterTest": {
+          "unit": "Mil",
+          "value": 7021
+        },
+        "odometerReadingAfterTestInKm": 70210
+      },
+      "auctionPriceValuation": {
+        "currency": "SEK"
+      },
+      "finalised": true,
+      "includedImageIds": null,
+      "createdAt": "2026-10-26T15:22:13.051364+00:00",
+      "updatedAt": "2026-11-09T09:01:21.710168+00:00",
+      "generatingInProgress": false,
+      "valuatorCommentLocalized": "Är din nästa bil en Porsche Cayenne med laddhybrid och automat som ger tyst, kraftfull körning och avkopplande komfort. Öppningsbart panoramatak släpper in extra ljus medan helläder och 4WD skapar en lyxig och trygg känsla bakom ratten. Adaptiv farthållare och backkamera hjälper dig i både trafik och parkering, och den har haft en ägare sedan ny. Besiktigad till oktober 2027. Motor byttes på försäkring till en ny motor 2026-09-30 vid 7020 mil."
+    },
+    "facts": {
+      "default": [
+        {
+          "key": "NUMBER_OF_PREVIOUS_OWNERS",
+          "text": "Antal tidigare ägare",
+          "value": 1,
+          "type": "string"
+        },
+        {
+          "key": "REGISTRATION_PLATE",
+          "text": "Registreringsnummer",
+          "value": "ZJZ20E",
+          "type": "string"
+        },
+        {
+          "key": "MODEL_YEAR",
+          "text": "Modellår",
+          "value": 2021,
+          "type": "string"
+        },
+        {
+          "key": "MANUFACTURE_MONTH",
+          "text": "Tillverkningsmånad",
+          "value": "202009",
+          "type": "manufacture_month"
+        },
+        {
+          "key": "ODOMETER_READING",
+          "text": "Mätarställning",
+          "value": 70210,
+          "type": "distance"
+        },
+        {
+          "key": "INITIAL_TRAFFIC_DATE",
+          "text": "Första datum i trafik i Sverige",
+          "value": "2020-11-03",
+          "type": "date"
+        },
+        {
+          "key": "SERVICE_BOOK",
+          "text": "Servicehistorik",
+          "value": "Service utförd vid följande mil: 2259, 4619, 6827 mil, senast 2026-06-12",
+          "type": "string"
+        },
+        {
+          "key": "SERVICE_BOOK_TYPE",
+          "text": "Servicebok",
+          "value": "Ja",
+          "type": "string"
+        },
+        {
+          "key": "GEARBOX",
+          "text": "Växellåda",
+          "value": "Automat",
+          "type": "string"
+        },
+        {
+          "key": "NUMBER_OF_SEATS",
+          "text": "Antal säten",
+          "value": 5,
+          "type": "string"
+        },
+        {
+          "key": "NUMBER_OF_KEYS",
+          "text": "Antal nycklar",
+          "value": 3,
+          "type": "string"
+        },
+        {
+          "key": "EXTERIOR_COLOR",
+          "text": "Färg",
+          "value": "Svart",
+          "type": "string"
+        },
+        {
+          "key": "FINISH_TYPE",
+          "text": "Lack",
+          "value": "Metallic",
+          "type": "string"
+        },
+        {
+          "key": "TEXTILE",
+          "text": "Klädsel",
+          "value": "Helläder",
+          "type": "string"
+        },
+        {
+          "key": "MANUFACTURER_WARRANTY",
+          "text": "Nybilsgaranti",
+          "value": "Inte undersökt",
+          "type": "string"
+        },
+        {
+          "key": "COLLISION_WARRANTY",
+          "text": "Vagnskadegaranti",
+          "value": "Inte undersökt",
+          "type": "string"
+        },
+        {
+          "key": "TAX_FEE",
+          "text": "Skatt årsavgift",
+          "value": "360 SEK",
+          "type": "string"
+        }
+      ],
+      "additional": [
+        {
+          "key": "CHASSIS_NUMBER",
+          "text": "Chassinummer",
+          "value": "WP1ZZZ9YZMDA13137",
+          "type": "string"
+        },
+        {
+          "key": "ENGINE_EFFECT_PETROL",
+          "text": "Motoreffekt (bensin)",
+          "value": 340,
+          "type": "engine_power"
+        },
+        {
+          "key": "ENGINE_EFFECT_ELECTRIC",
+          "text": "Motoreffekt (el)",
+          "value": 136,
+          "type": "engine_power"
+        },
+        {
+          "key": "TOWBAR",
+          "text": "Dragkrok",
+          "value": "Nej",
+          "type": "string"
+        },
+        {
+          "key": "MAX_PAYLOAD",
+          "text": "Maxlastvikt",
+          "value": 478,
+          "type": "weight"
+        },
+        {
+          "key": "RANGE_NEDC_DRIVE_PETROL",
+          "text": "Räckvidd NEDC",
+          "value": 56,
+          "type": "distance"
+        },
+        {
+          "key": "RANGE_WLTP_DRIVE_ELECTRIC",
+          "text": "Räckvidd WLTP",
+          "value": 44,
+          "type": "distance"
+        },
+        {
+          "key": "RANGE_CITY_WLTP_DRIVE_ELECTRIC",
+          "text": "Räckvidd stad WLTP",
+          "value": 47,
+          "type": "distance"
+        },
+        {
+          "key": "INSPECTION_VALID_TO_DATE",
+          "text": "Nästa besiktning senast",
+          "value": "2027-10-31",
+          "type": "string"
+        },
+        {
+          "key": "CURB_WEIGHT",
+          "text": "Tjänstevikt",
+          "value": 2552,
+          "type": "weight"
+        },
+        {
+          "key": "TAX_WEIGHT",
+          "text": "Skattevikt",
+          "value": 2550,
+          "type": "weight"
+        },
+        {
+          "key": "MAX_TRAILER_WEIGHT",
+          "text": "Maximal släpvagnsvikt",
+          "value": 3500,
+          "type": "weight"
+        },
+        {
+          "key": "TOTAL_WEIGHT",
+          "text": "Fordonets totalvikt",
+          "value": 3030,
+          "type": "weight"
+        },
+        {
+          "key": "LENGTH",
+          "text": "Längd",
+          "value": 4918,
+          "type": "length"
+        },
+        {
+          "key": "WIDTH",
+          "text": "Bredd",
+          "value": 1983,
+          "type": "length"
+        },
+        {
+          "key": "HEIGHT",
+          "text": "Höjd",
+          "value": 1663,
+          "type": "length"
+        }
+      ],
+      "other": [
+        {
+          "key": "SOLD_IN_SWEDEN",
+          "text": "Svensksåld",
+          "value": "Ja",
+          "type": "string"
+        },
+        {
+          "key": "EXPORTABLE",
+          "text": "Kan exporteras",
+          "value": "Ja",
+          "type": "string"
+        },
+        {
+          "key": "DEDUCTIBLE_VAT",
+          "text": "Avlyftbar moms",
+          "value": "Nej",
+          "type": "string"
+        }
+      ]
+    },
+    "majorFeature": [
+      {
+        "key": "RANGE_WLTP_DRIVE_ELECTRIC",
+        "title": "Räckvidd WLTP",
+        "value": 44,
+        "equipment": null
+      },
+      {
+        "key": "ENGINE_EFFECT_PETROL",
+        "title": "Motoreffekt (bensin)",
+        "value": 340,
+        "equipment": null
+      },
+      {
+        "key": "OPPNINGSBART_PANORAMATAK",
+        "title": "Öppningsbart panoramatak",
+        "value": null,
+        "equipment": "Utrustning",
+        "description": "Glastak som är delvis öppningsbart"
+      },
+      {
+        "key": "4WD",
+        "title": "4WD",
+        "value": null,
+        "equipment": "Utrustning",
+        "description": "Konstant eller inkopplingsbar fyrhjulsdrift"
+      }
+    ],
+    "batteryTestCertificateAvailable": false
+  },
+  "previewImages": [
+    {
+      "processObjectId": "7287353",
+      "uri": "https://kvdbil-images.imgix.net/7287353/b98ad5b0.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7287353/b98ad5b0.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 1
+    },
+    {
+      "processObjectId": "7287353",
+      "uri": "https://kvdbil-images.imgix.net/7287353/86954e78.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7287353/86954e78.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 1
+    },
+    {
+      "processObjectId": "7287353",
+      "uri": "https://kvdbil-images.imgix.net/7287353/c8da4269.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7287353/c8da4269.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 2
+    },
+    {
+      "processObjectId": "7287353",
+      "uri": "https://kvdbil-images.imgix.net/7287353/b12e48eb.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7287353/b12e48eb.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 2
+    },
+    {
+      "processObjectId": "7287353",
+      "uri": "https://kvdbil-images.imgix.net/7287353/3f29bb72.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7287353/3f29bb72.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 3
+    },
+    {
+      "processObjectId": "7287353",
+      "uri": "https://kvdbil-images.imgix.net/7287353/0ead250c.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7287353/0ead250c.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 3
+    },
+    {
+      "processObjectId": "7287353",
+      "uri": "https://kvdbil-images.imgix.net/7287353/b2f204df.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7287353/b2f204df.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 4
+    },
+    {
+      "processObjectId": "7287353",
+      "uri": "https://kvdbil-images.imgix.net/7287353/d860cf3a.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7287353/d860cf3a.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 5
+    },
+    {
+      "processObjectId": "7287353",
+      "uri": "https://kvdbil-images.imgix.net/7287353/6df1398b.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7287353/6df1398b.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 5
+    },
+    {
+      "processObjectId": "7287353",
+      "uri": "https://kvdbil-images.imgix.net/7287353/5a9916a6.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7287353/5a9916a6.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 6
+    },
+    {
+      "processObjectId": "7287353",
+      "uri": "https://kvdbil-images.imgix.net/7287353/4bb5b870.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7287353/4bb5b870.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 7
+    },
+    {
+      "processObjectId": "7287353",
+      "uri": "https://kvdbil-images.imgix.net/7287353/079ae564.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7287353/079ae564.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 8
+    },
+    {
+      "processObjectId": "7287353",
+      "uri": "https://kvdbil-images.imgix.net/7287353/b5756417.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7287353/b5756417.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 9
+    },
+    {
+      "processObjectId": "7287353",
+      "uri": "https://kvdbil-images.imgix.net/7287353/860630a9.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7287353/860630a9.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 10
+    },
+    {
+      "processObjectId": "7287353",
+      "uri": "https://kvdbil-images.imgix.net/7287353/e6e73e64.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7287353/e6e73e64.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 11
+    },
+    {
+      "processObjectId": "7287353",
+      "uri": "https://kvdbil-images.imgix.net/7287353/46d43c09.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7287353/46d43c09.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 12
+    },
+    {
+      "processObjectId": "7287353",
+      "uri": "https://kvdbil-images.imgix.net/7287353/d96aacff.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7287353/d96aacff.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 13
+    },
+    {
+      "processObjectId": "7287353",
+      "uri": "https://kvdbil-images.imgix.net/7287353/0aab19a5.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7287353/0aab19a5.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 14
+    },
+    {
+      "processObjectId": "7287353",
+      "uri": "https://kvdbil-images.imgix.net/7287353/565b1e9c.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7287353/565b1e9c.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 15
+    },
+    {
+      "processObjectId": "7287353",
+      "uri": "https://kvdbil-images.imgix.net/7287353/24025de1.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7287353/24025de1.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 16
+    },
+    {
+      "processObjectId": "7287353",
+      "uri": "https://kvdbil-images.imgix.net/7287353/97caaf8e.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7287353/97caaf8e.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 17
+    },
+    {
+      "processObjectId": "7287353",
+      "uri": "https://kvdbil-images.imgix.net/7287353/9e820049.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7287353/9e820049.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 19
+    }
+  ],
+  "similarAuctions": [],
+  "activeAuction": {
+    "auctionId": "309046",
+    "closed": true,
+    "countdownInProgress": true,
+    "preliminaryCloseAt": "2026-11-10T10:46:45.262703+00:00",
+    "createdAt": "2026-10-27T10:03:27.108082+00:00",
+    "updatedAt": "2026-11-10T10:46:45.274198+00:00",
+    "vatExcludedBiddingAllowed": false,
+    "reservationPriceReached": false,
+    "bids": [
+      {
+        "id": 18738418,
+        "auctionId": 309046,
+        "bidderAlias": "7",
+        "amount": 556000,
+        "type": "NORMAL",
+        "maxBidId": 10949702,
+        "triggeredBy": 10949702,
+        "createdAt": "2026-11-10T10:43:15.270520+00:00",
+        "updatedAt": "2026-11-10T10:43:15.270529+00:00"
+      },
+      {
+        "id": 18738388,
+        "auctionId": 309046,
+        "bidderAlias": "6",
+        "amount": 555500,
+        "type": "NORMAL",
+        "maxBidId": 10949683,
+        "triggeredBy": 10949683,
+        "createdAt": "2026-11-10T10:40:55.177030+00:00",
+        "updatedAt": "2026-11-10T10:40:55.177040+00:00"
+      },
+      {
+        "id": 18738336,
+        "auctionId": 309046,
+        "bidderAlias": "7",
+        "amount": 555000,
+        "type": "AUTO",
+        "maxBidId": 10949641,
+        "triggeredBy": 10949653,
+        "createdAt": "2026-11-10T10:37:27.979551+00:00",
+        "updatedAt": "2026-11-10T10:37:27.979553+00:00"
+      },
+      {
+        "id": 18738335,
+        "auctionId": 309046,
+        "bidderAlias": "6",
+        "amount": 554500,
+        "type": "NORMAL",
+        "maxBidId": 10949653,
+        "triggeredBy": 10949653,
+        "createdAt": "2026-11-10T10:37:27.979543+00:00",
+        "updatedAt": "2026-11-10T10:37:27.979548+00:00"
+      },
+      {
+        "id": 18738323,
+        "auctionId": 309046,
+        "bidderAlias": "7",
+        "amount": 552000,
+        "type": "AUTO",
+        "maxBidId": 10949641,
+        "triggeredBy": 10949646,
+        "createdAt": "2026-11-10T10:37:04.735374+00:00",
+        "updatedAt": "2026-11-10T10:37:04.735376+00:00"
+      },
+      {
+        "id": 18738322,
+        "auctionId": 309046,
+        "bidderAlias": "6",
+        "amount": 551500,
+        "type": "NORMAL",
+        "maxBidId": 10949646,
+        "triggeredBy": 10949646,
+        "createdAt": "2026-11-10T10:37:04.735366+00:00",
+        "updatedAt": "2026-11-10T10:37:04.735371+00:00"
+      },
+      {
+        "id": 18738314,
+        "auctionId": 309046,
+        "bidderAlias": "7",
+        "amount": 551000,
+        "type": "NORMAL",
+        "maxBidId": 10949641,
+        "triggeredBy": 10949641,
+        "createdAt": "2026-11-10T10:36:35.709568+00:00",
+        "updatedAt": "2026-11-10T10:36:35.709574+00:00"
+      },
+      {
+        "id": 18738304,
+        "auctionId": 309046,
+        "bidderAlias": "6",
+        "amount": 550500,
+        "type": "NORMAL",
+        "maxBidId": 10949635,
+        "triggeredBy": 10949635,
+        "createdAt": "2026-11-10T10:36:20.604274+00:00",
+        "updatedAt": "2026-11-10T10:36:20.604279+00:00"
+      },
+      {
+        "id": 18738303,
+        "auctionId": 309046,
+        "bidderAlias": "7",
+        "amount": 550000,
+        "type": "LIMIT_REACHED",
+        "maxBidId": 10949631,
+        "triggeredBy": 10949635,
+        "createdAt": "2026-11-10T10:36:20.604261+00:00",
+        "updatedAt": "2026-11-10T10:36:20.604269+00:00"
+      },
+      {
+        "id": 18738297,
+        "auctionId": 309046,
+        "bidderAlias": "7",
+        "amount": 549000,
+        "type": "NORMAL",
+        "maxBidId": 10949631,
+        "triggeredBy": 10949631,
+        "createdAt": "2026-11-10T10:35:52.668865+00:00",
+        "updatedAt": "2026-11-10T10:35:52.668875+00:00"
+      },
+      {
+        "id": 18738293,
+        "auctionId": 309046,
+        "bidderAlias": "6",
+        "amount": 548500,
+        "type": "NORMAL",
+        "maxBidId": 10949628,
+        "triggeredBy": 10949628,
+        "createdAt": "2026-11-10T10:35:40.088771+00:00",
+        "updatedAt": "2026-11-10T10:35:40.088774+00:00"
+      },
+      {
+        "id": 18738292,
+        "auctionId": 309046,
+        "bidderAlias": "7",
+        "amount": 548000,
+        "type": "LIMIT_REACHED",
+        "maxBidId": 10949627,
+        "triggeredBy": 10949628,
+        "createdAt": "2026-11-10T10:35:40.088763+00:00",
+        "updatedAt": "2026-11-10T10:35:40.088768+00:00"
+      },
+      {
+        "id": 18738291,
+        "auctionId": 309046,
+        "bidderAlias": "7",
+        "amount": 546500,
+        "type": "NORMAL",
+        "maxBidId": 10949627,
+        "triggeredBy": 10949627,
+        "createdAt": "2026-11-10T10:35:36.931269+00:00",
+        "updatedAt": "2026-11-10T10:35:36.931271+00:00"
+      },
+      {
+        "id": 18738290,
+        "auctionId": 309046,
+        "bidderAlias": "6",
+        "amount": 546000,
+        "type": "LIMIT_REACHED",
+        "maxBidId": 10949597,
+        "triggeredBy": 10949627,
+        "createdAt": "2026-11-10T10:35:36.931260+00:00",
+        "updatedAt": "2026-11-10T10:35:36.931266+00:00"
+      },
+      {
+        "id": 18738286,
+        "auctionId": 309046,
+        "bidderAlias": "6",
+        "amount": 545500,
+        "type": "AUTO",
+        "maxBidId": 10949597,
+        "triggeredBy": 10949623,
+        "createdAt": "2026-11-10T10:35:26.822005+00:00",
+        "updatedAt": "2026-11-10T10:35:26.822007+00:00"
+      },
+      {
+        "id": 18738285,
+        "auctionId": 309046,
+        "bidderAlias": "7",
+        "amount": 545000,
+        "type": "NORMAL",
+        "maxBidId": 10949623,
+        "triggeredBy": 10949623,
+        "createdAt": "2026-11-10T10:35:26.821997+00:00",
+        "updatedAt": "2026-11-10T10:35:26.822003+00:00"
+      },
+      {
+        "id": 18738278,
+        "auctionId": 309046,
+        "bidderAlias": "6",
+        "amount": 543500,
+        "type": "AUTO",
+        "maxBidId": 10949597,
+        "triggeredBy": 10949618,
+        "createdAt": "2026-11-10T10:34:55.395000+00:00",
+        "updatedAt": "2026-11-10T10:34:55.395003+00:00"
+      },
+      {
+        "id": 18738277,
+        "auctionId": 309046,
+        "bidderAlias": "7",
+        "amount": 543000,
+        "type": "NORMAL",
+        "maxBidId": 10949618,
+        "triggeredBy": 10949618,
+        "createdAt": "2026-11-10T10:34:55.394991+00:00",
+        "updatedAt": "2026-11-10T10:34:55.394997+00:00"
+      },
+      {
+        "id": 18738241,
+        "auctionId": 309046,
+        "bidderAlias": "6",
+        "amount": 542500,
+        "type": "NORMAL",
+        "maxBidId": 10949597,
+        "triggeredBy": 10949597,
+        "createdAt": "2026-11-10T10:33:11.262478+00:00",
+        "updatedAt": "2026-11-10T10:33:11.262491+00:00"
+      },
+      {
+        "id": 18738226,
+        "auctionId": 309046,
+        "bidderAlias": "7",
+        "amount": 542000,
+        "type": "NORMAL",
+        "maxBidId": 10949587,
+        "triggeredBy": 10949587,
+        "createdAt": "2026-11-10T10:32:37.129170+00:00",
+        "updatedAt": "2026-11-10T10:32:37.129178+00:00"
+      },
+      {
+        "id": 18738169,
+        "auctionId": 309046,
+        "bidderAlias": "6",
+        "amount": 541500,
+        "type": "AUTO",
+        "maxBidId": 10949541,
+        "triggeredBy": 10949553,
+        "createdAt": "2026-11-10T10:30:00.784768+00:00",
+        "updatedAt": "2026-11-10T10:30:00.784771+00:00"
+      },
+      {
+        "id": 18738168,
+        "auctionId": 309046,
+        "bidderAlias": "5",
+        "amount": 541000,
+        "type": "NORMAL",
+        "maxBidId": 10949553,
+        "triggeredBy": 10949553,
+        "createdAt": "2026-11-10T10:30:00.784757+00:00",
+        "updatedAt": "2026-11-10T10:30:00.784764+00:00"
+      },
+      {
+        "id": 18738150,
+        "auctionId": 309046,
+        "bidderAlias": "6",
+        "amount": 540500,
+        "type": "NORMAL",
+        "maxBidId": 10949541,
+        "triggeredBy": 10949541,
+        "createdAt": "2026-11-10T10:29:30.650122+00:00",
+        "updatedAt": "2026-11-10T10:29:30.650124+00:00"
+      },
+      {
+        "id": 18738149,
+        "auctionId": 309046,
+        "bidderAlias": "5",
+        "amount": 540000,
+        "type": "LIMIT_REACHED",
+        "maxBidId": 10949528,
+        "triggeredBy": 10949541,
+        "createdAt": "2026-11-10T10:29:30.650113+00:00",
+        "updatedAt": "2026-11-10T10:29:30.650119+00:00"
+      },
+      {
+        "id": 18738134,
+        "auctionId": 309046,
+        "bidderAlias": "5",
+        "amount": 538500,
+        "type": "AUTO",
+        "maxBidId": 10949528,
+        "triggeredBy": 10949532,
+        "createdAt": "2026-11-10T10:29:04.120583+00:00",
+        "updatedAt": "2026-11-10T10:29:04.120586+00:00"
+      },
+      {
+        "id": 18738133,
+        "auctionId": 309046,
+        "bidderAlias": "6",
+        "amount": 538000,
+        "type": "NORMAL",
+        "maxBidId": 10949532,
+        "triggeredBy": 10949532,
+        "createdAt": "2026-11-10T10:29:04.120566+00:00",
+        "updatedAt": "2026-11-10T10:29:04.120578+00:00"
+      },
+      {
+        "id": 18738127,
+        "auctionId": 309046,
+        "bidderAlias": "5",
+        "amount": 537500,
+        "type": "NORMAL",
+        "maxBidId": 10949528,
+        "triggeredBy": 10949528,
+        "createdAt": "2026-11-10T10:28:49.911730+00:00",
+        "updatedAt": "2026-11-10T10:28:49.911738+00:00"
+      },
+      {
+        "id": 18738125,
+        "auctionId": 309046,
+        "bidderAlias": "6",
+        "amount": 537000,
+        "type": "NORMAL",
+        "maxBidId": 10949526,
+        "triggeredBy": 10949526,
+        "createdAt": "2026-11-10T10:28:31.053650+00:00",
+        "updatedAt": "2026-11-10T10:28:31.053652+00:00"
+      },
+      {
+        "id": 18738124,
+        "auctionId": 309046,
+        "bidderAlias": "5",
+        "amount": 536500,
+        "type": "LIMIT_REACHED",
+        "maxBidId": 10949514,
+        "triggeredBy": 10949526,
+        "createdAt": "2026-11-10T10:28:31.053642+00:00",
+        "updatedAt": "2026-11-10T10:28:31.053647+00:00"
+      },
+      {
+        "id": 18738122,
+        "auctionId": 309046,
+        "bidderAlias": "5",
+        "amount": 534000,
+        "type": "AUTO",
+        "maxBidId": 10949514,
+        "triggeredBy": 10949524,
+        "createdAt": "2026-11-10T10:28:24.965716+00:00",
+        "updatedAt": "2026-11-10T10:28:24.965719+00:00"
+      },
+      {
+        "id": 18738121,
+        "auctionId": 309046,
+        "bidderAlias": "6",
+        "amount": 533500,
+        "type": "NORMAL",
+        "maxBidId": 10949524,
+        "triggeredBy": 10949524,
+        "createdAt": "2026-11-10T10:28:24.965704+00:00",
+        "updatedAt": "2026-11-10T10:28:24.965713+00:00"
+      },
+      {
+        "id": 18738106,
+        "auctionId": 309046,
+        "bidderAlias": "5",
+        "amount": 533000,
+        "type": "NORMAL",
+        "maxBidId": 10949514,
+        "triggeredBy": 10949514,
+        "createdAt": "2026-11-10T10:27:32.327803+00:00",
+        "updatedAt": "2026-11-10T10:27:32.327811+00:00"
+      },
+      {
+        "id": 18738103,
+        "auctionId": 309046,
+        "bidderAlias": "6",
+        "amount": 532500,
+        "type": "NORMAL",
+        "maxBidId": 10949511,
+        "triggeredBy": 10949511,
+        "createdAt": "2026-11-10T10:27:23.890981+00:00",
+        "updatedAt": "2026-11-10T10:27:23.890992+00:00"
+      },
+      {
+        "id": 18738097,
+        "auctionId": 309046,
+        "bidderAlias": "7",
+        "amount": 532000,
+        "type": "NORMAL",
+        "maxBidId": 10949506,
+        "triggeredBy": 10949506,
+        "createdAt": "2026-11-10T10:27:13.952830+00:00",
+        "updatedAt": "2026-11-10T10:27:13.952838+00:00"
+      },
+      {
+        "id": 18738032,
+        "auctionId": 309046,
+        "bidderAlias": "6",
+        "amount": 531500,
+        "type": "NORMAL",
+        "maxBidId": 10949467,
+        "triggeredBy": 10949467,
+        "createdAt": "2026-11-10T10:23:56.213721+00:00",
+        "updatedAt": "2026-11-10T10:23:56.213729+00:00"
+      },
+      {
+        "id": 18733072,
+        "auctionId": 309046,
+        "bidderAlias": "3",
+        "amount": 531000,
+        "type": "NORMAL",
+        "maxBidId": 10946566,
+        "triggeredBy": 10946566,
+        "createdAt": "2026-11-09T17:08:10.245179+00:00",
+        "updatedAt": "2026-11-09T17:08:10.245181+00:00"
+      },
+      {
+        "id": 18733071,
+        "auctionId": 309046,
+        "bidderAlias": "5",
+        "amount": 530500,
+        "type": "LIMIT_REACHED",
+        "maxBidId": 10945371,
+        "triggeredBy": 10946566,
+        "createdAt": "2026-11-09T17:08:10.245171+00:00",
+        "updatedAt": "2026-11-09T17:08:10.245177+00:00"
+      },
+      {
+        "id": 18733069,
+        "auctionId": 309046,
+        "bidderAlias": "5",
+        "amount": 526000,
+        "type": "AUTO",
+        "maxBidId": 10945371,
+        "triggeredBy": 10946564,
+        "createdAt": "2026-11-09T17:07:46.387615+00:00",
+        "updatedAt": "2026-11-09T17:07:46.387619+00:00"
+      },
+      {
+        "id": 18733068,
+        "auctionId": 309046,
+        "bidderAlias": "3",
+        "amount": 525500,
+        "type": "NORMAL",
+        "maxBidId": 10946564,
+        "triggeredBy": 10946564,
+        "createdAt": "2026-11-09T17:07:46.387605+00:00",
+        "updatedAt": "2026-11-09T17:07:46.387612+00:00"
+      },
+      {
+        "id": 18733067,
+        "auctionId": 309046,
+        "bidderAlias": "5",
+        "amount": 522000,
+        "type": "AUTO",
+        "maxBidId": 10945371,
+        "triggeredBy": 10946563,
+        "createdAt": "2026-11-09T17:07:40.366754+00:00",
+        "updatedAt": "2026-11-09T17:07:40.366756+00:00"
+      },
+      {
+        "id": 18733066,
+        "auctionId": 309046,
+        "bidderAlias": "3",
+        "amount": 521500,
+        "type": "NORMAL",
+        "maxBidId": 10946563,
+        "triggeredBy": 10946563,
+        "createdAt": "2026-11-09T17:07:40.366745+00:00",
+        "updatedAt": "2026-11-09T17:07:40.366751+00:00"
+      },
+      {
+        "id": 18731011,
+        "auctionId": 309046,
+        "bidderAlias": "5",
+        "amount": 521000,
+        "type": "NORMAL",
+        "maxBidId": 10945371,
+        "triggeredBy": 10945371,
+        "createdAt": "2026-11-09T10:40:19.686034+00:00",
+        "updatedAt": "2026-11-09T10:40:19.686042+00:00"
+      },
+      {
+        "id": 18718354,
+        "auctionId": 309046,
+        "bidderAlias": "3",
+        "amount": 520500,
+        "type": "NORMAL",
+        "maxBidId": 10938078,
+        "triggeredBy": 10938078,
+        "createdAt": "2026-11-05T20:05:16.356337+00:00",
+        "updatedAt": "2026-11-05T20:05:16.356340+00:00"
+      },
+      {
+        "id": 18718353,
+        "auctionId": 309046,
+        "bidderAlias": "2",
+        "amount": 520000,
+        "type": "LIMIT_REACHED",
+        "maxBidId": 10924027,
+        "triggeredBy": 10938078,
+        "createdAt": "2026-11-05T20:05:16.356316+00:00",
+        "updatedAt": "2026-11-05T20:05:16.356333+00:00"
+      },
+      {
+        "id": 18718350,
+        "auctionId": 309046,
+        "bidderAlias": "2",
+        "amount": 518000,
+        "type": "AUTO",
+        "maxBidId": 10924027,
+        "triggeredBy": 10938076,
+        "createdAt": "2026-11-05T20:05:09.535724+00:00",
+        "updatedAt": "2026-11-05T20:05:09.535727+00:00"
+      },
+      {
+        "id": 18718349,
+        "auctionId": 309046,
+        "bidderAlias": "3",
+        "amount": 517500,
+        "type": "NORMAL",
+        "maxBidId": 10938076,
+        "triggeredBy": 10938076,
+        "createdAt": "2026-11-05T20:05:09.535716+00:00",
+        "updatedAt": "2026-11-05T20:05:09.535722+00:00"
+      },
+      {
+        "id": 18694374,
+        "auctionId": 309046,
+        "bidderAlias": "2",
+        "amount": 516000,
+        "type": "NORMAL",
+        "maxBidId": 10924027,
+        "triggeredBy": 10924027,
+        "createdAt": "2026-11-02T10:42:10.902394+00:00",
+        "updatedAt": "2026-11-02T10:42:10.902402+00:00"
+      },
+      {
+        "id": 18692542,
+        "auctionId": 309046,
+        "bidderAlias": "1",
+        "amount": 515500,
+        "type": "AUTO",
+        "maxBidId": 10920358,
+        "triggeredBy": 10922946,
+        "createdAt": "2026-11-02T09:10:08.557274+00:00",
+        "updatedAt": "2026-11-02T09:10:08.557276+00:00"
+      },
+      {
+        "id": 18692541,
+        "auctionId": 309046,
+        "bidderAlias": "2",
+        "amount": 515000,
+        "type": "NORMAL",
+        "maxBidId": 10922946,
+        "triggeredBy": 10922946,
+        "createdAt": "2026-11-02T09:10:08.557265+00:00",
+        "updatedAt": "2026-11-02T09:10:08.557271+00:00"
+      },
+      {
+        "id": 18691857,
+        "auctionId": 309046,
+        "bidderAlias": "1",
+        "amount": 510500,
+        "type": "AUTO",
+        "maxBidId": 10920358,
+        "triggeredBy": 10922567,
+        "createdAt": "2026-11-02T08:24:48.012122+00:00",
+        "updatedAt": "2026-11-02T08:24:48.012124+00:00"
+      },
+      {
+        "id": 18691856,
+        "auctionId": 309046,
+        "bidderAlias": "2",
+        "amount": 510000,
+        "type": "NORMAL",
+        "maxBidId": 10922567,
+        "triggeredBy": 10922567,
+        "createdAt": "2026-11-02T08:24:48.012114+00:00",
+        "updatedAt": "2026-11-02T08:24:48.012120+00:00"
+      },
+      {
+        "id": 18690970,
+        "auctionId": 309046,
+        "bidderAlias": "1",
+        "amount": 506500,
+        "type": "AUTO",
+        "maxBidId": 10920358,
+        "triggeredBy": 10922087,
+        "createdAt": "2026-11-01T21:59:50.255997+00:00",
+        "updatedAt": "2026-11-01T21:59:50.255999+00:00"
+      },
+      {
+        "id": 18690969,
+        "auctionId": 309046,
+        "bidderAlias": "4",
+        "amount": 506000,
+        "type": "NORMAL",
+        "maxBidId": 10922087,
+        "triggeredBy": 10922087,
+        "createdAt": "2026-11-01T21:59:50.255989+00:00",
+        "updatedAt": "2026-11-01T21:59:50.255994+00:00"
+      },
+      {
+        "id": 18690966,
+        "auctionId": 309046,
+        "bidderAlias": "1",
+        "amount": 505500,
+        "type": "AUTO",
+        "maxBidId": 10920358,
+        "triggeredBy": 10922085,
+        "createdAt": "2026-11-01T21:58:51.273364+00:00",
+        "updatedAt": "2026-11-01T21:58:51.273366+00:00"
+      },
+      {
+        "id": 18690965,
+        "auctionId": 309046,
+        "bidderAlias": "4",
+        "amount": 505000,
+        "type": "NORMAL",
+        "maxBidId": 10922085,
+        "triggeredBy": 10922085,
+        "createdAt": "2026-11-01T21:58:51.273353+00:00",
+        "updatedAt": "2026-11-01T21:58:51.273361+00:00"
+      },
+      {
+        "id": 18690960,
+        "auctionId": 309046,
+        "bidderAlias": "1",
+        "amount": 502500,
+        "type": "AUTO",
+        "maxBidId": 10920358,
+        "triggeredBy": 10922082,
+        "createdAt": "2026-11-01T21:57:20.026854+00:00",
+        "updatedAt": "2026-11-01T21:57:20.026856+00:00"
+      },
+      {
+        "id": 18690959,
+        "auctionId": 309046,
+        "bidderAlias": "4",
+        "amount": 502000,
+        "type": "NORMAL",
+        "maxBidId": 10922082,
+        "triggeredBy": 10922082,
+        "createdAt": "2026-11-01T21:57:20.026846+00:00",
+        "updatedAt": "2026-11-01T21:57:20.026851+00:00"
+      },
+      {
+        "id": 18688116,
+        "auctionId": 309046,
+        "bidderAlias": "1",
+        "amount": 501000,
+        "type": "AUTO",
+        "maxBidId": 10920358,
+        "triggeredBy": 10920389,
+        "createdAt": "2026-11-01T09:33:42.369496+00:00",
+        "updatedAt": "2026-11-01T09:33:42.369499+00:00"
+      },
+      {
+        "id": 18688115,
+        "auctionId": 309046,
+        "bidderAlias": "3",
+        "amount": 500500,
+        "type": "NORMAL",
+        "maxBidId": 10920389,
+        "triggeredBy": 10920389,
+        "createdAt": "2026-11-01T09:33:42.369487+00:00",
+        "updatedAt": "2026-11-01T09:33:42.369494+00:00"
+      },
+      {
+        "id": 18688059,
+        "auctionId": 309046,
+        "bidderAlias": "1",
+        "amount": 490500,
+        "type": "NORMAL",
+        "maxBidId": 10920358,
+        "triggeredBy": 10920358,
+        "createdAt": "2026-11-01T09:11:47.720755+00:00",
+        "updatedAt": "2026-11-01T09:11:47.720758+00:00"
+      },
+      {
+        "id": 18688058,
+        "auctionId": 309046,
+        "bidderAlias": "2",
+        "amount": 490000,
+        "type": "LIMIT_REACHED",
+        "maxBidId": 10920357,
+        "triggeredBy": 10920358,
+        "createdAt": "2026-11-01T09:11:47.720725+00:00",
+        "updatedAt": "2026-11-01T09:11:47.720751+00:00"
+      },
+      {
+        "id": 18688057,
+        "auctionId": 309046,
+        "bidderAlias": "2",
+        "amount": 489000,
+        "type": "NORMAL",
+        "maxBidId": 10920357,
+        "triggeredBy": 10920357,
+        "createdAt": "2026-11-01T09:10:12.162771+00:00",
+        "updatedAt": "2026-11-01T09:10:12.162773+00:00"
+      },
+      {
+        "id": 18688056,
+        "auctionId": 309046,
+        "bidderAlias": "1",
+        "amount": 488500,
+        "type": "LIMIT_REACHED",
+        "maxBidId": 10916459,
+        "triggeredBy": 10920357,
+        "createdAt": "2026-11-01T09:10:12.162758+00:00",
+        "updatedAt": "2026-11-01T09:10:12.162767+00:00"
+      },
+      {
+        "id": 18681247,
+        "auctionId": 309046,
+        "bidderAlias": "1",
+        "amount": 483000,
+        "type": "NORMAL",
+        "maxBidId": 10916459,
+        "triggeredBy": 10916459,
+        "createdAt": "2026-10-29T22:01:18.700335+00:00",
+        "updatedAt": "2026-10-29T22:01:18.700346+00:00"
+      }
+    ],
+    "myBidderAlias": null,
+    "myMaxBid": null,
+    "highestBid": {
+      "id": 18738418,
+      "auctionId": 309046,
+      "bidderAlias": null,
+      "amount": 556000,
+      "type": "NORMAL",
+      "maxBidId": 10949702,
+      "triggeredBy": 10949702,
+      "createdAt": "2026-11-10T10:43:15.270520+00:00",
+      "updatedAt": "2026-11-10T10:43:15.270529+00:00",
+      "eurAmount": 50570
+    },
+    "buyNowAvailable": false,
+    "releasing": null,
+    "isHighestBidLowerThanResidualLoanValue": false
+  },
+  "checkoutOrder": null,
+  "previewImage": "https://kvdbil-images.imgix.net/7287353/b98ad5b0.jpg",
+  "_list_meta": {
+    "id": "309046",
+    "slug": "porsche-cayenne-e-hybrid-462hk",
+    "auctionType": "BIDDING",
+    "closedAt": "2026-11-10T10:46:45.268236+00:00",
+    "updatedAt": "2026-11-10T14:08:55.884066+00:00"
+  },
+  "_scraped_at": "2026-11-11T01:09:49.498860+00:00",
+  "_url": "https://www.kvd.se/auktioner/porsche-cayenne-e-hybrid-462hk-309046"
+}
