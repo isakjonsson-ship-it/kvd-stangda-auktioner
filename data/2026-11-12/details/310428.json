@@ -1,0 +1,2175 @@
+{
+  "id": "310428",
+  "auctionType": "BIDDING",
+  "biddingFee": "5775.00",
+  "biddingFeeCorporate": "7438.00",
+  "mediationFee": 0,
+  "mediationFeeCorporate": 0,
+  "buyNow": false,
+  "closedAt": "2026-11-12T09:45:37.211984+00:00",
+  "publishedAt": "2026-11-09T05:30:51.577826+00:00",
+  "countdownDuration": 210,
+  "countdownStartAt": "2026-11-12T09:39:30+00:00",
+  "createdAt": "2026-11-06T15:07:10.275123+00:00",
+  "readyForAuctionAt": "2026-11-08",
+  "currency": "SEK",
+  "maxBidRaise": 100000,
+  "minBidRaise": 500,
+  "startBid": 110000,
+  "openedAt": "2026-11-09T15:52:28.478628+00:00",
+  "processObjectId": "7293883",
+  "readyForCheckout": true,
+  "soldFor": 168000,
+  "sellMethod": "BIDDING",
+  "slug": "mini-cooper-s-all4-countryman-f60-192hk",
+  "auctionUrl": "https://www.kvd.se/auktioner/mini-cooper-s-all4-countryman-f60-192hk-310428",
+  "state": "WINNER_CHECKOUT_PENDING",
+  "targetedAuctionGroupId": null,
+  "updatedAt": "2026-11-12T14:22:49.720289+00:00",
+  "releasing": null,
+  "loan": {
+    "loanCost": 1427,
+    "loanCostBuyNow": null
+  },
+  "buyNowAmount": null,
+  "buyNowAvailable": false,
+  "buyNowUntil": null,
+  "eligibleForAdditionalServices": true,
+  "comingSoon": false,
+  "preliminaryPrice": 220000,
+  "maxAllowedBid": 330000,
+  "isReserved": false,
+  "isSoldByBuyNow": false,
+  "favouriteCount": 15,
+  "eurBuyNowAmount": null,
+  "winningBid": {
+    "id": "123175",
+    "type": "BIDDER",
+    "state": "ACTIVE",
+    "amount": 168000,
+    "brokerId": "microservice",
+    "auctionId": "310428",
+    "createdAt": "2026-11-12T14:22:49.393285+00:00",
+    "updatedAt": "2026-11-12T14:22:49.676759+00:00",
+    "evaluationType": "BROKERING"
+  },
+  "processObject": {
+    "id": "7293883",
+    "initialBuyNowAmount": null,
+    "certified": false,
+    "statisticalValuation": {
+      "bpGreen": null,
+      "bpWhite": 201758,
+      "bpOrange": 201758,
+      "marketPrice": 201758
+    },
+    "conditionClassification": "TESTED",
+    "createdAt": "2026-10-28 14:23:58.892125+00:00",
+    "sellMethod": "BIDDING",
+    "orderableAdditionalServices": {
+      "tradein": false,
+      "transport": true,
+      "insurance": true,
+      "finance": true,
+      "warranty": true,
+      "extraTires": false
+    },
+    "presentationApproved": false,
+    "properties": {
+      "numberOfSeats": 5,
+      "environmentalClassEuro": "6",
+      "deductibleVat": false,
+      "residualLoanValue": 0,
+      "remarksLocalized": {
+        "TIRES": null,
+        "BRAKES": "Bromsbelägg bak bör bytas inom 6 månader",
+        "EXTERIOR": "Stenskott i vindruta. Flertal repor",
+        "INTERIOR": "Klädsel ytligt slitage. Knarrande ljud från instrumentbrädan under körning",
+        "ENGINE_AND_GEARBOX": null,
+        "TECHNOLOGY_AND_EQUIPMENT": "Bilbälteslås bak mittre, ur funktion. Backkamera visar dålig bild"
+      },
+      "taxFee": 1130,
+      "modelYear": 2018,
+      "dateOfInspection": "2025-11-06",
+      "height": 1557,
+      "numberOfKeys": 2,
+      "ecoFriendly": false,
+      "maxPayload": 420,
+      "odometerReading": 92570,
+      "maxPullWeightB": 1380,
+      "formattedEquipment": [
+        {
+          "key": "4WD",
+          "title": "4WD",
+          "description": "Konstant eller inkopplingsbar fyrhjulsdrift",
+          "priority": 0
+        },
+        {
+          "key": "ANTISPINN",
+          "title": "Antispinn",
+          "description": "Hjälpsystem som förhindrar att hjulen spinner",
+          "priority": 1
+        },
+        {
+          "key": "BACKKAMERA",
+          "title": "Backkamera",
+          "description": "Kamera som underlättar vid backning",
+          "priority": 2
+        },
+        {
+          "key": "BLUETOOTH",
+          "title": "Bluetooth",
+          "description": "Trådlös uppkoppling mot mobila enheter",
+          "priority": 3
+        },
+        {
+          "key": "ELSPEGLAR",
+          "title": "Elspeglar",
+          "description": "Elektroniskt ställbara sidospeglar",
+          "priority": 4
+        },
+        {
+          "key": "FJARRLAS",
+          "title": "Fjärrlås",
+          "description": "Möjliggör att du på distans kan låsa och låsa upp bilen",
+          "priority": 5
+        },
+        {
+          "key": "GPS",
+          "title": "GPS",
+          "description": "Navigationssystem med vägbeskrivning",
+          "priority": 6
+        },
+        {
+          "key": "RADIO",
+          "title": "Radio",
+          "description": "Radiospelare",
+          "priority": 7
+        },
+        {
+          "key": "REGNSENSOR",
+          "title": "Regnsensor",
+          "description": "Automatiska vindrutetorkare, sensorer som reagerar på vatten",
+          "priority": 8
+        },
+        {
+          "key": "STOLSVARME_FRAM",
+          "title": "Stolsvärme fram",
+          "description": "Olika nivåer av värme i stolarna fram som ställs in via en knapp",
+          "priority": 9
+        },
+        {
+          "key": "ADAPTIV_FARTHALLARE",
+          "title": "Adaptiv farthållare",
+          "description": "Farthållare som hjälper till att hålla ett givet avstånd till framförvarande fordon.",
+          "priority": 10
+        },
+        {
+          "key": "ANTISLADDSYSTEM",
+          "title": "Antisladdsystem",
+          "description": "Ett system som känner av om bilen håller på att sladda. Genom att bromsa enskilda hjul stabiliseras bilen och sladden förhindras, även kallat ESP.",
+          "priority": 11
+        },
+        {
+          "key": "ASSISTANSSYSTEM",
+          "title": "Assistanssystem",
+          "description": "Uppkopplad tjänst för att exempelvis kunna kontrollera din bil på distans med hjälp av en mobilapp. Funktioner som bygger på 2G eller 3G-uppkoppling kan sluta fungera i samband med att dessa nätverk stängs ner av operatörerna.",
+          "priority": 12
+        },
+        {
+          "key": "AUX_INGANG",
+          "title": "AUX-ingång",
+          "description": "Stereoinkoppling av mobil enhet",
+          "priority": 13
+        },
+        {
+          "key": "AVTAGBAR_DRAGKROK",
+          "title": "Avtagbar dragkrok",
+          "description": " Anordning för att dra exempelvis personbilssläp, båttrailer. Kan monteras av.",
+          "priority": 14
+        },
+        {
+          "key": "ELDRIVEN_BAKLUCKA",
+          "title": "Eldriven baklucka",
+          "description": "Baklucka som öppnas/stängs elektroniskt.",
+          "priority": 15
+        },
+        {
+          "key": "ELHISS_BAK",
+          "title": "Elhiss bak",
+          "description": "Elektroniska fönsterhissar bak",
+          "priority": 16
+        },
+        {
+          "key": "ELHISS_FRAM",
+          "title": "Elhiss fram",
+          "description": "Elektronisk fönsterhiss fram",
+          "priority": 17
+        },
+        {
+          "key": "ELUPPVARMD_VINDRUTA",
+          "title": "Eluppvärmd vindruta",
+          "description": "Vindruta med (nästan) osynliga värmeslingor som snabbt avlägsnar is eller imma",
+          "priority": 18
+        },
+        {
+          "key": "HEAD_UP_DISPLAY",
+          "title": "Head-up display",
+          "description": null,
+          "priority": 19
+        },
+        {
+          "key": "ISOFIX_BAK",
+          "title": "Isofix bak",
+          "description": "  Fästsystem för bilbarnstolar enligt internationell standard, även kallat Isofix",
+          "priority": 20
+        },
+        {
+          "key": "KLIMATANLAGGNING",
+          "title": "Klimatanläggning",
+          "description": "Luftkonditionering med möjlighet till automatisk temperaturinställning",
+          "priority": 21
+        },
+        {
+          "key": "LED_STRALKASTARE_M_UTOKADE_FUNKTIONER",
+          "title": "LED-strålkastare m. utökade funktioner",
+          "description": null,
+          "priority": 22
+        },
+        {
+          "key": "NYCKELLOST_STARTSYSTEM",
+          "title": "Nyckellöst startsystem",
+          "description": "Startknapp i bilen utan tändningslås. Även kallat Keyless-go",
+          "priority": 23
+        },
+        {
+          "key": "PARKERINGSSENSORER_BAK",
+          "title": "Parkeringssensorer bak",
+          "description": "Sensorer på stötfångare baktill som varnar för hinder bakom bilen",
+          "priority": 24
+        },
+        {
+          "key": "PARKERINGSSENSORER_FRAM",
+          "title": "Parkeringssensorer fram",
+          "description": "Sensorer på stötfångare som varnar för hinder framför bilen",
+          "priority": 25
+        },
+        {
+          "key": "SMARTPHONE_INTEGRATION",
+          "title": "Smartphone integration",
+          "description": null,
+          "priority": 26
+        },
+        {
+          "key": "START_STOP_FUNKTION",
+          "title": "Start/Stopp-funktion",
+          "description": "Automatisk på och avstängning av motor vid exempelvis trafikljus",
+          "priority": 27
+        },
+        {
+          "key": "URKOPPLINGSBAR_PASSAGERARAIRBAG",
+          "title": "Urkopplingsbar passagerarairbag",
+          "description": "Möjlighet att koppla till och från airbagen på passagerarsidan",
+          "priority": 28
+        },
+        {
+          "key": "USB_INGANG",
+          "title": "USB-ingång",
+          "description": "Inkoppling av mobil enhet via USB-kontakt",
+          "priority": 29
+        },
+        {
+          "key": "MINI_CONNECTED",
+          "title": "MINI Connected",
+          "description": null,
+          "priority": 30
+        },
+        {
+          "key": "RADIO_MINI_VISUAL_BOOST",
+          "title": "Radio MINI Visual Boost",
+          "description": null,
+          "priority": 31
+        },
+        {
+          "key": "HIFI_SYSTEM_HARMAN_KARDON",
+          "title": "HiFi system Harman kardon",
+          "description": null,
+          "priority": 32
+        },
+        {
+          "key": "PARKERINGSASSISTENT",
+          "title": "Parkeringsassistent",
+          "description": null,
+          "priority": 33
+        },
+        {
+          "key": "DRIVING_ASSISTANT",
+          "title": "Driving Assistant",
+          "description": null,
+          "priority": 34
+        },
+        {
+          "key": "MINI_EXCITEMENT_PAKET",
+          "title": "MINI Excitement-paket",
+          "description": null,
+          "priority": 35
+        }
+      ],
+      "odometerUnit": "km",
+      "adHeader": "Cooper S ALL4 Countryman (192hk) Salt II S&V-hjul",
+      "remarks": {
+        "TIRES": [],
+        "BRAKES": [
+          {
+            "id": "0",
+            "key": "Bromsbelägg bak bör bytas inom 6 månader",
+            "category": "BRAKES"
+          }
+        ],
+        "TECHNOLOGY_AND_EQUIPMENT": [
+          {
+            "id": "0",
+            "key": "Bilbälteslås bak mittre, ur funktion",
+            "category": "TECHNOLOGY_AND_EQUIPMENT"
+          },
+          {
+            "id": "1",
+            "key": "Backkamera visar dålig bild",
+            "category": "TECHNOLOGY_AND_EQUIPMENT"
+          }
+        ],
+        "EXTERIOR": [
+          {
+            "id": "0",
+            "key": "Stenskott i vindruta",
+            "category": "EXTERIOR"
+          },
+          {
+            "id": "1",
+            "key": "Flertal repor",
+            "category": "EXTERIOR"
+          }
+        ],
+        "INTERIOR": [
+          {
+            "id": "0",
+            "key": "Klädsel ytligt slitage",
+            "category": "INTERIOR"
+          },
+          {
+            "id": "1",
+            "key": "Knarrande ljud från instrumentbrädan under körning",
+            "category": "INTERIOR"
+          }
+        ],
+        "ENGINE_AND_GEARBOX": []
+      },
+      "brand": "MINI",
+      "drivingBan": false,
+      "modelName": "Cooper S ALL4 Countryman, F60 (192hk)",
+      "maxTrailerWeight": 1800,
+      "totalWeight": 2120,
+      "textile": "Läder/Alcantara",
+      "saleLimitedToCorporate": false,
+      "gearbox": "Automatic",
+      "manufactureMonth": "201802",
+      "hasUnpaidLoan": false,
+      "curbWeight": 1700,
+      "grades": {
+        "BRAKES": {
+          "value": 2,
+          "min": 1,
+          "max": 3
+        },
+        "TOTAL": {
+          "value": 3,
+          "min": 1,
+          "max": 5
+        },
+        "TECHNOLOGY_AND_EQUIPMENT": {
+          "value": 2,
+          "min": 1,
+          "max": 3
+        },
+        "EXTERIOR": {
+          "value": 3,
+          "min": 1,
+          "max": 5
+        },
+        "INTERIOR": {
+          "value": 3,
+          "min": 1,
+          "max": 5
+        },
+        "ENGINE_AND_GEARBOX": {
+          "value": 3,
+          "min": 1,
+          "max": 3
+        }
+      },
+      "heavyEquipment": false,
+      "registrationPlate": "EFE572",
+      "equipment": [
+        "4WD",
+        "Antispinn",
+        "Backkamera",
+        "Bluetooth",
+        "Elspeglar",
+        "Fjärrlås",
+        "GPS",
+        "Radio",
+        "Regnsensor",
+        "Stolsvärme fram",
+        "Adaptiv farthållare",
+        "Antisladdsystem",
+        "Assistanssystem",
+        "AUX-ingång",
+        "Avtagbar dragkrok",
+        "Eldriven baklucka",
+        "Elhiss bak",
+        "Elhiss fram",
+        "Eluppvärmd vindruta",
+        "Head-up display",
+        "Isofix bak",
+        "Klimatanläggning",
+        "LED-strålkastare m. utökade funktioner",
+        "Nyckellöst startsystem",
+        "Parkeringssensorer bak",
+        "Parkeringssensorer fram",
+        "Smartphone integration",
+        "Start/Stop-funktion",
+        "Urkopplingsbar passagerarairbag",
+        "USB-ingång",
+        "MINI Connected",
+        "Radio MINI Visual Boost",
+        "HiFi-system Harman Kardon",
+        "Parkeringsassistent",
+        "Driving Assistant",
+        "MINI Excitement-paket"
+      ],
+      "importedForPersonalUse": false,
+      "package": "Salt II S&V-hjul",
+      "exteriorColor": "Black",
+      "isRepairObject": false,
+      "width": 1822,
+      "fuels": [
+        {
+          "fuelCode": "Petrol",
+          "enginePower": 192,
+          "co2": 146,
+          "consumption": 6.4
+        }
+      ],
+      "registrationCountry": "se",
+      "inspectionPeriod": "2025-11-06 - 2027-01-31",
+      "inspectionValidToDate": "2027-01-31",
+      "finishType": "Metallic",
+      "body": "Wagon",
+      "mustExport": false,
+      "towbar": false,
+      "initialTrafficDate": "2018-10-19",
+      "chassisNumber": "WMWYT1107J3E86188",
+      "numberOfPreviousOwners": 3,
+      "mediation": true,
+      "title": "MINI Cooper S ALL4 Countryman, F60 (192hk)",
+      "taxWeight": 1700,
+      "familyName": "Countryman",
+      "length": 4299,
+      "exportable": true,
+      "registrationPlateCountry": "se",
+      "heading1": "MINI Countryman",
+      "heading2": "Cooper S ALL4 Countryman, F60",
+      "heading3": "Salt II S&V-hjul"
+    },
+    "state": "AUCTION_RESOLUTION",
+    "baseObjectId": "526023",
+    "leaseReturnProperties": {},
+    "isReleasable": false,
+    "offsiteSalesContact": null,
+    "buyNowAmount": null,
+    "proactiveBrokering": null,
+    "displayCar360Spin": true,
+    "reducedPrice": false,
+    "objectType": "CAR",
+    "car360Spin": null,
+    "isFixedPrice": false,
+    "baseObject": {
+      "id": "526023",
+      "year": "2018",
+      "earliestAvailableAt": null,
+      "registrationPlate": "EFE572",
+      "baseObjectType": "CAR",
+      "createdAt": "2026-10-28T09:39:52.920679+00:00",
+      "modelId": null,
+      "body": "Wagon",
+      "salesFlow": "CONSUMER_CARS",
+      "state": "PREPARING_SALES_AGREEMENT",
+      "brand": "MINI",
+      "exteriorColor": "Black",
+      "modelName": "Cooper S ALL4 Countryman, F60 (192hk)",
+      "authorityRegisterInformation": {
+        "registrationInformation": {
+          "registrationPlate": "EFE572",
+          "deregistrationDate": null,
+          "deregistrationText": null,
+          "deregistrationReason": null
+        },
+        "environmentalClassification": {
+          "fuels": [
+            {
+              "co2": 146,
+              "nox": "",
+              "nox4": null,
+              "fuelCode": "Petrol",
+              "hcThcNox": "",
+              "consumption": 6.4,
+              "noiseLevel": 67,
+              "emissionUnit": "g/km",
+              "innovationCo2": null,
+              "particleValue": "",
+              "particleMass4": null,
+              "consumptionUnit": "6,4",
+              "rangeNedcDrive": null,
+              "rangeWltpDrive": null,
+              "consumptionUrban": 7.8,
+              "rangeCityWltpDrive": null,
+              "consumptionExtraUrban": 5.6,
+              "electricEnergyConsumption": null,
+              "energyConsumptionWltpDrive": null
+            }
+          ],
+          "ecoFriendly": false,
+          "emissionClass": "EURO 6",
+          "innovationCode": null,
+          "environmentalClass": null,
+          "environmentalClassEuro": "6"
+        },
+        "generalTechSpecification": {
+          "eeg": "e1*2007/46*1682*02",
+          "fuels": [
+            {
+              "fuelCode": "Petrol",
+              "powerUnit": "EG",
+              "enginePower": 141,
+              "enginePowerHp": 192,
+              "fuelTankVolume": ""
+            }
+          ],
+          "width": 1822,
+          "height": 1557,
+          "length": 4299,
+          "gearbox": "Automatic",
+          "variant": "YT11",
+          "version": "CA1500L0",
+          "taxWeight": 1700,
+          "curbWeight": 1700,
+          "maxPayload": 420,
+          "totalWeight": 2120,
+          "chassisCode1": null,
+          "chassisCode2": null,
+          "cubicCapacity": "1998",
+          "numPassengers": "4",
+          "numberOfSeats": 5,
+          "fourWheelDrive": true,
+          "maxPullWeightB": 1380,
+          "clutchMechanism1": null,
+          "clutchMechanism2": null,
+          "maxTrailerWeight": 1800,
+          "chassisCodeSupplement": null,
+          "maxPullWieghtNoBreaks": null,
+          "maxPullWeightBExtended": null,
+          "maxSingle Axle TrailerWeight": null
+        },
+        "vehicleStatus": {
+          "tax": 1130
+        },
+        "vehicleInformation": {
+          "vin": "WMWYT1107J3E86188",
+          "body": "AC",
+          "type": "CAR",
+          "year": "2018",
+          "model": "COUNTRYMAN COOPER S ALL4",
+          "rawType": "PB",
+          "modelYear": null,
+          "categoryEu": "e1*2007/46*1682*02",
+          "groupNumber": "M5 380007",
+          "modelNumber": "M5 000000",
+          "chassisNumber": "WMWYT1107J3E86188",
+          "exteriorColor": "Black",
+          "fabricAndMake": "MINI",
+          "baseObjectType": "CAR",
+          "manufactureCode": null,
+          "manufactureMonth": "201802",
+          "registrationDate": "2018-02-09",
+          "initialTrafficDate": "2018-10-19",
+          "registrationPlateReused": null
+        },
+        "vehicleOrigin": {
+          "originCode": "INFÖRT",
+          "originCodeReason": null,
+          "importerIdentifier": null,
+          "preRegistrationDate": null,
+          "importRegistrationDate": null,
+          "importedForPersonalUse": false,
+          "importedPreviouslyRegistered": false
+        },
+        "vehicleInspectionInformation": {
+          "inspections": [
+            {
+              "inspectionType": "5",
+              "odometerReading": 76309,
+              "dateOfInspection": "2025-11-06"
+            },
+            {
+              "inspectionType": "6",
+              "odometerReading": 62695,
+              "dateOfInspection": "2024-11-08"
+            }
+          ],
+          "inspectionGroup": "36/24/14",
+          "odometerReading": 76309,
+          "inspectionPeriod": "2025-11-06 - 2027-01-31",
+          "dateOfInspection": "2025-11-06",
+          "inspectionValidToDate": "2027-01-31",
+          "inspectionExemptionGroup": null
+        },
+        "additionalTechSpecification": {
+          "raceCar": null,
+          "wheelbase1": 2670,
+          "wheelbase2": null,
+          "wheelbase3": null,
+          "wheelbase4": null,
+          "equipment1": null,
+          "equipment2": null,
+          "equipment3": null,
+          "maximumSpeed": 222,
+          "numAxleShafts": "",
+          "passengerAirBag": true,
+          "tyreDimensionRear": "225/55 R17 97W",
+          "tyreDimensionFront": "225/55 R17 97W",
+          "dualSteeringControl": null
+        }
+      },
+      "odometerReading": 93000,
+      "gearbox": "Automatic",
+      "fabricAndMake": "MINI",
+      "fuels": [
+        {
+          "fuelCode": "Petrol",
+          "powerUnit": "EG",
+          "enginePower": 141,
+          "enginePowerHp": 192,
+          "fuelTankVolume": ""
+        }
+      ],
+      "registrationCountry": "se",
+      "familyName": "Countryman",
+      "odometerUnit": "km",
+      "technicalSpecification": {
+        "modelId": null,
+        "vehicle": {
+          "brand": "MINI",
+          "body": "Wagon",
+          "modelName": "Cooper S ALL4 Countryman, F60 (192hk)",
+          "familyName": "Countryman"
+        },
+        "year": "2018"
+      }
+    },
+    "testDriveAllowed": true,
+    "vehicleType": "CAR",
+    "exportable": true,
+    "deductibleVat": false,
+    "collisionWarranty": null,
+    "title": "MINI Cooper S ALL4 Countryman, F60 (192hk)",
+    "brand": "MINI",
+    "familyName": "Countryman",
+    "modelName": "Cooper S ALL4 Countryman, F60 (192hk)",
+    "package": "Salt II S&V-hjul",
+    "heading1": "MINI Countryman",
+    "heading2": "Cooper S ALL4 Countryman, F60",
+    "heading3": "Salt II S&V-hjul",
+    "media": [
+      {
+        "processObjectId": "7293883",
+        "uri": "https://kvdbil-images.imgix.net/7293883/dfb87602.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7293883/dfb87602.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 1
+      },
+      {
+        "processObjectId": "7293883",
+        "uri": "https://kvdbil-images.imgix.net/7293883/e80bd050.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7293883/e80bd050.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 1
+      },
+      {
+        "processObjectId": "7293883",
+        "uri": "https://kvdbil-images.imgix.net/7293883/5d43fe08.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7293883/5d43fe08.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 2
+      },
+      {
+        "processObjectId": "7293883",
+        "uri": "https://kvdbil-images.imgix.net/7293883/38697a6a.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7293883/38697a6a.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 2
+      },
+      {
+        "processObjectId": "7293883",
+        "uri": "https://kvdbil-images.imgix.net/7293883/342212bf.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7293883/342212bf.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 3
+      },
+      {
+        "processObjectId": "7293883",
+        "uri": "https://kvdbil-images.imgix.net/7293883/21fe84bd.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7293883/21fe84bd.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 4
+      },
+      {
+        "processObjectId": "7293883",
+        "uri": "https://kvdbil-images.imgix.net/7293883/911140a6.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7293883/911140a6.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 4
+      },
+      {
+        "processObjectId": "7293883",
+        "uri": "https://kvdbil-images.imgix.net/7293883/9d28b5ad.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7293883/9d28b5ad.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 5
+      },
+      {
+        "processObjectId": "7293883",
+        "uri": "https://kvdbil-images.imgix.net/7293883/0b87352c.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7293883/0b87352c.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 5
+      },
+      {
+        "processObjectId": "7293883",
+        "uri": "https://kvdbil-images.imgix.net/7293883/10383fea.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7293883/10383fea.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 6
+      },
+      {
+        "processObjectId": "7293883",
+        "uri": "https://kvdbil-images.imgix.net/7293883/6eff6f1b.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7293883/6eff6f1b.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 7
+      },
+      {
+        "processObjectId": "7293883",
+        "uri": "https://kvdbil-images.imgix.net/7293883/e421bcbb.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7293883/e421bcbb.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 7
+      },
+      {
+        "processObjectId": "7293883",
+        "uri": "https://kvdbil-images.imgix.net/7293883/d97f67a3.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7293883/d97f67a3.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 8
+      },
+      {
+        "processObjectId": "7293883",
+        "uri": "https://kvdbil-images.imgix.net/7293883/247919ff.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7293883/247919ff.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 8
+      },
+      {
+        "processObjectId": "7293883",
+        "uri": "https://kvdbil-images.imgix.net/7293883/000c6704.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7293883/000c6704.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 9
+      },
+      {
+        "processObjectId": "7293883",
+        "uri": "https://kvdbil-images.imgix.net/7293883/253e6afa.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7293883/253e6afa.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 9
+      },
+      {
+        "processObjectId": "7293883",
+        "uri": "https://kvdbil-images.imgix.net/7293883/5cdd3d03.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7293883/5cdd3d03.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 10
+      },
+      {
+        "processObjectId": "7293883",
+        "uri": "https://kvdbil-images.imgix.net/7293883/e50bf29e.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7293883/e50bf29e.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 10
+      },
+      {
+        "processObjectId": "7293883",
+        "uri": "https://kvdbil-images.imgix.net/7293883/81257e2d.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7293883/81257e2d.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 11
+      },
+      {
+        "processObjectId": "7293883",
+        "uri": "https://kvdbil-images.imgix.net/7293883/8cacc64e.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7293883/8cacc64e.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 11
+      },
+      {
+        "processObjectId": "7293883",
+        "uri": "https://kvdbil-images.imgix.net/7293883/a6639f7c.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7293883/a6639f7c.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 12
+      },
+      {
+        "processObjectId": "7293883",
+        "uri": "https://kvdbil-images.imgix.net/7293883/8c882b21.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7293883/8c882b21.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 12
+      },
+      {
+        "processObjectId": "7293883",
+        "uri": "https://kvdbil-images.imgix.net/7293883/c452dff7.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7293883/c452dff7.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 13
+      },
+      {
+        "processObjectId": "7293883",
+        "uri": "https://kvdbil-images.imgix.net/7293883/03268600.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7293883/03268600.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 14
+      },
+      {
+        "processObjectId": "7293883",
+        "uri": "https://kvdbil-images.imgix.net/7293883/fc6fe067.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7293883/fc6fe067.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 14
+      },
+      {
+        "processObjectId": "7293883",
+        "uri": "https://kvdbil-images.imgix.net/7293883/a29ce85e.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7293883/a29ce85e.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 15
+      },
+      {
+        "processObjectId": "7293883",
+        "uri": "https://kvdbil-images.imgix.net/7293883/81c4ed5d.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7293883/81c4ed5d.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 15
+      },
+      {
+        "processObjectId": "7293883",
+        "uri": "https://kvdbil-images.imgix.net/7293883/faabce32.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7293883/faabce32.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 16
+      },
+      {
+        "processObjectId": "7293883",
+        "uri": "https://kvdbil-images.imgix.net/7293883/6d768600.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7293883/6d768600.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 16
+      },
+      {
+        "processObjectId": "7293883",
+        "uri": "https://kvdbil-images.imgix.net/7293883/877be4cf.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7293883/877be4cf.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 17
+      },
+      {
+        "processObjectId": "7293883",
+        "uri": "https://kvdbil-images.imgix.net/7293883/c888178c.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7293883/c888178c.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 17
+      },
+      {
+        "processObjectId": "7293883",
+        "uri": "https://kvdbil-images.imgix.net/7293883/00b445da.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7293883/00b445da.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 18
+      },
+      {
+        "processObjectId": "7293883",
+        "uri": "https://kvdbil-images.imgix.net/7293883/37344e62.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7293883/37344e62.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 20
+      },
+      {
+        "processObjectId": "7293883",
+        "uri": "https://kvdbil-images.imgix.net/7293883/8c998183.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7293883/8c998183.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 22
+      },
+      {
+        "processObjectId": "7293883",
+        "uri": "https://kvdbil-images.imgix.net/7293883/d64b99a9.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7293883/d64b99a9.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 23
+      }
+    ],
+    "locationInfo": {
+      "id": "555124",
+      "processObjectId": "7293883",
+      "locationType": "FACILITY",
+      "createdAt": "2026-10-29T10:46:36.263723+00:00",
+      "updatedAt": "2026-10-29T10:46:36.263726+00:00",
+      "facilityId": "00000002-0002-0002-0002-000000000002",
+      "parkingZone": "A",
+      "parkingNumber": null,
+      "outgoingTime": null,
+      "leftAt": null,
+      "outgoingType": null,
+      "publicFacilityId": "00000002-0002-0002-0002-000000000002",
+      "facility": {
+        "id": "00000002-0002-0002-0002-000000000002",
+        "name": "Åkersberga (Runö)",
+        "operator": "KVD",
+        "legacyIdentifiers": [
+          "Åkersberga (Runö)"
+        ],
+        "objectTypes": [
+          "CAR"
+        ],
+        "createdAt": "2018-03-04T13:18:23.295898+00:00",
+        "calendarOrganisationalUnitId": "4",
+        "parkingAreas": [
+          {
+            "id": 3,
+            "name": "A1",
+            "createdAt": "2018-03-04T13:18:23.295898+00:00"
+          },
+          {
+            "id": 4,
+            "name": "B1",
+            "createdAt": "2018-03-04T13:18:23.295898+00:00"
+          }
+        ],
+        "active": true,
+        "latitude": 59.4819664,
+        "longitude": 18.2749312,
+        "distance": null,
+        "address": "Näsvägen 19",
+        "postCode": "18440",
+        "city": "Åkersberga",
+        "facilityType": "MAXI",
+        "facilityMapUrl": "https://www.google.com/maps/dir/59.4819664,18.2749312/@59.4819664,18.2749312,z13",
+        "contactPhone": "+46765518068",
+        "contactEmail": "leverans.akersberga@kvdbil.se",
+        "allowIncomingTransport": true,
+        "allowLeaseReturns": false,
+        "allowUnplannedDropOffFleetManager": true,
+        "parentFacilityId": null,
+        "publicFacilityId": "00000002-0002-0002-0002-000000000002"
+      }
+    },
+    "valuation": {
+      "id": 239740,
+      "processObjectId": "7293883",
+      "valuatorComment": {
+        "da": "Her har vi en veludstyret MINI Countryman S med automatgear, som kombinerer køreglæde med pålidelig firehjulstræk til alle årstider. Læder/alcantara giver en hyggelig kabine, mens smartphone-integration, head-up display og Harman/Kardon-lyd giver en moderne og behagelig køreoplevelse. Adaptiv fartpilot og bakkamera hjælper dig med at køre både afslappet og smidigt i hverdagen. Nyligt serviceret og sommerdæk medfølger.",
+        "de": "Hier haben wir einen gut ausgestatteten MINI Countryman S mit Automatik, der Fahrspaß mit zuverlässigem Allradantrieb für alle Jahreszeiten kombiniert. Leder/Alcantara sorgt für eine gemütliche Kabine, während Smartphone-Integration, Head-up-Display und Harman/Kardon-Sound ein modernes und angenehmes Fahrerlebnis bieten. Adaptiver Tempomat und Rückfahrkamera helfen Ihnen, im Alltag entspannt und problemlos zu fahren. Kürzlich gewartet und Sommerreifen inklusive.",
+        "en": "Here we have a well-equipped MINI Countryman S with automatic transmission that combines driving pleasure with reliable four-wheel drive for all seasons. Leather/alcantara provides a cozy cabin while smartphone integration, head-up display and Harman/Kardon sound offer a modern and pleasant driving experience. Adaptive cruise control and rearview camera help you drive both relaxed and smoothly in everyday life. Recently serviced and summer tires included.",
+        "et": "Siin on hästi varustatud MINI Countryman S automaatkäigukastiga, mis ühendab sõidurõõmu usaldusväärse nelikveoga kõigiks aastaaegadeks. Nahk/alcantara pakub hubast salongi, samas kui nutitelefoni integratsioon, armatuurlaua infoekraan ja Harman/Kardon heli tagavad kaasaegse ja meeldiva sõidukogemuse. Adaptive püsikiirusehoidja ja tagurduskaamera aitavad sul iga päev sõita nii lõõgastunult kui sujuvalt. Hiljuti hooldatud ja suverehvid kaasas.",
+        "fi": "Tässä on hyvin varusteltu MINI Countryman S automaattivaihteistolla, joka yhdistää ajamisen ilon luotettavan nelivedon kanssa kaikkiin vuodenaikoihin. Nahka/alcantara tarjoaa viihtyisän matkustamon, kun taas älypuhelinintegraatio, head-up -näyttö ja Harman/Kardon-ääni tarjoavat modernin ja miellyttävän ajoelämyksen. Adaptatiivinen vakionopeudensäädin ja peruutuskamera auttavat sinua ajamaan sekä rentoutuneesti että sujuvasti arjessa. Äskettäin huollettu ja kesärenkaat kuuluvat mukaan.",
+        "pl": "Oto dobrze wyposażony MINI Countryman S z automatyczną skrzynią biegów, który łączy radość z jazdy z niezawodnym napędem na cztery koła na każdą porę roku. Skóra/alcantara zapewnia przytulne wnętrze, a integracja ze smartfonem, wyświetlacz head-up i dźwięk Harman/Kardon oferują nowoczesne i przyjemne wrażenia z jazdy. Adaptacyjny tempomat i kamera cofania pomagają prowadzić samochód zarówno zrelaksowanie, jak i płynnie na co dzień. Niedawno serwisowany i dołączone letnie opony.",
+        "sv": "Här har vi en välutrustad MINI Countryman S med automat som kombinerar körglädje med trygg fyrhjulsdrift för alla årstider. Läder/alcantara ger en ombonad kupé medan smartphone integration, head-up display och Harman/Kardon-ljud ger en modern och trivsam körupplevelse. Adaptiv farthållare och backkamera hjälper dig att köra både avslappnat och smidigt i vardagen. Nyligen servad och sommarhjul medföljer."
+      },
+      "generatedValuatorComment": {
+        "en": "",
+        "sv": "Här har vi en MINI Countryman med automat som kombinerar körglädje med trygg fyrhjulsdrift för alla årstider. Läder / alcantara ger en ombonad kupé medan smartphone-integration gör att du har dina favoritappar nära till hands. Adaptiv farthållare och backkamera hjälper dig att köra både avslappnat och smidigt i vardagen. Nyligen servad."
+      },
+      "carDealerPrice": 220000,
+      "endUserTestProtocol": {
+        "tires": {
+          "extraTires": {
+            "other": {
+              "rimSize": "18",
+              "rimType": "Alu.fälg",
+              "tireType": "Sommardäck",
+              "otherInfo": "Behövs ej",
+              "tireTypeKey": "SUMMER_TIRES"
+            },
+            "grades": {
+              "rearLeft": 3,
+              "frontLeft": 3,
+              "rearRight": 3,
+              "frontRight": 3
+            },
+            "treadDepths": {
+              "rearLeft": 7,
+              "frontLeft": 6,
+              "rearRight": 7,
+              "frontRight": 6
+            }
+          },
+          "mountedTires": {
+            "other": {
+              "rimSize": "17",
+              "rimType": "Alu.fälg",
+              "tireType": "Odubbade vinterdäck",
+              "otherInfo": "Behövs ej",
+              "tireTypeKey": "UNSTUDDED_WINTER_TIRES"
+            },
+            "grades": {
+              "rearLeft": 3,
+              "frontLeft": 3,
+              "rearRight": 3,
+              "frontRight": 3
+            },
+            "treadDepths": {
+              "rearLeft": 7,
+              "frontLeft": 7,
+              "rearRight": 7,
+              "frontRight": 7
+            }
+          }
+        },
+        "grades": {
+          "TOTAL": {
+            "max": 5,
+            "min": 1,
+            "value": 3
+          },
+          "BRAKES": {
+            "max": 3,
+            "min": 1,
+            "value": 2
+          },
+          "EXTERIOR": {
+            "max": 5,
+            "min": 1,
+            "value": 3
+          },
+          "INTERIOR": {
+            "max": 5,
+            "min": 1,
+            "value": 3
+          },
+          "ENGINE_AND_GEARBOX": {
+            "max": 3,
+            "min": 1,
+            "value": 3
+          },
+          "TECHNOLOGY_AND_EQUIPMENT": {
+            "max": 3,
+            "min": 1,
+            "value": 2
+          }
+        },
+        "towbar": false,
+        "remarks": {
+          "BRAKES": [
+            {
+              "id": "72938833",
+              "key": "Bromsbelägg bak bör bytas inom 6 månader",
+              "other": null,
+              "point": 0,
+              "category": "BRAKES",
+              "text": "Bromsbelägg bak bör bytas inom 6 månader"
+            }
+          ],
+          "EXTERIOR": [
+            {
+              "id": "72938832",
+              "key": "Stenskott i vindruta. Flertal repor.",
+              "other": null,
+              "point": 0,
+              "category": "EXTERIOR",
+              "text": "Stenskott i vindruta. Flertal repor."
+            }
+          ],
+          "INTERIOR": [
+            {
+              "id": "72938831",
+              "key": "Klädsel ytligt slitage. Knarrande ljud från instrumentbrädan under körning.",
+              "other": null,
+              "point": 0,
+              "category": "INTERIOR",
+              "text": "Klädsel ytligt slitage. Knarrande ljud från instrumentbrädan under körning."
+            }
+          ],
+          "ENGINE_AND_GEARBOX": [],
+          "TECHNOLOGY_AND_EQUIPMENT": [
+            {
+              "id": "72938834",
+              "key": "Bilbälteslås bak mittre, ur funktion. Backkamera visar dålig bild.",
+              "other": null,
+              "point": 0,
+              "category": "TECHNOLOGY_AND_EQUIPMENT",
+              "text": "Bilbälteslås bak mittre, ur funktion. Backkamera visar dålig bild."
+            }
+          ]
+        },
+        "textile": "Läder/Alcantara",
+        "boatType": null,
+        "equipment": [
+          "Backkamera",
+          "GPS",
+          "4WD",
+          "Adaptiv farthållare",
+          "Assistanssystem",
+          "Head-up display",
+          "Nyckellöst startsystem",
+          "Bluetooth",
+          "Eldriven baklucka",
+          "Eluppvärmd vindruta",
+          "Klimatanläggning",
+          "Start/Stop-funktion",
+          "USB-ingång",
+          "Antispinn",
+          "Elspeglar",
+          "Fjärrlås",
+          "Radio",
+          "Regnsensor",
+          "Stolsvärme fram",
+          "Antisladdsystem",
+          "AUX-ingång",
+          "Avtagbar dragkrok",
+          "Elhiss bak",
+          "Elhiss fram",
+          "Isofix bak",
+          "LED-strålkastare m. utökade funktioner",
+          "Parkeringssensorer bak",
+          "Parkeringssensorer fram",
+          "Smartphone integration",
+          "Urkopplingsbar passagerarairbag",
+          "MINI Connected",
+          "Radio MINI Visual Boost",
+          "HiFi-system Harman Kardon",
+          "Parkeringsassistent",
+          "Driving Assistant",
+          "MINI Excitement-paket"
+        ],
+        "boatWidth": null,
+        "createdAt": "2026-11-06T16:05:06",
+        "boatEngine": null,
+        "boatLength": null,
+        "boatWeight": null,
+        "finishType": "Metallic",
+        "protocolId": "262312",
+        "stoveFlames": null,
+        "heatingSystem": null,
+        "numberOfKeys": 2,
+        "boatCeBranded": false,
+        "boatGearModel": null,
+        "numberOfBunks": null,
+        "numberOfSeats": 5,
+        "boatEngineFuel": null,
+        "boatSepticTank": false,
+        "isRepairObject": false,
+        "boatEnginePower": null,
+        "serviceBookType": "ELECTRONIC",
+        "boatExteriorColor": null,
+        "serviceBookStatus": "Service utförd vid följande mil: 1130, 2915, 3770, 5304, 6249, 7734, 9094 mil, senast 2026-09-04",
+        "boatEngineSerialNumber": null,
+        "odometerReadingAfterTest": {
+          "unit": "Mil",
+          "value": 9257
+        },
+        "odometerReadingAfterTestInKm": 92570
+      },
+      "auctionPriceValuation": {
+        "currency": "SEK"
+      },
+      "finalised": true,
+      "includedImageIds": null,
+      "createdAt": "2026-11-06T15:07:10.279129+00:00",
+      "updatedAt": "2026-11-09T05:30:57.122345+00:00",
+      "generatingInProgress": false,
+      "valuatorCommentLocalized": "Här har vi en välutrustad MINI Countryman S med automat som kombinerar körglädje med trygg fyrhjulsdrift för alla årstider. Läder/alcantara ger en ombonad kupé medan smartphone integration, head-up display och Harman/Kardon-ljud ger en modern och trivsam körupplevelse. Adaptiv farthållare och backkamera hjälper dig att köra både avslappnat och smidigt i vardagen. Nyligen servad och sommarhjul medföljer."
+    },
+    "facts": {
+      "default": [
+        {
+          "key": "NUMBER_OF_PREVIOUS_OWNERS",
+          "text": "Antal tidigare ägare",
+          "value": 3,
+          "type": "string"
+        },
+        {
+          "key": "REGISTRATION_PLATE",
+          "text": "Registreringsnummer",
+          "value": "EFE572",
+          "type": "string"
+        },
+        {
+          "key": "MODEL_YEAR",
+          "text": "Modellår",
+          "value": 2018,
+          "type": "string"
+        },
+        {
+          "key": "MANUFACTURE_MONTH",
+          "text": "Tillverkningsmånad",
+          "value": "201802",
+          "type": "manufacture_month"
+        },
+        {
+          "key": "ODOMETER_READING",
+          "text": "Mätarställning",
+          "value": 92570,
+          "type": "distance"
+        },
+        {
+          "key": "INITIAL_TRAFFIC_DATE",
+          "text": "Första datum i trafik i Sverige",
+          "value": "2018-10-19",
+          "type": "date"
+        },
+        {
+          "key": "SERVICE_BOOK",
+          "text": "Servicehistorik",
+          "value": "Service utförd vid följande mil: 1130, 2915, 3770, 5304, 6249, 7734, 9094 mil, senast 2026-09-04",
+          "type": "string"
+        },
+        {
+          "key": "SERVICE_BOOK_TYPE",
+          "text": "Servicebok",
+          "value": "Elektronisk",
+          "type": "string"
+        },
+        {
+          "key": "GEARBOX",
+          "text": "Växellåda",
+          "value": "Automat",
+          "type": "string"
+        },
+        {
+          "key": "NUMBER_OF_SEATS",
+          "text": "Antal säten",
+          "value": 5,
+          "type": "string"
+        },
+        {
+          "key": "NUMBER_OF_KEYS",
+          "text": "Antal nycklar",
+          "value": 2,
+          "type": "string"
+        },
+        {
+          "key": "EXTERIOR_COLOR",
+          "text": "Färg",
+          "value": "Svart",
+          "type": "string"
+        },
+        {
+          "key": "FINISH_TYPE",
+          "text": "Lack",
+          "value": "Metallic",
+          "type": "string"
+        },
+        {
+          "key": "TEXTILE",
+          "text": "Klädsel",
+          "value": "Läder/Alcantara",
+          "type": "string"
+        },
+        {
+          "key": "MANUFACTURER_WARRANTY",
+          "text": "Nybilsgaranti",
+          "value": "Inte undersökt",
+          "type": "string"
+        },
+        {
+          "key": "COLLISION_WARRANTY",
+          "text": "Vagnskadegaranti",
+          "value": "Inte undersökt",
+          "type": "string"
+        },
+        {
+          "key": "TAX_FEE",
+          "text": "Skatt årsavgift",
+          "value": "1130 SEK",
+          "type": "string"
+        }
+      ],
+      "additional": [
+        {
+          "key": "CHASSIS_NUMBER",
+          "text": "Chassinummer",
+          "value": "WMWYT1107J3E86188",
+          "type": "string"
+        },
+        {
+          "key": "ENGINE_EFFECT_PETROL",
+          "text": "Motoreffekt (bensin)",
+          "value": 192,
+          "type": "engine_power"
+        },
+        {
+          "key": "TOWBAR",
+          "text": "Dragkrok",
+          "value": "Nej",
+          "type": "string"
+        },
+        {
+          "key": "MAX_PAYLOAD",
+          "text": "Maxlastvikt",
+          "value": 420,
+          "type": "weight"
+        },
+        {
+          "key": "CONSUMPTION_PETROL",
+          "text": "Bränsleförbr. blandad körning (bensin)",
+          "value": 6.4,
+          "type": "consumption"
+        },
+        {
+          "key": "CO2_PETROL",
+          "text": "CO2-utsläpp (bensin)",
+          "value": 146,
+          "type": "emission"
+        },
+        {
+          "key": "INSPECTION_VALID_TO_DATE",
+          "text": "Nästa besiktning senast",
+          "value": "2027-01-31",
+          "type": "string"
+        },
+        {
+          "key": "CURB_WEIGHT",
+          "text": "Tjänstevikt",
+          "value": 1700,
+          "type": "weight"
+        },
+        {
+          "key": "TAX_WEIGHT",
+          "text": "Skattevikt",
+          "value": 1700,
+          "type": "weight"
+        },
+        {
+          "key": "MAX_TRAILER_WEIGHT",
+          "text": "Maximal släpvagnsvikt",
+          "value": 1800,
+          "type": "weight"
+        },
+        {
+          "key": "TOTAL_WEIGHT",
+          "text": "Fordonets totalvikt",
+          "value": 2120,
+          "type": "weight"
+        },
+        {
+          "key": "LENGTH",
+          "text": "Längd",
+          "value": 4299,
+          "type": "length"
+        },
+        {
+          "key": "WIDTH",
+          "text": "Bredd",
+          "value": 1822,
+          "type": "length"
+        },
+        {
+          "key": "HEIGHT",
+          "text": "Höjd",
+          "value": 1557,
+          "type": "length"
+        }
+      ],
+      "other": [
+        {
+          "key": "SOLD_IN_SWEDEN",
+          "text": "Svensksåld",
+          "value": "Ja",
+          "type": "string"
+        },
+        {
+          "key": "EXPORTABLE",
+          "text": "Kan exporteras",
+          "value": "Ja",
+          "type": "string"
+        },
+        {
+          "key": "DEDUCTIBLE_VAT",
+          "text": "Avlyftbar moms",
+          "value": "Nej",
+          "type": "string"
+        }
+      ]
+    },
+    "majorFeature": [
+      {
+        "key": "4WD",
+        "title": "4WD",
+        "value": null,
+        "equipment": "Utrustning",
+        "description": "Konstant eller inkopplingsbar fyrhjulsdrift"
+      },
+      {
+        "key": "ADAPTIV_FARTHALLARE",
+        "title": "Adaptiv farthållare",
+        "value": null,
+        "equipment": "Utrustning",
+        "description": "Farthållare som hjälper till att hålla ett givet avstånd till framförvarande fordon."
+      },
+      {
+        "key": "BACKKAMERA",
+        "title": "Backkamera",
+        "value": null,
+        "equipment": "Utrustning",
+        "description": "Kamera som underlättar vid backning"
+      },
+      {
+        "key": "SMARTPHONE_INTEGRATION",
+        "title": "Smartphone integration",
+        "value": null,
+        "equipment": "Utrustning",
+        "description": null
+      }
+    ],
+    "batteryTestCertificateAvailable": false
+  },
+  "previewImages": [
+    {
+      "processObjectId": "7293883",
+      "uri": "https://kvdbil-images.imgix.net/7293883/dfb87602.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7293883/dfb87602.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 1
+    },
+    {
+      "processObjectId": "7293883",
+      "uri": "https://kvdbil-images.imgix.net/7293883/e80bd050.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7293883/e80bd050.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 1
+    },
+    {
+      "processObjectId": "7293883",
+      "uri": "https://kvdbil-images.imgix.net/7293883/5d43fe08.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7293883/5d43fe08.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 2
+    },
+    {
+      "processObjectId": "7293883",
+      "uri": "https://kvdbil-images.imgix.net/7293883/38697a6a.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7293883/38697a6a.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 2
+    },
+    {
+      "processObjectId": "7293883",
+      "uri": "https://kvdbil-images.imgix.net/7293883/342212bf.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7293883/342212bf.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 3
+    },
+    {
+      "processObjectId": "7293883",
+      "uri": "https://kvdbil-images.imgix.net/7293883/21fe84bd.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7293883/21fe84bd.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 4
+    },
+    {
+      "processObjectId": "7293883",
+      "uri": "https://kvdbil-images.imgix.net/7293883/911140a6.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7293883/911140a6.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 4
+    },
+    {
+      "processObjectId": "7293883",
+      "uri": "https://kvdbil-images.imgix.net/7293883/9d28b5ad.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7293883/9d28b5ad.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 5
+    },
+    {
+      "processObjectId": "7293883",
+      "uri": "https://kvdbil-images.imgix.net/7293883/0b87352c.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7293883/0b87352c.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 5
+    },
+    {
+      "processObjectId": "7293883",
+      "uri": "https://kvdbil-images.imgix.net/7293883/10383fea.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7293883/10383fea.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 6
+    },
+    {
+      "processObjectId": "7293883",
+      "uri": "https://kvdbil-images.imgix.net/7293883/6eff6f1b.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7293883/6eff6f1b.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 7
+    },
+    {
+      "processObjectId": "7293883",
+      "uri": "https://kvdbil-images.imgix.net/7293883/e421bcbb.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7293883/e421bcbb.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 7
+    },
+    {
+      "processObjectId": "7293883",
+      "uri": "https://kvdbil-images.imgix.net/7293883/d97f67a3.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7293883/d97f67a3.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 8
+    },
+    {
+      "processObjectId": "7293883",
+      "uri": "https://kvdbil-images.imgix.net/7293883/247919ff.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7293883/247919ff.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 8
+    },
+    {
+      "processObjectId": "7293883",
+      "uri": "https://kvdbil-images.imgix.net/7293883/000c6704.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7293883/000c6704.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 9
+    },
+    {
+      "processObjectId": "7293883",
+      "uri": "https://kvdbil-images.imgix.net/7293883/253e6afa.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7293883/253e6afa.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 9
+    },
+    {
+      "processObjectId": "7293883",
+      "uri": "https://kvdbil-images.imgix.net/7293883/5cdd3d03.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7293883/5cdd3d03.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 10
+    },
+    {
+      "processObjectId": "7293883",
+      "uri": "https://kvdbil-images.imgix.net/7293883/e50bf29e.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7293883/e50bf29e.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 10
+    },
+    {
+      "processObjectId": "7293883",
+      "uri": "https://kvdbil-images.imgix.net/7293883/81257e2d.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7293883/81257e2d.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 11
+    },
+    {
+      "processObjectId": "7293883",
+      "uri": "https://kvdbil-images.imgix.net/7293883/8cacc64e.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7293883/8cacc64e.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 11
+    },
+    {
+      "processObjectId": "7293883",
+      "uri": "https://kvdbil-images.imgix.net/7293883/a6639f7c.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7293883/a6639f7c.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 12
+    },
+    {
+      "processObjectId": "7293883",
+      "uri": "https://kvdbil-images.imgix.net/7293883/8c882b21.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7293883/8c882b21.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 12
+    },
+    {
+      "processObjectId": "7293883",
+      "uri": "https://kvdbil-images.imgix.net/7293883/c452dff7.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7293883/c452dff7.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 13
+    },
+    {
+      "processObjectId": "7293883",
+      "uri": "https://kvdbil-images.imgix.net/7293883/03268600.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7293883/03268600.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 14
+    },
+    {
+      "processObjectId": "7293883",
+      "uri": "https://kvdbil-images.imgix.net/7293883/fc6fe067.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7293883/fc6fe067.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 14
+    },
+    {
+      "processObjectId": "7293883",
+      "uri": "https://kvdbil-images.imgix.net/7293883/a29ce85e.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7293883/a29ce85e.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 15
+    },
+    {
+      "processObjectId": "7293883",
+      "uri": "https://kvdbil-images.imgix.net/7293883/81c4ed5d.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7293883/81c4ed5d.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 15
+    },
+    {
+      "processObjectId": "7293883",
+      "uri": "https://kvdbil-images.imgix.net/7293883/faabce32.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7293883/faabce32.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 16
+    },
+    {
+      "processObjectId": "7293883",
+      "uri": "https://kvdbil-images.imgix.net/7293883/6d768600.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7293883/6d768600.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 16
+    },
+    {
+      "processObjectId": "7293883",
+      "uri": "https://kvdbil-images.imgix.net/7293883/877be4cf.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7293883/877be4cf.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 17
+    },
+    {
+      "processObjectId": "7293883",
+      "uri": "https://kvdbil-images.imgix.net/7293883/c888178c.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7293883/c888178c.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 17
+    },
+    {
+      "processObjectId": "7293883",
+      "uri": "https://kvdbil-images.imgix.net/7293883/00b445da.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7293883/00b445da.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 18
+    },
+    {
+      "processObjectId": "7293883",
+      "uri": "https://kvdbil-images.imgix.net/7293883/37344e62.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7293883/37344e62.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 20
+    },
+    {
+      "processObjectId": "7293883",
+      "uri": "https://kvdbil-images.imgix.net/7293883/8c998183.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7293883/8c998183.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 22
+    },
+    {
+      "processObjectId": "7293883",
+      "uri": "https://kvdbil-images.imgix.net/7293883/d64b99a9.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7293883/d64b99a9.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 23
+    }
+  ],
+  "similarAuctions": [],
+  "activeAuction": {
+    "auctionId": "310428",
+    "closed": true,
+    "countdownInProgress": true,
+    "preliminaryCloseAt": "2026-11-12T09:45:37.204108+00:00",
+    "createdAt": "2026-11-09T15:52:28.480164+00:00",
+    "updatedAt": "2026-11-12T09:45:37.214485+00:00",
+    "vatExcludedBiddingAllowed": false,
+    "reservationPriceReached": false,
+    "bids": [
+      {
+        "id": 18751365,
+        "auctionId": 310428,
+        "bidderAlias": "1",
+        "amount": 167500,
+        "type": "NORMAL",
+        "maxBidId": 10957206,
+        "triggeredBy": 10957206,
+        "createdAt": "2026-11-12T09:42:07.209168+00:00",
+        "updatedAt": "2026-11-12T09:42:07.209179+00:00"
+      },
+      {
+        "id": 18751361,
+        "auctionId": 310428,
+        "bidderAlias": "7",
+        "amount": 167000,
+        "type": "AUTO",
+        "maxBidId": 10957194,
+        "triggeredBy": 10957203,
+        "createdAt": "2026-11-12T09:41:49.936189+00:00",
+        "updatedAt": "2026-11-12T09:41:49.936192+00:00"
+      },
+      {
+        "id": 18751360,
+        "auctionId": 310428,
+        "bidderAlias": "5",
+        "amount": 166500,
+        "type": "NORMAL",
+        "maxBidId": 10957203,
+        "triggeredBy": 10957203,
+        "createdAt": "2026-11-12T09:41:49.936178+00:00",
+        "updatedAt": "2026-11-12T09:41:49.936186+00:00"
+      },
+      {
+        "id": 18751350,
+        "auctionId": 310428,
+        "bidderAlias": "7",
+        "amount": 160500,
+        "type": "AUTO",
+        "maxBidId": 10957194,
+        "triggeredBy": 10957197,
+        "createdAt": "2026-11-12T09:41:02.953933+00:00",
+        "updatedAt": "2026-11-12T09:41:02.953935+00:00"
+      },
+      {
+        "id": 18751349,
+        "auctionId": 310428,
+        "bidderAlias": "1",
+        "amount": 160000,
+        "type": "NORMAL",
+        "maxBidId": 10957197,
+        "triggeredBy": 10957197,
+        "createdAt": "2026-11-12T09:41:02.953924+00:00",
+        "updatedAt": "2026-11-12T09:41:02.953930+00:00"
+      },
+      {
+        "id": 18751348,
+        "auctionId": 310428,
+        "bidderAlias": "7",
+        "amount": 155500,
+        "type": "AUTO",
+        "maxBidId": 10957194,
+        "triggeredBy": 10957196,
+        "createdAt": "2026-11-12T09:40:54.099147+00:00",
+        "updatedAt": "2026-11-12T09:40:54.099150+00:00"
+      },
+      {
+        "id": 18751347,
+        "auctionId": 310428,
+        "bidderAlias": "1",
+        "amount": 155000,
+        "type": "NORMAL",
+        "maxBidId": 10957196,
+        "triggeredBy": 10957196,
+        "createdAt": "2026-11-12T09:40:54.099099+00:00",
+        "updatedAt": "2026-11-12T09:40:54.099144+00:00"
+      },
+      {
+        "id": 18751345,
+        "auctionId": 310428,
+        "bidderAlias": "7",
+        "amount": 152500,
+        "type": "NORMAL",
+        "maxBidId": 10957194,
+        "triggeredBy": 10957194,
+        "createdAt": "2026-11-12T09:40:45.620817+00:00",
+        "updatedAt": "2026-11-12T09:40:45.620820+00:00"
+      },
+      {
+        "id": 18751344,
+        "auctionId": 310428,
+        "bidderAlias": "5",
+        "amount": 152000,
+        "type": "LIMIT_REACHED",
+        "maxBidId": 10957120,
+        "triggeredBy": 10957194,
+        "createdAt": "2026-11-12T09:40:45.620809+00:00",
+        "updatedAt": "2026-11-12T09:40:45.620814+00:00"
+      },
+      {
+        "id": 18751342,
+        "auctionId": 310428,
+        "bidderAlias": "5",
+        "amount": 151500,
+        "type": "AUTO",
+        "maxBidId": 10957120,
+        "triggeredBy": 10957192,
+        "createdAt": "2026-11-12T09:40:37.231964+00:00",
+        "updatedAt": "2026-11-12T09:40:37.231968+00:00"
+      },
+      {
+        "id": 18751341,
+        "auctionId": 310428,
+        "bidderAlias": "1",
+        "amount": 151000,
+        "type": "NORMAL",
+        "maxBidId": 10957192,
+        "triggeredBy": 10957192,
+        "createdAt": "2026-11-12T09:40:37.231949+00:00",
+        "updatedAt": "2026-11-12T09:40:37.231959+00:00"
+      },
+      {
+        "id": 18751338,
+        "auctionId": 310428,
+        "bidderAlias": "5",
+        "amount": 145500,
+        "type": "AUTO",
+        "maxBidId": 10957120,
+        "triggeredBy": 10957190,
+        "createdAt": "2026-11-12T09:40:27.458899+00:00",
+        "updatedAt": "2026-11-12T09:40:27.458903+00:00"
+      },
+      {
+        "id": 18751337,
+        "auctionId": 310428,
+        "bidderAlias": "1",
+        "amount": 145000,
+        "type": "NORMAL",
+        "maxBidId": 10957190,
+        "triggeredBy": 10957190,
+        "createdAt": "2026-11-12T09:40:27.458885+00:00",
+        "updatedAt": "2026-11-12T09:40:27.458894+00:00"
+      },
+      {
+        "id": 18751336,
+        "auctionId": 310428,
+        "bidderAlias": "5",
+        "amount": 136500,
+        "type": "AUTO",
+        "maxBidId": 10957120,
+        "triggeredBy": 10957189,
+        "createdAt": "2026-11-12T09:40:23.559400+00:00",
+        "updatedAt": "2026-11-12T09:40:23.559405+00:00"
+      },
+      {
+        "id": 18751335,
+        "auctionId": 310428,
+        "bidderAlias": "6",
+        "amount": 136000,
+        "type": "NORMAL",
+        "maxBidId": 10957189,
+        "triggeredBy": 10957189,
+        "createdAt": "2026-11-12T09:40:23.559379+00:00",
+        "updatedAt": "2026-11-12T09:40:23.559395+00:00"
+      },
+      {
+        "id": 18751299,
+        "auctionId": 310428,
+        "bidderAlias": "5",
+        "amount": 135500,
+        "type": "AUTO",
+        "maxBidId": 10957120,
+        "triggeredBy": 10957167,
+        "createdAt": "2026-11-12T09:35:53.453434+00:00",
+        "updatedAt": "2026-11-12T09:35:53.453438+00:00"
+      },
+      {
+        "id": 18751298,
+        "auctionId": 310428,
+        "bidderAlias": "2",
+        "amount": 135000,
+        "type": "NORMAL",
+        "maxBidId": 10957167,
+        "triggeredBy": 10957167,
+        "createdAt": "2026-11-12T09:35:53.453414+00:00",
+        "updatedAt": "2026-11-12T09:35:53.453429+00:00"
+      },
+      {
+        "id": 18751212,
+        "auctionId": 310428,
+        "bidderAlias": "5",
+        "amount": 130500,
+        "type": "NORMAL",
+        "maxBidId": 10957120,
+        "triggeredBy": 10957120,
+        "createdAt": "2026-11-12T09:28:38.119976+00:00",
+        "updatedAt": "2026-11-12T09:28:38.119981+00:00"
+      },
+      {
+        "id": 18751211,
+        "auctionId": 310428,
+        "bidderAlias": "2",
+        "amount": 130000,
+        "type": "LIMIT_REACHED",
+        "maxBidId": 10957069,
+        "triggeredBy": 10957120,
+        "createdAt": "2026-11-12T09:28:38.119959+00:00",
+        "updatedAt": "2026-11-12T09:28:38.119970+00:00"
+      },
+      {
+        "id": 18751118,
+        "auctionId": 310428,
+        "bidderAlias": "2",
+        "amount": 125500,
+        "type": "NORMAL",
+        "maxBidId": 10957069,
+        "triggeredBy": 10957069,
+        "createdAt": "2026-11-12T09:23:57.919108+00:00",
+        "updatedAt": "2026-11-12T09:23:57.919111+00:00"
+      },
+      {
+        "id": 18751117,
+        "auctionId": 310428,
+        "bidderAlias": "4",
+        "amount": 125000,
+        "type": "LIMIT_REACHED",
+        "maxBidId": 10957026,
+        "triggeredBy": 10957069,
+        "createdAt": "2026-11-12T09:23:57.919096+00:00",
+        "updatedAt": "2026-11-12T09:23:57.919104+00:00"
+      },
+      {
+        "id": 18751041,
+        "auctionId": 310428,
+        "bidderAlias": "4",
+        "amount": 120500,
+        "type": "NORMAL",
+        "maxBidId": 10957026,
+        "triggeredBy": 10957026,
+        "createdAt": "2026-11-12T09:20:30.888084+00:00",
+        "updatedAt": "2026-11-12T09:20:30.888086+00:00"
+      },
+      {
+        "id": 18751040,
+        "auctionId": 310428,
+        "bidderAlias": "2",
+        "amount": 120000,
+        "type": "LIMIT_REACHED",
+        "maxBidId": 10956013,
+        "triggeredBy": 10957026,
+        "createdAt": "2026-11-12T09:20:30.888074+00:00",
+        "updatedAt": "2026-11-12T09:20:30.888082+00:00"
+      },
+      {
+        "id": 18750388,
+        "auctionId": 310428,
+        "bidderAlias": "2",
+        "amount": 118500,
+        "type": "AUTO",
+        "maxBidId": 10956013,
+        "triggeredBy": 10956671,
+        "createdAt": "2026-11-12T08:37:27.331974+00:00",
+        "updatedAt": "2026-11-12T08:37:27.331977+00:00"
+      },
+      {
+        "id": 18750387,
+        "auctionId": 310428,
+        "bidderAlias": "3",
+        "amount": 118000,
+        "type": "NORMAL",
+        "maxBidId": 10956671,
+        "triggeredBy": 10956671,
+        "createdAt": "2026-11-12T08:37:27.331959+00:00",
+        "updatedAt": "2026-11-12T08:37:27.331970+00:00"
+      },
+      {
+        "id": 18749795,
+        "auctionId": 310428,
+        "bidderAlias": "2",
+        "amount": 115500,
+        "type": "AUTO",
+        "maxBidId": 10956013,
+        "triggeredBy": 10956355,
+        "createdAt": "2026-11-12T06:26:43.420309+00:00",
+        "updatedAt": "2026-11-12T06:26:43.420313+00:00"
+      },
+      {
+        "id": 18749794,
+        "auctionId": 310428,
+        "bidderAlias": "1",
+        "amount": 115000,
+        "type": "NORMAL",
+        "maxBidId": 10956355,
+        "triggeredBy": 10956355,
+        "createdAt": "2026-11-12T06:26:43.420295+00:00",
+        "updatedAt": "2026-11-12T06:26:43.420305+00:00"
+      },
+      {
+        "id": 18749789,
+        "auctionId": 310428,
+        "bidderAlias": "2",
+        "amount": 112500,
+        "type": "AUTO",
+        "maxBidId": 10956013,
+        "triggeredBy": 10956352,
+        "createdAt": "2026-11-12T06:26:35.079308+00:00",
+        "updatedAt": "2026-11-12T06:26:35.079311+00:00"
+      },
+      {
+        "id": 18749788,
+        "auctionId": 310428,
+        "bidderAlias": "1",
+        "amount": 112000,
+        "type": "NORMAL",
+        "maxBidId": 10956352,
+        "triggeredBy": 10956352,
+        "createdAt": "2026-11-12T06:26:35.079294+00:00",
+        "updatedAt": "2026-11-12T06:26:35.079303+00:00"
+      },
+      {
+        "id": 18749172,
+        "auctionId": 310428,
+        "bidderAlias": "2",
+        "amount": 111500,
+        "type": "AUTO",
+        "maxBidId": 10956013,
+        "triggeredBy": 10956016,
+        "createdAt": "2026-11-11T21:36:25.688054+00:00",
+        "updatedAt": "2026-11-11T21:36:25.688056+00:00"
+      },
+      {
+        "id": 18749171,
+        "auctionId": 310428,
+        "bidderAlias": "1",
+        "amount": 111000,
+        "type": "NORMAL",
+        "maxBidId": 10956016,
+        "triggeredBy": 10956016,
+        "createdAt": "2026-11-11T21:36:25.688044+00:00",
+        "updatedAt": "2026-11-11T21:36:25.688051+00:00"
+      },
+      {
+        "id": 18749166,
+        "auctionId": 310428,
+        "bidderAlias": "2",
+        "amount": 110500,
+        "type": "NORMAL",
+        "maxBidId": 10956013,
+        "triggeredBy": 10956013,
+        "createdAt": "2026-11-11T21:35:43.846122+00:00",
+        "updatedAt": "2026-11-11T21:35:43.846133+00:00"
+      },
+      {
+        "id": 18742755,
+        "auctionId": 310428,
+        "bidderAlias": "1",
+        "amount": 110000,
+        "type": "NORMAL",
+        "maxBidId": 10952289,
+        "triggeredBy": 10952289,
+        "createdAt": "2026-11-11T06:04:34.883862+00:00",
+        "updatedAt": "2026-11-11T06:04:34.883873+00:00"
+      }
+    ],
+    "myBidderAlias": null,
+    "myMaxBid": null,
+    "highestBid": {
+      "id": 18751365,
+      "auctionId": 310428,
+      "bidderAlias": null,
+      "amount": 167500,
+      "type": "NORMAL",
+      "maxBidId": 10957206,
+      "triggeredBy": 10957206,
+      "createdAt": "2026-11-12T09:42:07.209168+00:00",
+      "updatedAt": "2026-11-12T09:42:07.209179+00:00",
+      "eurAmount": 15160
+    },
+    "buyNowAvailable": false,
+    "releasing": null,
+    "isHighestBidLowerThanResidualLoanValue": false
+  },
+  "checkoutOrder": null,
+  "previewImage": "https://kvdbil-images.imgix.net/7293883/dfb87602.jpg",
+  "_list_meta": {
+    "id": "310428",
+    "slug": "mini-cooper-s-all4-countryman-f60-192hk",
+    "auctionType": "BIDDING",
+    "closedAt": "2026-11-12T09:45:37.211984+00:00",
+    "updatedAt": "2026-11-12T14:22:49.720289+00:00"
+  },
+  "_scraped_at": "2026-11-12T17:29:45.946883+00:00",
+  "_url": "https://www.kvd.se/auktioner/mini-cooper-s-all4-countryman-f60-192hk-310428"
+}
