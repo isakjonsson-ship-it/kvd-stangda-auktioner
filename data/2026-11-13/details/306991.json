@@ -1,0 +1,2104 @@
+{
+  "id": "306991",
+  "auctionType": "BIDDING",
+  "biddingFee": "8325.00",
+  "biddingFeeCorporate": "11800.00",
+  "mediationFee": 0,
+  "mediationFeeCorporate": 0,
+  "buyNow": true,
+  "closedAt": "2026-11-09T10:33:11.725678+00:00",
+  "publishedAt": "2026-10-26T09:42:38.046381+00:00",
+  "countdownDuration": 210,
+  "countdownStartAt": "2026-11-09T10:23:30+00:00",
+  "createdAt": "2026-10-12T11:42:47.209584+00:00",
+  "readyForAuctionAt": "2026-10-25",
+  "currency": "SEK",
+  "maxBidRaise": 100000,
+  "minBidRaise": 500,
+  "startBid": 346000,
+  "openedAt": "2026-10-26T09:43:11.082306+00:00",
+  "processObjectId": "7291883",
+  "readyForCheckout": true,
+  "soldFor": 432000,
+  "sellMethod": "BIDDING",
+  "slug": "mercedes-glb-35-amg-4matic-x247-306hk",
+  "auctionUrl": "https://www.kvd.se/auktioner/mercedes-glb-35-amg-4matic-x247-306hk-306991",
+  "state": "PAYMENT_SEQUENCE_PENDING",
+  "targetedAuctionGroupId": null,
+  "updatedAt": "2026-11-09T13:34:23.888895+00:00",
+  "releasing": null,
+  "loan": {
+    "loanCost": 3680,
+    "loanCostBuyNow": 3875
+  },
+  "buyNowAmount": 454900,
+  "buyNowAvailable": false,
+  "buyNowUntil": "2026-11-07T10:23:30+00:00",
+  "eligibleForAdditionalServices": true,
+  "comingSoon": false,
+  "preliminaryPrice": 495000,
+  "maxAllowedBid": 742500,
+  "isReserved": false,
+  "isSoldByBuyNow": false,
+  "favouriteCount": 49,
+  "eurBuyNowAmount": 41120,
+  "winningBid": {
+    "id": 18730879,
+    "type": "NORMAL",
+    "amount": 432000,
+    "auctionId": 306991,
+    "createdAt": "2026-11-09T10:29:41.734334+00:00",
+    "maxBidId": 10945301,
+    "updatedAt": "2026-11-09T10:29:41.734341+00:00",
+    "bidderAlias": null,
+    "triggeredBy": 10945301,
+    "evaluationType": "AUTOMATIC"
+  },
+  "processObject": {
+    "id": "7291883",
+    "initialBuyNowAmount": 459900,
+    "certified": true,
+    "statisticalValuation": {
+      "bpGreen": null,
+      "bpWhite": 479700,
+      "bpOrange": 479700,
+      "marketPrice": 479700
+    },
+    "conditionClassification": "CERTIFIED",
+    "createdAt": "2026-10-12 11:34:53.178153+00:00",
+    "sellMethod": "BIDDING",
+    "orderableAdditionalServices": {
+      "tradein": false,
+      "transport": true,
+      "insurance": true,
+      "finance": true,
+      "warranty": true,
+      "extraTires": false
+    },
+    "presentationApproved": false,
+    "properties": {
+      "numberOfSeats": 5,
+      "environmentalClassEuro": "6",
+      "deductibleVat": false,
+      "residualLoanValue": 0,
+      "remarksLocalized": {
+        "TIRES": "2 däck mönsterdjup för litet,",
+        "BRAKES": null,
+        "EXTERIOR": null,
+        "INTERIOR": null,
+        "ENGINE_AND_GEARBOX": null,
+        "TECHNOLOGY_AND_EQUIPMENT": "Strålkastare vänster, repa på glas/plast"
+      },
+      "taxFee": 2516,
+      "modelYear": 2022,
+      "dateOfInspection": "2025-08-15",
+      "height": 1700,
+      "numberOfKeys": 2,
+      "ecoFriendly": false,
+      "maxPayload": 402,
+      "odometerReading": 39400,
+      "maxPullWeightB": 1240,
+      "formattedEquipment": [
+        {
+          "key": "4WD",
+          "title": "4WD",
+          "description": "Konstant eller inkopplingsbar fyrhjulsdrift",
+          "priority": 0
+        },
+        {
+          "key": "ANTISPINN",
+          "title": "Antispinn",
+          "description": "Hjälpsystem som förhindrar att hjulen spinner",
+          "priority": 1
+        },
+        {
+          "key": "AUTOBROMS",
+          "title": "Autobroms",
+          "description": "Automatisk inbromsning vid lägre hastigheter för mötande fordon och hinder framför bilen (City Safety)",
+          "priority": 2
+        },
+        {
+          "key": "BACKKAMERA",
+          "title": "Backkamera",
+          "description": "Kamera som underlättar vid backning",
+          "priority": 3
+        },
+        {
+          "key": "BLUETOOTH",
+          "title": "Bluetooth",
+          "description": "Trådlös uppkoppling mot mobila enheter",
+          "priority": 4
+        },
+        {
+          "key": "ELSPEGLAR",
+          "title": "Elspeglar",
+          "description": "Elektroniskt ställbara sidospeglar",
+          "priority": 5
+        },
+        {
+          "key": "FARTHALLARE",
+          "title": "Farthållare",
+          "description": "Elektroniskt system som håller inprogrammerad hastighet",
+          "priority": 6
+        },
+        {
+          "key": "FJARRLAS",
+          "title": "Fjärrlås",
+          "description": "Möjliggör att du på distans kan låsa och låsa upp bilen",
+          "priority": 7
+        },
+        {
+          "key": "GPS",
+          "title": "GPS",
+          "description": "Navigationssystem med vägbeskrivning",
+          "priority": 8
+        },
+        {
+          "key": "RADIO",
+          "title": "Radio",
+          "description": "Radiospelare",
+          "priority": 9
+        },
+        {
+          "key": "REGNSENSOR",
+          "title": "Regnsensor",
+          "description": "Automatiska vindrutetorkare, sensorer som reagerar på vatten",
+          "priority": 10
+        },
+        {
+          "key": "STOLSVARME_FRAM",
+          "title": "Stolsvärme fram",
+          "description": "Olika nivåer av värme i stolarna fram som ställs in via en knapp",
+          "priority": 11
+        },
+        {
+          "key": "AKTIV_PARKERINGSHJALP",
+          "title": "Aktiv parkeringshjälp",
+          "description": " Parkeringshjälp som använder ultraljudssensorer där den mäter upp utrymme mellan bilar.",
+          "priority": 12
+        },
+        {
+          "key": "ANTISLADDSYSTEM",
+          "title": "Antisladdsystem",
+          "description": "Ett system som känner av om bilen håller på att sladda. Genom att bromsa enskilda hjul stabiliseras bilen och sladden förhindras, även kallat ESP.",
+          "priority": 13
+        },
+        {
+          "key": "ASSISTANSSYSTEM",
+          "title": "Assistanssystem",
+          "description": "Uppkopplad tjänst för att exempelvis kunna kontrollera din bil på distans med hjälp av en mobilapp. Funktioner som bygger på 2G eller 3G-uppkoppling kan sluta fungera i samband med att dessa nätverk stängs ner av operatörerna.",
+          "priority": 14
+        },
+        {
+          "key": "ELDRIVEN_BAKLUCKA",
+          "title": "Eldriven baklucka",
+          "description": "Baklucka som öppnas/stängs elektroniskt.",
+          "priority": 15
+        },
+        {
+          "key": "ELHISS_BAK",
+          "title": "Elhiss bak",
+          "description": "Elektroniska fönsterhissar bak",
+          "priority": 16
+        },
+        {
+          "key": "ELHISS_FRAM",
+          "title": "Elhiss fram",
+          "description": "Elektronisk fönsterhiss fram",
+          "priority": 17
+        },
+        {
+          "key": "ELINFALLBARA_SPEGLAR",
+          "title": "Elinfällbara backspeglar",
+          "description": "Speglar som fälls in automatiskt när bilen låses eller manuellt via knapp",
+          "priority": 18
+        },
+        {
+          "key": "ELSTOL_MED_MINNESFUNKTION_FORARPLATS",
+          "title": "Elstol med minnesfunktion förarplats",
+          "description": "Elektronisk ställbar förarstol med programmerbara lägen",
+          "priority": 19
+        },
+        {
+          "key": "ELSTOL_MINNESFUNKTION_PASSAGERARPLATS",
+          "title": "Elstol minnesfunktion passagerarplats",
+          "description": null,
+          "priority": 20
+        },
+        {
+          "key": "FILBYTESVARNARE",
+          "title": "Filbytesvarnare",
+          "description": "Elektroniskt säkerhetssystem som varnar vid oplanerade filbyten",
+          "priority": 21
+        },
+        {
+          "key": "INFALLBAR_DRAGKROK",
+          "title": "Infällbar dragkrok",
+          "description": " Anordning för att dra exempelvis personbilssläp, båttrailer mm. Kan fällas in/ut.",
+          "priority": 22
+        },
+        {
+          "key": "ISOFIX_BAK",
+          "title": "Isofix bak",
+          "description": "  Fästsystem för bilbarnstolar enligt internationell standard, även kallat Isofix",
+          "priority": 23
+        },
+        {
+          "key": "KLIMATANLAGGNING",
+          "title": "Klimatanläggning",
+          "description": "Luftkonditionering med möjlighet till automatisk temperaturinställning",
+          "priority": 24
+        },
+        {
+          "key": "KURVLJUS",
+          "title": "Kurvljus",
+          "description": "Maximerar ljusstyrkan i kurvor och korsningar",
+          "priority": 25
+        },
+        {
+          "key": "LED_STRALKASTARE",
+          "title": "LED-strålkastare",
+          "description": "Strålkastare med LED-ljus har ett konstant vitt ljus och har samma ljusstyrka från star",
+          "priority": 26
+        },
+        {
+          "key": "NYCKELLOST_STARTSYSTEM",
+          "title": "Nyckellöst startsystem",
+          "description": "Startknapp i bilen utan tändningslås. Även kallat Keyless-go",
+          "priority": 27
+        },
+        {
+          "key": "PARKERINGSSENSORER_BAK",
+          "title": "Parkeringssensorer bak",
+          "description": "Sensorer på stötfångare baktill som varnar för hinder bakom bilen",
+          "priority": 28
+        },
+        {
+          "key": "PARKERINGSSENSORER_FRAM",
+          "title": "Parkeringssensorer fram",
+          "description": "Sensorer på stötfångare som varnar för hinder framför bilen",
+          "priority": 29
+        },
+        {
+          "key": "PARKERINGSVARMARE_MED_TIDUR",
+          "title": "Parkeringsvärmare med tidur",
+          "description": null,
+          "priority": 30
+        },
+        {
+          "key": "START_STOP_FUNKTION",
+          "title": "Start/Stopp-funktion",
+          "description": "Automatisk på och avstängning av motor vid exempelvis trafikljus",
+          "priority": 31
+        },
+        {
+          "key": "URKOPPLINGSBAR_PASSAGERARAIRBAG",
+          "title": "Urkopplingsbar passagerarairbag",
+          "description": "Möjlighet att koppla till och från airbagen på passagerarsidan",
+          "priority": 32
+        },
+        {
+          "key": "USB_INGANG",
+          "title": "USB-ingång",
+          "description": "Inkoppling av mobil enhet via USB-kontakt",
+          "priority": 33
+        },
+        {
+          "key": "OPPNINGSBART_PANORAMATAK",
+          "title": "Öppningsbart panoramatak",
+          "description": "Glastak som är delvis öppningsbart",
+          "priority": 34
+        },
+        {
+          "key": "AKTIV_KURSHALLNINGSASSISTENT",
+          "title": "Aktiv kurshållningsassistent",
+          "description": null,
+          "priority": 35
+        },
+        {
+          "key": "WIDESCREEN_COCKPIT",
+          "title": "Widescreen Cockpit",
+          "description": null,
+          "priority": 36
+        },
+        {
+          "key": "ADAPTIVT_STALLBART_CHASSI",
+          "title": "Adaptivt Ställbart chassi",
+          "description": null,
+          "priority": 37
+        },
+        {
+          "key": "DAB",
+          "title": "DAB+",
+          "description": null,
+          "priority": 38
+        },
+        {
+          "key": "SPORTSTOLAR",
+          "title": "Sportstolar",
+          "description": null,
+          "priority": 39
+        },
+        {
+          "key": "AKTIV_PARKERINGSHJALP",
+          "title": "Aktiv parkeringshjälp",
+          "description": " Parkeringshjälp som använder ultraljudssensorer där den mäter upp utrymme mellan bilar.",
+          "priority": 40
+        },
+        {
+          "key": "MINNESPAKET",
+          "title": "Minnespaket",
+          "description": null,
+          "priority": 41
+        },
+        {
+          "key": "AMG_LINE",
+          "title": "AMG Line",
+          "description": null,
+          "priority": 42
+        },
+        {
+          "key": "PARKERINGSPAKET",
+          "title": "Parkeringspaket",
+          "description": null,
+          "priority": 43
+        },
+        {
+          "key": "SPEGELPAKET",
+          "title": "Spegelpaket",
+          "description": null,
+          "priority": 44
+        },
+        {
+          "key": "EXTERIOR_AMG_NIGHT_PACKAGE",
+          "title": "EXTERIÖR AMG NIGHT PACKAGE",
+          "description": null,
+          "priority": 45
+        },
+        {
+          "key": "INSTEGSLIST_BELYST",
+          "title": "Instegslist belyst",
+          "description": null,
+          "priority": 46
+        },
+        {
+          "key": "AKKOMFORTPAKET",
+          "title": "Åkkomfortpaket",
+          "description": null,
+          "priority": 47
+        },
+        {
+          "key": "LJUS_OCH_SAKTPAKET",
+          "title": "Ljus- och säktpaket",
+          "description": null,
+          "priority": 48
+        }
+      ],
+      "odometerUnit": "km",
+      "remarks": {
+        "TIRES": [
+          {
+            "id": "0",
+            "key": "2 däck mönsterdjup för litet,",
+            "category": "TIRES"
+          }
+        ],
+        "BRAKES": [],
+        "TECHNOLOGY_AND_EQUIPMENT": [
+          {
+            "id": "0",
+            "key": "Strålkastare vänster, repa på glas/plast",
+            "category": "TECHNOLOGY_AND_EQUIPMENT"
+          }
+        ],
+        "EXTERIOR": [],
+        "INTERIOR": [],
+        "ENGINE_AND_GEARBOX": []
+      },
+      "brand": "Mercedes",
+      "drivingBan": false,
+      "modelName": "GLB 35 AMG 4MATIC X247 (306hk)",
+      "totalWeight": 2260,
+      "textile": "Läder/Alcantara",
+      "saleLimitedToCorporate": false,
+      "gearbox": "Automatic",
+      "manufactureMonth": "202204",
+      "hasUnpaidLoan": false,
+      "curbWeight": 1858,
+      "grades": {
+        "BRAKES": {
+          "value": 3,
+          "min": 1,
+          "max": 3
+        },
+        "TOTAL": {
+          "value": 3,
+          "min": 1,
+          "max": 5
+        },
+        "TECHNOLOGY_AND_EQUIPMENT": {
+          "value": 3,
+          "min": 1,
+          "max": 3
+        },
+        "EXTERIOR": {
+          "value": 3,
+          "min": 1,
+          "max": 5
+        },
+        "INTERIOR": {
+          "value": 3,
+          "min": 1,
+          "max": 5
+        },
+        "ENGINE_AND_GEARBOX": {
+          "value": 3,
+          "min": 1,
+          "max": 3
+        }
+      },
+      "heavyEquipment": false,
+      "registrationPlate": "HZP90Z",
+      "equipment": [
+        "4WD",
+        "Antispinn",
+        "Autobroms",
+        "Backkamera",
+        "Bluetooth",
+        "Elspeglar",
+        "Farthållare",
+        "Fjärrlås",
+        "GPS",
+        "Radio",
+        "Regnsensor",
+        "Stolsvärme fram",
+        "Aktiv parkeringshjälp",
+        "Antisladdsystem",
+        "Assistanssystem",
+        "Eldriven baklucka",
+        "Elhiss bak",
+        "Elhiss fram",
+        "Elinfällbara speglar",
+        "Elstol med minnesfunktion förarplats",
+        "Elstol minnesfunktion passagerarplats",
+        "Filbytesvarnare",
+        "Infällbar dragkrok",
+        "Isofix bak",
+        "Klimatanläggning",
+        "Kurvljus",
+        "LED-strålkastare",
+        "Nyckellöst startsystem",
+        "Parkeringssensorer bak",
+        "Parkeringssensorer fram",
+        "Parkeringsvärmare med tidur",
+        "Start/Stop-funktion",
+        "Urkopplingsbar passagerarairbag",
+        "USB-ingång",
+        "Öppningsbart panoramatak",
+        "Aktiv kurshållningsassistent",
+        "Widescreen cockpit",
+        "Adaptivt Ställbart chassi",
+        "DAB",
+        "Sportstolar",
+        "Aktiv parkeringshjälp",
+        "Minnespaket",
+        "AMG Line",
+        "Parkeringspaket",
+        "Spegelpaket",
+        "Exteriör AMG Night package",
+        "Instegslist belyst",
+        "Åkkomfortpaket",
+        "Ljus- och säktpaket"
+      ],
+      "importedForPersonalUse": false,
+      "exteriorColor": "Silver",
+      "isRepairObject": false,
+      "width": 1845,
+      "fuels": [
+        {
+          "fuelCode": "Petrol",
+          "enginePower": 306
+        }
+      ],
+      "registrationCountry": "se",
+      "inspectionPeriod": "2025-08-15 - 2027-08-31",
+      "inspectionValidToDate": "2027-08-31",
+      "finishType": "Metallic",
+      "body": "SUV",
+      "mustExport": false,
+      "towbar": false,
+      "initialTrafficDate": "2022-08-03",
+      "chassisNumber": "W1N2476511W207683",
+      "numberOfPreviousOwners": 3,
+      "mediation": true,
+      "title": "Mercedes GLB 35 AMG 4MATIC X247 (306hk)",
+      "taxWeight": 1850,
+      "familyName": "GLB",
+      "length": 4650,
+      "exportable": true,
+      "registrationPlateCountry": "se",
+      "heading1": "Mercedes GLB",
+      "heading2": "35 AMG 4MATIC X247",
+      "heading3": null
+    },
+    "state": "COMPLETED",
+    "baseObjectId": "522176",
+    "leaseReturnProperties": {},
+    "isReleasable": false,
+    "offsiteSalesContact": null,
+    "buyNowAmount": 454900,
+    "proactiveBrokering": null,
+    "displayCar360Spin": true,
+    "reducedPrice": true,
+    "objectType": "CAR",
+    "car360Spin": null,
+    "isFixedPrice": false,
+    "baseObject": {
+      "id": "522176",
+      "year": "2022",
+      "earliestAvailableAt": null,
+      "registrationPlate": "HZP90Z",
+      "baseObjectType": "CAR",
+      "createdAt": "2026-10-12T11:15:20.316258+00:00",
+      "modelId": null,
+      "body": "SUV",
+      "salesFlow": "CONSUMER_CARS",
+      "state": "PREPARING_SALES_AGREEMENT",
+      "brand": "Mercedes-Benz",
+      "exteriorColor": "Silver",
+      "modelName": "GLB 35 AMG 4MATIC X247 (306hk)",
+      "authorityRegisterInformation": {
+        "registrationInformation": {
+          "registrationPlate": "HZP90Z",
+          "deregistrationDate": null,
+          "deregistrationText": null,
+          "deregistrationReason": null
+        },
+        "environmentalClassification": {
+          "fuels": [
+            {
+              "co2": "",
+              "nox": "",
+              "nox4": null,
+              "fuelCode": "Petrol",
+              "hcThcNox": "",
+              "consumption": "",
+              "noiseLevel": 69,
+              "emissionUnit": "g/km",
+              "innovationCo2": null,
+              "particleValue": "",
+              "particleMass4": null,
+              "consumptionUnit": "",
+              "rangeNedcDrive": null,
+              "rangeWltpDrive": null,
+              "consumptionUrban": "",
+              "rangeCityWltpDrive": null,
+              "consumptionExtraUrban": "",
+              "electricEnergyConsumption": null,
+              "energyConsumptionWltpDrive": null
+            }
+          ],
+          "ecoFriendly": false,
+          "emissionClass": "EURO 6",
+          "innovationCode": null,
+          "environmentalClass": null,
+          "environmentalClassEuro": "6"
+        },
+        "generalTechSpecification": {
+          "eeg": "e1*2007/46*1909*15",
+          "fuels": [
+            {
+              "fuelCode": "Petrol",
+              "powerUnit": "EG",
+              "enginePower": 225,
+              "enginePowerHp": 306,
+              "fuelTankVolume": ""
+            }
+          ],
+          "width": 1845,
+          "height": 1700,
+          "length": 4650,
+          "gearbox": "Automatic",
+          "variant": "OX51T1",
+          "version": "JZAA150A",
+          "taxWeight": 1850,
+          "curbWeight": 1858,
+          "maxPayload": 402,
+          "totalWeight": 2260,
+          "chassisCode1": null,
+          "chassisCode2": null,
+          "cubicCapacity": "1991",
+          "numPassengers": "4",
+          "numberOfSeats": 5,
+          "fourWheelDrive": true,
+          "maxPullWeightB": 1240,
+          "clutchMechanism1": null,
+          "clutchMechanism2": null,
+          "maxTrailerWeight": null,
+          "chassisCodeSupplement": null,
+          "maxPullWieghtNoBreaks": null,
+          "maxPullWeightBExtended": null,
+          "maxSingle Axle TrailerWeight": null
+        },
+        "vehicleStatus": {
+          "tax": 2516
+        },
+        "vehicleInformation": {
+          "vin": "W1N2476511W207683",
+          "body": "AC",
+          "type": "CAR",
+          "year": "2022",
+          "model": "AMG GLB 35",
+          "rawType": "PB",
+          "modelYear": null,
+          "categoryEu": "e1*2007/46*1909*15",
+          "groupNumber": "MB 516510",
+          "modelNumber": "MB 000000",
+          "chassisNumber": "W1N2476511W207683",
+          "exteriorColor": "Silver",
+          "fabricAndMake": "MERCEDES-BENZ",
+          "baseObjectType": "CAR",
+          "manufactureCode": null,
+          "manufactureMonth": "202204",
+          "registrationDate": "2022-04-16",
+          "initialTrafficDate": "2022-08-03",
+          "registrationPlateReused": null
+        },
+        "vehicleOrigin": {
+          "originCode": "INFÖRT",
+          "originCodeReason": null,
+          "importerIdentifier": null,
+          "preRegistrationDate": null,
+          "importRegistrationDate": null,
+          "importedForPersonalUse": false,
+          "importedPreviouslyRegistered": false
+        },
+        "vehicleInspectionInformation": {
+          "inspections": [
+            {
+              "inspectionType": "5",
+              "odometerReading": 28473,
+              "dateOfInspection": "2025-08-15"
+            },
+            {
+              "inspectionType": "13",
+              "odometerReading": null,
+              "dateOfInspection": "2022-06-30"
+            }
+          ],
+          "inspectionGroup": "36/24/14",
+          "odometerReading": 28473,
+          "inspectionPeriod": "2025-08-15 - 2027-08-31",
+          "dateOfInspection": "2025-08-15",
+          "inspectionValidToDate": "2027-08-31",
+          "inspectionExemptionGroup": null
+        },
+        "additionalTechSpecification": {
+          "raceCar": null,
+          "wheelbase1": 2829,
+          "wheelbase2": null,
+          "wheelbase3": null,
+          "wheelbase4": null,
+          "equipment1": null,
+          "equipment2": null,
+          "equipment3": null,
+          "maximumSpeed": 250,
+          "numAxleShafts": 2,
+          "passengerAirBag": false,
+          "tyreDimensionRear": "255/35 ZR21 98Y XL",
+          "tyreDimensionFront": "255/35 ZR21 98Y XL",
+          "dualSteeringControl": null
+        }
+      },
+      "odometerReading": 40000,
+      "gearbox": "Automatic",
+      "fabricAndMake": "MERCEDES-BENZ",
+      "fuels": [
+        {
+          "fuelCode": "Petrol",
+          "powerUnit": "EG",
+          "enginePower": 225,
+          "enginePowerHp": 306,
+          "fuelTankVolume": ""
+        }
+      ],
+      "registrationCountry": "se",
+      "familyName": "GLB",
+      "odometerUnit": "km",
+      "technicalSpecification": {
+        "modelId": null,
+        "vehicle": {
+          "brand": "Mercedes-Benz",
+          "body": "SUV",
+          "modelName": "GLB 35 AMG 4MATIC X247 (306hk)",
+          "familyName": "GLB"
+        },
+        "year": "2022"
+      }
+    },
+    "testDriveAllowed": true,
+    "vehicleType": "CAR",
+    "exportable": true,
+    "deductibleVat": false,
+    "collisionWarranty": null,
+    "title": "Mercedes GLB 35 AMG 4MATIC X247 (306hk)",
+    "brand": "Mercedes",
+    "familyName": "GLB",
+    "modelName": "GLB 35 AMG 4MATIC X247 (306hk)",
+    "package": null,
+    "heading1": "Mercedes GLB",
+    "heading2": "35 AMG 4MATIC X247",
+    "heading3": null,
+    "media": [
+      {
+        "processObjectId": "7291883",
+        "uri": "https://kvdbil-images.imgix.net/7291883/7bdb5e64.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291883/7bdb5e64.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 1
+      },
+      {
+        "processObjectId": "7291883",
+        "uri": "https://kvdbil-images.imgix.net/7291883/30c512b8.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291883/30c512b8.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 2
+      },
+      {
+        "processObjectId": "7291883",
+        "uri": "https://kvdbil-images.imgix.net/7291883/60e00490.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291883/60e00490.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 3
+      },
+      {
+        "processObjectId": "7291883",
+        "uri": "https://kvdbil-images.imgix.net/7291883/ad14715c.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291883/ad14715c.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 3
+      },
+      {
+        "processObjectId": "7291883",
+        "uri": "https://kvdbil-images.imgix.net/7291883/9067033f.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291883/9067033f.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 4
+      },
+      {
+        "processObjectId": "7291883",
+        "uri": "https://kvdbil-images.imgix.net/7291883/c4b15e1c.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291883/c4b15e1c.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 5
+      },
+      {
+        "processObjectId": "7291883",
+        "uri": "https://kvdbil-images.imgix.net/7291883/1934ce76.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291883/1934ce76.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 6
+      },
+      {
+        "processObjectId": "7291883",
+        "uri": "https://kvdbil-images.imgix.net/7291883/8494c1c1.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291883/8494c1c1.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 6
+      },
+      {
+        "processObjectId": "7291883",
+        "uri": "https://kvdbil-images.imgix.net/7291883/c72ba081.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291883/c72ba081.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 7
+      },
+      {
+        "processObjectId": "7291883",
+        "uri": "https://kvdbil-images.imgix.net/7291883/fce4bd48.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291883/fce4bd48.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 7
+      },
+      {
+        "processObjectId": "7291883",
+        "uri": "https://kvdbil-images.imgix.net/7291883/754a6303.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291883/754a6303.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 8
+      },
+      {
+        "processObjectId": "7291883",
+        "uri": "https://kvdbil-images.imgix.net/7291883/9ab56803.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291883/9ab56803.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 8
+      },
+      {
+        "processObjectId": "7291883",
+        "uri": "https://kvdbil-images.imgix.net/7291883/20c6fbd5.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291883/20c6fbd5.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 9
+      },
+      {
+        "processObjectId": "7291883",
+        "uri": "https://kvdbil-images.imgix.net/7291883/1ed0a2e2.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291883/1ed0a2e2.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 9
+      },
+      {
+        "processObjectId": "7291883",
+        "uri": "https://kvdbil-images.imgix.net/7291883/8f36d217.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291883/8f36d217.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 10
+      },
+      {
+        "processObjectId": "7291883",
+        "uri": "https://kvdbil-images.imgix.net/7291883/1ef46e85.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291883/1ef46e85.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 11
+      },
+      {
+        "processObjectId": "7291883",
+        "uri": "https://kvdbil-images.imgix.net/7291883/89b8fcb9.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291883/89b8fcb9.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 11
+      },
+      {
+        "processObjectId": "7291883",
+        "uri": "https://kvdbil-images.imgix.net/7291883/a62bf2ce.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291883/a62bf2ce.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 12
+      },
+      {
+        "processObjectId": "7291883",
+        "uri": "https://kvdbil-images.imgix.net/7291883/a4a41103.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291883/a4a41103.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 13
+      },
+      {
+        "processObjectId": "7291883",
+        "uri": "https://kvdbil-images.imgix.net/7291883/8af40106.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291883/8af40106.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 13
+      },
+      {
+        "processObjectId": "7291883",
+        "uri": "https://kvdbil-images.imgix.net/7291883/1be8e734.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291883/1be8e734.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 14
+      },
+      {
+        "processObjectId": "7291883",
+        "uri": "https://kvdbil-images.imgix.net/7291883/1f2d79b2.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291883/1f2d79b2.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 14
+      },
+      {
+        "processObjectId": "7291883",
+        "uri": "https://kvdbil-images.imgix.net/7291883/52a68c34.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291883/52a68c34.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 15
+      },
+      {
+        "processObjectId": "7291883",
+        "uri": "https://kvdbil-images.imgix.net/7291883/c64aa1c0.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291883/c64aa1c0.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 16
+      },
+      {
+        "processObjectId": "7291883",
+        "uri": "https://kvdbil-images.imgix.net/7291883/a3ac589d.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291883/a3ac589d.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 17
+      },
+      {
+        "processObjectId": "7291883",
+        "uri": "https://kvdbil-images.imgix.net/7291883/21882ede.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291883/21882ede.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 18
+      },
+      {
+        "processObjectId": "7291883",
+        "uri": "https://kvdbil-images.imgix.net/7291883/18290ddb.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291883/18290ddb.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 19
+      },
+      {
+        "processObjectId": "7291883",
+        "uri": "https://kvdbil-images.imgix.net/7291883/00ab4abe.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291883/00ab4abe.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 20
+      },
+      {
+        "processObjectId": "7291883",
+        "uri": "https://kvdbil-images.imgix.net/7291883/850e7dba.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291883/850e7dba.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 21
+      }
+    ],
+    "locationInfo": {
+      "id": "552257",
+      "processObjectId": "7291883",
+      "locationType": "FACILITY",
+      "createdAt": "2026-10-13T11:42:28.105058+00:00",
+      "updatedAt": "2026-10-13T11:42:28.105061+00:00",
+      "facilityId": "00000002-0002-0002-0002-000000000002",
+      "parkingZone": "A",
+      "parkingNumber": null,
+      "outgoingTime": "2026-11-13T09:30:00+00:00",
+      "leftAt": "2026-11-13T08:38:13.092321+00:00",
+      "outgoingType": "BOOKING",
+      "publicFacilityId": "00000002-0002-0002-0002-000000000002",
+      "facility": {
+        "id": "00000002-0002-0002-0002-000000000002",
+        "name": "Åkersberga (Runö)",
+        "operator": "KVD",
+        "legacyIdentifiers": [
+          "Åkersberga (Runö)"
+        ],
+        "objectTypes": [
+          "CAR"
+        ],
+        "createdAt": "2018-03-04T13:18:23.295898+00:00",
+        "calendarOrganisationalUnitId": "4",
+        "parkingAreas": [
+          {
+            "id": 3,
+            "name": "A1",
+            "createdAt": "2018-03-04T13:18:23.295898+00:00"
+          },
+          {
+            "id": 4,
+            "name": "B1",
+            "createdAt": "2018-03-04T13:18:23.295898+00:00"
+          }
+        ],
+        "active": true,
+        "latitude": 59.4819664,
+        "longitude": 18.2749312,
+        "distance": null,
+        "address": "Näsvägen 19",
+        "postCode": "18440",
+        "city": "Åkersberga",
+        "facilityType": "MAXI",
+        "facilityMapUrl": "https://www.google.com/maps/dir/59.4819664,18.2749312/@59.4819664,18.2749312,z13",
+        "contactPhone": "+46765518068",
+        "contactEmail": "leverans.akersberga@kvdbil.se",
+        "allowIncomingTransport": true,
+        "allowLeaseReturns": false,
+        "allowUnplannedDropOffFleetManager": true,
+        "parentFacilityId": null,
+        "publicFacilityId": "00000002-0002-0002-0002-000000000002"
+      }
+    },
+    "valuation": {
+      "id": 237599,
+      "processObjectId": "7291883",
+      "valuatorComment": {
+        "da": "Forestil dig at køre i en Mercedes GLB 35 AMG med automatgear, i smart sølvmetallic, der tiltrækker opmærksomhed. Det åbne panorama tag giver en behagelig rumfornemmelse og lys i kabinen, mens firehjulstræk giver bedre greb hele året rundt. Derudover hjælper bakkameraet ved parkering, og LED-forlygterne lyser klart og stærkt. Synet til august 2027.",
+        "de": "Stellen Sie sich vor, in einem Mercedes GLB 35 AMG mit Automatik zu fahren, in stylischem Silber Metallic, das Blicke auf sich zieht. Das aufklappbare Panoramadach sorgt für ein angenehmes Raumgefühl und Licht im Innenraum, während der Allradantrieb für sicheren Grip das ganze Jahr über sorgt. Darüber hinaus hilft die Rückfahrkamera beim Einparken und die LED-Scheinwerfer leuchten hell und klar. Geprüft bis August 2027.",
+        "en": "Imagine driving a Mercedes GLB 35 AMG with automatic, in stylish silver metallic that catches the eye. The opening panoramic roof gives a pleasant sense of space and light in the cabin while four-wheel drive provides more secure grip all year round. Additionally, the reversing camera helps with parking and LED headlights shine bright and clear. Inspected until August 2027.",
+        "et": "Kujutage ette, et sõidate Mercedes GLB 35 AMG automaatkäigukastiga, stiilses hõbedase metallikvärviga, mis püüab pilke. Avanev panoraamkatus annab salongi mõnusa ruumilisuse ja valguse, samas kui nelikvedu tagab aastaringselt parema haarduvuse. Lisaks aitab tagurduskaamera parkimisel ja LED-esituled valgustavad eredalt ning selgelt. Ülevaatusega kuni august 2027.",
+        "fi": "Kuvittele, että ajat Mercedes GLB 35 AMG:lla automaattivaihteistolla, tyylikkäässä hopeametallivärissä, joka kiinnittää katseet. Avattava panoraamakatto antaa miellyttävää tilan ja valon tunnetta matkustamoon, kun neliveto tarjoaa turvallisemman pidon ympäri vuoden. Lisäksi peruutuskamera auttaa parkkeerauksessa ja LED-ajovalot loistavat kirkkaasti ja selkeästi. Katsastettu elokuuhun 2027 asti.",
+        "pl": "Wyobraź sobie jazdę Mercedesem GLB 35 AMG z automatyczną skrzynią biegów, w stylowym srebrnym metaliku, który przyciąga wzrok. Otwierany panoramiczny dach zapewnia przyjemne poczucie przestrzeni i światła w kabinie, a napęd na cztery koła zapewnia bezpieczniejszy chwyt przez cały rok. Dodatkowo kamera cofania pomaga podczas parkowania, a reflektory LED świecą jasno i wyraźnie. Przegląd ważny do sierpnia 2027.",
+        "sv": "Tänk dig att åka i en Mercedes GLB 35 AMG med automat, i snyggt silver metallic som drar blickarna till sig. Öppningsbart panoramatak ger skön rymd och ljus i kupén medan fyrhjulsdrift ger tryggare grepp året runt. Därtill hjälper backkamera vid parkering och LED-strålkastare lyser starkt och klart. Besiktigad till augusti 2027."
+      },
+      "generatedValuatorComment": {
+        "en": "",
+        "sv": "Tänk dig att åka i en Mercedes GLB med automat, i snyggt silver metallic som drar blickarna till sig. Öppningsbart panoramatak ger skön rymd och ljus i kupén medan fyrhjulsdrift ger tryggare grepp året runt. Därtill hjälper backkamera vid parkering och LED-strålkastare lyser starkt och klart. Besiktigad till augusti 2027."
+      },
+      "carDealerPrice": 495000,
+      "endUserTestProtocol": {
+        "tires": {
+          "extraTires": {
+            "other": {
+              "rimSize": "21",
+              "rimType": "Alu.fälg",
+              "tireType": "Sommardäck",
+              "otherInfo": "Behövs ej",
+              "tireTypeKey": "SUMMER_TIRES"
+            },
+            "grades": {
+              "rearLeft": 3,
+              "frontLeft": 1,
+              "rearRight": 1,
+              "frontRight": 1
+            },
+            "treadDepths": {
+              "rearLeft": 5,
+              "frontLeft": 1,
+              "rearRight": 2,
+              "frontRight": 1
+            }
+          },
+          "mountedTires": {
+            "other": {
+              "rimSize": "20",
+              "rimType": "Alu.fälg",
+              "tireType": "Dubbade vinterdäck",
+              "otherInfo": "Behövs ej",
+              "tireTypeKey": "STUDDED_WINTER_TIRES"
+            },
+            "grades": {
+              "rearLeft": 3,
+              "frontLeft": 3,
+              "rearRight": 3,
+              "frontRight": 3
+            },
+            "treadDepths": {
+              "rearLeft": 8,
+              "frontLeft": 8,
+              "rearRight": 8,
+              "frontRight": 8
+            }
+          }
+        },
+        "grades": {
+          "TOTAL": {
+            "max": 5,
+            "min": 1,
+            "value": 3
+          },
+          "BRAKES": {
+            "max": 3,
+            "min": 1,
+            "value": 3
+          },
+          "EXTERIOR": {
+            "max": 5,
+            "min": 1,
+            "value": 3
+          },
+          "INTERIOR": {
+            "max": 5,
+            "min": 1,
+            "value": 3
+          },
+          "ENGINE_AND_GEARBOX": {
+            "max": 3,
+            "min": 1,
+            "value": 3
+          },
+          "TECHNOLOGY_AND_EQUIPMENT": {
+            "max": 3,
+            "min": 1,
+            "value": 3
+          }
+        },
+        "towbar": false,
+        "remarks": {
+          "BRAKES": [],
+          "EXTERIOR": [],
+          "INTERIOR": [],
+          "ENGINE_AND_GEARBOX": [],
+          "TECHNOLOGY_AND_EQUIPMENT": [
+            {
+              "id": "72918834",
+              "key": "Strålkastare vänster, repa på glas/plast.",
+              "other": null,
+              "point": 0,
+              "category": "TECHNOLOGY_AND_EQUIPMENT",
+              "text": "Strålkastare vänster, repa på glas/plast."
+            }
+          ]
+        },
+        "textile": "Läder/Alcantara",
+        "boatType": null,
+        "equipment": [
+          "Backkamera",
+          "GPS",
+          "Öppningsbart panoramatak",
+          "4WD",
+          "Assistanssystem",
+          "Infällbar dragkrok",
+          "Nyckellöst startsystem",
+          "Autobroms",
+          "Bluetooth",
+          "Farthållare",
+          "Eldriven baklucka",
+          "Elstol med minnesfunktion förarplats",
+          "Elstol minnesfunktion passagerarplats",
+          "Filbytesvarnare",
+          "Klimatanläggning",
+          "LED-strålkastare",
+          "Start/Stop-funktion",
+          "USB-ingång",
+          "Antispinn",
+          "Elspeglar",
+          "Fjärrlås",
+          "Radio",
+          "Regnsensor",
+          "Stolsvärme fram",
+          "Aktiv parkeringshjälp",
+          "Antisladdsystem",
+          "Elhiss bak",
+          "Elhiss fram",
+          "Elinfällbara speglar",
+          "Isofix bak",
+          "Kurvljus",
+          "Parkeringssensorer bak",
+          "Parkeringssensorer fram",
+          "Parkeringsvärmare med tidur",
+          "Urkopplingsbar passagerarairbag",
+          "Aktiv kurshållningsassistent",
+          "Widescreen cockpit",
+          "Adaptivt Ställbart chassi",
+          "DAB",
+          "Sportstolar",
+          "Aktiv parkeringshjälp",
+          "Minnespaket",
+          "AMG Line",
+          "Parkeringspaket",
+          "Spegelpaket",
+          "Exteriör AMG Night package",
+          "Instegslist belyst",
+          "Åkkomfortpaket",
+          "Ljus- och säktpaket"
+        ],
+        "boatWidth": null,
+        "createdAt": "2026-10-14T16:14:39",
+        "boatEngine": null,
+        "boatLength": null,
+        "boatWeight": null,
+        "finishType": "Metallic",
+        "protocolId": "259922",
+        "stoveFlames": null,
+        "heatingSystem": null,
+        "numberOfKeys": 2,
+        "boatCeBranded": false,
+        "boatGearModel": null,
+        "numberOfBunks": null,
+        "numberOfSeats": 5,
+        "boatEngineFuel": null,
+        "boatSepticTank": false,
+        "isRepairObject": false,
+        "boatEnginePower": null,
+        "serviceBookType": "ELECTRONIC",
+        "boatExteriorColor": null,
+        "serviceBookStatus": "Service utförd vid följande mil: 899, 1834, 2940, 3940 mil, senast 2026-10-23",
+        "serviceBookStatusI18N": {
+          "da": "Service udført ved følgende km: 8990, 18340, 29400, 39400 km, senest 2026-10-23",
+          "de": "Service durchgeführt bei folgenden km: 8990, 18340, 29400, 39400 km, zuletzt 2026-10-23",
+          "en": "Service performed at the following km: 8990, 18340, 29400, 39400 km, most recently 2026-10-23",
+          "et": "Hooldus tehtud järgmiste kilomeetrite juures: 8990, 18340, 29400, 39400 km, viimati 2026-10-23",
+          "fi": "Huolto tehty seuraavilla kilometreillä: 8990, 18340, 29400, 39400 km, viimeksi 2026-10-23",
+          "pl": "Serwis wykonany przy następującym przebiegu: 8990, 18340, 29400, 39400 km, ostatnio 2026-10-23",
+          "sv": "Service utförd vid följande mil: 899, 1834, 2940, 3940 mil, senast 2026-10-23"
+        },
+        "boatEngineSerialNumber": null,
+        "odometerReadingAfterTest": {
+          "unit": "Mil",
+          "value": 3940
+        },
+        "odometerReadingAfterTestInKm": 39400
+      },
+      "auctionPriceValuation": {
+        "currency": "SEK"
+      },
+      "finalised": true,
+      "includedImageIds": null,
+      "createdAt": "2026-10-14T14:16:51.324526+00:00",
+      "updatedAt": "2026-11-09T09:22:31.625970+00:00",
+      "generatingInProgress": false,
+      "valuatorCommentLocalized": "Tänk dig att åka i en Mercedes GLB 35 AMG med automat, i snyggt silver metallic som drar blickarna till sig. Öppningsbart panoramatak ger skön rymd och ljus i kupén medan fyrhjulsdrift ger tryggare grepp året runt. Därtill hjälper backkamera vid parkering och LED-strålkastare lyser starkt och klart. Besiktigad till augusti 2027."
+    },
+    "facts": {
+      "default": [
+        {
+          "key": "NUMBER_OF_PREVIOUS_OWNERS",
+          "text": "Antal tidigare ägare",
+          "value": 3,
+          "type": "string"
+        },
+        {
+          "key": "REGISTRATION_PLATE",
+          "text": "Registreringsnummer",
+          "value": "HZP90Z",
+          "type": "string"
+        },
+        {
+          "key": "MODEL_YEAR",
+          "text": "Modellår",
+          "value": 2022,
+          "type": "string"
+        },
+        {
+          "key": "MANUFACTURE_MONTH",
+          "text": "Tillverkningsmånad",
+          "value": "202204",
+          "type": "manufacture_month"
+        },
+        {
+          "key": "ODOMETER_READING",
+          "text": "Mätarställning",
+          "value": 39400,
+          "type": "distance"
+        },
+        {
+          "key": "INITIAL_TRAFFIC_DATE",
+          "text": "Första datum i trafik i Sverige",
+          "value": "2022-08-03",
+          "type": "date"
+        },
+        {
+          "key": "SERVICE_BOOK",
+          "text": "Servicehistorik",
+          "value": "Service utförd vid följande mil: 899, 1834, 2940, 3940 mil, senast 2026-10-23",
+          "type": "string"
+        },
+        {
+          "key": "SERVICE_BOOK_TYPE",
+          "text": "Servicebok",
+          "value": "Elektronisk",
+          "type": "string"
+        },
+        {
+          "key": "GEARBOX",
+          "text": "Växellåda",
+          "value": "Automat",
+          "type": "string"
+        },
+        {
+          "key": "NUMBER_OF_SEATS",
+          "text": "Antal säten",
+          "value": 5,
+          "type": "string"
+        },
+        {
+          "key": "NUMBER_OF_KEYS",
+          "text": "Antal nycklar",
+          "value": 2,
+          "type": "string"
+        },
+        {
+          "key": "EXTERIOR_COLOR",
+          "text": "Färg",
+          "value": "Silver",
+          "type": "string"
+        },
+        {
+          "key": "FINISH_TYPE",
+          "text": "Lack",
+          "value": "Metallic",
+          "type": "string"
+        },
+        {
+          "key": "TEXTILE",
+          "text": "Klädsel",
+          "value": "Läder/Alcantara",
+          "type": "string"
+        },
+        {
+          "key": "MANUFACTURER_WARRANTY",
+          "text": "Nybilsgaranti",
+          "value": "Inte undersökt",
+          "type": "string"
+        },
+        {
+          "key": "COLLISION_WARRANTY",
+          "text": "Vagnskadegaranti",
+          "value": "Inte undersökt",
+          "type": "string"
+        },
+        {
+          "key": "TAX_FEE",
+          "text": "Skatt årsavgift",
+          "value": "2516 SEK",
+          "type": "string"
+        }
+      ],
+      "additional": [
+        {
+          "key": "CHASSIS_NUMBER",
+          "text": "Chassinummer",
+          "value": "W1N2476511W207683",
+          "type": "string"
+        },
+        {
+          "key": "ENGINE_EFFECT_PETROL",
+          "text": "Motoreffekt (bensin)",
+          "value": 306,
+          "type": "engine_power"
+        },
+        {
+          "key": "TOWBAR",
+          "text": "Dragkrok",
+          "value": "Nej",
+          "type": "string"
+        },
+        {
+          "key": "MAX_PAYLOAD",
+          "text": "Maxlastvikt",
+          "value": 402,
+          "type": "weight"
+        },
+        {
+          "key": "INSPECTION_VALID_TO_DATE",
+          "text": "Nästa besiktning senast",
+          "value": "2027-08-31",
+          "type": "string"
+        },
+        {
+          "key": "CURB_WEIGHT",
+          "text": "Tjänstevikt",
+          "value": 1858,
+          "type": "weight"
+        },
+        {
+          "key": "TAX_WEIGHT",
+          "text": "Skattevikt",
+          "value": 1850,
+          "type": "weight"
+        },
+        {
+          "key": "TOTAL_WEIGHT",
+          "text": "Fordonets totalvikt",
+          "value": 2260,
+          "type": "weight"
+        },
+        {
+          "key": "LENGTH",
+          "text": "Längd",
+          "value": 4650,
+          "type": "length"
+        },
+        {
+          "key": "WIDTH",
+          "text": "Bredd",
+          "value": 1845,
+          "type": "length"
+        },
+        {
+          "key": "HEIGHT",
+          "text": "Höjd",
+          "value": 1700,
+          "type": "length"
+        }
+      ],
+      "other": [
+        {
+          "key": "SOLD_IN_SWEDEN",
+          "text": "Svensksåld",
+          "value": "Ja",
+          "type": "string"
+        },
+        {
+          "key": "EXPORTABLE",
+          "text": "Kan exporteras",
+          "value": "Ja",
+          "type": "string"
+        },
+        {
+          "key": "DEDUCTIBLE_VAT",
+          "text": "Avlyftbar moms",
+          "value": "Nej",
+          "type": "string"
+        }
+      ]
+    },
+    "majorFeature": [
+      {
+        "key": "ENGINE_EFFECT_PETROL",
+        "title": "Motoreffekt (bensin)",
+        "value": 306,
+        "equipment": null
+      },
+      {
+        "key": "OPPNINGSBART_PANORAMATAK",
+        "title": "Öppningsbart panoramatak",
+        "value": null,
+        "equipment": "Utrustning",
+        "description": "Glastak som är delvis öppningsbart"
+      },
+      {
+        "key": "4WD",
+        "title": "4WD",
+        "value": null,
+        "equipment": "Utrustning",
+        "description": "Konstant eller inkopplingsbar fyrhjulsdrift"
+      },
+      {
+        "key": "INFALLBAR_DRAGKROK",
+        "title": "Infällbar dragkrok",
+        "value": null,
+        "equipment": "Utrustning",
+        "description": " Anordning för att dra exempelvis personbilssläp, båttrailer mm. Kan fällas in/ut."
+      }
+    ],
+    "batteryTestCertificateAvailable": false
+  },
+  "previewImages": [
+    {
+      "processObjectId": "7291883",
+      "uri": "https://kvdbil-images.imgix.net/7291883/7bdb5e64.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291883/7bdb5e64.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 1
+    },
+    {
+      "processObjectId": "7291883",
+      "uri": "https://kvdbil-images.imgix.net/7291883/30c512b8.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291883/30c512b8.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 2
+    },
+    {
+      "processObjectId": "7291883",
+      "uri": "https://kvdbil-images.imgix.net/7291883/60e00490.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291883/60e00490.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 3
+    },
+    {
+      "processObjectId": "7291883",
+      "uri": "https://kvdbil-images.imgix.net/7291883/ad14715c.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291883/ad14715c.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 3
+    },
+    {
+      "processObjectId": "7291883",
+      "uri": "https://kvdbil-images.imgix.net/7291883/9067033f.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291883/9067033f.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 4
+    },
+    {
+      "processObjectId": "7291883",
+      "uri": "https://kvdbil-images.imgix.net/7291883/c4b15e1c.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291883/c4b15e1c.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 5
+    },
+    {
+      "processObjectId": "7291883",
+      "uri": "https://kvdbil-images.imgix.net/7291883/1934ce76.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291883/1934ce76.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 6
+    },
+    {
+      "processObjectId": "7291883",
+      "uri": "https://kvdbil-images.imgix.net/7291883/8494c1c1.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291883/8494c1c1.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 6
+    },
+    {
+      "processObjectId": "7291883",
+      "uri": "https://kvdbil-images.imgix.net/7291883/c72ba081.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291883/c72ba081.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 7
+    },
+    {
+      "processObjectId": "7291883",
+      "uri": "https://kvdbil-images.imgix.net/7291883/fce4bd48.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291883/fce4bd48.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 7
+    },
+    {
+      "processObjectId": "7291883",
+      "uri": "https://kvdbil-images.imgix.net/7291883/754a6303.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291883/754a6303.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 8
+    },
+    {
+      "processObjectId": "7291883",
+      "uri": "https://kvdbil-images.imgix.net/7291883/9ab56803.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291883/9ab56803.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 8
+    },
+    {
+      "processObjectId": "7291883",
+      "uri": "https://kvdbil-images.imgix.net/7291883/20c6fbd5.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291883/20c6fbd5.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 9
+    },
+    {
+      "processObjectId": "7291883",
+      "uri": "https://kvdbil-images.imgix.net/7291883/1ed0a2e2.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291883/1ed0a2e2.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 9
+    },
+    {
+      "processObjectId": "7291883",
+      "uri": "https://kvdbil-images.imgix.net/7291883/8f36d217.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291883/8f36d217.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 10
+    },
+    {
+      "processObjectId": "7291883",
+      "uri": "https://kvdbil-images.imgix.net/7291883/1ef46e85.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291883/1ef46e85.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 11
+    },
+    {
+      "processObjectId": "7291883",
+      "uri": "https://kvdbil-images.imgix.net/7291883/89b8fcb9.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291883/89b8fcb9.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 11
+    },
+    {
+      "processObjectId": "7291883",
+      "uri": "https://kvdbil-images.imgix.net/7291883/a62bf2ce.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291883/a62bf2ce.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 12
+    },
+    {
+      "processObjectId": "7291883",
+      "uri": "https://kvdbil-images.imgix.net/7291883/a4a41103.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291883/a4a41103.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 13
+    },
+    {
+      "processObjectId": "7291883",
+      "uri": "https://kvdbil-images.imgix.net/7291883/8af40106.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291883/8af40106.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 13
+    },
+    {
+      "processObjectId": "7291883",
+      "uri": "https://kvdbil-images.imgix.net/7291883/1be8e734.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291883/1be8e734.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 14
+    },
+    {
+      "processObjectId": "7291883",
+      "uri": "https://kvdbil-images.imgix.net/7291883/1f2d79b2.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291883/1f2d79b2.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 14
+    },
+    {
+      "processObjectId": "7291883",
+      "uri": "https://kvdbil-images.imgix.net/7291883/52a68c34.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291883/52a68c34.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 15
+    },
+    {
+      "processObjectId": "7291883",
+      "uri": "https://kvdbil-images.imgix.net/7291883/c64aa1c0.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291883/c64aa1c0.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 16
+    },
+    {
+      "processObjectId": "7291883",
+      "uri": "https://kvdbil-images.imgix.net/7291883/a3ac589d.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291883/a3ac589d.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 17
+    },
+    {
+      "processObjectId": "7291883",
+      "uri": "https://kvdbil-images.imgix.net/7291883/21882ede.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291883/21882ede.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 18
+    },
+    {
+      "processObjectId": "7291883",
+      "uri": "https://kvdbil-images.imgix.net/7291883/18290ddb.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291883/18290ddb.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 19
+    },
+    {
+      "processObjectId": "7291883",
+      "uri": "https://kvdbil-images.imgix.net/7291883/00ab4abe.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291883/00ab4abe.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 20
+    },
+    {
+      "processObjectId": "7291883",
+      "uri": "https://kvdbil-images.imgix.net/7291883/850e7dba.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291883/850e7dba.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 21
+    }
+  ],
+  "similarAuctions": [],
+  "activeAuction": {
+    "auctionId": "306991",
+    "closed": true,
+    "countdownInProgress": true,
+    "preliminaryCloseAt": "2026-11-09T10:33:11.715162+00:00",
+    "createdAt": "2026-10-26T09:43:11.083922+00:00",
+    "updatedAt": "2026-11-09T10:33:11.728597+00:00",
+    "vatExcludedBiddingAllowed": false,
+    "reservationPriceReached": true,
+    "bids": [
+      {
+        "id": 18730879,
+        "auctionId": 306991,
+        "bidderAlias": "4",
+        "amount": 432000,
+        "type": "NORMAL",
+        "maxBidId": 10945301,
+        "triggeredBy": 10945301,
+        "createdAt": "2026-11-09T10:29:41.734334+00:00",
+        "updatedAt": "2026-11-09T10:29:41.734341+00:00"
+      },
+      {
+        "id": 18730860,
+        "auctionId": 306991,
+        "bidderAlias": "2",
+        "amount": 431500,
+        "type": "NORMAL",
+        "maxBidId": 10945290,
+        "triggeredBy": 10945290,
+        "createdAt": "2026-11-09T10:28:55.464764+00:00",
+        "updatedAt": "2026-11-09T10:28:55.464768+00:00"
+      },
+      {
+        "id": 18730859,
+        "auctionId": 306991,
+        "bidderAlias": "4",
+        "amount": 431000,
+        "type": "LIMIT_REACHED",
+        "maxBidId": 10945271,
+        "triggeredBy": 10945290,
+        "createdAt": "2026-11-09T10:28:55.464751+00:00",
+        "updatedAt": "2026-11-09T10:28:55.464759+00:00"
+      },
+      {
+        "id": 18730858,
+        "auctionId": 306991,
+        "bidderAlias": "4",
+        "amount": 429000,
+        "type": "AUTO",
+        "maxBidId": 10945271,
+        "triggeredBy": 10945289,
+        "createdAt": "2026-11-09T10:28:48.376813+00:00",
+        "updatedAt": "2026-11-09T10:28:48.376815+00:00"
+      },
+      {
+        "id": 18730857,
+        "auctionId": 306991,
+        "bidderAlias": "2",
+        "amount": 428500,
+        "type": "NORMAL",
+        "maxBidId": 10945289,
+        "triggeredBy": 10945289,
+        "createdAt": "2026-11-09T10:28:48.376804+00:00",
+        "updatedAt": "2026-11-09T10:28:48.376810+00:00"
+      },
+      {
+        "id": 18730847,
+        "auctionId": 306991,
+        "bidderAlias": "4",
+        "amount": 427000,
+        "type": "AUTO",
+        "maxBidId": 10945271,
+        "triggeredBy": 10945283,
+        "createdAt": "2026-11-09T10:28:15.048746+00:00",
+        "updatedAt": "2026-11-09T10:28:15.048749+00:00"
+      },
+      {
+        "id": 18730846,
+        "auctionId": 306991,
+        "bidderAlias": "2",
+        "amount": 426500,
+        "type": "NORMAL",
+        "maxBidId": 10945283,
+        "triggeredBy": 10945283,
+        "createdAt": "2026-11-09T10:28:15.048733+00:00",
+        "updatedAt": "2026-11-09T10:28:15.048742+00:00"
+      },
+      {
+        "id": 18730825,
+        "auctionId": 306991,
+        "bidderAlias": "4",
+        "amount": 421500,
+        "type": "NORMAL",
+        "maxBidId": 10945271,
+        "triggeredBy": 10945271,
+        "createdAt": "2026-11-09T10:26:28.752990+00:00",
+        "updatedAt": "2026-11-09T10:26:28.752994+00:00"
+      },
+      {
+        "id": 18730824,
+        "auctionId": 306991,
+        "bidderAlias": "2",
+        "amount": 421000,
+        "type": "LIMIT_REACHED",
+        "maxBidId": 10931376,
+        "triggeredBy": 10945271,
+        "createdAt": "2026-11-09T10:26:28.752979+00:00",
+        "updatedAt": "2026-11-09T10:26:28.752986+00:00"
+      },
+      {
+        "id": 18730821,
+        "auctionId": 306991,
+        "bidderAlias": "2",
+        "amount": 415500,
+        "type": "AUTO",
+        "maxBidId": 10931376,
+        "triggeredBy": 10945269,
+        "createdAt": "2026-11-09T10:26:03.100838+00:00",
+        "updatedAt": "2026-11-09T10:26:03.100840+00:00"
+      },
+      {
+        "id": 18730820,
+        "auctionId": 306991,
+        "bidderAlias": "4",
+        "amount": 415000,
+        "type": "NORMAL",
+        "maxBidId": 10945269,
+        "triggeredBy": 10945269,
+        "createdAt": "2026-11-09T10:26:03.100830+00:00",
+        "updatedAt": "2026-11-09T10:26:03.100836+00:00"
+      },
+      {
+        "id": 18730809,
+        "auctionId": 306991,
+        "bidderAlias": "2",
+        "amount": 406500,
+        "type": "AUTO",
+        "maxBidId": 10931376,
+        "triggeredBy": 10945261,
+        "createdAt": "2026-11-09T10:25:02.358845+00:00",
+        "updatedAt": "2026-11-09T10:25:02.358849+00:00"
+      },
+      {
+        "id": 18730808,
+        "auctionId": 306991,
+        "bidderAlias": "4",
+        "amount": 406000,
+        "type": "NORMAL",
+        "maxBidId": 10945261,
+        "triggeredBy": 10945261,
+        "createdAt": "2026-11-09T10:25:02.358830+00:00",
+        "updatedAt": "2026-11-09T10:25:02.358840+00:00"
+      },
+      {
+        "id": 18730801,
+        "auctionId": 306991,
+        "bidderAlias": "2",
+        "amount": 405500,
+        "type": "AUTO",
+        "maxBidId": 10931376,
+        "triggeredBy": 10945256,
+        "createdAt": "2026-11-09T10:24:34.678393+00:00",
+        "updatedAt": "2026-11-09T10:24:34.678395+00:00"
+      },
+      {
+        "id": 18730800,
+        "auctionId": 306991,
+        "bidderAlias": "4",
+        "amount": 405000,
+        "type": "NORMAL",
+        "maxBidId": 10945256,
+        "triggeredBy": 10945256,
+        "createdAt": "2026-11-09T10:24:34.678385+00:00",
+        "updatedAt": "2026-11-09T10:24:34.678390+00:00"
+      },
+      {
+        "id": 18730787,
+        "auctionId": 306991,
+        "bidderAlias": "2",
+        "amount": 401500,
+        "type": "AUTO",
+        "maxBidId": 10931376,
+        "triggeredBy": 10945248,
+        "createdAt": "2026-11-09T10:23:54.490737+00:00",
+        "updatedAt": "2026-11-09T10:23:54.490740+00:00"
+      },
+      {
+        "id": 18730786,
+        "auctionId": 306991,
+        "bidderAlias": "4",
+        "amount": 401000,
+        "type": "NORMAL",
+        "maxBidId": 10945248,
+        "triggeredBy": 10945248,
+        "createdAt": "2026-11-09T10:23:54.490728+00:00",
+        "updatedAt": "2026-11-09T10:23:54.490734+00:00"
+      },
+      {
+        "id": 18730777,
+        "auctionId": 306991,
+        "bidderAlias": "2",
+        "amount": 395500,
+        "type": "AUTO",
+        "maxBidId": 10931376,
+        "triggeredBy": 10945242,
+        "createdAt": "2026-11-09T10:22:58.677488+00:00",
+        "updatedAt": "2026-11-09T10:22:58.677490+00:00"
+      },
+      {
+        "id": 18730776,
+        "auctionId": 306991,
+        "bidderAlias": "4",
+        "amount": 395000,
+        "type": "NORMAL",
+        "maxBidId": 10945242,
+        "triggeredBy": 10945242,
+        "createdAt": "2026-11-09T10:22:58.677478+00:00",
+        "updatedAt": "2026-11-09T10:22:58.677486+00:00"
+      },
+      {
+        "id": 18730761,
+        "auctionId": 306991,
+        "bidderAlias": "2",
+        "amount": 390500,
+        "type": "AUTO",
+        "maxBidId": 10931376,
+        "triggeredBy": 10945234,
+        "createdAt": "2026-11-09T10:21:39.077476+00:00",
+        "updatedAt": "2026-11-09T10:21:39.077478+00:00"
+      },
+      {
+        "id": 18730760,
+        "auctionId": 306991,
+        "bidderAlias": "4",
+        "amount": 390000,
+        "type": "NORMAL",
+        "maxBidId": 10945234,
+        "triggeredBy": 10945234,
+        "createdAt": "2026-11-09T10:21:39.077467+00:00",
+        "updatedAt": "2026-11-09T10:21:39.077473+00:00"
+      },
+      {
+        "id": 18730619,
+        "auctionId": 306991,
+        "bidderAlias": "2",
+        "amount": 382500,
+        "type": "AUTO",
+        "maxBidId": 10931376,
+        "triggeredBy": 10945152,
+        "createdAt": "2026-11-09T10:12:40.911499+00:00",
+        "updatedAt": "2026-11-09T10:12:40.911503+00:00"
+      },
+      {
+        "id": 18730618,
+        "auctionId": 306991,
+        "bidderAlias": "4",
+        "amount": 382000,
+        "type": "NORMAL",
+        "maxBidId": 10945152,
+        "triggeredBy": 10945152,
+        "createdAt": "2026-11-09T10:12:40.911485+00:00",
+        "updatedAt": "2026-11-09T10:12:40.911495+00:00"
+      },
+      {
+        "id": 18729037,
+        "auctionId": 306991,
+        "bidderAlias": "2",
+        "amount": 381500,
+        "type": "AUTO",
+        "maxBidId": 10931376,
+        "triggeredBy": 10944251,
+        "createdAt": "2026-11-09T08:49:44.445257+00:00",
+        "updatedAt": "2026-11-09T08:49:44.445261+00:00"
+      },
+      {
+        "id": 18729036,
+        "auctionId": 306991,
+        "bidderAlias": "4",
+        "amount": 381000,
+        "type": "NORMAL",
+        "maxBidId": 10944251,
+        "triggeredBy": 10944251,
+        "createdAt": "2026-11-09T08:49:44.445213+00:00",
+        "updatedAt": "2026-11-09T08:49:44.445220+00:00"
+      },
+      {
+        "id": 18728879,
+        "auctionId": 306991,
+        "bidderAlias": "2",
+        "amount": 365500,
+        "type": "AUTO",
+        "maxBidId": 10931376,
+        "triggeredBy": 10944166,
+        "createdAt": "2026-11-09T08:32:44.806167+00:00",
+        "updatedAt": "2026-11-09T08:32:44.806169+00:00"
+      },
+      {
+        "id": 18728878,
+        "auctionId": 306991,
+        "bidderAlias": "4",
+        "amount": 365000,
+        "type": "NORMAL",
+        "maxBidId": 10944166,
+        "triggeredBy": 10944166,
+        "createdAt": "2026-11-09T08:32:44.806157+00:00",
+        "updatedAt": "2026-11-09T08:32:44.806164+00:00"
+      },
+      {
+        "id": 18711984,
+        "auctionId": 306991,
+        "bidderAlias": "2",
+        "amount": 361500,
+        "type": "AUTO",
+        "maxBidId": 10931376,
+        "triggeredBy": 10934376,
+        "createdAt": "2026-11-04T20:02:39.875303+00:00",
+        "updatedAt": "2026-11-04T20:02:39.875306+00:00"
+      },
+      {
+        "id": 18711983,
+        "auctionId": 306991,
+        "bidderAlias": "3",
+        "amount": 361000,
+        "type": "NORMAL",
+        "maxBidId": 10934376,
+        "triggeredBy": 10934376,
+        "createdAt": "2026-11-04T20:02:39.875289+00:00",
+        "updatedAt": "2026-11-04T20:02:39.875299+00:00"
+      },
+      {
+        "id": 18706980,
+        "auctionId": 306991,
+        "bidderAlias": "2",
+        "amount": 360500,
+        "type": "NORMAL",
+        "maxBidId": 10931376,
+        "triggeredBy": 10931376,
+        "createdAt": "2026-11-04T09:54:50.428624+00:00",
+        "updatedAt": "2026-11-04T09:54:50.428627+00:00"
+      },
+      {
+        "id": 18706979,
+        "auctionId": 306991,
+        "bidderAlias": "1",
+        "amount": 360000,
+        "type": "LIMIT_REACHED",
+        "maxBidId": 10907320,
+        "triggeredBy": 10931376,
+        "createdAt": "2026-11-04T09:54:50.428612+00:00",
+        "updatedAt": "2026-11-04T09:54:50.428620+00:00"
+      },
+      {
+        "id": 18665244,
+        "auctionId": 306991,
+        "bidderAlias": "1",
+        "amount": 346000,
+        "type": "NORMAL",
+        "maxBidId": 10907320,
+        "triggeredBy": 10907320,
+        "createdAt": "2026-10-27T12:27:06.251855+00:00",
+        "updatedAt": "2026-10-27T12:27:06.251862+00:00"
+      }
+    ],
+    "myBidderAlias": null,
+    "myMaxBid": null,
+    "highestBid": {
+      "id": 18730879,
+      "auctionId": 306991,
+      "bidderAlias": null,
+      "amount": 432000,
+      "type": "NORMAL",
+      "maxBidId": 10945301,
+      "triggeredBy": 10945301,
+      "createdAt": "2026-11-09T10:29:41.734334+00:00",
+      "updatedAt": "2026-11-09T10:29:41.734341+00:00",
+      "eurAmount": 39050
+    },
+    "buyNowAvailable": false,
+    "releasing": null,
+    "isHighestBidLowerThanResidualLoanValue": false
+  },
+  "checkoutOrder": null,
+  "previewImage": "https://kvdbil-images.imgix.net/7291883/7bdb5e64.jpg",
+  "_list_meta": {
+    "id": "306991",
+    "slug": "mercedes-glb-35-amg-4matic-x247-306hk",
+    "auctionType": "BIDDING",
+    "closedAt": "2026-11-09T10:33:11.725678+00:00",
+    "updatedAt": "2026-11-09T13:34:23.888895+00:00"
+  },
+  "_scraped_at": "2026-11-13T14:07:14.649145+00:00",
+  "_url": "https://www.kvd.se/auktioner/mercedes-glb-35-amg-4matic-x247-306hk-306991"
+}
