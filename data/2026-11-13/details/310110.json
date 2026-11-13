@@ -1,0 +1,2169 @@
+{
+  "id": "310110",
+  "auctionType": "BIDDING",
+  "biddingFee": "6900.00",
+  "biddingFeeCorporate": "9875.00",
+  "mediationFee": 0,
+  "mediationFeeCorporate": 0,
+  "buyNow": false,
+  "closedAt": "2026-11-13T09:34:17.491592+00:00",
+  "publishedAt": "2026-11-10T08:55:08.238171+00:00",
+  "countdownDuration": 210,
+  "countdownStartAt": "2026-11-13T09:29:30+00:00",
+  "createdAt": "2026-11-05T07:48:03.795904+00:00",
+  "readyForAuctionAt": "2026-11-08",
+  "currency": "SEK",
+  "maxBidRaise": 100000,
+  "minBidRaise": 500,
+  "startBid": 190000,
+  "openedAt": "2026-11-10T14:24:46.371149+00:00",
+  "processObjectId": "7292001",
+  "readyForCheckout": true,
+  "soldFor": 315000,
+  "sellMethod": "BIDDING",
+  "slug": "ford-explorer-3-0t-ecoboost-457hk",
+  "auctionUrl": "https://www.kvd.se/auktioner/ford-explorer-3-0t-ecoboost-457hk-310110",
+  "state": "PAYMENT_SEQUENCE_PENDING",
+  "targetedAuctionGroupId": null,
+  "updatedAt": "2026-11-13T10:24:24.370992+00:00",
+  "releasing": null,
+  "loan": {
+    "loanCost": 2599,
+    "loanCostBuyNow": null
+  },
+  "buyNowAmount": null,
+  "buyNowAvailable": false,
+  "buyNowUntil": null,
+  "eligibleForAdditionalServices": true,
+  "comingSoon": false,
+  "preliminaryPrice": 380000,
+  "maxAllowedBid": 570000,
+  "isReserved": false,
+  "isSoldByBuyNow": false,
+  "favouriteCount": 20,
+  "eurBuyNowAmount": null,
+  "winningBid": {
+    "id": "123217",
+    "type": "BIDDER",
+    "state": "ACTIVE",
+    "amount": 315000,
+    "brokerId": "microservice",
+    "auctionId": "310110",
+    "createdAt": "2026-11-13T10:00:58.322638+00:00",
+    "updatedAt": "2026-11-13T10:00:58.544753+00:00",
+    "evaluationType": "BROKERING"
+  },
+  "processObject": {
+    "presentationApproved": false,
+    "baseObject": {
+      "year": "2021",
+      "authorityRegisterInformation": {
+        "generalTechSpecification": {
+          "eeg": "e13*2007/46*2217*02",
+          "fuels": [
+            {
+              "fuelCode": "Petrol",
+              "powerUnit": "EG",
+              "enginePower": 267,
+              "enginePowerHp": 363,
+              "fuelTankVolume": ""
+            },
+            {
+              "fuelCode": "Electric",
+              "powerUnit": "",
+              "enginePower": 90.8,
+              "enginePowerHp": 123,
+              "fuelTankVolume": ""
+            }
+          ],
+          "width": 2004,
+          "height": 1783,
+          "length": 5076,
+          "gearbox": "Automatic",
+          "variant": "BQWA4YX",
+          "version": "7ABAZNAPDAB",
+          "taxWeight": 2570,
+          "curbWeight": 2571,
+          "maxPayload": 589,
+          "totalWeight": 3160,
+          "chassisCode1": null,
+          "chassisCode2": null,
+          "cubicCapacity": "2956",
+          "numPassengers": "6",
+          "numberOfSeats": 7,
+          "fourWheelDrive": true,
+          "maxPullWeightB": 750,
+          "clutchMechanism1": null,
+          "clutchMechanism2": null,
+          "maxTrailerWeight": null,
+          "chassisCodeSupplement": null,
+          "maxPullWieghtNoBreaks": null,
+          "maxPullWeightBExtended": null,
+          "maxSingle Axle TrailerWeight": null
+        },
+        "vehicleOrigin": {
+          "originCode": "INFÖRT",
+          "originCodeReason": null,
+          "importerIdentifier": null,
+          "preRegistrationDate": null,
+          "importRegistrationDate": null,
+          "importedForPersonalUse": false,
+          "importedPreviouslyRegistered": false
+        },
+        "environmentalClassification": {
+          "fuels": [
+            {
+              "co2": "",
+              "nox": "",
+              "nox4": null,
+              "fuelCode": "Petrol",
+              "hcThcNox": "",
+              "consumption": "",
+              "noiseLevel": 67,
+              "emissionUnit": "g/km",
+              "innovationCo2": null,
+              "particleValue": "",
+              "particleMass4": null,
+              "consumptionUnit": "",
+              "rangeNedcDrive": null,
+              "rangeWltpDrive": null,
+              "consumptionUrban": "",
+              "rangeCityWltpDrive": null,
+              "consumptionExtraUrban": "",
+              "electricEnergyConsumption": null,
+              "energyConsumptionWltpDrive": null
+            },
+            {
+              "co2": 0,
+              "nox": "",
+              "nox4": null,
+              "fuelCode": "Electric",
+              "hcThcNox": "",
+              "consumption": "",
+              "noiseLevel": "",
+              "emissionUnit": "g/km",
+              "innovationCo2": null,
+              "particleValue": "",
+              "particleMass4": null,
+              "consumptionUnit": "",
+              "rangeNedcDrive": null,
+              "rangeWltpDrive": "42",
+              "consumptionUrban": "",
+              "rangeCityWltpDrive": "44",
+              "consumptionExtraUrban": "",
+              "electricEnergyConsumption": null,
+              "energyConsumptionWltpDrive": null
+            }
+          ],
+          "ecoFriendly": true,
+          "emissionClass": "LADDHYBRID",
+          "innovationCode": null,
+          "environmentalClass": "HYBRID",
+          "environmentalClassEuro": "6"
+        },
+        "additionalTechSpecification": {
+          "raceCar": null,
+          "wheelbase1": 3025,
+          "wheelbase2": null,
+          "wheelbase3": null,
+          "wheelbase4": null,
+          "equipment1": null,
+          "equipment2": null,
+          "equipment3": null,
+          "maximumSpeed": 230,
+          "numAxleShafts": 2,
+          "passengerAirBag": true,
+          "tyreDimensionRear": "255/55 R20 110 V",
+          "tyreDimensionFront": "255/55 R20 110 V",
+          "dualSteeringControl": null
+        },
+        "vehicleInformation": {
+          "vin": "WF02K8GY5MNA04356",
+          "body": "AC",
+          "type": "CAR",
+          "year": "2020",
+          "model": "EXPLORER",
+          "rawType": "PB",
+          "modelYear": null,
+          "categoryEu": "e13*2007/46*2217*02",
+          "groupNumber": "FO 029902",
+          "modelNumber": "FO 000000",
+          "chassisNumber": "WF02K8GY5MNA04356",
+          "exteriorColor": "Black",
+          "fabricAndMake": "FORD",
+          "baseObjectType": "CAR",
+          "manufactureCode": null,
+          "manufactureMonth": "202011",
+          "registrationDate": "2020-11-21",
+          "initialTrafficDate": "2021-05-06",
+          "registrationPlateReused": null
+        },
+        "vehicleStatus": {
+          "tax": 360
+        },
+        "vehicleInspectionInformation": {
+          "inspections": [
+            {
+              "inspectionType": "6",
+              "odometerReading": 125900,
+              "dateOfInspection": "2026-05-29"
+            },
+            {
+              "inspectionType": "5",
+              "odometerReading": 123840,
+              "dateOfInspection": "2026-05-19"
+            }
+          ],
+          "inspectionGroup": "36/24/14",
+          "odometerReading": 125900,
+          "inspectionPeriod": "2026-05-29 - 2027-07-31",
+          "dateOfInspection": "2026-05-29",
+          "inspectionValidToDate": "2027-07-31",
+          "inspectionExemptionGroup": null
+        },
+        "registrationInformation": {
+          "registrationPlate": "SNA87A",
+          "deregistrationDate": null,
+          "deregistrationText": null,
+          "deregistrationReason": null
+        }
+      },
+      "registrationCountry": "se",
+      "odometerUnit": "km",
+      "gearbox": "Automatic",
+      "odometerReading": 132000,
+      "state": "PREPARING_SALES_AGREEMENT",
+      "baseObjectType": "CAR",
+      "createdAt": "2026-10-12T07:47:16.845920+00:00",
+      "earliestAvailableAt": null,
+      "body": "SUV",
+      "fabricAndMake": "FORD",
+      "modelId": null,
+      "id": "522063",
+      "registrationPlate": "SNA87A",
+      "familyName": "Explorer",
+      "exteriorColor": "Black",
+      "salesFlow": "CORPORATE_CARS_SMALL",
+      "modelName": "Explorer 3.0T EcoBoost (457hk)",
+      "brand": "Ford",
+      "fuels": [
+        {
+          "fuelCode": "Petrol",
+          "powerUnit": "EG",
+          "enginePower": 267,
+          "enginePowerHp": 363,
+          "fuelTankVolume": ""
+        },
+        {
+          "fuelCode": "Electric",
+          "powerUnit": "",
+          "enginePower": 90.8,
+          "enginePowerHp": 123,
+          "fuelTankVolume": ""
+        }
+      ],
+      "technicalSpecification": {
+        "modelId": null,
+        "vehicle": {
+          "brand": "Ford",
+          "body": "SUV",
+          "modelName": "Explorer 3.0T EcoBoost (457hk)",
+          "familyName": "Explorer"
+        },
+        "year": "2021"
+      }
+    },
+    "baseObjectId": "522063",
+    "isReleasable": false,
+    "orderableAdditionalServices": {
+      "tradein": false,
+      "transport": true,
+      "insurance": true,
+      "finance": true,
+      "warranty": true,
+      "extraTires": false
+    },
+    "sellMethod": "BIDDING",
+    "objectType": "CAR",
+    "initialBuyNowAmount": null,
+    "properties": {
+      "exportable": true,
+      "odometerReading": 135300,
+      "inspectionValidToDate": "2027-07-31",
+      "numberOfSeats": 7,
+      "remarksLocalized": {
+        "TIRES": "Däckpar extradäck, snedslitna. Torrsprickor i 4 extradäck",
+        "BRAKES": null,
+        "EXTERIOR": "Stenskott i vindruta",
+        "INTERIOR": "Invändigt flertal repor, fläckar och skavmärken",
+        "ENGINE_AND_GEARBOX": null,
+        "TECHNOLOGY_AND_EQUIPMENT": "Missljud från el-baklucka öppning/stängning. Inre styrled vänster, glapp"
+      },
+      "heavyEquipment": false,
+      "deductibleVat": true,
+      "mediation": true,
+      "modelName": "Explorer 3.0T EcoBoost (457hk)",
+      "taxWeight": 2570,
+      "title": "Ford Explorer 3.0T EcoBoost (457hk)",
+      "registrationPlateCountry": "se",
+      "grades": {
+        "TECHNOLOGY_AND_EQUIPMENT": {
+          "min": 1,
+          "max": 3,
+          "value": 2
+        },
+        "BRAKES": {
+          "min": 1,
+          "max": 3,
+          "value": 3
+        },
+        "INTERIOR": {
+          "min": 1,
+          "max": 5,
+          "value": 3
+        },
+        "ENGINE_AND_GEARBOX": {
+          "min": 1,
+          "max": 3,
+          "value": 3
+        },
+        "TOTAL": {
+          "min": 1,
+          "max": 5,
+          "value": 3
+        },
+        "EXTERIOR": {
+          "min": 1,
+          "max": 5,
+          "value": 2
+        }
+      },
+      "initialTrafficDate": "2021-05-06",
+      "electricType": "Plug-in hybrid",
+      "registrationCountry": "se",
+      "height": 1783,
+      "package": "ST Läder Panorama 7-sits",
+      "remarks": {
+        "TECHNOLOGY_AND_EQUIPMENT": [
+          {
+            "id": "0",
+            "key": "Missljud från el-baklucka öppning/stängning",
+            "category": "TECHNOLOGY_AND_EQUIPMENT"
+          },
+          {
+            "id": "1",
+            "key": "Inre styrled vänster, glapp",
+            "category": "TECHNOLOGY_AND_EQUIPMENT"
+          }
+        ],
+        "BRAKES": [],
+        "INTERIOR": [
+          {
+            "id": "0",
+            "key": "Invändigt flertal repor, fläckar och skavmärken",
+            "category": "INTERIOR"
+          }
+        ],
+        "ENGINE_AND_GEARBOX": [],
+        "TIRES": [
+          {
+            "id": "0",
+            "key": "Däckpar extradäck, snedslitna",
+            "category": "TIRES"
+          },
+          {
+            "id": "1",
+            "key": "Torrsprickor i 4 extradäck",
+            "category": "TIRES"
+          }
+        ],
+        "EXTERIOR": [
+          {
+            "id": "0",
+            "key": "Stenskott i vindruta",
+            "category": "EXTERIOR"
+          }
+        ]
+      },
+      "towbar": false,
+      "mustExport": false,
+      "body": "SUV",
+      "battstatResult": {
+        "sohPercent": 85,
+        "ranking": 2,
+        "rankingRangeMin": 1,
+        "rankingRangeMax": 3
+      },
+      "saleLimitedToCorporate": false,
+      "ecoFriendly": true,
+      "hasUnpaidLoan": false,
+      "dateOfInspection": "2026-05-29",
+      "drivingBan": false,
+      "numberOfPreviousOwners": 3,
+      "isRepairObject": false,
+      "odometerUnit": "km",
+      "gearbox": "Automatic",
+      "length": 5076,
+      "modelYear": 2021,
+      "width": 2004,
+      "registrationPlate": "SNA87A",
+      "totalWeight": 3160,
+      "exteriorColor": "Black",
+      "brand": "Ford",
+      "adHeader": "Explorer 3.0T EB 457hk ST Läder Panorama 7-sits",
+      "maxPullWeightB": 750,
+      "maxPayload": 589,
+      "curbWeight": 2571,
+      "inspectionPeriod": "2026-05-29 - 2027-07-31",
+      "manufactureMonth": "202011",
+      "numberOfKeys": 2,
+      "finishType": "Metallic",
+      "formattedEquipment": [
+        {
+          "key": "360_KAMERA",
+          "title": "360 kamera",
+          "description": null,
+          "priority": 0
+        },
+        {
+          "key": "4WD",
+          "title": "4WD",
+          "description": "Konstant eller inkopplingsbar fyrhjulsdrift",
+          "priority": 1
+        },
+        {
+          "key": "ADAPTIV_FARTHALLARE",
+          "title": "Adaptiv farthållare",
+          "description": "Farthållare som hjälper till att hålla ett givet avstånd till framförvarande fordon.",
+          "priority": 2
+        },
+        {
+          "key": "ANTISPINN",
+          "title": "Antispinn",
+          "description": "Hjälpsystem som förhindrar att hjulen spinner",
+          "priority": 3
+        },
+        {
+          "key": "ASSISTANSSYSTEM",
+          "title": "Assistanssystem",
+          "description": "Uppkopplad tjänst för att exempelvis kunna kontrollera din bil på distans med hjälp av en mobilapp. Funktioner som bygger på 2G eller 3G-uppkoppling kan sluta fungera i samband med att dessa nätverk stängs ner av operatörerna.",
+          "priority": 4
+        },
+        {
+          "key": "AUTO_HOLD",
+          "title": "Auto hold",
+          "description": "Hindrar bilen tillfälligt från att rulla bakåt när du startar i motlut",
+          "priority": 5
+        },
+        {
+          "key": "AUTOBROMS",
+          "title": "Autobroms",
+          "description": "Automatisk inbromsning vid lägre hastigheter för mötande fordon och hinder framför bilen (City Safety)",
+          "priority": 6
+        },
+        {
+          "key": "BACKKAMERA",
+          "title": "Backkamera",
+          "description": "Kamera som underlättar vid backning",
+          "priority": 7
+        },
+        {
+          "key": "BLUETOOTH",
+          "title": "Bluetooth",
+          "description": "Trådlös uppkoppling mot mobila enheter",
+          "priority": 8
+        },
+        {
+          "key": "DODAVINKELVARNARE",
+          "title": "Dödavinkelvarnare",
+          "description": "Elektroniskt säkerhetssystem som signalerar om det finns hinder i dödavinkeln. Kallas även BLIS",
+          "priority": 9
+        },
+        {
+          "key": "ELDRIVEN_BAKLUCKA",
+          "title": "Eldriven baklucka",
+          "description": "Baklucka som öppnas/stängs elektroniskt.",
+          "priority": 10
+        },
+        {
+          "key": "ELHISS_BAK",
+          "title": "Elhiss bak",
+          "description": "Elektroniska fönsterhissar bak",
+          "priority": 11
+        },
+        {
+          "key": "ELHISS_FRAM",
+          "title": "Elhiss fram",
+          "description": "Elektronisk fönsterhiss fram",
+          "priority": 12
+        },
+        {
+          "key": "ELINFALLBARA_SPEGLAR",
+          "title": "Elinfällbara backspeglar",
+          "description": "Speglar som fälls in automatiskt när bilen låses eller manuellt via knapp",
+          "priority": 13
+        },
+        {
+          "key": "ELSPEGLAR",
+          "title": "Elspeglar",
+          "description": "Elektroniskt ställbara sidospeglar",
+          "priority": 14
+        },
+        {
+          "key": "ELSTOL_MED_MINNESFUNKTION_FORARPLATS",
+          "title": "Elstol med minnesfunktion förarplats",
+          "description": "Elektronisk ställbar förarstol med programmerbara lägen",
+          "priority": 15
+        },
+        {
+          "key": "ELSTOL_PASSAGERARPLATS",
+          "title": "Elstol passagerarplat",
+          "description": "Elektronisk ställbar passagerarstol",
+          "priority": 16
+        },
+        {
+          "key": "ELUPPVARMD_VINDRUTA",
+          "title": "Eluppvärmd vindruta",
+          "description": "Vindruta med (nästan) osynliga värmeslingor som snabbt avlägsnar is eller imma",
+          "priority": 17
+        },
+        {
+          "key": "FILBYTESVARNARE",
+          "title": "Filbytesvarnare",
+          "description": "Elektroniskt säkerhetssystem som varnar vid oplanerade filbyten",
+          "priority": 18
+        },
+        {
+          "key": "FJARRLAS",
+          "title": "Fjärrlås",
+          "description": "Möjliggör att du på distans kan låsa och låsa upp bilen",
+          "priority": 19
+        },
+        {
+          "key": "GPS",
+          "title": "GPS",
+          "description": "Navigationssystem med vägbeskrivning",
+          "priority": 20
+        },
+        {
+          "key": "INFALLBAR_DRAGKROK",
+          "title": "Infällbar dragkrok",
+          "description": " Anordning för att dra exempelvis personbilssläp, båttrailer mm. Kan fällas in/ut.",
+          "priority": 21
+        },
+        {
+          "key": "ISOFIX_BAK",
+          "title": "Isofix bak",
+          "description": "  Fästsystem för bilbarnstolar enligt internationell standard, även kallat Isofix",
+          "priority": 22
+        },
+        {
+          "key": "KLIMATANLAGGNING",
+          "title": "Klimatanläggning",
+          "description": "Luftkonditionering med möjlighet till automatisk temperaturinställning",
+          "priority": 23
+        },
+        {
+          "key": "LED_STRALKASTARE",
+          "title": "LED-strålkastare",
+          "description": "Strålkastare med LED-ljus har ett konstant vitt ljus och har samma ljusstyrka från star",
+          "priority": 24
+        },
+        {
+          "key": "NYCKELLOST_STARTSYSTEM",
+          "title": "Nyckellöst startsystem",
+          "description": "Startknapp i bilen utan tändningslås. Även kallat Keyless-go",
+          "priority": 25
+        },
+        {
+          "key": "PARKERINGSSENSORER_BAK",
+          "title": "Parkeringssensorer bak",
+          "description": "Sensorer på stötfångare baktill som varnar för hinder bakom bilen",
+          "priority": 26
+        },
+        {
+          "key": "PARKERINGSSENSORER_FRAM",
+          "title": "Parkeringssensorer fram",
+          "description": "Sensorer på stötfångare som varnar för hinder framför bilen",
+          "priority": 27
+        },
+        {
+          "key": "RADIO",
+          "title": "Radio",
+          "description": "Radiospelare",
+          "priority": 28
+        },
+        {
+          "key": "RATTVARME",
+          "title": "Rattvärme",
+          "description": "Eluppvärmd ratt",
+          "priority": 29
+        },
+        {
+          "key": "REGNSENSOR",
+          "title": "Regnsensor",
+          "description": "Automatiska vindrutetorkare, sensorer som reagerar på vatten",
+          "priority": 30
+        },
+        {
+          "key": "SMARTPHONE_INTEGRATION",
+          "title": "Smartphone integration",
+          "description": null,
+          "priority": 31
+        },
+        {
+          "key": "STOLSVARME_FRAM",
+          "title": "Stolsvärme fram",
+          "description": "Olika nivåer av värme i stolarna fram som ställs in via en knapp",
+          "priority": 32
+        },
+        {
+          "key": "SATESVARME_BAK",
+          "title": "Sätesvärme bak",
+          "description": "Elektroniskt uppvärmt baksäte",
+          "priority": 33
+        },
+        {
+          "key": "USB_INGANG",
+          "title": "USB-ingång",
+          "description": "Inkoppling av mobil enhet via USB-kontakt",
+          "priority": 34
+        },
+        {
+          "key": "OPPNINGSBART_PANORAMATAK",
+          "title": "Öppningsbart panoramatak",
+          "description": "Glastak som är delvis öppningsbart",
+          "priority": 35
+        }
+      ],
+      "chassisNumber": "WF02K8GY5MNA04356",
+      "importedForPersonalUse": false,
+      "textile": "Helläder",
+      "environmentalClassEuro": "6",
+      "taxFee": 360,
+      "familyName": "Explorer",
+      "residualLoanValue": 0,
+      "fuels": [
+        {
+          "fuelCode": "Petrol",
+          "enginePower": 363
+        },
+        {
+          "fuelCode": "Electric",
+          "rangeWltpDrive": 42,
+          "rangeCityWltpDrive": 44,
+          "enginePower": 123
+        }
+      ],
+      "equipment": [
+        "360-kamera",
+        "4WD",
+        "Adaptiv farthållare",
+        "Antispinn",
+        "Assistanssystem",
+        "Auto hold",
+        "Autobroms",
+        "Backkamera",
+        "Bluetooth",
+        "Dödavinkelvarnare",
+        "Eldriven baklucka",
+        "Elhiss bak",
+        "Elhiss fram",
+        "Elinfällbara speglar",
+        "Elspeglar",
+        "Elstol med minnesfunktion förarplats",
+        "Elstol passagerarplats",
+        "Eluppvärmd vindruta",
+        "Filbytesvarnare",
+        "Fjärrlås",
+        "GPS",
+        "Infällbar dragkrok",
+        "Isofix bak",
+        "Klimatanläggning",
+        "LED-strålkastare",
+        "Nyckellöst startsystem",
+        "Parkeringssensorer bak",
+        "Parkeringssensorer fram",
+        "Radio",
+        "Rattvärme",
+        "Regnsensor",
+        "Smartphone integration",
+        "Stolsvärme fram",
+        "Sätesvärme bak",
+        "USB-ingång",
+        "Öppningsbart panoramatak"
+      ],
+      "heading1": "Ford Explorer",
+      "heading2": "3.0T EcoBoost",
+      "heading3": "ST Läder Panorama 7-sits"
+    },
+    "offsiteSalesContact": null,
+    "displayCar360Spin": true,
+    "car360Spin": null,
+    "testDriveAllowed": true,
+    "leaseReturnProperties": {},
+    "state": "AUCTION_RESOLUTION",
+    "proactiveBrokering": null,
+    "certified": false,
+    "createdAt": "2026-10-13 07:15:37.263900+00:00",
+    "statisticalValuation": {
+      "bpWhite": 418200,
+      "bpOrange": 418200,
+      "bpGreen": null,
+      "marketPrice": 418200
+    },
+    "conditionClassification": "TESTED",
+    "isFixedPrice": false,
+    "reducedPrice": false,
+    "id": "7292001",
+    "vehicleType": "CAR",
+    "buyNowAmount": null,
+    "exportable": true,
+    "deductibleVat": true,
+    "collisionWarranty": null,
+    "title": "Ford Explorer 3.0T EcoBoost (457hk)",
+    "brand": "Ford",
+    "familyName": "Explorer",
+    "modelName": "Explorer 3.0T EcoBoost (457hk)",
+    "package": "ST Läder Panorama 7-sits",
+    "heading1": "Ford Explorer",
+    "heading2": "3.0T EcoBoost",
+    "heading3": "ST Läder Panorama 7-sits",
+    "media": [
+      {
+        "processObjectId": "7292001",
+        "uri": "https://kvdbil-images.imgix.net/7292001/67ff72ae.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292001/67ff72ae.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 1
+      },
+      {
+        "processObjectId": "7292001",
+        "uri": "https://kvdbil-images.imgix.net/7292001/6258d1bc.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292001/6258d1bc.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 1
+      },
+      {
+        "processObjectId": "7292001",
+        "uri": "https://kvdbil-images.imgix.net/7292001/249665fb.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292001/249665fb.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 2
+      },
+      {
+        "processObjectId": "7292001",
+        "uri": "https://kvdbil-images.imgix.net/7292001/24b72fc4.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292001/24b72fc4.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 3
+      },
+      {
+        "processObjectId": "7292001",
+        "uri": "https://kvdbil-images.imgix.net/7292001/25c5a87a.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292001/25c5a87a.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 3
+      },
+      {
+        "processObjectId": "7292001",
+        "uri": "https://kvdbil-images.imgix.net/7292001/803d881c.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292001/803d881c.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 4
+      },
+      {
+        "processObjectId": "7292001",
+        "uri": "https://kvdbil-images.imgix.net/7292001/a84f9a33.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292001/a84f9a33.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 4
+      },
+      {
+        "processObjectId": "7292001",
+        "uri": "https://kvdbil-images.imgix.net/7292001/fd134ffc.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292001/fd134ffc.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 5
+      },
+      {
+        "processObjectId": "7292001",
+        "uri": "https://kvdbil-images.imgix.net/7292001/50d4c288.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292001/50d4c288.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 5
+      },
+      {
+        "processObjectId": "7292001",
+        "uri": "https://kvdbil-images.imgix.net/7292001/4965af26.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292001/4965af26.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 6
+      },
+      {
+        "processObjectId": "7292001",
+        "uri": "https://kvdbil-images.imgix.net/7292001/da6d59a1.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292001/da6d59a1.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 6
+      },
+      {
+        "processObjectId": "7292001",
+        "uri": "https://kvdbil-images.imgix.net/7292001/cb484860.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292001/cb484860.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 7
+      },
+      {
+        "processObjectId": "7292001",
+        "uri": "https://kvdbil-images.imgix.net/7292001/d3a1e904.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292001/d3a1e904.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 7
+      },
+      {
+        "processObjectId": "7292001",
+        "uri": "https://kvdbil-images.imgix.net/7292001/5354e591.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292001/5354e591.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 8
+      },
+      {
+        "processObjectId": "7292001",
+        "uri": "https://kvdbil-images.imgix.net/7292001/dc20dcb0.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292001/dc20dcb0.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 8
+      },
+      {
+        "processObjectId": "7292001",
+        "uri": "https://kvdbil-images.imgix.net/7292001/40276d2a.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292001/40276d2a.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 9
+      },
+      {
+        "processObjectId": "7292001",
+        "uri": "https://kvdbil-images.imgix.net/7292001/531aedf4.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292001/531aedf4.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 9
+      },
+      {
+        "processObjectId": "7292001",
+        "uri": "https://kvdbil-images.imgix.net/7292001/39694d4a.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292001/39694d4a.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 10
+      },
+      {
+        "processObjectId": "7292001",
+        "uri": "https://kvdbil-images.imgix.net/7292001/8d4cd0ed.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292001/8d4cd0ed.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 10
+      },
+      {
+        "processObjectId": "7292001",
+        "uri": "https://kvdbil-images.imgix.net/7292001/cb68f37e.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292001/cb68f37e.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 11
+      },
+      {
+        "processObjectId": "7292001",
+        "uri": "https://kvdbil-images.imgix.net/7292001/2f65e1b0.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292001/2f65e1b0.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 11
+      },
+      {
+        "processObjectId": "7292001",
+        "uri": "https://kvdbil-images.imgix.net/7292001/8c94fa28.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292001/8c94fa28.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 12
+      },
+      {
+        "processObjectId": "7292001",
+        "uri": "https://kvdbil-images.imgix.net/7292001/36728552.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292001/36728552.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 12
+      },
+      {
+        "processObjectId": "7292001",
+        "uri": "https://kvdbil-images.imgix.net/7292001/d850dd4f.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292001/d850dd4f.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 13
+      },
+      {
+        "processObjectId": "7292001",
+        "uri": "https://kvdbil-images.imgix.net/7292001/707561a9.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292001/707561a9.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 14
+      },
+      {
+        "processObjectId": "7292001",
+        "uri": "https://kvdbil-images.imgix.net/7292001/a8a29508.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292001/a8a29508.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 14
+      },
+      {
+        "processObjectId": "7292001",
+        "uri": "https://kvdbil-images.imgix.net/7292001/a691f8a2.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292001/a691f8a2.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 15
+      },
+      {
+        "processObjectId": "7292001",
+        "uri": "https://kvdbil-images.imgix.net/7292001/84fadfb4.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292001/84fadfb4.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 15
+      },
+      {
+        "processObjectId": "7292001",
+        "uri": "https://kvdbil-images.imgix.net/7292001/7b2e9700.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292001/7b2e9700.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 16
+      },
+      {
+        "processObjectId": "7292001",
+        "uri": "https://kvdbil-images.imgix.net/7292001/de49dc02.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292001/de49dc02.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 16
+      },
+      {
+        "processObjectId": "7292001",
+        "uri": "https://kvdbil-images.imgix.net/7292001/a450bda6.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292001/a450bda6.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 17
+      },
+      {
+        "processObjectId": "7292001",
+        "uri": "https://kvdbil-images.imgix.net/7292001/56a2c628.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292001/56a2c628.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 17
+      },
+      {
+        "processObjectId": "7292001",
+        "uri": "https://kvdbil-images.imgix.net/7292001/0fdaff0a.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292001/0fdaff0a.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 18
+      },
+      {
+        "processObjectId": "7292001",
+        "uri": "https://kvdbil-images.imgix.net/7292001/be476b6b.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292001/be476b6b.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 18
+      },
+      {
+        "processObjectId": "7292001",
+        "uri": "https://kvdbil-images.imgix.net/7292001/c8170bd2.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292001/c8170bd2.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 19
+      },
+      {
+        "processObjectId": "7292001",
+        "uri": "https://kvdbil-images.imgix.net/7292001/f3a77849.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292001/f3a77849.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 19
+      },
+      {
+        "processObjectId": "7292001",
+        "uri": "https://kvdbil-images.imgix.net/7292001/ab9541d7.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292001/ab9541d7.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 20
+      },
+      {
+        "processObjectId": "7292001",
+        "uri": "https://kvdbil-images.imgix.net/7292001/79d761b8.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292001/79d761b8.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 21
+      },
+      {
+        "processObjectId": "7292001",
+        "uri": "https://kvdbil-images.imgix.net/7292001/51870077.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292001/51870077.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 22
+      },
+      {
+        "processObjectId": "7292001",
+        "uri": "https://kvdbil-images.imgix.net/7292001/0944ddf8.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292001/0944ddf8.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 23
+      },
+      {
+        "processObjectId": "7292001",
+        "uri": "https://kvdbil-images.imgix.net/7292001/010a8f4e.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292001/010a8f4e.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 24
+      },
+      {
+        "processObjectId": "7292001",
+        "uri": "https://kvdbil-images.imgix.net/7292001/d952218e.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292001/d952218e.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 25
+      }
+    ],
+    "locationInfo": {
+      "id": "555608",
+      "processObjectId": "7292001",
+      "locationType": "FACILITY",
+      "createdAt": "2026-11-02T11:42:59.639149+00:00",
+      "updatedAt": "2026-11-02T11:42:59.639152+00:00",
+      "facilityId": "00000002-0002-0002-0002-000000000002",
+      "parkingZone": "A",
+      "parkingNumber": null,
+      "outgoingTime": "2026-11-16T10:00:00+00:00",
+      "leftAt": null,
+      "outgoingType": "BOOKING",
+      "publicFacilityId": "00000002-0002-0002-0002-000000000002",
+      "facility": {
+        "id": "00000002-0002-0002-0002-000000000002",
+        "name": "Åkersberga (Runö)",
+        "operator": "KVD",
+        "legacyIdentifiers": [
+          "Åkersberga (Runö)"
+        ],
+        "objectTypes": [
+          "CAR"
+        ],
+        "createdAt": "2018-03-04T13:18:23.295898+00:00",
+        "calendarOrganisationalUnitId": "4",
+        "parkingAreas": [
+          {
+            "id": 3,
+            "name": "A1",
+            "createdAt": "2018-03-04T13:18:23.295898+00:00"
+          },
+          {
+            "id": 4,
+            "name": "B1",
+            "createdAt": "2018-03-04T13:18:23.295898+00:00"
+          }
+        ],
+        "active": true,
+        "latitude": 59.4819664,
+        "longitude": 18.2749312,
+        "distance": null,
+        "address": "Näsvägen 19",
+        "postCode": "18440",
+        "city": "Åkersberga",
+        "facilityType": "MAXI",
+        "facilityMapUrl": "https://www.google.com/maps/dir/59.4819664,18.2749312/@59.4819664,18.2749312,z13",
+        "contactPhone": "+46765518068",
+        "contactEmail": "leverans.akersberga@kvdbil.se",
+        "allowIncomingTransport": true,
+        "allowLeaseReturns": false,
+        "allowUnplannedDropOffFleetManager": true,
+        "parentFacilityId": null,
+        "publicFacilityId": "00000002-0002-0002-0002-000000000002"
+      }
+    },
+    "valuation": {
+      "id": 239520,
+      "processObjectId": "7292001",
+      "valuatorComment": {
+        "da": "Denne Ford Explorer med automatgear er en rummelig ladbar hybrid, der kombinerer kraftfuld 4WD med sort metalliclak for en sikker og stilfuld kørsel. Et åbent panorama-tag giver ekstra plads og lys i kabinen, mens hellæderindtræk skaber en hyggelig atmosfære. 360-kamera og adaptiv fartpilot hjælper dig i hverdagen og gør hver rejse mere afslappet.",
+        "de": "Dieser Ford Explorer mit Automatikgetriebe ist ein geräumiger Plug-in-Hybrid, der kraftvollen 4WD mit schwarzem Metalliclack für eine sichere und stilvolle Fahrt kombiniert. Ein aufklappbares Panoramadach sorgt für zusätzlichen Raum und Licht im Innenraum, während Volllederausstattung ein behagliches Gefühl schafft. 360-Grad-Kamera und adaptive Geschwindigkeitsregelanlage unterstützen dich im Alltag und machen jede Fahrt entspannter.",
+        "en": "This Ford Explorer with automatic transmission is a spacious plug-in hybrid that combines powerful 4WD with black metallic paint for a safe and stylish drive. An opening panoramic roof provides extra space and light in the cabin, while full leather interior creates a cozy feel. 360-degree camera and adaptive cruise control help you in daily life and make every journey more relaxing.",
+        "et": "See Ford Explorer automaatkäigukastiga on ruumikas pistikhübriid, mis ühendab võimsa nelikveosüsteemi musta metallikvärviga, pakkudes turvalist ja stiilset sõitu. Avanev panoraamkatusega lagi lisab salongi ruumi ja valgust, samal ajal kui täisnahkpolster loob hubase tunde. 360-kraadine kaamera ja adaptiivne püsikiiruse regulaator aitavad sind igapäevases kasutuses ning teevad igast sõidust lõõgastavama.",
+        "fi": "Tämä automaattivaihteinen Ford Explorer on tilava ladattava hybridiauto, joka yhdistää tehokkaan nelivedon mustaan metalliväriin turvallisen ja tyylikkään ajokokemuksen takaamiseksi. Avattava panoraamakatto lisää tilan ja valon määrää matkustamossa, kun taas kokonahkainen sisustus luo kodikkaan tunnelman. 360 asteen kamera ja adaptatiivinen vakionopeudensäädin auttavat sinua arjessa ja tekevät jokaisesta matkasta rennon.",
+        "pl": "Ten Ford Explorer z automatyczną skrzynią biegów to przestronny hybrydowy plug-in, który łączy mocny napęd 4WD z czarnym metalicznym lakierem, zapewniając bezpieczną i stylową jazdę. Otwierany dach panoramiczny zapewnia dodatkową przestrzeń i światło w kabinie, a pełna skórzana tapicerka tworzy przytulną atmosferę. Kamera 360 stopni i adaptacyjny tempomat pomagają w codziennym użytkowaniu i sprawiają, że każda podróż jest przyjemniejsza.",
+        "sv": "Denna Ford Explorer med automat är en rymlig laddhybrid som kombinerar kraftfull 4WD med svart metalliclack för en trygg och stilig körning. Öppningsbart panoramatak ger extra rymd och ljus i kupén, medan helläder invändigt skapar en ombonad känsla. 360-kamera och adaptiv farthållare hjälper dig i vardagen och gör varje resa mer avslappnad."
+      },
+      "generatedValuatorComment": {
+        "en": "",
+        "sv": "Denna Ford Explorer med automat är en rymlig laddhybrid som kombinerar kraftfull 4WD med svart metalliclack för en trygg och stilig körning. Öppningsbart panoramatak ger extra rymd och ljus i kupén, medan helläder invändigt skapar en ombonad känsla. 360-kamera och adaptiv farthållare hjälper dig i vardagen och gör varje resa mer avslappnad."
+      },
+      "carDealerPrice": 380000,
+      "endUserTestProtocol": {
+        "tires": {
+          "extraTires": {
+            "other": {
+              "rimSize": "20",
+              "rimType": "Alu.fälg",
+              "tireType": "Sommardäck",
+              "otherInfo": "Behövs ej",
+              "tireTypeKey": "SUMMER_TIRES"
+            },
+            "grades": {
+              "rearLeft": 2,
+              "frontLeft": 1,
+              "rearRight": 2,
+              "frontRight": 1
+            },
+            "treadDepths": {
+              "rearLeft": 3,
+              "frontLeft": 2,
+              "rearRight": 3,
+              "frontRight": 2
+            }
+          },
+          "mountedTires": {
+            "other": {
+              "rimSize": "20",
+              "rimType": "Alu.fälg",
+              "tireType": "Dubbade vinterdäck",
+              "otherInfo": "Behövs ej",
+              "tireTypeKey": "STUDDED_WINTER_TIRES"
+            },
+            "grades": {
+              "rearLeft": 3,
+              "frontLeft": 3,
+              "rearRight": 3,
+              "frontRight": 3
+            },
+            "treadDepths": {
+              "rearLeft": 6,
+              "frontLeft": 6,
+              "rearRight": 6,
+              "frontRight": 6
+            }
+          }
+        },
+        "grades": {
+          "TOTAL": {
+            "max": 5,
+            "min": 1,
+            "value": 3
+          },
+          "BRAKES": {
+            "max": 3,
+            "min": 1,
+            "value": 3
+          },
+          "EXTERIOR": {
+            "max": 5,
+            "min": 1,
+            "value": 2
+          },
+          "INTERIOR": {
+            "max": 5,
+            "min": 1,
+            "value": 3
+          },
+          "ENGINE_AND_GEARBOX": {
+            "max": 3,
+            "min": 1,
+            "value": 3
+          },
+          "TECHNOLOGY_AND_EQUIPMENT": {
+            "max": 3,
+            "min": 1,
+            "value": 2
+          }
+        },
+        "towbar": false,
+        "remarks": {
+          "BRAKES": [],
+          "EXTERIOR": [
+            {
+              "id": "72920012",
+              "key": "Stenskott i vindruta.",
+              "other": null,
+              "point": 0,
+              "category": "EXTERIOR",
+              "text": "Stenskott i vindruta."
+            }
+          ],
+          "INTERIOR": [
+            {
+              "id": "72920011",
+              "key": "Invändigt flertal repor, fläckar och skavmärken.",
+              "other": null,
+              "point": 0,
+              "category": "INTERIOR",
+              "text": "Invändigt flertal repor, fläckar och skavmärken."
+            }
+          ],
+          "ENGINE_AND_GEARBOX": [],
+          "TECHNOLOGY_AND_EQUIPMENT": [
+            {
+              "id": "72920014",
+              "key": "Missljud från el-baklucka öppning/stängning. Inre styrled vänster, glapp.",
+              "other": null,
+              "point": 0,
+              "category": "TECHNOLOGY_AND_EQUIPMENT",
+              "text": "Missljud från el-baklucka öppning/stängning. Inre styrled vänster, glapp."
+            }
+          ]
+        },
+        "textile": "Helläder",
+        "boatType": null,
+        "equipment": [
+          "Backkamera",
+          "GPS",
+          "Öppningsbart panoramatak",
+          "4WD",
+          "Adaptiv farthållare",
+          "Assistanssystem",
+          "Infällbar dragkrok",
+          "Nyckellöst startsystem",
+          "Autobroms",
+          "Bluetooth",
+          "Dödavinkelvarnare",
+          "Eldriven baklucka",
+          "Elstol med minnesfunktion förarplats",
+          "Elstol passagerarplats",
+          "Eluppvärmd vindruta",
+          "Filbytesvarnare",
+          "Klimatanläggning",
+          "LED-strålkastare",
+          "Rattvärme",
+          "USB-ingång",
+          "360-kamera",
+          "Antispinn",
+          "Auto hold",
+          "Elhiss bak",
+          "Elhiss fram",
+          "Elinfällbara speglar",
+          "Elspeglar",
+          "Fjärrlås",
+          "Isofix bak",
+          "Parkeringssensorer bak",
+          "Parkeringssensorer fram",
+          "Radio",
+          "Regnsensor",
+          "Smartphone integration",
+          "Stolsvärme fram",
+          "Sätesvärme bak"
+        ],
+        "boatWidth": null,
+        "createdAt": "2026-11-05T08:46:07",
+        "boatEngine": null,
+        "boatLength": null,
+        "boatWeight": null,
+        "finishType": "Metallic",
+        "protocolId": "262071",
+        "stoveFlames": null,
+        "heatingSystem": null,
+        "numberOfKeys": 2,
+        "boatCeBranded": false,
+        "boatGearModel": null,
+        "numberOfBunks": null,
+        "numberOfSeats": 7,
+        "boatEngineFuel": null,
+        "boatSepticTank": false,
+        "isRepairObject": false,
+        "boatEnginePower": null,
+        "serviceBookType": "ELECTRONIC",
+        "boatExteriorColor": null,
+        "serviceBookStatus": "Service utförd vid följande mil: 2175, 4660, 6615, 8445, 9724, 12125 mil, senast 2026-04-09",
+        "serviceBookStatusI18N": {
+          "da": "Service udført ved følgende km: 21750, 46600, 66150, 84450, 97240, 121250 km, senest 2026-04-09",
+          "de": "Service durchgeführt bei folgenden km: 21750, 46600, 66150, 84450, 97240, 121250 km, zuletzt 2026-04-09",
+          "en": "Service performed at the following km: 21750, 46600, 66150, 84450, 97240, 121250 km, last on 2026-04-09",
+          "et": "Hooldus teostatud järgmisel km arvul: 21750, 46600, 66150, 84450, 97240, 121250 km, viimane 2026-04-09",
+          "fi": "Huolto tehty seuraavilla km: 21750, 46600, 66150, 84450, 97240, 121250 km, viimeksi 2026-04-09",
+          "pl": "Serwis wykonany przy następującym przebiegu: 21750, 46600, 66150, 84450, 97240, 121250 km, ostatnio 2026-04-09",
+          "sv": "Service utförd vid följande mil: 2175, 4660, 6615, 8445, 9724, 12125 mil, senast 2026-04-09"
+        },
+        "boatEngineSerialNumber": null,
+        "odometerReadingAfterTest": {
+          "unit": "Mil",
+          "value": 13530
+        },
+        "odometerReadingAfterTestInKm": 135300
+      },
+      "auctionPriceValuation": {
+        "currency": "SEK"
+      },
+      "finalised": true,
+      "includedImageIds": null,
+      "createdAt": "2026-11-05T07:48:03.841665+00:00",
+      "updatedAt": "2026-11-10T09:14:13.230209+00:00",
+      "generatingInProgress": false,
+      "valuatorCommentLocalized": "Denna Ford Explorer med automat är en rymlig laddhybrid som kombinerar kraftfull 4WD med svart metalliclack för en trygg och stilig körning. Öppningsbart panoramatak ger extra rymd och ljus i kupén, medan helläder invändigt skapar en ombonad känsla. 360-kamera och adaptiv farthållare hjälper dig i vardagen och gör varje resa mer avslappnad."
+    },
+    "facts": {
+      "default": [
+        {
+          "key": "NUMBER_OF_PREVIOUS_OWNERS",
+          "text": "Antal tidigare ägare",
+          "value": 3,
+          "type": "string"
+        },
+        {
+          "key": "REGISTRATION_PLATE",
+          "text": "Registreringsnummer",
+          "value": "SNA87A",
+          "type": "string"
+        },
+        {
+          "key": "MODEL_YEAR",
+          "text": "Modellår",
+          "value": 2021,
+          "type": "string"
+        },
+        {
+          "key": "MANUFACTURE_MONTH",
+          "text": "Tillverkningsmånad",
+          "value": "202011",
+          "type": "manufacture_month"
+        },
+        {
+          "key": "ODOMETER_READING",
+          "text": "Mätarställning",
+          "value": 135300,
+          "type": "distance"
+        },
+        {
+          "key": "INITIAL_TRAFFIC_DATE",
+          "text": "Första datum i trafik i Sverige",
+          "value": "2021-05-06",
+          "type": "date"
+        },
+        {
+          "key": "SERVICE_BOOK",
+          "text": "Servicehistorik",
+          "value": "Service utförd vid följande mil: 2175, 4660, 6615, 8445, 9724, 12125 mil, senast 2026-04-09",
+          "type": "string"
+        },
+        {
+          "key": "SERVICE_BOOK_TYPE",
+          "text": "Servicebok",
+          "value": "Elektronisk",
+          "type": "string"
+        },
+        {
+          "key": "GEARBOX",
+          "text": "Växellåda",
+          "value": "Automat",
+          "type": "string"
+        },
+        {
+          "key": "NUMBER_OF_SEATS",
+          "text": "Antal säten",
+          "value": 7,
+          "type": "string"
+        },
+        {
+          "key": "NUMBER_OF_KEYS",
+          "text": "Antal nycklar",
+          "value": 2,
+          "type": "string"
+        },
+        {
+          "key": "EXTERIOR_COLOR",
+          "text": "Färg",
+          "value": "Svart",
+          "type": "string"
+        },
+        {
+          "key": "FINISH_TYPE",
+          "text": "Lack",
+          "value": "Metallic",
+          "type": "string"
+        },
+        {
+          "key": "TEXTILE",
+          "text": "Klädsel",
+          "value": "Helläder",
+          "type": "string"
+        },
+        {
+          "key": "MANUFACTURER_WARRANTY",
+          "text": "Nybilsgaranti",
+          "value": "Inte undersökt",
+          "type": "string"
+        },
+        {
+          "key": "COLLISION_WARRANTY",
+          "text": "Vagnskadegaranti",
+          "value": "Inte undersökt",
+          "type": "string"
+        },
+        {
+          "key": "TAX_FEE",
+          "text": "Skatt årsavgift",
+          "value": "360 SEK",
+          "type": "string"
+        }
+      ],
+      "additional": [
+        {
+          "key": "CHASSIS_NUMBER",
+          "text": "Chassinummer",
+          "value": "WF02K8GY5MNA04356",
+          "type": "string"
+        },
+        {
+          "key": "ENGINE_EFFECT_PETROL",
+          "text": "Motoreffekt (bensin)",
+          "value": 363,
+          "type": "engine_power"
+        },
+        {
+          "key": "ENGINE_EFFECT_ELECTRIC",
+          "text": "Motoreffekt (el)",
+          "value": 123,
+          "type": "engine_power"
+        },
+        {
+          "key": "TOWBAR",
+          "text": "Dragkrok",
+          "value": "Nej",
+          "type": "string"
+        },
+        {
+          "key": "MAX_PAYLOAD",
+          "text": "Maxlastvikt",
+          "value": 589,
+          "type": "weight"
+        },
+        {
+          "key": "RANGE_WLTP_DRIVE_ELECTRIC",
+          "text": "Räckvidd WLTP",
+          "value": 42,
+          "type": "distance"
+        },
+        {
+          "key": "RANGE_CITY_WLTP_DRIVE_ELECTRIC",
+          "text": "Räckvidd stad WLTP",
+          "value": 44,
+          "type": "distance"
+        },
+        {
+          "key": "INSPECTION_VALID_TO_DATE",
+          "text": "Nästa besiktning senast",
+          "value": "2027-07-31",
+          "type": "string"
+        },
+        {
+          "key": "CURB_WEIGHT",
+          "text": "Tjänstevikt",
+          "value": 2571,
+          "type": "weight"
+        },
+        {
+          "key": "TAX_WEIGHT",
+          "text": "Skattevikt",
+          "value": 2570,
+          "type": "weight"
+        },
+        {
+          "key": "TOTAL_WEIGHT",
+          "text": "Fordonets totalvikt",
+          "value": 3160,
+          "type": "weight"
+        },
+        {
+          "key": "LENGTH",
+          "text": "Längd",
+          "value": 5076,
+          "type": "length"
+        },
+        {
+          "key": "WIDTH",
+          "text": "Bredd",
+          "value": 2004,
+          "type": "length"
+        },
+        {
+          "key": "HEIGHT",
+          "text": "Höjd",
+          "value": 1783,
+          "type": "length"
+        }
+      ],
+      "other": [
+        {
+          "key": "SOLD_IN_SWEDEN",
+          "text": "Svensksåld",
+          "value": "Ja",
+          "type": "string"
+        },
+        {
+          "key": "EXPORTABLE",
+          "text": "Kan exporteras",
+          "value": "Ja",
+          "type": "string"
+        },
+        {
+          "key": "DEDUCTIBLE_VAT",
+          "text": "Avlyftbar moms",
+          "value": "Ja",
+          "type": "string"
+        }
+      ]
+    },
+    "majorFeature": [
+      {
+        "key": "RANGE_WLTP_DRIVE_ELECTRIC",
+        "title": "Räckvidd WLTP",
+        "value": 42,
+        "equipment": null
+      },
+      {
+        "key": "NUMBER_OF_SEATS",
+        "title": "Antal säten",
+        "value": 7,
+        "equipment": null
+      },
+      {
+        "key": "ENGINE_EFFECT_PETROL",
+        "title": "Motoreffekt (bensin)",
+        "value": 363,
+        "equipment": null
+      },
+      {
+        "key": "BATTSTAT",
+        "title": "Kvdbils batteritest",
+        "value": 2,
+        "equipment": null
+      }
+    ],
+    "batteryTestCertificateAvailable": true
+  },
+  "previewImages": [
+    {
+      "processObjectId": "7292001",
+      "uri": "https://kvdbil-images.imgix.net/7292001/67ff72ae.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292001/67ff72ae.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 1
+    },
+    {
+      "processObjectId": "7292001",
+      "uri": "https://kvdbil-images.imgix.net/7292001/6258d1bc.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292001/6258d1bc.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 1
+    },
+    {
+      "processObjectId": "7292001",
+      "uri": "https://kvdbil-images.imgix.net/7292001/249665fb.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292001/249665fb.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 2
+    },
+    {
+      "processObjectId": "7292001",
+      "uri": "https://kvdbil-images.imgix.net/7292001/24b72fc4.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292001/24b72fc4.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 3
+    },
+    {
+      "processObjectId": "7292001",
+      "uri": "https://kvdbil-images.imgix.net/7292001/25c5a87a.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292001/25c5a87a.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 3
+    },
+    {
+      "processObjectId": "7292001",
+      "uri": "https://kvdbil-images.imgix.net/7292001/803d881c.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292001/803d881c.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 4
+    },
+    {
+      "processObjectId": "7292001",
+      "uri": "https://kvdbil-images.imgix.net/7292001/a84f9a33.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292001/a84f9a33.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 4
+    },
+    {
+      "processObjectId": "7292001",
+      "uri": "https://kvdbil-images.imgix.net/7292001/fd134ffc.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292001/fd134ffc.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 5
+    },
+    {
+      "processObjectId": "7292001",
+      "uri": "https://kvdbil-images.imgix.net/7292001/50d4c288.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292001/50d4c288.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 5
+    },
+    {
+      "processObjectId": "7292001",
+      "uri": "https://kvdbil-images.imgix.net/7292001/4965af26.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292001/4965af26.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 6
+    },
+    {
+      "processObjectId": "7292001",
+      "uri": "https://kvdbil-images.imgix.net/7292001/da6d59a1.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292001/da6d59a1.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 6
+    },
+    {
+      "processObjectId": "7292001",
+      "uri": "https://kvdbil-images.imgix.net/7292001/cb484860.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292001/cb484860.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 7
+    },
+    {
+      "processObjectId": "7292001",
+      "uri": "https://kvdbil-images.imgix.net/7292001/d3a1e904.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292001/d3a1e904.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 7
+    },
+    {
+      "processObjectId": "7292001",
+      "uri": "https://kvdbil-images.imgix.net/7292001/5354e591.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292001/5354e591.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 8
+    },
+    {
+      "processObjectId": "7292001",
+      "uri": "https://kvdbil-images.imgix.net/7292001/dc20dcb0.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292001/dc20dcb0.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 8
+    },
+    {
+      "processObjectId": "7292001",
+      "uri": "https://kvdbil-images.imgix.net/7292001/40276d2a.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292001/40276d2a.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 9
+    },
+    {
+      "processObjectId": "7292001",
+      "uri": "https://kvdbil-images.imgix.net/7292001/531aedf4.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292001/531aedf4.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 9
+    },
+    {
+      "processObjectId": "7292001",
+      "uri": "https://kvdbil-images.imgix.net/7292001/39694d4a.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292001/39694d4a.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 10
+    },
+    {
+      "processObjectId": "7292001",
+      "uri": "https://kvdbil-images.imgix.net/7292001/8d4cd0ed.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292001/8d4cd0ed.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 10
+    },
+    {
+      "processObjectId": "7292001",
+      "uri": "https://kvdbil-images.imgix.net/7292001/cb68f37e.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292001/cb68f37e.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 11
+    },
+    {
+      "processObjectId": "7292001",
+      "uri": "https://kvdbil-images.imgix.net/7292001/2f65e1b0.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292001/2f65e1b0.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 11
+    },
+    {
+      "processObjectId": "7292001",
+      "uri": "https://kvdbil-images.imgix.net/7292001/8c94fa28.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292001/8c94fa28.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 12
+    },
+    {
+      "processObjectId": "7292001",
+      "uri": "https://kvdbil-images.imgix.net/7292001/36728552.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292001/36728552.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 12
+    },
+    {
+      "processObjectId": "7292001",
+      "uri": "https://kvdbil-images.imgix.net/7292001/d850dd4f.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292001/d850dd4f.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 13
+    },
+    {
+      "processObjectId": "7292001",
+      "uri": "https://kvdbil-images.imgix.net/7292001/707561a9.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292001/707561a9.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 14
+    },
+    {
+      "processObjectId": "7292001",
+      "uri": "https://kvdbil-images.imgix.net/7292001/a8a29508.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292001/a8a29508.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 14
+    },
+    {
+      "processObjectId": "7292001",
+      "uri": "https://kvdbil-images.imgix.net/7292001/a691f8a2.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292001/a691f8a2.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 15
+    },
+    {
+      "processObjectId": "7292001",
+      "uri": "https://kvdbil-images.imgix.net/7292001/84fadfb4.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292001/84fadfb4.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 15
+    },
+    {
+      "processObjectId": "7292001",
+      "uri": "https://kvdbil-images.imgix.net/7292001/7b2e9700.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292001/7b2e9700.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 16
+    },
+    {
+      "processObjectId": "7292001",
+      "uri": "https://kvdbil-images.imgix.net/7292001/de49dc02.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292001/de49dc02.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 16
+    },
+    {
+      "processObjectId": "7292001",
+      "uri": "https://kvdbil-images.imgix.net/7292001/a450bda6.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292001/a450bda6.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 17
+    },
+    {
+      "processObjectId": "7292001",
+      "uri": "https://kvdbil-images.imgix.net/7292001/56a2c628.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292001/56a2c628.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 17
+    },
+    {
+      "processObjectId": "7292001",
+      "uri": "https://kvdbil-images.imgix.net/7292001/0fdaff0a.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292001/0fdaff0a.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 18
+    },
+    {
+      "processObjectId": "7292001",
+      "uri": "https://kvdbil-images.imgix.net/7292001/be476b6b.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292001/be476b6b.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 18
+    },
+    {
+      "processObjectId": "7292001",
+      "uri": "https://kvdbil-images.imgix.net/7292001/c8170bd2.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292001/c8170bd2.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 19
+    },
+    {
+      "processObjectId": "7292001",
+      "uri": "https://kvdbil-images.imgix.net/7292001/f3a77849.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292001/f3a77849.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 19
+    },
+    {
+      "processObjectId": "7292001",
+      "uri": "https://kvdbil-images.imgix.net/7292001/ab9541d7.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292001/ab9541d7.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 20
+    },
+    {
+      "processObjectId": "7292001",
+      "uri": "https://kvdbil-images.imgix.net/7292001/79d761b8.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292001/79d761b8.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 21
+    },
+    {
+      "processObjectId": "7292001",
+      "uri": "https://kvdbil-images.imgix.net/7292001/51870077.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292001/51870077.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 22
+    },
+    {
+      "processObjectId": "7292001",
+      "uri": "https://kvdbil-images.imgix.net/7292001/0944ddf8.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292001/0944ddf8.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 23
+    },
+    {
+      "processObjectId": "7292001",
+      "uri": "https://kvdbil-images.imgix.net/7292001/010a8f4e.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292001/010a8f4e.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 24
+    },
+    {
+      "processObjectId": "7292001",
+      "uri": "https://kvdbil-images.imgix.net/7292001/d952218e.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292001/d952218e.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 25
+    }
+  ],
+  "similarAuctions": [],
+  "activeAuction": {
+    "auctionId": "310110",
+    "closed": true,
+    "countdownInProgress": true,
+    "preliminaryCloseAt": "2026-11-13T09:34:17.485385+00:00",
+    "createdAt": "2026-11-10T14:24:46.372752+00:00",
+    "updatedAt": "2026-11-13T09:34:17.493885+00:00",
+    "vatExcludedBiddingAllowed": false,
+    "reservationPriceReached": false,
+    "bids": [
+      {
+        "id": 18757456,
+        "auctionId": 310110,
+        "bidderAlias": "3",
+        "amount": 305000,
+        "type": "AUTO",
+        "maxBidId": 10960394,
+        "triggeredBy": 10960736,
+        "createdAt": "2026-11-13T09:30:47.490360+00:00",
+        "updatedAt": "2026-11-13T09:30:47.490363+00:00"
+      },
+      {
+        "id": 18757455,
+        "auctionId": 310110,
+        "bidderAlias": "4",
+        "amount": 304500,
+        "type": "NORMAL",
+        "maxBidId": 10960736,
+        "triggeredBy": 10960736,
+        "createdAt": "2026-11-13T09:30:47.490352+00:00",
+        "updatedAt": "2026-11-13T09:30:47.490358+00:00"
+      },
+      {
+        "id": 18757428,
+        "auctionId": 310110,
+        "bidderAlias": "3",
+        "amount": 303000,
+        "type": "AUTO",
+        "maxBidId": 10960394,
+        "triggeredBy": 10960722,
+        "createdAt": "2026-11-13T09:29:51.810753+00:00",
+        "updatedAt": "2026-11-13T09:29:51.810757+00:00"
+      },
+      {
+        "id": 18757427,
+        "auctionId": 310110,
+        "bidderAlias": "4",
+        "amount": 302500,
+        "type": "NORMAL",
+        "maxBidId": 10960722,
+        "triggeredBy": 10960722,
+        "createdAt": "2026-11-13T09:29:51.810739+00:00",
+        "updatedAt": "2026-11-13T09:29:51.810749+00:00"
+      },
+      {
+        "id": 18757402,
+        "auctionId": 310110,
+        "bidderAlias": "3",
+        "amount": 300500,
+        "type": "AUTO",
+        "maxBidId": 10960394,
+        "triggeredBy": 10960707,
+        "createdAt": "2026-11-13T09:28:20.487711+00:00",
+        "updatedAt": "2026-11-13T09:28:20.487713+00:00"
+      },
+      {
+        "id": 18757401,
+        "auctionId": 310110,
+        "bidderAlias": "4",
+        "amount": 300000,
+        "type": "NORMAL",
+        "maxBidId": 10960707,
+        "triggeredBy": 10960707,
+        "createdAt": "2026-11-13T09:28:20.487700+00:00",
+        "updatedAt": "2026-11-13T09:28:20.487709+00:00"
+      },
+      {
+        "id": 18757398,
+        "auctionId": 310110,
+        "bidderAlias": "3",
+        "amount": 295000,
+        "type": "AUTO",
+        "maxBidId": 10960394,
+        "triggeredBy": 10960705,
+        "createdAt": "2026-11-13T09:28:10.331803+00:00",
+        "updatedAt": "2026-11-13T09:28:10.331806+00:00"
+      },
+      {
+        "id": 18757397,
+        "auctionId": 310110,
+        "bidderAlias": "4",
+        "amount": 294500,
+        "type": "NORMAL",
+        "maxBidId": 10960705,
+        "triggeredBy": 10960705,
+        "createdAt": "2026-11-13T09:28:10.331789+00:00",
+        "updatedAt": "2026-11-13T09:28:10.331798+00:00"
+      },
+      {
+        "id": 18757394,
+        "auctionId": 310110,
+        "bidderAlias": "3",
+        "amount": 286000,
+        "type": "AUTO",
+        "maxBidId": 10960394,
+        "triggeredBy": 10960703,
+        "createdAt": "2026-11-13T09:28:04.162155+00:00",
+        "updatedAt": "2026-11-13T09:28:04.162157+00:00"
+      },
+      {
+        "id": 18757393,
+        "auctionId": 310110,
+        "bidderAlias": "4",
+        "amount": 285500,
+        "type": "NORMAL",
+        "maxBidId": 10960703,
+        "triggeredBy": 10960703,
+        "createdAt": "2026-11-13T09:28:04.162147+00:00",
+        "updatedAt": "2026-11-13T09:28:04.162153+00:00"
+      },
+      {
+        "id": 18757392,
+        "auctionId": 310110,
+        "bidderAlias": "3",
+        "amount": 278000,
+        "type": "AUTO",
+        "maxBidId": 10960394,
+        "triggeredBy": 10960702,
+        "createdAt": "2026-11-13T09:27:58.646956+00:00",
+        "updatedAt": "2026-11-13T09:27:58.646959+00:00"
+      },
+      {
+        "id": 18757391,
+        "auctionId": 310110,
+        "bidderAlias": "4",
+        "amount": 277500,
+        "type": "NORMAL",
+        "maxBidId": 10960702,
+        "triggeredBy": 10960702,
+        "createdAt": "2026-11-13T09:27:58.646944+00:00",
+        "updatedAt": "2026-11-13T09:27:58.646953+00:00"
+      },
+      {
+        "id": 18757384,
+        "auctionId": 310110,
+        "bidderAlias": "3",
+        "amount": 266000,
+        "type": "AUTO",
+        "maxBidId": 10960394,
+        "triggeredBy": 10960697,
+        "createdAt": "2026-11-13T09:27:35.705029+00:00",
+        "updatedAt": "2026-11-13T09:27:35.705031+00:00"
+      },
+      {
+        "id": 18757383,
+        "auctionId": 310110,
+        "bidderAlias": "4",
+        "amount": 265500,
+        "type": "NORMAL",
+        "maxBidId": 10960697,
+        "triggeredBy": 10960697,
+        "createdAt": "2026-11-13T09:27:35.705019+00:00",
+        "updatedAt": "2026-11-13T09:27:35.705026+00:00"
+      },
+      {
+        "id": 18756865,
+        "auctionId": 310110,
+        "bidderAlias": "3",
+        "amount": 252000,
+        "type": "NORMAL",
+        "maxBidId": 10960394,
+        "triggeredBy": 10960394,
+        "createdAt": "2026-11-13T08:39:49.396379+00:00",
+        "updatedAt": "2026-11-13T08:39:49.396383+00:00"
+      },
+      {
+        "id": 18756864,
+        "auctionId": 310110,
+        "bidderAlias": "1",
+        "amount": 251500,
+        "type": "LIMIT_REACHED",
+        "maxBidId": 10958678,
+        "triggeredBy": 10960394,
+        "createdAt": "2026-11-13T08:39:49.396364+00:00",
+        "updatedAt": "2026-11-13T08:39:49.396374+00:00"
+      },
+      {
+        "id": 18754700,
+        "auctionId": 310110,
+        "bidderAlias": "1",
+        "amount": 192500,
+        "type": "AUTO",
+        "maxBidId": 10958678,
+        "triggeredBy": 10959129,
+        "createdAt": "2026-11-12T18:40:43.601500+00:00",
+        "updatedAt": "2026-11-12T18:40:43.601502+00:00"
+      },
+      {
+        "id": 18754699,
+        "auctionId": 310110,
+        "bidderAlias": "2",
+        "amount": 192000,
+        "type": "NORMAL",
+        "maxBidId": 10959129,
+        "triggeredBy": 10959129,
+        "createdAt": "2026-11-12T18:40:43.601490+00:00",
+        "updatedAt": "2026-11-12T18:40:43.601497+00:00"
+      },
+      {
+        "id": 18753945,
+        "auctionId": 310110,
+        "bidderAlias": "1",
+        "amount": 190000,
+        "type": "NORMAL",
+        "maxBidId": 10958678,
+        "triggeredBy": 10958678,
+        "createdAt": "2026-11-12T17:08:58.538010+00:00",
+        "updatedAt": "2026-11-12T17:08:58.538018+00:00"
+      }
+    ],
+    "myBidderAlias": null,
+    "myMaxBid": null,
+    "highestBid": {
+      "id": 18757456,
+      "auctionId": 310110,
+      "bidderAlias": null,
+      "amount": 305000,
+      "type": "AUTO",
+      "maxBidId": 10960394,
+      "triggeredBy": 10960736,
+      "createdAt": "2026-11-13T09:30:47.490360+00:00",
+      "updatedAt": "2026-11-13T09:30:47.490363+00:00",
+      "eurAmount": 27570
+    },
+    "buyNowAvailable": false,
+    "releasing": null,
+    "isHighestBidLowerThanResidualLoanValue": false
+  },
+  "checkoutOrder": null,
+  "previewImage": "https://kvdbil-images.imgix.net/7292001/67ff72ae.jpg",
+  "_list_meta": {
+    "id": "310110",
+    "slug": "ford-explorer-3-0t-ecoboost-457hk",
+    "auctionType": "BIDDING",
+    "closedAt": "2026-11-13T09:34:17.491592+00:00",
+    "updatedAt": "2026-11-13T10:24:24.370992+00:00"
+  },
+  "_scraped_at": "2026-11-13T17:06:37.781361+00:00",
+  "_url": "https://www.kvd.se/auktioner/ford-explorer-3-0t-ecoboost-457hk-310110"
+}
