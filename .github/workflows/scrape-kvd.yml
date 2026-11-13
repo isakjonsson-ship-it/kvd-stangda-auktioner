@@ -2,50 +2,334 @@ name: Scrape KVD closed auctions
 
 on:
   schedule:
-    # GitHub Actions tappar ofta schemalagda körningar vid minut 0 (hög last
-    # vid hel timme). En udda minut gör att timkörningen faktiskt blir av.
-    # Taket är kvar på 50 per körning.
+    # Reserv om kedjan dött. GitHub släpper ofta schedule, så den vanliga
+    # takten kommer från att jobbet startar nästa körning själv.
     - cron: "17 * * * *"
-  workflow_dispatch:   # Manuell körning från Actions-fliken
+  workflow_dispatch: # Manuell körning, och länken som jobbet startar själv
 
-# En körning åt gången, även om försenade scheman eller en manuell körning
-# råkar sammanfalla. Pågående körning avbryts inte. En ny körning väntar,
-# och en ännu nyare ersätter den som redan står i kö, så vi varken
-# överlappar git push eller skickar en skur av anrop mot KVD.
+# Bara en kedja åt gången. Pågående körning avbryts inte. En ny körning
+# köar, och en ännu nyare ersätter den som redan står i kö. Självdispatchen
+# i slutet av jobbet sker medan jobbet fortfarande kör, så en köad
+# cron-reserv ersätts i stället för att starta en andra loop.
 concurrency:
   group: scrape-kvd
   cancel-in-progress: false
 
 permissions:
   contents: write
+  actions: write
 
 jobs:
   scrape:
     runs-on: ubuntu-latest
-    # 50 anrop med timeout 30s ryms här. En hängd körning ska inte blockera
-    # kön i sex timmar när schemat går varje timme.
-    timeout-minutes: 45
+    # 5h20m loop plus marginal. Plattformens tak är 6h (360 min).
+    timeout-minutes: 350
     steps:
+      - name: Skip cron if a chain is already running
+        id: gate
+        if: github.event_name == 'schedule'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        run: |
+          set -euo pipefail
+
+          count_other_runs() {
+            local current="${GITHUB_RUN_ID}"
+            local found=0
+            local status ids id
+            for status in in_progress queued waiting requested pending action_required; do
+              if ! ids="$(gh run list --workflow scrape-kvd.yml --status "${status}" --limit 20 --json databaseId --jq '.[].databaseId')"; then
+                echo "gh run list misslyckades för status ${status}" >&2
+                return 1
+              fi
+              while IFS= read -r id; do
+                if [[ -z "${id}" ]]; then
+                  continue
+                fi
+                if [[ "${id}" != "${current}" ]]; then
+                  echo "Annan körning ${id} (${status})" >&2
+                  found=$((found + 1))
+                fi
+              done <<< "${ids}"
+            done
+            echo "${found}"
+          }
+
+          echo "Cron-reserv, körning ${GITHUB_RUN_ID}."
+          if ! others="$(count_other_runs)"; then
+            echo "Kunde inte läsa körningslistan. Cron skrapar inte."
+            echo "skip=true" >> "${GITHUB_OUTPUT}"
+            exit 0
+          fi
+          if [[ "${others}" == "0" ]]; then
+            echo "Ingen annan körning syns ännu. Väntar 15s och kontrollerar igen."
+            sleep 15
+            if ! others="$(count_other_runs)"; then
+              echo "Kunde inte läsa körningslistan. Cron skrapar inte."
+              echo "skip=true" >> "${GITHUB_OUTPUT}"
+              exit 0
+            fi
+          fi
+          if [[ "${others}" != "0" ]]; then
+            echo "En kedja är redan igång eller köad (${others}). Avslutar utan att skrapa."
+            echo "skip=true" >> "${GITHUB_OUTPUT}"
+          else
+            echo "Ingen annan körning. Cron startar kedjan."
+            echo "skip=false" >> "${GITHUB_OUTPUT}"
+          fi
+
       - name: Checkout
+        if: success() && (github.event_name != 'schedule' || steps.gate.outputs.skip == 'false')
         uses: actions/checkout@v4
+        with:
+          # Hel historik så rebase mot en main som flyttat sig fungerar.
+          fetch-depth: 0
 
       - name: Setup Python
+        if: success() && (github.event_name != 'schedule' || steps.gate.outputs.skip == 'false')
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
           cache: "pip"
 
       - name: Install dependencies
+        if: success() && (github.event_name != 'schedule' || steps.gate.outputs.skip == 'false')
         run: pip install -r requirements.txt
 
-      - name: Run scraper
-        # Max 50 per körning så vi betar igenom allt sakta
-        run: python scraper.py --max 50
-
-      - name: Commit and push data
+      - name: Scrape, commit, sleep, repeat
+        if: success() && (github.event_name != 'schedule' || steps.gate.outputs.skip == 'false')
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          PYTHONUNBUFFERED: "1"
         run: |
+          set -euo pipefail
+
+          state_dir="${RUNNER_TEMP:-/tmp}"
+          mkdir -p "${state_dir}"
+          state_file="${state_dir}/kvd-last-scrape-epoch"
+          yield_file="${state_dir}/kvd-cron-yielded"
+          rm -f "${yield_file}"
+
+          count_other_runs() {
+            local current="${GITHUB_RUN_ID}"
+            local found=0
+            local status ids id
+            for status in in_progress queued waiting requested pending action_required; do
+              if ! ids="$(gh run list --workflow scrape-kvd.yml --status "${status}" --limit 20 --json databaseId --jq '.[].databaseId')"; then
+                echo "gh run list misslyckades för status ${status}" >&2
+                return 1
+              fi
+              while IFS= read -r id; do
+                if [[ -z "${id}" ]]; then
+                  continue
+                fi
+                if [[ "${id}" != "${current}" ]]; then
+                  echo "Annan körning ${id} (${status})" >&2
+                  found=$((found + 1))
+                fi
+              done <<< "${ids}"
+            done
+            echo "${found}"
+          }
+
+          # Sista kontrollen innan första anropet mot KVD. Checkout och pip
+          # hinner ta en stund, och en självdispatch kan ha hunnit köas.
+          if [[ "${GITHUB_EVENT_NAME}" == "schedule" ]]; then
+            others=""
+            if ! others="$(count_other_runs)"; then
+              echo "Kunde inte läsa körningslistan. Cron skrapar inte."
+              touch "${yield_file}"
+              exit 0
+            fi
+            if [[ "${others}" != "0" ]]; then
+              echo "En kedja är redan igång eller köad (${others}). Avslutar utan att skrapa."
+              touch "${yield_file}"
+              exit 0
+            fi
+          fi
+
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/
-          git diff --staged --quiet || git commit -m "Update KVD closed auctions $(date -u +%Y-%m-%d)"
-          git push
+          git config advice.detachedHead false
+          export GIT_TERMINAL_PROMPT=0
+          export GIT_PAGER=cat
+
+          commit_and_push() {
+            local branch="${GITHUB_REF_NAME:-main}"
+            git add data/
+            if git diff --staged --quiet; then
+              echo "Inget nytt att committa"
+              return 0
+            fi
+            git --no-pager diff --cached --stat
+            if ! git commit -m "Update KVD closed auctions $(date -u +%Y-%m-%d)"; then
+              echo "Commit misslyckades"
+              return 0
+            fi
+
+            local attempt saved
+            for attempt in 1 2 3; do
+              if ! git fetch origin "${branch}"; then
+                echo "git fetch misslyckades (försök ${attempt})"
+                sleep $((attempt * 5))
+                continue
+              fi
+              saved="$(git rev-parse HEAD)"
+              if git rebase "origin/${branch}"; then
+                if git push origin "HEAD:${branch}"; then
+                  echo "Push klar till ${branch}"
+                  return 0
+                fi
+                echo "git push avvisades (försök ${attempt})"
+              else
+                echo "Rebase mot origin/${branch} misslyckades (försök ${attempt}). Lägger data/ ovanpå fjärrgrenen."
+                git rebase --abort || true
+                if ! git checkout --detach "origin/${branch}"; then
+                  echo "Kunde inte checka ut origin/${branch}"
+                  return 0
+                fi
+                if ! git checkout "${saved}" -- data/; then
+                  echo "Kunde inte plocka tillbaka data/"
+                  return 0
+                fi
+                git add data/
+                if git diff --staged --quiet; then
+                  echo "data/ matchar redan origin/${branch}"
+                  return 0
+                fi
+                if ! git commit -m "Update KVD closed auctions $(date -u +%Y-%m-%d)"; then
+                  echo "Commit efter rebase-konflikt misslyckades"
+                  return 0
+                fi
+                if git push origin "HEAD:${branch}"; then
+                  echo "Push klar till ${branch} efter rebase-konflikt"
+                  return 0
+                fi
+                echo "git push efter konflikt avvisades (försök ${attempt})"
+              fi
+              sleep $((attempt * 5))
+            done
+            echo "Ger upp push den här omgången"
+            return 0
+          }
+
+          run_iteration() {
+            local iter_start rc
+            iter_start="$(date +%s)"
+            echo "${iter_start}" > "${state_file}"
+            # 35 min räcker åt 50 anrop med 30s timeout. En hängd process
+            # ska inte äta upp resten av kedjan.
+            rc=0
+            timeout 35m python scraper.py --max 50 || rc=$?
+            if (( rc != 0 )); then
+              echo "Skrapningen misslyckades med kod ${rc}. Fortsätter nästa timme."
+            fi
+            commit_and_push
+            return 0
+          }
+
+          sleep_with_heartbeat() {
+            local total="$1"
+            local slept=0
+            local chunk
+            if (( total <= 0 )); then
+              return 0
+            fi
+            echo "Väntar ${total}s till nästa omgång"
+            while (( slept < total )); do
+              chunk=600
+              if (( total - slept < chunk )); then
+                chunk=$((total - slept))
+              fi
+              sleep "${chunk}"
+              slept=$((slept + chunk))
+              echo "Väntat ${slept}/${total}s ($(date -u +%H:%M:%SZ))"
+            done
+          }
+
+          # Budget 5h20m så jobbet slutar väl under 6h-gränsen.
+          # En omgång startar bara om en hel timme ryms efter den: nästa
+          # jobb skrapar så fort det startar, och takten ska vara högst
+          # 50 detaljer per timme. Det ger fem omgångar och ~5h väggtid.
+          budget=$((5 * 3600 + 20 * 60))
+          interval=3600
+          start="$(date +%s)"
+          round=0
+          echo "Loopstart $(date -u +%Y-%m-%dT%H:%M:%SZ), budget ${budget}s, intervall ${interval}s"
+
+          while true; do
+            now="$(date +%s)"
+            if (( now + interval > start + budget )); then
+              echo "Stoppar efter $((now - start))s. Nästa länk får inte starta en skrapning inom samma timme."
+              break
+            fi
+            round=$((round + 1))
+            echo "=== Omgång ${round} ($(date -u +%Y-%m-%dT%H:%M:%SZ)) ==="
+            iter_start="$(date +%s)"
+            if ! run_iteration; then
+              echo "Omgång ${round} avbröts av ett oväntat fel. Fortsätter nästa timme."
+            fi
+            now="$(date +%s)"
+            sleep_for=$((interval - (now - iter_start)))
+            sleep_with_heartbeat "${sleep_for}"
+          done
+
+          echo "Kedjan lämnar över efter ${round} omgångar."
+
+      - name: Start next chain link
+        if: always() && !cancelled() && (github.event_name != 'schedule' || steps.gate.outputs.skip == 'false')
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        run: |
+          set -euo pipefail
+          state_dir="${RUNNER_TEMP:-/tmp}"
+          yield_file="${state_dir}/kvd-cron-yielded"
+          state_file="${state_dir}/kvd-last-scrape-epoch"
+
+          if [[ -f "${yield_file}" ]]; then
+            echo "Cron vek undan för en pågående kedja och startar ingen ny."
+            exit 0
+          fi
+
+          # Om loopen dog direkt efter en skrapning, vänta ut timmen här
+          # så nästa jobb inte skrapar en gång till inom samma timme.
+          if [[ -f "${state_file}" ]]; then
+            last="$(cat "${state_file}")"
+            if [[ "${last}" =~ ^[0-9]+$ ]]; then
+              now="$(date +%s)"
+              wait_for=$((3600 - (now - last)))
+              if (( wait_for > 3600 )); then
+                wait_for=3600
+              fi
+              if (( wait_for > 0 )); then
+                echo "Senaste skrapningen startade för $((now - last))s sedan. Väntar ${wait_for}s innan nästa länk."
+                remaining="${wait_for}"
+                while (( remaining > 0 )); do
+                  chunk=600
+                  if (( remaining < chunk )); then
+                    chunk="${remaining}"
+                  fi
+                  sleep "${chunk}"
+                  remaining=$((remaining - chunk))
+                  echo "Kvar att vänta: ${remaining}s"
+                done
+              fi
+            fi
+          fi
+
+          echo "Startar nästa körning av scrape-kvd.yml på main"
+          attempt=1
+          while (( attempt <= 3 )); do
+            if gh workflow run scrape-kvd.yml --ref main; then
+              echo "Nästa körning är köad"
+              exit 0
+            fi
+            echo "workflow_dispatch försök ${attempt} misslyckades"
+            sleep $((attempt * 5))
+            attempt=$((attempt + 1))
+          done
+          echo "Kunde inte starta nästa länk. Cron får ta vid."
+          exit 1
