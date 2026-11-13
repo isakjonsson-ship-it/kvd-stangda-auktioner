@@ -3,6 +3,7 @@
 KVD stängda auktioner-scraper.
 Hämtar listan + detaljer och sparar full JSON + aggregerad sammanställning.
 Hoppar över redan skrapade ID:n och lägger till max 50 nya per körning.
+Inom taket tas äldst stängningstid först, så inget hinner falla ur listan.
 Underhåller också en global aggregated_all.json/csv utan dubbletter.
 """
 
@@ -246,6 +247,72 @@ def rebuild_global_aggregated():
     print(f"Global aggregerad: {len(rows)} unika auktioner → data/aggregated_all.json + .csv")
 
 
+def parse_timestamp(value) -> datetime | None:
+    if value is None or value == "":
+        return None
+    try:
+        parsed = datetime.fromisoformat(str(value))
+    except (TypeError, ValueError):
+        return None
+    if parsed.tzinfo is None:
+        parsed = parsed.replace(tzinfo=timezone.utc)
+    return parsed
+
+
+def close_time_for_priority(auction: dict) -> datetime | None:
+    """Stängningstid. Saknas eller går inte att tolka closedAt används updatedAt."""
+    closed_at = parse_timestamp(auction.get("closedAt"))
+    if closed_at is not None:
+        return closed_at
+    return parse_timestamp(auction.get("updatedAt"))
+
+
+def auction_priority_key(auction: dict) -> tuple:
+    """Äldst stängning först, därefter lägst auktions-id.
+
+    Poster utan closedAt och updatedAt sorteras efter alla daterade, lägst id
+    först. De ska inte ta en plats före en auktion som vi vet håller på att
+    falla ur fönstret. Listan själv är högst id först, vilket är det som
+    tidigare svälte ut gamla id.
+    """
+    when = close_time_for_priority(auction)
+    has_time = when is not None
+    try:
+        auction_id = int(auction.get("id"))
+    except (TypeError, ValueError):
+        auction_id = 0
+    return (0 if has_time else 1, when or datetime.max.replace(tzinfo=timezone.utc), auction_id)
+
+
+def select_auctions_to_scrape(
+    auctions: list,
+    already: set,
+    max_details: int | None,
+) -> tuple[list, list]:
+    """Välj oskrapade auktioner, äldst stängning först, med tak per körning.
+
+    Returnerar (att_skrapa, kvar). kvar är de oskrapade som inte ryms i taket
+    och alltså är backlog efter körningen.
+    """
+    pending = [a for a in auctions if str(a["id"]) not in already]
+    ordered = sorted(pending, key=auction_priority_key)
+    if max_details:
+        chosen = ordered[:max_details]
+    else:
+        chosen = ordered
+    return chosen, ordered[len(chosen):]
+
+
+def display_close_time(auction: dict) -> str:
+    closed_at = auction.get("closedAt")
+    if parse_timestamp(closed_at) is not None:
+        return str(closed_at)
+    updated_at = auction.get("updatedAt")
+    if parse_timestamp(updated_at) is not None:
+        return f"{updated_at} (updatedAt)"
+    return "okänd tid"
+
+
 def main(max_details: int | None = None):
     today = datetime.now().strftime("%Y-%m-%d")
     day_dir = DATA_DIR / today
@@ -262,15 +329,16 @@ def main(max_details: int | None = None):
     already = get_already_scraped_ids()
     print(f"Redan skrapade ID:n: {len(already)}")
 
-    new_auctions = [a for a in auctions if str(a["id"]) not in already]
-    print(f"Nya auktioner: {len(new_auctions)}")
-
-    if max_details:
-        to_scrape = new_auctions[:max_details]
-    else:
-        to_scrape = new_auctions
-
+    to_scrape, remaining = select_auctions_to_scrape(auctions, already, max_details)
+    print(f"Nya auktioner: {len(to_scrape) + len(remaining)}")
     print(f"Skrapar {len(to_scrape)} nya auktioner den här körningen")
+    if to_scrape:
+        first, last = to_scrape[0], to_scrape[-1]
+        print(
+            "Prioritet: äldst stängning först "
+            f"({first.get('id')} {display_close_time(first)} → "
+            f"{last.get('id')} {display_close_time(last)})"
+        )
 
     for i, auction in enumerate(to_scrape, 1):
         aid = auction["id"]
@@ -283,6 +351,14 @@ def main(max_details: int | None = None):
 
     rebuild_aggregated(day_dir)
     rebuild_global_aggregated()
+
+    print(f"Backlog: {len(remaining)} oskrapade auktioner kvar i listan")
+    if remaining:
+        oldest_left = remaining[0]
+        print(
+            f"Äldsta kvar i backlog: {oldest_left.get('id')} "
+            f"{display_close_time(oldest_left)}"
+        )
 
     print(f"\nKlart. Data sparad i {day_dir}/ och data/aggregated_all.*")
 
