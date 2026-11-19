@@ -1,0 +1,4281 @@
+{
+  "id": "310301",
+  "auctionType": "BIDDING",
+  "biddingFee": "5238.00",
+  "biddingFeeCorporate": "6663.00",
+  "mediationFee": 0,
+  "mediationFeeCorporate": 0,
+  "buyNow": false,
+  "closedAt": "2026-11-19T11:20:42.811582+00:00",
+  "publishedAt": "2026-11-16T05:56:58.053164+00:00",
+  "countdownDuration": 210,
+  "countdownStartAt": "2026-11-19T10:47:30+00:00",
+  "createdAt": "2026-11-06T08:28:10.494585+00:00",
+  "readyForAuctionAt": "2026-11-15",
+  "currency": "SEK",
+  "maxBidRaise": 100000,
+  "minBidRaise": 500,
+  "startBid": 75000,
+  "openedAt": "2026-11-16T16:51:06.890984+00:00",
+  "processObjectId": "7293906",
+  "readyForCheckout": true,
+  "soldFor": 137500,
+  "sellMethod": "BIDDING",
+  "slug": "audi-a4-avant-40-tdi-quattro-190hk",
+  "auctionUrl": "https://www.kvd.se/auktioner/audi-a4-avant-40-tdi-quattro-190hk-310301",
+  "state": "WINNER_CHECKOUT_PENDING",
+  "targetedAuctionGroupId": null,
+  "updatedAt": "2026-11-19T11:20:42.912159+00:00",
+  "releasing": null,
+  "loan": {
+    "loanCost": 1171,
+    "loanCostBuyNow": null
+  },
+  "buyNowAmount": null,
+  "buyNowAvailable": false,
+  "buyNowUntil": null,
+  "eligibleForAdditionalServices": true,
+  "comingSoon": false,
+  "preliminaryPrice": 200000,
+  "maxAllowedBid": 300000,
+  "isReserved": false,
+  "isSoldByBuyNow": false,
+  "favouriteCount": 24,
+  "eurBuyNowAmount": null,
+  "winningBid": {
+    "id": 18789329,
+    "type": "NORMAL",
+    "amount": 137500,
+    "auctionId": 310301,
+    "createdAt": "2026-11-19T11:17:12.808825+00:00",
+    "maxBidId": 10979012,
+    "updatedAt": "2026-11-19T11:17:12.808827+00:00",
+    "bidderAlias": null,
+    "triggeredBy": 10979012,
+    "evaluationType": "AUTOMATIC"
+  },
+  "processObject": {
+    "createdAt": "2026-10-29 06:43:03.056735+00:00",
+    "leaseReturnProperties": {},
+    "certified": false,
+    "orderableAdditionalServices": {
+      "tradein": false,
+      "transport": true,
+      "insurance": true,
+      "finance": true,
+      "warranty": true,
+      "extraTires": false
+    },
+    "properties": {
+      "initialTrafficDate": "2020-09-08",
+      "saleLimitedToCorporate": false,
+      "formattedEquipment": [
+        {
+          "key": "4WD",
+          "title": "4WD",
+          "description": "Konstant eller inkopplingsbar fyrhjulsdrift",
+          "priority": 0
+        },
+        {
+          "key": "ASSISTANSSYSTEM",
+          "title": "Assistanssystem",
+          "description": "Uppkopplad tjänst för att exempelvis kunna kontrollera din bil på distans med hjälp av en mobilapp. Funktioner som bygger på 2G eller 3G-uppkoppling kan sluta fungera i samband med att dessa nätverk stängs ner av operatörerna.",
+          "priority": 1
+        },
+        {
+          "key": "AUTO_HOLD",
+          "title": "Auto hold",
+          "description": "Hindrar bilen tillfälligt från att rulla bakåt när du startar i motlut",
+          "priority": 2
+        },
+        {
+          "key": "BLUETOOTH",
+          "title": "Bluetooth",
+          "description": "Trådlös uppkoppling mot mobila enheter",
+          "priority": 3
+        },
+        {
+          "key": "ELDRIVEN_BAKLUCKA",
+          "title": "Eldriven baklucka",
+          "description": "Baklucka som öppnas/stängs elektroniskt.",
+          "priority": 4
+        },
+        {
+          "key": "ELHISS_BAK",
+          "title": "Elhiss bak",
+          "description": "Elektroniska fönsterhissar bak",
+          "priority": 5
+        },
+        {
+          "key": "ELHISS_FRAM",
+          "title": "Elhiss fram",
+          "description": "Elektronisk fönsterhiss fram",
+          "priority": 6
+        },
+        {
+          "key": "ELSPEGLAR",
+          "title": "Elspeglar",
+          "description": "Elektroniskt ställbara sidospeglar",
+          "priority": 7
+        },
+        {
+          "key": "FARTHALLARE",
+          "title": "Farthållare",
+          "description": "Elektroniskt system som håller inprogrammerad hastighet",
+          "priority": 8
+        },
+        {
+          "key": "FJARRLAS",
+          "title": "Fjärrlås",
+          "description": "Möjliggör att du på distans kan låsa och låsa upp bilen",
+          "priority": 9
+        },
+        {
+          "key": "GPS",
+          "title": "GPS",
+          "description": "Navigationssystem med vägbeskrivning",
+          "priority": 10
+        },
+        {
+          "key": "ISOFIX_BAK",
+          "title": "Isofix bak",
+          "description": "  Fästsystem för bilbarnstolar enligt internationell standard, även kallat Isofix",
+          "priority": 11
+        },
+        {
+          "key": "KLIMATANLAGGNING",
+          "title": "Klimatanläggning",
+          "description": "Luftkonditionering med möjlighet till automatisk temperaturinställning",
+          "priority": 12
+        },
+        {
+          "key": "LED_STRALKASTARE",
+          "title": "LED-strålkastare",
+          "description": "Strålkastare med LED-ljus har ett konstant vitt ljus och har samma ljusstyrka från star",
+          "priority": 13
+        },
+        {
+          "key": "NYCKELLOST_STARTSYSTEM",
+          "title": "Nyckellöst startsystem",
+          "description": "Startknapp i bilen utan tändningslås. Även kallat Keyless-go",
+          "priority": 14
+        },
+        {
+          "key": "PARKERINGSSENSORER_BAK",
+          "title": "Parkeringssensorer bak",
+          "description": "Sensorer på stötfångare baktill som varnar för hinder bakom bilen",
+          "priority": 15
+        },
+        {
+          "key": "PARKERINGSSENSORER_FRAM",
+          "title": "Parkeringssensorer fram",
+          "description": "Sensorer på stötfångare som varnar för hinder framför bilen",
+          "priority": 16
+        },
+        {
+          "key": "RADIO",
+          "title": "Radio",
+          "description": "Radiospelare",
+          "priority": 17
+        },
+        {
+          "key": "REGNSENSOR",
+          "title": "Regnsensor",
+          "description": "Automatiska vindrutetorkare, sensorer som reagerar på vatten",
+          "priority": 18
+        },
+        {
+          "key": "START_STOP_FUNKTION",
+          "title": "Start/Stopp-funktion",
+          "description": "Automatisk på och avstängning av motor vid exempelvis trafikljus",
+          "priority": 19
+        },
+        {
+          "key": "STOLSVARME_FRAM",
+          "title": "Stolsvärme fram",
+          "description": "Olika nivåer av värme i stolarna fram som ställs in via en knapp",
+          "priority": 20
+        },
+        {
+          "key": "URKOPPLINGSBAR_PASSAGERARAIRBAG",
+          "title": "Urkopplingsbar passagerarairbag",
+          "description": "Möjlighet att koppla till och från airbagen på passagerarsidan",
+          "priority": 21
+        },
+        {
+          "key": "USB_INGANG",
+          "title": "USB-ingång",
+          "description": "Inkoppling av mobil enhet via USB-kontakt",
+          "priority": 22
+        }
+      ],
+      "modelYear": 2020,
+      "registrationPlate": "DKP33Z",
+      "numberOfSeats": 5,
+      "gearbox": "Automatic",
+      "maxPullWeightB": 1270,
+      "maxPayload": 498,
+      "heavyEquipment": false,
+      "ecoFriendly": false,
+      "length": 4762,
+      "equipment": [
+        "4WD",
+        "Assistanssystem",
+        "Auto hold",
+        "Bluetooth",
+        "Eldriven baklucka",
+        "Elhiss bak",
+        "Elhiss fram",
+        "Elspeglar",
+        "Farthållare",
+        "Fjärrlås",
+        "GPS",
+        "Isofix bak",
+        "Klimatanläggning",
+        "LED-strålkastare",
+        "Nyckellöst startsystem",
+        "Parkeringssensorer bak",
+        "Parkeringssensorer fram",
+        "Radio",
+        "Regnsensor",
+        "Start/Stop-funktion",
+        "Stolsvärme fram",
+        "Urkopplingsbar passagerarairbag",
+        "USB-ingång"
+      ],
+      "inspectionPeriod": "2026-08-25 - 2027-10-31",
+      "curbWeight": 1732,
+      "odometerUnit": "km",
+      "registrationCountry": "se",
+      "title": "Audi A4 Avant 40 TDI quattro (190hk)",
+      "taxFee": 3673,
+      "isRepairObject": false,
+      "dateOfInspection": "2026-08-25",
+      "finishType": "Solid",
+      "residualLoanValue": 0,
+      "odometerReading": 157260,
+      "mustExport": false,
+      "totalWeight": 2230,
+      "deductibleVat": true,
+      "mediation": true,
+      "importedForPersonalUse": false,
+      "package": "Proline S&V-hjul",
+      "height": 1395,
+      "remarks": {
+        "BRAKES": [],
+        "EXTERIOR": [
+          {
+            "category": "EXTERIOR",
+            "key": "Flertal repor",
+            "id": "0"
+          },
+          {
+            "category": "EXTERIOR",
+            "key": "Ingrodda fläckar i lacken",
+            "id": "1"
+          }
+        ],
+        "TIRES": [
+          {
+            "category": "TIRES",
+            "key": "Däckpar extradäck, snedslitna",
+            "id": "0"
+          }
+        ],
+        "INTERIOR": [],
+        "TECHNOLOGY_AND_EQUIPMENT": [],
+        "ENGINE_AND_GEARBOX": [
+          {
+            "category": "ENGINE_AND_GEARBOX",
+            "key": "Automatlådan slirar",
+            "id": "0"
+          }
+        ]
+      },
+      "width": 1847,
+      "manufactureMonth": "202007",
+      "familyName": "A4",
+      "modelName": "A4 Avant 40 TDI quattro (190hk)",
+      "environmentalClassEuro": "6",
+      "chassisNumber": "WAUZZZF47LA080212",
+      "brand": "Audi",
+      "numberOfPreviousOwners": 1,
+      "maxTrailerWeight": 1800,
+      "adHeader": "A4 Avant 40 TDI quattro (190hk) Proline S&V-hjul",
+      "body": "Wagon",
+      "textile": "Textil",
+      "numberOfKeys": 2,
+      "fuels": [
+        {
+          "co2": 131,
+          "consumption": 4.9,
+          "enginePower": 190,
+          "fuelCode": "Diesel"
+        }
+      ],
+      "towbar": false,
+      "inspectionValidToDate": "2027-10-31",
+      "registrationPlateCountry": "se",
+      "grades": {
+        "TOTAL": {
+          "value": 3,
+          "min": 1,
+          "max": 5
+        },
+        "BRAKES": {
+          "value": 3,
+          "min": 1,
+          "max": 3
+        },
+        "EXTERIOR": {
+          "value": 3,
+          "min": 1,
+          "max": 5
+        },
+        "INTERIOR": {
+          "value": 4,
+          "min": 1,
+          "max": 5
+        },
+        "TECHNOLOGY_AND_EQUIPMENT": {
+          "value": 3,
+          "min": 1,
+          "max": 3
+        },
+        "ENGINE_AND_GEARBOX": {
+          "value": 2,
+          "min": 1,
+          "max": 3
+        }
+      },
+      "exteriorColor": "Black",
+      "hasUnpaidLoan": false,
+      "remarksLocalized": {
+        "TIRES": "Däckpar extradäck, snedslitna",
+        "BRAKES": null,
+        "EXTERIOR": "Flertal repor. Ingrodda fläckar i lacken",
+        "INTERIOR": null,
+        "ENGINE_AND_GEARBOX": "Automatlådan slirar",
+        "TECHNOLOGY_AND_EQUIPMENT": null
+      },
+      "taxWeight": 1730,
+      "drivingBan": false,
+      "exportable": true,
+      "heading1": "Audi A4",
+      "heading2": "Avant 40 TDI quattro",
+      "heading3": "Proline S&V-hjul"
+    },
+    "testDriveAllowed": true,
+    "baseObject": {
+      "createdAt": "2026-10-27T13:52:11.025135+00:00",
+      "fabricAndMake": "AUDI",
+      "body": "Wagon",
+      "registrationPlate": "DKP33Z",
+      "gearbox": "Automatic",
+      "year": "2020",
+      "fuels": [
+        {
+          "fuelCode": "Diesel",
+          "powerUnit": "EG",
+          "enginePower": 140,
+          "enginePowerHp": 190,
+          "fuelTankVolume": ""
+        }
+      ],
+      "earliestAvailableAt": null,
+      "authorityRegisterInformation": {
+        "vehicleOrigin": {
+          "originCode": "INFÖRT",
+          "originCodeReason": null,
+          "importerIdentifier": null,
+          "preRegistrationDate": null,
+          "importRegistrationDate": null,
+          "importedForPersonalUse": false,
+          "importedPreviouslyRegistered": false
+        },
+        "vehicleStatus": {
+          "tax": 3673
+        },
+        "vehicleInspectionInformation": {
+          "inspections": [
+            {
+              "inspectionType": "5",
+              "odometerReading": 151054,
+              "dateOfInspection": "2026-08-25"
+            },
+            {
+              "inspectionType": "5",
+              "odometerReading": 121580,
+              "dateOfInspection": "2025-08-27"
+            }
+          ],
+          "inspectionGroup": "36/24/14",
+          "odometerReading": 151054,
+          "inspectionPeriod": "2026-08-25 - 2027-10-31",
+          "dateOfInspection": "2026-08-25",
+          "inspectionValidToDate": "2027-10-31",
+          "inspectionExemptionGroup": null
+        },
+        "registrationInformation": {
+          "registrationPlate": "DKP33Z",
+          "deregistrationDate": null,
+          "deregistrationText": null,
+          "deregistrationReason": null
+        },
+        "generalTechSpecification": {
+          "eeg": "e1*2001/116*0430*71",
+          "fuels": [
+            {
+              "fuelCode": "Diesel",
+              "powerUnit": "EG",
+              "enginePower": 140,
+              "enginePowerHp": 190,
+              "fuelTankVolume": ""
+            }
+          ],
+          "width": 1847,
+          "height": 1395,
+          "length": 4762,
+          "gearbox": "Automatic",
+          "variant": "A2DETAQ1",
+          "version": "QD7QD7CL002RT011B17S54BFAEM1B",
+          "taxWeight": 1730,
+          "curbWeight": 1732,
+          "maxPayload": 498,
+          "totalWeight": 2230,
+          "chassisCode1": null,
+          "chassisCode2": null,
+          "cubicCapacity": "1968",
+          "numPassengers": "4",
+          "numberOfSeats": 5,
+          "fourWheelDrive": true,
+          "maxPullWeightB": 1270,
+          "clutchMechanism1": null,
+          "clutchMechanism2": null,
+          "maxTrailerWeight": 1800,
+          "chassisCodeSupplement": null,
+          "maxPullWieghtNoBreaks": null,
+          "maxPullWeightBExtended": null,
+          "maxSingle Axle TrailerWeight": null
+        },
+        "vehicleInformation": {
+          "vin": "WAUZZZF47LA080212",
+          "body": "AC",
+          "type": "CAR",
+          "year": "2020",
+          "model": "A4 AVANT",
+          "rawType": "PB",
+          "modelYear": null,
+          "categoryEu": "e1*2001/116*0430*71",
+          "groupNumber": "AU 426039",
+          "modelNumber": "AU 000000",
+          "chassisNumber": "WAUZZZF47LA080212",
+          "exteriorColor": "Black",
+          "fabricAndMake": "AUDI",
+          "baseObjectType": "CAR",
+          "manufactureCode": null,
+          "manufactureMonth": "202007",
+          "registrationDate": "2020-07-15",
+          "initialTrafficDate": "2020-09-08",
+          "registrationPlateReused": null
+        },
+        "environmentalClassification": {
+          "fuels": [
+            {
+              "co2": 131,
+              "nox": "",
+              "nox4": null,
+              "fuelCode": "Diesel",
+              "hcThcNox": "",
+              "consumption": 4.9,
+              "noiseLevel": 68,
+              "emissionUnit": "g/km",
+              "innovationCo2": null,
+              "particleValue": "",
+              "particleMass4": null,
+              "consumptionUnit": "4,9",
+              "rangeNedcDrive": null,
+              "rangeWltpDrive": null,
+              "consumptionUrban": 5.7,
+              "rangeCityWltpDrive": null,
+              "consumptionExtraUrban": 4.5,
+              "electricEnergyConsumption": null,
+              "energyConsumptionWltpDrive": null
+            }
+          ],
+          "ecoFriendly": false,
+          "emissionClass": "EURO 6",
+          "innovationCode": null,
+          "environmentalClass": null,
+          "environmentalClassEuro": "6"
+        },
+        "additionalTechSpecification": {
+          "raceCar": null,
+          "wheelbase1": 2826,
+          "wheelbase2": null,
+          "wheelbase3": null,
+          "wheelbase4": null,
+          "equipment1": null,
+          "equipment2": null,
+          "equipment3": null,
+          "maximumSpeed": 210,
+          "numAxleShafts": 2,
+          "passengerAirBag": false,
+          "tyreDimensionRear": "225/50 R17 94H",
+          "tyreDimensionFront": "225/50 R17 94H",
+          "dualSteeringControl": null
+        }
+      },
+      "familyName": "A4",
+      "modelName": "A4 Avant 40 TDI quattro (190hk)",
+      "odometerReading": 157000,
+      "baseObjectType": "CAR",
+      "exteriorColor": "Black",
+      "salesFlow": "CORPORATE_CARS_SMALL",
+      "id": "525835",
+      "state": "PREPARING_SALES_AGREEMENT",
+      "odometerUnit": "km",
+      "registrationCountry": "se",
+      "brand": "Audi",
+      "modelId": null,
+      "technicalSpecification": {
+        "modelId": null,
+        "vehicle": {
+          "brand": "Audi",
+          "body": "Wagon",
+          "modelName": "A4 Avant 40 TDI quattro (190hk)",
+          "familyName": "A4"
+        },
+        "year": "2020"
+      }
+    },
+    "displayCar360Spin": true,
+    "isFixedPrice": false,
+    "sellMethod": "BIDDING",
+    "car360Spin": null,
+    "objectType": "CAR",
+    "isReleasable": false,
+    "statisticalValuation": {
+      "bpWhite": 206000,
+      "bpGreen": null,
+      "bpOrange": 206000,
+      "marketPrice": 206000
+    },
+    "reducedPrice": false,
+    "baseObjectId": "525835",
+    "id": "7293906",
+    "proactiveBrokering": null,
+    "state": "AUCTION_RESOLUTION",
+    "presentationApproved": false,
+    "offsiteSalesContact": null,
+    "buyNowAmount": null,
+    "initialBuyNowAmount": null,
+    "vehicleType": "CAR",
+    "conditionClassification": "TESTED",
+    "exportable": true,
+    "deductibleVat": true,
+    "collisionWarranty": null,
+    "title": "Audi A4 Avant 40 TDI quattro (190hk)",
+    "brand": "Audi",
+    "familyName": "A4",
+    "modelName": "A4 Avant 40 TDI quattro (190hk)",
+    "package": "Proline S&V-hjul",
+    "heading1": "Audi A4",
+    "heading2": "Avant 40 TDI quattro",
+    "heading3": "Proline S&V-hjul",
+    "media": [
+      {
+        "processObjectId": "7293906",
+        "uri": "https://kvdbil-images.imgix.net/7293906/1f2c5590.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7293906/1f2c5590.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 1
+      },
+      {
+        "processObjectId": "7293906",
+        "uri": "https://kvdbil-images.imgix.net/7293906/fe814254.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7293906/fe814254.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 1
+      },
+      {
+        "processObjectId": "7293906",
+        "uri": "https://kvdbil-images.imgix.net/7293906/9f510eed.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7293906/9f510eed.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 2
+      },
+      {
+        "processObjectId": "7293906",
+        "uri": "https://kvdbil-images.imgix.net/7293906/2d212df5.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7293906/2d212df5.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 2
+      },
+      {
+        "processObjectId": "7293906",
+        "uri": "https://kvdbil-images.imgix.net/7293906/526fb6d4.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7293906/526fb6d4.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 3
+      },
+      {
+        "processObjectId": "7293906",
+        "uri": "https://kvdbil-images.imgix.net/7293906/c7ad2b31.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7293906/c7ad2b31.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 3
+      },
+      {
+        "processObjectId": "7293906",
+        "uri": "https://kvdbil-images.imgix.net/7293906/fbc89199.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7293906/fbc89199.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 4
+      },
+      {
+        "processObjectId": "7293906",
+        "uri": "https://kvdbil-images.imgix.net/7293906/499b76ca.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7293906/499b76ca.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 4
+      },
+      {
+        "processObjectId": "7293906",
+        "uri": "https://kvdbil-images.imgix.net/7293906/bd88561b.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7293906/bd88561b.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 5
+      },
+      {
+        "processObjectId": "7293906",
+        "uri": "https://kvdbil-images.imgix.net/7293906/623a0120.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7293906/623a0120.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 5
+      },
+      {
+        "processObjectId": "7293906",
+        "uri": "https://kvdbil-images.imgix.net/7293906/c8295a8f.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7293906/c8295a8f.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 6
+      },
+      {
+        "processObjectId": "7293906",
+        "uri": "https://kvdbil-images.imgix.net/7293906/273014ae.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7293906/273014ae.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 6
+      },
+      {
+        "processObjectId": "7293906",
+        "uri": "https://kvdbil-images.imgix.net/7293906/83d09672.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7293906/83d09672.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 7
+      },
+      {
+        "processObjectId": "7293906",
+        "uri": "https://kvdbil-images.imgix.net/7293906/cd6cd0e4.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7293906/cd6cd0e4.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 7
+      },
+      {
+        "processObjectId": "7293906",
+        "uri": "https://kvdbil-images.imgix.net/7293906/d7d5b56f.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7293906/d7d5b56f.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 8
+      },
+      {
+        "processObjectId": "7293906",
+        "uri": "https://kvdbil-images.imgix.net/7293906/0cdd0a00.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7293906/0cdd0a00.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 9
+      },
+      {
+        "processObjectId": "7293906",
+        "uri": "https://kvdbil-images.imgix.net/7293906/370a4f43.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7293906/370a4f43.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 10
+      },
+      {
+        "processObjectId": "7293906",
+        "uri": "https://kvdbil-images.imgix.net/7293906/b33780b5.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7293906/b33780b5.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 11
+      },
+      {
+        "processObjectId": "7293906",
+        "uri": "https://kvdbil-images.imgix.net/7293906/62cc9fe9.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7293906/62cc9fe9.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 12
+      },
+      {
+        "processObjectId": "7293906",
+        "uri": "https://kvdbil-images.imgix.net/7293906/5a808ccd.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7293906/5a808ccd.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 13
+      },
+      {
+        "processObjectId": "7293906",
+        "uri": "https://kvdbil-images.imgix.net/7293906/685a3d9c.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7293906/685a3d9c.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 14
+      },
+      {
+        "processObjectId": "7293906",
+        "uri": "https://kvdbil-images.imgix.net/7293906/8ae8e291.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7293906/8ae8e291.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 15
+      },
+      {
+        "processObjectId": "7293906",
+        "uri": "https://kvdbil-images.imgix.net/7293906/dce67c1c.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7293906/dce67c1c.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 16
+      }
+    ],
+    "locationInfo": {
+      "id": "555684",
+      "processObjectId": "7293906",
+      "locationType": "FACILITY",
+      "createdAt": "2026-11-02T15:02:28.448092+00:00",
+      "updatedAt": "2026-11-02T15:02:28.448096+00:00",
+      "facilityId": "00000001-0001-0001-0001-000000000001",
+      "parkingZone": "A",
+      "parkingNumber": null,
+      "outgoingTime": null,
+      "leftAt": null,
+      "outgoingType": null,
+      "publicFacilityId": "00000001-0001-0001-0001-000000000001",
+      "facility": {
+        "id": "00000001-0001-0001-0001-000000000001",
+        "name": "Kungälv (Ellesbo)",
+        "operator": "KVD",
+        "legacyIdentifiers": [
+          "GBG, Kungälv",
+          "Kungälv (Ellesbo)"
+        ],
+        "objectTypes": [
+          "CAR",
+          "LIGHT_TRANSPORT",
+          "RECREATIONAL_VEHICLE"
+        ],
+        "createdAt": "2018-03-04T13:18:23.295898+00:00",
+        "calendarOrganisationalUnitId": "3",
+        "parkingAreas": [
+          {
+            "id": 1,
+            "name": "A1",
+            "createdAt": "2018-03-04T13:18:23.295898+00:00"
+          },
+          {
+            "id": 2,
+            "name": "B1",
+            "createdAt": "2018-03-04T13:18:23.295898+00:00"
+          }
+        ],
+        "active": true,
+        "latitude": 57.8325714,
+        "longitude": 12.0013274,
+        "distance": null,
+        "address": "Ellesbovägen 150",
+        "postCode": "44290",
+        "city": "Kungälv",
+        "facilityType": "MAXI",
+        "facilityMapUrl": "https://www.google.com/maps/dir/57.8325714,12.0013274/@57.8325714,12.0013274,z13",
+        "contactPhone": "+46101673040",
+        "contactEmail": "leverans.kungalv@kvdbil.se",
+        "allowIncomingTransport": true,
+        "allowLeaseReturns": true,
+        "allowUnplannedDropOffFleetManager": true,
+        "parentFacilityId": null,
+        "publicFacilityId": "00000001-0001-0001-0001-000000000001"
+      }
+    },
+    "valuation": {
+      "id": 239651,
+      "processObjectId": "7293906",
+      "valuatorComment": {
+        "da": "Forestil dig at køre i en Audi A4 Avant med firehjulstræk, der giver tryg kørsel året rundt, mens LED-forlygter og assistentsystemer hjælper dig både i mørke og tæt trafik. Bilen har haft én ejer siden ny og er synet til oktober 2027, men har bemærkninger, som skal efterses på værkstedet.",
+        "de": "Stellen Sie sich vor, Sie fahren einen Audi A4 Avant mit Allradantrieb, der das ganze Jahr über sicheres Fahren ermöglicht, während LED-Scheinwerfer und Assistenzsysteme Ihnen sowohl bei Dunkelheit als auch im dichten Verkehr helfen. Das Fahrzeug hatte einen Besitzer seit Neuzustand und wurde bis Oktober 2027 geprüft, hat aber Mängel, die in der Werkstatt überprüft werden müssen.",
+        "en": "Imagine driving an Audi A4 Avant with all-wheel drive that provides secure driving year-round while LED headlights and assistance systems help you both in the dark and in heavy traffic. The car has had one owner since new and is inspected until October 2027 but has remarks that need to be checked at a workshop.",
+        "et": "Kujuta ette, et sõidad Audi A4 Avantiga, mille nelikveosüsteem tagab aastaringse kindla sõidu, samal ajal kui LED-esituled ja abisüsteemid aitavad sind nii pimedas kui tihedas liikluses. Autol on olnud üks omanik alates uuest ja selle ülevaatus kehtib oktoobrini 2027, kuid sellel on märkused, mida tuleb remonditöökojas kontrollida.",
+        "fi": "Kuvittele, että ajat Audi A4 Avantia, jossa on neliveto ja joka takaa turvallisen ajon ympäri vuoden, samalla kun LED-ajovalot ja avustinjärjestelmät auttavat sinua niin pimeässä kuin ruuhkaisessa liikenteessä. Autolla on ollut yksi omistaja uutena ja se on katsastettu lokakuuhun 2027 asti, mutta siinä on korjattavia huomautuksia, jotka pitää tarkistaa korjaamolla.",
+        "pl": "Wyobraź sobie jazdę Audi A4 Avant z napędem na cztery koła, który zapewnia pewną jazdę przez cały rok, podczas gdy reflektory LED i systemy wspomagające pomagają Ci zarówno w ciemności, jak i w gęstym ruchu drogowym. Samochód miał jednego właściciela od nowości i jest zarejestrowany do października 2027, ale ma uwagi, które wymagają przeglądu w warsztacie.",
+        "sv": "Tänk dig att åka i en Audi A4 Avant med fyrhjulsdrift som ger trygg körning året runt medan LED-strålkastare och assistanssystem hjälper dig både i mörker och tät trafik. Bilen har haft en ägare sedan ny och är besiktigad till oktober 2027 men har anmärkningar som behöver ses över på verkstad."
+      },
+      "generatedValuatorComment": {
+        "en": "",
+        "sv": "Tänk dig att åka i en Audi A4 med automat som gör varje resa smidig och avslappnad. Fyrhjulsdrift ger trygg körning året runt medan led-strålkastare och assistanssystem hjälper dig både i mörker och tät trafik. Nyckellöst startsystem gör vardagen bekväm, och en ägare sedan ny. Besiktigad till oktober 2027."
+      },
+      "carDealerPrice": 200000,
+      "endUserTestProtocol": {
+        "tires": {
+          "extraTires": {
+            "other": {
+              "rimSize": "17",
+              "rimType": "Alu.fälg",
+              "tireType": "Sommardäck",
+              "otherInfo": "Behövs ej",
+              "tireTypeKey": "SUMMER_TIRES"
+            },
+            "grades": {
+              "rearLeft": 2,
+              "frontLeft": 2,
+              "rearRight": 2,
+              "frontRight": 2
+            },
+            "treadDepths": {
+              "rearLeft": 4,
+              "frontLeft": 3,
+              "rearRight": 4,
+              "frontRight": 3
+            }
+          },
+          "mountedTires": {
+            "other": {
+              "rimSize": "16",
+              "rimType": "Alu.fälg",
+              "tireType": "Odubbade vinterdäck",
+              "otherInfo": "Behövs ej",
+              "tireTypeKey": "UNSTUDDED_WINTER_TIRES"
+            },
+            "grades": {
+              "rearLeft": 2,
+              "frontLeft": 2,
+              "rearRight": 2,
+              "frontRight": 2
+            },
+            "treadDepths": {
+              "rearLeft": 5,
+              "frontLeft": 4,
+              "rearRight": 5,
+              "frontRight": 4
+            }
+          }
+        },
+        "grades": {
+          "TOTAL": {
+            "max": 5,
+            "min": 1,
+            "value": 3
+          },
+          "BRAKES": {
+            "max": 3,
+            "min": 1,
+            "value": 3
+          },
+          "EXTERIOR": {
+            "max": 5,
+            "min": 1,
+            "value": 3
+          },
+          "INTERIOR": {
+            "max": 5,
+            "min": 1,
+            "value": 4
+          },
+          "ENGINE_AND_GEARBOX": {
+            "max": 3,
+            "min": 1,
+            "value": 2
+          },
+          "TECHNOLOGY_AND_EQUIPMENT": {
+            "max": 3,
+            "min": 1,
+            "value": 3
+          }
+        },
+        "towbar": false,
+        "remarks": {
+          "BRAKES": [],
+          "EXTERIOR": [
+            {
+              "id": "72939062",
+              "key": "Flertal repor. Ingrodda fläckar i lacken.",
+              "other": null,
+              "point": 0,
+              "category": "EXTERIOR",
+              "text": "Flertal repor. Ingrodda fläckar i lacken."
+            }
+          ],
+          "INTERIOR": [],
+          "ENGINE_AND_GEARBOX": [
+            {
+              "id": "72939065",
+              "key": "Automatlådan slirar.",
+              "other": null,
+              "point": 0,
+              "category": "ENGINE_AND_GEARBOX",
+              "text": "Automatlådan slirar."
+            }
+          ],
+          "TECHNOLOGY_AND_EQUIPMENT": []
+        },
+        "textile": "Textil",
+        "boatType": null,
+        "equipment": [
+          "GPS",
+          "4WD",
+          "Assistanssystem",
+          "Nyckellöst startsystem",
+          "Bluetooth",
+          "Eldriven baklucka",
+          "Farthållare",
+          "Klimatanläggning",
+          "LED-strålkastare",
+          "Start/Stop-funktion",
+          "USB-ingång",
+          "Auto hold",
+          "Elhiss bak",
+          "Elhiss fram",
+          "Elspeglar",
+          "Fjärrlås",
+          "Isofix bak",
+          "Parkeringssensorer bak",
+          "Parkeringssensorer fram",
+          "Radio",
+          "Regnsensor",
+          "Stolsvärme fram",
+          "Urkopplingsbar passagerarairbag"
+        ],
+        "boatWidth": null,
+        "createdAt": "2026-11-06T09:26:08",
+        "boatEngine": null,
+        "boatLength": null,
+        "boatWeight": null,
+        "finishType": "Solid",
+        "protocolId": "262210",
+        "stoveFlames": null,
+        "heatingSystem": null,
+        "numberOfKeys": 2,
+        "boatCeBranded": false,
+        "boatGearModel": null,
+        "numberOfBunks": null,
+        "numberOfSeats": 5,
+        "boatEngineFuel": null,
+        "boatSepticTank": false,
+        "isRepairObject": false,
+        "boatEnginePower": null,
+        "serviceBookType": "ELECTRONIC",
+        "boatExteriorColor": null,
+        "serviceBookStatus": "Service utförd vid följande mil: 2952, 5118, 6118, 9022, 10206, 12145, 15082 mil, senast 2026-08-18",
+        "serviceBookStatusI18N": {
+          "da": "Service udført ved følgende km: 29520, 51180, 61180, 90220, 102060, 121450, 150820 km, senest 2026-08-18",
+          "de": "Service durchgeführt bei folgenden km: 29520, 51180, 61180, 90220, 102060, 121450, 150820 km, zuletzt 2026-08-18",
+          "en": "Service performed at the following km: 29520, 51180, 61180, 90220, 102060, 121450, 150820 km, last on 2026-08-18",
+          "et": "Hooldus tehtud järgmiste kilomeetrite juures: 29520, 51180, 61180, 90220, 102060, 121450, 150820 km, viimati 2026-08-18",
+          "fi": "Huolto tehty seuraavilla kilometreillä: 29520, 51180, 61180, 90220, 102060, 121450, 150820 km, viimeksi 2026-08-18",
+          "pl": "Serwis wykonany przy następującym przebiegu: 29520, 51180, 61180, 90220, 102060, 121450, 150820 km, ostatnio 2026-08-18",
+          "sv": "Service utförd vid följande mil: 2952, 5118, 6118, 9022, 10206, 12145, 15082 mil, senast 2026-08-18"
+        },
+        "boatEngineSerialNumber": null,
+        "odometerReadingAfterTest": {
+          "unit": "Mil",
+          "value": 15726
+        },
+        "odometerReadingAfterTestInKm": 157260
+      },
+      "auctionPriceValuation": {
+        "currency": "SEK"
+      },
+      "finalised": true,
+      "includedImageIds": null,
+      "createdAt": "2026-11-06T08:28:10.506527+00:00",
+      "updatedAt": "2026-11-16T05:57:02.911879+00:00",
+      "generatingInProgress": false,
+      "valuatorCommentLocalized": "Tänk dig att åka i en Audi A4 Avant med fyrhjulsdrift som ger trygg körning året runt medan LED-strålkastare och assistanssystem hjälper dig både i mörker och tät trafik. Bilen har haft en ägare sedan ny och är besiktigad till oktober 2027 men har anmärkningar som behöver ses över på verkstad."
+    },
+    "facts": {
+      "default": [
+        {
+          "key": "NUMBER_OF_PREVIOUS_OWNERS",
+          "text": "Antal tidigare ägare",
+          "value": 1,
+          "type": "string"
+        },
+        {
+          "key": "REGISTRATION_PLATE",
+          "text": "Registreringsnummer",
+          "value": "DKP33Z",
+          "type": "string"
+        },
+        {
+          "key": "MODEL_YEAR",
+          "text": "Modellår",
+          "value": 2020,
+          "type": "string"
+        },
+        {
+          "key": "MANUFACTURE_MONTH",
+          "text": "Tillverkningsmånad",
+          "value": "202007",
+          "type": "manufacture_month"
+        },
+        {
+          "key": "ODOMETER_READING",
+          "text": "Mätarställning",
+          "value": 157260,
+          "type": "distance"
+        },
+        {
+          "key": "INITIAL_TRAFFIC_DATE",
+          "text": "Första datum i trafik i Sverige",
+          "value": "2020-09-08",
+          "type": "date"
+        },
+        {
+          "key": "SERVICE_BOOK",
+          "text": "Servicehistorik",
+          "value": "Service utförd vid följande mil: 2952, 5118, 6118, 9022, 10206, 12145, 15082 mil, senast 2026-08-18",
+          "type": "string"
+        },
+        {
+          "key": "SERVICE_BOOK_TYPE",
+          "text": "Servicebok",
+          "value": "Elektronisk",
+          "type": "string"
+        },
+        {
+          "key": "GEARBOX",
+          "text": "Växellåda",
+          "value": "Automat",
+          "type": "string"
+        },
+        {
+          "key": "NUMBER_OF_SEATS",
+          "text": "Antal säten",
+          "value": 5,
+          "type": "string"
+        },
+        {
+          "key": "NUMBER_OF_KEYS",
+          "text": "Antal nycklar",
+          "value": 2,
+          "type": "string"
+        },
+        {
+          "key": "EXTERIOR_COLOR",
+          "text": "Färg",
+          "value": "Svart",
+          "type": "string"
+        },
+        {
+          "key": "FINISH_TYPE",
+          "text": "Lack",
+          "value": "Solid",
+          "type": "string"
+        },
+        {
+          "key": "TEXTILE",
+          "text": "Klädsel",
+          "value": "Textil",
+          "type": "string"
+        },
+        {
+          "key": "MANUFACTURER_WARRANTY",
+          "text": "Nybilsgaranti",
+          "value": "Inte undersökt",
+          "type": "string"
+        },
+        {
+          "key": "COLLISION_WARRANTY",
+          "text": "Vagnskadegaranti",
+          "value": "Inte undersökt",
+          "type": "string"
+        },
+        {
+          "key": "TAX_FEE",
+          "text": "Skatt årsavgift",
+          "value": "3673 SEK",
+          "type": "string"
+        }
+      ],
+      "additional": [
+        {
+          "key": "CHASSIS_NUMBER",
+          "text": "Chassinummer",
+          "value": "WAUZZZF47LA080212",
+          "type": "string"
+        },
+        {
+          "key": "ENGINE_EFFECT_DIESEL",
+          "text": "Motoreffekt (diesel)",
+          "value": 190,
+          "type": "engine_power"
+        },
+        {
+          "key": "TOWBAR",
+          "text": "Dragkrok",
+          "value": "Nej",
+          "type": "string"
+        },
+        {
+          "key": "MAX_PAYLOAD",
+          "text": "Maxlastvikt",
+          "value": 498,
+          "type": "weight"
+        },
+        {
+          "key": "CONSUMPTION_DIESEL",
+          "text": "Bränsleförbr. blandad körning (diesel)",
+          "value": 4.9,
+          "type": "consumption"
+        },
+        {
+          "key": "CO2_DIESEL",
+          "text": "CO2-utsläpp (diesel)",
+          "value": 131,
+          "type": "emission"
+        },
+        {
+          "key": "INSPECTION_VALID_TO_DATE",
+          "text": "Nästa besiktning senast",
+          "value": "2027-10-31",
+          "type": "string"
+        },
+        {
+          "key": "CURB_WEIGHT",
+          "text": "Tjänstevikt",
+          "value": 1732,
+          "type": "weight"
+        },
+        {
+          "key": "TAX_WEIGHT",
+          "text": "Skattevikt",
+          "value": 1730,
+          "type": "weight"
+        },
+        {
+          "key": "MAX_TRAILER_WEIGHT",
+          "text": "Maximal släpvagnsvikt",
+          "value": 1800,
+          "type": "weight"
+        },
+        {
+          "key": "TOTAL_WEIGHT",
+          "text": "Fordonets totalvikt",
+          "value": 2230,
+          "type": "weight"
+        },
+        {
+          "key": "LENGTH",
+          "text": "Längd",
+          "value": 4762,
+          "type": "length"
+        },
+        {
+          "key": "WIDTH",
+          "text": "Bredd",
+          "value": 1847,
+          "type": "length"
+        },
+        {
+          "key": "HEIGHT",
+          "text": "Höjd",
+          "value": 1395,
+          "type": "length"
+        }
+      ],
+      "other": [
+        {
+          "key": "SOLD_IN_SWEDEN",
+          "text": "Svensksåld",
+          "value": "Ja",
+          "type": "string"
+        },
+        {
+          "key": "EXPORTABLE",
+          "text": "Kan exporteras",
+          "value": "Ja",
+          "type": "string"
+        },
+        {
+          "key": "DEDUCTIBLE_VAT",
+          "text": "Avlyftbar moms",
+          "value": "Ja",
+          "type": "string"
+        }
+      ]
+    },
+    "majorFeature": [
+      {
+        "key": "4WD",
+        "title": "4WD",
+        "value": null,
+        "equipment": "Utrustning",
+        "description": "Konstant eller inkopplingsbar fyrhjulsdrift"
+      },
+      {
+        "key": "LED_STRALKASTARE",
+        "title": "LED-strålkastare",
+        "value": null,
+        "equipment": "Utrustning",
+        "description": "Strålkastare med LED-ljus har ett konstant vitt ljus och har samma ljusstyrka från star"
+      },
+      {
+        "key": "GPS",
+        "title": "GPS",
+        "value": null,
+        "equipment": "Utrustning",
+        "description": "Navigationssystem med vägbeskrivning"
+      },
+      {
+        "key": "ASSISTANSSYSTEM",
+        "title": "Assistanssystem",
+        "value": null,
+        "equipment": "Utrustning",
+        "description": "Uppkopplad tjänst för att exempelvis kunna kontrollera din bil på distans med hjälp av en mobilapp. Funktioner som bygger på 2G eller 3G-uppkoppling kan sluta fungera i samband med att dessa nätverk stängs ner av operatörerna."
+      }
+    ],
+    "batteryTestCertificateAvailable": false
+  },
+  "previewImages": [
+    {
+      "processObjectId": "7293906",
+      "uri": "https://kvdbil-images.imgix.net/7293906/1f2c5590.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7293906/1f2c5590.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 1
+    },
+    {
+      "processObjectId": "7293906",
+      "uri": "https://kvdbil-images.imgix.net/7293906/fe814254.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7293906/fe814254.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 1
+    },
+    {
+      "processObjectId": "7293906",
+      "uri": "https://kvdbil-images.imgix.net/7293906/9f510eed.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7293906/9f510eed.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 2
+    },
+    {
+      "processObjectId": "7293906",
+      "uri": "https://kvdbil-images.imgix.net/7293906/2d212df5.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7293906/2d212df5.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 2
+    },
+    {
+      "processObjectId": "7293906",
+      "uri": "https://kvdbil-images.imgix.net/7293906/526fb6d4.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7293906/526fb6d4.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 3
+    },
+    {
+      "processObjectId": "7293906",
+      "uri": "https://kvdbil-images.imgix.net/7293906/c7ad2b31.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7293906/c7ad2b31.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 3
+    },
+    {
+      "processObjectId": "7293906",
+      "uri": "https://kvdbil-images.imgix.net/7293906/fbc89199.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7293906/fbc89199.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 4
+    },
+    {
+      "processObjectId": "7293906",
+      "uri": "https://kvdbil-images.imgix.net/7293906/499b76ca.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7293906/499b76ca.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 4
+    },
+    {
+      "processObjectId": "7293906",
+      "uri": "https://kvdbil-images.imgix.net/7293906/bd88561b.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7293906/bd88561b.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 5
+    },
+    {
+      "processObjectId": "7293906",
+      "uri": "https://kvdbil-images.imgix.net/7293906/623a0120.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7293906/623a0120.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 5
+    },
+    {
+      "processObjectId": "7293906",
+      "uri": "https://kvdbil-images.imgix.net/7293906/c8295a8f.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7293906/c8295a8f.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 6
+    },
+    {
+      "processObjectId": "7293906",
+      "uri": "https://kvdbil-images.imgix.net/7293906/273014ae.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7293906/273014ae.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 6
+    },
+    {
+      "processObjectId": "7293906",
+      "uri": "https://kvdbil-images.imgix.net/7293906/83d09672.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7293906/83d09672.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 7
+    },
+    {
+      "processObjectId": "7293906",
+      "uri": "https://kvdbil-images.imgix.net/7293906/cd6cd0e4.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7293906/cd6cd0e4.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 7
+    },
+    {
+      "processObjectId": "7293906",
+      "uri": "https://kvdbil-images.imgix.net/7293906/d7d5b56f.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7293906/d7d5b56f.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 8
+    },
+    {
+      "processObjectId": "7293906",
+      "uri": "https://kvdbil-images.imgix.net/7293906/0cdd0a00.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7293906/0cdd0a00.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 9
+    },
+    {
+      "processObjectId": "7293906",
+      "uri": "https://kvdbil-images.imgix.net/7293906/370a4f43.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7293906/370a4f43.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 10
+    },
+    {
+      "processObjectId": "7293906",
+      "uri": "https://kvdbil-images.imgix.net/7293906/b33780b5.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7293906/b33780b5.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 11
+    },
+    {
+      "processObjectId": "7293906",
+      "uri": "https://kvdbil-images.imgix.net/7293906/62cc9fe9.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7293906/62cc9fe9.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 12
+    },
+    {
+      "processObjectId": "7293906",
+      "uri": "https://kvdbil-images.imgix.net/7293906/5a808ccd.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7293906/5a808ccd.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 13
+    },
+    {
+      "processObjectId": "7293906",
+      "uri": "https://kvdbil-images.imgix.net/7293906/685a3d9c.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7293906/685a3d9c.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 14
+    },
+    {
+      "processObjectId": "7293906",
+      "uri": "https://kvdbil-images.imgix.net/7293906/8ae8e291.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7293906/8ae8e291.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 15
+    },
+    {
+      "processObjectId": "7293906",
+      "uri": "https://kvdbil-images.imgix.net/7293906/dce67c1c.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7293906/dce67c1c.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 16
+    }
+  ],
+  "similarAuctions": [
+    {
+      "id": "303971",
+      "auctionType": "BUY_NOW",
+      "biddingFee": "0.00",
+      "biddingFeeCorporate": "0.00",
+      "mediationFee": 6900,
+      "mediationFeeCorporate": 9875,
+      "buyNow": true,
+      "closedAt": null,
+      "publishedAt": "2026-09-21T15:00:00.074060+00:00",
+      "countdownDuration": 210,
+      "countdownStartAt": null,
+      "createdAt": "2026-09-18T08:47:43.667141+00:00",
+      "readyForAuctionAt": null,
+      "currency": "SEK",
+      "maxBidRaise": 100000,
+      "minBidRaise": 500,
+      "startBid": null,
+      "openedAt": "2026-09-21T15:00:00.060948+00:00",
+      "processObjectId": "7289288",
+      "readyForCheckout": false,
+      "soldFor": null,
+      "sellMethod": null,
+      "slug": "audi-a4-avant-40-tdi-quattro-190hk",
+      "auctionUrl": "https://www.kvd.se/fast-pris/audi-a4-avant-40-tdi-quattro-190hk-303971",
+      "state": "OPEN",
+      "targetedAuctionGroupId": null,
+      "updatedAt": "2026-11-19T09:35:20.184677+00:00",
+      "releasing": null,
+      "loan": {
+        "loanCost": null,
+        "loanCostBuyNow": 1873
+      },
+      "buyNowAmount": 219800,
+      "buyNowAvailable": true,
+      "buyNowUntil": null,
+      "eligibleForAdditionalServices": true,
+      "comingSoon": false,
+      "preliminaryPrice": null,
+      "maxAllowedBid": null,
+      "isReserved": false,
+      "isSoldByBuyNow": false,
+      "favouriteCount": 41,
+      "winningBid": null,
+      "activeAuction": null,
+      "processObject": {
+        "createdAt": "2026-09-18 08:46:05.827659+00:00",
+        "leaseReturnProperties": {},
+        "certified": true,
+        "properties": {
+          "saleLimitedToCorporate": false,
+          "package": "Proline Värmare",
+          "adHeader": "A4 Avant 40 TDI quattro (190hk) Proline Värmare",
+          "modelYear": 2021,
+          "body": "Wagon",
+          "registrationPlate": "XEK08J",
+          "gearbox": "Automatic",
+          "fuels": [
+            {
+              "co2": 131,
+              "consumption": 4.9,
+              "enginePower": 190,
+              "fuelCode": "Diesel"
+            }
+          ],
+          "heavyEquipment": false,
+          "ecoFriendly": false,
+          "familyName": "A4",
+          "modelName": "A4 Avant 40 TDI quattro (190hk)",
+          "odometerReading": 96000,
+          "exteriorColor": "White",
+          "hasUnpaidLoan": false,
+          "mustExport": false,
+          "odometerUnit": "km",
+          "title": "Audi A4 Avant 40 TDI quattro (190hk)",
+          "brand": "Audi",
+          "numberOfPreviousOwners": 5,
+          "deductibleVat": false,
+          "exportable": true,
+          "heading1": "Audi A4",
+          "heading2": "Avant 40 TDI quattro",
+          "heading3": "Proline Värmare"
+        },
+        "testDriveAllowed": true,
+        "baseObject": {
+          "createdAt": "2026-09-18T08:46:05.616670+00:00",
+          "fabricAndMake": "AUDI",
+          "body": "Wagon",
+          "registrationPlate": "XEK08J",
+          "gearbox": "Automatic",
+          "year": "2021",
+          "fuels": [
+            {
+              "fuelCode": "Diesel",
+              "powerUnit": "EG",
+              "enginePower": 140,
+              "enginePowerHp": 190,
+              "fuelTankVolume": ""
+            }
+          ],
+          "earliestAvailableAt": null,
+          "familyName": "A4",
+          "modelName": "A4 Avant 40 TDI quattro (190hk)",
+          "odometerReading": null,
+          "baseObjectType": "CAR",
+          "exteriorColor": "White",
+          "salesFlow": "CONSUMER_CARS",
+          "id": "517088",
+          "state": "MANUAL_VALUATION_PENDING",
+          "odometerUnit": "km",
+          "registrationCountry": "se",
+          "brand": "Audi",
+          "modelId": null,
+          "technicalSpecification": {
+            "modelId": null,
+            "vehicle": {
+              "brand": "Audi",
+              "body": "Wagon",
+              "modelName": "A4 Avant 40 TDI quattro (190hk)",
+              "familyName": "A4"
+            },
+            "year": "2021"
+          }
+        },
+        "displayCar360Spin": true,
+        "isFixedPrice": false,
+        "sellMethod": "BUY_NOW",
+        "car360Spin": null,
+        "objectType": "CAR",
+        "isReleasable": false,
+        "statisticalValuation": null,
+        "reducedPrice": true,
+        "baseObjectId": "517088",
+        "id": "7289288",
+        "proactiveBrokering": null,
+        "state": "AUCTION",
+        "presentationApproved": false,
+        "offsiteSalesContact": null,
+        "buyNowAmount": 219800,
+        "initialBuyNowAmount": 254900,
+        "vehicleType": "CAR",
+        "conditionClassification": "CERTIFIED",
+        "exportable": true,
+        "deductibleVat": false,
+        "collisionWarranty": null,
+        "title": "Audi A4 Avant 40 TDI quattro (190hk)",
+        "brand": "Audi",
+        "familyName": "A4",
+        "modelName": "A4 Avant 40 TDI quattro (190hk)",
+        "package": "Proline Värmare",
+        "heading1": "Audi A4",
+        "heading2": "Avant 40 TDI quattro",
+        "heading3": "Proline Värmare"
+      },
+      "previewImages": [
+        {
+          "processObjectId": "7289288",
+          "uri": "https://kvdbil-images.imgix.net/7289288/21c6d10d.jpg",
+          "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7289288/21c6d10d.jpg",
+          "type": "PRESENTATION",
+          "contentType": "image",
+          "order": 1
+        },
+        {
+          "processObjectId": "7289288",
+          "uri": "https://kvdbil-images.imgix.net/7289288/80c50d7a.jpg",
+          "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7289288/80c50d7a.jpg",
+          "type": "PRESENTATION",
+          "contentType": "image",
+          "order": 2
+        }
+      ],
+      "previewImage": "https://kvdbil-images.imgix.net/7289288/21c6d10d.jpg"
+    },
+    {
+      "id": "311472",
+      "auctionType": "BIDDING",
+      "biddingFee": "4425.00",
+      "biddingFeeCorporate": "5613.00",
+      "mediationFee": 0,
+      "mediationFeeCorporate": 0,
+      "buyNow": false,
+      "closedAt": null,
+      "publishedAt": "2026-11-16T16:30:45.879111+00:00",
+      "countdownDuration": 210,
+      "countdownStartAt": "2026-11-19T18:22:30+00:00",
+      "createdAt": "2026-11-16T12:43:07.041170+00:00",
+      "readyForAuctionAt": "2026-11-15",
+      "currency": "SEK",
+      "maxBidRaise": 100000,
+      "minBidRaise": 500,
+      "startBid": 8000,
+      "openedAt": "2026-11-16T16:30:45.865598+00:00",
+      "processObjectId": "7293105",
+      "readyForCheckout": false,
+      "soldFor": null,
+      "sellMethod": null,
+      "slug": "audi-a4-2-0-tdi-clean-diesel-avant-150hk",
+      "auctionUrl": "https://www.kvd.se/auktioner/audi-a4-2-0-tdi-clean-diesel-avant-150hk-311472",
+      "state": "OPEN",
+      "targetedAuctionGroupId": null,
+      "updatedAt": "2026-11-19T10:22:20.050242+00:00",
+      "releasing": null,
+      "loan": {
+        "loanCost": 234,
+        "loanCostBuyNow": null
+      },
+      "buyNowAmount": null,
+      "buyNowAvailable": false,
+      "buyNowUntil": null,
+      "eligibleForAdditionalServices": true,
+      "comingSoon": false,
+      "preliminaryPrice": 85000,
+      "maxAllowedBid": 127500,
+      "isReserved": false,
+      "isSoldByBuyNow": false,
+      "favouriteCount": 33,
+      "winningBid": null,
+      "activeAuction": {
+        "auctionId": "311472",
+        "closed": false,
+        "countdownInProgress": false,
+        "preliminaryCloseAt": "2026-11-19T18:26:00+00:00",
+        "createdAt": "2026-11-16T16:30:45.867482+00:00",
+        "updatedAt": "2026-11-16T16:30:46.927176+00:00",
+        "vatExcludedBiddingAllowed": false,
+        "reservationPriceReached": false,
+        "bids": [
+          {
+            "id": 18786373,
+            "auctionId": 311472,
+            "bidderAlias": "5",
+            "amount": 27500,
+            "type": "NORMAL",
+            "maxBidId": 10977319,
+            "triggeredBy": 10977319,
+            "createdAt": "2026-11-19T06:58:56.913498+00:00",
+            "updatedAt": "2026-11-19T06:58:56.913504+00:00"
+          },
+          {
+            "id": 18786372,
+            "auctionId": 311472,
+            "bidderAlias": "4",
+            "amount": 27000,
+            "type": "AUTO",
+            "maxBidId": 10976947,
+            "triggeredBy": 10977318,
+            "createdAt": "2026-11-19T06:58:44.952065+00:00",
+            "updatedAt": "2026-11-19T06:58:44.952067+00:00"
+          },
+          {
+            "id": 18786371,
+            "auctionId": 311472,
+            "bidderAlias": "5",
+            "amount": 26500,
+            "type": "NORMAL",
+            "maxBidId": 10977318,
+            "triggeredBy": 10977318,
+            "createdAt": "2026-11-19T06:58:44.952056+00:00",
+            "updatedAt": "2026-11-19T06:58:44.952062+00:00"
+          },
+          {
+            "id": 18785689,
+            "auctionId": 311472,
+            "bidderAlias": "4",
+            "amount": 26000,
+            "type": "NORMAL",
+            "maxBidId": 10976947,
+            "triggeredBy": 10976947,
+            "createdAt": "2026-11-18T21:41:27.644059+00:00",
+            "updatedAt": "2026-11-18T21:41:27.644066+00:00"
+          },
+          {
+            "id": 18783010,
+            "auctionId": 311472,
+            "bidderAlias": "3",
+            "amount": 25500,
+            "type": "NORMAL",
+            "maxBidId": 10975329,
+            "triggeredBy": 10975329,
+            "createdAt": "2026-11-18T13:03:00.458539+00:00",
+            "updatedAt": "2026-11-18T13:03:00.458542+00:00"
+          },
+          {
+            "id": 18783009,
+            "auctionId": 311472,
+            "bidderAlias": "1",
+            "amount": 25000,
+            "type": "LIMIT_REACHED",
+            "maxBidId": 10969135,
+            "triggeredBy": 10975329,
+            "createdAt": "2026-11-18T13:03:00.458524+00:00",
+            "updatedAt": "2026-11-18T13:03:00.458534+00:00"
+          },
+          {
+            "id": 18783008,
+            "auctionId": 311472,
+            "bidderAlias": "1",
+            "amount": 24500,
+            "type": "AUTO",
+            "maxBidId": 10969135,
+            "triggeredBy": 10975328,
+            "createdAt": "2026-11-18T13:02:35.360811+00:00",
+            "updatedAt": "2026-11-18T13:02:35.360815+00:00"
+          },
+          {
+            "id": 18783007,
+            "auctionId": 311472,
+            "bidderAlias": "3",
+            "amount": 24000,
+            "type": "NORMAL",
+            "maxBidId": 10975328,
+            "triggeredBy": 10975328,
+            "createdAt": "2026-11-18T13:02:35.360797+00:00",
+            "updatedAt": "2026-11-18T13:02:35.360807+00:00"
+          },
+          {
+            "id": 18783004,
+            "auctionId": 311472,
+            "bidderAlias": "1",
+            "amount": 23500,
+            "type": "AUTO",
+            "maxBidId": 10969135,
+            "triggeredBy": 10975326,
+            "createdAt": "2026-11-18T13:02:25.157146+00:00",
+            "updatedAt": "2026-11-18T13:02:25.157148+00:00"
+          },
+          {
+            "id": 18783003,
+            "auctionId": 311472,
+            "bidderAlias": "3",
+            "amount": 23000,
+            "type": "NORMAL",
+            "maxBidId": 10975326,
+            "triggeredBy": 10975326,
+            "createdAt": "2026-11-18T13:02:25.157133+00:00",
+            "updatedAt": "2026-11-18T13:02:25.157142+00:00"
+          },
+          {
+            "id": 18783000,
+            "auctionId": 311472,
+            "bidderAlias": "1",
+            "amount": 22500,
+            "type": "AUTO",
+            "maxBidId": 10969135,
+            "triggeredBy": 10975324,
+            "createdAt": "2026-11-18T13:02:10.582478+00:00",
+            "updatedAt": "2026-11-18T13:02:10.582482+00:00"
+          },
+          {
+            "id": 18782999,
+            "auctionId": 311472,
+            "bidderAlias": "3",
+            "amount": 22000,
+            "type": "NORMAL",
+            "maxBidId": 10975324,
+            "triggeredBy": 10975324,
+            "createdAt": "2026-11-18T13:02:10.582462+00:00",
+            "updatedAt": "2026-11-18T13:02:10.582473+00:00"
+          },
+          {
+            "id": 18782998,
+            "auctionId": 311472,
+            "bidderAlias": "1",
+            "amount": 21500,
+            "type": "AUTO",
+            "maxBidId": 10969135,
+            "triggeredBy": 10975323,
+            "createdAt": "2026-11-18T13:01:56.687699+00:00",
+            "updatedAt": "2026-11-18T13:01:56.687702+00:00"
+          },
+          {
+            "id": 18782997,
+            "auctionId": 311472,
+            "bidderAlias": "3",
+            "amount": 21000,
+            "type": "NORMAL",
+            "maxBidId": 10975323,
+            "triggeredBy": 10975323,
+            "createdAt": "2026-11-18T13:01:56.687685+00:00",
+            "updatedAt": "2026-11-18T13:01:56.687695+00:00"
+          },
+          {
+            "id": 18782994,
+            "auctionId": 311472,
+            "bidderAlias": "1",
+            "amount": 20500,
+            "type": "AUTO",
+            "maxBidId": 10969135,
+            "triggeredBy": 10975321,
+            "createdAt": "2026-11-18T13:00:51.407645+00:00",
+            "updatedAt": "2026-11-18T13:00:51.407649+00:00"
+          },
+          {
+            "id": 18782993,
+            "auctionId": 311472,
+            "bidderAlias": "3",
+            "amount": 20000,
+            "type": "NORMAL",
+            "maxBidId": 10975321,
+            "triggeredBy": 10975321,
+            "createdAt": "2026-11-18T13:00:51.407633+00:00",
+            "updatedAt": "2026-11-18T13:00:51.407641+00:00"
+          },
+          {
+            "id": 18782989,
+            "auctionId": 311472,
+            "bidderAlias": "1",
+            "amount": 16500,
+            "type": "AUTO",
+            "maxBidId": 10969135,
+            "triggeredBy": 10975318,
+            "createdAt": "2026-11-18T12:58:25.762169+00:00",
+            "updatedAt": "2026-11-18T12:58:25.762172+00:00"
+          },
+          {
+            "id": 18782988,
+            "auctionId": 311472,
+            "bidderAlias": "3",
+            "amount": 16000,
+            "type": "NORMAL",
+            "maxBidId": 10975318,
+            "triggeredBy": 10975318,
+            "createdAt": "2026-11-18T12:58:25.762159+00:00",
+            "updatedAt": "2026-11-18T12:58:25.762167+00:00"
+          },
+          {
+            "id": 18782987,
+            "auctionId": 311472,
+            "bidderAlias": "1",
+            "amount": 15500,
+            "type": "AUTO",
+            "maxBidId": 10969135,
+            "triggeredBy": 10975317,
+            "createdAt": "2026-11-18T12:58:03.369589+00:00",
+            "updatedAt": "2026-11-18T12:58:03.369591+00:00"
+          },
+          {
+            "id": 18782986,
+            "auctionId": 311472,
+            "bidderAlias": "3",
+            "amount": 15000,
+            "type": "NORMAL",
+            "maxBidId": 10975317,
+            "triggeredBy": 10975317,
+            "createdAt": "2026-11-18T12:58:03.369580+00:00",
+            "updatedAt": "2026-11-18T12:58:03.369586+00:00"
+          },
+          {
+            "id": 18782985,
+            "auctionId": 311472,
+            "bidderAlias": "1",
+            "amount": 13000,
+            "type": "AUTO",
+            "maxBidId": 10969135,
+            "triggeredBy": 10975316,
+            "createdAt": "2026-11-18T12:57:06.001037+00:00",
+            "updatedAt": "2026-11-18T12:57:06.001040+00:00"
+          },
+          {
+            "id": 18782984,
+            "auctionId": 311472,
+            "bidderAlias": "3",
+            "amount": 12500,
+            "type": "NORMAL",
+            "maxBidId": 10975316,
+            "triggeredBy": 10975316,
+            "createdAt": "2026-11-18T12:57:06.001027+00:00",
+            "updatedAt": "2026-11-18T12:57:06.001034+00:00"
+          },
+          {
+            "id": 18782979,
+            "auctionId": 311472,
+            "bidderAlias": "1",
+            "amount": 12000,
+            "type": "AUTO",
+            "maxBidId": 10969135,
+            "triggeredBy": 10975313,
+            "createdAt": "2026-11-18T12:52:13.210695+00:00",
+            "updatedAt": "2026-11-18T12:52:13.210697+00:00"
+          },
+          {
+            "id": 18782978,
+            "auctionId": 311472,
+            "bidderAlias": "3",
+            "amount": 11500,
+            "type": "NORMAL",
+            "maxBidId": 10975313,
+            "triggeredBy": 10975313,
+            "createdAt": "2026-11-18T12:52:13.210684+00:00",
+            "updatedAt": "2026-11-18T12:52:13.210692+00:00"
+          },
+          {
+            "id": 18782970,
+            "auctionId": 311472,
+            "bidderAlias": "1",
+            "amount": 11000,
+            "type": "AUTO",
+            "maxBidId": 10969135,
+            "triggeredBy": 10975307,
+            "createdAt": "2026-11-18T12:47:44.123377+00:00",
+            "updatedAt": "2026-11-18T12:47:44.123380+00:00"
+          },
+          {
+            "id": 18782969,
+            "auctionId": 311472,
+            "bidderAlias": "3",
+            "amount": 10500,
+            "type": "NORMAL",
+            "maxBidId": 10975307,
+            "triggeredBy": 10975307,
+            "createdAt": "2026-11-18T12:47:44.123364+00:00",
+            "updatedAt": "2026-11-18T12:47:44.123372+00:00"
+          },
+          {
+            "id": 18776300,
+            "auctionId": 311472,
+            "bidderAlias": "1",
+            "amount": 10000,
+            "type": "AUTO",
+            "maxBidId": 10969135,
+            "triggeredBy": 10971476,
+            "createdAt": "2026-11-17T15:23:10.362384+00:00",
+            "updatedAt": "2026-11-17T15:23:10.362388+00:00"
+          },
+          {
+            "id": 18776299,
+            "auctionId": 311472,
+            "bidderAlias": "2",
+            "amount": 9500,
+            "type": "NORMAL",
+            "maxBidId": 10971476,
+            "triggeredBy": 10971476,
+            "createdAt": "2026-11-17T15:23:10.362370+00:00",
+            "updatedAt": "2026-11-17T15:23:10.362380+00:00"
+          },
+          {
+            "id": 18776296,
+            "auctionId": 311472,
+            "bidderAlias": "1",
+            "amount": 9000,
+            "type": "AUTO",
+            "maxBidId": 10969135,
+            "triggeredBy": 10971474,
+            "createdAt": "2026-11-17T15:22:46.018109+00:00",
+            "updatedAt": "2026-11-17T15:22:46.018112+00:00"
+          },
+          {
+            "id": 18776295,
+            "auctionId": 311472,
+            "bidderAlias": "2",
+            "amount": 8500,
+            "type": "NORMAL",
+            "maxBidId": 10971474,
+            "triggeredBy": 10971474,
+            "createdAt": "2026-11-17T15:22:46.018095+00:00",
+            "updatedAt": "2026-11-17T15:22:46.018104+00:00"
+          },
+          {
+            "id": 18772180,
+            "auctionId": 311472,
+            "bidderAlias": "1",
+            "amount": 8000,
+            "type": "NORMAL",
+            "maxBidId": 10969135,
+            "triggeredBy": 10969135,
+            "createdAt": "2026-11-16T21:13:47.061191+00:00",
+            "updatedAt": "2026-11-16T21:13:47.061206+00:00"
+          }
+        ],
+        "myBidderAlias": null,
+        "myMaxBid": null,
+        "highestBid": {
+          "id": 18786373,
+          "auctionId": 311472,
+          "bidderAlias": null,
+          "amount": 27500,
+          "type": "NORMAL",
+          "maxBidId": 10977319,
+          "triggeredBy": 10977319,
+          "createdAt": "2026-11-19T06:58:56.913498+00:00",
+          "updatedAt": "2026-11-19T06:58:56.913504+00:00",
+          "eurAmount": 2470
+        },
+        "buyNowAvailable": false,
+        "releasing": null,
+        "isHighestBidLowerThanResidualLoanValue": false
+      },
+      "processObject": {
+        "createdAt": "2026-10-21 11:58:46.526341+00:00",
+        "leaseReturnProperties": {},
+        "certified": false,
+        "properties": {
+          "saleLimitedToCorporate": false,
+          "package": "Sports Edition",
+          "adHeader": "A4 2.0 TDI clean diesel Avant 150hk Sports Edition",
+          "modelYear": 2014,
+          "body": "Wagon",
+          "registrationPlate": "GFG083",
+          "gearbox": "Manual",
+          "fuels": [
+            {
+              "co2": 124,
+              "consumption": 4.7,
+              "enginePower": 150,
+              "fuelCode": "Diesel"
+            }
+          ],
+          "heavyEquipment": false,
+          "ecoFriendly": false,
+          "familyName": "A4",
+          "modelName": "A4 2.0 TDI clean diesel Avant (150hk)",
+          "odometerReading": 201760,
+          "exteriorColor": "White",
+          "hasUnpaidLoan": false,
+          "mustExport": false,
+          "odometerUnit": "km",
+          "title": "Audi A4 2.0 TDI clean diesel Avant (150hk)",
+          "brand": "Audi",
+          "numberOfPreviousOwners": 6,
+          "deductibleVat": false,
+          "exportable": true,
+          "heading1": "Audi A4",
+          "heading2": "2.0 TDI clean diesel Avant",
+          "heading3": "Sports Edition"
+        },
+        "testDriveAllowed": true,
+        "baseObject": {
+          "createdAt": "2026-10-20T15:35:42.847587+00:00",
+          "fabricAndMake": "AUDI            B8",
+          "body": "Wagon",
+          "registrationPlate": "GFG083",
+          "gearbox": "Manual",
+          "year": "2014",
+          "fuels": [
+            {
+              "fuelCode": "Diesel",
+              "powerUnit": "EG",
+              "enginePower": 110,
+              "enginePowerHp": 150,
+              "fuelTankVolume": ""
+            }
+          ],
+          "earliestAvailableAt": null,
+          "familyName": "A4",
+          "modelName": "A4 2.0 TDI clean diesel Avant (150hk)",
+          "odometerReading": 204000,
+          "baseObjectType": "CAR",
+          "exteriorColor": "White",
+          "salesFlow": "CONSUMER_CARS",
+          "id": "524335",
+          "state": "PREPARING_SALES_AGREEMENT",
+          "odometerUnit": "km",
+          "registrationCountry": "se",
+          "brand": "Audi",
+          "modelId": null,
+          "technicalSpecification": {
+            "modelId": null,
+            "vehicle": {
+              "brand": "Audi",
+              "body": "Wagon",
+              "modelName": "A4 2.0 TDI clean diesel Avant (150hk)",
+              "familyName": "A4"
+            },
+            "year": "2014"
+          }
+        },
+        "displayCar360Spin": true,
+        "isFixedPrice": false,
+        "sellMethod": "BIDDING",
+        "car360Spin": null,
+        "objectType": "CAR",
+        "isReleasable": false,
+        "statisticalValuation": {
+          "bpWhite": 87723,
+          "bpGreen": null,
+          "bpOrange": 87723,
+          "marketPrice": 87723
+        },
+        "reducedPrice": false,
+        "baseObjectId": "524335",
+        "id": "7293105",
+        "proactiveBrokering": null,
+        "state": "AUCTION",
+        "presentationApproved": false,
+        "offsiteSalesContact": null,
+        "buyNowAmount": null,
+        "initialBuyNowAmount": null,
+        "vehicleType": "CAR",
+        "conditionClassification": "TESTED",
+        "exportable": true,
+        "deductibleVat": false,
+        "collisionWarranty": null,
+        "title": "Audi A4 2.0 TDI clean diesel Avant (150hk)",
+        "brand": "Audi",
+        "familyName": "A4",
+        "modelName": "A4 2.0 TDI clean diesel Avant (150hk)",
+        "package": "Sports Edition",
+        "heading1": "Audi A4",
+        "heading2": "2.0 TDI clean diesel Avant",
+        "heading3": "Sports Edition"
+      },
+      "previewImages": [
+        {
+          "processObjectId": "7293105",
+          "uri": "https://kvdbil-images.imgix.net/7293105/dc237221.jpg",
+          "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7293105/dc237221.jpg",
+          "type": "PRESENTATION",
+          "contentType": "image",
+          "order": 1
+        },
+        {
+          "processObjectId": "7293105",
+          "uri": "https://kvdbil-images.imgix.net/7293105/3b7e4b05.jpg",
+          "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7293105/3b7e4b05.jpg",
+          "type": "PRESENTATION",
+          "contentType": "image",
+          "order": 2
+        }
+      ],
+      "previewImage": "https://kvdbil-images.imgix.net/7293105/dc237221.jpg"
+    },
+    {
+      "id": "308036",
+      "auctionType": "BIDDING",
+      "biddingFee": "4425.00",
+      "biddingFeeCorporate": "5613.00",
+      "mediationFee": 0,
+      "mediationFeeCorporate": 0,
+      "buyNow": false,
+      "closedAt": null,
+      "publishedAt": "2026-11-18T12:07:29.583014+00:00",
+      "countdownDuration": 210,
+      "countdownStartAt": "2026-11-23T16:58:30+00:00",
+      "createdAt": "2026-10-19T20:23:54.757462+00:00",
+      "readyForAuctionAt": "2026-11-15",
+      "currency": "SEK",
+      "maxBidRaise": 100000,
+      "minBidRaise": 500,
+      "startBid": 30000,
+      "openedAt": "2026-11-18T15:25:58.755519+00:00",
+      "processObjectId": "7292864",
+      "readyForCheckout": false,
+      "soldFor": null,
+      "sellMethod": null,
+      "slug": "audi-a4-2-0-tdi-avant-quattro-177hk",
+      "auctionUrl": "https://www.kvd.se/auktioner/audi-a4-2-0-tdi-avant-quattro-177hk-308036",
+      "state": "OPEN",
+      "targetedAuctionGroupId": null,
+      "updatedAt": "2026-11-19T11:24:42.247417+00:00",
+      "releasing": null,
+      "loan": {
+        "loanCost": 256,
+        "loanCostBuyNow": null
+      },
+      "buyNowAmount": null,
+      "buyNowAvailable": false,
+      "buyNowUntil": null,
+      "eligibleForAdditionalServices": true,
+      "comingSoon": false,
+      "preliminaryPrice": 120000,
+      "maxAllowedBid": 180000,
+      "isReserved": false,
+      "isSoldByBuyNow": false,
+      "favouriteCount": 19,
+      "winningBid": null,
+      "activeAuction": {
+        "auctionId": "308036",
+        "closed": false,
+        "countdownInProgress": false,
+        "preliminaryCloseAt": "2026-11-23T17:02:00+00:00",
+        "createdAt": "2026-11-18T15:25:58.757698+00:00",
+        "updatedAt": "2026-11-18T15:25:59.804954+00:00",
+        "vatExcludedBiddingAllowed": false,
+        "reservationPriceReached": false,
+        "bids": [
+          {
+            "id": 18783817,
+            "auctionId": 308036,
+            "bidderAlias": "1",
+            "amount": 30000,
+            "type": "NORMAL",
+            "maxBidId": 10975793,
+            "triggeredBy": 10975793,
+            "createdAt": "2026-11-18T17:12:35.833243+00:00",
+            "updatedAt": "2026-11-18T17:12:35.833260+00:00"
+          }
+        ],
+        "myBidderAlias": null,
+        "myMaxBid": null,
+        "highestBid": {
+          "id": 18783817,
+          "auctionId": 308036,
+          "bidderAlias": null,
+          "amount": 30000,
+          "type": "NORMAL",
+          "maxBidId": 10975793,
+          "triggeredBy": 10975793,
+          "createdAt": "2026-11-18T17:12:35.833243+00:00",
+          "updatedAt": "2026-11-18T17:12:35.833260+00:00",
+          "eurAmount": 2700
+        },
+        "buyNowAvailable": false,
+        "releasing": null,
+        "isHighestBidLowerThanResidualLoanValue": false
+      },
+      "processObject": {
+        "createdAt": "2026-10-19 16:00:18.182428+00:00",
+        "leaseReturnProperties": {},
+        "certified": false,
+        "properties": {
+          "saleLimitedToCorporate": false,
+          "modelYear": 2013,
+          "body": "Wagon",
+          "registrationPlate": "BUE178",
+          "gearbox": "Automatic",
+          "fuels": [
+            {
+              "co2": 144,
+              "consumption": 5.5,
+              "enginePower": 177,
+              "fuelCode": "Diesel"
+            }
+          ],
+          "heavyEquipment": false,
+          "ecoFriendly": false,
+          "familyName": "A4",
+          "modelName": "A4 2.0 TDI Avant quattro (177hk)",
+          "odometerReading": 129210,
+          "exteriorColor": "Red",
+          "hasUnpaidLoan": false,
+          "mustExport": false,
+          "odometerUnit": "km",
+          "title": "Audi A4 2.0 TDI Avant quattro (177hk)",
+          "brand": "Audi",
+          "numberOfPreviousOwners": 16,
+          "deductibleVat": false,
+          "exportable": true,
+          "heading1": "Audi A4",
+          "heading2": "2.0 TDI Avant quattro",
+          "heading3": null
+        },
+        "testDriveAllowed": true,
+        "baseObject": {
+          "createdAt": "2026-10-15T15:52:07.621453+00:00",
+          "fabricAndMake": "AUDI            B8",
+          "body": "Wagon",
+          "registrationPlate": "BUE178",
+          "gearbox": "Automatic",
+          "year": "2013",
+          "fuels": [
+            {
+              "fuelCode": "Diesel",
+              "powerUnit": "EG",
+              "enginePower": 130,
+              "enginePowerHp": 177,
+              "fuelTankVolume": ""
+            }
+          ],
+          "earliestAvailableAt": null,
+          "familyName": "A4",
+          "modelName": "A4 2.0 TDI Avant quattro (177hk)",
+          "odometerReading": 137000,
+          "baseObjectType": "CAR",
+          "exteriorColor": "Red",
+          "salesFlow": "CONSUMER_CARS",
+          "id": "523277",
+          "state": "PREPARING_SALES_AGREEMENT",
+          "odometerUnit": "km",
+          "registrationCountry": "se",
+          "brand": "Audi",
+          "modelId": null,
+          "technicalSpecification": {
+            "modelId": null,
+            "vehicle": {
+              "brand": "Audi",
+              "body": "Wagon",
+              "modelName": "A4 2.0 TDI Avant quattro (177hk)",
+              "familyName": "A4"
+            },
+            "year": "2013"
+          }
+        },
+        "displayCar360Spin": true,
+        "isFixedPrice": false,
+        "sellMethod": "BIDDING",
+        "car360Spin": null,
+        "objectType": "CAR",
+        "isReleasable": false,
+        "statisticalValuation": {
+          "bpWhite": 118639,
+          "bpGreen": null,
+          "bpOrange": 118639,
+          "marketPrice": 118639
+        },
+        "reducedPrice": false,
+        "baseObjectId": "523277",
+        "id": "7292864",
+        "proactiveBrokering": null,
+        "state": "AUCTION",
+        "presentationApproved": false,
+        "offsiteSalesContact": null,
+        "buyNowAmount": null,
+        "initialBuyNowAmount": null,
+        "vehicleType": "CAR",
+        "conditionClassification": "TESTED",
+        "exportable": true,
+        "deductibleVat": false,
+        "collisionWarranty": null,
+        "title": "Audi A4 2.0 TDI Avant quattro (177hk)",
+        "brand": "Audi",
+        "familyName": "A4",
+        "modelName": "A4 2.0 TDI Avant quattro (177hk)",
+        "package": null,
+        "heading1": "Audi A4",
+        "heading2": "2.0 TDI Avant quattro",
+        "heading3": null
+      },
+      "previewImages": [
+        {
+          "processObjectId": "7292864",
+          "uri": "https://kvdbil-images.imgix.net/7292864/21ce1c54.jpg",
+          "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292864/21ce1c54.jpg",
+          "type": "PRESENTATION",
+          "contentType": "image",
+          "order": 1
+        },
+        {
+          "processObjectId": "7292864",
+          "uri": "https://kvdbil-images.imgix.net/7292864/fa9304e3.jpg",
+          "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292864/fa9304e3.jpg",
+          "type": "PRESENTATION",
+          "contentType": "image",
+          "order": 2
+        }
+      ],
+      "previewImage": "https://kvdbil-images.imgix.net/7292864/21ce1c54.jpg"
+    },
+    {
+      "id": "305236",
+      "auctionType": "BUY_NOW",
+      "biddingFee": "0.00",
+      "biddingFeeCorporate": "0.00",
+      "mediationFee": 5775,
+      "mediationFeeCorporate": 7438,
+      "buyNow": true,
+      "closedAt": null,
+      "publishedAt": "2026-09-30T07:30:00.031146+00:00",
+      "countdownDuration": 210,
+      "countdownStartAt": null,
+      "createdAt": "2026-09-29T07:43:46.779011+00:00",
+      "readyForAuctionAt": null,
+      "currency": "SEK",
+      "maxBidRaise": 100000,
+      "minBidRaise": 500,
+      "startBid": null,
+      "openedAt": "2026-09-30T07:30:00.016738+00:00",
+      "processObjectId": "7290311",
+      "readyForCheckout": false,
+      "soldFor": null,
+      "sellMethod": null,
+      "slug": "audi-a4-2-0-tdi-avant-quattro-190hk",
+      "auctionUrl": "https://www.kvd.se/fast-pris/audi-a4-2-0-tdi-avant-quattro-190hk-305236",
+      "state": "OPEN",
+      "targetedAuctionGroupId": null,
+      "updatedAt": "2026-11-18T09:05:06.933664+00:00",
+      "releasing": null,
+      "loan": {
+        "loanCost": null,
+        "loanCostBuyNow": 1507
+      },
+      "buyNowAmount": 176800,
+      "buyNowAvailable": true,
+      "buyNowUntil": null,
+      "eligibleForAdditionalServices": true,
+      "comingSoon": false,
+      "preliminaryPrice": null,
+      "maxAllowedBid": null,
+      "isReserved": false,
+      "isSoldByBuyNow": false,
+      "favouriteCount": 42,
+      "winningBid": null,
+      "activeAuction": null,
+      "processObject": {
+        "createdAt": "2026-09-29 07:40:55.677782+00:00",
+        "leaseReturnProperties": {},
+        "certified": false,
+        "properties": {
+          "saleLimitedToCorporate": false,
+          "package": "Proline Teknikpaket",
+          "adHeader": "A4 2.0 TDI Avant quattro 190hk Proline Teknikpaket",
+          "modelYear": 2017,
+          "body": "Wagon",
+          "registrationPlate": "YGZ579",
+          "gearbox": "Automatic",
+          "fuels": [
+            {
+              "co2": 116,
+              "consumption": 4.5,
+              "enginePower": 190,
+              "fuelCode": "Diesel"
+            }
+          ],
+          "heavyEquipment": false,
+          "ecoFriendly": false,
+          "familyName": "A4",
+          "modelName": "A4 2.0 TDI Avant quattro (190hk)",
+          "odometerReading": 96990,
+          "exteriorColor": "White",
+          "hasUnpaidLoan": false,
+          "mustExport": false,
+          "odometerUnit": "km",
+          "title": "Audi A4 2.0 TDI Avant quattro (190hk)",
+          "brand": "Audi",
+          "numberOfPreviousOwners": 5,
+          "deductibleVat": false,
+          "exportable": true,
+          "heading1": "Audi A4",
+          "heading2": "2.0 TDI Avant quattro",
+          "heading3": "Proline Teknikpaket"
+        },
+        "testDriveAllowed": true,
+        "baseObject": {
+          "createdAt": "2026-09-29T07:40:55.337469+00:00",
+          "fabricAndMake": "AUDI",
+          "body": "Wagon",
+          "registrationPlate": "YGZ579",
+          "gearbox": "Automatic",
+          "year": "2017",
+          "fuels": [
+            {
+              "fuelCode": "Diesel",
+              "powerUnit": "EG",
+              "enginePower": 140,
+              "enginePowerHp": 190,
+              "fuelTankVolume": ""
+            }
+          ],
+          "earliestAvailableAt": null,
+          "familyName": "A4",
+          "modelName": "A4 2.0 TDI Avant quattro (190hk)",
+          "odometerReading": null,
+          "baseObjectType": "CAR",
+          "exteriorColor": "White",
+          "salesFlow": "CONSUMER_CARS",
+          "id": "519260",
+          "state": "MANUAL_VALUATION_PENDING",
+          "odometerUnit": "km",
+          "registrationCountry": "se",
+          "brand": "Audi",
+          "modelId": null,
+          "technicalSpecification": {
+            "modelId": null,
+            "vehicle": {
+              "brand": "Audi",
+              "body": "Wagon",
+              "modelName": "A4 2.0 TDI Avant quattro (190hk)",
+              "familyName": "A4"
+            },
+            "year": "2017"
+          }
+        },
+        "displayCar360Spin": true,
+        "isFixedPrice": false,
+        "sellMethod": "BUY_NOW",
+        "car360Spin": null,
+        "objectType": "CAR",
+        "isReleasable": false,
+        "statisticalValuation": null,
+        "reducedPrice": true,
+        "baseObjectId": "519260",
+        "id": "7290311",
+        "proactiveBrokering": null,
+        "state": "AUCTION",
+        "presentationApproved": false,
+        "offsiteSalesContact": null,
+        "buyNowAmount": 176800,
+        "initialBuyNowAmount": 199900,
+        "vehicleType": "CAR",
+        "conditionClassification": "TESTED",
+        "exportable": true,
+        "deductibleVat": false,
+        "collisionWarranty": null,
+        "title": "Audi A4 2.0 TDI Avant quattro (190hk)",
+        "brand": "Audi",
+        "familyName": "A4",
+        "modelName": "A4 2.0 TDI Avant quattro (190hk)",
+        "package": "Proline Teknikpaket",
+        "heading1": "Audi A4",
+        "heading2": "2.0 TDI Avant quattro",
+        "heading3": "Proline Teknikpaket"
+      },
+      "previewImages": [
+        {
+          "processObjectId": "7290311",
+          "uri": "https://kvdbil-images.imgix.net/7290311/debc6853.jpg",
+          "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7290311/debc6853.jpg",
+          "type": "PRESENTATION",
+          "contentType": "image",
+          "order": 1
+        },
+        {
+          "processObjectId": "7290311",
+          "uri": "https://kvdbil-images.imgix.net/7290311/e91beaaa.jpg",
+          "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7290311/e91beaaa.jpg",
+          "type": "PRESENTATION",
+          "contentType": "image",
+          "order": 2
+        }
+      ],
+      "previewImage": "https://kvdbil-images.imgix.net/7290311/debc6853.jpg"
+    },
+    {
+      "id": "311881",
+      "auctionType": "BIDDING",
+      "biddingFee": "4425.00",
+      "biddingFeeCorporate": "5613.00",
+      "mediationFee": 0,
+      "mediationFeeCorporate": 0,
+      "buyNow": false,
+      "closedAt": null,
+      "publishedAt": "2026-11-18T15:26:48.639229+00:00",
+      "countdownDuration": 210,
+      "countdownStartAt": "2026-11-23T19:38:30+00:00",
+      "createdAt": "2026-11-18T14:18:27.127719+00:00",
+      "readyForAuctionAt": "2026-11-15",
+      "currency": "SEK",
+      "maxBidRaise": 100000,
+      "minBidRaise": 500,
+      "startBid": 20000,
+      "openedAt": "2026-11-18T15:26:48.624317+00:00",
+      "processObjectId": "7293490",
+      "readyForCheckout": false,
+      "soldFor": null,
+      "sellMethod": null,
+      "slug": "audi-a4-2-0-tdi-avant-177hk",
+      "auctionUrl": "https://www.kvd.se/auktioner/audi-a4-2-0-tdi-avant-177hk-311881",
+      "state": "OPEN",
+      "targetedAuctionGroupId": null,
+      "updatedAt": "2026-11-19T11:45:41.358670+00:00",
+      "releasing": null,
+      "loan": {
+        "loanCost": 170,
+        "loanCostBuyNow": null
+      },
+      "buyNowAmount": null,
+      "buyNowAvailable": false,
+      "buyNowUntil": null,
+      "eligibleForAdditionalServices": true,
+      "comingSoon": false,
+      "preliminaryPrice": 115000,
+      "maxAllowedBid": 172500,
+      "isReserved": false,
+      "isSoldByBuyNow": false,
+      "favouriteCount": 33,
+      "winningBid": null,
+      "activeAuction": {
+        "auctionId": "311881",
+        "closed": false,
+        "countdownInProgress": false,
+        "preliminaryCloseAt": "2026-11-23T19:42:00+00:00",
+        "createdAt": "2026-11-18T15:26:48.625931+00:00",
+        "updatedAt": "2026-11-18T15:26:49.684245+00:00",
+        "vatExcludedBiddingAllowed": false,
+        "reservationPriceReached": false,
+        "bids": [
+          {
+            "id": 18783365,
+            "auctionId": 311881,
+            "bidderAlias": "1",
+            "amount": 20000,
+            "type": "NORMAL",
+            "maxBidId": 10975537,
+            "triggeredBy": 10975537,
+            "createdAt": "2026-11-18T15:32:04.910825+00:00",
+            "updatedAt": "2026-11-18T15:32:04.910833+00:00"
+          }
+        ],
+        "myBidderAlias": null,
+        "myMaxBid": null,
+        "highestBid": {
+          "id": 18783365,
+          "auctionId": 311881,
+          "bidderAlias": null,
+          "amount": 20000,
+          "type": "NORMAL",
+          "maxBidId": 10975537,
+          "triggeredBy": 10975537,
+          "createdAt": "2026-11-18T15:32:04.910825+00:00",
+          "updatedAt": "2026-11-18T15:32:04.910833+00:00",
+          "eurAmount": 1800
+        },
+        "buyNowAvailable": false,
+        "releasing": null,
+        "isHighestBidLowerThanResidualLoanValue": false
+      },
+      "processObject": {
+        "createdAt": "2026-10-26 08:55:59.530916+00:00",
+        "leaseReturnProperties": {},
+        "certified": false,
+        "properties": {
+          "saleLimitedToCorporate": false,
+          "package": "Sports Värmare",
+          "adHeader": "A4 2.0 TDI Avant (177hk) Sports Värmare",
+          "modelYear": 2014,
+          "body": "Wagon",
+          "registrationPlate": "RUD203",
+          "gearbox": "Manual",
+          "fuels": [
+            {
+              "co2": 126,
+              "consumption": 4.8,
+              "enginePower": 177,
+              "fuelCode": "Diesel"
+            }
+          ],
+          "heavyEquipment": false,
+          "ecoFriendly": false,
+          "familyName": "A4",
+          "modelName": "A4 2.0 TDI Avant (177hk)",
+          "odometerReading": 125860,
+          "exteriorColor": "Red",
+          "hasUnpaidLoan": false,
+          "mustExport": false,
+          "odometerUnit": "km",
+          "title": "Audi A4 2.0 TDI Avant (177hk)",
+          "brand": "Audi",
+          "numberOfPreviousOwners": 1,
+          "deductibleVat": false,
+          "exportable": true,
+          "heading1": "Audi A4",
+          "heading2": "2.0 TDI Avant",
+          "heading3": "Sports Värmare"
+        },
+        "testDriveAllowed": true,
+        "baseObject": {
+          "createdAt": "2026-10-11T10:35:19.510426+00:00",
+          "fabricAndMake": "AUDI            B8",
+          "body": "Wagon",
+          "registrationPlate": "RUD203",
+          "gearbox": "Manual",
+          "year": "2014",
+          "fuels": [
+            {
+              "fuelCode": "Diesel",
+              "powerUnit": "EG",
+              "enginePower": 130,
+              "enginePowerHp": 177,
+              "fuelTankVolume": ""
+            }
+          ],
+          "earliestAvailableAt": null,
+          "familyName": "A4",
+          "modelName": "A4 2.0 TDI Avant (177hk)",
+          "odometerReading": 126000,
+          "baseObjectType": "CAR",
+          "exteriorColor": "Red",
+          "salesFlow": "CORPORATE_CARS_SMALL",
+          "id": "521895",
+          "state": "PREPARING_SALES_AGREEMENT",
+          "odometerUnit": "km",
+          "registrationCountry": "se",
+          "brand": "Audi",
+          "modelId": null,
+          "technicalSpecification": {
+            "modelId": null,
+            "vehicle": {
+              "brand": "Audi",
+              "body": "Wagon",
+              "modelName": "A4 2.0 TDI Avant (177hk)",
+              "familyName": "A4"
+            },
+            "year": "2014"
+          }
+        },
+        "displayCar360Spin": true,
+        "isFixedPrice": false,
+        "sellMethod": "BIDDING",
+        "car360Spin": null,
+        "objectType": "CAR",
+        "isReleasable": false,
+        "statisticalValuation": {
+          "bpWhite": 108684,
+          "bpGreen": null,
+          "bpOrange": 108684,
+          "marketPrice": 108684
+        },
+        "reducedPrice": false,
+        "baseObjectId": "521895",
+        "id": "7293490",
+        "proactiveBrokering": null,
+        "state": "AUCTION",
+        "presentationApproved": false,
+        "offsiteSalesContact": null,
+        "buyNowAmount": null,
+        "initialBuyNowAmount": null,
+        "vehicleType": "CAR",
+        "conditionClassification": "TESTED",
+        "exportable": true,
+        "deductibleVat": false,
+        "collisionWarranty": null,
+        "title": "Audi A4 2.0 TDI Avant (177hk)",
+        "brand": "Audi",
+        "familyName": "A4",
+        "modelName": "A4 2.0 TDI Avant (177hk)",
+        "package": "Sports Värmare",
+        "heading1": "Audi A4",
+        "heading2": "2.0 TDI Avant",
+        "heading3": "Sports Värmare"
+      },
+      "previewImages": [
+        {
+          "processObjectId": "7293490",
+          "uri": "https://kvdbil-images.imgix.net/7293490/730d5e4f.jpg",
+          "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7293490/730d5e4f.jpg",
+          "type": "PRESENTATION",
+          "contentType": "image",
+          "order": 1
+        },
+        {
+          "processObjectId": "7293490",
+          "uri": "https://kvdbil-images.imgix.net/7293490/ccffcd10.jpg",
+          "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7293490/ccffcd10.jpg",
+          "type": "PRESENTATION",
+          "contentType": "image",
+          "order": 2
+        }
+      ],
+      "previewImage": "https://kvdbil-images.imgix.net/7293490/730d5e4f.jpg"
+    },
+    {
+      "id": "311660",
+      "auctionType": "BIDDING",
+      "biddingFee": "4425.00",
+      "biddingFeeCorporate": "5613.00",
+      "mediationFee": 0,
+      "mediationFeeCorporate": 0,
+      "buyNow": false,
+      "closedAt": null,
+      "publishedAt": "2026-11-17T15:33:40.324231+00:00",
+      "countdownDuration": 210,
+      "countdownStartAt": "2026-11-20T11:00:30+00:00",
+      "createdAt": "2026-11-17T11:43:48.179815+00:00",
+      "readyForAuctionAt": "2026-11-15",
+      "currency": "SEK",
+      "maxBidRaise": 100000,
+      "minBidRaise": 500,
+      "startBid": 20000,
+      "openedAt": "2026-11-17T15:33:40.310587+00:00",
+      "processObjectId": "7294111",
+      "readyForCheckout": false,
+      "soldFor": null,
+      "sellMethod": null,
+      "slug": "audi-a4-2-0-tdi-avant-quattro-177hk",
+      "auctionUrl": "https://www.kvd.se/auktioner/audi-a4-2-0-tdi-avant-quattro-177hk-311660",
+      "state": "OPEN",
+      "targetedAuctionGroupId": null,
+      "updatedAt": "2026-11-18T21:12:57.011213+00:00",
+      "releasing": null,
+      "loan": {
+        "loanCost": null,
+        "loanCostBuyNow": null
+      },
+      "buyNowAmount": null,
+      "buyNowAvailable": false,
+      "buyNowUntil": null,
+      "eligibleForAdditionalServices": true,
+      "comingSoon": false,
+      "preliminaryPrice": 130000,
+      "maxAllowedBid": 195000,
+      "isReserved": false,
+      "isSoldByBuyNow": false,
+      "favouriteCount": 11,
+      "winningBid": null,
+      "activeAuction": {
+        "auctionId": "311660",
+        "closed": false,
+        "countdownInProgress": false,
+        "preliminaryCloseAt": "2026-11-20T11:04:00+00:00",
+        "createdAt": "2026-11-17T15:33:40.312133+00:00",
+        "updatedAt": "2026-11-17T15:33:41.370957+00:00",
+        "vatExcludedBiddingAllowed": false,
+        "reservationPriceReached": false,
+        "bids": [],
+        "myBidderAlias": null,
+        "myMaxBid": null,
+        "highestBid": null,
+        "buyNowAvailable": false,
+        "releasing": null,
+        "isHighestBidLowerThanResidualLoanValue": false
+      },
+      "processObject": {
+        "createdAt": "2026-10-30 13:14:16.195076+00:00",
+        "leaseReturnProperties": {},
+        "certified": false,
+        "properties": {
+          "saleLimitedToCorporate": false,
+          "adHeader": "A4 2.0 TDI Avant quattro (177hk)",
+          "modelYear": 2014,
+          "body": "Wagon",
+          "registrationPlate": "BHN005",
+          "gearbox": "Automatic",
+          "fuels": [
+            {
+              "co2": 144,
+              "consumption": 5.5,
+              "enginePower": 177,
+              "fuelCode": "Diesel"
+            }
+          ],
+          "heavyEquipment": false,
+          "ecoFriendly": false,
+          "familyName": "A4",
+          "modelName": "A4 2.0 TDI Avant quattro (177hk)",
+          "odometerReading": 145220,
+          "exteriorColor": "White",
+          "hasUnpaidLoan": false,
+          "mustExport": false,
+          "odometerUnit": "km",
+          "title": "Audi A4 2.0 TDI Avant quattro (177hk)",
+          "brand": "Audi",
+          "numberOfPreviousOwners": 6,
+          "deductibleVat": false,
+          "exportable": true,
+          "heading1": "Audi A4",
+          "heading2": "2.0 TDI Avant quattro",
+          "heading3": null
+        },
+        "testDriveAllowed": true,
+        "baseObject": {
+          "createdAt": "2026-10-30T13:14:15.965609+00:00",
+          "fabricAndMake": "AUDI            B8",
+          "body": "Wagon",
+          "registrationPlate": "BHN005",
+          "gearbox": "Automatic",
+          "year": "2014",
+          "fuels": [
+            {
+              "fuelCode": "Diesel",
+              "powerUnit": "EG",
+              "enginePower": 130,
+              "enginePowerHp": 177,
+              "fuelTankVolume": ""
+            }
+          ],
+          "earliestAvailableAt": null,
+          "familyName": "A4",
+          "modelName": "A4 2.0 TDI Avant quattro (177hk)",
+          "odometerReading": null,
+          "baseObjectType": "CAR",
+          "exteriorColor": "White",
+          "salesFlow": "CONSUMER_CARS",
+          "id": "526619",
+          "state": "MANUAL_VALUATION_PENDING",
+          "odometerUnit": "km",
+          "registrationCountry": "se",
+          "brand": "Audi",
+          "modelId": null,
+          "technicalSpecification": {
+            "modelId": null,
+            "vehicle": {
+              "brand": "Audi",
+              "body": "Wagon",
+              "modelName": "A4 2.0 TDI Avant quattro (177hk)",
+              "familyName": "A4"
+            },
+            "year": "2014"
+          }
+        },
+        "displayCar360Spin": true,
+        "isFixedPrice": false,
+        "sellMethod": "BIDDING",
+        "car360Spin": null,
+        "objectType": "CAR",
+        "isReleasable": false,
+        "statisticalValuation": null,
+        "reducedPrice": false,
+        "baseObjectId": "526619",
+        "id": "7294111",
+        "proactiveBrokering": null,
+        "state": "AUCTION",
+        "presentationApproved": false,
+        "offsiteSalesContact": null,
+        "buyNowAmount": null,
+        "initialBuyNowAmount": null,
+        "vehicleType": "CAR",
+        "conditionClassification": "TESTED",
+        "exportable": true,
+        "deductibleVat": false,
+        "collisionWarranty": null,
+        "title": "Audi A4 2.0 TDI Avant quattro (177hk)",
+        "brand": "Audi",
+        "familyName": "A4",
+        "modelName": "A4 2.0 TDI Avant quattro (177hk)",
+        "package": null,
+        "heading1": "Audi A4",
+        "heading2": "2.0 TDI Avant quattro",
+        "heading3": null
+      },
+      "previewImages": [
+        {
+          "processObjectId": "7294111",
+          "uri": "https://kvdbil-images.imgix.net/7294111/fd5123b3.jpg",
+          "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7294111/fd5123b3.jpg",
+          "type": "PRESENTATION",
+          "contentType": "image",
+          "order": 1
+        },
+        {
+          "processObjectId": "7294111",
+          "uri": "https://kvdbil-images.imgix.net/7294111/b1ed2304.jpg",
+          "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7294111/b1ed2304.jpg",
+          "type": "PRESENTATION",
+          "contentType": "image",
+          "order": 2
+        }
+      ],
+      "previewImage": "https://kvdbil-images.imgix.net/7294111/fd5123b3.jpg"
+    },
+    {
+      "id": "310468",
+      "auctionType": "BIDDING",
+      "biddingFee": "5775.00",
+      "biddingFeeCorporate": "7438.00",
+      "mediationFee": 0,
+      "mediationFeeCorporate": 0,
+      "buyNow": false,
+      "closedAt": null,
+      "publishedAt": "2026-11-15T17:35:36.300224+00:00",
+      "countdownDuration": 210,
+      "countdownStartAt": "2026-11-19T19:52:30+00:00",
+      "createdAt": "2026-11-07T12:04:27.925349+00:00",
+      "readyForAuctionAt": "2026-11-15",
+      "currency": "SEK",
+      "maxBidRaise": 100000,
+      "minBidRaise": 500,
+      "startBid": 90000,
+      "openedAt": "2026-11-16T16:30:24.082753+00:00",
+      "processObjectId": "7294252",
+      "readyForCheckout": false,
+      "soldFor": null,
+      "sellMethod": null,
+      "slug": "audi-a4-2-0-tdi-avant-quattro-190hk",
+      "auctionUrl": "https://www.kvd.se/auktioner/audi-a4-2-0-tdi-avant-quattro-190hk-310468",
+      "state": "OPEN",
+      "targetedAuctionGroupId": null,
+      "updatedAt": "2026-11-19T09:27:05.521201+00:00",
+      "releasing": null,
+      "loan": {
+        "loanCost": 861,
+        "loanCostBuyNow": null
+      },
+      "buyNowAmount": null,
+      "buyNowAvailable": false,
+      "buyNowUntil": null,
+      "eligibleForAdditionalServices": true,
+      "comingSoon": false,
+      "preliminaryPrice": 179000,
+      "maxAllowedBid": 268500,
+      "isReserved": false,
+      "isSoldByBuyNow": false,
+      "favouriteCount": 28,
+      "winningBid": null,
+      "activeAuction": {
+        "auctionId": "310468",
+        "closed": false,
+        "countdownInProgress": false,
+        "preliminaryCloseAt": "2026-11-19T19:56:00+00:00",
+        "createdAt": "2026-11-16T16:30:24.084328+00:00",
+        "updatedAt": "2026-11-16T16:30:25.141455+00:00",
+        "vatExcludedBiddingAllowed": false,
+        "reservationPriceReached": false,
+        "bids": [
+          {
+            "id": 18786255,
+            "auctionId": 310468,
+            "bidderAlias": "1",
+            "amount": 101000,
+            "type": "NORMAL",
+            "maxBidId": 10977253,
+            "triggeredBy": 10977253,
+            "createdAt": "2026-11-19T06:12:13.888389+00:00",
+            "updatedAt": "2026-11-19T06:12:13.888402+00:00"
+          },
+          {
+            "id": 18785927,
+            "auctionId": 310468,
+            "bidderAlias": "4",
+            "amount": 100500,
+            "type": "NORMAL",
+            "maxBidId": 10977079,
+            "triggeredBy": 10977079,
+            "createdAt": "2026-11-18T23:59:30.756182+00:00",
+            "updatedAt": "2026-11-18T23:59:30.756185+00:00"
+          },
+          {
+            "id": 18785926,
+            "auctionId": 310468,
+            "bidderAlias": "1",
+            "amount": 100000,
+            "type": "LIMIT_REACHED",
+            "maxBidId": 10975257,
+            "triggeredBy": 10977079,
+            "createdAt": "2026-11-18T23:59:30.756172+00:00",
+            "updatedAt": "2026-11-18T23:59:30.756180+00:00"
+          },
+          {
+            "id": 18785386,
+            "auctionId": 310468,
+            "bidderAlias": "1",
+            "amount": 97000,
+            "type": "AUTO",
+            "maxBidId": 10975257,
+            "triggeredBy": 10976773,
+            "createdAt": "2026-11-18T20:33:39.907280+00:00",
+            "updatedAt": "2026-11-18T20:33:39.907283+00:00"
+          },
+          {
+            "id": 18785385,
+            "auctionId": 310468,
+            "bidderAlias": "3",
+            "amount": 96500,
+            "type": "NORMAL",
+            "maxBidId": 10976773,
+            "triggeredBy": 10976773,
+            "createdAt": "2026-11-18T20:33:39.907269+00:00",
+            "updatedAt": "2026-11-18T20:33:39.907277+00:00"
+          },
+          {
+            "id": 18785325,
+            "auctionId": 310468,
+            "bidderAlias": "1",
+            "amount": 95500,
+            "type": "AUTO",
+            "maxBidId": 10975257,
+            "triggeredBy": 10976741,
+            "createdAt": "2026-11-18T20:27:59.814070+00:00",
+            "updatedAt": "2026-11-18T20:27:59.814072+00:00"
+          },
+          {
+            "id": 18785324,
+            "auctionId": 310468,
+            "bidderAlias": "2",
+            "amount": 95000,
+            "type": "NORMAL",
+            "maxBidId": 10976741,
+            "triggeredBy": 10976741,
+            "createdAt": "2026-11-18T20:27:59.814061+00:00",
+            "updatedAt": "2026-11-18T20:27:59.814067+00:00"
+          },
+          {
+            "id": 18785323,
+            "auctionId": 310468,
+            "bidderAlias": "1",
+            "amount": 91500,
+            "type": "AUTO",
+            "maxBidId": 10975257,
+            "triggeredBy": 10976740,
+            "createdAt": "2026-11-18T20:27:47.642338+00:00",
+            "updatedAt": "2026-11-18T20:27:47.642341+00:00"
+          },
+          {
+            "id": 18785322,
+            "auctionId": 310468,
+            "bidderAlias": "2",
+            "amount": 91000,
+            "type": "NORMAL",
+            "maxBidId": 10976740,
+            "triggeredBy": 10976740,
+            "createdAt": "2026-11-18T20:27:47.642323+00:00",
+            "updatedAt": "2026-11-18T20:27:47.642333+00:00"
+          },
+          {
+            "id": 18782885,
+            "auctionId": 310468,
+            "bidderAlias": "1",
+            "amount": 90000,
+            "type": "NORMAL",
+            "maxBidId": 10975257,
+            "triggeredBy": 10975257,
+            "createdAt": "2026-11-18T12:16:21.635635+00:00",
+            "updatedAt": "2026-11-18T12:16:21.635641+00:00"
+          }
+        ],
+        "myBidderAlias": null,
+        "myMaxBid": null,
+        "highestBid": {
+          "id": 18786255,
+          "auctionId": 310468,
+          "bidderAlias": null,
+          "amount": 101000,
+          "type": "NORMAL",
+          "maxBidId": 10977253,
+          "triggeredBy": 10977253,
+          "createdAt": "2026-11-19T06:12:13.888389+00:00",
+          "updatedAt": "2026-11-19T06:12:13.888402+00:00",
+          "eurAmount": 9070
+        },
+        "buyNowAvailable": false,
+        "releasing": null,
+        "isHighestBidLowerThanResidualLoanValue": false
+      },
+      "processObject": {
+        "createdAt": "2026-11-02 12:14:02.603955+00:00",
+        "leaseReturnProperties": {},
+        "certified": false,
+        "properties": {
+          "saleLimitedToCorporate": false,
+          "package": "S-Line GPS Drag Värm",
+          "adHeader": "A4 2.0TDI Avant quattro 190hk S-Line GPS Drag Värm",
+          "modelYear": 2017,
+          "body": "Wagon",
+          "registrationPlate": "JNU248",
+          "gearbox": "Automatic",
+          "fuels": [
+            {
+              "co2": 123,
+              "consumption": 4.7,
+              "enginePower": 190,
+              "fuelCode": "Diesel"
+            }
+          ],
+          "heavyEquipment": false,
+          "ecoFriendly": false,
+          "familyName": "A4",
+          "modelName": "A4 2.0 TDI Avant quattro (190hk)",
+          "odometerReading": 158820,
+          "exteriorColor": "Red",
+          "hasUnpaidLoan": false,
+          "mustExport": false,
+          "odometerUnit": "km",
+          "title": "Audi A4 2.0 TDI Avant quattro (190hk)",
+          "brand": "Audi",
+          "numberOfPreviousOwners": 4,
+          "deductibleVat": false,
+          "exportable": true,
+          "heading1": "Audi A4",
+          "heading2": "2.0 TDI Avant quattro",
+          "heading3": "S-Line GPS Drag Värm"
+        },
+        "testDriveAllowed": true,
+        "baseObject": {
+          "createdAt": "2026-10-13T19:17:18.056367+00:00",
+          "fabricAndMake": "AUDI",
+          "body": "Wagon",
+          "registrationPlate": "JNU248",
+          "gearbox": "Automatic",
+          "year": "2017",
+          "fuels": [
+            {
+              "fuelCode": "Diesel",
+              "powerUnit": "EG",
+              "enginePower": 140,
+              "enginePowerHp": 190,
+              "fuelTankVolume": ""
+            }
+          ],
+          "earliestAvailableAt": null,
+          "familyName": "A4",
+          "modelName": "A4 2.0 TDI Avant quattro (190hk)",
+          "odometerReading": 159000,
+          "baseObjectType": "CAR",
+          "exteriorColor": "Red",
+          "salesFlow": "CONSUMER_CARS",
+          "id": "522695",
+          "state": "PREPARING_SALES_AGREEMENT",
+          "odometerUnit": "km",
+          "registrationCountry": "se",
+          "brand": "Audi",
+          "modelId": null,
+          "technicalSpecification": {
+            "modelId": null,
+            "vehicle": {
+              "brand": "Audi",
+              "body": "Wagon",
+              "modelName": "A4 2.0 TDI Avant quattro (190hk)",
+              "familyName": "A4"
+            },
+            "year": "2017"
+          }
+        },
+        "displayCar360Spin": true,
+        "isFixedPrice": false,
+        "sellMethod": "BIDDING",
+        "car360Spin": null,
+        "objectType": "CAR",
+        "isReleasable": false,
+        "statisticalValuation": {
+          "bpWhite": 176200,
+          "bpGreen": null,
+          "bpOrange": 176200,
+          "marketPrice": 176200
+        },
+        "reducedPrice": false,
+        "baseObjectId": "522695",
+        "id": "7294252",
+        "proactiveBrokering": null,
+        "state": "AUCTION",
+        "presentationApproved": false,
+        "offsiteSalesContact": null,
+        "buyNowAmount": null,
+        "initialBuyNowAmount": null,
+        "vehicleType": "CAR",
+        "conditionClassification": "TESTED",
+        "exportable": true,
+        "deductibleVat": false,
+        "collisionWarranty": null,
+        "title": "Audi A4 2.0 TDI Avant quattro (190hk)",
+        "brand": "Audi",
+        "familyName": "A4",
+        "modelName": "A4 2.0 TDI Avant quattro (190hk)",
+        "package": "S-Line GPS Drag Värm",
+        "heading1": "Audi A4",
+        "heading2": "2.0 TDI Avant quattro",
+        "heading3": "S-Line GPS Drag Värm"
+      },
+      "previewImages": [
+        {
+          "processObjectId": "7294252",
+          "uri": "https://kvdbil-images.imgix.net/7294252/884f394c.jpg",
+          "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7294252/884f394c.jpg",
+          "type": "PRESENTATION",
+          "contentType": "image",
+          "order": 1
+        },
+        {
+          "processObjectId": "7294252",
+          "uri": "https://kvdbil-images.imgix.net/7294252/b3f60c64.jpg",
+          "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7294252/b3f60c64.jpg",
+          "type": "PRESENTATION",
+          "contentType": "image",
+          "order": 2
+        }
+      ],
+      "previewImage": "https://kvdbil-images.imgix.net/7294252/884f394c.jpg"
+    },
+    {
+      "id": "309858",
+      "auctionType": "BIDDING",
+      "biddingFee": "6900.00",
+      "biddingFeeCorporate": "9875.00",
+      "mediationFee": 0,
+      "mediationFeeCorporate": 0,
+      "buyNow": false,
+      "closedAt": null,
+      "publishedAt": "2026-11-17T06:15:24.597836+00:00",
+      "countdownDuration": 210,
+      "countdownStartAt": "2026-11-20T10:36:30+00:00",
+      "createdAt": "2026-11-03T09:17:04.979715+00:00",
+      "readyForAuctionAt": "2026-11-15",
+      "currency": "SEK",
+      "maxBidRaise": 100000,
+      "minBidRaise": 500,
+      "startBid": 140000,
+      "openedAt": "2026-11-17T15:32:43.357004+00:00",
+      "processObjectId": "7294054",
+      "readyForCheckout": false,
+      "soldFor": null,
+      "sellMethod": null,
+      "slug": "audi-a4-avant-40-tdi-quattro-204hk",
+      "auctionUrl": "https://www.kvd.se/auktioner/audi-a4-avant-40-tdi-quattro-204hk-309858",
+      "state": "OPEN",
+      "targetedAuctionGroupId": null,
+      "updatedAt": "2026-11-19T11:12:40.789745+00:00",
+      "releasing": null,
+      "loan": {
+        "loanCost": null,
+        "loanCostBuyNow": null
+      },
+      "buyNowAmount": null,
+      "buyNowAvailable": false,
+      "buyNowUntil": null,
+      "eligibleForAdditionalServices": true,
+      "comingSoon": false,
+      "preliminaryPrice": 280000,
+      "maxAllowedBid": 420000,
+      "isReserved": false,
+      "isSoldByBuyNow": false,
+      "favouriteCount": 12,
+      "winningBid": null,
+      "activeAuction": {
+        "auctionId": "309858",
+        "closed": false,
+        "countdownInProgress": false,
+        "preliminaryCloseAt": "2026-11-20T10:40:00+00:00",
+        "createdAt": "2026-11-17T15:32:43.359000+00:00",
+        "updatedAt": "2026-11-17T15:32:44.414955+00:00",
+        "vatExcludedBiddingAllowed": false,
+        "reservationPriceReached": false,
+        "bids": [],
+        "myBidderAlias": null,
+        "myMaxBid": null,
+        "highestBid": null,
+        "buyNowAvailable": false,
+        "releasing": null,
+        "isHighestBidLowerThanResidualLoanValue": false
+      },
+      "processObject": {
+        "createdAt": "2026-10-30 08:51:38.733948+00:00",
+        "leaseReturnProperties": {},
+        "certified": true,
+        "properties": {
+          "saleLimitedToCorporate": false,
+          "package": "Alpinpaket",
+          "adHeader": "A4 Avant 40 TDI quattro (204hk) Alpinpaket",
+          "modelYear": 2022,
+          "body": "Wagon",
+          "registrationPlate": "WGF71P",
+          "gearbox": "Automatic",
+          "fuels": [
+            {
+              "co2": 120,
+              "consumption": 4.5,
+              "enginePower": 204,
+              "fuelCode": "Diesel"
+            }
+          ],
+          "heavyEquipment": false,
+          "ecoFriendly": false,
+          "familyName": "A4",
+          "modelName": "A4 Avant 40 TDI quattro (204hk)",
+          "odometerReading": 79290,
+          "exteriorColor": "Black",
+          "hasUnpaidLoan": false,
+          "mustExport": false,
+          "odometerUnit": "km",
+          "title": "Audi A4 Avant 40 TDI quattro (204hk)",
+          "brand": "Audi",
+          "numberOfPreviousOwners": 2,
+          "deductibleVat": true,
+          "exportable": true,
+          "heading1": "Audi A4",
+          "heading2": "Avant 40 TDI quattro",
+          "heading3": "Alpinpaket"
+        },
+        "testDriveAllowed": true,
+        "baseObject": {
+          "createdAt": "2026-10-30T08:51:38.389224+00:00",
+          "fabricAndMake": "AUDI",
+          "body": "Wagon",
+          "registrationPlate": "WGF71P",
+          "gearbox": "Automatic",
+          "year": "2022",
+          "fuels": [
+            {
+              "fuelCode": "Diesel",
+              "powerUnit": "EG",
+              "enginePower": 150,
+              "enginePowerHp": 204,
+              "fuelTankVolume": ""
+            }
+          ],
+          "earliestAvailableAt": null,
+          "familyName": "A4",
+          "modelName": "A4 Avant 40 TDI quattro (204hk)",
+          "odometerReading": null,
+          "baseObjectType": "CAR",
+          "exteriorColor": "Black",
+          "salesFlow": "CORPORATE_CARS",
+          "id": "526523",
+          "state": "MANUAL_VALUATION_PENDING",
+          "odometerUnit": "km",
+          "registrationCountry": "se",
+          "brand": "Audi",
+          "modelId": null,
+          "technicalSpecification": {
+            "modelId": null,
+            "vehicle": {
+              "brand": "Audi",
+              "body": "Wagon",
+              "modelName": "A4 Avant 40 TDI quattro (204hk)",
+              "familyName": "A4"
+            },
+            "year": "2022"
+          }
+        },
+        "displayCar360Spin": true,
+        "isFixedPrice": false,
+        "sellMethod": "BIDDING",
+        "car360Spin": null,
+        "objectType": "CAR",
+        "isReleasable": false,
+        "statisticalValuation": null,
+        "reducedPrice": false,
+        "baseObjectId": "526523",
+        "id": "7294054",
+        "proactiveBrokering": null,
+        "state": "AUCTION",
+        "presentationApproved": false,
+        "offsiteSalesContact": null,
+        "buyNowAmount": null,
+        "initialBuyNowAmount": null,
+        "vehicleType": "CAR",
+        "conditionClassification": "CERTIFIED",
+        "exportable": true,
+        "deductibleVat": true,
+        "collisionWarranty": null,
+        "title": "Audi A4 Avant 40 TDI quattro (204hk)",
+        "brand": "Audi",
+        "familyName": "A4",
+        "modelName": "A4 Avant 40 TDI quattro (204hk)",
+        "package": "Alpinpaket",
+        "heading1": "Audi A4",
+        "heading2": "Avant 40 TDI quattro",
+        "heading3": "Alpinpaket"
+      },
+      "previewImages": [
+        {
+          "processObjectId": "7294054",
+          "uri": "https://kvdbil-images.imgix.net/7294054/c1288486.jpg",
+          "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7294054/c1288486.jpg",
+          "type": "PRESENTATION",
+          "contentType": "image",
+          "order": 1
+        },
+        {
+          "processObjectId": "7294054",
+          "uri": "https://kvdbil-images.imgix.net/7294054/19b71c32.jpg",
+          "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7294054/19b71c32.jpg",
+          "type": "PRESENTATION",
+          "contentType": "image",
+          "order": 2
+        }
+      ],
+      "previewImage": "https://kvdbil-images.imgix.net/7294054/c1288486.jpg"
+    }
+  ],
+  "activeAuction": {
+    "auctionId": "310301",
+    "closed": true,
+    "countdownInProgress": true,
+    "preliminaryCloseAt": "2026-11-19T11:20:42.805153+00:00",
+    "createdAt": "2026-11-16T16:51:06.892681+00:00",
+    "updatedAt": "2026-11-19T11:20:42.813437+00:00",
+    "vatExcludedBiddingAllowed": false,
+    "reservationPriceReached": true,
+    "bids": [
+      {
+        "id": 18789329,
+        "auctionId": 310301,
+        "bidderAlias": "3",
+        "amount": 137500,
+        "type": "NORMAL",
+        "maxBidId": 10979012,
+        "triggeredBy": 10979012,
+        "createdAt": "2026-11-19T11:17:12.808825+00:00",
+        "updatedAt": "2026-11-19T11:17:12.808827+00:00"
+      },
+      {
+        "id": 18789328,
+        "auctionId": 310301,
+        "bidderAlias": "12",
+        "amount": 137000,
+        "type": "LIMIT_REACHED",
+        "maxBidId": 10979005,
+        "triggeredBy": 10979012,
+        "createdAt": "2026-11-19T11:17:12.808817+00:00",
+        "updatedAt": "2026-11-19T11:17:12.808822+00:00"
+      },
+      {
+        "id": 18789316,
+        "auctionId": 310301,
+        "bidderAlias": "12",
+        "amount": 136500,
+        "type": "NORMAL",
+        "maxBidId": 10979005,
+        "triggeredBy": 10979005,
+        "createdAt": "2026-11-19T11:16:36.155361+00:00",
+        "updatedAt": "2026-11-19T11:16:36.155364+00:00"
+      },
+      {
+        "id": 18789315,
+        "auctionId": 310301,
+        "bidderAlias": "3",
+        "amount": 136000,
+        "type": "LIMIT_REACHED",
+        "maxBidId": 10978975,
+        "triggeredBy": 10979005,
+        "createdAt": "2026-11-19T11:16:36.155353+00:00",
+        "updatedAt": "2026-11-19T11:16:36.155359+00:00"
+      },
+      {
+        "id": 18789265,
+        "auctionId": 310301,
+        "bidderAlias": "3",
+        "amount": 135500,
+        "type": "NORMAL",
+        "maxBidId": 10978975,
+        "triggeredBy": 10978975,
+        "createdAt": "2026-11-19T11:13:13.613242+00:00",
+        "updatedAt": "2026-11-19T11:13:13.613248+00:00"
+      },
+      {
+        "id": 18789260,
+        "auctionId": 310301,
+        "bidderAlias": "12",
+        "amount": 135000,
+        "type": "NORMAL",
+        "maxBidId": 10978971,
+        "triggeredBy": 10978971,
+        "createdAt": "2026-11-19T11:12:43.561216+00:00",
+        "updatedAt": "2026-11-19T11:12:43.561218+00:00"
+      },
+      {
+        "id": 18789259,
+        "auctionId": 310301,
+        "bidderAlias": "3",
+        "amount": 134500,
+        "type": "LIMIT_REACHED",
+        "maxBidId": 10978949,
+        "triggeredBy": 10978971,
+        "createdAt": "2026-11-19T11:12:43.561208+00:00",
+        "updatedAt": "2026-11-19T11:12:43.561214+00:00"
+      },
+      {
+        "id": 18789226,
+        "auctionId": 310301,
+        "bidderAlias": "3",
+        "amount": 134000,
+        "type": "NORMAL",
+        "maxBidId": 10978949,
+        "triggeredBy": 10978949,
+        "createdAt": "2026-11-19T11:09:32.248737+00:00",
+        "updatedAt": "2026-11-19T11:09:32.248745+00:00"
+      },
+      {
+        "id": 18789218,
+        "auctionId": 310301,
+        "bidderAlias": "9",
+        "amount": 133500,
+        "type": "NORMAL",
+        "maxBidId": 10978944,
+        "triggeredBy": 10978944,
+        "createdAt": "2026-11-19T11:09:06.807987+00:00",
+        "updatedAt": "2026-11-19T11:09:06.807990+00:00"
+      },
+      {
+        "id": 18789217,
+        "auctionId": 310301,
+        "bidderAlias": "3",
+        "amount": 133000,
+        "type": "LIMIT_REACHED",
+        "maxBidId": 10978936,
+        "triggeredBy": 10978944,
+        "createdAt": "2026-11-19T11:09:06.807979+00:00",
+        "updatedAt": "2026-11-19T11:09:06.807984+00:00"
+      },
+      {
+        "id": 18789206,
+        "auctionId": 310301,
+        "bidderAlias": "3",
+        "amount": 132500,
+        "type": "NORMAL",
+        "maxBidId": 10978936,
+        "triggeredBy": 10978936,
+        "createdAt": "2026-11-19T11:07:20.691069+00:00",
+        "updatedAt": "2026-11-19T11:07:20.691078+00:00"
+      },
+      {
+        "id": 18789199,
+        "auctionId": 310301,
+        "bidderAlias": "9",
+        "amount": 132000,
+        "type": "NORMAL",
+        "maxBidId": 10978931,
+        "triggeredBy": 10978931,
+        "createdAt": "2026-11-19T11:06:56.873898+00:00",
+        "updatedAt": "2026-11-19T11:06:56.873900+00:00"
+      },
+      {
+        "id": 18789198,
+        "auctionId": 310301,
+        "bidderAlias": "3",
+        "amount": 131500,
+        "type": "LIMIT_REACHED",
+        "maxBidId": 10978917,
+        "triggeredBy": 10978931,
+        "createdAt": "2026-11-19T11:06:56.873889+00:00",
+        "updatedAt": "2026-11-19T11:06:56.873895+00:00"
+      },
+      {
+        "id": 18789177,
+        "auctionId": 310301,
+        "bidderAlias": "3",
+        "amount": 131000,
+        "type": "NORMAL",
+        "maxBidId": 10978917,
+        "triggeredBy": 10978917,
+        "createdAt": "2026-11-19T11:04:28.672766+00:00",
+        "updatedAt": "2026-11-19T11:04:28.672772+00:00"
+      },
+      {
+        "id": 18789176,
+        "auctionId": 310301,
+        "bidderAlias": "9",
+        "amount": 130500,
+        "type": "NORMAL",
+        "maxBidId": 10978916,
+        "triggeredBy": 10978916,
+        "createdAt": "2026-11-19T11:04:04.149556+00:00",
+        "updatedAt": "2026-11-19T11:04:04.149559+00:00"
+      },
+      {
+        "id": 18789175,
+        "auctionId": 310301,
+        "bidderAlias": "3",
+        "amount": 130000,
+        "type": "LIMIT_REACHED",
+        "maxBidId": 10978891,
+        "triggeredBy": 10978916,
+        "createdAt": "2026-11-19T11:04:04.149544+00:00",
+        "updatedAt": "2026-11-19T11:04:04.149552+00:00"
+      },
+      {
+        "id": 18789136,
+        "auctionId": 310301,
+        "bidderAlias": "3",
+        "amount": 129500,
+        "type": "NORMAL",
+        "maxBidId": 10978891,
+        "triggeredBy": 10978891,
+        "createdAt": "2026-11-19T11:00:43.453705+00:00",
+        "updatedAt": "2026-11-19T11:00:43.453713+00:00"
+      },
+      {
+        "id": 18789133,
+        "auctionId": 310301,
+        "bidderAlias": "12",
+        "amount": 129000,
+        "type": "NORMAL",
+        "maxBidId": 10978889,
+        "triggeredBy": 10978889,
+        "createdAt": "2026-11-19T11:00:26.715158+00:00",
+        "updatedAt": "2026-11-19T11:00:26.715160+00:00"
+      },
+      {
+        "id": 18789132,
+        "auctionId": 310301,
+        "bidderAlias": "3",
+        "amount": 128500,
+        "type": "LIMIT_REACHED",
+        "maxBidId": 10978868,
+        "triggeredBy": 10978889,
+        "createdAt": "2026-11-19T11:00:26.715149+00:00",
+        "updatedAt": "2026-11-19T11:00:26.715156+00:00"
+      },
+      {
+        "id": 18789100,
+        "auctionId": 310301,
+        "bidderAlias": "3",
+        "amount": 128000,
+        "type": "NORMAL",
+        "maxBidId": 10978868,
+        "triggeredBy": 10978868,
+        "createdAt": "2026-11-19T10:57:24.192734+00:00",
+        "updatedAt": "2026-11-19T10:57:24.192741+00:00"
+      },
+      {
+        "id": 18789090,
+        "auctionId": 310301,
+        "bidderAlias": "9",
+        "amount": 127500,
+        "type": "NORMAL",
+        "maxBidId": 10978861,
+        "triggeredBy": 10978861,
+        "createdAt": "2026-11-19T10:56:40.466059+00:00",
+        "updatedAt": "2026-11-19T10:56:40.466066+00:00"
+      },
+      {
+        "id": 18789065,
+        "auctionId": 310301,
+        "bidderAlias": "3",
+        "amount": 127000,
+        "type": "NORMAL",
+        "maxBidId": 10978843,
+        "triggeredBy": 10978843,
+        "createdAt": "2026-11-19T10:53:59.753862+00:00",
+        "updatedAt": "2026-11-19T10:53:59.753868+00:00"
+      },
+      {
+        "id": 18789057,
+        "auctionId": 310301,
+        "bidderAlias": "13",
+        "amount": 126500,
+        "type": "NORMAL",
+        "maxBidId": 10978838,
+        "triggeredBy": 10978838,
+        "createdAt": "2026-11-19T10:53:43.349145+00:00",
+        "updatedAt": "2026-11-19T10:53:43.349149+00:00"
+      },
+      {
+        "id": 18789056,
+        "auctionId": 310301,
+        "bidderAlias": "3",
+        "amount": 126000,
+        "type": "LIMIT_REACHED",
+        "maxBidId": 10978821,
+        "triggeredBy": 10978838,
+        "createdAt": "2026-11-19T10:53:43.349131+00:00",
+        "updatedAt": "2026-11-19T10:53:43.349140+00:00"
+      },
+      {
+        "id": 18789025,
+        "auctionId": 310301,
+        "bidderAlias": "3",
+        "amount": 125500,
+        "type": "NORMAL",
+        "maxBidId": 10978821,
+        "triggeredBy": 10978821,
+        "createdAt": "2026-11-19T10:51:34.299693+00:00",
+        "updatedAt": "2026-11-19T10:51:34.299700+00:00"
+      },
+      {
+        "id": 18789023,
+        "auctionId": 310301,
+        "bidderAlias": "12",
+        "amount": 125000,
+        "type": "NORMAL",
+        "maxBidId": 10978819,
+        "triggeredBy": 10978819,
+        "createdAt": "2026-11-19T10:51:04.729957+00:00",
+        "updatedAt": "2026-11-19T10:51:04.729964+00:00"
+      },
+      {
+        "id": 18789003,
+        "auctionId": 310301,
+        "bidderAlias": "3",
+        "amount": 124500,
+        "type": "NORMAL",
+        "maxBidId": 10978807,
+        "triggeredBy": 10978807,
+        "createdAt": "2026-11-19T10:50:14.159412+00:00",
+        "updatedAt": "2026-11-19T10:50:14.159414+00:00"
+      },
+      {
+        "id": 18789002,
+        "auctionId": 310301,
+        "bidderAlias": "9",
+        "amount": 124000,
+        "type": "LIMIT_REACHED",
+        "maxBidId": 10978801,
+        "triggeredBy": 10978807,
+        "createdAt": "2026-11-19T10:50:14.159403+00:00",
+        "updatedAt": "2026-11-19T10:50:14.159409+00:00"
+      },
+      {
+        "id": 18788992,
+        "auctionId": 310301,
+        "bidderAlias": "9",
+        "amount": 123500,
+        "type": "NORMAL",
+        "maxBidId": 10978801,
+        "triggeredBy": 10978801,
+        "createdAt": "2026-11-19T10:49:34.456952+00:00",
+        "updatedAt": "2026-11-19T10:49:34.456956+00:00"
+      },
+      {
+        "id": 18788991,
+        "auctionId": 310301,
+        "bidderAlias": "3",
+        "amount": 123000,
+        "type": "LIMIT_REACHED",
+        "maxBidId": 10978794,
+        "triggeredBy": 10978801,
+        "createdAt": "2026-11-19T10:49:34.456935+00:00",
+        "updatedAt": "2026-11-19T10:49:34.456947+00:00"
+      },
+      {
+        "id": 18788984,
+        "auctionId": 310301,
+        "bidderAlias": "3",
+        "amount": 122500,
+        "type": "AUTO",
+        "maxBidId": 10978794,
+        "triggeredBy": 10978797,
+        "createdAt": "2026-11-19T10:49:10.278266+00:00",
+        "updatedAt": "2026-11-19T10:49:10.278269+00:00"
+      },
+      {
+        "id": 18788983,
+        "auctionId": 310301,
+        "bidderAlias": "12",
+        "amount": 122000,
+        "type": "NORMAL",
+        "maxBidId": 10978797,
+        "triggeredBy": 10978797,
+        "createdAt": "2026-11-19T10:49:10.278254+00:00",
+        "updatedAt": "2026-11-19T10:49:10.278262+00:00"
+      },
+      {
+        "id": 18788978,
+        "auctionId": 310301,
+        "bidderAlias": "3",
+        "amount": 121500,
+        "type": "NORMAL",
+        "maxBidId": 10978794,
+        "triggeredBy": 10978794,
+        "createdAt": "2026-11-19T10:48:53.239054+00:00",
+        "updatedAt": "2026-11-19T10:48:53.239061+00:00"
+      },
+      {
+        "id": 18788971,
+        "auctionId": 310301,
+        "bidderAlias": "11",
+        "amount": 121000,
+        "type": "NORMAL",
+        "maxBidId": 10978790,
+        "triggeredBy": 10978790,
+        "createdAt": "2026-11-19T10:48:11.492679+00:00",
+        "updatedAt": "2026-11-19T10:48:11.492689+00:00"
+      },
+      {
+        "id": 18788836,
+        "auctionId": 310301,
+        "bidderAlias": "3",
+        "amount": 120500,
+        "type": "AUTO",
+        "maxBidId": 10977417,
+        "triggeredBy": 10978708,
+        "createdAt": "2026-11-19T10:37:20.311666+00:00",
+        "updatedAt": "2026-11-19T10:37:20.311669+00:00"
+      },
+      {
+        "id": 18788835,
+        "auctionId": 310301,
+        "bidderAlias": "9",
+        "amount": 120000,
+        "type": "NORMAL",
+        "maxBidId": 10978708,
+        "triggeredBy": 10978708,
+        "createdAt": "2026-11-19T10:37:20.311652+00:00",
+        "updatedAt": "2026-11-19T10:37:20.311661+00:00"
+      },
+      {
+        "id": 18788831,
+        "auctionId": 310301,
+        "bidderAlias": "3",
+        "amount": 118500,
+        "type": "AUTO",
+        "maxBidId": 10977417,
+        "triggeredBy": 10978705,
+        "createdAt": "2026-11-19T10:37:06.447274+00:00",
+        "updatedAt": "2026-11-19T10:37:06.447279+00:00"
+      },
+      {
+        "id": 18788830,
+        "auctionId": 310301,
+        "bidderAlias": "9",
+        "amount": 118000,
+        "type": "NORMAL",
+        "maxBidId": 10978705,
+        "triggeredBy": 10978705,
+        "createdAt": "2026-11-19T10:37:06.447261+00:00",
+        "updatedAt": "2026-11-19T10:37:06.447270+00:00"
+      },
+      {
+        "id": 18786550,
+        "auctionId": 310301,
+        "bidderAlias": "3",
+        "amount": 117500,
+        "type": "NORMAL",
+        "maxBidId": 10977417,
+        "triggeredBy": 10977417,
+        "createdAt": "2026-11-19T07:49:03.294850+00:00",
+        "updatedAt": "2026-11-19T07:49:03.294865+00:00"
+      },
+      {
+        "id": 18786546,
+        "auctionId": 310301,
+        "bidderAlias": "9",
+        "amount": 117000,
+        "type": "AUTO",
+        "maxBidId": 10977383,
+        "triggeredBy": 10977414,
+        "createdAt": "2026-11-19T07:47:00.927962+00:00",
+        "updatedAt": "2026-11-19T07:47:00.927966+00:00"
+      },
+      {
+        "id": 18786545,
+        "auctionId": 310301,
+        "bidderAlias": "10",
+        "amount": 116500,
+        "type": "NORMAL",
+        "maxBidId": 10977414,
+        "triggeredBy": 10977414,
+        "createdAt": "2026-11-19T07:47:00.927949+00:00",
+        "updatedAt": "2026-11-19T07:47:00.927958+00:00"
+      },
+      {
+        "id": 18786493,
+        "auctionId": 310301,
+        "bidderAlias": "9",
+        "amount": 116000,
+        "type": "NORMAL",
+        "maxBidId": 10977383,
+        "triggeredBy": 10977383,
+        "createdAt": "2026-11-19T07:32:18.380393+00:00",
+        "updatedAt": "2026-11-19T07:32:18.380395+00:00"
+      },
+      {
+        "id": 18786492,
+        "auctionId": 310301,
+        "bidderAlias": "3",
+        "amount": 115500,
+        "type": "LIMIT_REACHED",
+        "maxBidId": 10977269,
+        "triggeredBy": 10977383,
+        "createdAt": "2026-11-19T07:32:18.380384+00:00",
+        "updatedAt": "2026-11-19T07:32:18.380390+00:00"
+      },
+      {
+        "id": 18786445,
+        "auctionId": 310301,
+        "bidderAlias": "3",
+        "amount": 112500,
+        "type": "AUTO",
+        "maxBidId": 10977269,
+        "triggeredBy": 10977358,
+        "createdAt": "2026-11-19T07:24:31.319773+00:00",
+        "updatedAt": "2026-11-19T07:24:31.319775+00:00"
+      },
+      {
+        "id": 18786444,
+        "auctionId": 310301,
+        "bidderAlias": "8",
+        "amount": 112000,
+        "type": "NORMAL",
+        "maxBidId": 10977358,
+        "triggeredBy": 10977358,
+        "createdAt": "2026-11-19T07:24:31.319762+00:00",
+        "updatedAt": "2026-11-19T07:24:31.319769+00:00"
+      },
+      {
+        "id": 18786280,
+        "auctionId": 310301,
+        "bidderAlias": "3",
+        "amount": 111000,
+        "type": "NORMAL",
+        "maxBidId": 10977269,
+        "triggeredBy": 10977269,
+        "createdAt": "2026-11-19T06:34:20.414235+00:00",
+        "updatedAt": "2026-11-19T06:34:20.414243+00:00"
+      },
+      {
+        "id": 18786033,
+        "auctionId": 310301,
+        "bidderAlias": "7",
+        "amount": 110500,
+        "type": "NORMAL",
+        "maxBidId": 10977136,
+        "triggeredBy": 10977136,
+        "createdAt": "2026-11-19T03:16:39.700296+00:00",
+        "updatedAt": "2026-11-19T03:16:39.700300+00:00"
+      },
+      {
+        "id": 18786032,
+        "auctionId": 310301,
+        "bidderAlias": "5",
+        "amount": 110000,
+        "type": "LIMIT_REACHED",
+        "maxBidId": 10977110,
+        "triggeredBy": 10977136,
+        "createdAt": "2026-11-19T03:16:39.700274+00:00",
+        "updatedAt": "2026-11-19T03:16:39.700291+00:00"
+      },
+      {
+        "id": 18785982,
+        "auctionId": 310301,
+        "bidderAlias": "5",
+        "amount": 105500,
+        "type": "NORMAL",
+        "maxBidId": 10977110,
+        "triggeredBy": 10977110,
+        "createdAt": "2026-11-19T02:06:49.184922+00:00",
+        "updatedAt": "2026-11-19T02:06:49.184925+00:00"
+      },
+      {
+        "id": 18785981,
+        "auctionId": 310301,
+        "bidderAlias": "3",
+        "amount": 105000,
+        "type": "LIMIT_REACHED",
+        "maxBidId": 10977078,
+        "triggeredBy": 10977110,
+        "createdAt": "2026-11-19T02:06:49.184912+00:00",
+        "updatedAt": "2026-11-19T02:06:49.184920+00:00"
+      },
+      {
+        "id": 18785980,
+        "auctionId": 310301,
+        "bidderAlias": "3",
+        "amount": 102500,
+        "type": "AUTO",
+        "maxBidId": 10977078,
+        "triggeredBy": 10977109,
+        "createdAt": "2026-11-19T02:06:38.772330+00:00",
+        "updatedAt": "2026-11-19T02:06:38.772332+00:00"
+      },
+      {
+        "id": 18785979,
+        "auctionId": 310301,
+        "bidderAlias": "6",
+        "amount": 102000,
+        "type": "NORMAL",
+        "maxBidId": 10977109,
+        "triggeredBy": 10977109,
+        "createdAt": "2026-11-19T02:06:38.772321+00:00",
+        "updatedAt": "2026-11-19T02:06:38.772327+00:00"
+      },
+      {
+        "id": 18785978,
+        "auctionId": 310301,
+        "bidderAlias": "3",
+        "amount": 101500,
+        "type": "AUTO",
+        "maxBidId": 10977078,
+        "triggeredBy": 10977108,
+        "createdAt": "2026-11-19T02:06:05.242238+00:00",
+        "updatedAt": "2026-11-19T02:06:05.242241+00:00"
+      },
+      {
+        "id": 18785977,
+        "auctionId": 310301,
+        "bidderAlias": "6",
+        "amount": 101000,
+        "type": "NORMAL",
+        "maxBidId": 10977108,
+        "triggeredBy": 10977108,
+        "createdAt": "2026-11-19T02:06:05.242223+00:00",
+        "updatedAt": "2026-11-19T02:06:05.242234+00:00"
+      },
+      {
+        "id": 18785925,
+        "auctionId": 310301,
+        "bidderAlias": "3",
+        "amount": 100500,
+        "type": "NORMAL",
+        "maxBidId": 10977078,
+        "triggeredBy": 10977078,
+        "createdAt": "2026-11-18T23:54:20.484505+00:00",
+        "updatedAt": "2026-11-18T23:54:20.484512+00:00"
+      },
+      {
+        "id": 18785924,
+        "auctionId": 310301,
+        "bidderAlias": "5",
+        "amount": 100000,
+        "type": "AUTO",
+        "maxBidId": 10977050,
+        "triggeredBy": 10977077,
+        "createdAt": "2026-11-18T23:53:41.170943+00:00",
+        "updatedAt": "2026-11-18T23:53:41.170947+00:00"
+      },
+      {
+        "id": 18785923,
+        "auctionId": 310301,
+        "bidderAlias": "3",
+        "amount": 99500,
+        "type": "NORMAL",
+        "maxBidId": 10977077,
+        "triggeredBy": 10977077,
+        "createdAt": "2026-11-18T23:53:41.170926+00:00",
+        "updatedAt": "2026-11-18T23:53:41.170939+00:00"
+      },
+      {
+        "id": 18785875,
+        "auctionId": 310301,
+        "bidderAlias": "5",
+        "amount": 82500,
+        "type": "NORMAL",
+        "maxBidId": 10977050,
+        "triggeredBy": 10977050,
+        "createdAt": "2026-11-18T23:09:15.384518+00:00",
+        "updatedAt": "2026-11-18T23:09:15.384526+00:00"
+      },
+      {
+        "id": 18785823,
+        "auctionId": 310301,
+        "bidderAlias": "4",
+        "amount": 82000,
+        "type": "NORMAL",
+        "maxBidId": 10977019,
+        "triggeredBy": 10977019,
+        "createdAt": "2026-11-18T22:37:49.820935+00:00",
+        "updatedAt": "2026-11-18T22:37:49.820938+00:00"
+      },
+      {
+        "id": 18785822,
+        "auctionId": 310301,
+        "bidderAlias": "3",
+        "amount": 81500,
+        "type": "LIMIT_REACHED",
+        "maxBidId": 10976343,
+        "triggeredBy": 10977019,
+        "createdAt": "2026-11-18T22:37:49.820925+00:00",
+        "updatedAt": "2026-11-18T22:37:49.820932+00:00"
+      },
+      {
+        "id": 18785373,
+        "auctionId": 310301,
+        "bidderAlias": "3",
+        "amount": 81000,
+        "type": "AUTO",
+        "maxBidId": 10976343,
+        "triggeredBy": 10976766,
+        "createdAt": "2026-11-18T20:31:36.883301+00:00",
+        "updatedAt": "2026-11-18T20:31:36.883304+00:00"
+      },
+      {
+        "id": 18785372,
+        "auctionId": 310301,
+        "bidderAlias": "2",
+        "amount": 80500,
+        "type": "NORMAL",
+        "maxBidId": 10976766,
+        "triggeredBy": 10976766,
+        "createdAt": "2026-11-18T20:31:36.883290+00:00",
+        "updatedAt": "2026-11-18T20:31:36.883297+00:00"
+      },
+      {
+        "id": 18785368,
+        "auctionId": 310301,
+        "bidderAlias": "3",
+        "amount": 79000,
+        "type": "AUTO",
+        "maxBidId": 10976343,
+        "triggeredBy": 10976763,
+        "createdAt": "2026-11-18T20:31:27.851285+00:00",
+        "updatedAt": "2026-11-18T20:31:27.851287+00:00"
+      },
+      {
+        "id": 18785367,
+        "auctionId": 310301,
+        "bidderAlias": "2",
+        "amount": 78500,
+        "type": "NORMAL",
+        "maxBidId": 10976763,
+        "triggeredBy": 10976763,
+        "createdAt": "2026-11-18T20:31:27.851275+00:00",
+        "updatedAt": "2026-11-18T20:31:27.851283+00:00"
+      },
+      {
+        "id": 18785364,
+        "auctionId": 310301,
+        "bidderAlias": "3",
+        "amount": 77000,
+        "type": "AUTO",
+        "maxBidId": 10976343,
+        "triggeredBy": 10976761,
+        "createdAt": "2026-11-18T20:31:15.466159+00:00",
+        "updatedAt": "2026-11-18T20:31:15.466162+00:00"
+      },
+      {
+        "id": 18785363,
+        "auctionId": 310301,
+        "bidderAlias": "2",
+        "amount": 76500,
+        "type": "NORMAL",
+        "maxBidId": 10976761,
+        "triggeredBy": 10976761,
+        "createdAt": "2026-11-18T20:31:15.466148+00:00",
+        "updatedAt": "2026-11-18T20:31:15.466156+00:00"
+      },
+      {
+        "id": 18784729,
+        "auctionId": 310301,
+        "bidderAlias": "3",
+        "amount": 76000,
+        "type": "NORMAL",
+        "maxBidId": 10976343,
+        "triggeredBy": 10976343,
+        "createdAt": "2026-11-18T19:01:07.339476+00:00",
+        "updatedAt": "2026-11-18T19:01:07.339486+00:00"
+      },
+      {
+        "id": 18783529,
+        "auctionId": 310301,
+        "bidderAlias": "2",
+        "amount": 75500,
+        "type": "NORMAL",
+        "maxBidId": 10975629,
+        "triggeredBy": 10975629,
+        "createdAt": "2026-11-18T16:16:02.799698+00:00",
+        "updatedAt": "2026-11-18T16:16:02.799711+00:00"
+      },
+      {
+        "id": 18778533,
+        "auctionId": 310301,
+        "bidderAlias": "1",
+        "amount": 75000,
+        "type": "NORMAL",
+        "maxBidId": 10972791,
+        "triggeredBy": 10972791,
+        "createdAt": "2026-11-17T22:21:13.968920+00:00",
+        "updatedAt": "2026-11-17T22:21:13.968925+00:00"
+      }
+    ],
+    "myBidderAlias": null,
+    "myMaxBid": null,
+    "highestBid": {
+      "id": 18789329,
+      "auctionId": 310301,
+      "bidderAlias": null,
+      "amount": 137500,
+      "type": "NORMAL",
+      "maxBidId": 10979012,
+      "triggeredBy": 10979012,
+      "createdAt": "2026-11-19T11:17:12.808825+00:00",
+      "updatedAt": "2026-11-19T11:17:12.808827+00:00",
+      "eurAmount": 12340
+    },
+    "buyNowAvailable": false,
+    "releasing": null,
+    "isHighestBidLowerThanResidualLoanValue": false
+  },
+  "checkoutOrder": null,
+  "previewImage": "https://kvdbil-images.imgix.net/7293906/1f2c5590.jpg",
+  "_list_meta": {
+    "id": "310301",
+    "slug": "audi-a4-avant-40-tdi-quattro-190hk",
+    "auctionType": "BIDDING",
+    "closedAt": "2026-11-19T11:20:42.811582+00:00",
+    "updatedAt": "2026-11-19T11:20:42.912159+00:00"
+  },
+  "_scraped_at": "2026-11-19T12:14:12.891912+00:00",
+  "_url": "https://www.kvd.se/auktioner/audi-a4-avant-40-tdi-quattro-190hk-310301"
+}

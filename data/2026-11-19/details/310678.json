@@ -1,0 +1,4586 @@
+{
+  "id": "310678",
+  "auctionType": "BIDDING",
+  "biddingFee": "6900.00",
+  "biddingFeeCorporate": "9875.00",
+  "mediationFee": 0,
+  "mediationFeeCorporate": 0,
+  "buyNow": false,
+  "closedAt": "2026-11-19T11:17:00.007632+00:00",
+  "publishedAt": "2026-11-16T13:00:15.552924+00:00",
+  "countdownDuration": 210,
+  "countdownStartAt": "2026-11-19T11:13:30+00:00",
+  "createdAt": "2026-11-10T08:03:26.168554+00:00",
+  "readyForAuctionAt": "2026-11-15",
+  "currency": "SEK",
+  "maxBidRaise": 100000,
+  "minBidRaise": 500,
+  "startBid": 178000,
+  "openedAt": "2026-11-16T16:51:18.979214+00:00",
+  "processObjectId": "7294250",
+  "readyForCheckout": true,
+  "soldFor": 315000,
+  "sellMethod": "BIDDING",
+  "slug": "volvo-v60-t6-awd-recharge-350hk",
+  "auctionUrl": "https://www.kvd.se/auktioner/volvo-v60-t6-awd-recharge-350hk-310678",
+  "state": "WINNER_CHECKOUT_PENDING",
+  "targetedAuctionGroupId": null,
+  "updatedAt": "2026-11-19T12:00:04.156710+00:00",
+  "releasing": null,
+  "loan": {
+    "loanCost": 2561,
+    "loanCostBuyNow": 2810
+  },
+  "buyNowAmount": 0,
+  "buyNowAvailable": false,
+  "buyNowUntil": null,
+  "eligibleForAdditionalServices": true,
+  "comingSoon": false,
+  "preliminaryPrice": 355000,
+  "maxAllowedBid": 532500,
+  "isReserved": false,
+  "isSoldByBuyNow": false,
+  "favouriteCount": 34,
+  "eurBuyNowAmount": null,
+  "winningBid": {
+    "id": "123765",
+    "type": "BIDDER",
+    "state": "ACTIVE",
+    "amount": 315000,
+    "brokerId": "microservice",
+    "auctionId": "310678",
+    "createdAt": "2026-11-19T12:00:03.913768+00:00",
+    "updatedAt": "2026-11-19T12:00:04.129632+00:00",
+    "evaluationType": "BROKERING"
+  },
+  "processObject": {
+    "sellMethod": "BIDDING",
+    "conditionClassification": "TESTED",
+    "properties": {
+      "chassisNumber": "YV1ZWH1V2P1537241",
+      "remarks": {
+        "EXTERIOR": [
+          {
+            "id": "0",
+            "category": "EXTERIOR",
+            "key": "Spår efter tidigare dekor, Flertal lackskador"
+          }
+        ],
+        "TECHNOLOGY_AND_EQUIPMENT": [],
+        "BRAKES": [],
+        "TIRES": [],
+        "ENGINE_AND_GEARBOX": [],
+        "INTERIOR": []
+      },
+      "height": 1416,
+      "exteriorColor": "Dark Blue",
+      "environmentalClassEuro": "6",
+      "grades": {
+        "EXTERIOR": {
+          "value": 3,
+          "max": 5,
+          "min": 1
+        },
+        "TECHNOLOGY_AND_EQUIPMENT": {
+          "value": 3,
+          "max": 3,
+          "min": 1
+        },
+        "BRAKES": {
+          "value": 3,
+          "max": 3,
+          "min": 1
+        },
+        "ENGINE_AND_GEARBOX": {
+          "value": 3,
+          "max": 3,
+          "min": 1
+        },
+        "INTERIOR": {
+          "value": 3,
+          "max": 5,
+          "min": 1
+        },
+        "TOTAL": {
+          "value": 3,
+          "max": 5,
+          "min": 1
+        }
+      },
+      "maxTrailerWeight": 2000,
+      "modelName": "V60 T6 AWD Recharge (350hk)",
+      "inspectionValidToDate": "2028-03-31",
+      "formattedEquipment": [
+        {
+          "key": "360_KAMERA",
+          "title": "360 kamera",
+          "description": null,
+          "priority": 0
+        },
+        {
+          "key": "4WD",
+          "title": "4WD",
+          "description": "Konstant eller inkopplingsbar fyrhjulsdrift",
+          "priority": 1
+        },
+        {
+          "key": "ADAPTIV_FARTHALLARE",
+          "title": "Adaptiv farthållare",
+          "description": "Farthållare som hjälper till att hålla ett givet avstånd till framförvarande fordon.",
+          "priority": 2
+        },
+        {
+          "key": "ANTISLADDSYSTEM",
+          "title": "Antisladdsystem",
+          "description": "Ett system som känner av om bilen håller på att sladda. Genom att bromsa enskilda hjul stabiliseras bilen och sladden förhindras, även kallat ESP.",
+          "priority": 3
+        },
+        {
+          "key": "ASSISTANSSYSTEM",
+          "title": "Assistanssystem",
+          "description": "Uppkopplad tjänst för att exempelvis kunna kontrollera din bil på distans med hjälp av en mobilapp. Funktioner som bygger på 2G eller 3G-uppkoppling kan sluta fungera i samband med att dessa nätverk stängs ner av operatörerna.",
+          "priority": 4
+        },
+        {
+          "key": "AUTO_HOLD",
+          "title": "Auto hold",
+          "description": "Hindrar bilen tillfälligt från att rulla bakåt när du startar i motlut",
+          "priority": 5
+        },
+        {
+          "key": "AUTOBROMS",
+          "title": "Autobroms",
+          "description": "Automatisk inbromsning vid lägre hastigheter för mötande fordon och hinder framför bilen (City Safety)",
+          "priority": 6
+        },
+        {
+          "key": "BACKKAMERA",
+          "title": "Backkamera",
+          "description": "Kamera som underlättar vid backning",
+          "priority": 7
+        },
+        {
+          "key": "BLUETOOTH",
+          "title": "Bluetooth",
+          "description": "Trådlös uppkoppling mot mobila enheter",
+          "priority": 8
+        },
+        {
+          "key": "DODAVINKELVARNARE",
+          "title": "Dödavinkelvarnare",
+          "description": "Elektroniskt säkerhetssystem som signalerar om det finns hinder i dödavinkeln. Kallas även BLIS",
+          "priority": 9
+        },
+        {
+          "key": "ELDRIVEN_BAKLUCKA",
+          "title": "Eldriven baklucka",
+          "description": "Baklucka som öppnas/stängs elektroniskt.",
+          "priority": 10
+        },
+        {
+          "key": "ELHISS_BAK",
+          "title": "Elhiss bak",
+          "description": "Elektroniska fönsterhissar bak",
+          "priority": 11
+        },
+        {
+          "key": "ELHISS_FRAM",
+          "title": "Elhiss fram",
+          "description": "Elektronisk fönsterhiss fram",
+          "priority": 12
+        },
+        {
+          "key": "ELINFALLBARA_SPEGLAR",
+          "title": "Elinfällbara backspeglar",
+          "description": "Speglar som fälls in automatiskt när bilen låses eller manuellt via knapp",
+          "priority": 13
+        },
+        {
+          "key": "ELSTOL_MED_MINNESFUNKTION_FORARPLATS",
+          "title": "Elstol med minnesfunktion förarplats",
+          "description": "Elektronisk ställbar förarstol med programmerbara lägen",
+          "priority": 14
+        },
+        {
+          "key": "ELSTOL_MINNESFUNKTION_PASSAGERARPLATS",
+          "title": "Elstol minnesfunktion passagerarplats",
+          "description": null,
+          "priority": 15
+        },
+        {
+          "key": "FILBYTESVARNARE",
+          "title": "Filbytesvarnare",
+          "description": "Elektroniskt säkerhetssystem som varnar vid oplanerade filbyten",
+          "priority": 16
+        },
+        {
+          "key": "FJARRLAS",
+          "title": "Fjärrlås",
+          "description": "Möjliggör att du på distans kan låsa och låsa upp bilen",
+          "priority": 17
+        },
+        {
+          "key": "GPS",
+          "title": "GPS",
+          "description": "Navigationssystem med vägbeskrivning",
+          "priority": 18
+        },
+        {
+          "key": "INFALLBAR_DRAGKROK",
+          "title": "Infällbar dragkrok",
+          "description": " Anordning för att dra exempelvis personbilssläp, båttrailer mm. Kan fällas in/ut.",
+          "priority": 19
+        },
+        {
+          "key": "ISOFIX_BAK",
+          "title": "Isofix bak",
+          "description": "  Fästsystem för bilbarnstolar enligt internationell standard, även kallat Isofix",
+          "priority": 20
+        },
+        {
+          "key": "KLIMATANLAGGNING",
+          "title": "Klimatanläggning",
+          "description": "Luftkonditionering med möjlighet till automatisk temperaturinställning",
+          "priority": 21
+        },
+        {
+          "key": "LED_STRALKASTARE",
+          "title": "LED-strålkastare",
+          "description": "Strålkastare med LED-ljus har ett konstant vitt ljus och har samma ljusstyrka från star",
+          "priority": 22
+        },
+        {
+          "key": "NYCKELLOST_STARTSYSTEM",
+          "title": "Nyckellöst startsystem",
+          "description": "Startknapp i bilen utan tändningslås. Även kallat Keyless-go",
+          "priority": 23
+        },
+        {
+          "key": "PARKERINGSSENSORER_BAK",
+          "title": "Parkeringssensorer bak",
+          "description": "Sensorer på stötfångare baktill som varnar för hinder bakom bilen",
+          "priority": 24
+        },
+        {
+          "key": "PARKERINGSSENSORER_FRAM",
+          "title": "Parkeringssensorer fram",
+          "description": "Sensorer på stötfångare som varnar för hinder framför bilen",
+          "priority": 25
+        },
+        {
+          "key": "PARKERINGSVARMARE_MED_TIDUR",
+          "title": "Parkeringsvärmare med tidur",
+          "description": null,
+          "priority": 26
+        },
+        {
+          "key": "RADIO",
+          "title": "Radio",
+          "description": "Radiospelare",
+          "priority": 27
+        },
+        {
+          "key": "RATTVARME",
+          "title": "Rattvärme",
+          "description": "Eluppvärmd ratt",
+          "priority": 28
+        },
+        {
+          "key": "REGNSENSOR",
+          "title": "Regnsensor",
+          "description": "Automatiska vindrutetorkare, sensorer som reagerar på vatten",
+          "priority": 29
+        },
+        {
+          "key": "STOLSVARME_FRAM",
+          "title": "Stolsvärme fram",
+          "description": "Olika nivåer av värme i stolarna fram som ställs in via en knapp",
+          "priority": 30
+        },
+        {
+          "key": "SATESVARME_BAK",
+          "title": "Sätesvärme bak",
+          "description": "Elektroniskt uppvärmt baksäte",
+          "priority": 31
+        },
+        {
+          "key": "URKOPPLINGSBAR_PASSAGERARAIRBAG",
+          "title": "Urkopplingsbar passagerarairbag",
+          "description": "Möjlighet att koppla till och från airbagen på passagerarsidan",
+          "priority": 32
+        },
+        {
+          "key": "USB_INGANG",
+          "title": "USB-ingång",
+          "description": "Inkoppling av mobil enhet via USB-kontakt",
+          "priority": 33
+        },
+        {
+          "key": "VOLVO_ON_CALL",
+          "title": "Volvo On Call",
+          "description": "Uppkopplad tjänst för att exempelvis kunna kontrollera din Volvo på distans med hjälp av en mobilapp. Funktioner som bygger på 2G eller 3G-uppkoppling kan sluta fungera i samband med att dessa nätverk stängs ner av operatörerna.",
+          "priority": 34
+        }
+      ],
+      "maxPayload": 432,
+      "registrationPlate": "DOW97P",
+      "inspectionPeriod": "2026-03-03 - 2028-03-31",
+      "isRepairObject": false,
+      "modelYear": 2023,
+      "manufactureMonth": "202301",
+      "width": 1850,
+      "electricType": "Plug-in hybrid",
+      "numberOfPreviousOwners": 1,
+      "remarksLocalized": {
+        "TIRES": null,
+        "BRAKES": null,
+        "EXTERIOR": "Spår efter tidigare dekor, Flertal lackskador",
+        "INTERIOR": null,
+        "ENGINE_AND_GEARBOX": null,
+        "TECHNOLOGY_AND_EQUIPMENT": null
+      },
+      "textile": "Helläder",
+      "maxPullWeightB": 970,
+      "length": 4778,
+      "deductibleVat": false,
+      "gearbox": "Automatic",
+      "numberOfKeys": 2,
+      "towbar": false,
+      "package": "Plus Dark Drag 360-kamera",
+      "battstatResult": {
+        "rankingRangeMax": 3,
+        "rankingRangeMin": 1,
+        "sohPercent": 96,
+        "ranking": 3
+      },
+      "initialTrafficDate": "2023-04-03",
+      "adHeader": "V60 T6 AWD Recharge 350hk Plus Dark Drag kamera",
+      "title": "Volvo V60 T6 AWD Recharge (350hk)",
+      "body": "Wagon",
+      "registrationCountry": "se",
+      "ecoFriendly": true,
+      "curbWeight": 2098,
+      "odometerReading": 114310,
+      "saleLimitedToCorporate": false,
+      "taxFee": 360,
+      "finishType": "Metallic",
+      "dateOfInspection": "2026-03-03",
+      "residualLoanValue": 0,
+      "odometerUnit": "km",
+      "numberOfSeats": 5,
+      "brand": "Volvo",
+      "heavyEquipment": false,
+      "familyName": "V60",
+      "fuels": [
+        {
+          "fuelCode": "Petrol",
+          "enginePower": 253
+        },
+        {
+          "fuelCode": "Electric",
+          "rangeWltpDrive": 87,
+          "rangeCityWltpDrive": 102,
+          "enginePower": 146
+        }
+      ],
+      "exportable": true,
+      "mediation": true,
+      "importedForPersonalUse": false,
+      "registrationPlateCountry": "se",
+      "totalWeight": 2530,
+      "equipment": [
+        "360-kamera",
+        "4WD",
+        "Adaptiv farthållare",
+        "Antisladdsystem",
+        "Assistanssystem",
+        "Auto hold",
+        "Autobroms",
+        "Backkamera",
+        "Bluetooth",
+        "Dödavinkelvarnare",
+        "Eldriven baklucka",
+        "Elhiss bak",
+        "Elhiss fram",
+        "Elinfällbara speglar",
+        "Elstol med minnesfunktion förarplats",
+        "Elstol minnesfunktion passagerarplats",
+        "Filbytesvarnare",
+        "Fjärrlås",
+        "GPS",
+        "Infällbar dragkrok",
+        "Isofix bak",
+        "Klimatanläggning",
+        "LED-strålkastare",
+        "Nyckellöst startsystem",
+        "Parkeringssensorer bak",
+        "Parkeringssensorer fram",
+        "Parkeringsvärmare med tidur",
+        "Radio",
+        "Rattvärme",
+        "Regnsensor",
+        "Stolsvärme fram",
+        "Sätesvärme bak",
+        "Urkopplingsbar passagerarairbag",
+        "USB-ingång",
+        "Volvo On Call"
+      ],
+      "drivingBan": false,
+      "taxWeight": 2090,
+      "hasUnpaidLoan": false,
+      "mustExport": false,
+      "heading1": "Volvo V60",
+      "heading2": "T6 AWD Recharge",
+      "heading3": "Plus Dark Drag 360-kamera"
+    },
+    "displayCar360Spin": true,
+    "id": "7294250",
+    "reducedPrice": false,
+    "car360Spin": null,
+    "vehicleType": "CAR",
+    "testDriveAllowed": true,
+    "createdAt": "2026-11-02 12:03:43.897364+00:00",
+    "leaseReturnProperties": {},
+    "orderableAdditionalServices": {
+      "tradein": false,
+      "transport": true,
+      "insurance": true,
+      "finance": true,
+      "warranty": true,
+      "extraTires": false
+    },
+    "state": "AUCTION_RESOLUTION",
+    "baseObject": {
+      "fuels": [
+        {
+          "fuelCode": "Petrol",
+          "powerUnit": "EG",
+          "enginePower": 186,
+          "enginePowerHp": 253,
+          "fuelTankVolume": ""
+        },
+        {
+          "fuelCode": "Electric",
+          "powerUnit": "",
+          "enginePower": 107,
+          "enginePowerHp": 145,
+          "fuelTankVolume": ""
+        }
+      ],
+      "salesFlow": "CORPORATE_CARS_SMALL",
+      "exteriorColor": "Dark Blue",
+      "earliestAvailableAt": null,
+      "body": "Wagon",
+      "registrationCountry": "se",
+      "id": "527028",
+      "odometerReading": 95564,
+      "modelName": "V60 T6 AWD Recharge (350hk)",
+      "gearbox": "Automatic",
+      "createdAt": "2026-11-02T12:03:12.990796+00:00",
+      "state": "CREATED",
+      "registrationPlate": "DOW97P",
+      "baseObjectType": "CAR",
+      "modelId": null,
+      "fabricAndMake": "VOLVO",
+      "year": "2023",
+      "odometerUnit": "km",
+      "brand": "Volvo",
+      "familyName": "V60",
+      "authorityRegisterInformation": {
+        "vehicleInspectionInformation": {
+          "inspections": [
+            {
+              "inspectionType": "5",
+              "odometerReading": 95564,
+              "dateOfInspection": "2026-03-03"
+            },
+            {
+              "inspectionType": "13",
+              "odometerReading": null,
+              "dateOfInspection": "2023-01-12"
+            }
+          ],
+          "inspectionGroup": "36/24/14",
+          "odometerReading": 95564,
+          "inspectionPeriod": "2026-03-03 - 2028-03-31",
+          "dateOfInspection": "2026-03-03",
+          "inspectionValidToDate": "2028-03-31",
+          "inspectionExemptionGroup": null
+        },
+        "vehicleStatus": {
+          "tax": 360
+        },
+        "vehicleOrigin": {
+          "originCode": "YTILLV",
+          "originCodeReason": null,
+          "importerIdentifier": null,
+          "preRegistrationDate": null,
+          "importRegistrationDate": null,
+          "importedForPersonalUse": false,
+          "importedPreviouslyRegistered": false
+        },
+        "environmentalClassification": {
+          "fuels": [
+            {
+              "co2": "",
+              "nox": "",
+              "nox4": null,
+              "fuelCode": "Petrol",
+              "hcThcNox": "",
+              "consumption": "",
+              "noiseLevel": 68,
+              "emissionUnit": "g/km",
+              "innovationCo2": null,
+              "particleValue": "",
+              "particleMass4": null,
+              "consumptionUnit": "",
+              "rangeNedcDrive": null,
+              "rangeWltpDrive": null,
+              "consumptionUrban": "",
+              "rangeCityWltpDrive": null,
+              "consumptionExtraUrban": "",
+              "electricEnergyConsumption": null,
+              "energyConsumptionWltpDrive": null
+            },
+            {
+              "co2": 0,
+              "nox": "",
+              "nox4": null,
+              "fuelCode": "Electric",
+              "hcThcNox": "",
+              "consumption": "",
+              "noiseLevel": "",
+              "emissionUnit": "g/km",
+              "innovationCo2": null,
+              "particleValue": "",
+              "particleMass4": null,
+              "consumptionUnit": "",
+              "rangeNedcDrive": null,
+              "rangeWltpDrive": "87",
+              "consumptionUrban": "",
+              "rangeCityWltpDrive": "102",
+              "consumptionExtraUrban": "",
+              "electricEnergyConsumption": null,
+              "energyConsumptionWltpDrive": null
+            }
+          ],
+          "ecoFriendly": true,
+          "emissionClass": "LADDHYBRID",
+          "innovationCode": null,
+          "environmentalClass": "HYBRID",
+          "environmentalClassEuro": "6"
+        },
+        "generalTechSpecification": {
+          "eeg": "e4*2007/46*1315*17",
+          "fuels": [
+            {
+              "fuelCode": "Petrol",
+              "powerUnit": "EG",
+              "enginePower": 186,
+              "enginePowerHp": 253,
+              "fuelTankVolume": ""
+            },
+            {
+              "fuelCode": "Electric",
+              "powerUnit": "",
+              "enginePower": 107,
+              "enginePowerHp": 145,
+              "fuelTankVolume": ""
+            }
+          ],
+          "width": 1850,
+          "height": 1416,
+          "length": 4778,
+          "gearbox": "Automatic",
+          "variant": "ZWH1",
+          "version": "ZWH1VD0?",
+          "taxWeight": 2090,
+          "curbWeight": 2098,
+          "maxPayload": 432,
+          "totalWeight": 2530,
+          "chassisCode1": null,
+          "chassisCode2": null,
+          "cubicCapacity": "1969",
+          "numPassengers": "4",
+          "numberOfSeats": 5,
+          "fourWheelDrive": true,
+          "maxPullWeightB": 970,
+          "clutchMechanism1": null,
+          "clutchMechanism2": null,
+          "maxTrailerWeight": 2000,
+          "chassisCodeSupplement": null,
+          "maxPullWieghtNoBreaks": null,
+          "maxPullWeightBExtended": null,
+          "maxSingle Axle TrailerWeight": null
+        },
+        "additionalTechSpecification": {
+          "raceCar": null,
+          "wheelbase1": 2872,
+          "wheelbase2": null,
+          "wheelbase3": null,
+          "wheelbase4": null,
+          "equipment1": null,
+          "equipment2": null,
+          "equipment3": null,
+          "maximumSpeed": 180,
+          "numAxleShafts": 2,
+          "passengerAirBag": true,
+          "tyreDimensionRear": "235/40R19 96W",
+          "tyreDimensionFront": "235/40R19 96W",
+          "dualSteeringControl": null
+        },
+        "registrationInformation": {
+          "registrationPlate": "DOW97P",
+          "deregistrationDate": null,
+          "deregistrationText": null,
+          "deregistrationReason": null
+        },
+        "vehicleInformation": {
+          "vin": "YV1ZWH1V2P1537241",
+          "body": "AC",
+          "type": "CAR",
+          "year": "2023",
+          "model": "V60",
+          "rawType": "PB",
+          "modelYear": null,
+          "categoryEu": "e4*2007/46*1315*17",
+          "groupNumber": "VO 023306",
+          "modelNumber": "VO 000000",
+          "chassisNumber": "YV1ZWH1V2P1537241",
+          "exteriorColor": "Dark Blue",
+          "fabricAndMake": "VOLVO",
+          "baseObjectType": "CAR",
+          "manufactureCode": null,
+          "manufactureMonth": "202301",
+          "registrationDate": "2023-01-11",
+          "initialTrafficDate": "2023-04-03",
+          "registrationPlateReused": null
+        }
+      },
+      "technicalSpecification": {
+        "modelId": null,
+        "vehicle": {
+          "brand": "Volvo",
+          "body": "Wagon",
+          "modelName": "V60 T6 AWD Recharge (350hk)",
+          "familyName": "V60"
+        },
+        "year": "2023"
+      }
+    },
+    "isReleasable": false,
+    "certified": false,
+    "initialBuyNowAmount": 0,
+    "proactiveBrokering": null,
+    "baseObjectId": "527028",
+    "buyNowAmount": 0,
+    "presentationApproved": false,
+    "isFixedPrice": false,
+    "statisticalValuation": null,
+    "offsiteSalesContact": null,
+    "objectType": "CAR",
+    "exportable": true,
+    "deductibleVat": false,
+    "collisionWarranty": null,
+    "title": "Volvo V60 T6 AWD Recharge (350hk)",
+    "brand": "Volvo",
+    "familyName": "V60",
+    "modelName": "V60 T6 AWD Recharge (350hk)",
+    "package": "Plus Dark Drag 360-kamera",
+    "heading1": "Volvo V60",
+    "heading2": "T6 AWD Recharge",
+    "heading3": "Plus Dark Drag 360-kamera",
+    "media": [
+      {
+        "processObjectId": "7294250",
+        "uri": "https://kvdbil-images.imgix.net/7294250/c7798b84.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7294250/c7798b84.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 1
+      },
+      {
+        "processObjectId": "7294250",
+        "uri": "https://kvdbil-images.imgix.net/7294250/d339fa34.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7294250/d339fa34.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 2
+      },
+      {
+        "processObjectId": "7294250",
+        "uri": "https://kvdbil-images.imgix.net/7294250/c9462c51.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7294250/c9462c51.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 3
+      },
+      {
+        "processObjectId": "7294250",
+        "uri": "https://kvdbil-images.imgix.net/7294250/0328f861.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7294250/0328f861.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 3
+      },
+      {
+        "processObjectId": "7294250",
+        "uri": "https://kvdbil-images.imgix.net/7294250/7f0418b7.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7294250/7f0418b7.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 4
+      },
+      {
+        "processObjectId": "7294250",
+        "uri": "https://kvdbil-images.imgix.net/7294250/d6a73662.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7294250/d6a73662.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 5
+      },
+      {
+        "processObjectId": "7294250",
+        "uri": "https://kvdbil-images.imgix.net/7294250/76a5d04d.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7294250/76a5d04d.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 5
+      },
+      {
+        "processObjectId": "7294250",
+        "uri": "https://kvdbil-images.imgix.net/7294250/213b28be.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7294250/213b28be.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 6
+      },
+      {
+        "processObjectId": "7294250",
+        "uri": "https://kvdbil-images.imgix.net/7294250/ed2db4e9.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7294250/ed2db4e9.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 6
+      },
+      {
+        "processObjectId": "7294250",
+        "uri": "https://kvdbil-images.imgix.net/7294250/c3983a4f.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7294250/c3983a4f.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 7
+      },
+      {
+        "processObjectId": "7294250",
+        "uri": "https://kvdbil-images.imgix.net/7294250/2aaed563.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7294250/2aaed563.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 7
+      },
+      {
+        "processObjectId": "7294250",
+        "uri": "https://kvdbil-images.imgix.net/7294250/f818e2a8.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7294250/f818e2a8.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 8
+      },
+      {
+        "processObjectId": "7294250",
+        "uri": "https://kvdbil-images.imgix.net/7294250/5652b37f.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7294250/5652b37f.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 8
+      },
+      {
+        "processObjectId": "7294250",
+        "uri": "https://kvdbil-images.imgix.net/7294250/59c297a1.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7294250/59c297a1.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 9
+      },
+      {
+        "processObjectId": "7294250",
+        "uri": "https://kvdbil-images.imgix.net/7294250/8563c707.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7294250/8563c707.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 9
+      },
+      {
+        "processObjectId": "7294250",
+        "uri": "https://kvdbil-images.imgix.net/7294250/e2d6df7f.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7294250/e2d6df7f.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 10
+      },
+      {
+        "processObjectId": "7294250",
+        "uri": "https://kvdbil-images.imgix.net/7294250/a67c911d.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7294250/a67c911d.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 10
+      },
+      {
+        "processObjectId": "7294250",
+        "uri": "https://kvdbil-images.imgix.net/7294250/8dcad376.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7294250/8dcad376.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 11
+      },
+      {
+        "processObjectId": "7294250",
+        "uri": "https://kvdbil-images.imgix.net/7294250/26f26eb7.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7294250/26f26eb7.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 11
+      },
+      {
+        "processObjectId": "7294250",
+        "uri": "https://kvdbil-images.imgix.net/7294250/9b8617a5.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7294250/9b8617a5.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 12
+      },
+      {
+        "processObjectId": "7294250",
+        "uri": "https://kvdbil-images.imgix.net/7294250/f7d0cbe9.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7294250/f7d0cbe9.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 12
+      },
+      {
+        "processObjectId": "7294250",
+        "uri": "https://kvdbil-images.imgix.net/7294250/f87bd1d9.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7294250/f87bd1d9.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 13
+      },
+      {
+        "processObjectId": "7294250",
+        "uri": "https://kvdbil-images.imgix.net/7294250/498dc392.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7294250/498dc392.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 13
+      },
+      {
+        "processObjectId": "7294250",
+        "uri": "https://kvdbil-images.imgix.net/7294250/d7affce0.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7294250/d7affce0.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 14
+      },
+      {
+        "processObjectId": "7294250",
+        "uri": "https://kvdbil-images.imgix.net/7294250/bf7a629b.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7294250/bf7a629b.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 14
+      },
+      {
+        "processObjectId": "7294250",
+        "uri": "https://kvdbil-images.imgix.net/7294250/8f5fee81.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7294250/8f5fee81.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 15
+      },
+      {
+        "processObjectId": "7294250",
+        "uri": "https://kvdbil-images.imgix.net/7294250/7ea34b36.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7294250/7ea34b36.jpg",
+        "type": "DEVIATION",
+        "contentType": "image",
+        "order": 15
+      },
+      {
+        "processObjectId": "7294250",
+        "uri": "https://kvdbil-images.imgix.net/7294250/c7d0b252.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7294250/c7d0b252.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 16
+      },
+      {
+        "processObjectId": "7294250",
+        "uri": "https://kvdbil-images.imgix.net/7294250/bfddfd35.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7294250/bfddfd35.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 17
+      },
+      {
+        "processObjectId": "7294250",
+        "uri": "https://kvdbil-images.imgix.net/7294250/4b5e9ff8.jpg",
+        "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7294250/4b5e9ff8.jpg",
+        "type": "PRESENTATION",
+        "contentType": "image",
+        "order": 19
+      }
+    ],
+    "locationInfo": {
+      "id": "556164",
+      "processObjectId": "7294250",
+      "locationType": "FACILITY",
+      "createdAt": "2026-11-04T15:16:32.079375+00:00",
+      "updatedAt": "2026-11-04T15:16:32.079379+00:00",
+      "facilityId": "00000001-0001-0001-0001-000000000001",
+      "parkingZone": "A",
+      "parkingNumber": null,
+      "outgoingTime": null,
+      "leftAt": null,
+      "outgoingType": null,
+      "publicFacilityId": "00000001-0001-0001-0001-000000000001",
+      "facility": {
+        "id": "00000001-0001-0001-0001-000000000001",
+        "name": "Kungälv (Ellesbo)",
+        "operator": "KVD",
+        "legacyIdentifiers": [
+          "GBG, Kungälv",
+          "Kungälv (Ellesbo)"
+        ],
+        "objectTypes": [
+          "CAR",
+          "LIGHT_TRANSPORT",
+          "RECREATIONAL_VEHICLE"
+        ],
+        "createdAt": "2018-03-04T13:18:23.295898+00:00",
+        "calendarOrganisationalUnitId": "3",
+        "parkingAreas": [
+          {
+            "id": 1,
+            "name": "A1",
+            "createdAt": "2018-03-04T13:18:23.295898+00:00"
+          },
+          {
+            "id": 2,
+            "name": "B1",
+            "createdAt": "2018-03-04T13:18:23.295898+00:00"
+          }
+        ],
+        "active": true,
+        "latitude": 57.8325714,
+        "longitude": 12.0013274,
+        "distance": null,
+        "address": "Ellesbovägen 150",
+        "postCode": "44290",
+        "city": "Kungälv",
+        "facilityType": "MAXI",
+        "facilityMapUrl": "https://www.google.com/maps/dir/57.8325714,12.0013274/@57.8325714,12.0013274,z13",
+        "contactPhone": "+46101673040",
+        "contactEmail": "leverans.kungalv@kvdbil.se",
+        "allowIncomingTransport": true,
+        "allowLeaseReturns": true,
+        "allowUnplannedDropOffFleetManager": true,
+        "parentFacilityId": null,
+        "publicFacilityId": "00000001-0001-0001-0001-000000000001"
+      }
+    },
+    "valuation": {
+      "id": 239947,
+      "processObjectId": "7294250",
+      "valuatorComment": {
+        "da": "Er din næste bil en Volvo V60 ladestybrid med automatgear i mørkeblå metallic, som gør hver rejse både smidig og energieffektiv? Firehjulstræk giver tryghed hele året, mens 360-kamera og adaptiv fartpilot hjælper dig både i bytrafik og på langtur. Indvendigt mødes du af helt læder, der giver en hyggelig og luksuriøs fornemmelse. Synet til marts 2028.",
+        "de": "Ist Ihr nächstes Auto ein Volvo V60 Plug-in-Hybrid mit Automatik in Dunkelblau Metallic, das jede Fahrt sowohl geschmeidig als auch energieeffizient macht? Allradantrieb sorgt das ganze Jahr über für Sicherheit, während die 360-Kamera und der adaptive Tempomat Ihnen sowohl im Stadtverkehr als auch auf langen Fahrten helfen. Innen erwartet Sie Vollleder, das ein behagliches und luxuriöses Gefühl vermittelt. Hauptuntersuchung bis März 2028.",
+        "en": "Is your next car a Volvo V60 plug-in hybrid with automatic transmission in dark blue metallic that makes every trip both smooth and energy-efficient? All-wheel drive provides confidence year-round, while the 360 camera and adaptive cruise control assist you in both city traffic and on long journeys. Inside, you are greeted by full leather that gives a cozy and luxurious feel. Inspected until March 2028.",
+        "et": "Kas teie järgmine sõiduk on Volvo V60 pistikhübriid automaatkäigukastiga tumesinises metallikvärvitoonis, mis muudab iga sõidu sujuvaks ja energiatõhusaks? Nelikveo tagab turvalisuse aastaringselt, samal ajal kui 360-kraadise kaamera ja adaptiivne püsikiirusehoidja aitavad nii linnaliikluses kui ka pikkadel sõitudel. Siseinterjööris ootab teid täisnahk, mis annab hubase ja luksusliku tunde. Kontrollitud kuni märts 2028.",
+        "fi": "Onko seuraava autosi Volvo V60 ladattava hybridi automaattivaihteistolla tummansinisen metallivärisenä, joka tekee jokaisesta matkasta sujuvan ja energiatehokkaan? Neliveto tarjoaa varmuutta ympäri vuoden, kun taas 360-kamera ja mukautuva vakionopeudensäädin auttavat sinua sekä kaupungissa että pitkällä matkalla. Sisätiloissa sinut vastaanottaa täysnahka, joka luo kodikkaan ja ylellisen tunnelman. Katsastettu maaliskuuhun 2028 asti.",
+        "pl": "Czy Twoim następnym samochodem będzie Volvo V60 hybryda plug-in z automatyczną skrzynią biegów w ciemnoniebieskim metalicznym kolorze, który sprawia, że każda podróż jest zarówno płynna, jak i energooszczędna? Napęd na cztery koła zapewnia pewność przez cały rok, a kamera 360 i adaptacyjny tempomat pomagają Ci zarówno w ruchu miejskim, jak i podczas długich podróży. Wnętrze wykonane jest z pełnej skóry, co daje przytulne i luksusowe wrażenie. Przegląd ważny do marca 2028.",
+        "sv": "Är din nästa bil en Volvo V60 laddhybrid med automat i mörkblå metallic som gör varje resa både smidig och energieffektiv? Fyrhjulsdrift ger trygghet året runt, medan 360-kamera och adaptiv farthållare hjälper dig i både stadstrafik och på långresa. Invändigt möts du av helläder som ger en ombonad och lyxig känsla. Besiktigad till mars 2028."
+      },
+      "generatedValuatorComment": {
+        "en": "",
+        "sv": "Är din nästa bil en Volvo V60 laddhybrid med automat i mörkblå metallic som gör varje resa både smidig och energieffektiv? Fyrhjulsdrift ger trygghet året runt, medan 360-kamera och adaptiv farthållare hjälper dig i både stadstrafik och på långresa. Invändigt möts du av helläder som ger en ombonad och lyxig känsla. Besiktigad till mars 2028."
+      },
+      "carDealerPrice": 355000,
+      "endUserTestProtocol": {
+        "tires": {
+          "extraTires": {
+            "other": {
+              "rimSize": "19",
+              "rimType": "Alu.fälg",
+              "tireType": "Sommardäck",
+              "otherInfo": "Behövs ej",
+              "tireTypeKey": "SUMMER_TIRES"
+            },
+            "grades": {
+              "rearLeft": 3,
+              "frontLeft": 3,
+              "rearRight": 3,
+              "frontRight": 3
+            },
+            "treadDepths": {
+              "rearLeft": 5,
+              "frontLeft": 6,
+              "rearRight": 5,
+              "frontRight": 6
+            }
+          },
+          "mountedTires": {
+            "other": {
+              "rimSize": "18",
+              "rimType": "Alu.fälg",
+              "tireType": "Odubbade vinterdäck",
+              "otherInfo": "Behövs ej",
+              "tireTypeKey": "UNSTUDDED_WINTER_TIRES"
+            },
+            "grades": {
+              "rearLeft": 3,
+              "frontLeft": 3,
+              "rearRight": 3,
+              "frontRight": 3
+            },
+            "treadDepths": {
+              "rearLeft": 6,
+              "frontLeft": 7,
+              "rearRight": 6,
+              "frontRight": 7
+            }
+          }
+        },
+        "grades": {
+          "TOTAL": {
+            "max": 5,
+            "min": 1,
+            "value": 3
+          },
+          "BRAKES": {
+            "max": 3,
+            "min": 1,
+            "value": 3
+          },
+          "EXTERIOR": {
+            "max": 5,
+            "min": 1,
+            "value": 3
+          },
+          "INTERIOR": {
+            "max": 5,
+            "min": 1,
+            "value": 3
+          },
+          "ENGINE_AND_GEARBOX": {
+            "max": 3,
+            "min": 1,
+            "value": 3
+          },
+          "TECHNOLOGY_AND_EQUIPMENT": {
+            "max": 3,
+            "min": 1,
+            "value": 3
+          }
+        },
+        "towbar": false,
+        "remarks": {
+          "BRAKES": [],
+          "EXTERIOR": [
+            {
+              "id": "72942502",
+              "key": "Spår efter tidigare dekor, Flertal lackskador.",
+              "other": null,
+              "point": 0,
+              "category": "EXTERIOR",
+              "text": "Spår efter tidigare dekor, Flertal lackskador."
+            }
+          ],
+          "INTERIOR": [],
+          "ENGINE_AND_GEARBOX": [],
+          "TECHNOLOGY_AND_EQUIPMENT": []
+        },
+        "textile": "Helläder",
+        "boatType": null,
+        "equipment": [
+          "Backkamera",
+          "GPS",
+          "4WD",
+          "Adaptiv farthållare",
+          "Assistanssystem",
+          "Infällbar dragkrok",
+          "Nyckellöst startsystem",
+          "Volvo On Call",
+          "Autobroms",
+          "Bluetooth",
+          "Dödavinkelvarnare",
+          "Eldriven baklucka",
+          "Elstol med minnesfunktion förarplats",
+          "Elstol minnesfunktion passagerarplats",
+          "Filbytesvarnare",
+          "Klimatanläggning",
+          "LED-strålkastare",
+          "Rattvärme",
+          "USB-ingång",
+          "360-kamera",
+          "Antisladdsystem",
+          "Auto hold",
+          "Elhiss bak",
+          "Elhiss fram",
+          "Elinfällbara speglar",
+          "Fjärrlås",
+          "Isofix bak",
+          "Parkeringssensorer bak",
+          "Parkeringssensorer fram",
+          "Parkeringsvärmare med tidur",
+          "Radio",
+          "Regnsensor",
+          "Stolsvärme fram",
+          "Sätesvärme bak",
+          "Urkopplingsbar passagerarairbag"
+        ],
+        "boatWidth": null,
+        "createdAt": "2026-11-10T09:01:48",
+        "boatEngine": null,
+        "boatLength": null,
+        "boatWeight": null,
+        "finishType": "Metallic",
+        "protocolId": "262538",
+        "stoveFlames": null,
+        "heatingSystem": null,
+        "numberOfKeys": 2,
+        "boatCeBranded": false,
+        "boatGearModel": null,
+        "numberOfBunks": null,
+        "numberOfSeats": 5,
+        "boatEngineFuel": null,
+        "boatSepticTank": false,
+        "isRepairObject": false,
+        "boatEnginePower": null,
+        "serviceBookType": "EXISTS",
+        "boatExteriorColor": null,
+        "serviceBookStatus": "Service utförd vid följande mil: 2755, 6076, 9120 mil, senast 2025-12-16",
+        "serviceBookStatusI18N": {
+          "da": "Service udført ved følgende km: 27550, 60760, 91200 km, senest 2025-12-16",
+          "de": "Service durchgeführt bei folgenden km: 27550, 60760, 91200 km, zuletzt 2025-12-16",
+          "en": "Service performed at the following km: 27550, 60760, 91200 km, latest 2025-12-16",
+          "et": "Teenindus teostatud järgnevatel km: 27550, 60760, 91200 km, viimati 2025-12-16",
+          "fi": "Huolto suoritettu seuraavilla km: 27550, 60760, 91200 km, viimeksi 2025-12-16",
+          "pl": "Serwis wykonany przy następującym przebiegu: 27550, 60760, 91200 km, ostatnio 2025-12-16",
+          "sv": "Service utförd vid följande mil: 2755, 6076, 9120 mil, senast 2025-12-16"
+        },
+        "boatEngineSerialNumber": null,
+        "odometerReadingAfterTest": {
+          "unit": "Mil",
+          "value": 11431
+        },
+        "odometerReadingAfterTestInKm": 114310
+      },
+      "auctionPriceValuation": {
+        "currency": "SEK"
+      },
+      "finalised": true,
+      "includedImageIds": null,
+      "createdAt": "2026-11-10T08:03:26.205890+00:00",
+      "updatedAt": "2026-11-16T13:00:23.805503+00:00",
+      "generatingInProgress": false,
+      "valuatorCommentLocalized": "Är din nästa bil en Volvo V60 laddhybrid med automat i mörkblå metallic som gör varje resa både smidig och energieffektiv? Fyrhjulsdrift ger trygghet året runt, medan 360-kamera och adaptiv farthållare hjälper dig i både stadstrafik och på långresa. Invändigt möts du av helläder som ger en ombonad och lyxig känsla. Besiktigad till mars 2028."
+    },
+    "facts": {
+      "default": [
+        {
+          "key": "NUMBER_OF_PREVIOUS_OWNERS",
+          "text": "Antal tidigare ägare",
+          "value": 1,
+          "type": "string"
+        },
+        {
+          "key": "REGISTRATION_PLATE",
+          "text": "Registreringsnummer",
+          "value": "DOW97P",
+          "type": "string"
+        },
+        {
+          "key": "MODEL_YEAR",
+          "text": "Modellår",
+          "value": 2023,
+          "type": "string"
+        },
+        {
+          "key": "MANUFACTURE_MONTH",
+          "text": "Tillverkningsmånad",
+          "value": "202301",
+          "type": "manufacture_month"
+        },
+        {
+          "key": "ODOMETER_READING",
+          "text": "Mätarställning",
+          "value": 114310,
+          "type": "distance"
+        },
+        {
+          "key": "INITIAL_TRAFFIC_DATE",
+          "text": "Första datum i trafik i Sverige",
+          "value": "2023-04-03",
+          "type": "date"
+        },
+        {
+          "key": "SERVICE_BOOK",
+          "text": "Servicehistorik",
+          "value": "Service utförd vid följande mil: 2755, 6076, 9120 mil, senast 2025-12-16",
+          "type": "string"
+        },
+        {
+          "key": "SERVICE_BOOK_TYPE",
+          "text": "Servicebok",
+          "value": "Ja",
+          "type": "string"
+        },
+        {
+          "key": "GEARBOX",
+          "text": "Växellåda",
+          "value": "Automat",
+          "type": "string"
+        },
+        {
+          "key": "NUMBER_OF_SEATS",
+          "text": "Antal säten",
+          "value": 5,
+          "type": "string"
+        },
+        {
+          "key": "NUMBER_OF_KEYS",
+          "text": "Antal nycklar",
+          "value": 2,
+          "type": "string"
+        },
+        {
+          "key": "EXTERIOR_COLOR",
+          "text": "Färg",
+          "value": "Mörkblå",
+          "type": "string"
+        },
+        {
+          "key": "FINISH_TYPE",
+          "text": "Lack",
+          "value": "Metallic",
+          "type": "string"
+        },
+        {
+          "key": "TEXTILE",
+          "text": "Klädsel",
+          "value": "Helläder",
+          "type": "string"
+        },
+        {
+          "key": "MANUFACTURER_WARRANTY",
+          "text": "Nybilsgaranti",
+          "value": "Inte undersökt",
+          "type": "string"
+        },
+        {
+          "key": "COLLISION_WARRANTY",
+          "text": "Vagnskadegaranti",
+          "value": "Inte undersökt",
+          "type": "string"
+        },
+        {
+          "key": "TAX_FEE",
+          "text": "Skatt årsavgift",
+          "value": "360 SEK",
+          "type": "string"
+        }
+      ],
+      "additional": [
+        {
+          "key": "CHASSIS_NUMBER",
+          "text": "Chassinummer",
+          "value": "YV1ZWH1V2P1537241",
+          "type": "string"
+        },
+        {
+          "key": "ENGINE_EFFECT_PETROL",
+          "text": "Motoreffekt (bensin)",
+          "value": 253,
+          "type": "engine_power"
+        },
+        {
+          "key": "ENGINE_EFFECT_ELECTRIC",
+          "text": "Motoreffekt (el)",
+          "value": 146,
+          "type": "engine_power"
+        },
+        {
+          "key": "TOWBAR",
+          "text": "Dragkrok",
+          "value": "Nej",
+          "type": "string"
+        },
+        {
+          "key": "MAX_PAYLOAD",
+          "text": "Maxlastvikt",
+          "value": 432,
+          "type": "weight"
+        },
+        {
+          "key": "RANGE_WLTP_DRIVE_ELECTRIC",
+          "text": "Räckvidd WLTP",
+          "value": 87,
+          "type": "distance"
+        },
+        {
+          "key": "RANGE_CITY_WLTP_DRIVE_ELECTRIC",
+          "text": "Räckvidd stad WLTP",
+          "value": 102,
+          "type": "distance"
+        },
+        {
+          "key": "INSPECTION_VALID_TO_DATE",
+          "text": "Nästa besiktning senast",
+          "value": "2028-03-31",
+          "type": "string"
+        },
+        {
+          "key": "CURB_WEIGHT",
+          "text": "Tjänstevikt",
+          "value": 2098,
+          "type": "weight"
+        },
+        {
+          "key": "TAX_WEIGHT",
+          "text": "Skattevikt",
+          "value": 2090,
+          "type": "weight"
+        },
+        {
+          "key": "MAX_TRAILER_WEIGHT",
+          "text": "Maximal släpvagnsvikt",
+          "value": 2000,
+          "type": "weight"
+        },
+        {
+          "key": "TOTAL_WEIGHT",
+          "text": "Fordonets totalvikt",
+          "value": 2530,
+          "type": "weight"
+        },
+        {
+          "key": "LENGTH",
+          "text": "Längd",
+          "value": 4778,
+          "type": "length"
+        },
+        {
+          "key": "WIDTH",
+          "text": "Bredd",
+          "value": 1850,
+          "type": "length"
+        },
+        {
+          "key": "HEIGHT",
+          "text": "Höjd",
+          "value": 1416,
+          "type": "length"
+        }
+      ],
+      "other": [
+        {
+          "key": "SOLD_IN_SWEDEN",
+          "text": "Svensksåld",
+          "value": "Ja",
+          "type": "string"
+        },
+        {
+          "key": "EXPORTABLE",
+          "text": "Kan exporteras",
+          "value": "Ja",
+          "type": "string"
+        },
+        {
+          "key": "DEDUCTIBLE_VAT",
+          "text": "Avlyftbar moms",
+          "value": "Nej",
+          "type": "string"
+        }
+      ]
+    },
+    "majorFeature": [
+      {
+        "key": "RANGE_WLTP_DRIVE_ELECTRIC",
+        "title": "Räckvidd WLTP",
+        "value": 87,
+        "equipment": null
+      },
+      {
+        "key": "360-KAMERA",
+        "title": "360 kamera",
+        "value": null,
+        "equipment": "Utrustning",
+        "description": ""
+      },
+      {
+        "key": "4WD",
+        "title": "4WD",
+        "value": null,
+        "equipment": "Utrustning",
+        "description": "Konstant eller inkopplingsbar fyrhjulsdrift"
+      },
+      {
+        "key": "BATTSTAT",
+        "title": "Kvdbils batteritest",
+        "value": 3,
+        "equipment": null
+      }
+    ],
+    "batteryTestCertificateAvailable": true
+  },
+  "previewImages": [
+    {
+      "processObjectId": "7294250",
+      "uri": "https://kvdbil-images.imgix.net/7294250/c7798b84.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7294250/c7798b84.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 1
+    },
+    {
+      "processObjectId": "7294250",
+      "uri": "https://kvdbil-images.imgix.net/7294250/d339fa34.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7294250/d339fa34.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 2
+    },
+    {
+      "processObjectId": "7294250",
+      "uri": "https://kvdbil-images.imgix.net/7294250/c9462c51.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7294250/c9462c51.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 3
+    },
+    {
+      "processObjectId": "7294250",
+      "uri": "https://kvdbil-images.imgix.net/7294250/0328f861.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7294250/0328f861.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 3
+    },
+    {
+      "processObjectId": "7294250",
+      "uri": "https://kvdbil-images.imgix.net/7294250/7f0418b7.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7294250/7f0418b7.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 4
+    },
+    {
+      "processObjectId": "7294250",
+      "uri": "https://kvdbil-images.imgix.net/7294250/d6a73662.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7294250/d6a73662.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 5
+    },
+    {
+      "processObjectId": "7294250",
+      "uri": "https://kvdbil-images.imgix.net/7294250/76a5d04d.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7294250/76a5d04d.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 5
+    },
+    {
+      "processObjectId": "7294250",
+      "uri": "https://kvdbil-images.imgix.net/7294250/213b28be.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7294250/213b28be.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 6
+    },
+    {
+      "processObjectId": "7294250",
+      "uri": "https://kvdbil-images.imgix.net/7294250/ed2db4e9.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7294250/ed2db4e9.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 6
+    },
+    {
+      "processObjectId": "7294250",
+      "uri": "https://kvdbil-images.imgix.net/7294250/c3983a4f.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7294250/c3983a4f.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 7
+    },
+    {
+      "processObjectId": "7294250",
+      "uri": "https://kvdbil-images.imgix.net/7294250/2aaed563.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7294250/2aaed563.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 7
+    },
+    {
+      "processObjectId": "7294250",
+      "uri": "https://kvdbil-images.imgix.net/7294250/f818e2a8.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7294250/f818e2a8.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 8
+    },
+    {
+      "processObjectId": "7294250",
+      "uri": "https://kvdbil-images.imgix.net/7294250/5652b37f.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7294250/5652b37f.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 8
+    },
+    {
+      "processObjectId": "7294250",
+      "uri": "https://kvdbil-images.imgix.net/7294250/59c297a1.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7294250/59c297a1.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 9
+    },
+    {
+      "processObjectId": "7294250",
+      "uri": "https://kvdbil-images.imgix.net/7294250/8563c707.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7294250/8563c707.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 9
+    },
+    {
+      "processObjectId": "7294250",
+      "uri": "https://kvdbil-images.imgix.net/7294250/e2d6df7f.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7294250/e2d6df7f.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 10
+    },
+    {
+      "processObjectId": "7294250",
+      "uri": "https://kvdbil-images.imgix.net/7294250/a67c911d.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7294250/a67c911d.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 10
+    },
+    {
+      "processObjectId": "7294250",
+      "uri": "https://kvdbil-images.imgix.net/7294250/8dcad376.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7294250/8dcad376.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 11
+    },
+    {
+      "processObjectId": "7294250",
+      "uri": "https://kvdbil-images.imgix.net/7294250/26f26eb7.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7294250/26f26eb7.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 11
+    },
+    {
+      "processObjectId": "7294250",
+      "uri": "https://kvdbil-images.imgix.net/7294250/9b8617a5.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7294250/9b8617a5.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 12
+    },
+    {
+      "processObjectId": "7294250",
+      "uri": "https://kvdbil-images.imgix.net/7294250/f7d0cbe9.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7294250/f7d0cbe9.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 12
+    },
+    {
+      "processObjectId": "7294250",
+      "uri": "https://kvdbil-images.imgix.net/7294250/f87bd1d9.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7294250/f87bd1d9.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 13
+    },
+    {
+      "processObjectId": "7294250",
+      "uri": "https://kvdbil-images.imgix.net/7294250/498dc392.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7294250/498dc392.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 13
+    },
+    {
+      "processObjectId": "7294250",
+      "uri": "https://kvdbil-images.imgix.net/7294250/d7affce0.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7294250/d7affce0.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 14
+    },
+    {
+      "processObjectId": "7294250",
+      "uri": "https://kvdbil-images.imgix.net/7294250/bf7a629b.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7294250/bf7a629b.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 14
+    },
+    {
+      "processObjectId": "7294250",
+      "uri": "https://kvdbil-images.imgix.net/7294250/8f5fee81.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7294250/8f5fee81.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 15
+    },
+    {
+      "processObjectId": "7294250",
+      "uri": "https://kvdbil-images.imgix.net/7294250/7ea34b36.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7294250/7ea34b36.jpg",
+      "type": "DEVIATION",
+      "contentType": "image",
+      "order": 15
+    },
+    {
+      "processObjectId": "7294250",
+      "uri": "https://kvdbil-images.imgix.net/7294250/c7d0b252.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7294250/c7d0b252.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 16
+    },
+    {
+      "processObjectId": "7294250",
+      "uri": "https://kvdbil-images.imgix.net/7294250/bfddfd35.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7294250/bfddfd35.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 17
+    },
+    {
+      "processObjectId": "7294250",
+      "uri": "https://kvdbil-images.imgix.net/7294250/4b5e9ff8.jpg",
+      "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7294250/4b5e9ff8.jpg",
+      "type": "PRESENTATION",
+      "contentType": "image",
+      "order": 19
+    }
+  ],
+  "similarAuctions": [
+    {
+      "id": "305848",
+      "auctionType": "BUY_NOW",
+      "biddingFee": "0.00",
+      "biddingFeeCorporate": "0.00",
+      "mediationFee": 5775,
+      "mediationFeeCorporate": 7438,
+      "buyNow": true,
+      "closedAt": null,
+      "publishedAt": "2026-10-05T12:35:00.142067+00:00",
+      "countdownDuration": 210,
+      "countdownStartAt": null,
+      "createdAt": "2026-10-02T13:50:06.356951+00:00",
+      "readyForAuctionAt": null,
+      "currency": "SEK",
+      "maxBidRaise": 100000,
+      "minBidRaise": 500,
+      "startBid": null,
+      "openedAt": "2026-10-05T12:35:00.131047+00:00",
+      "processObjectId": "7290878",
+      "readyForCheckout": false,
+      "soldFor": null,
+      "sellMethod": null,
+      "slug": "volvo-v60-d3-150hk",
+      "auctionUrl": "https://www.kvd.se/fast-pris/volvo-v60-d3-150hk-305848",
+      "state": "OPEN",
+      "targetedAuctionGroupId": null,
+      "updatedAt": "2026-11-18T18:01:00.090184+00:00",
+      "releasing": null,
+      "loan": {
+        "loanCost": null,
+        "loanCostBuyNow": 1704
+      },
+      "buyNowAmount": 199900,
+      "buyNowAvailable": true,
+      "buyNowUntil": null,
+      "eligibleForAdditionalServices": true,
+      "comingSoon": false,
+      "preliminaryPrice": null,
+      "maxAllowedBid": null,
+      "isReserved": false,
+      "isSoldByBuyNow": false,
+      "favouriteCount": 36,
+      "winningBid": null,
+      "activeAuction": null,
+      "processObject": {
+        "sellMethod": "BUY_NOW",
+        "conditionClassification": "CERTIFIED",
+        "properties": {
+          "adHeader": "V60 D3 (150hk) Classic Momentum Värmare",
+          "fuels": [
+            {
+              "consumption": 4.3,
+              "co2": 114,
+              "fuelCode": "Diesel",
+              "enginePower": 150
+            }
+          ],
+          "numberOfPreviousOwners": 3,
+          "exteriorColor": "Grey",
+          "title": "Volvo V60 D3 (150hk)",
+          "body": "Wagon",
+          "ecoFriendly": false,
+          "exportable": true,
+          "odometerReading": 74460,
+          "modelName": "V60 D3 (150hk)",
+          "deductibleVat": false,
+          "gearbox": "Automatic",
+          "saleLimitedToCorporate": false,
+          "registrationPlate": "ODB953",
+          "package": "Classic Momentum Värmare",
+          "odometerUnit": "km",
+          "modelYear": 2018,
+          "hasUnpaidLoan": false,
+          "brand": "Volvo",
+          "heavyEquipment": false,
+          "mustExport": false,
+          "familyName": "V60",
+          "heading1": "Volvo V60",
+          "heading2": "D3",
+          "heading3": "Classic Momentum Värmare"
+        },
+        "displayCar360Spin": true,
+        "id": "7290878",
+        "reducedPrice": false,
+        "car360Spin": null,
+        "vehicleType": "CAR",
+        "testDriveAllowed": true,
+        "createdAt": "2026-10-02 13:49:01.285613+00:00",
+        "leaseReturnProperties": {},
+        "state": "AUCTION",
+        "baseObject": {
+          "fuels": [
+            {
+              "fuelCode": "Diesel",
+              "powerUnit": "EG",
+              "enginePower": 110,
+              "enginePowerHp": 150,
+              "fuelTankVolume": ""
+            }
+          ],
+          "salesFlow": "CONSUMER_CARS",
+          "exteriorColor": "Grey",
+          "earliestAvailableAt": null,
+          "body": "Wagon",
+          "registrationCountry": "se",
+          "id": "520099",
+          "odometerReading": null,
+          "modelName": "V60 D3 (150hk)",
+          "gearbox": "Automatic",
+          "createdAt": "2026-10-02T13:49:00.983662+00:00",
+          "state": "MANUAL_VALUATION_PENDING",
+          "registrationPlate": "ODB953",
+          "baseObjectType": "CAR",
+          "modelId": null,
+          "fabricAndMake": "VOLVO",
+          "year": "2018",
+          "odometerUnit": "km",
+          "brand": "Volvo",
+          "familyName": "V60",
+          "technicalSpecification": {
+            "modelId": null,
+            "vehicle": {
+              "brand": "Volvo",
+              "body": "Wagon",
+              "modelName": "V60 D3 (150hk)",
+              "familyName": "V60"
+            },
+            "year": "2018"
+          }
+        },
+        "isReleasable": false,
+        "certified": true,
+        "initialBuyNowAmount": 199900,
+        "proactiveBrokering": null,
+        "baseObjectId": "520099",
+        "buyNowAmount": 199900,
+        "presentationApproved": false,
+        "isFixedPrice": false,
+        "statisticalValuation": null,
+        "offsiteSalesContact": null,
+        "objectType": "CAR",
+        "exportable": true,
+        "deductibleVat": false,
+        "collisionWarranty": null,
+        "title": "Volvo V60 D3 (150hk)",
+        "brand": "Volvo",
+        "familyName": "V60",
+        "modelName": "V60 D3 (150hk)",
+        "package": "Classic Momentum Värmare",
+        "heading1": "Volvo V60",
+        "heading2": "D3",
+        "heading3": "Classic Momentum Värmare"
+      },
+      "previewImages": [
+        {
+          "processObjectId": "7290878",
+          "uri": "https://kvdbil-images.imgix.net/7290878/82a052b1.jpg",
+          "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7290878/82a052b1.jpg",
+          "type": "PRESENTATION",
+          "contentType": "image",
+          "order": 1
+        },
+        {
+          "processObjectId": "7290878",
+          "uri": "https://kvdbil-images.imgix.net/7290878/3405d478.jpg",
+          "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7290878/3405d478.jpg",
+          "type": "PRESENTATION",
+          "contentType": "image",
+          "order": 2
+        }
+      ],
+      "previewImage": "https://kvdbil-images.imgix.net/7290878/82a052b1.jpg"
+    },
+    {
+      "id": "311702",
+      "auctionType": "BIDDING",
+      "biddingFee": "4425.00",
+      "biddingFeeCorporate": "5613.00",
+      "mediationFee": 0,
+      "mediationFeeCorporate": 0,
+      "buyNow": false,
+      "closedAt": null,
+      "publishedAt": "2026-11-18T07:46:10.638138+00:00",
+      "countdownDuration": 210,
+      "countdownStartAt": "2026-11-23T18:08:30+00:00",
+      "createdAt": "2026-11-17T13:39:14.610999+00:00",
+      "readyForAuctionAt": "2026-11-15",
+      "currency": "SEK",
+      "maxBidRaise": 100000,
+      "minBidRaise": 500,
+      "startBid": 5000,
+      "openedAt": "2026-11-18T15:26:26.051991+00:00",
+      "processObjectId": "7294282",
+      "readyForCheckout": false,
+      "soldFor": null,
+      "sellMethod": null,
+      "slug": "volvo-v60-d4-163hk",
+      "auctionUrl": "https://www.kvd.se/auktioner/volvo-v60-d4-163hk-311702",
+      "state": "OPEN",
+      "targetedAuctionGroupId": null,
+      "updatedAt": "2026-11-19T11:32:43.419258+00:00",
+      "releasing": null,
+      "loan": {
+        "loanCost": 175,
+        "loanCostBuyNow": null
+      },
+      "buyNowAmount": null,
+      "buyNowAvailable": false,
+      "buyNowUntil": null,
+      "eligibleForAdditionalServices": true,
+      "comingSoon": false,
+      "preliminaryPrice": 90000,
+      "maxAllowedBid": 135000,
+      "isReserved": false,
+      "isSoldByBuyNow": false,
+      "favouriteCount": 4,
+      "winningBid": null,
+      "activeAuction": {
+        "auctionId": "311702",
+        "closed": false,
+        "countdownInProgress": false,
+        "preliminaryCloseAt": "2026-11-23T18:12:00+00:00",
+        "createdAt": "2026-11-18T15:26:26.053868+00:00",
+        "updatedAt": "2026-11-18T15:26:27.100180+00:00",
+        "vatExcludedBiddingAllowed": false,
+        "reservationPriceReached": false,
+        "bids": [
+          {
+            "id": 18786537,
+            "auctionId": 311702,
+            "bidderAlias": "2",
+            "amount": 20500,
+            "type": "NORMAL",
+            "maxBidId": 10977409,
+            "triggeredBy": 10977409,
+            "createdAt": "2026-11-19T07:44:54.536563+00:00",
+            "updatedAt": "2026-11-19T07:44:54.536567+00:00"
+          },
+          {
+            "id": 18786536,
+            "auctionId": 311702,
+            "bidderAlias": "1",
+            "amount": 20000,
+            "type": "LIMIT_REACHED",
+            "maxBidId": 10976699,
+            "triggeredBy": 10977409,
+            "createdAt": "2026-11-19T07:44:54.536539+00:00",
+            "updatedAt": "2026-11-19T07:44:54.536559+00:00"
+          },
+          {
+            "id": 18785250,
+            "auctionId": 311702,
+            "bidderAlias": "1",
+            "amount": 5000,
+            "type": "NORMAL",
+            "maxBidId": 10976699,
+            "triggeredBy": 10976699,
+            "createdAt": "2026-11-18T20:11:44.922839+00:00",
+            "updatedAt": "2026-11-18T20:11:44.922848+00:00"
+          }
+        ],
+        "myBidderAlias": null,
+        "myMaxBid": null,
+        "highestBid": {
+          "id": 18786537,
+          "auctionId": 311702,
+          "bidderAlias": null,
+          "amount": 20500,
+          "type": "NORMAL",
+          "maxBidId": 10977409,
+          "triggeredBy": 10977409,
+          "createdAt": "2026-11-19T07:44:54.536563+00:00",
+          "updatedAt": "2026-11-19T07:44:54.536567+00:00",
+          "eurAmount": 1840
+        },
+        "buyNowAvailable": false,
+        "releasing": null,
+        "isHighestBidLowerThanResidualLoanValue": false
+      },
+      "processObject": {
+        "sellMethod": "BIDDING",
+        "conditionClassification": "TESTED",
+        "properties": {
+          "adHeader": "V60 D4 (163hk) Summum BE Pro",
+          "fuels": [
+            {
+              "consumption": 4.5,
+              "co2": 119,
+              "fuelCode": "Diesel",
+              "enginePower": 163
+            }
+          ],
+          "numberOfPreviousOwners": 6,
+          "exteriorColor": "Red",
+          "title": "Volvo V60 D4 (163hk)",
+          "body": "Wagon",
+          "ecoFriendly": false,
+          "exportable": true,
+          "odometerReading": 250920,
+          "modelName": "V60 D4 (163hk)",
+          "deductibleVat": false,
+          "gearbox": "Manual",
+          "saleLimitedToCorporate": false,
+          "registrationPlate": "NXZ988",
+          "package": "Summum BE Pro",
+          "odometerUnit": "km",
+          "modelYear": 2014,
+          "hasUnpaidLoan": false,
+          "brand": "Volvo",
+          "heavyEquipment": false,
+          "mustExport": false,
+          "familyName": "V60",
+          "heading1": "Volvo V60",
+          "heading2": "D4",
+          "heading3": "Summum BE Pro"
+        },
+        "displayCar360Spin": true,
+        "id": "7294282",
+        "reducedPrice": false,
+        "car360Spin": null,
+        "vehicleType": "CAR",
+        "testDriveAllowed": true,
+        "createdAt": "2026-11-02 13:39:00.354485+00:00",
+        "leaseReturnProperties": {},
+        "state": "AUCTION",
+        "baseObject": {
+          "fuels": [
+            {
+              "fuelCode": "Diesel",
+              "powerUnit": "EG",
+              "enginePower": 120,
+              "enginePowerHp": 163,
+              "fuelTankVolume": ""
+            }
+          ],
+          "salesFlow": "CONSUMER_CARS",
+          "exteriorColor": "Red",
+          "earliestAvailableAt": null,
+          "body": "Wagon",
+          "registrationCountry": "se",
+          "id": "527063",
+          "odometerReading": 251000,
+          "modelName": "V60 D4 (163hk)",
+          "gearbox": "Manual",
+          "createdAt": "2026-11-02T13:30:59.369203+00:00",
+          "state": "IMPORTING_INTO_PROCESS_OBJECT",
+          "registrationPlate": "NXZ988",
+          "baseObjectType": "CAR",
+          "modelId": null,
+          "fabricAndMake": "VOLVO F + V60",
+          "year": "2014",
+          "odometerUnit": "km",
+          "brand": "Volvo",
+          "familyName": "V60",
+          "technicalSpecification": {
+            "modelId": null,
+            "vehicle": {
+              "brand": "Volvo",
+              "body": "Wagon",
+              "modelName": "V60 D4 (163hk)",
+              "familyName": "V60"
+            },
+            "year": "2014"
+          }
+        },
+        "isReleasable": false,
+        "certified": false,
+        "initialBuyNowAmount": null,
+        "proactiveBrokering": null,
+        "baseObjectId": "527063",
+        "buyNowAmount": null,
+        "presentationApproved": false,
+        "isFixedPrice": false,
+        "statisticalValuation": {
+          "bpOrange": 81420,
+          "bpWhite": 81420,
+          "bpGreen": null,
+          "marketPrice": 81420
+        },
+        "offsiteSalesContact": null,
+        "objectType": "CAR",
+        "exportable": true,
+        "deductibleVat": false,
+        "collisionWarranty": null,
+        "title": "Volvo V60 D4 (163hk)",
+        "brand": "Volvo",
+        "familyName": "V60",
+        "modelName": "V60 D4 (163hk)",
+        "package": "Summum BE Pro",
+        "heading1": "Volvo V60",
+        "heading2": "D4",
+        "heading3": "Summum BE Pro"
+      },
+      "previewImages": [
+        {
+          "processObjectId": "7294282",
+          "uri": "https://kvdbil-images.imgix.net/7294282/fad7ed86.jpg",
+          "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7294282/fad7ed86.jpg",
+          "type": "PRESENTATION",
+          "contentType": "image",
+          "order": 1
+        },
+        {
+          "processObjectId": "7294282",
+          "uri": "https://kvdbil-images.imgix.net/7294282/f0556000.jpg",
+          "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7294282/f0556000.jpg",
+          "type": "PRESENTATION",
+          "contentType": "image",
+          "order": 2
+        }
+      ],
+      "previewImage": "https://kvdbil-images.imgix.net/7294282/fad7ed86.jpg"
+    },
+    {
+      "id": "311818",
+      "auctionType": "BIDDING",
+      "biddingFee": "5238.00",
+      "biddingFeeCorporate": "6663.00",
+      "mediationFee": 0,
+      "mediationFeeCorporate": 0,
+      "buyNow": false,
+      "closedAt": null,
+      "publishedAt": "2026-11-18T15:28:22.125973+00:00",
+      "countdownDuration": 210,
+      "countdownStartAt": "2026-11-23T10:01:30+00:00",
+      "createdAt": "2026-11-18T10:36:05.941414+00:00",
+      "readyForAuctionAt": "2026-11-15",
+      "currency": "SEK",
+      "maxBidRaise": 100000,
+      "minBidRaise": 500,
+      "startBid": 90000,
+      "openedAt": "2026-11-18T15:28:22.111289+00:00",
+      "processObjectId": "7293696",
+      "readyForCheckout": false,
+      "soldFor": null,
+      "sellMethod": null,
+      "slug": "volvo-v60-t6-awd-twin-engine-340hk",
+      "auctionUrl": "https://www.kvd.se/auktioner/volvo-v60-t6-awd-twin-engine-340hk-311818",
+      "state": "OPEN",
+      "targetedAuctionGroupId": null,
+      "updatedAt": "2026-11-19T05:33:40.894389+00:00",
+      "releasing": null,
+      "loan": {
+        "loanCost": null,
+        "loanCostBuyNow": null
+      },
+      "buyNowAmount": null,
+      "buyNowAvailable": false,
+      "buyNowUntil": null,
+      "eligibleForAdditionalServices": true,
+      "comingSoon": false,
+      "preliminaryPrice": 220000,
+      "maxAllowedBid": 330000,
+      "isReserved": false,
+      "isSoldByBuyNow": false,
+      "favouriteCount": 3,
+      "winningBid": null,
+      "activeAuction": {
+        "auctionId": "311818",
+        "closed": false,
+        "countdownInProgress": false,
+        "preliminaryCloseAt": "2026-11-23T10:05:00+00:00",
+        "createdAt": "2026-11-18T15:28:22.113165+00:00",
+        "updatedAt": "2026-11-18T15:28:23.170526+00:00",
+        "vatExcludedBiddingAllowed": false,
+        "reservationPriceReached": false,
+        "bids": [],
+        "myBidderAlias": null,
+        "myMaxBid": null,
+        "highestBid": null,
+        "buyNowAvailable": false,
+        "releasing": null,
+        "isHighestBidLowerThanResidualLoanValue": false
+      },
+      "processObject": {
+        "sellMethod": "BIDDING",
+        "conditionClassification": "TESTED",
+        "properties": {
+          "adHeader": "V60 T6 AWD Recharge (340hk) Momentum Advanced H/K",
+          "fuels": [
+            {
+              "fuelCode": "Petrol",
+              "rangeNedcDrive": 55,
+              "enginePower": 253
+            },
+            {
+              "fuelCode": "Electric",
+              "rangeWltpDrive": 53,
+              "rangeCityWltpDrive": 57,
+              "enginePower": 88
+            }
+          ],
+          "numberOfPreviousOwners": 3,
+          "exteriorColor": "Silver",
+          "title": "Volvo V60 T6 AWD Twin Engine (340hk)",
+          "body": "Wagon",
+          "ecoFriendly": true,
+          "exportable": true,
+          "odometerReading": 189180,
+          "modelName": "V60 T6 AWD Recharge (340hk)",
+          "deductibleVat": true,
+          "gearbox": "Automatic",
+          "saleLimitedToCorporate": false,
+          "registrationPlate": "ONP15J",
+          "package": "Momentum Advanced H/K",
+          "odometerUnit": "km",
+          "modelYear": 2021,
+          "hasUnpaidLoan": false,
+          "brand": "Volvo",
+          "battstatResult": {
+            "rankingRangeMax": 3,
+            "rankingRangeMin": 1,
+            "sohPercent": 81,
+            "ranking": 2
+          },
+          "heavyEquipment": false,
+          "mustExport": false,
+          "familyName": "V60",
+          "electricType": "Plug-in hybrid",
+          "heading1": "Volvo V60",
+          "heading2": "T6 AWD Recharge",
+          "heading3": "Momentum Advanced H/K"
+        },
+        "displayCar360Spin": true,
+        "id": "7293696",
+        "reducedPrice": false,
+        "car360Spin": null,
+        "vehicleType": "CAR",
+        "testDriveAllowed": true,
+        "createdAt": "2026-10-27 12:15:02.176190+00:00",
+        "leaseReturnProperties": {},
+        "state": "AUCTION",
+        "baseObject": {
+          "fuels": [
+            {
+              "fuelCode": "Petrol",
+              "powerUnit": "EG",
+              "enginePower": 186,
+              "enginePowerHp": 253,
+              "fuelTankVolume": ""
+            },
+            {
+              "fuelCode": "Electric",
+              "powerUnit": "",
+              "enginePower": 65,
+              "enginePowerHp": 88,
+              "fuelTankVolume": ""
+            }
+          ],
+          "salesFlow": "CORPORATE_CARS",
+          "exteriorColor": "Silver",
+          "earliestAvailableAt": null,
+          "body": "Wagon",
+          "registrationCountry": "se",
+          "id": "525790",
+          "odometerReading": null,
+          "modelName": "V60 T6 AWD Twin Engine (340hk)",
+          "gearbox": "Automatic",
+          "createdAt": "2026-10-27T12:15:01.859282+00:00",
+          "state": "MANUAL_VALUATION_PENDING",
+          "registrationPlate": "ONP15J",
+          "baseObjectType": "CAR",
+          "modelId": null,
+          "fabricAndMake": "VOLVO",
+          "year": "2021",
+          "odometerUnit": "km",
+          "brand": "Volvo",
+          "familyName": "V60",
+          "technicalSpecification": {
+            "modelId": null,
+            "vehicle": {
+              "brand": "Volvo",
+              "body": "Wagon",
+              "modelName": "V60 T6 AWD Twin Engine (340hk)",
+              "familyName": "V60"
+            },
+            "year": "2021"
+          }
+        },
+        "isReleasable": false,
+        "certified": false,
+        "initialBuyNowAmount": null,
+        "proactiveBrokering": null,
+        "baseObjectId": "525790",
+        "buyNowAmount": null,
+        "presentationApproved": false,
+        "isFixedPrice": false,
+        "statisticalValuation": null,
+        "offsiteSalesContact": null,
+        "objectType": "CAR",
+        "exportable": true,
+        "deductibleVat": true,
+        "collisionWarranty": null,
+        "title": "Volvo V60 T6 AWD Twin Engine (340hk)",
+        "brand": "Volvo",
+        "familyName": "V60",
+        "modelName": "V60 T6 AWD Recharge (340hk)",
+        "package": "Momentum Advanced H/K",
+        "heading1": "Volvo V60",
+        "heading2": "T6 AWD Recharge",
+        "heading3": "Momentum Advanced H/K"
+      },
+      "previewImages": [
+        {
+          "processObjectId": "7293696",
+          "uri": "https://kvdbil-images.imgix.net/7293696/94605b97.jpg",
+          "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7293696/94605b97.jpg",
+          "type": "PRESENTATION",
+          "contentType": "image",
+          "order": 1
+        },
+        {
+          "processObjectId": "7293696",
+          "uri": "https://kvdbil-images.imgix.net/7293696/e21b396a.jpg",
+          "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7293696/e21b396a.jpg",
+          "type": "PRESENTATION",
+          "contentType": "image",
+          "order": 2
+        }
+      ],
+      "previewImage": "https://kvdbil-images.imgix.net/7293696/94605b97.jpg"
+    },
+    {
+      "id": "307794",
+      "auctionType": "BUY_NOW",
+      "biddingFee": "0.00",
+      "biddingFeeCorporate": "0.00",
+      "mediationFee": 6900,
+      "mediationFeeCorporate": 9875,
+      "buyNow": true,
+      "closedAt": null,
+      "publishedAt": "2026-10-21T15:55:00.123035+00:00",
+      "countdownDuration": 210,
+      "countdownStartAt": null,
+      "createdAt": "2026-10-16T13:21:48.154543+00:00",
+      "readyForAuctionAt": null,
+      "currency": "SEK",
+      "maxBidRaise": 100000,
+      "minBidRaise": 500,
+      "startBid": null,
+      "openedAt": "2026-10-21T15:55:00.106572+00:00",
+      "processObjectId": "7292632",
+      "readyForCheckout": false,
+      "soldFor": null,
+      "sellMethod": null,
+      "slug": "volvo-v60-d4-190hk",
+      "auctionUrl": "https://www.kvd.se/fast-pris/volvo-v60-d4-190hk-307794",
+      "state": "OPEN",
+      "targetedAuctionGroupId": null,
+      "updatedAt": "2026-11-18T20:46:49.293942+00:00",
+      "releasing": null,
+      "loan": {
+        "loanCost": null,
+        "loanCostBuyNow": 1915
+      },
+      "buyNowAmount": 224800,
+      "buyNowAvailable": true,
+      "buyNowUntil": null,
+      "eligibleForAdditionalServices": true,
+      "comingSoon": false,
+      "preliminaryPrice": null,
+      "maxAllowedBid": null,
+      "isReserved": false,
+      "isSoldByBuyNow": false,
+      "favouriteCount": 40,
+      "winningBid": null,
+      "activeAuction": null,
+      "processObject": {
+        "sellMethod": "BUY_NOW",
+        "conditionClassification": "CERTIFIED",
+        "properties": {
+          "adHeader": "V60 D4 (190hk) Advanced Teknikpaket GPS Värmare",
+          "fuels": [
+            {
+              "consumption": 4.5,
+              "co2": 119,
+              "fuelCode": "Diesel",
+              "enginePower": 190
+            }
+          ],
+          "numberOfPreviousOwners": 10,
+          "exteriorColor": "White",
+          "title": "Volvo V60 D4 (190hk)",
+          "body": "Wagon",
+          "ecoFriendly": false,
+          "exportable": true,
+          "odometerReading": 97970,
+          "modelName": "V60 D4 (190hk)",
+          "deductibleVat": false,
+          "gearbox": "Automatic",
+          "saleLimitedToCorporate": false,
+          "registrationPlate": "RLU128",
+          "package": "Advanced Teknikpaket GPS Värmare",
+          "odometerUnit": "km",
+          "modelYear": 2019,
+          "hasUnpaidLoan": false,
+          "brand": "Volvo",
+          "heavyEquipment": false,
+          "mustExport": false,
+          "familyName": "V60",
+          "heading1": "Volvo V60",
+          "heading2": "D4",
+          "heading3": "Advanced Teknikpaket GPS Värmare"
+        },
+        "displayCar360Spin": true,
+        "id": "7292632",
+        "reducedPrice": true,
+        "car360Spin": null,
+        "vehicleType": "CAR",
+        "testDriveAllowed": true,
+        "createdAt": "2026-10-16 13:21:28.071842+00:00",
+        "leaseReturnProperties": {},
+        "state": "AUCTION",
+        "baseObject": {
+          "fuels": [
+            {
+              "fuelCode": "Diesel",
+              "powerUnit": "EG",
+              "enginePower": 140,
+              "enginePowerHp": 190,
+              "fuelTankVolume": ""
+            }
+          ],
+          "salesFlow": "CONSUMER_CARS",
+          "exteriorColor": "White",
+          "earliestAvailableAt": null,
+          "body": "Wagon",
+          "registrationCountry": "se",
+          "id": "523495",
+          "odometerReading": null,
+          "modelName": "V60 D4 (190hk)",
+          "gearbox": "Automatic",
+          "createdAt": "2026-10-16T13:21:27.860981+00:00",
+          "state": "MANUAL_VALUATION_PENDING",
+          "registrationPlate": "RLU128",
+          "baseObjectType": "CAR",
+          "modelId": null,
+          "fabricAndMake": "VOLVO",
+          "year": "2019",
+          "odometerUnit": "km",
+          "brand": "Volvo",
+          "familyName": "V60",
+          "technicalSpecification": {
+            "modelId": null,
+            "vehicle": {
+              "brand": "Volvo",
+              "body": "Wagon",
+              "modelName": "V60 D4 (190hk)",
+              "familyName": "V60"
+            },
+            "year": "2019"
+          }
+        },
+        "isReleasable": false,
+        "certified": true,
+        "initialBuyNowAmount": 239800,
+        "proactiveBrokering": null,
+        "baseObjectId": "523495",
+        "buyNowAmount": 224800,
+        "presentationApproved": false,
+        "isFixedPrice": false,
+        "statisticalValuation": null,
+        "offsiteSalesContact": null,
+        "objectType": "CAR",
+        "exportable": true,
+        "deductibleVat": false,
+        "collisionWarranty": null,
+        "title": "Volvo V60 D4 (190hk)",
+        "brand": "Volvo",
+        "familyName": "V60",
+        "modelName": "V60 D4 (190hk)",
+        "package": "Advanced Teknikpaket GPS Värmare",
+        "heading1": "Volvo V60",
+        "heading2": "D4",
+        "heading3": "Advanced Teknikpaket GPS Värmare"
+      },
+      "previewImages": [
+        {
+          "processObjectId": "7292632",
+          "uri": "https://kvdbil-images.imgix.net/7292632/3f900f03.jpg",
+          "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292632/3f900f03.jpg",
+          "type": "PRESENTATION",
+          "contentType": "image",
+          "order": 1
+        },
+        {
+          "processObjectId": "7292632",
+          "uri": "https://kvdbil-images.imgix.net/7292632/ef06e7f4.jpg",
+          "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7292632/ef06e7f4.jpg",
+          "type": "PRESENTATION",
+          "contentType": "image",
+          "order": 2
+        }
+      ],
+      "previewImage": "https://kvdbil-images.imgix.net/7292632/3f900f03.jpg"
+    },
+    {
+      "id": "311502",
+      "auctionType": "BIDDING",
+      "biddingFee": "5775.00",
+      "biddingFeeCorporate": "7438.00",
+      "mediationFee": 0,
+      "mediationFeeCorporate": 0,
+      "buyNow": true,
+      "closedAt": null,
+      "publishedAt": "2026-11-16T13:08:22.326946+00:00",
+      "countdownDuration": 210,
+      "countdownStartAt": "2026-11-25T08:56:30+00:00",
+      "createdAt": "2026-11-16T12:57:58.267022+00:00",
+      "readyForAuctionAt": null,
+      "currency": "SEK",
+      "maxBidRaise": 100000,
+      "minBidRaise": 500,
+      "startBid": 120000,
+      "openedAt": "2026-11-16T13:08:22.312813+00:00",
+      "processObjectId": "7288524",
+      "readyForCheckout": false,
+      "soldFor": null,
+      "sellMethod": null,
+      "slug": "volvo-v60-d3-150hk",
+      "auctionUrl": "https://www.kvd.se/auktioner/volvo-v60-d3-150hk-311502",
+      "state": "OPEN",
+      "targetedAuctionGroupId": null,
+      "updatedAt": "2026-11-19T09:26:14.341410+00:00",
+      "releasing": null,
+      "loan": {
+        "loanCost": 1022,
+        "loanCostBuyNow": 1830
+      },
+      "buyNowAmount": 214800,
+      "buyNowAvailable": true,
+      "buyNowUntil": "2026-11-23T08:56:30+00:00",
+      "eligibleForAdditionalServices": true,
+      "comingSoon": false,
+      "preliminaryPrice": 240000,
+      "maxAllowedBid": 360000,
+      "isReserved": false,
+      "isSoldByBuyNow": false,
+      "favouriteCount": 19,
+      "winningBid": null,
+      "activeAuction": {
+        "auctionId": "311502",
+        "closed": false,
+        "countdownInProgress": false,
+        "preliminaryCloseAt": "2026-11-25T09:00:00+00:00",
+        "createdAt": "2026-11-16T13:08:22.315208+00:00",
+        "updatedAt": "2026-11-16T13:08:23.380021+00:00",
+        "vatExcludedBiddingAllowed": false,
+        "reservationPriceReached": false,
+        "bids": [
+          {
+            "id": 18783080,
+            "auctionId": 311502,
+            "bidderAlias": "1",
+            "amount": 120000,
+            "type": "NORMAL",
+            "maxBidId": 10975371,
+            "triggeredBy": 10975371,
+            "createdAt": "2026-11-18T13:40:25.305564+00:00",
+            "updatedAt": "2026-11-18T13:40:25.305572+00:00"
+          }
+        ],
+        "myBidderAlias": null,
+        "myMaxBid": null,
+        "highestBid": {
+          "id": 18783080,
+          "auctionId": 311502,
+          "bidderAlias": null,
+          "amount": 120000,
+          "type": "NORMAL",
+          "maxBidId": 10975371,
+          "triggeredBy": 10975371,
+          "createdAt": "2026-11-18T13:40:25.305564+00:00",
+          "updatedAt": "2026-11-18T13:40:25.305572+00:00",
+          "eurAmount": 10770
+        },
+        "buyNowAvailable": true,
+        "releasing": null,
+        "isHighestBidLowerThanResidualLoanValue": false
+      },
+      "processObject": {
+        "sellMethod": "BIDDING",
+        "conditionClassification": "TESTED",
+        "properties": {
+          "adHeader": "V60 D3 (150hk) Momentum SE II Drag Värmare",
+          "fuels": [
+            {
+              "consumption": 4.6,
+              "co2": 120,
+              "fuelCode": "Diesel",
+              "enginePower": 150
+            }
+          ],
+          "numberOfPreviousOwners": 4,
+          "exteriorColor": "Silver",
+          "title": "Volvo V60 D3 (150hk)",
+          "body": "Wagon",
+          "ecoFriendly": false,
+          "exportable": true,
+          "odometerReading": 101180,
+          "modelName": "V60 D3 (150hk)",
+          "deductibleVat": false,
+          "gearbox": "Automatic",
+          "saleLimitedToCorporate": false,
+          "registrationPlate": "SJO921",
+          "package": "Momentum SE II Drag Värmare",
+          "odometerUnit": "km",
+          "modelYear": 2020,
+          "hasUnpaidLoan": false,
+          "brand": "Volvo",
+          "heavyEquipment": false,
+          "mustExport": false,
+          "familyName": "V60",
+          "heading1": "Volvo V60",
+          "heading2": "D3",
+          "heading3": "Momentum SE II Drag Värmare"
+        },
+        "displayCar360Spin": true,
+        "id": "7288524",
+        "reducedPrice": true,
+        "car360Spin": null,
+        "vehicleType": "CAR",
+        "testDriveAllowed": true,
+        "createdAt": "2026-09-11 08:28:38.722680+00:00",
+        "leaseReturnProperties": {},
+        "state": "AUCTION",
+        "baseObject": {
+          "fuels": [
+            {
+              "fuelCode": "Diesel",
+              "powerUnit": "EG",
+              "enginePower": 110,
+              "enginePowerHp": 150,
+              "fuelTankVolume": ""
+            }
+          ],
+          "salesFlow": "CONSUMER_CARS",
+          "exteriorColor": "Silver",
+          "earliestAvailableAt": null,
+          "body": "Wagon",
+          "registrationCountry": "se",
+          "id": "515580",
+          "odometerReading": null,
+          "modelName": "V60 D3 (150hk)",
+          "gearbox": "Automatic",
+          "createdAt": "2026-09-11T08:28:38.490244+00:00",
+          "state": "MANUAL_VALUATION_PENDING",
+          "registrationPlate": "SJO921",
+          "baseObjectType": "CAR",
+          "modelId": null,
+          "fabricAndMake": "VOLVO",
+          "year": "2020",
+          "odometerUnit": "km",
+          "brand": "Volvo",
+          "familyName": "V60",
+          "technicalSpecification": {
+            "modelId": null,
+            "vehicle": {
+              "brand": "Volvo",
+              "body": "Wagon",
+              "modelName": "V60 D3 (150hk)",
+              "familyName": "V60"
+            },
+            "year": "2020"
+          }
+        },
+        "isReleasable": false,
+        "certified": false,
+        "initialBuyNowAmount": 229900,
+        "proactiveBrokering": null,
+        "baseObjectId": "515580",
+        "buyNowAmount": 214800,
+        "presentationApproved": false,
+        "isFixedPrice": false,
+        "statisticalValuation": null,
+        "offsiteSalesContact": null,
+        "objectType": "CAR",
+        "exportable": true,
+        "deductibleVat": false,
+        "collisionWarranty": null,
+        "title": "Volvo V60 D3 (150hk)",
+        "brand": "Volvo",
+        "familyName": "V60",
+        "modelName": "V60 D3 (150hk)",
+        "package": "Momentum SE II Drag Värmare",
+        "heading1": "Volvo V60",
+        "heading2": "D3",
+        "heading3": "Momentum SE II Drag Värmare"
+      },
+      "previewImages": [
+        {
+          "processObjectId": "7288524",
+          "uri": "https://kvdbil-images.imgix.net/7288524/1d2c89e5.jpg",
+          "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7288524/1d2c89e5.jpg",
+          "type": "PRESENTATION",
+          "contentType": "image",
+          "order": 1
+        },
+        {
+          "processObjectId": "7288524",
+          "uri": "https://kvdbil-images.imgix.net/7288524/3471a2f2.jpg",
+          "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7288524/3471a2f2.jpg",
+          "type": "PRESENTATION",
+          "contentType": "image",
+          "order": 2
+        }
+      ],
+      "previewImage": "https://kvdbil-images.imgix.net/7288524/1d2c89e5.jpg"
+    },
+    {
+      "id": "311621",
+      "auctionType": "BIDDING",
+      "biddingFee": "5775.00",
+      "biddingFeeCorporate": "7438.00",
+      "mediationFee": 0,
+      "mediationFeeCorporate": 0,
+      "buyNow": false,
+      "closedAt": null,
+      "publishedAt": "2026-11-17T11:20:07.991144+00:00",
+      "countdownDuration": 210,
+      "countdownStartAt": "2026-11-20T09:17:30+00:00",
+      "createdAt": "2026-11-17T09:31:24.013700+00:00",
+      "readyForAuctionAt": "2026-11-15",
+      "currency": "SEK",
+      "maxBidRaise": 100000,
+      "minBidRaise": 500,
+      "startBid": 110000,
+      "openedAt": "2026-11-17T15:33:30.492788+00:00",
+      "processObjectId": "7294330",
+      "readyForCheckout": false,
+      "soldFor": null,
+      "sellMethod": null,
+      "slug": "volvo-v60-b4-mildhybrid-diesel-197hk",
+      "auctionUrl": "https://www.kvd.se/auktioner/volvo-v60-b4-mildhybrid-diesel-197hk-311621",
+      "state": "OPEN",
+      "targetedAuctionGroupId": null,
+      "updatedAt": "2026-11-19T11:08:35.404583+00:00",
+      "releasing": null,
+      "loan": {
+        "loanCost": 1329,
+        "loanCostBuyNow": null
+      },
+      "buyNowAmount": null,
+      "buyNowAvailable": false,
+      "buyNowUntil": null,
+      "eligibleForAdditionalServices": true,
+      "comingSoon": false,
+      "preliminaryPrice": 220000,
+      "maxAllowedBid": 330000,
+      "isReserved": false,
+      "isSoldByBuyNow": false,
+      "favouriteCount": 18,
+      "winningBid": null,
+      "activeAuction": {
+        "auctionId": "311621",
+        "closed": false,
+        "countdownInProgress": false,
+        "preliminaryCloseAt": "2026-11-20T09:21:00+00:00",
+        "createdAt": "2026-11-17T15:33:30.494307+00:00",
+        "updatedAt": "2026-11-17T15:33:31.538193+00:00",
+        "vatExcludedBiddingAllowed": false,
+        "reservationPriceReached": false,
+        "bids": [
+          {
+            "id": 18789212,
+            "auctionId": 311621,
+            "bidderAlias": "3",
+            "amount": 156000,
+            "type": "AUTO",
+            "maxBidId": 10976864,
+            "triggeredBy": 10978940,
+            "createdAt": "2026-11-19T11:08:35.184775+00:00",
+            "updatedAt": "2026-11-19T11:08:35.184779+00:00"
+          },
+          {
+            "id": 18789211,
+            "auctionId": 311621,
+            "bidderAlias": "5",
+            "amount": 155500,
+            "type": "NORMAL",
+            "maxBidId": 10978940,
+            "triggeredBy": 10978940,
+            "createdAt": "2026-11-19T11:08:35.184762+00:00",
+            "updatedAt": "2026-11-19T11:08:35.184770+00:00"
+          },
+          {
+            "id": 18787551,
+            "auctionId": 311621,
+            "bidderAlias": "3",
+            "amount": 151500,
+            "type": "AUTO",
+            "maxBidId": 10976864,
+            "triggeredBy": 10977981,
+            "createdAt": "2026-11-19T09:36:36.851394+00:00",
+            "updatedAt": "2026-11-19T09:36:36.851396+00:00"
+          },
+          {
+            "id": 18787550,
+            "auctionId": 311621,
+            "bidderAlias": "5",
+            "amount": 151000,
+            "type": "NORMAL",
+            "maxBidId": 10977981,
+            "triggeredBy": 10977981,
+            "createdAt": "2026-11-19T09:36:36.851384+00:00",
+            "updatedAt": "2026-11-19T09:36:36.851391+00:00"
+          },
+          {
+            "id": 18787546,
+            "auctionId": 311621,
+            "bidderAlias": "3",
+            "amount": 146500,
+            "type": "AUTO",
+            "maxBidId": 10976864,
+            "triggeredBy": 10977978,
+            "createdAt": "2026-11-19T09:36:24.397063+00:00",
+            "updatedAt": "2026-11-19T09:36:24.397065+00:00"
+          },
+          {
+            "id": 18787545,
+            "auctionId": 311621,
+            "bidderAlias": "5",
+            "amount": 146000,
+            "type": "NORMAL",
+            "maxBidId": 10977978,
+            "triggeredBy": 10977978,
+            "createdAt": "2026-11-19T09:36:24.397054+00:00",
+            "updatedAt": "2026-11-19T09:36:24.397061+00:00"
+          },
+          {
+            "id": 18787542,
+            "auctionId": 311621,
+            "bidderAlias": "3",
+            "amount": 145500,
+            "type": "AUTO",
+            "maxBidId": 10976864,
+            "triggeredBy": 10977976,
+            "createdAt": "2026-11-19T09:36:03.512531+00:00",
+            "updatedAt": "2026-11-19T09:36:03.512534+00:00"
+          },
+          {
+            "id": 18787541,
+            "auctionId": 311621,
+            "bidderAlias": "5",
+            "amount": 145000,
+            "type": "NORMAL",
+            "maxBidId": 10977976,
+            "triggeredBy": 10977976,
+            "createdAt": "2026-11-19T09:36:03.512517+00:00",
+            "updatedAt": "2026-11-19T09:36:03.512527+00:00"
+          },
+          {
+            "id": 18787532,
+            "auctionId": 311621,
+            "bidderAlias": "3",
+            "amount": 140500,
+            "type": "AUTO",
+            "maxBidId": 10976864,
+            "triggeredBy": 10977970,
+            "createdAt": "2026-11-19T09:35:23.293545+00:00",
+            "updatedAt": "2026-11-19T09:35:23.293547+00:00"
+          },
+          {
+            "id": 18787531,
+            "auctionId": 311621,
+            "bidderAlias": "5",
+            "amount": 140000,
+            "type": "NORMAL",
+            "maxBidId": 10977970,
+            "triggeredBy": 10977970,
+            "createdAt": "2026-11-19T09:35:23.293535+00:00",
+            "updatedAt": "2026-11-19T09:35:23.293542+00:00"
+          },
+          {
+            "id": 18787518,
+            "auctionId": 311621,
+            "bidderAlias": "3",
+            "amount": 130500,
+            "type": "AUTO",
+            "maxBidId": 10976864,
+            "triggeredBy": 10977962,
+            "createdAt": "2026-11-19T09:35:00.946847+00:00",
+            "updatedAt": "2026-11-19T09:35:00.946849+00:00"
+          },
+          {
+            "id": 18787517,
+            "auctionId": 311621,
+            "bidderAlias": "5",
+            "amount": 130000,
+            "type": "NORMAL",
+            "maxBidId": 10977962,
+            "triggeredBy": 10977962,
+            "createdAt": "2026-11-19T09:35:00.946837+00:00",
+            "updatedAt": "2026-11-19T09:35:00.946844+00:00"
+          },
+          {
+            "id": 18786021,
+            "auctionId": 311621,
+            "bidderAlias": "3",
+            "amount": 128500,
+            "type": "AUTO",
+            "maxBidId": 10976864,
+            "triggeredBy": 10977130,
+            "createdAt": "2026-11-19T03:14:32.531880+00:00",
+            "updatedAt": "2026-11-19T03:14:32.531883+00:00"
+          },
+          {
+            "id": 18786020,
+            "auctionId": 311621,
+            "bidderAlias": "4",
+            "amount": 128000,
+            "type": "NORMAL",
+            "maxBidId": 10977130,
+            "triggeredBy": 10977130,
+            "createdAt": "2026-11-19T03:14:32.531868+00:00",
+            "updatedAt": "2026-11-19T03:14:32.531876+00:00"
+          },
+          {
+            "id": 18786019,
+            "auctionId": 311621,
+            "bidderAlias": "3",
+            "amount": 127500,
+            "type": "AUTO",
+            "maxBidId": 10976864,
+            "triggeredBy": 10977129,
+            "createdAt": "2026-11-19T03:14:22.934460+00:00",
+            "updatedAt": "2026-11-19T03:14:22.934462+00:00"
+          },
+          {
+            "id": 18786018,
+            "auctionId": 311621,
+            "bidderAlias": "4",
+            "amount": 127000,
+            "type": "NORMAL",
+            "maxBidId": 10977129,
+            "triggeredBy": 10977129,
+            "createdAt": "2026-11-19T03:14:22.934449+00:00",
+            "updatedAt": "2026-11-19T03:14:22.934457+00:00"
+          },
+          {
+            "id": 18786017,
+            "auctionId": 311621,
+            "bidderAlias": "3",
+            "amount": 125500,
+            "type": "AUTO",
+            "maxBidId": 10976864,
+            "triggeredBy": 10977128,
+            "createdAt": "2026-11-19T03:14:14.270888+00:00",
+            "updatedAt": "2026-11-19T03:14:14.270890+00:00"
+          },
+          {
+            "id": 18786016,
+            "auctionId": 311621,
+            "bidderAlias": "4",
+            "amount": 125000,
+            "type": "NORMAL",
+            "maxBidId": 10977128,
+            "triggeredBy": 10977128,
+            "createdAt": "2026-11-19T03:14:14.270878+00:00",
+            "updatedAt": "2026-11-19T03:14:14.270885+00:00"
+          },
+          {
+            "id": 18785547,
+            "auctionId": 311621,
+            "bidderAlias": "3",
+            "amount": 121500,
+            "type": "NORMAL",
+            "maxBidId": 10976864,
+            "triggeredBy": 10976864,
+            "createdAt": "2026-11-18T21:01:40.428857+00:00",
+            "updatedAt": "2026-11-18T21:01:40.428862+00:00"
+          },
+          {
+            "id": 18785546,
+            "auctionId": 311621,
+            "bidderAlias": "1",
+            "amount": 121000,
+            "type": "LIMIT_REACHED",
+            "maxBidId": 10976862,
+            "triggeredBy": 10976864,
+            "createdAt": "2026-11-18T21:01:40.428844+00:00",
+            "updatedAt": "2026-11-18T21:01:40.428853+00:00"
+          },
+          {
+            "id": 18785544,
+            "auctionId": 311621,
+            "bidderAlias": "1",
+            "amount": 120500,
+            "type": "NORMAL",
+            "maxBidId": 10976862,
+            "triggeredBy": 10976862,
+            "createdAt": "2026-11-18T21:00:14.209631+00:00",
+            "updatedAt": "2026-11-18T21:00:14.209633+00:00"
+          },
+          {
+            "id": 18785543,
+            "auctionId": 311621,
+            "bidderAlias": "3",
+            "amount": 120000,
+            "type": "LIMIT_REACHED",
+            "maxBidId": 10976856,
+            "triggeredBy": 10976862,
+            "createdAt": "2026-11-18T21:00:14.209622+00:00",
+            "updatedAt": "2026-11-18T21:00:14.209628+00:00"
+          },
+          {
+            "id": 18785533,
+            "auctionId": 311621,
+            "bidderAlias": "3",
+            "amount": 116000,
+            "type": "NORMAL",
+            "maxBidId": 10976856,
+            "triggeredBy": 10976856,
+            "createdAt": "2026-11-18T20:59:10.637965+00:00",
+            "updatedAt": "2026-11-18T20:59:10.637995+00:00"
+          },
+          {
+            "id": 18785255,
+            "auctionId": 311621,
+            "bidderAlias": "1",
+            "amount": 115500,
+            "type": "NORMAL",
+            "maxBidId": 10976702,
+            "triggeredBy": 10976702,
+            "createdAt": "2026-11-18T20:12:41.638425+00:00",
+            "updatedAt": "2026-11-18T20:12:41.638428+00:00"
+          },
+          {
+            "id": 18785254,
+            "auctionId": 311621,
+            "bidderAlias": "2",
+            "amount": 115000,
+            "type": "LIMIT_REACHED",
+            "maxBidId": 10976692,
+            "triggeredBy": 10976702,
+            "createdAt": "2026-11-18T20:12:41.638414+00:00",
+            "updatedAt": "2026-11-18T20:12:41.638422+00:00"
+          },
+          {
+            "id": 18785253,
+            "auctionId": 311621,
+            "bidderAlias": "2",
+            "amount": 114500,
+            "type": "AUTO",
+            "maxBidId": 10976692,
+            "triggeredBy": 10976701,
+            "createdAt": "2026-11-18T20:12:09.311993+00:00",
+            "updatedAt": "2026-11-18T20:12:09.311994+00:00"
+          },
+          {
+            "id": 18785252,
+            "auctionId": 311621,
+            "bidderAlias": "1",
+            "amount": 114000,
+            "type": "NORMAL",
+            "maxBidId": 10976701,
+            "triggeredBy": 10976701,
+            "createdAt": "2026-11-18T20:12:09.311982+00:00",
+            "updatedAt": "2026-11-18T20:12:09.311990+00:00"
+          },
+          {
+            "id": 18785249,
+            "auctionId": 311621,
+            "bidderAlias": "2",
+            "amount": 113500,
+            "type": "AUTO",
+            "maxBidId": 10976692,
+            "triggeredBy": 10976698,
+            "createdAt": "2026-11-18T20:11:44.517317+00:00",
+            "updatedAt": "2026-11-18T20:11:44.517320+00:00"
+          },
+          {
+            "id": 18785248,
+            "auctionId": 311621,
+            "bidderAlias": "1",
+            "amount": 113000,
+            "type": "NORMAL",
+            "maxBidId": 10976698,
+            "triggeredBy": 10976698,
+            "createdAt": "2026-11-18T20:11:44.517304+00:00",
+            "updatedAt": "2026-11-18T20:11:44.517313+00:00"
+          },
+          {
+            "id": 18785242,
+            "auctionId": 311621,
+            "bidderAlias": "2",
+            "amount": 111500,
+            "type": "AUTO",
+            "maxBidId": 10976692,
+            "triggeredBy": 10976694,
+            "createdAt": "2026-11-18T20:10:45.073997+00:00",
+            "updatedAt": "2026-11-18T20:10:45.073999+00:00"
+          },
+          {
+            "id": 18785241,
+            "auctionId": 311621,
+            "bidderAlias": "1",
+            "amount": 111000,
+            "type": "NORMAL",
+            "maxBidId": 10976694,
+            "triggeredBy": 10976694,
+            "createdAt": "2026-11-18T20:10:45.073987+00:00",
+            "updatedAt": "2026-11-18T20:10:45.073994+00:00"
+          },
+          {
+            "id": 18785238,
+            "auctionId": 311621,
+            "bidderAlias": "2",
+            "amount": 110500,
+            "type": "NORMAL",
+            "maxBidId": 10976692,
+            "triggeredBy": 10976692,
+            "createdAt": "2026-11-18T20:08:56.261976+00:00",
+            "updatedAt": "2026-11-18T20:08:56.261986+00:00"
+          },
+          {
+            "id": 18777754,
+            "auctionId": 311621,
+            "bidderAlias": "1",
+            "amount": 110000,
+            "type": "NORMAL",
+            "maxBidId": 10972341,
+            "triggeredBy": 10972341,
+            "createdAt": "2026-11-17T19:04:15.964898+00:00",
+            "updatedAt": "2026-11-17T19:04:15.964907+00:00"
+          }
+        ],
+        "myBidderAlias": null,
+        "myMaxBid": null,
+        "highestBid": {
+          "id": 18789212,
+          "auctionId": 311621,
+          "bidderAlias": null,
+          "amount": 156000,
+          "type": "AUTO",
+          "maxBidId": 10976864,
+          "triggeredBy": 10978940,
+          "createdAt": "2026-11-19T11:08:35.184775+00:00",
+          "updatedAt": "2026-11-19T11:08:35.184779+00:00",
+          "eurAmount": 14000
+        },
+        "buyNowAvailable": false,
+        "releasing": null,
+        "isHighestBidLowerThanResidualLoanValue": false
+      },
+      "processObject": {
+        "sellMethod": "BIDDING",
+        "conditionClassification": "TESTED",
+        "properties": {
+          "adHeader": "V60 B4 Mildhybrid Diesel 197hk Advanced 360-kamera",
+          "fuels": [
+            {
+              "consumption": 4.7,
+              "co2": 125,
+              "fuelCode": "Diesel",
+              "enginePower": 197
+            }
+          ],
+          "numberOfPreviousOwners": 3,
+          "exteriorColor": "Grey",
+          "title": "Volvo V60 B4 Mildhybrid, Diesel (197hk)",
+          "body": "Wagon",
+          "ecoFriendly": false,
+          "exportable": true,
+          "odometerReading": 149280,
+          "modelName": "V60 B4 Mildhybrid, Diesel (197hk)",
+          "deductibleVat": false,
+          "gearbox": "Automatic",
+          "saleLimitedToCorporate": false,
+          "registrationPlate": "UFE77C",
+          "package": "Advanced 360-kamera",
+          "odometerUnit": "km",
+          "modelYear": 2022,
+          "hasUnpaidLoan": false,
+          "brand": "Volvo",
+          "heavyEquipment": false,
+          "mustExport": false,
+          "familyName": "V60",
+          "heading1": "Volvo V60",
+          "heading2": "B4 Mildhybrid, Diesel",
+          "heading3": "Advanced 360-kamera"
+        },
+        "displayCar360Spin": true,
+        "id": "7294330",
+        "reducedPrice": false,
+        "car360Spin": null,
+        "vehicleType": "CAR",
+        "testDriveAllowed": true,
+        "createdAt": "2026-11-03 07:52:52.238370+00:00",
+        "leaseReturnProperties": {},
+        "state": "AUCTION",
+        "baseObject": {
+          "fuels": [
+            {
+              "fuelCode": "Diesel",
+              "powerUnit": "EG",
+              "enginePower": 145,
+              "enginePowerHp": 197,
+              "fuelTankVolume": ""
+            }
+          ],
+          "salesFlow": "CORPORATE_CARS_SMALL",
+          "exteriorColor": "Grey",
+          "earliestAvailableAt": null,
+          "body": "Wagon",
+          "registrationCountry": "se",
+          "id": "527214",
+          "odometerReading": null,
+          "modelName": "V60 B4 Mildhybrid, Diesel (197hk)",
+          "gearbox": "Automatic",
+          "createdAt": "2026-11-03T07:52:51.967561+00:00",
+          "state": "MANUAL_VALUATION_PENDING",
+          "registrationPlate": "UFE77C",
+          "baseObjectType": "CAR",
+          "modelId": null,
+          "fabricAndMake": "VOLVO",
+          "year": "2022",
+          "odometerUnit": "km",
+          "brand": "Volvo",
+          "familyName": "V60",
+          "technicalSpecification": {
+            "modelId": null,
+            "vehicle": {
+              "brand": "Volvo",
+              "body": "Wagon",
+              "modelName": "V60 B4 Mildhybrid, Diesel (197hk)",
+              "familyName": "V60"
+            },
+            "year": "2022"
+          }
+        },
+        "isReleasable": false,
+        "certified": false,
+        "initialBuyNowAmount": null,
+        "proactiveBrokering": null,
+        "baseObjectId": "527214",
+        "buyNowAmount": null,
+        "presentationApproved": false,
+        "isFixedPrice": false,
+        "statisticalValuation": null,
+        "offsiteSalesContact": null,
+        "objectType": "CAR",
+        "exportable": true,
+        "deductibleVat": false,
+        "collisionWarranty": null,
+        "title": "Volvo V60 B4 Mildhybrid, Diesel (197hk)",
+        "brand": "Volvo",
+        "familyName": "V60",
+        "modelName": "V60 B4 Mildhybrid, Diesel (197hk)",
+        "package": "Advanced 360-kamera",
+        "heading1": "Volvo V60",
+        "heading2": "B4 Mildhybrid, Diesel",
+        "heading3": "Advanced 360-kamera"
+      },
+      "previewImages": [
+        {
+          "processObjectId": "7294330",
+          "uri": "https://kvdbil-images.imgix.net/7294330/e4643969.jpg",
+          "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7294330/e4643969.jpg",
+          "type": "PRESENTATION",
+          "contentType": "image",
+          "order": 1
+        },
+        {
+          "processObjectId": "7294330",
+          "uri": "https://kvdbil-images.imgix.net/7294330/123a2954.jpg",
+          "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7294330/123a2954.jpg",
+          "type": "PRESENTATION",
+          "contentType": "image",
+          "order": 2
+        }
+      ],
+      "previewImage": "https://kvdbil-images.imgix.net/7294330/e4643969.jpg"
+    },
+    {
+      "id": "311043",
+      "auctionType": "BIDDING",
+      "biddingFee": "6900.00",
+      "biddingFeeCorporate": "9875.00",
+      "mediationFee": 0,
+      "mediationFeeCorporate": 0,
+      "buyNow": false,
+      "closedAt": null,
+      "publishedAt": "2026-11-16T07:44:05.581570+00:00",
+      "countdownDuration": 210,
+      "countdownStartAt": "2026-11-20T10:06:30+00:00",
+      "createdAt": "2026-11-12T08:28:25.127159+00:00",
+      "readyForAuctionAt": "2026-11-15",
+      "currency": "SEK",
+      "maxBidRaise": 100000,
+      "minBidRaise": 500,
+      "startBid": 142000,
+      "openedAt": "2026-11-16T17:00:43.830764+00:00",
+      "processObjectId": "7294263",
+      "readyForCheckout": false,
+      "soldFor": null,
+      "sellMethod": null,
+      "slug": "volvo-v60-t6-awd-twin-engine-340hk",
+      "auctionUrl": "https://www.kvd.se/auktioner/volvo-v60-t6-awd-twin-engine-340hk-311043",
+      "state": "OPEN",
+      "targetedAuctionGroupId": null,
+      "updatedAt": "2026-11-19T10:44:17.157708+00:00",
+      "releasing": null,
+      "loan": {
+        "loanCost": null,
+        "loanCostBuyNow": 2257
+      },
+      "buyNowAmount": null,
+      "buyNowAvailable": false,
+      "buyNowUntil": null,
+      "eligibleForAdditionalServices": true,
+      "comingSoon": false,
+      "preliminaryPrice": 285000,
+      "maxAllowedBid": 427500,
+      "isReserved": false,
+      "isSoldByBuyNow": false,
+      "favouriteCount": 16,
+      "winningBid": null,
+      "activeAuction": {
+        "auctionId": "311043",
+        "closed": false,
+        "countdownInProgress": false,
+        "preliminaryCloseAt": "2026-11-20T10:10:00+00:00",
+        "createdAt": "2026-11-16T17:00:43.832727+00:00",
+        "updatedAt": "2026-11-16T17:00:44.884538+00:00",
+        "vatExcludedBiddingAllowed": false,
+        "reservationPriceReached": false,
+        "bids": [],
+        "myBidderAlias": null,
+        "myMaxBid": null,
+        "highestBid": null,
+        "buyNowAvailable": false,
+        "releasing": null,
+        "isHighestBidLowerThanResidualLoanValue": false
+      },
+      "processObject": {
+        "sellMethod": "BIDDING",
+        "conditionClassification": "TESTED",
+        "properties": {
+          "adHeader": "V60 Recharge T6 AWD (340hk) Inscription Expression",
+          "fuels": [
+            {
+              "fuelCode": "Petrol",
+              "rangeNedcDrive": 55,
+              "enginePower": 253
+            },
+            {
+              "fuelCode": "Electric",
+              "rangeWltpDrive": 54,
+              "rangeCityWltpDrive": 57,
+              "enginePower": 88
+            }
+          ],
+          "numberOfPreviousOwners": 5,
+          "exteriorColor": "Black",
+          "title": "Volvo V60 T6 AWD Twin Engine (340hk)",
+          "body": "Wagon",
+          "ecoFriendly": true,
+          "exportable": true,
+          "odometerReading": 104820,
+          "modelName": "V60 T6 AWD Twin Engine (340hk)",
+          "deductibleVat": false,
+          "gearbox": "Automatic",
+          "saleLimitedToCorporate": false,
+          "registrationPlate": "ARH52L",
+          "package": "Inscription Expression",
+          "odometerUnit": "km",
+          "modelYear": 2021,
+          "hasUnpaidLoan": true,
+          "brand": "Volvo",
+          "battstatResult": {
+            "rankingRangeMax": 3,
+            "rankingRangeMin": 1,
+            "sohPercent": 95,
+            "ranking": 3
+          },
+          "heavyEquipment": false,
+          "mustExport": false,
+          "familyName": "V60",
+          "electricType": "Plug-in hybrid",
+          "heading1": "Volvo V60",
+          "heading2": "T6 AWD Twin Engine",
+          "heading3": "Inscription Expression"
+        },
+        "displayCar360Spin": true,
+        "id": "7294263",
+        "reducedPrice": false,
+        "car360Spin": null,
+        "vehicleType": "CAR",
+        "testDriveAllowed": true,
+        "createdAt": "2026-11-02 13:08:42.378911+00:00",
+        "leaseReturnProperties": {},
+        "state": "AUCTION",
+        "baseObject": {
+          "fuels": [
+            {
+              "fuelCode": "Petrol",
+              "powerUnit": "EG",
+              "enginePower": 186,
+              "enginePowerHp": 253,
+              "fuelTankVolume": ""
+            },
+            {
+              "fuelCode": "Electric",
+              "powerUnit": "",
+              "enginePower": 65,
+              "enginePowerHp": 88,
+              "fuelTankVolume": ""
+            }
+          ],
+          "salesFlow": "CONSUMER_CARS",
+          "exteriorColor": "Black",
+          "earliestAvailableAt": null,
+          "body": "Wagon",
+          "registrationCountry": "se",
+          "id": "525940",
+          "odometerReading": 105420,
+          "modelName": "V60 T6 AWD Twin Engine (340hk)",
+          "gearbox": "Automatic",
+          "createdAt": "2026-10-27T23:12:44.298673+00:00",
+          "state": "PREPARING_SALES_AGREEMENT",
+          "registrationPlate": "ARH52L",
+          "baseObjectType": "CAR",
+          "modelId": null,
+          "fabricAndMake": "VOLVO",
+          "year": "2021",
+          "odometerUnit": "km",
+          "brand": "Volvo",
+          "familyName": "V60",
+          "technicalSpecification": {
+            "modelId": null,
+            "vehicle": {
+              "brand": "Volvo",
+              "body": "Wagon",
+              "modelName": "V60 T6 AWD Twin Engine (340hk)",
+              "familyName": "V60"
+            },
+            "year": "2021"
+          }
+        },
+        "isReleasable": false,
+        "certified": false,
+        "initialBuyNowAmount": null,
+        "proactiveBrokering": null,
+        "baseObjectId": "525940",
+        "buyNowAmount": null,
+        "presentationApproved": false,
+        "isFixedPrice": false,
+        "statisticalValuation": {
+          "bpOrange": 277200,
+          "bpWhite": 277200,
+          "bpGreen": null,
+          "marketPrice": 277200
+        },
+        "offsiteSalesContact": null,
+        "objectType": "CAR",
+        "exportable": true,
+        "deductibleVat": false,
+        "collisionWarranty": null,
+        "title": "Volvo V60 T6 AWD Twin Engine (340hk)",
+        "brand": "Volvo",
+        "familyName": "V60",
+        "modelName": "V60 T6 AWD Twin Engine (340hk)",
+        "package": "Inscription Expression",
+        "heading1": "Volvo V60",
+        "heading2": "T6 AWD Twin Engine",
+        "heading3": "Inscription Expression"
+      },
+      "previewImages": [
+        {
+          "processObjectId": "7294263",
+          "uri": "https://kvdbil-images.imgix.net/7294263/db145ca9.jpg",
+          "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7294263/db145ca9.jpg",
+          "type": "PRESENTATION",
+          "contentType": "image",
+          "order": 1
+        },
+        {
+          "processObjectId": "7294263",
+          "uri": "https://kvdbil-images.imgix.net/7294263/6f6ba791.jpg",
+          "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7294263/6f6ba791.jpg",
+          "type": "PRESENTATION",
+          "contentType": "image",
+          "order": 2
+        }
+      ],
+      "previewImage": "https://kvdbil-images.imgix.net/7294263/db145ca9.jpg"
+    },
+    {
+      "id": "311258",
+      "auctionType": "BIDDING",
+      "biddingFee": "5238.00",
+      "biddingFeeCorporate": "6663.00",
+      "mediationFee": 0,
+      "mediationFeeCorporate": 0,
+      "buyNow": false,
+      "closedAt": null,
+      "publishedAt": "2026-11-17T07:50:29.637443+00:00",
+      "countdownDuration": 210,
+      "countdownStartAt": "2026-11-22T19:06:30+00:00",
+      "createdAt": "2026-11-13T10:52:13.053937+00:00",
+      "readyForAuctionAt": "2026-11-15",
+      "currency": "SEK",
+      "maxBidRaise": 100000,
+      "minBidRaise": 500,
+      "startBid": 72000,
+      "openedAt": "2026-11-17T15:31:26.661622+00:00",
+      "processObjectId": "7294404",
+      "readyForCheckout": false,
+      "soldFor": null,
+      "sellMethod": null,
+      "slug": "volvo-v60-d4-181hk",
+      "auctionUrl": "https://www.kvd.se/auktioner/volvo-v60-d4-181hk-311258",
+      "state": "OPEN",
+      "targetedAuctionGroupId": null,
+      "updatedAt": "2026-11-19T08:12:11.792052+00:00",
+      "releasing": null,
+      "loan": {
+        "loanCost": 643,
+        "loanCostBuyNow": null
+      },
+      "buyNowAmount": null,
+      "buyNowAvailable": false,
+      "buyNowUntil": null,
+      "eligibleForAdditionalServices": true,
+      "comingSoon": false,
+      "preliminaryPrice": 145000,
+      "maxAllowedBid": 217500,
+      "isReserved": false,
+      "isSoldByBuyNow": false,
+      "favouriteCount": 15,
+      "winningBid": null,
+      "activeAuction": {
+        "auctionId": "311258",
+        "closed": false,
+        "countdownInProgress": false,
+        "preliminaryCloseAt": "2026-11-22T19:10:00+00:00",
+        "createdAt": "2026-11-17T15:31:26.663391+00:00",
+        "updatedAt": "2026-11-17T15:31:27.705222+00:00",
+        "vatExcludedBiddingAllowed": false,
+        "reservationPriceReached": false,
+        "bids": [
+          {
+            "id": 18781444,
+            "auctionId": 311258,
+            "bidderAlias": "1",
+            "amount": 75500,
+            "type": "AUTO",
+            "maxBidId": 10972567,
+            "triggeredBy": 10974421,
+            "createdAt": "2026-11-18T10:07:48.010465+00:00",
+            "updatedAt": "2026-11-18T10:07:48.010468+00:00"
+          },
+          {
+            "id": 18781443,
+            "auctionId": 311258,
+            "bidderAlias": "2",
+            "amount": 75000,
+            "type": "NORMAL",
+            "maxBidId": 10974421,
+            "triggeredBy": 10974421,
+            "createdAt": "2026-11-18T10:07:48.010454+00:00",
+            "updatedAt": "2026-11-18T10:07:48.010461+00:00"
+          },
+          {
+            "id": 18778128,
+            "auctionId": 311258,
+            "bidderAlias": "1",
+            "amount": 72000,
+            "type": "NORMAL",
+            "maxBidId": 10972567,
+            "triggeredBy": 10972567,
+            "createdAt": "2026-11-17T19:57:18.369732+00:00",
+            "updatedAt": "2026-11-17T19:57:18.369740+00:00"
+          }
+        ],
+        "myBidderAlias": null,
+        "myMaxBid": null,
+        "highestBid": {
+          "id": 18781444,
+          "auctionId": 311258,
+          "bidderAlias": null,
+          "amount": 75500,
+          "type": "AUTO",
+          "maxBidId": 10972567,
+          "triggeredBy": 10974421,
+          "createdAt": "2026-11-18T10:07:48.010465+00:00",
+          "updatedAt": "2026-11-18T10:07:48.010468+00:00",
+          "eurAmount": 6780
+        },
+        "buyNowAvailable": false,
+        "releasing": null,
+        "isHighestBidLowerThanResidualLoanValue": false
+      },
+      "processObject": {
+        "sellMethod": "BIDDING",
+        "conditionClassification": "TESTED",
+        "properties": {
+          "adHeader": "V60 D4 (181hk) Momentum BE Drag Backkamera",
+          "fuels": [
+            {
+              "consumption": 4.3,
+              "co2": 112,
+              "fuelCode": "Diesel",
+              "enginePower": 181
+            }
+          ],
+          "numberOfPreviousOwners": 2,
+          "exteriorColor": "White",
+          "title": "Volvo V60 D4 (181hk)",
+          "body": "Wagon",
+          "ecoFriendly": false,
+          "exportable": true,
+          "odometerReading": 161370,
+          "modelName": "V60 D4 (181hk)",
+          "deductibleVat": false,
+          "gearbox": "Automatic",
+          "saleLimitedToCorporate": false,
+          "registrationPlate": "BNT931",
+          "package": "Momentum BE Drag Backkamera",
+          "odometerUnit": "km",
+          "modelYear": 2015,
+          "hasUnpaidLoan": false,
+          "brand": "Volvo",
+          "heavyEquipment": false,
+          "mustExport": false,
+          "familyName": "V60",
+          "heading1": "Volvo V60",
+          "heading2": "D4",
+          "heading3": "Momentum BE Drag Backkamera"
+        },
+        "displayCar360Spin": true,
+        "id": "7294404",
+        "reducedPrice": false,
+        "car360Spin": null,
+        "vehicleType": "CAR",
+        "testDriveAllowed": true,
+        "createdAt": "2026-11-03 13:15:45.371081+00:00",
+        "leaseReturnProperties": {},
+        "state": "AUCTION",
+        "baseObject": {
+          "fuels": [
+            {
+              "fuelCode": "Diesel",
+              "powerUnit": "EG",
+              "enginePower": 133,
+              "enginePowerHp": 181,
+              "fuelTankVolume": ""
+            }
+          ],
+          "salesFlow": "CONSUMER_CARS",
+          "exteriorColor": "White",
+          "earliestAvailableAt": null,
+          "body": "Wagon",
+          "registrationCountry": "se",
+          "id": "526744",
+          "odometerReading": 160000,
+          "modelName": "V60 D4 (181hk)",
+          "gearbox": "Automatic",
+          "createdAt": "2026-10-31T17:11:19.818643+00:00",
+          "state": "PREPARING_SALES_AGREEMENT",
+          "registrationPlate": "BNT931",
+          "baseObjectType": "CAR",
+          "modelId": null,
+          "fabricAndMake": "VOLVO F + V60",
+          "year": "2015",
+          "odometerUnit": "km",
+          "brand": "Volvo",
+          "familyName": "V60",
+          "technicalSpecification": {
+            "modelId": null,
+            "vehicle": {
+              "brand": "Volvo",
+              "body": "Wagon",
+              "modelName": "V60 D4 (181hk)",
+              "familyName": "V60"
+            },
+            "year": "2015"
+          }
+        },
+        "isReleasable": false,
+        "certified": false,
+        "initialBuyNowAmount": null,
+        "proactiveBrokering": null,
+        "baseObjectId": "526744",
+        "buyNowAmount": null,
+        "presentationApproved": false,
+        "isFixedPrice": false,
+        "statisticalValuation": {
+          "bpOrange": 148900,
+          "bpWhite": 148900,
+          "bpGreen": null,
+          "marketPrice": 148900
+        },
+        "offsiteSalesContact": null,
+        "objectType": "CAR",
+        "exportable": true,
+        "deductibleVat": false,
+        "collisionWarranty": null,
+        "title": "Volvo V60 D4 (181hk)",
+        "brand": "Volvo",
+        "familyName": "V60",
+        "modelName": "V60 D4 (181hk)",
+        "package": "Momentum BE Drag Backkamera",
+        "heading1": "Volvo V60",
+        "heading2": "D4",
+        "heading3": "Momentum BE Drag Backkamera"
+      },
+      "previewImages": [
+        {
+          "processObjectId": "7294404",
+          "uri": "https://kvdbil-images.imgix.net/7294404/69d4c236.jpg",
+          "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7294404/69d4c236.jpg",
+          "type": "PRESENTATION",
+          "contentType": "image",
+          "order": 1
+        },
+        {
+          "processObjectId": "7294404",
+          "uri": "https://kvdbil-images.imgix.net/7294404/0e24f11d.jpg",
+          "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7294404/0e24f11d.jpg",
+          "type": "PRESENTATION",
+          "contentType": "image",
+          "order": 2
+        }
+      ],
+      "previewImage": "https://kvdbil-images.imgix.net/7294404/69d4c236.jpg"
+    },
+    {
+      "id": "310902",
+      "auctionType": "BIDDING",
+      "biddingFee": "6900.00",
+      "biddingFeeCorporate": "9875.00",
+      "mediationFee": 0,
+      "mediationFeeCorporate": 0,
+      "buyNow": true,
+      "closedAt": null,
+      "publishedAt": "2026-11-12T08:22:53.645730+00:00",
+      "countdownDuration": 210,
+      "countdownStartAt": "2026-11-26T09:26:30+00:00",
+      "createdAt": "2026-11-11T09:54:14.297566+00:00",
+      "readyForAuctionAt": "2026-11-22",
+      "currency": "SEK",
+      "maxBidRaise": 100000,
+      "minBidRaise": 500,
+      "startBid": 245000,
+      "openedAt": "2026-11-12T08:23:44.773048+00:00",
+      "processObjectId": "7291903",
+      "readyForCheckout": false,
+      "soldFor": null,
+      "sellMethod": null,
+      "slug": "volvo-v60-t6-awd-twin-engine-340hk",
+      "auctionUrl": "https://www.kvd.se/auktioner/volvo-v60-t6-awd-twin-engine-340hk-310902",
+      "state": "OPEN",
+      "targetedAuctionGroupId": null,
+      "updatedAt": "2026-11-19T10:30:06.312752+00:00",
+      "releasing": null,
+      "loan": {
+        "loanCost": 2194,
+        "loanCostBuyNow": 2810
+      },
+      "buyNowAmount": 329900,
+      "buyNowAvailable": true,
+      "buyNowUntil": "2026-11-24T09:26:30+00:00",
+      "eligibleForAdditionalServices": true,
+      "comingSoon": false,
+      "preliminaryPrice": 350000,
+      "maxAllowedBid": 525000,
+      "isReserved": false,
+      "isSoldByBuyNow": false,
+      "favouriteCount": 53,
+      "winningBid": null,
+      "activeAuction": {
+        "auctionId": "310902",
+        "closed": false,
+        "countdownInProgress": false,
+        "preliminaryCloseAt": "2026-11-26T09:30:00+00:00",
+        "createdAt": "2026-11-12T08:23:44.774861+00:00",
+        "updatedAt": "2026-11-12T08:23:45.839564+00:00",
+        "vatExcludedBiddingAllowed": false,
+        "reservationPriceReached": false,
+        "bids": [
+          {
+            "id": 18774892,
+            "auctionId": 310902,
+            "bidderAlias": "4",
+            "amount": 257500,
+            "type": "AUTO",
+            "maxBidId": 10963915,
+            "triggeredBy": 10970662,
+            "createdAt": "2026-11-17T10:36:36.979993+00:00",
+            "updatedAt": "2026-11-17T10:36:36.979996+00:00"
+          },
+          {
+            "id": 18774891,
+            "auctionId": 310902,
+            "bidderAlias": "7",
+            "amount": 257000,
+            "type": "NORMAL",
+            "maxBidId": 10970662,
+            "triggeredBy": 10970662,
+            "createdAt": "2026-11-17T10:36:36.979978+00:00",
+            "updatedAt": "2026-11-17T10:36:36.979988+00:00"
+          },
+          {
+            "id": 18774850,
+            "auctionId": 310902,
+            "bidderAlias": "4",
+            "amount": 255500,
+            "type": "AUTO",
+            "maxBidId": 10963915,
+            "triggeredBy": 10970639,
+            "createdAt": "2026-11-17T10:34:14.986261+00:00",
+            "updatedAt": "2026-11-17T10:34:14.986263+00:00"
+          },
+          {
+            "id": 18774849,
+            "auctionId": 310902,
+            "bidderAlias": "7",
+            "amount": 255000,
+            "type": "NORMAL",
+            "maxBidId": 10970639,
+            "triggeredBy": 10970639,
+            "createdAt": "2026-11-17T10:34:14.986250+00:00",
+            "updatedAt": "2026-11-17T10:34:14.986258+00:00"
+          },
+          {
+            "id": 18772249,
+            "auctionId": 310902,
+            "bidderAlias": "4",
+            "amount": 254500,
+            "type": "AUTO",
+            "maxBidId": 10963915,
+            "triggeredBy": 10969177,
+            "createdAt": "2026-11-16T21:36:24.699841+00:00",
+            "updatedAt": "2026-11-16T21:36:24.699846+00:00"
+          },
+          {
+            "id": 18772248,
+            "auctionId": 310902,
+            "bidderAlias": "6",
+            "amount": 254000,
+            "type": "NORMAL",
+            "maxBidId": 10969177,
+            "triggeredBy": 10969177,
+            "createdAt": "2026-11-16T21:36:24.699825+00:00",
+            "updatedAt": "2026-11-16T21:36:24.699836+00:00"
+          },
+          {
+            "id": 18772245,
+            "auctionId": 310902,
+            "bidderAlias": "4",
+            "amount": 253500,
+            "type": "AUTO",
+            "maxBidId": 10963915,
+            "triggeredBy": 10969175,
+            "createdAt": "2026-11-16T21:36:04.983278+00:00",
+            "updatedAt": "2026-11-16T21:36:04.983282+00:00"
+          },
+          {
+            "id": 18772244,
+            "auctionId": 310902,
+            "bidderAlias": "6",
+            "amount": 253000,
+            "type": "NORMAL",
+            "maxBidId": 10969175,
+            "triggeredBy": 10969175,
+            "createdAt": "2026-11-16T21:36:04.983263+00:00",
+            "updatedAt": "2026-11-16T21:36:04.983273+00:00"
+          },
+          {
+            "id": 18770029,
+            "auctionId": 310902,
+            "bidderAlias": "4",
+            "amount": 252500,
+            "type": "AUTO",
+            "maxBidId": 10963915,
+            "triggeredBy": 10967854,
+            "createdAt": "2026-11-16T14:37:26.325492+00:00",
+            "updatedAt": "2026-11-16T14:37:26.325497+00:00"
+          },
+          {
+            "id": 18770028,
+            "auctionId": 310902,
+            "bidderAlias": "5",
+            "amount": 252000,
+            "type": "NORMAL",
+            "maxBidId": 10967854,
+            "triggeredBy": 10967854,
+            "createdAt": "2026-11-16T14:37:26.325477+00:00",
+            "updatedAt": "2026-11-16T14:37:26.325487+00:00"
+          },
+          {
+            "id": 18763075,
+            "auctionId": 310902,
+            "bidderAlias": "4",
+            "amount": 250500,
+            "type": "NORMAL",
+            "maxBidId": 10963915,
+            "triggeredBy": 10963915,
+            "createdAt": "2026-11-15T12:52:08.015225+00:00",
+            "updatedAt": "2026-11-15T12:52:08.015229+00:00"
+          },
+          {
+            "id": 18763074,
+            "auctionId": 310902,
+            "bidderAlias": "3",
+            "amount": 250000,
+            "type": "LIMIT_REACHED",
+            "maxBidId": 10963832,
+            "triggeredBy": 10963915,
+            "createdAt": "2026-11-15T12:52:08.015204+00:00",
+            "updatedAt": "2026-11-15T12:52:08.015219+00:00"
+          },
+          {
+            "id": 18762931,
+            "auctionId": 310902,
+            "bidderAlias": "3",
+            "amount": 246000,
+            "type": "NORMAL",
+            "maxBidId": 10963832,
+            "triggeredBy": 10963832,
+            "createdAt": "2026-11-15T10:38:25.240203+00:00",
+            "updatedAt": "2026-11-15T10:38:25.240211+00:00"
+          },
+          {
+            "id": 18755840,
+            "auctionId": 310902,
+            "bidderAlias": "2",
+            "amount": 245500,
+            "type": "NORMAL",
+            "maxBidId": 10959826,
+            "triggeredBy": 10959826,
+            "createdAt": "2026-11-12T21:22:04.215289+00:00",
+            "updatedAt": "2026-11-12T21:22:04.215299+00:00"
+          },
+          {
+            "id": 18753206,
+            "auctionId": 310902,
+            "bidderAlias": "1",
+            "amount": 245000,
+            "type": "NORMAL",
+            "maxBidId": 10958251,
+            "triggeredBy": 10958251,
+            "createdAt": "2026-11-12T11:58:10.197186+00:00",
+            "updatedAt": "2026-11-12T11:58:10.197194+00:00"
+          }
+        ],
+        "myBidderAlias": null,
+        "myMaxBid": null,
+        "highestBid": {
+          "id": 18774892,
+          "auctionId": 310902,
+          "bidderAlias": null,
+          "amount": 257500,
+          "type": "AUTO",
+          "maxBidId": 10963915,
+          "triggeredBy": 10970662,
+          "createdAt": "2026-11-17T10:36:36.979993+00:00",
+          "updatedAt": "2026-11-17T10:36:36.979996+00:00",
+          "eurAmount": 23110
+        },
+        "buyNowAvailable": true,
+        "releasing": null,
+        "isHighestBidLowerThanResidualLoanValue": false
+      },
+      "processObject": {
+        "sellMethod": "BIDDING",
+        "conditionClassification": "CERTIFIED_PLUS",
+        "properties": {
+          "adHeader": "V60 T6 AWD Recharge 340hk R-Design H/K 360-kamera",
+          "fuels": [
+            {
+              "fuelCode": "Petrol",
+              "rangeNedcDrive": 55,
+              "enginePower": 253
+            },
+            {
+              "fuelCode": "Electric",
+              "rangeWltpDrive": 53,
+              "rangeCityWltpDrive": 57,
+              "enginePower": 88
+            }
+          ],
+          "numberOfPreviousOwners": 1,
+          "exteriorColor": "Grey",
+          "title": "Volvo V60 T6 AWD Twin Engine (340hk)",
+          "body": "Wagon",
+          "ecoFriendly": true,
+          "exportable": true,
+          "odometerReading": 94050,
+          "modelName": "V60 T6 AWD Twin Engine (340hk)",
+          "deductibleVat": false,
+          "gearbox": "Automatic",
+          "saleLimitedToCorporate": false,
+          "registrationPlate": "GRF69C",
+          "package": "R-Design H/K 360-kamera",
+          "odometerUnit": "km",
+          "modelYear": 2021,
+          "hasUnpaidLoan": false,
+          "brand": "Volvo",
+          "battstatResult": {
+            "rankingRangeMax": 0,
+            "rankingRangeMin": 0,
+            "sohPercent": null,
+            "ranking": null
+          },
+          "heavyEquipment": false,
+          "mustExport": false,
+          "familyName": "V60",
+          "electricType": "Plug-in hybrid",
+          "heading1": "Volvo V60",
+          "heading2": "T6 AWD Twin Engine",
+          "heading3": "R-Design H/K 360-kamera"
+        },
+        "displayCar360Spin": true,
+        "id": "7291903",
+        "reducedPrice": true,
+        "car360Spin": null,
+        "vehicleType": "CAR",
+        "testDriveAllowed": true,
+        "createdAt": "2026-10-12 12:04:21.052869+00:00",
+        "leaseReturnProperties": {},
+        "state": "AUCTION",
+        "baseObject": {
+          "fuels": [
+            {
+              "fuelCode": "Petrol",
+              "powerUnit": "EG",
+              "enginePower": 186,
+              "enginePowerHp": 253,
+              "fuelTankVolume": ""
+            },
+            {
+              "fuelCode": "Electric",
+              "powerUnit": "",
+              "enginePower": 65,
+              "enginePowerHp": 88,
+              "fuelTankVolume": ""
+            }
+          ],
+          "salesFlow": "CORPORATE_CARS_SMALL",
+          "exteriorColor": "Grey",
+          "earliestAvailableAt": null,
+          "body": "Wagon",
+          "registrationCountry": "se",
+          "id": "522218",
+          "odometerReading": null,
+          "modelName": "V60 T6 AWD Twin Engine (340hk)",
+          "gearbox": "Automatic",
+          "createdAt": "2026-10-12T12:04:20.591650+00:00",
+          "state": "MANUAL_VALUATION_PENDING",
+          "registrationPlate": "GRF69C",
+          "baseObjectType": "CAR",
+          "modelId": null,
+          "fabricAndMake": "VOLVO",
+          "year": "2021",
+          "odometerUnit": "km",
+          "brand": "Volvo",
+          "familyName": "V60",
+          "technicalSpecification": {
+            "modelId": null,
+            "vehicle": {
+              "brand": "Volvo",
+              "body": "Wagon",
+              "modelName": "V60 T6 AWD Twin Engine (340hk)",
+              "familyName": "V60"
+            },
+            "year": "2021"
+          }
+        },
+        "isReleasable": false,
+        "certified": true,
+        "initialBuyNowAmount": 334900,
+        "proactiveBrokering": null,
+        "baseObjectId": "522218",
+        "buyNowAmount": 329900,
+        "presentationApproved": false,
+        "isFixedPrice": false,
+        "statisticalValuation": null,
+        "offsiteSalesContact": null,
+        "objectType": "CAR",
+        "exportable": true,
+        "deductibleVat": false,
+        "collisionWarranty": null,
+        "title": "Volvo V60 T6 AWD Twin Engine (340hk)",
+        "brand": "Volvo",
+        "familyName": "V60",
+        "modelName": "V60 T6 AWD Twin Engine (340hk)",
+        "package": "R-Design H/K 360-kamera",
+        "heading1": "Volvo V60",
+        "heading2": "T6 AWD Twin Engine",
+        "heading3": "R-Design H/K 360-kamera"
+      },
+      "previewImages": [
+        {
+          "processObjectId": "7291903",
+          "uri": "https://kvdbil-images.imgix.net/7291903/92ca2823.jpg",
+          "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291903/92ca2823.jpg",
+          "type": "PRESENTATION",
+          "contentType": "image",
+          "order": 1
+        },
+        {
+          "processObjectId": "7291903",
+          "uri": "https://kvdbil-images.imgix.net/7291903/9bd90093.jpg",
+          "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7291903/9bd90093.jpg",
+          "type": "PRESENTATION",
+          "contentType": "image",
+          "order": 2
+        }
+      ],
+      "previewImage": "https://kvdbil-images.imgix.net/7291903/92ca2823.jpg"
+    },
+    {
+      "id": "305514",
+      "auctionType": "BUY_NOW",
+      "biddingFee": "0.00",
+      "biddingFeeCorporate": "0.00",
+      "mediationFee": 5775,
+      "mediationFeeCorporate": 7438,
+      "buyNow": true,
+      "closedAt": null,
+      "publishedAt": "2026-10-01T09:50:00.062085+00:00",
+      "countdownDuration": 210,
+      "countdownStartAt": null,
+      "createdAt": "2026-09-30T13:55:22.205300+00:00",
+      "readyForAuctionAt": null,
+      "currency": "SEK",
+      "maxBidRaise": 100000,
+      "minBidRaise": 500,
+      "startBid": null,
+      "openedAt": "2026-10-01T09:50:00.024171+00:00",
+      "processObjectId": "7290561",
+      "readyForCheckout": false,
+      "soldFor": null,
+      "sellMethod": null,
+      "slug": "volvo-v60-d3-150hk",
+      "auctionUrl": "https://www.kvd.se/fast-pris/volvo-v60-d3-150hk-305514",
+      "state": "OPEN",
+      "targetedAuctionGroupId": null,
+      "updatedAt": "2026-11-19T12:02:57.251620+00:00",
+      "releasing": null,
+      "loan": {
+        "loanCost": null,
+        "loanCostBuyNow": 1762
+      },
+      "buyNowAmount": 206800,
+      "buyNowAvailable": true,
+      "buyNowUntil": null,
+      "eligibleForAdditionalServices": true,
+      "comingSoon": false,
+      "preliminaryPrice": null,
+      "maxAllowedBid": null,
+      "isReserved": false,
+      "isSoldByBuyNow": false,
+      "favouriteCount": 48,
+      "winningBid": null,
+      "activeAuction": null,
+      "processObject": {
+        "sellMethod": "BUY_NOW",
+        "conditionClassification": "CERTIFIED",
+        "properties": {
+          "adHeader": "V60 D3 (150hk) Advanced Edition Drag Backkamera",
+          "fuels": [
+            {
+              "consumption": 4.4,
+              "co2": 117,
+              "fuelCode": "Diesel",
+              "enginePower": 150
+            }
+          ],
+          "numberOfPreviousOwners": 4,
+          "exteriorColor": "Dark Blue",
+          "title": "Volvo V60 D3 (150hk)",
+          "body": "Wagon",
+          "ecoFriendly": false,
+          "exportable": true,
+          "odometerReading": 95530,
+          "modelName": "V60 D3 (150hk)",
+          "deductibleVat": false,
+          "gearbox": "Manual",
+          "saleLimitedToCorporate": false,
+          "registrationPlate": "GOE87S",
+          "package": "Advanced Edition Drag Backkamera",
+          "odometerUnit": "km",
+          "modelYear": 2020,
+          "hasUnpaidLoan": false,
+          "brand": "Volvo",
+          "heavyEquipment": false,
+          "mustExport": false,
+          "familyName": "V60",
+          "heading1": "Volvo V60",
+          "heading2": "D3",
+          "heading3": "Advanced Edition Drag Backkamera"
+        },
+        "displayCar360Spin": true,
+        "id": "7290561",
+        "reducedPrice": true,
+        "car360Spin": null,
+        "vehicleType": "CAR",
+        "testDriveAllowed": true,
+        "createdAt": "2026-09-30 13:52:02.827185+00:00",
+        "leaseReturnProperties": {},
+        "state": "AUCTION",
+        "baseObject": {
+          "fuels": [
+            {
+              "fuelCode": "Diesel",
+              "powerUnit": "EG",
+              "enginePower": 110,
+              "enginePowerHp": 150,
+              "fuelTankVolume": ""
+            }
+          ],
+          "salesFlow": "CONSUMER_CARS",
+          "exteriorColor": "Dark Blue",
+          "earliestAvailableAt": null,
+          "body": "Wagon",
+          "registrationCountry": "se",
+          "id": "519660",
+          "odometerReading": null,
+          "modelName": "V60 D3 (150hk)",
+          "gearbox": "Manual",
+          "createdAt": "2026-09-30T13:52:02.286667+00:00",
+          "state": "MANUAL_VALUATION_PENDING",
+          "registrationPlate": "GOE87S",
+          "baseObjectType": "CAR",
+          "modelId": null,
+          "fabricAndMake": "VOLVO",
+          "year": "2020",
+          "odometerUnit": "km",
+          "brand": "Volvo",
+          "familyName": "V60",
+          "technicalSpecification": {
+            "modelId": null,
+            "vehicle": {
+              "brand": "Volvo",
+              "body": "Wagon",
+              "modelName": "V60 D3 (150hk)",
+              "familyName": "V60"
+            },
+            "year": "2020"
+          }
+        },
+        "isReleasable": false,
+        "certified": true,
+        "initialBuyNowAmount": 224900,
+        "proactiveBrokering": null,
+        "baseObjectId": "519660",
+        "buyNowAmount": 206800,
+        "presentationApproved": false,
+        "isFixedPrice": false,
+        "statisticalValuation": null,
+        "offsiteSalesContact": null,
+        "objectType": "CAR",
+        "exportable": true,
+        "deductibleVat": false,
+        "collisionWarranty": null,
+        "title": "Volvo V60 D3 (150hk)",
+        "brand": "Volvo",
+        "familyName": "V60",
+        "modelName": "V60 D3 (150hk)",
+        "package": "Advanced Edition Drag Backkamera",
+        "heading1": "Volvo V60",
+        "heading2": "D3",
+        "heading3": "Advanced Edition Drag Backkamera"
+      },
+      "previewImages": [
+        {
+          "processObjectId": "7290561",
+          "uri": "https://kvdbil-images.imgix.net/7290561/7a31ba74.jpg",
+          "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7290561/7a31ba74.jpg",
+          "type": "PRESENTATION",
+          "contentType": "image",
+          "order": 1
+        },
+        {
+          "processObjectId": "7290561",
+          "uri": "https://kvdbil-images.imgix.net/7290561/037dda51.jpg",
+          "storageUri": "https://storage.googleapis.com/kvdbil-production/production-cropped/7290561/037dda51.jpg",
+          "type": "PRESENTATION",
+          "contentType": "image",
+          "order": 2
+        }
+      ],
+      "previewImage": "https://kvdbil-images.imgix.net/7290561/7a31ba74.jpg"
+    }
+  ],
+  "activeAuction": {
+    "auctionId": "310678",
+    "closed": true,
+    "countdownInProgress": true,
+    "preliminaryCloseAt": "2026-11-19T11:17:00+00:00",
+    "createdAt": "2026-11-16T16:51:18.980888+00:00",
+    "updatedAt": "2026-11-19T11:17:00.011544+00:00",
+    "vatExcludedBiddingAllowed": false,
+    "reservationPriceReached": false,
+    "bids": [
+      {
+        "id": 18786780,
+        "auctionId": 310678,
+        "bidderAlias": "7",
+        "amount": 300500,
+        "type": "AUTO",
+        "maxBidId": 10977541,
+        "triggeredBy": 10977542,
+        "createdAt": "2026-11-19T08:30:37.520240+00:00",
+        "updatedAt": "2026-11-19T08:30:37.520243+00:00"
+      },
+      {
+        "id": 18786779,
+        "auctionId": 310678,
+        "bidderAlias": "8",
+        "amount": 300000,
+        "type": "NORMAL",
+        "maxBidId": 10977542,
+        "triggeredBy": 10977542,
+        "createdAt": "2026-11-19T08:30:37.520226+00:00",
+        "updatedAt": "2026-11-19T08:30:37.520237+00:00"
+      },
+      {
+        "id": 18786778,
+        "auctionId": 310678,
+        "bidderAlias": "7",
+        "amount": 280500,
+        "type": "NORMAL",
+        "maxBidId": 10977541,
+        "triggeredBy": 10977541,
+        "createdAt": "2026-11-19T08:30:06.737180+00:00",
+        "updatedAt": "2026-11-19T08:30:06.737183+00:00"
+      },
+      {
+        "id": 18786777,
+        "auctionId": 310678,
+        "bidderAlias": "1",
+        "amount": 280000,
+        "type": "LIMIT_REACHED",
+        "maxBidId": 10968765,
+        "triggeredBy": 10977541,
+        "createdAt": "2026-11-19T08:30:06.737167+00:00",
+        "updatedAt": "2026-11-19T08:30:06.737176+00:00"
+      },
+      {
+        "id": 18786326,
+        "auctionId": 310678,
+        "bidderAlias": "1",
+        "amount": 257500,
+        "type": "AUTO",
+        "maxBidId": 10968765,
+        "triggeredBy": 10977295,
+        "createdAt": "2026-11-19T06:45:49.283747+00:00",
+        "updatedAt": "2026-11-19T06:45:49.283751+00:00"
+      },
+      {
+        "id": 18786325,
+        "auctionId": 310678,
+        "bidderAlias": "6",
+        "amount": 257000,
+        "type": "NORMAL",
+        "maxBidId": 10977295,
+        "triggeredBy": 10977295,
+        "createdAt": "2026-11-19T06:45:49.283734+00:00",
+        "updatedAt": "2026-11-19T06:45:49.283743+00:00"
+      },
+      {
+        "id": 18785432,
+        "auctionId": 310678,
+        "bidderAlias": "1",
+        "amount": 236000,
+        "type": "AUTO",
+        "maxBidId": 10968765,
+        "triggeredBy": 10976800,
+        "createdAt": "2026-11-18T20:40:05.357473+00:00",
+        "updatedAt": "2026-11-18T20:40:05.357475+00:00"
+      },
+      {
+        "id": 18785431,
+        "auctionId": 310678,
+        "bidderAlias": "5",
+        "amount": 235500,
+        "type": "NORMAL",
+        "maxBidId": 10976800,
+        "triggeredBy": 10976800,
+        "createdAt": "2026-11-18T20:40:05.357464+00:00",
+        "updatedAt": "2026-11-18T20:40:05.357470+00:00"
+      },
+      {
+        "id": 18785430,
+        "auctionId": 310678,
+        "bidderAlias": "1",
+        "amount": 234500,
+        "type": "AUTO",
+        "maxBidId": 10968765,
+        "triggeredBy": 10976799,
+        "createdAt": "2026-11-18T20:40:02.020269+00:00",
+        "updatedAt": "2026-11-18T20:40:02.020273+00:00"
+      },
+      {
+        "id": 18785429,
+        "auctionId": 310678,
+        "bidderAlias": "5",
+        "amount": 234000,
+        "type": "NORMAL",
+        "maxBidId": 10976799,
+        "triggeredBy": 10976799,
+        "createdAt": "2026-11-18T20:40:02.020256+00:00",
+        "updatedAt": "2026-11-18T20:40:02.020265+00:00"
+      },
+      {
+        "id": 18785428,
+        "auctionId": 310678,
+        "bidderAlias": "1",
+        "amount": 232500,
+        "type": "AUTO",
+        "maxBidId": 10968765,
+        "triggeredBy": 10976798,
+        "createdAt": "2026-11-18T20:39:57.365771+00:00",
+        "updatedAt": "2026-11-18T20:39:57.365774+00:00"
+      },
+      {
+        "id": 18785427,
+        "auctionId": 310678,
+        "bidderAlias": "5",
+        "amount": 232000,
+        "type": "NORMAL",
+        "maxBidId": 10976798,
+        "triggeredBy": 10976798,
+        "createdAt": "2026-11-18T20:39:57.365758+00:00",
+        "updatedAt": "2026-11-18T20:39:57.365766+00:00"
+      },
+      {
+        "id": 18785426,
+        "auctionId": 310678,
+        "bidderAlias": "1",
+        "amount": 230500,
+        "type": "AUTO",
+        "maxBidId": 10968765,
+        "triggeredBy": 10976797,
+        "createdAt": "2026-11-18T20:39:53.541941+00:00",
+        "updatedAt": "2026-11-18T20:39:53.541944+00:00"
+      },
+      {
+        "id": 18785425,
+        "auctionId": 310678,
+        "bidderAlias": "5",
+        "amount": 230000,
+        "type": "NORMAL",
+        "maxBidId": 10976797,
+        "triggeredBy": 10976797,
+        "createdAt": "2026-11-18T20:39:53.541929+00:00",
+        "updatedAt": "2026-11-18T20:39:53.541939+00:00"
+      },
+      {
+        "id": 18785424,
+        "auctionId": 310678,
+        "bidderAlias": "1",
+        "amount": 225500,
+        "type": "AUTO",
+        "maxBidId": 10968765,
+        "triggeredBy": 10976796,
+        "createdAt": "2026-11-18T20:39:45.555200+00:00",
+        "updatedAt": "2026-11-18T20:39:45.555203+00:00"
+      },
+      {
+        "id": 18785423,
+        "auctionId": 310678,
+        "bidderAlias": "5",
+        "amount": 225000,
+        "type": "NORMAL",
+        "maxBidId": 10976796,
+        "triggeredBy": 10976796,
+        "createdAt": "2026-11-18T20:39:45.555188+00:00",
+        "updatedAt": "2026-11-18T20:39:45.555196+00:00"
+      },
+      {
+        "id": 18785422,
+        "auctionId": 310678,
+        "bidderAlias": "1",
+        "amount": 223500,
+        "type": "AUTO",
+        "maxBidId": 10968765,
+        "triggeredBy": 10976795,
+        "createdAt": "2026-11-18T20:39:41.569087+00:00",
+        "updatedAt": "2026-11-18T20:39:41.569090+00:00"
+      },
+      {
+        "id": 18785421,
+        "auctionId": 310678,
+        "bidderAlias": "5",
+        "amount": 223000,
+        "type": "NORMAL",
+        "maxBidId": 10976795,
+        "triggeredBy": 10976795,
+        "createdAt": "2026-11-18T20:39:41.569073+00:00",
+        "updatedAt": "2026-11-18T20:39:41.569082+00:00"
+      },
+      {
+        "id": 18783208,
+        "auctionId": 310678,
+        "bidderAlias": "1",
+        "amount": 220500,
+        "type": "AUTO",
+        "maxBidId": 10968765,
+        "triggeredBy": 10975443,
+        "createdAt": "2026-11-18T14:27:36.736120+00:00",
+        "updatedAt": "2026-11-18T14:27:36.736122+00:00"
+      },
+      {
+        "id": 18783207,
+        "auctionId": 310678,
+        "bidderAlias": "4",
+        "amount": 220000,
+        "type": "NORMAL",
+        "maxBidId": 10975443,
+        "triggeredBy": 10975443,
+        "createdAt": "2026-11-18T14:27:36.736110+00:00",
+        "updatedAt": "2026-11-18T14:27:36.736117+00:00"
+      },
+      {
+        "id": 18778630,
+        "auctionId": 310678,
+        "bidderAlias": "1",
+        "amount": 201500,
+        "type": "AUTO",
+        "maxBidId": 10968765,
+        "triggeredBy": 10972844,
+        "createdAt": "2026-11-17T22:56:53.323114+00:00",
+        "updatedAt": "2026-11-17T22:56:53.323116+00:00"
+      },
+      {
+        "id": 18778629,
+        "auctionId": 310678,
+        "bidderAlias": "3",
+        "amount": 201000,
+        "type": "NORMAL",
+        "maxBidId": 10972844,
+        "triggeredBy": 10972844,
+        "createdAt": "2026-11-17T22:56:53.323104+00:00",
+        "updatedAt": "2026-11-17T22:56:53.323111+00:00"
+      },
+      {
+        "id": 18771980,
+        "auctionId": 310678,
+        "bidderAlias": "1",
+        "amount": 200500,
+        "type": "AUTO",
+        "maxBidId": 10968765,
+        "triggeredBy": 10969027,
+        "createdAt": "2026-11-16T20:30:11.119306+00:00",
+        "updatedAt": "2026-11-16T20:30:11.119308+00:00"
+      },
+      {
+        "id": 18771979,
+        "auctionId": 310678,
+        "bidderAlias": "2",
+        "amount": 200000,
+        "type": "NORMAL",
+        "maxBidId": 10969027,
+        "triggeredBy": 10969027,
+        "createdAt": "2026-11-16T20:30:11.119294+00:00",
+        "updatedAt": "2026-11-16T20:30:11.119302+00:00"
+      },
+      {
+        "id": 18771551,
+        "auctionId": 310678,
+        "bidderAlias": "1",
+        "amount": 178000,
+        "type": "NORMAL",
+        "maxBidId": 10968765,
+        "triggeredBy": 10968765,
+        "createdAt": "2026-11-16T19:14:00.878563+00:00",
+        "updatedAt": "2026-11-16T19:14:00.878571+00:00"
+      }
+    ],
+    "myBidderAlias": null,
+    "myMaxBid": null,
+    "highestBid": {
+      "id": 18786780,
+      "auctionId": 310678,
+      "bidderAlias": null,
+      "amount": 300500,
+      "type": "AUTO",
+      "maxBidId": 10977541,
+      "triggeredBy": 10977542,
+      "createdAt": "2026-11-19T08:30:37.520240+00:00",
+      "updatedAt": "2026-11-19T08:30:37.520243+00:00",
+      "eurAmount": 26970
+    },
+    "buyNowAvailable": false,
+    "releasing": null,
+    "isHighestBidLowerThanResidualLoanValue": false
+  },
+  "checkoutOrder": null,
+  "previewImage": "https://kvdbil-images.imgix.net/7294250/c7798b84.jpg",
+  "_list_meta": {
+    "id": "310678",
+    "slug": "volvo-v60-t6-awd-recharge-350hk",
+    "auctionType": "BIDDING",
+    "closedAt": "2026-11-19T11:17:00.007632+00:00",
+    "updatedAt": "2026-11-19T12:00:04.156710+00:00"
+  },
+  "_scraped_at": "2026-11-19T12:14:05.799294+00:00",
+  "_url": "https://www.kvd.se/auktioner/volvo-v60-t6-awd-recharge-350hk-310678"
+}
